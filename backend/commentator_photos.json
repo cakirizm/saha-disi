@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:21:06.697107+00:00",
+  "generated_at": "2026-09-04T16:22:33.183766+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -67,6 +67,34 @@
       "resolvedTitle": "Rüştü Reçber",
       "verified_identity": true,
       "resolver": "wikipedia"
+    },
+    "sansal-buyuka": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/%C5%9Eansal_B%C3%BCy%C3%BCka",
+      "resolvedTitle": "Şansal Büyüka",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "nihat-kahveci": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Nihat_Kahveci",
+      "resolvedTitle": "Nihat Kahveci",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "yagiz-sabuncuoglu": {
+      "photoURL": "https://yt3.googleusercontent.com/yuAklu9mrGfrRFsKJUDwRyWwQoDLrjQxY6lIO4D2kFjm6Sf0zqaQDBOlZ9i3ujpqACvoI0FFIg=s900-c-k-c0x00ffffff-no-rj",
+      "photoSource": "https://www.youtube.com/@yagosabuncuoglu",
+      "resolvedTitle": "Yağız Sabuncuoğlu",
+      "verified_identity": true,
+      "resolver": "public_profile"
+    },
+    "ismail-er": {
+      "photoURL": "https://yt3.googleusercontent.com/BZpVu1EdrjTIxvojw9Vho2DgNPRwX4WzUdmftm8GipWR7uVaqMsLDUAhHogkzbhRMWfajQVEcA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCVLLVJ2th2xZ7i8Zm0d-A6Q",
+      "resolvedTitle": "İsmail Er",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
     }
   }
 }
