@@ -1,0 +1,85 @@
+name: Saha Disi Final Audit
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: saha-disi-final-audit-v1
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Python syntax audit
+        run: python -m compileall -q backend
+      - name: Collect literal quotes
+        run: python backend/collector_v3.py
+      - name: Fetch TFF fixture
+        run: python backend/tff_fixtures.py
+      - name: Resolve verified photos
+        run: python backend/photo_resolver.py
+      - name: Resolve real club crests
+        run: python backend/team_logo_resolver.py
+      - name: Build feed
+        run: python backend/build_feed.py
+      - name: Full product audit
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('backend/feed.json').read_text())
+          roster=json.loads(Path('backend/commentator_roster.json').read_text())
+          logos=json.loads(Path('backend/team_logos.json').read_text())
+          photos=json.loads(Path('backend/commentator_photos.json').read_text()).get('photos',{})
+          assert len(p['commentators'])==len(roster)==204
+          assert p.get('generated_at')
+          bad=('Ã','Å','Ä','Â','�')
+          def walk(v):
+            if isinstance(v,str):return [v]
+            if isinstance(v,list):return sum((walk(x) for x in v),[])
+            if isinstance(v,dict):return sum((walk(x) for x in v.values()),[])
+            return []
+          broken=[s for s in walk(p) if any(x in s for x in bad)]
+          assert not broken, f'broken Turkish text: {broken[:10]}'
+          statements=p['statements']; ids=[s['id'] for s in statements]
+          assert len(ids)==len(set(ids))
+          assert all(s.get('verbatim') is True for s in statements)
+          assert all(s.get('status') in {'verified_manual','verified_direct_quote'} for s in statements)
+          editorial=(' eleştirdi',' yorumladı',' değerlendirdi',' söyledi',' sert dille',' açıkladı')
+          assert not any(any(x in (' '+s.get('summary','').casefold()) for x in editorial) for s in statements)
+          matches=p['matches']; current=[m for m in matches if int(m.get('week',0))==4]
+          assert len(current)==9, f'week4={len(current)}'
+          teams={m['home'] for m in matches}|{m['away'] for m in matches}
+          missing=[t for t in teams if not logos.get(t)]
+          assert not missing, f'missing crests: {missing}'
+          assert not any('google.com/s2/favicons' in u for u in logos.values())
+          assert all((not c.get('photoURL')) or c['id'] in photos for c in p['commentators'])
+          swift='\n'.join(x.read_text() for x in Path('ios/SahaDisi/SahaDisi').rglob('*.swift'))
+          for token in ['Birinci Hafta','İkinci Hafta','Üçüncü Hafta','Dördüncü Hafta','Beşinci Hafta','func statements(for commentatorID: String, team: String)','NotificationSettingsView','toggle(commentatorID:','MatchPoster','Takımlar Hakkındaki Güncel Yorumlar']:
+            assert token in swift, token
+          print(f'AUDIT_PASS commentators=204 quotes={len(statements)} matches={len(matches)} week4=9 verified_photos={len(photos)} crests={len([t for t in teams if logos.get(t)])}')
+          PY
+      - name: Publish verified feed
+        run: |
+          git config user.name 'saha-disi-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
+          if git diff --cached --quiet; then
+            echo 'No data change to publish.'
+          else
+            git commit -m 'data: publish final audited live feed'
+            git pull --rebase origin main
+            git push origin main
+          fi
