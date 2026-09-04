@@ -137,7 +137,7 @@ struct HomeView: View {
 
     private var activeCommentators: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("Öne Çıkan Yorumcular", trailing: "27 yorumcu")
+            header("Öne Çıkan Yorumcular", trailing: "\(store.payload?.commentators.count ?? 0) yorumcu")
             ForEach(store.rankedCommentators.prefix(5), id: \.0.id) { c, count in
                 NavigationLink { CommentatorProfileView(commentator: c) } label: {
                     HStack(spacing: 12) { AvatarView(text: c.avatar, size: 44); VStack(alignment: .leading, spacing: 2) { Text(c.name).font(.headline); Text(c.primarySource).font(.caption2).foregroundStyle(SDTheme.muted) }; Spacer(); Text("\(count) yorum").font(.caption.bold()).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2) }
