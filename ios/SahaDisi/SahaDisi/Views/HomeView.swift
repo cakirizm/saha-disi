@@ -6,6 +6,10 @@ struct HomeView: View {
         (store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.first { !$0.home.contains("Gençlerbirliği") }
     }
 
+    private var recentMatches: [Match] {
+        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(3))
+    }
+
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 18) {
@@ -71,7 +75,7 @@ struct HomeView: View {
 
     private var compactScores: some View {
         VStack(spacing: 7) {
-            ForEach(Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(3))) { match in
+            ForEach(recentMatches, id: \.id) { match in
                 NavigationLink { MatchDetailView(match: match) } label: {
                     HStack {
                         Text(match.home).font(.subheadline.weight(.semibold)).frame(maxWidth: .infinity, alignment: .leading)
