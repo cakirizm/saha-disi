@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:27:24.517116+00:00",
+  "generated_at": "2026-09-04T21:35:23.112643+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -130,6 +130,13 @@
       "resolvedTitle": "Gökhan Keskin",
       "verified_identity": true,
       "resolver": "youtube_exact_channel"
+    },
+    "ogun-temizkanoglu": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Og%C3%BCn_Temizkano%C4%9Flu.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Og%C3%BCn_Temizkano%C4%9Flu",
+      "resolvedTitle": "Ogün Temizkanoğlu",
+      "verified_identity": true,
+      "resolver": "wikipedia"
     }
   }
 }
