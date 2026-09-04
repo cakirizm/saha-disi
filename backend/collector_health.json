@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:14:05.343270+00:00",
+  "generated_at": "2026-09-04T13:31:59.944186+00:00",
   "tracked_commentators": 204,
   "sources": [
     {
@@ -166,7 +166,7 @@
     {
       "commentator": "abdulkerim-durmaz",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 2,
       "ok": true,
       "error": null
     },
@@ -250,7 +250,7 @@
     {
       "commentator": "yagiz-sabuncuoglu",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null
     },
@@ -278,7 +278,7 @@
     {
       "commentator": "ugur-karakullukcu",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null
     },
@@ -348,7 +348,7 @@
     {
       "commentator": "erman-ozgur",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null
     },
@@ -376,7 +376,7 @@
     {
       "commentator": "levent-tuzemen",
       "source": "Google News RSS",
-      "candidates": 5,
+      "candidates": 4,
       "ok": true,
       "error": null
     },
@@ -572,7 +572,7 @@
     {
       "commentator": "cem-dizdar",
       "source": "Google News RSS",
-      "candidates": 3,
+      "candidates": 2,
       "ok": true,
       "error": null
     },
@@ -656,7 +656,7 @@
     {
       "commentator": "yakup-cinar",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -747,7 +747,7 @@
     {
       "commentator": "serhan-turk",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null
     },
@@ -761,7 +761,7 @@
     {
       "commentator": "serhan-turk",
       "source": "Google News RSS",
-      "candidates": 3,
+      "candidates": 4,
       "ok": true,
       "error": null
     },
@@ -1118,7 +1118,7 @@
     {
       "commentator": "koray-gok",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null
     },
@@ -1230,7 +1230,7 @@
     {
       "commentator": "mustafa-demirtas",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -2280,14 +2280,7 @@
     {
       "commentator": "ertem-sener",
       "source": "Google News RSS",
-      "candidates": 4,
-      "ok": true,
-      "error": null
-    },
-    {
-      "commentator": "ertem-sener",
-      "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null
     },
@@ -2299,6 +2292,13 @@
       "error": null
     },
     {
+      "commentator": "ertem-sener",
+      "source": "Google News RSS",
+      "candidates": 3,
+      "ok": true,
+      "error": null
+    },
+    {
       "commentator": "omer-faruk-unal",
       "source": "Google News RSS",
       "candidates": 0,
@@ -2917,7 +2917,7 @@
     {
       "commentator": "sergen-yalcin",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 2,
       "ok": true,
       "error": null
     },
@@ -2938,7 +2938,7 @@
     {
       "commentator": "senol-gunes",
       "source": "Google News RSS",
-      "candidates": 3,
+      "candidates": 2,
       "ok": true,
       "error": null
     },
@@ -3750,13 +3750,6 @@
     {
       "commentator": "burhan-can-terzi",
       "source": "Google News RSS",
-      "candidates": 1,
-      "ok": true,
-      "error": null
-    },
-    {
-      "commentator": "burhan-can-terzi",
-      "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
       "error": null
@@ -3764,39 +3757,46 @@
     {
       "commentator": "burhan-can-terzi",
       "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "burhan-can-terzi",
+      "source": "Google News RSS",
+      "candidates": 3,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "volkan-demir",
+      "source": "Google News RSS",
+      "candidates": 1,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "volkan-demir",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "volkan-demir",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "savas-corlu",
+      "source": "Google News RSS",
       "candidates": 2,
       "ok": true,
       "error": null
     },
     {
-      "commentator": "volkan-demir",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": true,
-      "error": null
-    },
-    {
-      "commentator": "volkan-demir",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": true,
-      "error": null
-    },
-    {
-      "commentator": "volkan-demir",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": true,
-      "error": null
-    },
-    {
-      "commentator": "savas-corlu",
-      "source": "Google News RSS",
-      "candidates": 3,
-      "ok": true,
-      "error": null
-    },
-    {
       "commentator": "savas-corlu",
       "source": "Google News RSS",
       "candidates": 0,
@@ -3806,7 +3806,7 @@
     {
       "commentator": "savas-corlu",
       "source": "Google News RSS",
-      "candidates": 3,
+      "candidates": 2,
       "ok": true,
       "error": null
     },
@@ -4044,7 +4044,7 @@
     {
       "commentator": "ridvan-dilmen",
       "source": "Google News RSS",
-      "candidates": 4,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -4135,7 +4135,7 @@
     {
       "commentator": "ilker-yagcioglu",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null
     },
@@ -4177,7 +4177,7 @@
     {
       "commentator": "volkan-demirel",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -4205,7 +4205,7 @@
     {
       "commentator": "emre-bol",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 2,
       "ok": true,
       "error": null
     },

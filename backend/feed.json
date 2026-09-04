@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:14:29.739448+00:00",
+  "generated_at": "2026-09-04T13:32:15.090214+00:00",
   "commentators": [
     {
       "id": "ahmet-cakar",
@@ -25,17 +25,6 @@
       "photoURL": "https://media06.ligtv.com.tr/img/news/2024/9/18/ugur-melekeden-ferdi-kadioglu-analizi-ilk-mac-performansi/748_416/ferdi(8).jpg"
     },
     {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "nihat-kahveci",
       "name": "Nihat Kahveci",
       "role": "Yorumcu",
@@ -43,6 +32,17 @@
       "avatar": "NK",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/500px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -102,17 +102,6 @@
       "photoURL": null
     },
     {
-      "id": "ridvan-dilmen",
-      "name": "Rıdvan Dilmen",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "RD",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "semih-sezerli",
       "name": "Semih Sezerli",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -146,6 +135,17 @@
       "photoURL": null
     },
     {
+      "id": "ridvan-dilmen",
+      "name": "Rıdvan Dilmen",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "RD",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "cem-dizdar",
       "name": "Cem Dizdar",
       "role": "Futbol yorumcusu",
@@ -168,11 +168,11 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
+      "id": "abdulkerim-durmaz",
+      "name": "Abdülkerim Durmaz",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Beyaz Futbol / VOLE",
+      "avatar": "AD",
       "focusTeams": [
         "Genel"
       ],
@@ -304,11 +304,11 @@
       "photoURL": null
     },
     {
-      "id": "abdulkerim-durmaz",
-      "name": "Abdülkerim Durmaz",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Beyaz Futbol / VOLE",
-      "avatar": "AD",
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
       ],
@@ -527,6 +527,17 @@
         "Galatasaray"
       ],
       "photoURL": null
+    },
+    {
+      "id": "yagiz-sabuncuoglu",
+      "name": "Yağız Sabuncuoğlu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Kendi yayınları / 343 keşif",
+      "avatar": "YS",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/%C5%9Eerafeddin_Sabuncuo%C4%9Flu.jpg/500px-%C5%9Eerafeddin_Sabuncuo%C4%9Flu.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "yilmaz-cakmak",
@@ -2036,17 +2047,6 @@
       "photoURL": null
     },
     {
-      "id": "yagiz-sabuncuoglu",
-      "name": "Yağız Sabuncuoğlu",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Kendi yayınları / 343 keşif",
-      "avatar": "YS",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "yigit-demir",
       "name": "Yiğit Demir",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -3374,6 +3374,40 @@
     },
     {
       "id": 73,
+      "commentator": "abdulkerim-durmaz",
+      "date": "2026-09-04",
+      "team": "Galatasaray",
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray Leao'ya ne kadar ödedi?",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaUh3V3ZIYjR2a3JBakI3cE45bEp5c2pYVHlFcFlEWE16aFpOakxxaXI3OF9sMmp1RC1QaEN5YmNrQUJRd0RvMEdzSHFBVXZrcEdfWHhDX3BHRkZ1SUFZYm5TR3JnZzFUNzU3VktJSXBDRENZSkNxejBHenM3eWN3bmlnUjdxUW45cElpSVFYZnUzYzlLWHBmN2gyZktLd3Vqb0xubjNkMVYyMDVYS3dla3gtOS1aQ091VDV3RkttNA?oc=5",
+      "confidence": 95,
+      "status": "auto_candidate"
+    },
+    {
+      "id": 74,
+      "commentator": "yagiz-sabuncuoglu",
+      "date": "2026-09-04",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yusuf ve Can Uzun olmadı çünkü...",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCQVFxMVRWOEJQc3UyOFJhaktOY0dQSnJKMThMTVBrWHFtRkpxRk9UY3lULWlWYno2MVZwQkw2R3k4TUE0QlhlaVZyWFF3VHl1VjN4X3ZoWWpjLWtySElfb2FLcjNzV1JnMVFmbGRfa0tMSk5pTEFEX1lpVmNyQdIBgwFBVV95cUxQNkExaEl0dzlsOVd1c2o2STVLS3RoZXBiX2o3bldEYUJlT3ZJYmowSVBfTmRWdzVER29RNVI5LVpNTjlVa1dQb1RzWUUwaE1wYWY1emlvNVpNdk0xRllUb2JreGVRT05RRW4zbk44d2NHZVBHNkRMSHI1MmFKc2ZTSnFCRQ?oc=5",
+      "confidence": 95,
+      "status": "auto_candidate"
+    },
+    {
+      "id": 75,
       "commentator": "ugur-karakullukcu",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3389,7 +3423,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 74,
+      "id": 76,
       "commentator": "ugur-karakullukcu",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3405,7 +3439,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 75,
+      "id": 77,
       "commentator": "ugur-karakullukcu",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3421,7 +3455,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 76,
+      "id": 78,
       "commentator": "bulent-timurlenk",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3437,7 +3471,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 77,
+      "id": 79,
       "commentator": "bulent-timurlenk",
       "date": "2026-09-04",
       "team": null,
@@ -3453,7 +3487,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 78,
+      "id": 80,
       "commentator": "nihat-kahveci",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3469,7 +3503,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 79,
+      "id": 81,
       "commentator": "nihat-kahveci",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3485,7 +3519,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 80,
+      "id": 82,
       "commentator": "nihat-kahveci",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3501,7 +3535,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 81,
+      "id": 83,
       "commentator": "nihat-kahveci",
       "date": "2026-09-04",
       "team": null,
@@ -3517,7 +3551,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 82,
+      "id": 84,
       "commentator": "erman-ozgur",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -3533,7 +3567,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 83,
+      "id": 85,
       "commentator": "erman-ozgur",
       "date": "2026-09-04",
       "team": "Kocaelispor",
@@ -3549,7 +3583,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 84,
+      "id": 86,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3565,7 +3599,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 85,
+      "id": 87,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3581,7 +3615,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 86,
+      "id": 88,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3599,43 +3633,25 @@
       "status": "auto_candidate"
     },
     {
-      "id": 87,
-      "commentator": "levent-tuzemen",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Okan Hoca bu transfere onay vermedi ama Osimhen...",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQk5NU1BFeW5MeWgwSXB5SGVjMUhhcklMZGw5cUh0OElkTTNjTkVqUWlRQlB6NWoxMHJCOE02a1VSMnZva0RncHUxT1BWZzcyZEVmbWdqYlFWMlhUNTB5TVBlQ1RzSVM2bFhad0UxQWs2b3pyVnVaVzhJdlNZV0pEd0RhNEdyNGt3MUI5UGRKVkRCRHNHSXFrX2hNT0xsY0s3SGU4VXhKTVlzeDluZmtvYVpxM1BLZG9yZXBrTm04TEdDY3VQR25nYmxNcF9LRk5yZTNiVjc0THlqVTNtUFHSAd4BQVVfeXFMT0JOTVNQRXluTHloMElweUhlYzFIYXJJTGRsOXFIdDhJZE0zY05FalFpUUJQejVqMTByQjhNNmtVUjJ2b2tEZ3B1MU9QVmc3MmRFZm1namJRVjJYVDUweU1QZUNUc0lTNmxYWndFMUFrNm96clZ1Wlc4SXZTWVdKRHdEYTRHcjRrdzFCOVBkSlZEQkRzR0lxa19oTU9MbGNLN0hlOFV4Sk1Zc3g5bmZrb2FacTNQS2RvcmVwa05tOExHQ2N1UEduZ2JsTXBfS0ZOcmUzYlY3NEx5alUzbVBR?oc=5",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 88,
+      "id": 89,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": null,
       "players": [
         "Leao"
       ],
-      "topic": "Transfer",
-      "type": "transfer",
+      "topic": "Genel yorum",
+      "type": "opinion",
       "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Transfer politikasını anlamıyorum",
+      "strength": 6,
+      "summary": "Hayırlı olsun ama benim tercih ettiğim bir oyuncu değildi",
       "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1lLVkE4ZFdSOThKbmt3SktYVjNMRk9JVzcycWo5c1VTcU91Y3N0b1V1cGVHSVVOYW5LSlVrRlpBeUFST2hfbWVycE9YTk51QWZVRnVndjBTWmxUYVVtSFVMS1FvbDFRVm1rdnV2bmNWU0toWG9VcHhhT2FHbUpKd0JLaUNuVlZ2RmtKZ1hXMUNVd2JlaWdBcE5nX2FjU2F5T0pWTFJIbFk1V1V2YzJOVFBtR2M?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5STjNWUUVMX1Z3SzU3NndYdldHU3I0M3ViRUZOX09sdUdqRGhhMmtWVndRN2VILUE2MlctbGVaMWl3WlNPc0ZYQWw1eU03SDYtNVduQVI1Vno3dw?oc=5",
       "confidence": 95,
       "status": "auto_candidate"
     },
     {
-      "id": 89,
+      "id": 90,
       "commentator": "erman-toroglu",
       "date": "2026-09-04",
       "team": null,
@@ -3651,7 +3667,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 90,
+      "id": 91,
       "commentator": "erman-toroglu",
       "date": "2026-09-04",
       "team": null,
@@ -3667,7 +3683,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 91,
+      "id": 92,
       "commentator": "erman-toroglu",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3683,7 +3699,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 92,
+      "id": 93,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -3699,23 +3715,23 @@
       "status": "auto_candidate"
     },
     {
-      "id": 93,
+      "id": 94,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
-      "team": "Fenerbahçe",
+      "team": "Galatasaray",
       "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
+      "topic": "Genel yorum",
+      "type": "opinion",
       "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Yabancı VAR neden gerekeni yapmadı",
+      "strength": 6,
+      "summary": "Messi ve Maradona'yı bile getirsen...",
       "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWkVMRVo3X0dyZnFaQnZRVGluRlU5WG9SM3YtTGpRaXBVTzlYZUJMRTVTUVlLN3o4T2JBbk5JVF8yYVFQaDNBdXZfN19iS2FjcExkc2xucDAwMFNCWmVTZkdITDNBSEthS2RYWHpKN1d3bGpvUUJzM0RRSXRFV0VWamc0cEphZnViSzNLQnFPMFhyM2pVM3VyOTFhNDRvZU9VNVpvdmRpaHJKc2ZxMGY2MkRXaTJrYUFtT2dyWC1fdnhqdm5CTV9uTjRfRHBJYkVBWW40MGZsVUI1ckdFOWxvQ0s3NA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWJXXzhnYTFhTXNZeExVV204ZFZFTVNvUnJfMWo2Y2FjelVtUDlycXE4ekN6dEJGcE9ZTFFoWUlTT25WbzZWcmU1QVM0TjY5RGtnb0c0ZDJwczY0aUpwY3I3NHp2M0lMTVhXbzRRNGVhVVBYR2E5eVBQQnBTWkFhM0xSbWpRQmgxLWd3MTA1MENFRHVw0gGTAUFVX3lxTE83QlRuX0swZUFBdmFIMVd6ckhoT3lJck9HSHA1bUJJeGtsQlRWNU1aZzhWOHhMNkdIaWE4QVRWVkNWTjJmX2R2c2tVSWFOSm92ck5mX3pvUVRramVaM1lmYTFLbzZaQlRlS1hyTGtLRXYxOGNIQ19HZ0QzUDZXbm9PNF8zVkZIcjdOTS16UC1kR0tfSQ?oc=5",
       "confidence": 95,
       "status": "auto_candidate"
     },
     {
-      "id": 94,
+      "id": 95,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -3731,7 +3747,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 95,
+      "id": 96,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -3747,7 +3763,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 96,
+      "id": 97,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3763,7 +3779,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 97,
+      "id": 98,
       "commentator": "ahmet-cakar",
       "date": "2026-09-04",
       "team": null,
@@ -3779,7 +3795,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 98,
+      "id": 99,
       "commentator": "sinan-engin",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -3795,7 +3811,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 99,
+      "id": 100,
       "commentator": "sinan-engin",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3813,7 +3829,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 100,
+      "id": 101,
       "commentator": "sinan-engin",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3829,7 +3845,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 101,
+      "id": 102,
       "commentator": "sinan-engin",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3845,7 +3861,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 102,
+      "id": 103,
       "commentator": "haluk-yurekli",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3861,7 +3877,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 103,
+      "id": 104,
       "commentator": "ali-naci-kucuk",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3879,7 +3895,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 104,
+      "id": 105,
       "commentator": "ali-naci-kucuk",
       "date": "2026-09-04",
       "team": null,
@@ -3895,7 +3911,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 105,
+      "id": 106,
       "commentator": "ali-naci-kucuk",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3911,7 +3927,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 106,
+      "id": 107,
       "commentator": "cem-dizdar",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -3927,7 +3943,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 107,
+      "id": 108,
       "commentator": "cem-dizdar",
       "date": "2026-09-04",
       "team": null,
@@ -3945,7 +3961,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 108,
+      "id": 109,
       "commentator": "nevzat-dindar",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3961,7 +3977,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 109,
+      "id": 110,
       "commentator": "emre-kaplan",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -3977,25 +3993,23 @@
       "status": "auto_candidate"
     },
     {
-      "id": 110,
+      "id": 111,
       "commentator": "emre-kaplan",
       "date": "2026-09-04",
       "team": "Galatasaray",
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
       "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray'a gelmeyi kabul ederse Osimhen'in maaşını ödemeye hazırlar",
+      "strength": 8,
+      "summary": "Galatasaray transferi bitirmek üzere, ailesi Göztepe maçını stadyumda takip etti",
       "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTjRwUGhkamJnbnpuTUtubzhJaFNZUDl6V084VnBZV2hJdXltYlk4RHlNVjBJeFgyX0RwNDNfNFFmaUpIVFhKS3duenozTmR2MDdVVy1KSi1RUmZxTWlEZm5BNnlNQXZ5OFozaUJjdzZ4NHRjODl4eUhNMXVUVE10ZUxwa3ZnY2NIUzVuVFc2Z0U4R250MV9fQnROWEhjTkpxdUNHYmdyXzY2M21wbnfSAbMBQVVfeXFMT2lLREV1YUZlSUpsRm1uU3BuNzd2WlJZRlZSMjExcGM1akwyZEVJYlJoOENrYVdka2t5MHhremk1aktRUUlLNE5XRXpWa2ZNdWZ2eXFCODd5a3BZU2hGMVlOb1M1OHI2NHRwX19oaEtzNnB2UXo4T2lyaWU5VVRYUDZFZXRROHllNzNnTVJGcktlRFlQRmxqaXNLZ3B6eGR0R0cwUTdMenFQUTc5eUE2VzJDSTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRVdsUndYYm1ZVV9Xay1MYktvdE8zZkJDdTNWUXRZRTdDTXgxekJ5UnhhSlR2eWdWTWNDVmJzZHhQQkVVTjZueTJ5MmJ1dFMxUG1Vcm50TjBJTmk0dV9PRmdFb0ZGdGRwcW41VjBFUXBsd2VvTUg1TE9Pelp6NjhhNzhLcGpWZ1JnV1BLMGVuUUZRU1FJOXZFNmE5UU5mY1IwWTkyZ3Y3LTN3NHN2V0FUSU5RRU9qTjhOX1RvVNIBwgFBVV95cUxNYjUxdU9HdXRzZkxFOG1Tei1vcTdjMVBrLXZGNGlMTTBzU2JqaU82YmMzaXR0WTJqYlJwNFZiNjZqYlRsQS1sS0g1aTRiOVVTRDhibV9DNVhKckQ0V3JTU3dkcFRBVmdxZzBmdkdRSHdXRWNpUEV2aVZtQmtjNkpiTzhUTGdpMHZFUy1hMXFraGVjaHJqOXhEcEVwX3dPZC1BVTUyRU5mVFhLRnJxa1BsT1ZLenJtSUpoSGNDdnVOTVNjQQ?oc=5",
       "confidence": 95,
       "status": "auto_candidate"
     },
     {
-      "id": 111,
+      "id": 112,
       "commentator": "yakup-cinar",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4011,7 +4025,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 112,
+      "id": 113,
       "commentator": "mehmet-ozcan",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -4029,7 +4043,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 113,
+      "id": 114,
       "commentator": "kaya-temel",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4045,7 +4059,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 114,
+      "id": 115,
       "commentator": "kaya-temel",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4061,7 +4075,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 115,
+      "id": 116,
       "commentator": "kaya-temel",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4077,7 +4091,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 116,
+      "id": 117,
       "commentator": "serhan-turk",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4095,7 +4109,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 117,
+      "id": 118,
       "commentator": "serhan-turk",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -4111,7 +4125,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 118,
+      "id": 119,
       "commentator": "gokhan-dinc",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4127,7 +4141,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 119,
+      "id": 120,
       "commentator": "koray-gok",
       "date": "2026-09-04",
       "team": null,
@@ -4143,7 +4157,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 120,
+      "id": 121,
       "commentator": "koray-gok",
       "date": "2026-09-04",
       "team": null,
@@ -4161,7 +4175,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 121,
+      "id": 122,
       "commentator": "oguz-altay",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4177,7 +4191,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 122,
+      "id": 123,
       "commentator": "ahmet-selim-kul",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4193,7 +4207,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 123,
+      "id": 124,
       "commentator": "gurcan-bilgic",
       "date": "2026-09-04",
       "team": "Samsunspor",
@@ -4209,7 +4223,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 124,
+      "id": 125,
       "commentator": "kartal-yigit",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4227,7 +4241,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 125,
+      "id": 126,
       "commentator": "semih-sezerli",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4243,7 +4257,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 126,
+      "id": 127,
       "commentator": "semih-sezerli",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4259,7 +4273,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 127,
+      "id": 128,
       "commentator": "semih-sezerli",
       "date": "2026-09-04",
       "team": null,
@@ -4277,7 +4291,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 128,
+      "id": 129,
       "commentator": "semih-sezerli",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4293,7 +4307,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 129,
+      "id": 130,
       "commentator": "semih-sezerli",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4309,7 +4323,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 130,
+      "id": 131,
       "commentator": "nedim-gungor",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -4325,7 +4339,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 131,
+      "id": 132,
       "commentator": "fatih-dogan",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -4341,7 +4355,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 132,
+      "id": 133,
       "commentator": "sergen-yalcin",
       "date": "2026-09-04",
       "team": "Beşiktaş",
@@ -4357,7 +4371,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 133,
+      "id": 134,
       "commentator": "sergen-yalcin",
       "date": "2026-09-04",
       "team": null,
@@ -4373,7 +4387,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 134,
+      "id": 135,
       "commentator": "servet-ozkara",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4389,7 +4403,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 135,
+      "id": 136,
       "commentator": "yilmaz-cakmak",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4405,7 +4419,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 136,
+      "id": 137,
       "commentator": "hasan-al",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4421,7 +4435,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 137,
+      "id": 138,
       "commentator": "hasan-al",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4437,7 +4451,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 138,
+      "id": 139,
       "commentator": "olcay-cakir",
       "date": "2026-09-04",
       "team": null,
@@ -4453,7 +4467,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 139,
+      "id": 140,
       "commentator": "mustafa-culcu",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4469,7 +4483,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 140,
+      "id": 141,
       "commentator": "mustafa-culcu",
       "date": "2026-09-04",
       "team": null,
@@ -4485,7 +4499,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 141,
+      "id": 142,
       "commentator": "ertan-suzgun",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4501,7 +4515,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 142,
+      "id": 143,
       "commentator": "salim-manav",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4517,7 +4531,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 143,
+      "id": 144,
       "commentator": "savas-corlu",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4535,7 +4549,23 @@
       "status": "auto_candidate"
     },
     {
-      "id": 144,
+      "id": 145,
+      "commentator": "ridvan-dilmen",
+      "date": "2026-09-04",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tüm gün çalıştım\" dedi, Fenerbahçe iddiası geldi",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkpIS2Nfc1pjZTVCYnBDaFktY3Eyekc0SGxialY2UXVEYmNWU3BBdmVLZUNwNy1mcTIyMzBFQ3V2OXFXNmtxNXdwN1d4UHF3bm5TY3o4YkNfakFhbW9VWl83ZG1mWkhLY2JqeDNxRWdYcU90bDRjeGxFZ3lpc0c1X0FqaG5GTWZiSHVzYTBmdTNrcXhZQ1FOWDhEQVdERlljcmNVMGVDel9MR0JkLXhyX2t5TTlNZWRDa3N2SUtYVzRSaUk?oc=5",
+      "confidence": 95,
+      "status": "auto_candidate"
+    },
+    {
+      "id": 146,
       "commentator": "ridvan-dilmen",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4551,23 +4581,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 145,
-      "commentator": "ridvan-dilmen",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "'den Fenerbahçe'ye beklenmedik uyarı: Sakın ha! - Fenerbahçe",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcHRLRzZMd21SM0NRZlh0b05hYVdTZ2ZvdHhUSy1MSUJzbW1SV3F0RWJVekp2emxDWGhfWjlsbFFEcVgyVUo0MjBpMUlVTms0Rm5NSlVqM0oyUFFLVzNQNzFCdnY5eTlxT3BqVXJUYTAxTzhwNVlFd2dkOEUxZ0xuaklGWnlmR042VmFTbXRjWkFRYmNLdW5YQnRsVW83Z0JVaWFj0gGmAUFVX3lxTFBwZXBHS3hyQjRZWkoyMTRiamh4a09kWHdCbEZXWUp2bk9vdk9MV01jSTJieU92WHRlMWtybEJmdDRkS2pWdkFCdXVCUUh1N2NlMnpaXzA1dzBTYy1JMFNXOV84UGFMTDRYa1lyNkYwZmtZdmR5eWppN1JJNzEzZURhU3FFeVBSc0FId0RpbUtvNlk1aGRBajJ3WGlmMlBhTy1OdC01Q1E?oc=5",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 146,
+      "id": 147,
       "commentator": "ridvan-dilmen",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4579,22 +4593,6 @@
       "summary": "O iki yıldızı göndermeyin",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQb1VZSHJRei1jcmtYUzlJTVYwLTYwUlN3QzNjVk9aQVBmcFd5MElGejVsS3BKR0pEcDI2MHFaVEJnWll2ZncyMnBPVkFQWF9ReS1keWQwSU13bnZYNnBVaWxxMXhRNV9Sb1FWUmJZZ0FMTkJUOGRYbm5STlBKSjFpanIzdVdzM0NOV1J5Zlh5Z1ViQkZQcGE4cHR4QmRjNXB6RUx6QXpOZkRzM3h0R3lPa0RYVWNzdkJJamlYcTBnSkg0SEF2Y0w4Wktzb2lGbVhRd0ZweA?oc=5",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 147,
-      "commentator": "ridvan-dilmen",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Tüm gün çalıştım\" dedi, Fenerbahçe iddiası geldi",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkpIS2Nfc1pjZTVCYnBDaFktY3Eyekc0SGxialY2UXVEYmNWU3BBdmVLZUNwNy1mcTIyMzBFQ3V2OXFXNmtxNXdwN1d4UHF3bm5TY3o4YkNfakFhbW9VWl83ZG1mWkhLY2JqeDNxRWdYcU90bDRjeGxFZ3lpc0c1X0FqaG5GTWZiSHVzYTBmdTNrcXhZQ1FOWDhEQVdERlljcmNVMGVDel9MR0JkLXhyX2t5TTlNZWRDa3N2SUtYVzRSaUk?oc=5",
       "confidence": 95,
       "status": "auto_candidate"
     },
@@ -4634,22 +4632,6 @@
       "id": 150,
       "commentator": "omer-urundul",
       "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Lukaku'yu 10 dakika önce almalıydı!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVGRvd29FRDlrNHotR21xSHJKckljT2V5bGUyYTVqWWItTDN1UnhwZnVwRXVkQjRPYzlJYlJUU0hBWDhCdUgwUE1WbHpuRDZaU2w1NWJ6RGl3U19uNlRvVl9uRE1RUlFSSUppRWRBbWJxdkhPSy1nbDNWTG1lUjdycjJhWUd1NVE0NHBxTVR1dWZiaHluZVNuS2U0SjlheWRNMVlldElOZGpHelhqU3VhSkpCUXlxQ3FzZEdsaC1mdU02QQ?oc=5",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 151,
-      "commentator": "omer-urundul",
-      "date": "2026-09-04",
       "team": null,
       "players": [],
       "topic": "Genel yorum",
@@ -4663,7 +4645,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 152,
+      "id": 151,
       "commentator": "mehmet-ayan",
       "date": "2026-09-04",
       "team": "Trabzonspor",
@@ -4679,7 +4661,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 153,
+      "id": 152,
       "commentator": "mehmet-ayan",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4695,7 +4677,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 154,
+      "id": 153,
       "commentator": "ilker-yagcioglu",
       "date": "2026-09-04",
       "team": null,
@@ -4711,7 +4693,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 155,
+      "id": 154,
       "commentator": "emre-bol",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4727,7 +4709,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 156,
+      "id": 155,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Galatasaray",
@@ -4743,7 +4725,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 157,
+      "id": 156,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4759,7 +4741,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 158,
+      "id": 157,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4775,7 +4757,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 159,
+      "id": 158,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4791,7 +4773,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 160,
+      "id": 159,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Fenerbahçe",
@@ -4807,7 +4789,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 161,
+      "id": 160,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": null,
@@ -4823,7 +4805,7 @@
       "status": "auto_candidate"
     },
     {
-      "id": 162,
+      "id": 161,
       "commentator": "firat-aydinus",
       "date": "2026-09-04",
       "team": "Beşiktaş",
