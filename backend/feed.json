@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:22:30.269748+00:00",
+  "generated_at": "2026-09-04T22:23:56.917082+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -69,6 +69,17 @@
       "photoURL": null
     },
     {
+      "id": "firat-aydinus",
+      "name": "Fırat Aydınus",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "FA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "ali-naci-kucuk",
       "name": "Ali Naci Küçük",
       "role": "Futbol yorumcusu",
@@ -89,17 +100,6 @@
         "Genel"
       ],
       "photoURL": "https://img.gercekgundem.com/rcman/Cw1280h720q95gc/storage/files/images/2026/08/10/gazeteci-burhan-can-terzi-gozaltina-alindi-olad.jpg"
-    },
-    {
-      "id": "firat-aydinus",
-      "name": "Fırat Aydınus",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "FA",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "haluk-yurekli",
@@ -4044,6 +4044,46 @@
       "url": "https://www.cnbce.com/tv/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-v29828",
       "image_url": "https://img.cnbce.com/2/1280/720/storage/files/images/2026/05/11/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-zc9i.jpg",
       "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 104,
+      "commentator": "serhan-turk",
+      "date": "2026-09-04",
+      "team": "Fenerbahçe",
+      "players": [
+        "Asensio"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Asensio Fenerbahçe İçin Çok Önemli Bir Oyuncu Haline Geldi!\" - aspor.com.tr",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPemtIemlCMlBkb1U0ekZpelR3RDVwaldCZHFxZzNLaWs1aV8yWW1NVHNfOFR1RUx2WlNhOFVOaGFjcEgzY3B6S1RJNERCeTVsZTJNdXVJLUExN3ZTbXZlTS1EWEpfZk9peVNaWEVSY1paMm5zc3A0T0ZySTlqbkJDM28zVEVfRnBVYVNDTTBrOEN1UVR6c1VGZ1A3RUFnaDd3d2x6TUdmdDdBREI5LTRRSXozTHBoUQ?oc=5",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 105,
+      "commentator": "firat-aydinus",
+      "date": "2026-09-04",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!\" - ajansspor.com",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT21YUnJJYkNMeW0zbUlQR3pCM1R3MHp2UDVDc2FZN0VtcjdzcVRva0pSMzlwQnUxZnVvaEJKUDJUMXhvNGl2U1VqLXdKNllrbFJZcy1IcXE5XzRYQWdfVWdqb0FVM2dfR29vMHl6Y2RPNTJ0dnNYWjNDRGhfeDNDaWNwOEYtNGNDZmwxanhCSDJCenNSYldFVnVmYk50eDRpZFl2ajVPWllYS25WRWY4?oc=5",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null
@@ -8357,7 +8397,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 33
+      "comment_count": 34
     },
     {
       "id": "baris-alper",
