@@ -33,26 +33,38 @@ final class NotificationService: ObservableObject {
     }
 
     func setAll(_ enabled: Bool) async {
-        if enabled && !(await requestPermission()) { return }
+        if enabled {
+            let granted = await requestPermission()
+            guard granted else { return }
+        }
         allEnabled = enabled
         UserDefaults.standard.set(enabled, forKey: allKey)
     }
 
     func toggleCommentator(_ id: String) async {
-        if !commentatorIDs.contains(id) && !(await requestPermission()) { return }
+        if !commentatorIDs.contains(id) {
+            let granted = await requestPermission()
+            guard granted else { return }
+        }
         if commentatorIDs.contains(id) { commentatorIDs.remove(id) } else { commentatorIDs.insert(id) }
         persist(commentatorIDs, key: commentatorsKey)
     }
 
     func toggleTeam(_ team: String) async {
-        if !teamNames.contains(team) && !(await requestPermission()) { return }
+        if !teamNames.contains(team) {
+            let granted = await requestPermission()
+            guard granted else { return }
+        }
         if teamNames.contains(team) { teamNames.remove(team) } else { teamNames.insert(team) }
         persist(teamNames, key: teamsKey)
     }
 
     func toggle(commentatorID: String, team: String) async {
         let key = pairKey(commentatorID, team)
-        if !commentatorTeamKeys.contains(key) && !(await requestPermission()) { return }
+        if !commentatorTeamKeys.contains(key) {
+            let granted = await requestPermission()
+            guard granted else { return }
+        }
         if commentatorTeamKeys.contains(key) { commentatorTeamKeys.remove(key) } else { commentatorTeamKeys.insert(key) }
         persist(commentatorTeamKeys, key: pairsKey)
     }
