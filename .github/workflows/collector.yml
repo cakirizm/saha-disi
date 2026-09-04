@@ -35,8 +35,12 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Collect public sources
+      - name: Collect public commentary
         run: python backend/collector_v3.py
+
+      - name: Collect official TFF fixture
+        run: |
+          python backend/tff_fixture.py || echo 'TFF parser unavailable; keeping previous fixture data.'
 
       - name: Build live feed
         run: python backend/build_feed.py
@@ -56,7 +60,8 @@ jobs:
           assert len(ids)==len(set(ids))
           valid={c['id'] for c in p['commentators']}
           assert all(s['commentator'] in valid for s in p['statements'])
-          print('validated', len(p['commentators']), 'commentators', len(p['statements']), 'statements')
+          assert all(int(m.get('week',0)) > 0 for m in p['matches'])
+          print('validated', len(p['commentators']), 'commentators', len(p['statements']), 'statements', len(p['matches']), 'matches')
           PY
 
       - name: Publish changed live data
@@ -64,6 +69,7 @@ jobs:
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json
+          test ! -f backend/tff_matches.json || git add backend/tff_matches.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
           else
