@@ -15,22 +15,18 @@ struct CommentatorsView: View {
         }
         let filtered = searched.filter { commentator in
             switch selectedFilter {
-            case "Aktif":
-                return !store.statements(for: commentator.id).isEmpty
-            case "Yazar":
-                return matches(commentator, keywords: ["yazar", "writer", "column", "gazete"])
-            case "TV":
-                return matches(commentator, keywords: ["tv", "trt", "bein", "tivibu", "a spor", "beyaz", "cnbc", "yorumcu"])
-            case "Podcast":
-                return matches(commentator, keywords: ["podcast", "socrates", "vole", "343", "youtube", "digital"])
-            default:
-                return true
+            case "Aktif": return !store.statements(for: commentator.id).isEmpty
+            case "Yazar": return matches(commentator, keywords: ["yazar", "writer", "column", "gazete"])
+            case "TV": return matches(commentator, keywords: ["tv", "trt", "bein", "tivibu", "a spor", "beyaz", "yorumcu"])
+            case "Podcast": return matches(commentator, keywords: ["podcast", "socrates", "vole", "343", "youtube", "digital"])
+            default: return true
             }
         }
         return filtered.sorted { lhs, rhs in
             let left = store.statements(for: lhs.id).count
             let right = store.statements(for: rhs.id).count
-            return left == right ? lhs.name < rhs.name : left > right
+            if left != right { return left > right }
+            return lhs.name.localizedCompare(rhs.name) == .orderedAscending
         }
     }
 
@@ -49,19 +45,21 @@ struct CommentatorsView: View {
                 }
                 searchBox
                 filterBar
+                Text("En çok doğrulanmış yorumu bulunanlar önce gösterilir.")
+                    .font(.caption2).foregroundStyle(SDTheme.muted2)
                 if rows.isEmpty {
                     ContentUnavailableView("Sonuç bulunamadı", systemImage: "person.2.slash", description: Text("Arama veya filtreyi değiştirmeyi dene."))
-                        .frame(maxWidth: .infinity)
-                        .padding(.top, 48)
+                        .frame(maxWidth: .infinity).padding(.top, 48)
                 } else {
                     ForEach(rows) { c in
+                        let count = store.statements(for: c.id).count
                         NavigationLink { CommentatorProfileView(commentator: c) } label: {
                             HStack(spacing: 12) {
-                                AvatarView(text: c.avatar, size: 48)
+                                AvatarView(text: c.avatar, size: 50, photoURL: c.photoURL)
                                 VStack(alignment: .leading, spacing: 4) {
                                     Text(c.name).font(.headline)
-                                    let count = store.statements(for: c.id).count
-                                    Text("\(count) yorum · \(c.primarySource)").font(.caption).foregroundStyle(SDTheme.muted)
+                                    Text(count == 0 ? "Henüz doğrulanmış yorum yok" : "\(count) yorum · \(c.primarySource)")
+                                        .font(.caption).foregroundStyle(count == 0 ? SDTheme.muted2 : SDTheme.muted)
                                 }
                                 Spacer()
                                 Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2)
@@ -82,18 +80,12 @@ struct CommentatorsView: View {
         HStack(spacing: 10) {
             Image(systemName: "magnifyingglass").foregroundStyle(SDTheme.muted)
             TextField("Yorumcu ara...", text: $search)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled()
+                .textInputAutocapitalization(.never).autocorrectionDisabled()
             if !search.isEmpty {
-                Button { search = "" } label: {
-                    Image(systemName: "xmark.circle.fill").foregroundStyle(SDTheme.muted)
-                }.buttonStyle(.plain)
+                Button { search = "" } label: { Image(systemName: "xmark.circle.fill").foregroundStyle(SDTheme.muted) }.buttonStyle(.plain)
             }
         }
-        .padding(.horizontal, 14)
-        .frame(height: 44)
-        .background(SDTheme.panel)
-        .clipShape(RoundedRectangle(cornerRadius: 14))
+        .padding(.horizontal, 14).frame(height: 44).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14))
     }
 
     private var filterBar: some View {
