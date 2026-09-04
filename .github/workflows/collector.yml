@@ -17,12 +17,12 @@ permissions:
 
 concurrency:
   group: saha-disi-live-feed
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
       - name: Validate feed integrity
         run: |
           python - <<'PY'
-          import json,re
+          import json
           from pathlib import Path
           p=json.loads(Path('backend/feed.json').read_text())
           roster=json.loads(Path('backend/commentator_roster.json').read_text())
@@ -75,8 +75,7 @@ jobs:
             if isinstance(v,list): return [x for i in v for x in walk(i)]
             if isinstance(v,dict): return [x for i in v.values() for x in walk(i)]
             return []
-          strings=walk(p)
-          broken=[s for s in strings if any(x in s for x in bad)]
+          broken=[s for s in walk(p) if any(x in s for x in bad)]
           assert not broken, f'mojibake detected: {broken[:5]}'
           assert len(p['matches']) >= 18
           assert all(int(m.get('week',0)) > 0 for m in p['matches'])
@@ -85,8 +84,7 @@ jobs:
           teams={m['home'] for m in p['matches']}|{m['away'] for m in p['matches']}
           missing=[t for t in teams if not logos.get(t)]
           assert not missing, f'missing logos: {missing}'
-          favicon=[u for u in logos.values() if 'google.com/s2/favicons' in u]
-          assert not favicon, 'favicon URLs are not accepted as club crests'
+          assert not [u for u in logos.values() if 'google.com/s2/favicons' in u]
           assert all((not c.get('photoURL')) or c['id'] in photos for c in p['commentators'])
           print('PASS feed',len(p['commentators']),'commentators',len(p['statements']),'literal quotes',len(p['matches']),'matches',len(photos),'verified photos')
           PY
@@ -95,8 +93,7 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          files={p.name:p.read_text() for p in Path('ios/SahaDisi/SahaDisi').rglob('*.swift')}
-          joined='\n'.join(files.values())
+          joined='\n'.join(p.read_text() for p in Path('ios/SahaDisi/SahaDisi').rglob('*.swift'))
           assert 'Birinci Hafta' in joined and 'Üçüncü Hafta' in joined and 'Dördüncü Hafta' in joined
           assert 'func statements(for commentatorID: String, team: String)' in joined
           assert 'NotificationSettingsView' in joined
