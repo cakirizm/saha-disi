@@ -18,6 +18,12 @@ struct Commentator: Codable, Identifiable, Hashable {
     let role: String
     let primarySource: String
     let avatar: String
+    let photoURL: String?
+
+    enum CodingKeys: String, CodingKey {
+        case id, name, role, primarySource, avatar
+        case photoURL = "photoURL"
+    }
 }
 
 struct Statement: Codable, Identifiable, Hashable {
@@ -54,11 +60,13 @@ struct Match: Codable, Identifiable, Hashable {
     let kickoff: String
     let homeScore: Int?
     let awayScore: Int?
+    let imageURL: String?
 
     enum CodingKeys: String, CodingKey {
         case id, league, week, home, away, kickoff
         case homeScore = "home_score"
         case awayScore = "away_score"
+        case imageURL = "image_url"
     }
 }
 
