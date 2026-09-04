@@ -33,15 +33,15 @@ struct CommentatorProfileView: View {
     }
 
     private var profileHeader: some View {
-        HStack(alignment: .top, spacing: 14) {
-            AvatarView(text: commentator.avatar, size: 88, photoURL: commentator.photoURL)
+        HStack(alignment: .center, spacing: 15) {
+            AvatarView(text: commentator.avatar, size: 92, photoURL: commentator.photoURL)
             VStack(alignment: .leading, spacing: 7) {
                 Text(commentator.name).font(.title2.weight(.black))
-                Text("\(commentator.role) · \(commentator.primarySource)").font(.caption).foregroundStyle(SDTheme.muted)
-                Button("Takip Et") {}.font(.caption.bold()).padding(.horizontal, 18).padding(.vertical, 8).background(SDTheme.accent).clipShape(Capsule())
+                Text(commentator.role).font(.caption).foregroundStyle(SDTheme.muted)
+                Text(commentator.primarySource).font(.caption2).foregroundStyle(SDTheme.muted2)
+                Button("Takip Et") {}.font(.caption.bold()).padding(.horizontal, 18).padding(.vertical, 8).background(SDTheme.accent).foregroundStyle(.black).clipShape(Capsule())
             }
             Spacer()
-            Image(systemName: "square.and.arrow.up").foregroundStyle(SDTheme.muted)
         }.padding(.top, 8)
     }
 
@@ -76,9 +76,17 @@ struct CommentatorProfileView: View {
             ForEach(statements) { s in
                 NavigationLink(value: s) {
                     VStack(alignment: .leading, spacing: 9) {
-                        HStack { Text(s.date).font(.caption2).foregroundStyle(SDTheme.muted); Text("·"); Text(s.type == "prediction" ? "Maç Öncesi" : "Yorum").font(.caption2).foregroundStyle(SDTheme.muted); Spacer(); predictionBadge(s) }
+                        HStack {
+                            Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted)
+                            Text("·").foregroundStyle(SDTheme.muted2)
+                            Text(s.type == "prediction" ? "Maç Öncesi" : "Yorum").font(.caption2).foregroundStyle(SDTheme.muted)
+                            Spacer(); predictionBadge(s)
+                        }
                         Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(5)
-                        if let team = s.team { Text(team).font(.caption).foregroundStyle(SDTheme.muted) }
+                        HStack {
+                            if let team = s.team { Text(team).font(.caption).foregroundStyle(SDTheme.muted) }
+                            Spacer(); Text(s.source).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1)
+                        }
                     }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
                 }.buttonStyle(.plain)
             }
@@ -116,7 +124,7 @@ struct CommentatorProfileView: View {
         SDCard {
             VStack(alignment: .leading, spacing: 10) {
                 Text(commentator.name).font(.headline)
-                Text("Saha Dışı, kamuya açık kaynaklardan doğrulanmış yorumları yapılandırır. Kaynak: \(commentator.primarySource). Profilde yalnızca doğrulanmış kayıtlar gösterilir.").font(.subheadline).foregroundStyle(SDTheme.muted)
+                Text("Saha Dışı, kamuya açık kaynaklardan doğrulanmış yorumları kısa, okunabilir ve kaynak bağlantılı biçimde gösterir. Ana kaynak: \(commentator.primarySource).").font(.subheadline).foregroundStyle(SDTheme.muted)
             }
         }
     }
