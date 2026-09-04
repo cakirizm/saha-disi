@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:12:35.853831+00:00",
+  "generated_at": "2026-09-04T21:21:54.617441+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -109,6 +109,27 @@
       "resolvedTitle": "Burhan Can Terzi",
       "verified_identity": true,
       "resolver": "editorial_verified"
+    },
+    "necati-ates": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Necati_Ate%C5%9F_Eski%C5%9Fehirspor.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Necati_Ate%C5%9F",
+      "resolvedTitle": "Necati Ateş",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "sinan-engin": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Sinan_Engin",
+      "resolvedTitle": "Sinan Engin",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "gokhan-keskin": {
+      "photoURL": "https://yt3.googleusercontent.com/qXI21etvZne7eOu_Fj_kEFyloxhrjmcBWoaY2NduGa89Pwi6FxfJ_dUusfDRHGc3IO0CVITH4w=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCcUr4dwqC8dup3gA8SwCWKQ",
+      "resolvedTitle": "Gökhan Keskin",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
     }
   }
 }
