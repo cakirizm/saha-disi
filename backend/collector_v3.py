@@ -1,7 +1,7 @@
-"""Saha Dışı V4 public-source collector.
-Discovery: direct editorial hubs + Google News RSS queries (no API key).
-Extraction is conservative. Nothing is auto-published unless confidence >= configured gate.
-Do not download/rehost video/audio or copy full articles into the app.
+"""Saha Dışı V5 public-source collector.
+Collects public football commentary conservatively. Direct quotes from headlines can
+clear the live gate; paraphrased headlines stay in review. Article images are kept
+as remote URLs only and are never rehosted.
 """
 from __future__ import annotations
 import hashlib, html, json, re, time, urllib.parse, xml.etree.ElementTree as ET
@@ -12,19 +12,23 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-UA='Mozilla/5.0 (compatible; SahaDisiCollector/0.4; public-source-indexer)'
+UA='Mozilla/5.0 (compatible; SahaDisiCollector/0.5; public-source-indexer)'
 ROSTER=json.loads((B/'commentator_roster.json').read_text())
 PEOPLE=[(cid,name) for cid,name,_groups in ROSTER]
 COMMENTATORS={cid:[name] for cid,name in PEOPLE}
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
+QUOTE_RE=re.compile(r'[“\"‘](.{24,300}?)[”\"’]')
 
 class Parser(HTMLParser):
- def __init__(self): super().__init__(); self.text=[]; self.links=[]; self.skip=0
+ def __init__(self): super().__init__(); self.text=[]; self.links=[]; self.images=[]; self.skip=0
  def handle_starttag(self,t,a):
   a=dict(a)
   if t in {'script','style','svg','nav','footer'}: self.skip+=1
   if t=='a' and a.get('href'): self.links.append(a['href'])
+  if t=='meta':
+   key=(a.get('property') or a.get('name') or '').casefold()
+   if key in {'og:image','twitter:image','twitter:image:src'} and a.get('content'): self.images.append(a['content'])
  def handle_endtag(self,t):
   if t in {'script','style','svg','nav','footer'} and self.skip:self.skip-=1
  def handle_data(self,d):
@@ -55,7 +59,8 @@ def classify(s):
  return typ,topic,sent,strength
 
 def rss_urls(cid,name):
- q=urllib.parse.quote(f'"{name}" futbol')
+ # last month + football terms keeps the candidate set current instead of filling profiles with old material
+ q=urllib.parse.quote(f'"{name}" (futbol OR Galatasaray OR Fenerbahçe OR Beşiktaş OR Trabzonspor) when:30d')
  return [{'url':f'https://news.google.com/rss/search?q={q}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':82,'cid':cid,'rss':True}]
 
 def direct_sources():
@@ -65,12 +70,12 @@ def direct_sources():
   {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen'},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke'}]
 
-def discover(src,limit=3):
+def discover(src,limit=4):
  doc=fetch(src['url'])
  if '<rss' in doc[:500].lower() or '<feed' in doc[:500].lower():
   root=ET.fromstring(doc); out=[]
   for item in root.findall('.//item')[:limit]:
-   link=item.findtext('link'); title=item.findtext('title') or ''
+   link=item.findtext('link'); title=html.unescape(item.findtext('title') or '')
    if link: out.append((link,title))
   return out
  p=parse(doc);host=urlparse(src['url']).netloc;out=[]
@@ -79,29 +84,48 @@ def discover(src,limit=3):
   if pu.netloc==host and u!=src['url'] and any(k in pu.path.casefold() for k in ['spor','futbol','yazar','video','haber']):out.append((u.split('#')[0],''))
  return list(dict.fromkeys(out))[:limit]
 
-def candidate_from_text(text,src,url):
+def clean_statement(text,name):
+ text=' '.join(html.unescape(text).split()).strip(' -–—')
+ quotes=QUOTE_RE.findall(text)
+ if quotes:
+  quote=max(quotes,key=len).strip()
+  if len(quote)>=24:return quote[:320]
+ # Avoid cards such as "Ahmet Çakar yorumladı" when a colon already contains the real words.
+ if ':' in text:
+  left,right=text.split(':',1)
+  if name.casefold() in left.casefold() and len(right.strip())>=24:return right.strip()[:320]
+ return text[:320]
+
+def candidate_from_text(text,src,url,image_url=None):
  text=' '.join(html.unescape(text).split())
  if src['cid'] not in detect(text): return []
+ name=COMMENTATORS[src['cid']][0]
  chunks=[text] if len(text)<=420 else re.split(r'(?<=[.!?])\s+',text)
  rows=[]
- for s in chunks:
-  if not 30<=len(s)<=420 or src['cid'] not in detect(s):continue
-  teams=tags(s,TEAMS);players=tags(s,PLAYERS)
-  if not teams and not players and not any(k in s.casefold() for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi']):continue
-  typ,topic,sent,strength=classify(s); key=hashlib.sha256(f"{src['cid']}|{s}".encode()).hexdigest()[:20]
-  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':s,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'confidence':src['trust'],'discovered_at':datetime.now(timezone.utc).isoformat()})
+ for raw in chunks:
+  if not 30<=len(raw)<=500 or src['cid'] not in detect(raw):continue
+  teams=tags(raw,TEAMS);players=tags(raw,PLAYERS)
+  if not teams and not players and not any(k in raw.casefold() for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi']):continue
+  summary=clean_statement(raw,name)
+  if len(summary)<24:continue
+  typ,topic,sent,strength=classify(summary)
+  direct_quote=bool(QUOTE_RE.search(raw))
+  confidence=max(src['trust'],95) if direct_quote else src['trust']
+  key=hashlib.sha256(f"{src['cid']}|{summary}".encode()).hexdigest()[:20]
+  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':summary,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':image_url,'confidence':confidence,'direct_quote':direct_quote,'discovered_at':datetime.now(timezone.utc).isoformat()})
  return rows
 
 def extract(url,src,hint=''):
- # RSS headlines are kept as discovery candidates without opening hundreds of
- # third-party pages. They remain below the auto-publish gate and go to review.
  if src.get('rss'):
+  # RSS headline is useful when it contains a direct quote; otherwise it remains review-only.
   return candidate_from_text(hint,src,url)
- try: doc=fetch(url); p=parse(doc); text=' '.join(p.text)
- except Exception: text=hint
- return candidate_from_text(text+' '+hint,src,url)
+ try:
+  doc=fetch(url); p=parse(doc); text=' '.join(p.text); image=urljoin(url,p.images[0]) if p.images else None
+ except Exception:
+  text=hint; image=None
+ return candidate_from_text(text+' '+hint,src,url,image)
 
-def run(limit=3):
+def run(limit=4):
  sources=direct_sources()+[x for cid,name in PEOPLE for x in rss_urls(cid,name)]
  rows=[]; health=[]
  for src in sources:
