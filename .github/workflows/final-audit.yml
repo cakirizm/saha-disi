@@ -15,6 +15,8 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,7 +25,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Python syntax audit
-        run: python -m compileall -q backend
+        run: python -m compileall -q -b backend && find backend -maxdepth 1 -name '*.pyc' -delete
       - name: Collect literal quotes
         run: python backend/collector_v3.py
       - name: Fetch TFF fixture
@@ -80,6 +82,7 @@ jobs:
             echo 'No data change to publish.'
           else
             git commit -m 'data: publish final audited live feed'
+            git reset --hard HEAD
             git pull --rebase origin main
             git push origin main
           fi
