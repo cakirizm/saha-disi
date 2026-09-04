@@ -35,8 +35,8 @@
     {
       "id": "343",
       "name": "343",
-      "kind": "youtube_index",
-      "url": "https://www.youtube.com/@343_digital",
+      "kind": "html_index",
+      "url": "https://343digital.com/kategori/video",
       "commentators": ["ibrahim-seten", "yagiz-sabuncuoglu"],
       "trust": 95
     },
@@ -52,7 +52,8 @@
       "id": "tivibu-orta-nokta",
       "name": "Tivibu Spor · Orta Nokta",
       "kind": "youtube_search",
-      "url": "https://www.youtube.com/@tivibuspor",
+      "url": "https://www.youtube.com/@TivibuSporTurkTelekom",
+      "channel_id": "UCzzylIZKbeIDhohxAaQFy1Q",
       "commentators": ["erman-ozgur"],
       "trust": 95
     },

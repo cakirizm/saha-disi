@@ -9,10 +9,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-seed=json.loads((ROOT/'data/seed.json').read_text(encoding='utf-8'))
+# Continue from the last published feed so verified history never disappears when
+# a source has no new items in the current collection window.
+seed_path=(B/'feed.json') if (B/'feed.json').exists() else (ROOT/'data/seed.json')
+seed=json.loads(seed_path.read_text(encoding='utf-8'))
 candidates=json.loads((B/'candidates.json').read_text(encoding='utf-8')) if (B/'candidates.json').exists() else []
 
 PARAPHRASE_MARKERS=('düşünüyor','değerlendiriyor','savunuyor','belirtiyor','söylüyor','ifade ediyor','eleştirdi','övdü','değerlendirdi','açıkladı','yorumladı','iddia etti','vurguladı','yönündeki iddia','olarak görüyor','olarak değerlendiriyor')
+TRANSCRIPT_SOURCES={'Socrates','TRT Spor · Stadyum','VOLE / NEO Spor','Tivibu Spor · Orta Nokta'}
+TRANSCRIPT_ENTITIES=('galatasaray','fenerbahçe','beşiktaş','trabzonspor','samsunspor','göztepe','konyaspor','kocaelispor','gaziantep','rizespor','eyüpspor','alanyaspor','başakşehir','kasımpaşa','gençlerbirliği','erzurumspor','çorum','amed','osimhen','sane','barış alper','yunus','talisca','greenwood','asensio','kerem','skriniar','oğuz aydın','vlahovic','trossard','batrakov','orkun','guendouzi','kante','semedo','muriqi','singo','torreira','leao','cerny','ndidi','onuachu','muçi')
 CANON={
  'galatasaray a.ş.':'Galatasaray','galatasaray':'Galatasaray','fenerbahçe a.ş.':'Fenerbahçe','fenerbahçe':'Fenerbahçe',
  'beşiktaş a.ş.':'Beşiktaş','beşiktaş':'Beşiktaş','trabzonspor a.ş.':'Trabzonspor','trabzonspor':'Trabzonspor',
@@ -40,11 +45,18 @@ def looks_paraphrased(value):
     low=clean_summary(value).casefold()
     return any(x in low for x in PARAPHRASE_MARKERS)
 
+def valid_transcript(value):
+    clean=clean_summary(value);low=clean.casefold();words=clean.split()
+    repeated=any(words[i].casefold()==words[i-1].casefold() for i in range(1,len(words)))
+    filler=sum(low.count(x) for x in (' yani ',' abi ',' hani ',' şey ',' kardeşim',' diyorsun'))
+    return 80<=len(clean)<=320 and len(words)>=10 and '?' not in clean and filler<2 and not repeated and any(x in low for x in TRANSCRIPT_ENTITIES)
+
 def fixture_key(m):return (int(m.get('week') or 0),canonical(m.get('home')),canonical(m.get('away')))
 
 legacy=[]
 for s in seed.get('statements',[]):
     summary=clean_summary(s.get('summary',''))
+    if s.get('source') in TRANSCRIPT_SOURCES and not valid_transcript(summary):continue
     if len(summary)>=20 and s.get('verbatim') is True:
         row=dict(s);row['summary']=summary;row['team']=canonical(row.get('team')) if row.get('team') else None;row['verbatim']=True;legacy.append(row)
 seed['statements']=legacy
@@ -121,6 +133,7 @@ for c in candidates:
     if c.get('confidence',0)<95 or not c.get('direct_quote'):
         review.append(c);continue
     summary=clean_summary(c.get('summary_candidate',''))
+    if c.get('source') in TRANSCRIPT_SOURCES and not valid_transcript(summary):review.append(c);continue
     if len(summary)<20 or looks_paraphrased(summary):review.append(c);continue
     key=(c.get('commentator'),summary.casefold())
     if not c.get('commentator') or key in known:continue
