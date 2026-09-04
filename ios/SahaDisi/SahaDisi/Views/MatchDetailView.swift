@@ -12,12 +12,21 @@ struct MatchDetailView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 18) {
                 matchHeader
-                filterBar
-                Text("Yorumcular Ne Dedi?").font(.title3.bold())
-                ForEach(filteredRows) { s in NavigationLink(value: s) { matchComment(s) }.buttonStyle(.plain) }
-                if filteredRows.isEmpty { Text("Bu filtre için doğrulanmış kayıt yok.").font(.subheadline).foregroundStyle(SDTheme.muted) }
+                if !rows.isEmpty {
+                    filterBar
+                    Text("Yorumcular Ne Dedi?").font(.title3.bold())
+                    ForEach(filteredRows) { s in NavigationLink(value: s) { matchComment(s) }.buttonStyle(.plain) }
+                } else {
+                    SDCard {
+                        VStack(alignment: .leading, spacing: 7) {
+                            Text("Henüz doğrulanmış yorum yok").font(.headline)
+                            Text("Bu maça bağlanan güvenilir yorum geldiğinde burada görünecek.").font(.subheadline).foregroundStyle(SDTheme.muted)
+                        }
+                    }
+                }
             }.padding(16)
-        }.background(SDTheme.background).navigationTitle("Maç Detayı").navigationBarTitleDisplayMode(.inline)
+        }
+        .background(SDTheme.background).navigationTitle("Maç Detayı").navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Statement.self) { StatementDetailView(statement: $0) }
     }
 
@@ -29,30 +38,48 @@ struct MatchDetailView: View {
 
     private var matchHeader: some View {
         VStack(spacing: 14) {
-            Text(match.kickoff).font(.caption2).foregroundStyle(SDTheme.muted)
-            HStack(spacing: 20) {
-                teamBlock(match.home)
-                Text(score).font(.system(size: 38, weight: .black, design: .rounded))
-                teamBlock(match.away)
+            Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption).foregroundStyle(SDTheme.muted)
+            HStack(spacing: 14) {
+                teamBlock(match.home, logo: match.homeLogoURL)
+                Text(score).font(.system(size: 38, weight: .black, design: .rounded)).minimumScaleFactor(0.7)
+                teamBlock(match.away, logo: match.awayLogoURL)
             }
-            Text("Hafta \(match.week) · \(match.league)").font(.caption).foregroundStyle(SDTheme.muted)
-        }.frame(maxWidth: .infinity).padding(.vertical, 18).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 20))
+            Text("\(match.week). Hafta · \(match.league)").font(.caption).foregroundStyle(SDTheme.muted)
+        }.frame(maxWidth: .infinity).padding(.vertical, 20).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 20))
     }
 
-    private func teamBlock(_ name: String) -> some View {
-        VStack(spacing: 8) { ZStack { Circle().fill(SDTheme.panel2); Image(systemName: "shield.fill").foregroundStyle(SDTheme.accent) }.frame(width: 56, height: 56); Text(name).font(.caption.bold()).multilineTextAlignment(.center).lineLimit(2) }.frame(maxWidth: .infinity)
+    private func teamBlock(_ name: String, logo: String?) -> some View {
+        VStack(spacing: 8) {
+            TeamLogoView(name: name, urlString: logo, size: 62)
+            Text(name).font(.caption.bold()).multilineTextAlignment(.center).lineLimit(2)
+        }.frame(maxWidth: .infinity)
     }
 
     private var filterBar: some View {
-        HStack(spacing: 8) { ForEach(["Tümü", "Maç Öncesi", "Maç Sonrası"], id: \.self) { f in Button { filter = f } label: { Text(f).font(.caption.bold()).padding(.horizontal, 13).padding(.vertical, 8).foregroundStyle(filter == f ? Color.black : SDTheme.muted).background(filter == f ? Color.white : SDTheme.panel).clipShape(Capsule()) }.buttonStyle(.plain) } }
+        HStack(spacing: 8) {
+            ForEach(["Tümü", "Maç Öncesi", "Maç Sonrası"], id: \.self) { f in
+                Button { filter = f } label: {
+                    Text(f).font(.caption.bold()).padding(.horizontal, 13).padding(.vertical, 8)
+                        .foregroundStyle(filter == f ? Color.black : SDTheme.muted)
+                        .background(filter == f ? Color.white : SDTheme.panel).clipShape(Capsule())
+                }.buttonStyle(.plain)
+            }
+        }
     }
 
     private func matchComment(_ s: Statement) -> some View {
-        HStack(alignment: .top, spacing: 12) {
-            AvatarView(text: store.commentator(id: s.commentator)?.avatar ?? "?", size: 42)
+        let c = store.commentator(id: s.commentator)
+        return HStack(alignment: .top, spacing: 12) {
+            AvatarView(text: c?.avatar ?? "?", size: 44, photoURL: c?.photoURL)
             VStack(alignment: .leading, spacing: 7) {
-                HStack { Text(store.commentator(id: s.commentator)?.name ?? s.commentator).font(.subheadline.bold()); Text("·").foregroundStyle(SDTheme.muted2); Text(s.type == "prediction" ? "Maç Öncesi" : "Maç Sonrası").font(.caption2).foregroundStyle(SDTheme.muted); Spacer(); outcome(s) }
-                Text("“\(s.summary)”").font(.subheadline).lineLimit(4)
+                HStack {
+                    Text(c?.name ?? s.commentator).font(.subheadline.bold())
+                    Text("·").foregroundStyle(SDTheme.muted2)
+                    Text(s.type == "prediction" ? "Maç Öncesi" : "Maç Sonrası").font(.caption2).foregroundStyle(SDTheme.muted)
+                    Spacer(); outcome(s)
+                }
+                Text("“\(s.summary)”").font(.subheadline).lineLimit(5)
+                Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted2)
             }
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
     }
