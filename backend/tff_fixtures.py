@@ -105,7 +105,7 @@ def healthy(rows):
 def main():
     p=B/'tff_matches.json'; old=[]
     if p.exists():
-        try:old=json.loads(p.read_text())
+        try:old=json.loads(p.read_text(encoding='utf-8'))
         except Exception:pass
     best=[]; errors=[]
     for url in URLS:
@@ -114,7 +114,7 @@ def main():
             if len(rows)>len(best):best=rows
         except Exception as e:errors.append(str(e)[:100])
     rows=best if healthy(best) else old
-    p.write_text(json.dumps(rows,ensure_ascii=False,indent=2))
+    p.write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
     print('tff matches',len(rows),'weeks',len(set(x.get('week') for x in rows)),'best_parse',len(best),'healthy',healthy(best),'errors',errors)
 
 if __name__=='__main__':main()

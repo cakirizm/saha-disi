@@ -156,7 +156,7 @@ struct HomeView: View {
         VStack(alignment: .leading, spacing: 10) {
             header("En Çok Konuşulan Takımlar", trailing: "Canlı")
             let rows = Array(store.rankedTeams.prefix(5)); let maxCount = rows.first?.count ?? 1
-            SDCard { VStack(spacing: 5) { ForEach(Array(rows.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { RankBar(rank: i + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain) } } }
+            SDCard { VStack(spacing: 7) { ForEach(Array(rows.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { TeamRankRow(rank: i + 1, item: item, maxCount: maxCount) }.buttonStyle(.plain) } } }
         }
     }
 
@@ -238,7 +238,28 @@ struct TeamDirectoryView: View {
     var body: some View {
         ScrollView { LazyVStack(alignment: .leading, spacing: 12) {
             Text("Takımlar").font(.largeTitle.black()); Text("Yorumlarda öne çıkan takımlar").foregroundStyle(SDTheme.muted)
-            ForEach(Array(store.rankedTeams.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { HStack { Text("\(i+1)").foregroundStyle(SDTheme.muted); Text(item.name).font(.headline); Spacer(); Text("\(item.count) yorum").font(.caption).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption) }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }.buttonStyle(.plain) }
+            ForEach(Array(store.rankedTeams.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { HStack(spacing: 12) { Text("\(i+1)").foregroundStyle(SDTheme.muted).frame(width: 22); TeamLogoView(name: item.name, urlString: store.logoURL(for: item.name), size: 42); Text(item.name).font(.headline); Spacer(); Text("\(item.count) yorum").font(.caption).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption) }.padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }.buttonStyle(.plain) }
         }.padding(16) }.background(SDTheme.background).navigationTitle("Takımlar").navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+private struct TeamRankRow: View {
+    @EnvironmentObject var store: AppStore
+    let rank: Int
+    let item: RankedItem
+    let maxCount: Int
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Text("\(rank)").font(.subheadline.bold()).foregroundStyle(SDTheme.muted).frame(width: 20)
+            TeamLogoView(name: item.name, urlString: store.logoURL(for: item.name), size: 34)
+            Text(item.name).font(.subheadline.weight(.semibold)).lineLimit(1).frame(width: 105, alignment: .leading)
+            GeometryReader { proxy in
+                Capsule().fill(Color.white.opacity(0.06)).overlay(alignment: .leading) {
+                    Capsule().fill(SDTheme.accent).frame(width: max(8, proxy.size.width * CGFloat(item.count) / CGFloat(max(1, maxCount))))
+                }
+            }.frame(height: 6)
+            Text("\(item.count)").font(.subheadline.bold()).frame(width: 28, alignment: .trailing)
+        }.frame(height: 38)
     }
 }

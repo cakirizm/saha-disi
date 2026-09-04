@@ -5,13 +5,7 @@ struct TeamDetailView: View {
     @StateObject private var notifications = NotificationService.shared
     let team: String
 
-    private var teamLogoURL: String? {
-        for match in store.payload?.matches ?? [] {
-            if match.home == team { return match.homeLogoURL }
-            if match.away == team { return match.awayLogoURL }
-        }
-        return nil
-    }
+    private var teamLogoURL: String? { store.logoURL(for: team) }
 
     private var statements: [Statement] { store.statements(team: team) }
 

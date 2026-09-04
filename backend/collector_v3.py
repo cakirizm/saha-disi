@@ -13,7 +13,7 @@ from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 UA='Mozilla/5.0 (compatible; SahaDisiCollector/2.1; literal-quote-indexer)'
-ROSTER=json.loads((B/'commentator_roster.json').read_text())
+ROSTER=json.loads((B/'commentator_roster.json').read_text(encoding='utf-8'))
 PEOPLE=[(cid,name) for cid,name,_ in ROSTER]; COMMENTATORS={cid:name for cid,name in PEOPLE}
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
@@ -139,7 +139,7 @@ def run():
    found,h=f.result();rows.extend(found);health.append(h)
  unique={x['candidate_id']:x for x in rows}
  health.sort(key=lambda x:(x['commentator'],x['source']))
- (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2))
- (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'sources':health},ensure_ascii=False,indent=2))
+ (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2),encoding='utf-8')
+ (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')
  print('literal quote candidates',len(unique),'commentators',len(PEOPLE),'sources',len(sources))
 if __name__=='__main__':run()

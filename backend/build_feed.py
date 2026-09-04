@@ -9,8 +9,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-seed=json.loads((ROOT/'data/seed.json').read_text())
-candidates=json.loads((B/'candidates.json').read_text()) if (B/'candidates.json').exists() else []
+seed=json.loads((ROOT/'data/seed.json').read_text(encoding='utf-8'))
+candidates=json.loads((B/'candidates.json').read_text(encoding='utf-8')) if (B/'candidates.json').exists() else []
 
 PARAPHRASE_MARKERS=('düşünüyor','değerlendiriyor','savunuyor','belirtiyor','söylüyor','ifade ediyor','eleştirdi','övdü','değerlendirdi','açıkladı','yorumladı','iddia etti','vurguladı','yönündeki iddia','olarak görüyor','olarak değerlendiriyor')
 CANON={
@@ -50,7 +50,7 @@ for s in seed.get('statements',[]):
 seed['statements']=legacy
 
 tff=[]
-try:tff=json.loads((B/'tff_matches.json').read_text())
+try:tff=json.loads((B/'tff_matches.json').read_text(encoding='utf-8'))
 except Exception:pass
 matches={}
 for m in seed.get('matches',[]):
@@ -60,7 +60,7 @@ for m in tff:
     base=dict(matches.get(key,{}));base.update({k:v for k,v in row.items() if v not in ('',None)});base.setdefault('home_score',None);base.setdefault('away_score',None);matches[key]=base
 
 overrides=[]
-try:overrides=json.loads((B/'fixture_overrides.json').read_text())
+try:overrides=json.loads((B/'fixture_overrides.json').read_text(encoding='utf-8'))
 except Exception:pass
 for m in overrides:
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
@@ -68,7 +68,7 @@ for m in overrides:
 seed['matches']=sorted(matches.values(),key=lambda x:(int(x.get('week') or 0),x.get('kickoff',''),x.get('home','')))
 
 logos={}
-try:logos=json.loads((B/'team_logos.json').read_text())
+try:logos=json.loads((B/'team_logos.json').read_text(encoding='utf-8'))
 except Exception:pass
 for m in seed.get('matches',[]):
     m['home_logo_url']=logos.get(m.get('home'))
@@ -76,14 +76,14 @@ for m in seed.get('matches',[]):
 
 photo_by_commentator={}
 try:
-    pdata=json.loads((B/'commentator_photos.json').read_text()).get('photos',{})
+    pdata=json.loads((B/'commentator_photos.json').read_text(encoding='utf-8')).get('photos',{})
     for cid,row in pdata.items():
         if row.get('verified_identity') and row.get('photoURL'):photo_by_commentator[cid]=row['photoURL']
 except Exception:pass
 
 roster_path=B/'commentator_roster.json'
 if roster_path.exists():
-    roster=json.loads(roster_path.read_text());existing={c['id']:c for c in seed.get('commentators',[])}
+    roster=json.loads(roster_path.read_text(encoding='utf-8'));existing={c['id']:c for c in seed.get('commentators',[])}
     def initials(name):
         parts=[x for x in name.replace('-',' ').split() if x];return ''.join(x[0].upper() for x in parts[:3]) or '?'
     merged=[]
@@ -102,7 +102,7 @@ known={(s['commentator'],clean_summary(s['summary']).casefold()) for s in seed.g
 next_id=max((int(s.get('id',0)) for s in seed.get('statements',[])),default=0)+1;review=[]
 
 manual=[]
-try:manual=json.loads((B/'manual_verified.json').read_text())
+try:manual=json.loads((B/'manual_verified.json').read_text(encoding='utf-8'))
 except Exception:pass
 for row in manual:
     summary=clean_summary(row.get('summary',''));key=(row.get('commentator'),summary.casefold())
@@ -124,6 +124,6 @@ counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
 seed['commentators']=sorted(seed.get('commentators',[]),key=lambda c:(-counts.get(c['id'],0),c['name']))
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
-(B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2))
-(B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2))
+(B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
+(B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')
 print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))

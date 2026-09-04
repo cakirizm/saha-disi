@@ -105,7 +105,7 @@ def extract_url(url,source):
  return rows
 
 def run(limit_per_source=20):
- cfg=json.loads((Path(__file__).parent/'sources.json').read_text())
+ cfg=json.loads((Path(__file__).parent/'sources.json').read_text(encoding='utf-8'))
  allrows=[]
  for source in cfg['sources']:
   try:
@@ -116,7 +116,7 @@ def run(limit_per_source=20):
   except Exception as e: print('WARN source',source['id'],e)
  # exact candidate dedupe
  unique={r['candidate_id']:r for r in allrows}
- out=Path(__file__).parent/'candidates.json';out.write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2))
+ out=Path(__file__).parent/'candidates.json';out.write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2),encoding='utf-8')
  print(f'{len(unique)} candidate -> {out}')
 
 if __name__=='__main__':

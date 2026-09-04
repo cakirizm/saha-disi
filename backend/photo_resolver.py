@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'; OUT=B/'commentator_photos.json'
-ROSTER=json.loads((B/'commentator_roster.json').read_text())
+ROSTER=json.loads((B/'commentator_roster.json').read_text(encoding='utf-8'))
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/128 Safari/537.36'
 ALLOWED=('youtube.com','www.youtube.com','instagram.com','www.instagram.com','x.com','twitter.com','tr.wikipedia.org')
 
@@ -135,7 +135,9 @@ def public_profile(name):
  return None
 
 def resolve(name):
- for fn in (wikipedia,youtube_channel,public_profile):
+ # Only identity pages and exact-name channels are safe enough for avatars.
+ # Search-result/video thumbnails frequently include hosts or other guests.
+ for fn in (wikipedia,youtube_channel):
   try:
    hit=fn(name)
    if hit:return hit
@@ -147,19 +149,21 @@ def resolve_one(cid,name):return cid,name,resolve(name)
 def main():
  previous={}
  if OUT.exists():
-  try:previous=json.loads(OUT.read_text()).get('photos',{})
+  try:previous=json.loads(OUT.read_text(encoding='utf-8')).get('photos',{})
   except Exception:pass
  by_id={cid:name for cid,name,_ in ROSTER};photos={}
  for cid,row in previous.items():
   name=by_id.get(cid)
-  if name and row.get('photoURL') and row.get('verified_identity') and identity_matches(name,row.get('resolvedTitle','')):photos[cid]=row
+  resolver=row.get('resolver')
+  is_identity_page=resolver in ('wikipedia','youtube_exact_channel','editorial_verified') or (not resolver and exact_identity(name,row.get('resolvedTitle','')))
+  if name and row.get('photoURL') and row.get('verified_identity') and is_identity_page:photos[cid]=row
  pending=[(cid,name) for cid,name,_ in ROSTER if cid not in photos];found=0
  with ThreadPoolExecutor(max_workers=20) as pool:
   futures=[pool.submit(resolve_one,cid,name) for cid,name in pending]
   for f in as_completed(futures):
    cid,name,hit=f.result()
    if hit:photos[cid]=hit;found+=1
- OUT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'photos':photos},ensure_ascii=False,indent=2))
+ OUT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'photos':photos},ensure_ascii=False,indent=2),encoding='utf-8')
  counts={}
  for row in photos.values():counts[row.get('resolver','unknown')]=counts.get(row.get('resolver','unknown'),0)+1
  print('verified commentator photos',len(photos),'of',len(ROSTER),'new',found,'checked',len(pending),'by_resolver',counts)

@@ -102,7 +102,7 @@ def run():
    'kickoff':f"2026-2027 · {r['week']}. Hafta",'home_score':r['home_score'],'away_score':r['away_score'],
    'image_url':None,'source':'TFF','source_url':URL
   })
- (B/'tff_matches.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
+ (B/'tff_matches.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
  print('tff fixtures',len(out),'weeks',len(set(x['week'] for x in out)))
 
 if __name__=='__main__':run()

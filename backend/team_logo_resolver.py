@@ -73,7 +73,7 @@ def main():
  missing=[t for t in CANONICAL if not out.get(t)]
  for alias,canonical in ALIASES.items():
   if canonical in out:out[alias]=out[canonical]
- OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2))
+ OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
  print('verified real crests',len(CANONICAL)-len(missing),'missing',missing,'matched',seen,'generated_at',datetime.now(timezone.utc).isoformat())
  if missing:raise RuntimeError('missing verified club crests: '+', '.join(missing))
 

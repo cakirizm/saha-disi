@@ -27,6 +27,15 @@ final class AppStore: ObservableObject {
     func refresh() async { await bootstrap(forceRemote: true) }
     func commentator(id: String) -> Commentator? { payload?.commentators.first { $0.id == id } }
 
+    func logoURL(for team: String) -> String? {
+        let target = canonicalTeam(team)
+        for match in payload?.matches ?? [] {
+            if canonicalTeam(match.home) == target, let url = match.homeLogoURL { return url }
+            if canonicalTeam(match.away) == target, let url = match.awayLogoURL { return url }
+        }
+        return nil
+    }
+
     func statements(for commentatorID: String) -> [Statement] {
         (payload?.statements ?? []).filter { $0.commentator == commentatorID }.sorted { $0.date > $1.date }
     }
@@ -120,7 +129,10 @@ final class AppStore: ObservableObject {
             "istanbul başakşehir fk":"Başakşehir", "istanbul başakşehir":"Başakşehir", "başakşehir":"Başakşehir",
             "amed sportif faaliyetler":"Amed SK", "amed":"Amed SK", "amed sk":"Amed SK", "erzurumspor fk":"Erzurumspor", "erzurumspor":"Erzurumspor",
             "corendon alanyaspor":"Alanyaspor", "alanyaspor":"Alanyaspor", "kasımpaşa a.ş.":"Kasımpaşa", "kasımpaşa":"Kasımpaşa",
-            "kocaelispor":"Kocaelispor", "gençlerbirliği":"Gençlerbirliği", "eyüpspor":"Eyüpspor"
+            "kocaelispor":"Kocaelispor", "gençlerbirliği":"Gençlerbirliği", "eyüpspor":"Eyüpspor",
+            "fenerbahce":"Fenerbahçe", "besiktas":"Beşiktaş", "goztepe":"Göztepe", "kasimpasa":"Kasımpaşa",
+            "basaksehir":"Başakşehir", "istanbul basaksehir":"Başakşehir", "caykur rizespor":"Rizespor",
+            "corum fk":"Çorum FK", "genclerbirligi":"Gençlerbirliği", "eyupspor":"Eyüpspor"
         ]
         return aliases[key] ?? value
     }
