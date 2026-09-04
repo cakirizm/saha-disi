@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: saha-disi-live-feed
+  group: saha-disi-live-feed-v2
   cancel-in-progress: true
 
 jobs:
