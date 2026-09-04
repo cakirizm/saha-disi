@@ -68,5 +68,6 @@ jobs:
             echo 'No feed changes.'
           else
             git commit -m 'data: refresh live football commentary feed'
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
