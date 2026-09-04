@@ -20,6 +20,11 @@ workflows:
           keychain add-certificates
           xcode-project use-profiles
 
+      - name: Generate Saha Dışı app icon
+        script: |
+          python3 scripts/generate_app_icon.py
+          file ios/SahaDisi/SahaDisi/Assets.xcassets/AppIcon.appiconset/AppIcon.png
+
       - name: Set unique build number
         script: |
           cd ios/SahaDisi
