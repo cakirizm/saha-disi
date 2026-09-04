@@ -1,67 +1,63 @@
-"""Resolve real club crests from Wikimedia page images.
-No favicons and no guessed domains: each club has an explicit canonical search title and the
-resolved page title must match an allowed club token before its thumbnail is accepted.
+"""Resolve real Süper Lig club crests from ESPN's public football team dataset.
+No favicons: only team logo assets attached to an identified football team are accepted.
 """
 from __future__ import annotations
-import json, re, unicodedata, urllib.parse
+import json, re, unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'; OUT=B/'team_logos.json'
-UA='SahaDisi/2.0 verified-club-crest-resolver'
-SEARCH={
- 'Galatasaray':'Galatasaray SK','Fenerbahçe':'Fenerbahçe SK','Beşiktaş':'Beşiktaş JK','Trabzonspor':'Trabzonspor',
- 'Samsunspor':'Samsunspor','Göztepe':'Göztepe SK','Konyaspor':'Konyaspor','Rizespor':'Çaykur Rizespor',
- 'Kocaelispor':'Kocaelispor','Gençlerbirliği':'Gençlerbirliği SK','Çorum FK':'Çorum FK','Eyüpspor':'Eyüpspor',
- 'Gaziantep FK':'Gaziantep FK','Alanyaspor':'Alanyaspor','Başakşehir':'İstanbul Başakşehir FK','Kasımpaşa':'Kasımpaşa SK',
- 'Amed SK':'Amed SK','Erzurumspor':'Erzurumspor FK'
-}
+URL='https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/teams?limit=100'
+UA='Mozilla/5.0 (compatible; SahaDisi/2.2; verified-football-crest-resolver)'
+CANONICAL=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Rizespor','Kocaelispor','Gençlerbirliği','Çorum FK','Eyüpspor','Gaziantep FK','Alanyaspor','Başakşehir','Kasımpaşa','Amed SK','Erzurumspor']
 ALIASES={
- 'İstanbul Başakşehir':'Başakşehir','İstanbul Başakşehir FK':'Başakşehir','Tümosan Konyaspor':'Konyaspor',
- 'Çaykur Rizespor':'Rizespor','Çaykur Rizespor A.Ş.':'Rizespor','Arca Çorum FK':'Çorum FK','Çorum':'Çorum FK',
- 'Gaziantep':'Gaziantep FK','Gaziantep Futbol Kulübü':'Gaziantep FK','Gaziantep Futbol Kulübü A.Ş.':'Gaziantep FK',
- 'Amed Sportif Faaliyetler':'Amed SK','Erzurumspor FK':'Erzurumspor','Corendon Alanyaspor':'Alanyaspor',
- 'Galatasaray A.Ş.':'Galatasaray','Fenerbahçe A.Ş.':'Fenerbahçe','Beşiktaş A.Ş.':'Beşiktaş','Trabzonspor A.Ş.':'Trabzonspor',
- 'Samsunspor A.Ş.':'Samsunspor','Göztepe A.Ş.':'Göztepe','Kasımpaşa A.Ş.':'Kasımpaşa'
+ 'İstanbul Başakşehir':'Başakşehir','İstanbul Başakşehir FK':'Başakşehir','Tümosan Konyaspor':'Konyaspor','Çaykur Rizespor':'Rizespor','Çaykur Rizespor A.Ş.':'Rizespor',
+ 'Arca Çorum FK':'Çorum FK','Çorum':'Çorum FK','Gaziantep':'Gaziantep FK','Gaziantep Futbol Kulübü':'Gaziantep FK','Gaziantep Futbol Kulübü A.Ş.':'Gaziantep FK',
+ 'Amed Sportif Faaliyetler':'Amed SK','Erzurumspor FK':'Erzurumspor','Corendon Alanyaspor':'Alanyaspor','Galatasaray A.Ş.':'Galatasaray','Fenerbahçe A.Ş.':'Fenerbahçe',
+ 'Beşiktaş A.Ş.':'Beşiktaş','Trabzonspor A.Ş.':'Trabzonspor','Samsunspor A.Ş.':'Samsunspor','Göztepe A.Ş.':'Göztepe','Kasımpaşa A.Ş.':'Kasımpaşa'
+}
+NAME_ALIASES={
+ 'galatasaray':'Galatasaray','fenerbahce':'Fenerbahçe','besiktas':'Beşiktaş','trabzonspor':'Trabzonspor','samsunspor':'Samsunspor','goztepe':'Göztepe',
+ 'konyaspor':'Konyaspor','caykur rizespor':'Rizespor','rizespor':'Rizespor','kocaelispor':'Kocaelispor','genclerbirligi':'Gençlerbirliği','corum fk':'Çorum FK',
+ 'corum':'Çorum FK','eyupspor':'Eyüpspor','gaziantep fk':'Gaziantep FK','gaziantep':'Gaziantep FK','alanyaspor':'Alanyaspor','istanbul basaksehir':'Başakşehir',
+ 'basaksehir':'Başakşehir','kasimpasa':'Kasımpaşa','amed sk':'Amed SK','amedspor':'Amed SK','erzurumspor fk':'Erzurumspor','erzurumspor':'Erzurumspor'
 }
 
 def norm(s):
  s=unicodedata.normalize('NFKD',s or '').encode('ascii','ignore').decode().casefold()
  return re.sub(r'[^a-z0-9]+',' ',s).strip()
 
-def get_json(url):
- req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr-TR,tr;q=0.9'})
+def fetch_data():
+ req=Request(URL,headers={'User-Agent':UA,'Accept':'application/json'})
  with urlopen(req,timeout=18) as r:return json.loads(r.read().decode('utf-8'))
 
-def title_ok(team,title):
- t=norm(title); q=norm(SEARCH[team]); team_n=norm(team)
- important=[x for x in team_n.split() if len(x)>=4 and x not in {'spor'}]
- return all(x in t for x in important[:1]) or all(x in t for x in q.split() if len(x)>=5) 
-
-def resolve(team):
- q=urllib.parse.urlencode({'action':'query','generator':'search','gsrsearch':SEARCH[team],'gsrnamespace':0,'gsrlimit':6,'prop':'pageimages|info','piprop':'thumbnail|original','pithumbsize':512,'inprop':'url','format':'json','origin':'*'})
- data=get_json('https://tr.wikipedia.org/w/api.php?'+q)
- pages=list(data.get('query',{}).get('pages',{}).values())
- pages.sort(key=lambda p:int(p.get('index',999)))
- for p in pages:
-  if not title_ok(team,p.get('title','')):continue
-  image=(p.get('thumbnail') or {}).get('source') or (p.get('original') or {}).get('source')
-  if image and image.startswith('https://upload.wikimedia.org/'):
-   return image
- return None
+def team_rows(data):
+ sports=data.get('sports') or []
+ if sports:
+  leagues=sports[0].get('leagues') or []
+  if leagues:return leagues[0].get('teams') or []
+ return data.get('teams') or []
 
 def main():
- out={};missing=[]
- for team in SEARCH:
-  try: image=resolve(team)
-  except Exception: image=None
-  if image:out[team]=image
-  else:missing.append(team)
+ data=fetch_data();out={};seen=[]
+ for wrapper in team_rows(data):
+  team=wrapper.get('team',wrapper)
+  names=[team.get('displayName'),team.get('shortDisplayName'),team.get('name'),team.get('slug')]
+  canonical=None
+  for name in names:
+   key=norm(name)
+   if key in NAME_ALIASES:canonical=NAME_ALIASES[key];break
+  if not canonical:continue
+  logos=team.get('logos') or []
+  image=next((x.get('href') for x in logos if x.get('href','').startswith('https://')),None)
+  if image:
+   out[canonical]=image;seen.append((canonical,team.get('displayName')))
+ missing=[t for t in CANONICAL if not out.get(t)]
  for alias,canonical in ALIASES.items():
   if canonical in out:out[alias]=out[canonical]
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2))
- print('verified real crests',len([t for t in SEARCH if t in out]),'missing',missing,'generated_at',datetime.now(timezone.utc).isoformat())
- if missing: raise RuntimeError('missing verified club crests: '+', '.join(missing))
+ print('verified real crests',len(CANONICAL)-len(missing),'missing',missing,'matched',seen,'generated_at',datetime.now(timezone.utc).isoformat())
+ if missing:raise RuntimeError('missing verified club crests: '+', '.join(missing))
 
 if __name__=='__main__':main()
