@@ -10,6 +10,7 @@ on:
       - 'backend/*.py'
       - 'backend/sources.json'
       - 'backend/commentators.json'
+      - 'backend/commentator_roster.json'
       - '.github/workflows/collector.yml'
 
 permissions:
@@ -46,7 +47,8 @@ jobs:
           import json
           from pathlib import Path
           p=json.loads(Path('backend/feed.json').read_text())
-          assert len(p.get('commentators', [])) == 27
+          roster=json.loads(Path('backend/commentator_roster.json').read_text())
+          assert len(p.get('commentators', [])) == len(roster) == 204
           assert isinstance(p.get('statements'), list)
           assert isinstance(p.get('matches'), list)
           assert p.get('generated_at')
