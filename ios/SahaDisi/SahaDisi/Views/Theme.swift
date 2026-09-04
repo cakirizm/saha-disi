@@ -1,5 +1,9 @@
 import SwiftUI
 
+extension Font {
+    func black() -> Font { weight(.black) }
+}
+
 enum SDTheme {
     static let background = Color(red: 0.020, green: 0.040, blue: 0.055)
     static let background2 = Color(red: 0.030, green: 0.058, blue: 0.075)
