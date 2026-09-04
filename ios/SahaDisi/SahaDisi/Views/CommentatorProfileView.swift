@@ -34,7 +34,7 @@ struct CommentatorProfileView: View {
 
     private var profileHeader: some View {
         HStack(alignment: .top, spacing: 14) {
-            AvatarView(text: commentator.avatar, size: 88)
+            AvatarView(text: commentator.avatar, size: 88, photoURL: commentator.photoURL)
             VStack(alignment: .leading, spacing: 7) {
                 Text(commentator.name).font(.title2.weight(.black))
                 Text("\(commentator.role) · \(commentator.primarySource)").font(.caption).foregroundStyle(SDTheme.muted)
@@ -77,7 +77,7 @@ struct CommentatorProfileView: View {
                 NavigationLink(value: s) {
                     VStack(alignment: .leading, spacing: 9) {
                         HStack { Text(s.date).font(.caption2).foregroundStyle(SDTheme.muted); Text("·"); Text(s.type == "prediction" ? "Maç Öncesi" : "Yorum").font(.caption2).foregroundStyle(SDTheme.muted); Spacer(); predictionBadge(s) }
-                        Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(4)
+                        Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(5)
                         if let team = s.team { Text(team).font(.caption).foregroundStyle(SDTheme.muted) }
                     }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
                 }.buttonStyle(.plain)
