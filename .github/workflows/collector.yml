@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 */2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'backend/*.py'
+      - 'backend/sources.json'
+      - 'backend/commentators.json'
+      - '.github/workflows/collector.yml'
 
 permissions:
   contents: write
