@@ -11,6 +11,9 @@ on:
       - 'backend/sources.json'
       - 'backend/commentators.json'
       - 'backend/commentator_roster.json'
+      - 'backend/fixture_overrides.json'
+      - 'backend/manual_verified.json'
+      - 'backend/team_logos.json'
       - '.github/workflows/collector.yml'
 
 permissions:
@@ -50,23 +53,51 @@ jobs:
       - name: Build live feed
         run: python backend/build_feed.py
 
-      - name: Validate feed
+      - name: Validate feed before publish
         run: |
           python - <<'PY'
           import json
+          from datetime import datetime
           from pathlib import Path
-          p=json.loads(Path('backend/feed.json').read_text())
+
+          feed=json.loads(Path('backend/feed.json').read_text())
           roster=json.loads(Path('backend/commentator_roster.json').read_text())
-          assert len(p.get('commentators', [])) == len(roster) == 204
-          assert isinstance(p.get('statements'), list)
-          assert isinstance(p.get('matches'), list)
-          assert p.get('generated_at')
-          ids=[s['id'] for s in p['statements']]
-          assert len(ids)==len(set(ids))
-          valid={c['id'] for c in p['commentators']}
-          assert all(s['commentator'] in valid for s in p['statements'])
-          assert all(int(m.get('week',0)) > 0 for m in p['matches'])
-          print('validated', len(p['commentators']), 'commentators', len(p['statements']), 'statements', len(p['matches']), 'matches')
+          overrides=json.loads(Path('backend/fixture_overrides.json').read_text())
+
+          commentators=feed.get('commentators', [])
+          statements=feed.get('statements', [])
+          matches=feed.get('matches', [])
+
+          assert len(commentators) == len(roster) == 204, 'commentator roster mismatch'
+          assert isinstance(statements, list) and isinstance(matches, list)
+          assert feed.get('generated_at'), 'generated_at missing'
+
+          statement_ids=[s['id'] for s in statements]
+          assert len(statement_ids)==len(set(statement_ids)), 'duplicate statement ids'
+          valid_commentators={c['id'] for c in commentators}
+          assert all(s.get('commentator') in valid_commentators for s in statements), 'unknown commentator in statement'
+
+          # Never publish editorial summaries as if they were quotations.
+          assert all(s.get('verbatim') is True for s in statements), 'non-verbatim statement reached live feed'
+          assert all(s.get('status') in {'verified_manual','verified_direct_quote'} for s in statements), 'unverified statement reached live feed'
+          assert all(len((s.get('summary') or '').strip()) >= 20 for s in statements), 'empty/short statement reached live feed'
+
+          match_ids=[m.get('id') for m in matches]
+          assert all(match_ids) and len(match_ids)==len(set(match_ids)), 'missing/duplicate match ids'
+          assert all(int(m.get('week',0)) > 0 for m in matches), 'invalid match week'
+
+          # Every hand-verified current fixture must survive the automated merge exactly.
+          by_id={m['id']:m for m in matches}
+          for expected in overrides:
+              actual=by_id.get(expected['id'])
+              assert actual is not None, f"verified fixture missing: {expected['id']}"
+              for key in ('league','week','home','away','kickoff','home_score','away_score'):
+                  assert actual.get(key)==expected.get(key), f"fixture mismatch {expected['id']} field={key}: {actual.get(key)!r} != {expected.get(key)!r}"
+              datetime.fromisoformat(expected['kickoff'])
+              assert actual.get('home_logo_url'), f"home logo missing: {expected['home']}"
+              assert actual.get('away_logo_url'), f"away logo missing: {expected['away']}"
+
+          print('validated', len(commentators), 'commentators', len(statements), 'verified statements', len(matches), 'matches', len(overrides), 'verified fixtures')
           PY
 
       - name: Publish changed live data
