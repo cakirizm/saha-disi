@@ -1,221 +1,222 @@
 {
-  "generated_at": "2026-09-04T01:20:00+04:00",
-  "commentators": [
+  "generated_at": "2026-09-04T07:22:56.539779+00:00",
+  "sources": [
     {
-      "commentator_id": "ugur-meleke",
-      "name": "Uğur Meleke",
-      "published_records": 3,
-      "high_confidence_records": 3,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "nihat-kahveci",
+      "source": "Kontraspor",
+      "candidates": 6,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "guntekin-onay",
-      "name": "Güntekin Onay",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "ahmet-cakar",
+      "source": "A Spor",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "serdar-ali-celikler",
-      "name": "Serdar Ali Çelikler",
-      "published_records": 4,
-      "high_confidence_records": 2,
-      "latest_record": "2026-09-03",
-      "status": "active"
+      "commentator": "levent-tuzemen",
+      "source": "A Spor",
+      "candidates": 4,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ali-ece",
-      "name": "Ali Ece",
-      "published_records": 1,
-      "high_confidence_records": 1,
-      "latest_record": "2026-09-01",
-      "status": "active"
+      "commentator": "ugur-meleke",
+      "source": "beIN SPORTS",
+      "candidates": 9,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "onder-ozen",
-      "name": "Önder Özen",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "paused_role_change"
+      "commentator": "ugur-meleke",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "metin-tekin",
-      "name": "Metin Tekin",
-      "published_records": 2,
-      "high_confidence_records": 2,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "guntekin-onay",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "abdulkerim-durmaz",
-      "name": "Abdülkerim Durmaz",
-      "published_records": 1,
-      "high_confidence_records": 1,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "serdar-ali-celikler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "emre-ozcan",
-      "name": "Emre Özcan",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "ali-ece",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "erman-yasar",
-      "name": "Erman Yaşar",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "onder-ozen",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "caner-eler",
-      "name": "Caner Eler",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "metin-tekin",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "yagiz-sabuncuoglu",
-      "name": "Yağız Sabuncuoğlu",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "abdulkerim-durmaz",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ugur-karakullukcu",
-      "name": "Uğur Karakullukçu",
-      "published_records": 4,
-      "high_confidence_records": 4,
-      "latest_record": "2026-09-02",
-      "status": "active"
+      "commentator": "emre-ozcan",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "published_records": 3,
-      "high_confidence_records": 3,
-      "latest_record": "2026-08-27",
-      "status": "active"
+      "commentator": "erman-yasar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "firat-gunayer",
-      "name": "Fırat Günayer",
-      "published_records": 1,
-      "high_confidence_records": 0,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "caner-eler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "nihat-kahveci",
-      "name": "Nihat Kahveci",
-      "published_records": 5,
-      "high_confidence_records": 3,
-      "latest_record": "2026-09-01",
-      "status": "active"
+      "commentator": "yagiz-sabuncuoglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "erman-ozgur",
-      "name": "Erman Özgür",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "ugur-karakullukcu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "published_records": 3,
-      "high_confidence_records": 3,
-      "latest_record": "2026-09-01",
-      "status": "active"
+      "commentator": "bulent-timurlenk",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "erman-toroglu",
-      "name": "Erman Toroğlu",
-      "published_records": 2,
-      "high_confidence_records": 1,
-      "latest_record": "2026-08-30",
-      "status": "active"
+      "commentator": "firat-gunayer",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ahmet-cakar",
-      "name": "Ahmet Çakar",
-      "published_records": 13,
-      "high_confidence_records": 13,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "nihat-kahveci",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "sinan-engin",
-      "name": "Sinan Engin",
-      "published_records": 1,
-      "high_confidence_records": 0,
-      "latest_record": "2026-08-27",
-      "status": "active"
+      "commentator": "erman-ozgur",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "necati-ates",
-      "name": "Necati Ateş",
-      "published_records": 1,
-      "high_confidence_records": 0,
-      "latest_record": "2026-08-18",
-      "status": "active"
+      "commentator": "levent-tuzemen",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "haluk-yurekli",
-      "name": "Haluk Yürekli",
-      "published_records": 1,
-      "high_confidence_records": 0,
-      "latest_record": "2026-08-30",
-      "status": "active"
+      "commentator": "erman-toroglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ibrahim-seten",
-      "name": "İbrahim Seten",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "ahmet-cakar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "sansal-buyuka",
-      "name": "Şansal Büyüka",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "sinan-engin",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ali-naci-kucuk",
-      "name": "Ali Naci Küçük",
-      "published_records": 1,
-      "high_confidence_records": 0,
-      "latest_record": "2026-08-10",
-      "status": "active"
+      "commentator": "necati-ates",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "published_records": 1,
-      "high_confidence_records": 1,
-      "latest_record": "2026-08-31",
-      "status": "active"
+      "commentator": "haluk-yurekli",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     },
     {
-      "commentator_id": "ogun-temizkanoglu",
-      "name": "Ogün Temizkanoğlu",
-      "published_records": 0,
-      "high_confidence_records": 0,
-      "latest_record": null,
-      "status": "mapped_pending_data"
+      "commentator": "ibrahim-seten",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "sansal-buyuka",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "ali-naci-kucuk",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "cem-dizdar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "commentator": "ogun-temizkanoglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null
     }
   ]
 }
