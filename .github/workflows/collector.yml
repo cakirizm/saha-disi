@@ -1,0 +1,63 @@
+name: Saha Disi Live Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: saha-disi-live-feed
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Collect public sources
+        run: python backend/collector_v3.py
+
+      - name: Build live feed
+        run: python backend/build_feed.py
+
+      - name: Validate feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('backend/feed.json').read_text())
+          assert len(p.get('commentators', [])) == 27
+          assert isinstance(p.get('statements'), list)
+          assert isinstance(p.get('matches'), list)
+          assert p.get('generated_at')
+          ids=[s['id'] for s in p['statements']]
+          assert len(ids)==len(set(ids))
+          valid={c['id'] for c in p['commentators']}
+          assert all(s['commentator'] in valid for s in p['statements'])
+          print('validated', len(p['commentators']), 'commentators', len(p['statements']), 'statements')
+          PY
+
+      - name: Publish changed live data
+        run: |
+          git config user.name 'saha-disi-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json
+          if git diff --cached --quiet; then
+            echo 'No feed changes.'
+          else
+            git commit -m 'data: refresh live football commentary feed'
+            git push
+          fi
