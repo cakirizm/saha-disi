@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:15:18.052318+00:00",
+  "generated_at": "2026-09-04T21:27:25.172197+00:00",
   "commentators": [
     {
       "id": "ahmet-cakar",
@@ -91,6 +91,18 @@
       "photoURL": null
     },
     {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "oguz-altay",
       "name": "Oğuz Altay",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -110,7 +122,7 @@
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "ugur-karakullukcu",
@@ -176,18 +188,6 @@
       "avatar": "KG",
       "focusTeams": [
         "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "mustafa-culcu",
-      "name": "Mustafa Çulcu",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "MÇ",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
       ],
       "photoURL": null
     },
@@ -972,7 +972,7 @@
         "Beşiktaş",
         "Trabzonspor"
       ],
-      "photoURL": null
+      "photoURL": "https://yt3.googleusercontent.com/qXI21etvZne7eOu_Fj_kEFyloxhrjmcBWoaY2NduGa89Pwi6FxfJ_dUusfDRHGc3IO0CVITH4w=s176-c-k-c0x00ffffff-no-rj-mo"
     },
     {
       "id": "gokmen-sahin",
@@ -1414,7 +1414,7 @@
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Necati_Ate%C5%9F_Eski%C5%9Fehirspor.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "nedim-gungor",
@@ -3068,6 +3068,25 @@
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null
+    },
+    {
+      "id": 41,
+      "commentator": "mustafa-culcu",
+      "date": "2026-09-04",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemlik adına çok ayıp - Halk TV",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
     }
   ],
   "matches": [
@@ -3082,7 +3101,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-basaksehir-kocaelispor",
@@ -3095,7 +3115,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-besiktas-eyupspor",
@@ -3108,7 +3129,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-galatasaray-corum-fk",
@@ -3121,7 +3143,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-gaziantep-fk-alanyaspor",
@@ -3134,7 +3157,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-genclerbirligi-fenerbahce",
@@ -3147,7 +3171,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-kasmpasa-trabzonspor",
@@ -3160,7 +3185,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-konyaspor-rizespor",
@@ -3173,7 +3199,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-01-samsunspor-goztepe",
@@ -3186,7 +3213,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-alanyaspor-besiktas",
@@ -3199,7 +3227,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-erzurumspor-galatasaray",
@@ -3212,7 +3241,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-eyupspor-gaziantep-fk",
@@ -3225,7 +3255,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-fenerbahce-konyaspor",
@@ -3238,7 +3269,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-goztepe-genclerbirligi",
@@ -3251,7 +3283,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-kocaelispor-amed-sk",
@@ -3264,7 +3297,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-rizespor-samsunspor",
@@ -3277,7 +3311,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-trabzonspor-basaksehir",
@@ -3290,7 +3325,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-02-corum-fk-kasmpasa",
@@ -3303,7 +3339,8 @@
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-03-genclerbirligi-erzurumspor",
@@ -3586,7 +3623,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-amed-sk-basaksehir",
@@ -3599,7 +3637,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-besiktas-erzurumspor",
@@ -3612,7 +3651,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-eyupspor-rizespor",
@@ -3625,7 +3665,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-galatasaray-kocaelispor",
@@ -3638,7 +3679,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-gaziantep-fk-fenerbahce",
@@ -3651,7 +3693,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-genclerbirligi-kasmpasa",
@@ -3664,7 +3707,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-konyaspor-trabzonspor",
@@ -3677,7 +3721,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-05-samsunspor-corum-fk",
@@ -3690,7 +3735,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-amed-sk-besiktas",
@@ -3703,7 +3749,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-basaksehir-genclerbirligi",
@@ -3716,7 +3763,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-erzurumspor-samsunspor",
@@ -3729,7 +3777,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-fenerbahce-eyupspor",
@@ -3742,7 +3791,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-goztepe-rizespor",
@@ -3755,7 +3805,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-kasmpasa-konyaspor",
@@ -3768,7 +3819,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-kocaelispor-gaziantep-fk",
@@ -3781,7 +3833,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-trabzonspor-galatasaray",
@@ -3794,7 +3847,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-06-corum-fk-alanyaspor",
@@ -3807,7 +3861,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-alanyaspor-erzurumspor",
@@ -3820,7 +3875,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-besiktas-kocaelispor",
@@ -3833,7 +3889,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-eyupspor-goztepe",
@@ -3846,7 +3903,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-galatasaray-kasmpasa",
@@ -3859,7 +3917,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-gaziantep-fk-corum-fk",
@@ -3872,7 +3931,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-genclerbirligi-amed-sk",
@@ -3885,7 +3945,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-konyaspor-basaksehir",
@@ -3898,7 +3959,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-rizespor-fenerbahce",
@@ -3911,7 +3973,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-07-samsunspor-trabzonspor",
@@ -3924,7 +3987,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-amed-sk-konyaspor",
@@ -3937,7 +4001,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-basaksehir-gaziantep-fk",
@@ -3950,7 +4015,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-erzurumspor-eyupspor",
@@ -3963,7 +4029,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-fenerbahce-alanyaspor",
@@ -3976,7 +4043,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-genclerbirligi-galatasaray",
@@ -3989,7 +4057,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-kasmpasa-samsunspor",
@@ -4002,7 +4071,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-kocaelispor-goztepe",
@@ -4015,7 +4085,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-trabzonspor-besiktas",
@@ -4028,7 +4099,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-08-corum-fk-rizespor",
@@ -4041,7 +4113,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-alanyaspor-kocaelispor",
@@ -4054,7 +4127,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-besiktas-basaksehir",
@@ -4067,7 +4141,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-eyupspor-kasmpasa",
@@ -4080,7 +4155,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-galatasaray-fenerbahce",
@@ -4093,7 +4169,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-gaziantep-fk-erzurumspor",
@@ -4106,7 +4183,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-goztepe-corum-fk",
@@ -4119,7 +4197,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-konyaspor-genclerbirligi",
@@ -4132,7 +4211,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-rizespor-trabzonspor",
@@ -4145,7 +4225,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-09-samsunspor-amed-sk",
@@ -4158,7 +4239,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-amed-sk-eyupspor",
@@ -4171,7 +4253,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-basaksehir-samsunspor",
@@ -4184,7 +4267,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-erzurumspor-corum-fk",
@@ -4197,7 +4281,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-fenerbahce-goztepe",
@@ -4210,7 +4295,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-genclerbirligi-alanyaspor",
@@ -4223,7 +4309,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-kasmpasa-besiktas",
@@ -4236,7 +4323,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-kocaelispor-rizespor",
@@ -4249,7 +4337,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-konyaspor-galatasaray",
@@ -4262,7 +4351,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-10-trabzonspor-gaziantep-fk",
@@ -4275,7 +4365,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-alanyaspor-trabzonspor",
@@ -4288,7 +4379,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-besiktas-genclerbirligi",
@@ -4301,7 +4393,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-eyupspor-kocaelispor",
@@ -4314,7 +4407,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-galatasaray-amed-sk",
@@ -4327,7 +4421,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-gaziantep-fk-kasmpasa",
@@ -4340,7 +4435,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-goztepe-basaksehir",
@@ -4353,7 +4449,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-rizespor-erzurumspor",
@@ -4366,7 +4463,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-samsunspor-konyaspor",
@@ -4379,7 +4477,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-11-corum-fk-fenerbahce",
@@ -4392,7 +4491,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-amed-sk-rizespor",
@@ -4405,7 +4505,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-basaksehir-corum-fk",
@@ -4418,7 +4519,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-erzurumspor-goztepe",
@@ -4431,7 +4533,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-galatasaray-samsunspor",
@@ -4444,7 +4547,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-genclerbirligi-gaziantep-fk",
@@ -4457,7 +4561,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-kasmpasa-alanyaspor",
@@ -4470,7 +4575,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-kocaelispor-fenerbahce",
@@ -4483,7 +4589,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-konyaspor-besiktas",
@@ -4496,7 +4603,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-12-trabzonspor-eyupspor",
@@ -4509,7 +4617,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-alanyaspor-konyaspor",
@@ -4522,7 +4631,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-besiktas-galatasaray",
@@ -4535,7 +4645,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-eyupspor-basaksehir",
@@ -4548,7 +4659,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-fenerbahce-erzurumspor",
@@ -4561,7 +4673,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-gaziantep-fk-amed-sk",
@@ -4574,7 +4687,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-goztepe-trabzonspor",
@@ -4587,7 +4701,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-rizespor-kasmpasa",
@@ -4600,7 +4715,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-samsunspor-genclerbirligi",
@@ -4613,7 +4729,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-13-corum-fk-kocaelispor",
@@ -4626,7 +4743,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-amed-sk-alanyaspor",
@@ -4639,7 +4757,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-basaksehir-fenerbahce",
@@ -4652,7 +4771,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-besiktas-samsunspor",
@@ -4665,7 +4785,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-erzurumspor-kocaelispor",
@@ -4678,7 +4799,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-galatasaray-rizespor",
@@ -4691,7 +4813,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-genclerbirligi-eyupspor",
@@ -4704,7 +4827,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-kasmpasa-goztepe",
@@ -4717,7 +4841,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-konyaspor-gaziantep-fk",
@@ -4730,7 +4855,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-14-trabzonspor-corum-fk",
@@ -4743,7 +4869,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-alanyaspor-samsunspor",
@@ -4756,7 +4883,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-erzurumspor-kasmpasa",
@@ -4769,7 +4897,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-eyupspor-galatasaray",
@@ -4782,7 +4911,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-fenerbahce-trabzonspor",
@@ -4795,7 +4925,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-gaziantep-fk-besiktas",
@@ -4808,7 +4939,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-goztepe-konyaspor",
@@ -4821,7 +4953,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-kocaelispor-genclerbirligi",
@@ -4834,7 +4967,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-rizespor-basaksehir",
@@ -4847,7 +4981,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-15-corum-fk-amed-sk",
@@ -4860,7 +4995,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-amed-sk-goztepe",
@@ -4873,7 +5009,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-basaksehir-erzurumspor",
@@ -4886,7 +5023,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-besiktas-rizespor",
@@ -4899,7 +5037,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-galatasaray-alanyaspor",
@@ -4912,7 +5051,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-genclerbirligi-corum-fk",
@@ -4925,7 +5065,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-kasmpasa-fenerbahce",
@@ -4938,7 +5079,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-konyaspor-eyupspor",
@@ -4951,7 +5093,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-samsunspor-gaziantep-fk",
@@ -4964,7 +5107,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-16-trabzonspor-kocaelispor",
@@ -4977,7 +5121,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-alanyaspor-basaksehir",
@@ -4990,7 +5135,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-erzurumspor-trabzonspor",
@@ -5003,7 +5149,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-eyupspor-samsunspor",
@@ -5016,7 +5163,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-fenerbahce-amed-sk",
@@ -5029,7 +5177,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-gaziantep-fk-galatasaray",
@@ -5042,7 +5191,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-goztepe-besiktas",
@@ -5055,7 +5205,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-kocaelispor-kasmpasa",
@@ -5068,7 +5219,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-rizespor-genclerbirligi",
@@ -5081,7 +5233,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-17-corum-fk-konyaspor",
@@ -5094,7 +5247,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-alanyaspor-gaziantep-fk",
@@ -5107,7 +5261,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-erzurumspor-amed-sk",
@@ -5120,7 +5275,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-eyupspor-besiktas",
@@ -5133,7 +5289,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-fenerbahce-genclerbirligi",
@@ -5146,7 +5303,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-goztepe-samsunspor",
@@ -5159,7 +5317,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-kocaelispor-basaksehir",
@@ -5172,7 +5331,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-rizespor-konyaspor",
@@ -5185,7 +5345,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-trabzonspor-kasmpasa",
@@ -5198,7 +5359,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-18-corum-fk-galatasaray",
@@ -5211,7 +5373,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-amed-sk-kocaelispor",
@@ -5224,7 +5387,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-basaksehir-trabzonspor",
@@ -5237,7 +5401,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-besiktas-alanyaspor",
@@ -5250,7 +5415,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-galatasaray-erzurumspor",
@@ -5263,7 +5429,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-gaziantep-fk-eyupspor",
@@ -5276,7 +5443,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-genclerbirligi-goztepe",
@@ -5289,7 +5457,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-kasmpasa-corum-fk",
@@ -5302,7 +5471,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-konyaspor-fenerbahce",
@@ -5315,7 +5485,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-19-samsunspor-rizespor",
@@ -5328,7 +5499,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-alanyaspor-eyupspor",
@@ -5341,7 +5513,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-erzurumspor-genclerbirligi",
@@ -5354,7 +5527,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-fenerbahce-samsunspor",
@@ -5367,7 +5541,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-goztepe-galatasaray",
@@ -5380,7 +5555,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-kasmpasa-basaksehir",
@@ -5393,7 +5569,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-kocaelispor-konyaspor",
@@ -5406,7 +5583,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-rizespor-gaziantep-fk",
@@ -5419,7 +5597,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-trabzonspor-amed-sk",
@@ -5432,7 +5611,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-20-corum-fk-besiktas",
@@ -5445,7 +5625,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-alanyaspor-rizespor",
@@ -5458,7 +5639,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-amed-sk-kasmpasa",
@@ -5471,7 +5653,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-besiktas-fenerbahce",
@@ -5484,7 +5667,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-eyupspor-corum-fk",
@@ -5497,7 +5681,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-galatasaray-basaksehir",
@@ -5510,7 +5695,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-gaziantep-fk-goztepe",
@@ -5523,7 +5709,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-genclerbirligi-trabzonspor",
@@ -5536,7 +5723,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-konyaspor-erzurumspor",
@@ -5549,7 +5737,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-21-samsunspor-kocaelispor",
@@ -5562,7 +5751,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-basaksehir-amed-sk",
@@ -5575,7 +5765,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-erzurumspor-besiktas",
@@ -5588,7 +5779,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-fenerbahce-gaziantep-fk",
@@ -5601,7 +5793,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-goztepe-alanyaspor",
@@ -5614,7 +5807,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-kasmpasa-genclerbirligi",
@@ -5627,7 +5821,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-kocaelispor-galatasaray",
@@ -5640,7 +5835,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-rizespor-eyupspor",
@@ -5653,7 +5849,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-trabzonspor-konyaspor",
@@ -5666,7 +5863,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-22-corum-fk-samsunspor",
@@ -5679,7 +5877,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-alanyaspor-corum-fk",
@@ -5692,7 +5891,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-besiktas-amed-sk",
@@ -5705,7 +5905,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-eyupspor-fenerbahce",
@@ -5718,7 +5919,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-galatasaray-trabzonspor",
@@ -5731,7 +5933,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-gaziantep-fk-kocaelispor",
@@ -5744,7 +5947,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-genclerbirligi-basaksehir",
@@ -5757,7 +5961,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-konyaspor-kasmpasa",
@@ -5770,7 +5975,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-rizespor-goztepe",
@@ -5783,7 +5989,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-23-samsunspor-erzurumspor",
@@ -5796,7 +6003,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-amed-sk-genclerbirligi",
@@ -5809,7 +6017,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-basaksehir-konyaspor",
@@ -5822,7 +6031,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-erzurumspor-alanyaspor",
@@ -5835,7 +6045,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-fenerbahce-rizespor",
@@ -5848,7 +6059,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-goztepe-eyupspor",
@@ -5861,7 +6073,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-kasmpasa-galatasaray",
@@ -5874,7 +6087,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-kocaelispor-besiktas",
@@ -5887,7 +6101,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-trabzonspor-samsunspor",
@@ -5900,7 +6115,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-24-corum-fk-gaziantep-fk",
@@ -5913,7 +6129,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-alanyaspor-fenerbahce",
@@ -5926,7 +6143,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-besiktas-trabzonspor",
@@ -5939,7 +6157,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-eyupspor-erzurumspor",
@@ -5952,7 +6171,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-galatasaray-genclerbirligi",
@@ -5965,7 +6185,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-gaziantep-fk-basaksehir",
@@ -5978,7 +6199,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-goztepe-kocaelispor",
@@ -5991,7 +6213,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-konyaspor-amed-sk",
@@ -6004,7 +6227,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-rizespor-corum-fk",
@@ -6017,7 +6241,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-25-samsunspor-kasmpasa",
@@ -6030,7 +6255,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-amed-sk-samsunspor",
@@ -6043,7 +6269,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-basaksehir-besiktas",
@@ -6056,7 +6283,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-erzurumspor-gaziantep-fk",
@@ -6069,7 +6297,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-fenerbahce-galatasaray",
@@ -6082,7 +6311,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-genclerbirligi-konyaspor",
@@ -6095,7 +6325,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-kasmpasa-eyupspor",
@@ -6108,7 +6339,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-kocaelispor-alanyaspor",
@@ -6121,7 +6353,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-trabzonspor-rizespor",
@@ -6134,7 +6367,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-26-corum-fk-goztepe",
@@ -6147,7 +6381,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-alanyaspor-genclerbirligi",
@@ -6160,7 +6395,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-besiktas-kasmpasa",
@@ -6173,7 +6409,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-eyupspor-amed-sk",
@@ -6186,7 +6423,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-galatasaray-konyaspor",
@@ -6199,7 +6437,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-gaziantep-fk-trabzonspor",
@@ -6212,7 +6451,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-goztepe-fenerbahce",
@@ -6225,7 +6465,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-rizespor-kocaelispor",
@@ -6238,7 +6479,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-samsunspor-basaksehir",
@@ -6251,7 +6493,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-27-corum-fk-erzurumspor",
@@ -6264,7 +6507,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-amed-sk-galatasaray",
@@ -6277,7 +6521,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-basaksehir-goztepe",
@@ -6290,7 +6535,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-erzurumspor-rizespor",
@@ -6303,7 +6549,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-fenerbahce-corum-fk",
@@ -6316,7 +6563,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-genclerbirligi-besiktas",
@@ -6329,7 +6577,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-kasmpasa-gaziantep-fk",
@@ -6342,7 +6591,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-kocaelispor-eyupspor",
@@ -6355,7 +6605,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-konyaspor-samsunspor",
@@ -6368,7 +6619,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-28-trabzonspor-alanyaspor",
@@ -6381,7 +6633,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-alanyaspor-kasmpasa",
@@ -6394,7 +6647,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-besiktas-konyaspor",
@@ -6407,7 +6661,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-eyupspor-trabzonspor",
@@ -6420,7 +6675,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-fenerbahce-kocaelispor",
@@ -6433,7 +6689,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-gaziantep-fk-genclerbirligi",
@@ -6446,7 +6703,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-goztepe-erzurumspor",
@@ -6459,7 +6717,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-rizespor-amed-sk",
@@ -6472,7 +6731,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-samsunspor-galatasaray",
@@ -6485,7 +6745,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-29-corum-fk-basaksehir",
@@ -6498,7 +6759,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-amed-sk-gaziantep-fk",
@@ -6511,7 +6773,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-basaksehir-eyupspor",
@@ -6524,7 +6787,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-erzurumspor-fenerbahce",
@@ -6537,7 +6801,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-galatasaray-besiktas",
@@ -6550,7 +6815,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-genclerbirligi-samsunspor",
@@ -6563,7 +6829,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-kasmpasa-rizespor",
@@ -6576,7 +6843,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-kocaelispor-corum-fk",
@@ -6589,7 +6857,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-konyaspor-alanyaspor",
@@ -6602,7 +6871,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-30-trabzonspor-goztepe",
@@ -6615,7 +6885,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-alanyaspor-amed-sk",
@@ -6628,7 +6899,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-eyupspor-genclerbirligi",
@@ -6641,7 +6913,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-fenerbahce-basaksehir",
@@ -6654,7 +6927,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-gaziantep-fk-konyaspor",
@@ -6667,7 +6941,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-goztepe-kasmpasa",
@@ -6680,7 +6955,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-kocaelispor-erzurumspor",
@@ -6693,7 +6969,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-rizespor-galatasaray",
@@ -6706,7 +6983,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-samsunspor-besiktas",
@@ -6719,7 +6997,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-31-corum-fk-trabzonspor",
@@ -6732,7 +7011,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-amed-sk-corum-fk",
@@ -6745,7 +7025,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-basaksehir-rizespor",
@@ -6758,7 +7039,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-besiktas-gaziantep-fk",
@@ -6771,7 +7053,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-galatasaray-eyupspor",
@@ -6784,7 +7067,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-genclerbirligi-kocaelispor",
@@ -6797,7 +7081,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-kasmpasa-erzurumspor",
@@ -6810,7 +7095,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-konyaspor-goztepe",
@@ -6823,7 +7109,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-samsunspor-alanyaspor",
@@ -6836,7 +7123,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-32-trabzonspor-fenerbahce",
@@ -6849,7 +7137,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-alanyaspor-galatasaray",
@@ -6862,7 +7151,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-erzurumspor-basaksehir",
@@ -6875,7 +7165,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-eyupspor-konyaspor",
@@ -6888,7 +7179,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-fenerbahce-kasmpasa",
@@ -6901,7 +7193,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-gaziantep-fk-samsunspor",
@@ -6914,7 +7207,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-goztepe-amed-sk",
@@ -6927,7 +7221,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-kocaelispor-trabzonspor",
@@ -6940,7 +7235,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-rizespor-besiktas",
@@ -6953,7 +7249,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-33-corum-fk-genclerbirligi",
@@ -6966,7 +7263,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-amed-sk-fenerbahce",
@@ -6979,7 +7277,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-basaksehir-alanyaspor",
@@ -6992,7 +7291,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-besiktas-goztepe",
@@ -7005,7 +7305,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-galatasaray-gaziantep-fk",
@@ -7018,7 +7319,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-genclerbirligi-rizespor",
@@ -7031,7 +7333,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-kasmpasa-kocaelispor",
@@ -7044,7 +7347,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-konyaspor-corum-fk",
@@ -7057,7 +7361,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-samsunspor-eyupspor",
@@ -7070,7 +7375,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": ""
     },
     {
       "id": "sl-2026-34-trabzonspor-erzurumspor",
@@ -7083,7 +7389,8 @@
       "home_score": null,
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": ""
     }
   ]
 }

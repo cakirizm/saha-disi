@@ -65,6 +65,13 @@ except Exception:pass
 for m in overrides:
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
     base=dict(matches.get(key,{}));base.update(row);base.setdefault('image_url',None);matches[key]=base
+
+for row in matches.values():
+    # Keep the API shape stable while TFF kickoff dates are still unannounced.
+    # A missing optional schedule date must never invalidate the whole iOS feed.
+    row.setdefault('kickoff','')
+    row.setdefault('league','Trendyol Süper Lig')
+    row.setdefault('week',0)
 seed['matches']=sorted(matches.values(),key=lambda x:(int(x.get('week') or 0),x.get('kickoff',''),x.get('home','')))
 
 logos={}

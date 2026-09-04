@@ -20,6 +20,8 @@
 	<string>1</string>
 	<key>SahaDisiFeedURL</key>
 	<string>https://raw.githubusercontent.com/cakirizm/saha-disi/main/backend/feed.json</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
