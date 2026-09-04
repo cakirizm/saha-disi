@@ -7,6 +7,7 @@ struct MatchDetailView: View {
     private var rows: [Statement] { store.statements(matchID: match.id) }
     private var predictions: [Statement] { rows.filter { $0.type == "prediction" } }
     private var afterMatch: [Statement] { rows.filter { $0.type != "prediction" } }
+    private var heroImageURL: String? { match.imageURL ?? rows.compactMap(\.imageURL).first }
 
     var body: some View {
         ScrollView {
@@ -37,15 +38,25 @@ struct MatchDetailView: View {
     }
 
     private var matchHeader: some View {
-        VStack(spacing: 14) {
-            Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption).foregroundStyle(SDTheme.muted)
-            HStack(spacing: 14) {
-                teamBlock(match.home, logo: match.homeLogoURL)
-                Text(score).font(.system(size: 38, weight: .black, design: .rounded)).minimumScaleFactor(0.7)
-                teamBlock(match.away, logo: match.awayLogoURL)
+        ZStack {
+            RoundedRectangle(cornerRadius: 20).fill(SDTheme.panel)
+            if let heroImageURL, let url = URL(string: heroImageURL) {
+                AsyncImage(url: url) { phase in
+                    if case .success(let image) = phase {
+                        image.resizable().scaledToFill().overlay(Color.black.opacity(0.55))
+                    }
+                }.clipShape(RoundedRectangle(cornerRadius: 20))
             }
-            Text("\(match.week). Hafta · \(match.league)").font(.caption).foregroundStyle(SDTheme.muted)
-        }.frame(maxWidth: .infinity).padding(.vertical, 20).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 20))
+            VStack(spacing: 14) {
+                Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption).foregroundStyle(Color.white.opacity(0.72))
+                HStack(spacing: 14) {
+                    teamBlock(match.home, logo: match.homeLogoURL)
+                    Text(score).font(.system(size: 38, weight: .black, design: .rounded)).minimumScaleFactor(0.7)
+                    teamBlock(match.away, logo: match.awayLogoURL)
+                }
+                Text("\(match.week). Hafta · \(match.league)").font(.caption).foregroundStyle(Color.white.opacity(0.72))
+            }.padding(.vertical, 20).padding(.horizontal, 8)
+        }.frame(maxWidth: .infinity).clipped()
     }
 
     private func teamBlock(_ name: String, logo: String?) -> some View {

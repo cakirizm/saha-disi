@@ -12,9 +12,15 @@ final class AppStore: ObservableObject {
         if payload == nil { isLoading = true } else { isRefreshing = true }
         defer { isLoading = false; isRefreshing = false }
         do {
-            payload = try await FeedService.shared.load(forceRemote: forceRemote)
+            let previousIDs = Set(payload?.statements.map(\.id) ?? [])
+            let loaded = try await FeedService.shared.load(forceRemote: forceRemote)
+            payload = loaded
             errorText = nil
             lastRefreshAt = Date()
+            if !previousIDs.isEmpty {
+                let fresh = loaded.statements.filter { !previousIDs.contains($0.id) }.sorted { $0.date > $1.date }
+                await NotificationService.shared.deliverNewStatements(fresh, commentators: loaded.commentators)
+            }
         } catch {
             errorText = error.localizedDescription
         }

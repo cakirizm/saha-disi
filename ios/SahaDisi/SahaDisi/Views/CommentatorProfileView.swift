@@ -2,22 +2,35 @@ import SwiftUI
 
 struct CommentatorProfileView: View {
     @EnvironmentObject var store: AppStore
+    @StateObject private var notifications = NotificationService.shared
     let commentator: Commentator
+    var teamFilter: String? = nil
     @State private var selectedTab = "Yorumlar"
     private let tabs = ["Yorumlar", "İstatistikler", "En Çok Konuştuğu", "Hakkında"]
 
-    private var statements: [Statement] { store.statements(for: commentator.id) }
+    private var allStatements: [Statement] { store.statements(for: commentator.id) }
+    private var statements: [Statement] {
+        guard let teamFilter else { return allStatements }
+        return allStatements.filter { $0.team == teamFilter }
+    }
     private var topPlayers: [RankedItem] {
         let all = statements.flatMap(\.players)
         return Dictionary(grouping: all, by: { $0 }).map { RankedItem(id: $0.key, name: $0.key, count: $0.value.count) }.sorted { $0.count > $1.count }
     }
-    private var predictions: (total: Int, correct: Int, wrong: Int) { store.predictionStats(for: commentator.id) }
+    private var predictions: (total: Int, correct: Int, wrong: Int) {
+        let rows = statements.filter { $0.type == "prediction" && $0.predictionOutcome != nil }
+        return (rows.count, rows.filter { $0.predictionOutcome == "correct" }.count, rows.filter { $0.predictionOutcome == "wrong" }.count)
+    }
     private var successRate: Int { predictions.total == 0 ? 0 : Int((Double(predictions.correct) / Double(predictions.total)) * 100) }
 
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 18) {
                 profileHeader
+                if let teamFilter {
+                    Label("Sadece \(teamFilter) yorumları gösteriliyor", systemImage: "line.3.horizontal.decrease.circle.fill")
+                        .font(.caption.bold()).foregroundStyle(SDTheme.accent)
+                }
                 statsStrip
                 tabBar
                 if selectedTab == "Yorumlar" { commentsSection }
@@ -39,15 +52,34 @@ struct CommentatorProfileView: View {
                 Text(commentator.name).font(.title2.weight(.black))
                 Text(commentator.role).font(.caption).foregroundStyle(SDTheme.muted)
                 Text(commentator.primarySource).font(.caption2).foregroundStyle(SDTheme.muted2)
-                Button("Takip Et") {}.font(.caption.bold()).padding(.horizontal, 18).padding(.vertical, 8).background(SDTheme.accent).foregroundStyle(.black).clipShape(Capsule())
+                notificationMenu
             }
             Spacer()
         }.padding(.top, 8)
     }
 
+    private var notificationMenu: some View {
+        Menu {
+            Button { Task { await notifications.toggleCommentator(commentator.id) } } label: {
+                Label(notifications.isCommentatorEnabled(commentator.id) ? "Yorumcu bildirimini kapat" : "\(commentator.name) bildirimlerini aç", systemImage: "person.crop.circle.badge.checkmark")
+            }
+            if let teamFilter {
+                Button { Task { await notifications.toggle(commentatorID: commentator.id, team: teamFilter) } } label: {
+                    Label(notifications.isPairEnabled(commentator.id, team: teamFilter) ? "\(teamFilter) filtresini kapat" : "Sadece \(teamFilter) + \(commentator.name)", systemImage: "bell.and.waves.left.and.right")
+                }
+            }
+            Button { Task { await notifications.setAll(!notifications.allEnabled) } } label: {
+                Label(notifications.allEnabled ? "Tüm bildirimleri kapat" : "Tüm bildirimleri aç", systemImage: notifications.allEnabled ? "bell.slash.fill" : "bell.badge")
+            }
+        } label: {
+            Label("Bildirimler", systemImage: notifications.isCommentatorEnabled(commentator.id) || notifications.allEnabled ? "bell.fill" : "bell")
+                .font(.caption.bold()).padding(.horizontal, 14).padding(.vertical, 8).background(SDTheme.accent).foregroundStyle(.black).clipShape(Capsule())
+        }
+    }
+
     private var statsStrip: some View {
         HStack(spacing: 0) {
-            stat("Toplam Yorum", statements.count, .white)
+            stat(teamFilter == nil ? "Toplam Yorum" : "Takım Yorumu", statements.count, .white)
             stat("Doğru Tahmin", predictions.correct, SDTheme.green)
             stat("Yanlış Tahmin", predictions.wrong, SDTheme.red)
             stat("Başarı Oranı", successRate, SDTheme.green, suffix: "%")
@@ -71,15 +103,15 @@ struct CommentatorProfileView: View {
 
     private var commentsSection: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Son Yorumlar").font(.title3.bold())
-            if statements.isEmpty { Text("Bu yorumcu için doğrulanmış kayıt henüz yok.").foregroundStyle(SDTheme.muted) }
+            Text(teamFilter.map { "\($0) Hakkındaki Yorumlar" } ?? "Son Yorumlar").font(.title3.bold())
+            if statements.isEmpty { Text("Bu filtre için doğrulanmış kayıt henüz yok.").foregroundStyle(SDTheme.muted) }
             ForEach(statements) { s in
                 NavigationLink(value: s) {
                     VStack(alignment: .leading, spacing: 9) {
                         HStack {
                             Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted)
                             Text("·").foregroundStyle(SDTheme.muted2)
-                            Text(s.type == "prediction" ? "Maç Öncesi" : "Yorum").font(.caption2).foregroundStyle(SDTheme.muted)
+                            Text(s.type == "prediction" ? "Maç Öncesi" : "Doğrulanmış söz").font(.caption2).foregroundStyle(SDTheme.muted)
                             Spacer(); predictionBadge(s)
                         }
                         Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(5)
@@ -115,7 +147,8 @@ struct CommentatorProfileView: View {
             let playerRows = Array(topPlayers.prefix(6)); let playerMax = playerRows.first?.count ?? 1
             SDCard { VStack { ForEach(Array(playerRows.enumerated()), id: \.element.id) { i, item in NavigationLink { PlayerDetailView(player: item.name) } label: { RankBar(rank: i + 1, name: item.name, count: item.count, maxCount: playerMax) }.buttonStyle(.plain) } } }
             Text("En Çok Konuştuğu Takımlar").font(.title3.bold())
-            let teamRows = Array(store.topTeams(for: commentator.id).prefix(6)); let teamMax = teamRows.first?.count ?? 1
+            let sourceRows = teamFilter == nil ? store.topTeams(for: commentator.id) : [RankedItem(id: teamFilter!, name: teamFilter!, count: statements.count)]
+            let teamRows = Array(sourceRows.prefix(6)); let teamMax = teamRows.first?.count ?? 1
             SDCard { VStack { ForEach(Array(teamRows.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { RankBar(rank: i + 1, name: item.name, count: item.count, maxCount: teamMax) }.buttonStyle(.plain) } } }
         }
     }
@@ -124,7 +157,7 @@ struct CommentatorProfileView: View {
         SDCard {
             VStack(alignment: .leading, spacing: 10) {
                 Text(commentator.name).font(.headline)
-                Text("Saha Dışı, kamuya açık kaynaklardan doğrulanmış yorumları kısa, okunabilir ve kaynak bağlantılı biçimde gösterir. Ana kaynak: \(commentator.primarySource).").font(.subheadline).foregroundStyle(SDTheme.muted)
+                Text("Saha Dışı, kamuya açık kaynaklardan doğrulanmış doğrudan sözleri kısa ve kaynak bağlantılı biçimde gösterir. Ana kaynak: \(commentator.primarySource).").font(.subheadline).foregroundStyle(SDTheme.muted)
             }
         }
     }

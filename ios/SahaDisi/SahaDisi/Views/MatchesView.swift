@@ -7,6 +7,12 @@ struct MatchesView: View {
     private var matches: [Match] { (store.payload?.matches ?? []).sorted { ($0.week, $0.kickoff) < ($1.week, $1.kickoff) } }
     private var weeks: [Int] { Array(Set(matches.map(\.week))).sorted() }
     private var currentWeek: Int? {
+        let now = Date()
+        let dated = matches.compactMap { match -> (Int, Date)? in
+            guard let date = parseDate(match.kickoff) else { return nil }
+            return (match.week, date)
+        }
+        if let nearest = dated.min(by: { abs($0.1.timeIntervalSince(now)) < abs($1.1.timeIntervalSince(now)) }) { return nearest.0 }
         let withScores = matches.filter { $0.homeScore != nil && $0.awayScore != nil }.map(\.week)
         return withScores.max() ?? weeks.first
     }
@@ -56,7 +62,7 @@ struct MatchesView: View {
             HStack(spacing: 8) {
                 Button { selectedWeek = nil } label: { weekChip("Tümü", active: selectedWeek == nil) }.buttonStyle(.plain)
                 ForEach(weeks, id: \.self) { week in
-                    Button { selectedWeek = week } label: { weekChip("H\(week)", active: selectedWeek == week) }.buttonStyle(.plain)
+                    Button { selectedWeek = week } label: { weekChip("\(week). Hafta", active: selectedWeek == week) }.buttonStyle(.plain)
                 }
             }
         }
@@ -99,6 +105,17 @@ struct MatchesView: View {
             }
             .background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 17)).overlay(RoundedRectangle(cornerRadius: 17).stroke(SDTheme.line))
         }.buttonStyle(.plain)
+    }
+
+    private func parseDate(_ value: String) -> Date? {
+        let iso = ISO8601DateFormatter()
+        if let d = iso.date(from: value) { return d }
+        let formats = ["yyyy-MM-dd", "dd.MM.yyyy HH:mm"]
+        for format in formats {
+            let formatter = DateFormatter(); formatter.locale = Locale(identifier: "tr_TR"); formatter.dateFormat = format
+            if let d = formatter.date(from: value) { return d }
+        }
+        return nil
     }
 
     private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "vs" }
