@@ -1,35 +1,34 @@
-"""Resolve club crest thumbnails from Turkish Wikipedia pageimages API.
-Only public remote image URLs are stored; no image binaries are copied into the repo.
+"""Build reliable remote club crest URLs without paid APIs.
+
+We use the Google favicon endpoint against each club's official domain. It is deliberately
+simple: no scraping, no API key and no binary assets are copied into the repository.
 """
 from __future__ import annotations
 import json, urllib.parse
 from pathlib import Path
-from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-UA='SahaDisi/1.1 team-logo-resolver'
-TEAM_PAGES={
- 'Galatasaray':'Galatasaray_(futbol_takımı)','Fenerbahçe':'Fenerbahçe_(futbol_takımı)','Beşiktaş':'Beşiktaş_(futbol_takımı)','Trabzonspor':'Trabzonspor',
- 'Samsunspor':'Samsunspor','Göztepe':'Göztepe_SK','Konyaspor':'Konyaspor','Rizespor':'Çaykur_Rizespor','Kocaelispor':'Kocaelispor','Gençlerbirliği':'Gençlerbirliği_SK',
- 'Çorum FK':'Çorum_FK','Çorum':'Çorum_FK','Eyüpspor':'Eyüpspor','Gaziantep FK':'Gaziantep_FK','Gaziantep':'Gaziantep_FK','Alanyaspor':'Alanyaspor',
- 'Başakşehir':'İstanbul_Başakşehir_FK','Kasımpaşa':'Kasımpaşa_SK','Amed SK':'Amed_SK','Amed':'Amed_SK','Erzurumspor':'Erzurumspor_FK'}
+DOMAINS={
+ 'Galatasaray':'galatasaray.org','Fenerbahçe':'fenerbahce.org','Beşiktaş':'bjk.com.tr','Trabzonspor':'trabzonspor.org.tr',
+ 'Samsunspor':'samsunspor.org.tr','Göztepe':'goztepe.org.tr','Konyaspor':'konyaspor.org.tr','Rizespor':'caykurrizespor.org.tr',
+ 'Kocaelispor':'kocaelispor.com.tr','Gençlerbirliği':'genclerbirligi.org.tr','Çorum FK':'corumfk.com.tr','Eyüpspor':'eyupspor.org.tr',
+ 'Gaziantep FK':'gaziantepfk.org','Alanyaspor':'alanyaspor.org.tr','Başakşehir':'ibfk.com.tr','Kasımpaşa':'kasimpasa.com.tr',
+ 'Amed SK':'amedspor.com.tr','Erzurumspor':'erzurumspor.org.tr'
+}
+ALIASES={
+ 'İstanbul Başakşehir':'Başakşehir','İstanbul Başakşehir FK':'Başakşehir','Tümosan Konyaspor':'Konyaspor',
+ 'Çaykur Rizespor':'Rizespor','Arca Çorum FK':'Çorum FK','Çorum':'Çorum FK','Gaziantep':'Gaziantep FK',
+ 'Gaziantep Futbol Kulübü':'Gaziantep FK','Amed Sportif Faaliyetler':'Amed SK','Erzurumspor FK':'Erzurumspor',
+ 'Corendon Alanyaspor':'Alanyaspor'
+}
 
-def resolve(page):
- params=urllib.parse.urlencode({'action':'query','format':'json','prop':'pageimages','pithumbsize':'256','titles':page,'redirects':'1'})
- req=Request('https://tr.wikipedia.org/w/api.php?'+params,headers={'User-Agent':UA})
- with urlopen(req,timeout=15) as r:data=json.load(r)
- for row in data.get('query',{}).get('pages',{}).values():
-  if row.get('thumbnail',{}).get('source'): return row['thumbnail']['source']
- return None
+def logo(domain: str) -> str:
+    return 'https://www.google.com/s2/favicons?domain='+urllib.parse.quote(domain)+'&sz=256'
 
 def main():
- out={}
- for team,page in TEAM_PAGES.items():
-  try:
-   url=resolve(page)
-   if url: out[team]=url
-  except Exception as e: print('logo miss',team,str(e)[:80])
- (B/'team_logos.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
- print('team logos',len(out))
+    out={team:logo(domain) for team,domain in DOMAINS.items()}
+    for alias,canonical in ALIASES.items(): out[alias]=out[canonical]
+    (B/'team_logos.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
+    print('team logos',len(out))
 
 if __name__=='__main__':main()
