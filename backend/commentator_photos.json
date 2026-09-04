@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:22:33.183766+00:00",
+  "generated_at": "2026-09-04T16:29:20.641520+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -95,6 +95,20 @@
       "resolvedTitle": "İsmail Er",
       "verified_identity": true,
       "resolver": "youtube_exact_channel"
+    },
+    "levent-tuzemen": {
+      "photoURL": "https://i.ytimg.com/pl_c/PLBX3r4bR79SigpShr3pmpJr9x4cvUC9VB/studio_square_thumbnail.jpg?sqp=CKa369QG-oaymwEICPABEPABSFqi85f_AwYI_rLXzQY=&rs=AOn4CLD6OCP6CpA4wKi-VOVEAom13qC9VQ&days_since_epoch=20700",
+      "photoSource": "https://www.youtube.com/playlist?list=PLBX3r4bR79SigpShr3pmpJr9x4cvUC9VB",
+      "resolvedTitle": "Levent Tüzemen - Sürmanşet",
+      "verified_identity": true,
+      "resolver": "public_profile"
+    },
+    "ogun-temizkanoglu": {
+      "photoURL": "https://i.ytimg.com/vi/tziXNttPvPU/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLC6cVQsx05vPhoD2KirUwRhI17JXg",
+      "photoSource": "https://www.youtube.com/shorts/tziXNttPvPU",
+      "resolvedTitle": "Ogün Temizkanoğlu: Amed SF 2-1 Trabzonspor maç yorumu#shorts",
+      "verified_identity": true,
+      "resolver": "public_profile"
     }
   }
 }
