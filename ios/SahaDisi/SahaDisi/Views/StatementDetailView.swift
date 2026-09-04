@@ -18,6 +18,18 @@ struct StatementDetailView: View {
                     }
                 }
 
+                if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
+                    AsyncImage(url: url) { phase in
+                        if case .success(let image) = phase {
+                            image.resizable().scaledToFill()
+                        } else {
+                            Rectangle().fill(SDTheme.panel2)
+                        }
+                    }
+                    .frame(height: 205).frame(maxWidth: .infinity).clipped()
+                    .clipShape(RoundedRectangle(cornerRadius: 18))
+                }
+
                 VStack(alignment: .leading, spacing: 10) {
                     Text(statement.type == "prediction" ? "Ne söyledi?" : "Ana fikir").font(.caption.bold()).foregroundStyle(SDTheme.accent)
                     Text("“\(statement.summary)”").font(.system(size: 25, weight: .bold)).lineSpacing(5)
