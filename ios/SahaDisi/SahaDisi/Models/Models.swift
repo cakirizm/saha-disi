@@ -43,11 +43,13 @@ struct Statement: Codable, Identifiable, Hashable {
     let status: String?
     let matchId: String?
     let predictionOutcome: String?
+    let imageURL: String?
 
     enum CodingKeys: String, CodingKey {
         case id, commentator, date, team, players, topic, type, sentiment, strength, summary, source, url, confidence, status
         case matchId = "match_id"
         case predictionOutcome = "prediction_outcome"
+        case imageURL = "image_url"
     }
 }
 
