@@ -1,0 +1,58 @@
+[
+  {
+    "commentator": "ahmet-cakar",
+    "date": "2026-08-30",
+    "team": "Galatasaray",
+    "players": ["Osimhen"],
+    "topic": "Maç yorumu",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 9,
+    "summary": "G.Saray, asla tat vermiyor. Osimhen dışında çabalayan, takımı ateşleyen bir oyuncu yok.",
+    "source": "Fotomaç / Sabah",
+    "url": "https://www.fotomac.com.tr/galatasaray/2026/08/30/ahmet-cakar-galatasaray-goztepe-macini-yorumladi",
+    "confidence": 100
+  },
+  {
+    "commentator": "ahmet-cakar",
+    "date": "2026-08-31",
+    "team": "Fenerbahçe",
+    "players": [],
+    "topic": "Maç yorumu",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 10,
+    "summary": "İddia ediyorum dört büyük arasında en iyi futbolu oynayan takım Fenerbahçe.",
+    "source": "A Spor / Sabah",
+    "url": "https://www.aspor.com.tr/fenerbahce/2026/08/31/ahmet-cakar-samsunspor-fenerbahce-macindaki-tartismali-pozisyonlari-yorumladi",
+    "confidence": 100
+  },
+  {
+    "commentator": "ahmet-cakar",
+    "date": "2026-08-31",
+    "team": "Fenerbahçe",
+    "players": [],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "negative",
+    "strength": 9,
+    "summary": "Yasin Kol, inanılmaz kötü bir maç yönetti.",
+    "source": "A Spor / Sabah",
+    "url": "https://www.aspor.com.tr/fenerbahce/2026/08/31/ahmet-cakar-samsunspor-fenerbahce-macindaki-tartismali-pozisyonlari-yorumladi",
+    "confidence": 100
+  },
+  {
+    "commentator": "ahmet-cakar",
+    "date": "2026-08-16",
+    "team": "Fenerbahçe",
+    "players": [],
+    "topic": "Kadro / Rotasyon",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 8,
+    "summary": "Sezon başı rotasyon hem çok tehlikeli hem de çok anlamsız geliyor bana.",
+    "source": "A Spor / Sabah",
+    "url": "https://www.aspor.com.tr/fenerbahce/2026/08/16/ahmet-cakar-genclerbirligi-fenerbahce-macindaki-penalti-pozisyonunu-yorumladi",
+    "confidence": 100
+  }
+]
