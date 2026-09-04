@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:24:37.033478+00:00",
+  "generated_at": "2026-09-04T20:28:18.941896+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -144,6 +144,13 @@
       "resolvedTitle": "HAKAN DEDE",
       "verified_identity": true,
       "resolver": "youtube_exact_channel"
+    },
+    "erman-toroglu": {
+      "photoURL": "https://i.ytimg.com/vi/Np5RY6Qt9_0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB2dhsJZO0RwSvv7K4imxGCTK08dw&usqp=CCk",
+      "photoSource": "https://www.youtube.com/shorts/Np5RY6Qt9_0",
+      "resolvedTitle": "Erman Toroğlu: Hocam, Talisca takım oyunu oynayan bir adam değildi ya. #shorts",
+      "verified_identity": true,
+      "resolver": "public_profile"
     }
   }
 }
