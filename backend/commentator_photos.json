@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:33:11.694242+00:00",
+  "generated_at": "2026-09-04T16:21:06.697107+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -18,6 +18,55 @@
       "photoSource": "https://tr.wikipedia.org/wiki/Metin_Tekin",
       "resolvedTitle": "Metin Tekin",
       "verified_identity": true
+    },
+    "cagatay-celik": {
+      "photoURL": "https://yt3.googleusercontent.com/d5Ic9XpjZNW-qEL4Fi0LIXriToc_FtjoGJt_3joKy7dO7IlJYdo0Dy0-2TxGd1JhjclWwzA36w=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCJ22F51_UVSKwpkKMicRNhQ",
+      "resolvedTitle": "Çağatay Çelik",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
+    },
+    "necati-ates": {
+      "photoURL": "https://i.ytimg.com/vi/FEEaW5KkPTY/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAaKmpP5PecvSSWOIsntjYO5T1AVg&usqp=CCk",
+      "photoSource": "https://www.youtube.com/shorts/FEEaW5KkPTY",
+      "resolvedTitle": "🚨Necati Ateş, Galatasaray Transfer Planmasını Anlatıyor. #galatasaray #transfer #süperlig",
+      "verified_identity": true,
+      "resolver": "public_profile"
+    },
+    "alen-markaryan": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Alen_Markaryan",
+      "resolvedTitle": "Alen Markaryan",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "feyyaz-ucar": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Feyyaz_U%C3%A7ar_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Feyyaz_U%C3%A7ar",
+      "resolvedTitle": "Feyyaz Uçar",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "hakan-kurt": {
+      "photoURL": "https://yt3.googleusercontent.com/SK4WLwHC_VQU0qPK-tPOuuEzss7vwbrYaxJOI3feVQJ0QmCUrhUffeL6qIzkyfamDd5ttPKt=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCj4svXVNZIuXabCzGn1msuw",
+      "resolvedTitle": "Hakan Kurt",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
+    },
+    "hasan-kurt": {
+      "photoURL": "https://yt3.googleusercontent.com/PFmevCBJ87xC-4AM_ODTlZeYd9Zbg88AmA5tSy6CCA_tOcKnBRMbI1lyrV9kgKqVUJw9alMUsw=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCFj7AdXjyW4C97pGrhfLvQw",
+      "resolvedTitle": "HASAN KURT",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
+    },
+    "rustu-recber": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Rustu_Recber_2010.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/R%C3%BC%C5%9Ft%C3%BC_Re%C3%A7ber",
+      "resolvedTitle": "Rüştü Reçber",
+      "verified_identity": true,
+      "resolver": "wikipedia"
     }
   }
 }
