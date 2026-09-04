@@ -5,11 +5,15 @@ struct HomeView: View {
     @State private var heroIndex = 0
 
     private var featuredMatches: [Match] {
-        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(4))
+        Array((store.payload?.matches ?? []).sorted { a, b in
+            let ac = store.statements(matchID: a.id).count
+            let bc = store.statements(matchID: b.id).count
+            if ac != bc { return ac > bc }
+            return a.kickoff > b.kickoff
+        }.prefix(4))
     }
-
     private var recentMatches: [Match] {
-        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(4))
+        Array((store.payload?.matches ?? []).filter { $0.homeScore != nil }.sorted { $0.kickoff > $1.kickoff }.prefix(4))
     }
 
     var body: some View {
@@ -35,24 +39,24 @@ struct HomeView: View {
             HStack {
                 SDLogo()
                 Spacer()
-                NavigationLink { ExploreView() } label: { Image(systemName: "magnifyingglass").font(.title3).frame(width: 36, height: 36) }
-                NavigationLink { MoreDetailView(title: "Bildirimler", icon: "bell") } label: { Image(systemName: "bell").font(.title3).frame(width: 36, height: 36) }
+                NavigationLink { ExploreView() } label: { Image(systemName: "magnifyingglass").font(.title3).frame(width: 38, height: 38) }
+                NavigationLink { MoreDetailView(title: "Bildirimler", icon: "bell") } label: { Image(systemName: "bell").font(.title3).frame(width: 38, height: 38) }
             }.buttonStyle(.plain).padding(.top, 10)
 
-            HStack(spacing: 20) {
-                topTab("Futbol", selected: true) { MatchesView() }
-                topTab("Yorumcular", selected: false) { CommentatorsView() }
-                topTab("Oyuncular", selected: false) { ExploreView() }
-                topTab("Takımlar", selected: false) { ExploreView() }
+            HStack(spacing: 0) {
+                connectedTab("Futbol", selected: true) { MatchesView() }
+                connectedTab("Yorumcular", selected: false) { CommentatorsView() }
+                connectedTab("Oyuncular", selected: false) { PlayerDirectoryView() }
+                connectedTab("Takımlar", selected: false) { TeamDirectoryView() }
             }
             Rectangle().fill(SDTheme.line).frame(height: 1)
         }
     }
 
-    private func topTab<Destination: View>(_ text: String, selected: Bool, @ViewBuilder destination: () -> Destination) -> some View {
+    private func connectedTab<Destination: View>(_ text: String, selected: Bool, @ViewBuilder destination: () -> Destination) -> some View {
         NavigationLink(destination: destination()) {
             VStack(spacing: 8) {
-                Text(text).font(.caption.weight(selected ? .bold : .medium)).foregroundStyle(selected ? .white : SDTheme.muted)
+                Text(text).font(.caption.weight(selected ? .bold : .medium)).foregroundStyle(selected ? .white : SDTheme.muted).frame(maxWidth: .infinity)
                 Capsule().fill(selected ? SDTheme.accent : .clear).frame(height: 2)
             }
         }.buttonStyle(.plain)
@@ -65,16 +69,9 @@ struct HomeView: View {
             } else {
                 TabView(selection: $heroIndex) {
                     ForEach(Array(featuredMatches.enumerated()), id: \.element.id) { index, match in
-                        NavigationLink { MatchDetailView(match: match) } label: {
-                            matchHero(match)
-                        }
-                        .buttonStyle(.plain)
-                        .tag(index)
+                        NavigationLink { MatchDetailView(match: match) } label: { matchHero(match) }.buttonStyle(.plain).tag(index)
                     }
-                }
-                .frame(height: 250)
-                .tabViewStyle(.page(indexDisplayMode: .never))
-
+                }.frame(height: 250).tabViewStyle(.page(indexDisplayMode: .never))
                 HStack(spacing: 6) {
                     ForEach(featuredMatches.indices, id: \.self) { index in
                         Button { withAnimation { heroIndex = index } } label: {
@@ -89,17 +86,14 @@ struct HomeView: View {
     private func matchHero(_ match: Match) -> some View {
         ZStack(alignment: .bottomLeading) {
             MatchArtwork(match: match)
-            LinearGradient(colors: [.clear, Color.black.opacity(0.88)], startPoint: .top, endPoint: .bottom)
-            VStack(alignment: .leading, spacing: 10) {
-                HStack { TagPill(text: "GÜNDEM", highlighted: true); Spacer(); Text("Hafta \(match.week)").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
-                Text(heroHeadline(match)).font(.system(size: 26, weight: .black, design: .rounded)).lineLimit(2)
+            LinearGradient(colors: [.clear, Color.black.opacity(0.90)], startPoint: .top, endPoint: .bottom)
+            VStack(alignment: .leading, spacing: 9) {
+                HStack { TagPill(text: "GÜNDEM", highlighted: true); Spacer(); Text("\(match.week). Hafta").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
+                Text(heroHeadline(match)).font(.system(size: 25, weight: .black, design: .rounded)).lineLimit(2)
                 Text(heroSubline(match)).font(.subheadline).foregroundStyle(Color.white.opacity(0.82)).lineLimit(2)
-                Text("Kaydırarak diğer gündemlere geç").font(.caption2).foregroundStyle(Color.white.opacity(0.55))
+                Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption2).foregroundStyle(Color.white.opacity(0.58))
             }.padding(18)
-        }
-        .frame(height: 240)
-        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 22).stroke(SDTheme.line))
+        }.frame(height: 240).clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous)).overlay(RoundedRectangle(cornerRadius: 22).stroke(SDTheme.line))
     }
 
     private func heroHeadline(_ m: Match) -> String {
@@ -107,7 +101,6 @@ struct HomeView: View {
         if hs == as_ { return "\(m.home) ile \(m.away) puanları paylaştı" }
         return "\(hs > as_ ? m.home : m.away) 3 puanı aldı"
     }
-
     private func heroSubline(_ m: Match) -> String {
         let count = store.statements(matchID: m.id).count
         let scoreText = (m.homeScore != nil && m.awayScore != nil) ? "\(m.homeScore!)-\(m.awayScore!)" : "vs"
@@ -116,15 +109,15 @@ struct HomeView: View {
 
     private var compactScores: some View {
         VStack(alignment: .leading, spacing: 8) {
-            header("Son Maçlar", trailing: "Maçlara git")
+            header("Son Maçlar", trailing: "TFF")
             ForEach(recentMatches, id: \.id) { match in
                 NavigationLink { MatchDetailView(match: match) } label: {
                     HStack(spacing: 10) {
-                        MatchMiniArt(match: match)
+                        TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: 36)
                         Text(match.home).font(.subheadline.weight(.semibold)).frame(maxWidth: .infinity, alignment: .leading)
                         Text(score(match)).font(.headline.black()).frame(width: 54)
                         Text(match.away).font(.subheadline.weight(.semibold)).frame(maxWidth: .infinity, alignment: .trailing)
-                        Image(systemName: "chevron.right").font(.caption2).foregroundStyle(SDTheme.muted2)
+                        TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: 36)
                     }.padding(.horizontal, 12).padding(.vertical, 10).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 12))
                 }.buttonStyle(.plain)
             }
@@ -142,7 +135,7 @@ struct HomeView: View {
                                 let c = store.commentator(id: s.commentator)
                                 HStack(spacing: 8) { AvatarView(text: c?.avatar ?? "?", size: 34, photoURL: c?.photoURL); Text(c?.name ?? s.commentator).font(.caption.bold()).lineLimit(1) }
                                 Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(4).frame(height: 74, alignment: .top)
-                                HStack { outcomeBadge(s); Spacer(); Text(s.date).font(.caption2).foregroundStyle(SDTheme.muted2) }
+                                HStack { outcomeBadge(s); Spacer(); Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted2) }
                             }.padding(14).frame(width: 275, alignment: .leading).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
                         }.buttonStyle(.plain)
                     }
@@ -154,28 +147,16 @@ struct HomeView: View {
     private var topPlayers: some View {
         VStack(alignment: .leading, spacing: 10) {
             header("En Çok Konuşulan Oyuncular", trailing: "Canlı")
-            SDCard {
-                VStack(spacing: 5) {
-                    let rows = Array(store.rankedPlayers.prefix(5)); let maxCount = rows.first?.count ?? 1
-                    ForEach(Array(rows.enumerated()), id: \.element.id) { index, item in
-                        NavigationLink { PlayerDetailView(player: item.name) } label: { RankBar(rank: index + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain)
-                    }
-                }
-            }
+            let rows = Array(store.rankedPlayers.prefix(5)); let maxCount = rows.first?.count ?? 1
+            SDCard { VStack(spacing: 5) { ForEach(Array(rows.enumerated()), id: \.element.id) { i, item in NavigationLink { PlayerDetailView(player: item.name) } label: { RankBar(rank: i + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain) } } }
         }
     }
 
     private var topTeams: some View {
         VStack(alignment: .leading, spacing: 10) {
             header("En Çok Konuşulan Takımlar", trailing: "Canlı")
-            SDCard {
-                VStack(spacing: 5) {
-                    let rows = Array(store.rankedTeams.prefix(5)); let maxCount = rows.first?.count ?? 1
-                    ForEach(Array(rows.enumerated()), id: \.element.id) { index, item in
-                        NavigationLink { TeamDetailView(team: item.name) } label: { RankBar(rank: index + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain)
-                    }
-                }
-            }
+            let rows = Array(store.rankedTeams.prefix(5)); let maxCount = rows.first?.count ?? 1
+            SDCard { VStack(spacing: 5) { ForEach(Array(rows.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { RankBar(rank: i + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain) } } }
         }
     }
 
@@ -200,7 +181,6 @@ struct HomeView: View {
         let color = s.predictionOutcome == "correct" ? SDTheme.green : (s.predictionOutcome == "wrong" ? SDTheme.red : SDTheme.accent)
         return Text(text).font(.caption2.black()).padding(.horizontal, 7).padding(.vertical, 4).background(color.opacity(0.15)).foregroundStyle(color).clipShape(RoundedRectangle(cornerRadius: 5))
     }
-
     private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "vs" }
     private func header(_ title: String, trailing: String) -> some View { HStack { Text(title).font(.title3.bold()); Spacer(); Text(trailing).font(.caption).foregroundStyle(SDTheme.accent) } }
 }
@@ -211,33 +191,20 @@ struct MatchArtwork: View {
         ZStack {
             LinearGradient(colors: [Color.white.opacity(0.12), SDTheme.background2], startPoint: .topLeading, endPoint: .bottomTrailing)
             if let imageURL = match.imageURL, let url = URL(string: imageURL) {
-                AsyncImage(url: url) { phase in
-                    if case .success(let image) = phase { image.resizable().scaledToFill() }
-                }
+                AsyncImage(url: url) { phase in if case .success(let image) = phase { image.resizable().scaledToFill().opacity(0.40) } }
             }
             HStack(spacing: 24) {
-                teamDisc(match.home)
+                TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: 82)
                 Text("VS").font(.caption.black()).foregroundStyle(Color.white.opacity(0.45))
-                teamDisc(match.away)
+                TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: 82)
             }
-        }
-        .clipped()
+        }.clipped()
     }
-    private func teamDisc(_ name: String) -> some View {
-        ZStack { Circle().fill(Color.black.opacity(0.28)); Text(initials(name)).font(.system(size: 28, weight: .black, design: .rounded)) }
-            .frame(width: 78, height: 78).overlay(Circle().stroke(Color.white.opacity(0.15)))
-    }
-    private func initials(_ name: String) -> String { String(name.split(separator: " ").prefix(2).compactMap { $0.first }.map(String.init).joined()) }
 }
 
 struct MatchMiniArt: View {
     let match: Match
-    var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 9).fill(LinearGradient(colors: [SDTheme.panel2, Color.white.opacity(0.08)], startPoint: .topLeading, endPoint: .bottomTrailing))
-            Image(systemName: "sportscourt.fill").font(.caption).foregroundStyle(.white.opacity(0.75))
-        }.frame(width: 38, height: 38)
-    }
+    var body: some View { HStack(spacing: -7) { TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: 31); TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: 31) }.frame(width: 48, height: 38) }
 }
 
 struct StatementRow: View {
@@ -248,10 +215,30 @@ struct StatementRow: View {
             let c = store.commentator(id: statement.commentator)
             AvatarView(text: c?.avatar ?? "?", size: 42, photoURL: c?.photoURL)
             VStack(alignment: .leading, spacing: 7) {
-                HStack { Text(c?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(statement.date).font(.caption2).foregroundStyle(SDTheme.muted2) }
+                HStack { Text(c?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2) }
                 Text(statement.summary).font(.subheadline).lineLimit(5)
                 HStack { TagPill(text: statement.topic); if let team = statement.team { TagPill(text: team) }; Spacer(); Text("%\(statement.confidence)").font(.caption2).foregroundStyle(SDTheme.muted) }
             }
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
+    }
+}
+
+struct PlayerDirectoryView: View {
+    @EnvironmentObject var store: AppStore
+    var body: some View {
+        ScrollView { LazyVStack(alignment: .leading, spacing: 12) {
+            Text("Oyuncular").font(.largeTitle.black()); Text("Yorumlarda en çok geçen oyuncular").foregroundStyle(SDTheme.muted)
+            ForEach(Array(store.rankedPlayers.enumerated()), id: \.element.id) { i, item in NavigationLink { PlayerDetailView(player: item.name) } label: { HStack { Text("\(i+1)").foregroundStyle(SDTheme.muted); Text(item.name).font(.headline); Spacer(); Text("\(item.count) yorum").font(.caption).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption) }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }.buttonStyle(.plain) }
+        }.padding(16) }.background(SDTheme.background).navigationTitle("Oyuncular").navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct TeamDirectoryView: View {
+    @EnvironmentObject var store: AppStore
+    var body: some View {
+        ScrollView { LazyVStack(alignment: .leading, spacing: 12) {
+            Text("Takımlar").font(.largeTitle.black()); Text("Yorumlarda öne çıkan takımlar").foregroundStyle(SDTheme.muted)
+            ForEach(Array(store.rankedTeams.enumerated()), id: \.element.id) { i, item in NavigationLink { TeamDetailView(team: item.name) } label: { HStack { Text("\(i+1)").foregroundStyle(SDTheme.muted); Text(item.name).font(.headline); Spacer(); Text("\(item.count) yorum").font(.caption).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption) }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }.buttonStyle(.plain) }
+        }.padding(16) }.background(SDTheme.background).navigationTitle("Takımlar").navigationBarTitleDisplayMode(.inline)
     }
 }
