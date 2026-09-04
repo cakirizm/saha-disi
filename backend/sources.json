@@ -5,9 +5,7 @@
       "name": "Kontraspor - Nihat Kahveci",
       "kind": "html_index",
       "url": "https://kontraspor.com/haberleri/nihat-kahveci",
-      "commentators": [
-        "nihat-kahveci"
-      ],
+      "commentators": ["nihat-kahveci"],
       "trust": 95
     },
     {
@@ -15,9 +13,7 @@
       "name": "A Spor - Ahmet Çakar",
       "kind": "html_index",
       "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv",
-      "commentators": [
-        "ahmet-cakar"
-      ],
+      "commentators": ["ahmet-cakar"],
       "trust": 100
     },
     {
@@ -25,12 +21,7 @@
       "name": "Beyaz Futbol",
       "kind": "html_index",
       "url": "https://www.beyaztv.com.tr/program/beyaz-futbol/",
-      "commentators": [
-        "ahmet-cakar",
-        "sinan-engin",
-        "abdulkerim-durmaz",
-        "necati-ates"
-      ],
+      "commentators": ["ahmet-cakar", "sinan-engin", "abdulkerim-durmaz", "necati-ates"],
       "trust": 95
     },
     {
@@ -38,11 +29,7 @@
       "name": "Socrates",
       "kind": "youtube_index",
       "url": "https://www.youtube.com/@SocratesDergi",
-      "commentators": [
-        "emre-ozcan",
-        "erman-yasar",
-        "caner-eler"
-      ],
+      "commentators": ["emre-ozcan", "erman-yasar", "caner-eler"],
       "trust": 95
     },
     {
@@ -50,10 +37,7 @@
       "name": "343",
       "kind": "youtube_index",
       "url": "https://www.youtube.com/@343_digital",
-      "commentators": [
-        "ibrahim-seten",
-        "yagiz-sabuncuoglu"
-      ],
+      "commentators": ["ibrahim-seten", "yagiz-sabuncuoglu"],
       "trust": 95
     },
     {
@@ -61,9 +45,7 @@
       "name": "CNBC-e · Saha ve Ötesi",
       "kind": "html_index",
       "url": "https://www.cnbce.com/programlar/sansal-buyuka-ile-saha-ve-otesi-pazartesi-2300",
-      "commentators": [
-        "sansal-buyuka"
-      ],
+      "commentators": ["sansal-buyuka"],
       "trust": 100
     },
     {
@@ -71,9 +53,7 @@
       "name": "Tivibu Spor · Orta Nokta",
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@tivibuspor",
-      "commentators": [
-        "erman-ozgur"
-      ],
+      "commentators": ["erman-ozgur"],
       "trust": 95
     },
     {
@@ -81,19 +61,15 @@
       "name": "TRT Spor · Stadyum",
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@trtspor",
-      "commentators": [
-        "ogun-temizkanoglu"
-      ],
+      "commentators": ["ogun-temizkanoglu"],
       "trust": 100
     },
     {
       "id": "ugur-karakullukcu",
       "name": "Uğur Karakullukçu",
       "kind": "html_index",
-      "url": "https://www.ukarakullukcu.com/",
-      "commentators": [
-        "ugur-karakullukcu"
-      ],
+      "url": "https://www.ugurkarakullukcu.com/",
+      "commentators": ["ugur-karakullukcu"],
       "trust": 100
     },
     {
@@ -101,10 +77,7 @@
       "name": "beIN SPORTS Türkiye",
       "kind": "html_index",
       "url": "https://beinsports.com.tr/",
-      "commentators": [
-        "ugur-meleke",
-        "guntekin-onay"
-      ],
+      "commentators": ["ugur-meleke", "guntekin-onay"],
       "trust": 100
     },
     {
@@ -112,11 +85,7 @@
       "name": "VOLE / NEO Spor",
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@VOLEapp",
-      "commentators": [
-        "serdar-ali-celikler",
-        "ali-ece",
-        "metin-tekin"
-      ],
+      "commentators": ["serdar-ali-celikler", "ali-ece", "metin-tekin"],
       "trust": 95
     }
   ]
