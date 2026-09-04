@@ -1,194 +1,2072 @@
 {
-  "generated_at": "2026-09-04T10:27:19.091241+00:00",
+  "generated_at": "2026-09-04T12:09:07.086108+00:00",
   "commentators": [
     {
       "id": "ugur-meleke",
       "name": "Uğur Meleke",
       "role": "Futbol yorumcusu",
       "primarySource": "beIN SPORTS",
-      "avatar": "UM"
+      "avatar": "UM",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ]
     },
     {
       "id": "guntekin-onay",
       "name": "Güntekin Onay",
       "role": "Futbol yorumcusu",
       "primarySource": "Hürriyet / beIN SPORTS",
-      "avatar": "GO"
+      "avatar": "GO",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "serdar-ali-celikler",
       "name": "Serdar Ali Çelikler",
       "role": "Yorumcu",
       "primarySource": "VOLE / NEO Spor",
-      "avatar": "SAÇ"
+      "avatar": "SAÇ",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "ali-ece",
       "name": "Ali Ece",
       "role": "Yorumcu",
       "primarySource": "VOLE",
-      "avatar": "AE"
+      "avatar": "AE",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "onder-ozen",
       "name": "Önder Özen",
       "role": "Beşiktaş Futbol Direktörü / eski yorumcu",
       "primarySource": "Beşiktaş",
-      "avatar": "ÖÖ"
+      "avatar": "ÖÖ",
+      "focusTeams": [
+        "Galatasaray",
+        "Beşiktaş",
+        "Genel"
+      ]
     },
     {
       "id": "metin-tekin",
       "name": "Metin Tekin",
       "role": "Futbol yorumcusu",
       "primarySource": "VOLE / NEO Spor",
-      "avatar": "MT"
+      "avatar": "MT",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
     },
     {
       "id": "abdulkerim-durmaz",
       "name": "Abdülkerim Durmaz",
       "role": "Futbol yorumcusu",
       "primarySource": "Beyaz Futbol / VOLE",
-      "avatar": "AD"
+      "avatar": "AD",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "emre-ozcan",
       "name": "Emre Özcan",
       "role": "Futbol yorumcusu",
       "primarySource": "Socrates · Tardini Büfe",
-      "avatar": "EÖ"
+      "avatar": "EÖ",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "erman-yasar",
       "name": "Erman Yaşar",
       "role": "Futbol yorumcusu",
       "primarySource": "Socrates",
-      "avatar": "EY"
+      "avatar": "EY",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "caner-eler",
       "name": "Caner Eler",
       "role": "Futbol yorumcusu",
       "primarySource": "Socrates",
-      "avatar": "CE"
+      "avatar": "CE",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "yagiz-sabuncuoglu",
       "name": "Yağız Sabuncuoğlu",
       "role": "Futbol yorumcusu",
       "primarySource": "Kendi yayınları / 343 keşif",
-      "avatar": "YS"
+      "avatar": "YS",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "ugur-karakullukcu",
       "name": "Uğur Karakullukçu",
       "role": "Futbol yorumcusu",
       "primarySource": "Kendi kanalı",
-      "avatar": "UK"
+      "avatar": "UK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
     },
     {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
       "primarySource": "Yazar / TV",
-      "avatar": "BT"
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
     },
     {
       "id": "firat-gunayer",
       "name": "Fırat Günayer",
       "role": "Yorumcu ve içerik üreticisi",
       "primarySource": "Sports Digitale / Rabona",
-      "avatar": "FG"
+      "avatar": "FG",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ]
     },
     {
       "id": "nihat-kahveci",
       "name": "Nihat Kahveci",
       "role": "Yorumcu",
       "primarySource": "Kontraspor",
-      "avatar": "NK"
+      "avatar": "NK",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "erman-ozgur",
       "name": "Erman Özgür",
       "role": "Futbol yorumcusu",
       "primarySource": "Tivibu Spor · Orta Nokta",
-      "avatar": "EÖ"
+      "avatar": "EÖ",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "levent-tuzemen",
       "name": "Levent Tüzemen",
       "role": "Futbol yorumcusu",
       "primarySource": "A Spor",
-      "avatar": "LT"
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
     },
     {
       "id": "erman-toroglu",
       "name": "Erman Toroğlu",
       "role": "Futbol yorumcusu",
       "primarySource": "A Spor",
-      "avatar": "ET"
+      "avatar": "ET",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "ahmet-cakar",
       "name": "Ahmet Çakar",
       "role": "Yorumcu / Yazar",
       "primarySource": "A Spor / Beyaz Futbol",
-      "avatar": "AC"
+      "avatar": "AC",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "sinan-engin",
       "name": "Sinan Engin",
       "role": "Futbol yorumcusu",
       "primarySource": "Beyaz Futbol",
-      "avatar": "SE"
+      "avatar": "SE",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "necati-ates",
       "name": "Necati Ateş",
       "role": "Futbol yorumcusu",
       "primarySource": "Beyaz Futbol",
-      "avatar": "NA"
+      "avatar": "NA",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "haluk-yurekli",
       "name": "Haluk Yürekli",
       "role": "Futbol yorumcusu",
       "primarySource": "YouTube / TV",
-      "avatar": "HY"
+      "avatar": "HY",
+      "focusTeams": [
+        "Galatasaray"
+      ]
     },
     {
       "id": "ibrahim-seten",
       "name": "İbrahim Seten",
       "role": "Futbol yorumcusu",
       "primarySource": "343",
-      "avatar": "İS"
+      "avatar": "İS",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "sansal-buyuka",
       "name": "Şansal Büyüka",
       "role": "Futbol yorumcusu",
       "primarySource": "CNBC-e · Saha ve Ötesi",
-      "avatar": "ŞB"
+      "avatar": "ŞB",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ]
     },
     {
       "id": "ali-naci-kucuk",
       "name": "Ali Naci Küçük",
       "role": "Futbol yorumcusu",
       "primarySource": "Spor basını",
-      "avatar": "AN"
+      "avatar": "AN",
+      "focusTeams": [
+        "Galatasaray"
+      ]
     },
     {
       "id": "cem-dizdar",
       "name": "Cem Dizdar",
       "role": "Futbol yorumcusu",
       "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD"
+      "avatar": "CD",
+      "focusTeams": [
+        "Genel"
+      ]
     },
     {
       "id": "ogun-temizkanoglu",
       "name": "Ogün Temizkanoğlu",
       "role": "Futbol yorumcusu",
       "primarySource": "TRT Spor · Stadyum",
-      "avatar": "OT"
+      "avatar": "OT",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "nevzat-dindar",
+      "name": "Nevzat Dindar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ND",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "emre-kaplan",
+      "name": "Emre Kaplan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "yakup-cinar",
+      "name": "Yakup Çınar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "YÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "mehmet-ozcan",
+      "name": "Mehmet Özcan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MÖ",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ]
+    },
+    {
+      "id": "kaya-temel",
+      "name": "Kaya Temel",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "kadir-cetincali",
+      "name": "Kadir Çetinçalı",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "suleyman-rodop",
+      "name": "Süleyman Rodop",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SR",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "serhan-turk",
+      "name": "Serhan Türk",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ST",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ]
+    },
+    {
+      "id": "cagatay-celik",
+      "name": "Çağatay Çelik",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ÇÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "cumhur-onder-arslan",
+      "name": "Cumhur Önder Arslan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "CÖA",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "deniz-gulen",
+      "name": "Deniz Gülen",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "DG",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "emrah-kayalioglu",
+      "name": "Emrah Kayalıoğlu",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "emrah-oktay",
+      "name": "Emrah Oktay",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EO",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "erdem-acikgoz",
+      "name": "Erdem Açıkgöz",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EA",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "eren-kaleli",
+      "name": "Eren Kaleli",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "evren-goz",
+      "name": "Evren Göz",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EG",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "evren-turhan",
+      "name": "Evren Turhan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ET",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "eyup-yildiz",
+      "name": "Eyüp Yıldız",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EY",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "feridun-nigdelioglu",
+      "name": "Feridun Niğdelioğlu",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "FN",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "gokhan-dinc",
+      "name": "Gökhan Dinç",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "GD",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ]
+    },
+    {
+      "id": "gokhan-karakaya",
+      "name": "Gökhan Karakaya",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "GK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "huseyin-kilinc",
+      "name": "Hüseyin Kılınç",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "HK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ilgaz-cinar",
+      "name": "Ilgaz Çınar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "IÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "kerem-ovet",
+      "name": "Kerem Övet",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KÖ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "koray-gok",
+      "name": "Koray Gök",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KG",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "kursat-calisir",
+      "name": "Kürşat Çalışır",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "melisa-cizmeci",
+      "name": "Melisa Çizmeci",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "merve-ergu",
+      "name": "Merve Ergü",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ME",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "mesut-yildirim",
+      "name": "Mesut Yıldırım",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MY",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "metin-karabas",
+      "name": "Metin Karabaş",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "mustafa-demirtas",
+      "name": "Mustafa Demirtaş",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MD",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ogulcan-coksayar",
+      "name": "Oğulcan Çoksayar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "oguz-altay",
+      "name": "Oğuz Altay",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OA",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "oguzhan-kapilar",
+      "name": "Oğuzhan Kapılar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "osman-senher",
+      "name": "Osman Şenher",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OŞ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "osman-tanburaci",
+      "name": "Osman Tanburacı",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "omer-faruk-ozcan",
+      "name": "Ömer Faruk Özcan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ÖFÖ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "safa-kaan-ozturk",
+      "name": "Safa Kaan Öztürk",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SKÖ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "savas-sevinc",
+      "name": "Savaş Sevinç",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "semih-nisanci",
+      "name": "Semih Nişancı",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SN",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "sergen-dag",
+      "name": "Sergen Dağ",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SD",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "sinan-yilmaz",
+      "name": "Sinan Yılmaz",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SY",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "suat-umurhan",
+      "name": "Suat Umurhan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SU",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ugur-senpire",
+      "name": "Uğur Şenpire",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "UŞ",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ugurcan-kanca",
+      "name": "Uğurcan Kanca",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "UK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "yigit-demir",
+      "name": "Yiğit Demir",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "YD",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "berk-gol",
+      "name": "Berk Göl",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "BG",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "berk-tibet-tore",
+      "name": "Berk Tibet Töre",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "BTT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "can-bedel",
+      "name": "Can Bedel",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "CB",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "can-tongo",
+      "name": "Can Tongo",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "CT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "cankat-koc",
+      "name": "Cankat Koç",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "CK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "erhan-telli",
+      "name": "Erhan Telli",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ET",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "erdal-bozkurt",
+      "name": "Erdal Bozkurt",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ersin-duzen",
+      "name": "Ersin Düzen",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ED",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ]
+    },
+    {
+      "id": "ferhat-kiziltas",
+      "name": "Ferhat Kızıltaş",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "FK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "huseyin-kiyici",
+      "name": "Hüseyin Kıyıcı",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "HK",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ilhan-tuysuz",
+      "name": "İlhan Tüysüz",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "İT",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "ozgur-buzbas",
+      "name": "Özgür Buzbaş",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ÖB",
+      "focusTeams": [
+        "Galatasaray"
+      ]
+    },
+    {
+      "id": "serdar-kelleci",
+      "name": "Serdar Kelleci",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SK",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ]
+    },
+    {
+      "id": "sercan-hamzaoglu",
+      "name": "Sercan Hamzaoğlu",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "SH",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "ahmet-ercanlar",
+      "name": "Ahmet Ercanlar",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AE",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "ahmet-selim-kul",
+      "name": "Ahmet Selim Kul",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "ASK",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ]
+    },
+    {
+      "id": "hakan-dede",
+      "name": "Hakan Dede",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "HD",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "koray-guclu",
+      "name": "Koray Güçlü",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "KG",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "altan-tanrikulu",
+      "name": "Altan Tanrıkulu",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AT",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "aygun-ozipek",
+      "name": "Aygün Özipek",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AÖ",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "resat-can-ozbudak",
+      "name": "Reşat Can Özbudak",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "RCÖ",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "irfan-yirmibes",
+      "name": "İrfan Yirmibeş",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "İY",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ]
+    },
+    {
+      "id": "ahmet-konanc",
+      "name": "Ahmet Konanç",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AK",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "arda-birben",
+      "name": "Arda Birben",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AB",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "ekrem-konur",
+      "name": "Ekrem Konur",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "EK",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ]
+    },
+    {
+      "id": "mehmet-arslan",
+      "name": "Mehmet Arslan",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "MA",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "oguz-dizer",
+      "name": "Oğuz Dizer",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "OD",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "gurcan-bilgic",
+      "name": "Gürcan Bilgiç",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "GB",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "alaattin-metin",
+      "name": "Alaattin Metin",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "AM",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "murat-asik",
+      "name": "Murat Aşık",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "MA",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "mustafa-cevik",
+      "name": "Mustafa Çevik",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "serkan-akkoyun",
+      "name": "Serkan Akkoyun",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "SA",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "ilhan-eksioglu",
+      "name": "İlhan Ekşioğlu",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "İE",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "can-gebetas",
+      "name": "Can Gebetaş",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "CG",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "ertem-sener",
+      "name": "Ertem Şener",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "EŞ",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ]
+    },
+    {
+      "id": "omer-faruk-unal",
+      "name": "Ömer Faruk Ünal",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "ÖFÜ",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "mustafa-anikli",
+      "name": "Mustafa Anıklı",
+      "role": "Fenerbahçe muhabiri / yorumcu",
+      "primarySource": "Fenerbahçe kaynak taraması",
+      "avatar": "MA",
+      "focusTeams": [
+        "Fenerbahçe"
+      ]
+    },
+    {
+      "id": "sercan-dikme",
+      "name": "Sercan Dikme",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ]
+    },
+    {
+      "id": "murat-ozen",
+      "name": "Murat Özen",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "MÖ",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "oguzhan-genc",
+      "name": "Oğuzhan Genç",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OG",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "serdar-saridag",
+      "name": "Serdar Sarıdağ",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "ogun-sahinoglu",
+      "name": "Ogün Şahinoğlu",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OŞ",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "atakan-kurt",
+      "name": "Atakan Kurt",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "AK",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "kartal-yigit",
+      "name": "Kartal Yiğit",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "KY",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "ismail-er",
+      "name": "İsmail Er",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "İE",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "tugba-hacibayramoglu",
+      "name": "Tuğba Hacıbayramoğlu",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TH",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "safak-malatya",
+      "name": "Şafak Malatya",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "ŞM",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "alen-markaryan",
+      "name": "Alen Markaryan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "AM",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "dogan-gundogdu",
+      "name": "Doğan Gündoğdu",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "DG",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "semih-sezerli",
+      "name": "Semih Sezerli",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "nedim-gungor",
+      "name": "Nedim Güngör",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "NG",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "haluk-kesim",
+      "name": "Haluk Kesim",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "HK",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "ari-barutoglu",
+      "name": "Ari Barutoğlu",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "AB",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "mustafa-otag",
+      "name": "Mustafa Otag",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "MO",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "aysegul-bedir-akosman",
+      "name": "Ayşegül Bedir Akosman",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "ABA",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "tolga-safak",
+      "name": "Tolga Şafak",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TŞ",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "ziya-ozbilgic",
+      "name": "Ziya Özbilgiç",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "ZÖ",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "gokhan-keskin",
+      "name": "Gökhan Keskin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "GK",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "fatih-dogan",
+      "name": "Fatih Doğan",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "FD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ]
+    },
+    {
+      "id": "sinan-vardar",
+      "name": "Sinan Vardar",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SV",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "hakan-kurt",
+      "name": "Hakan Kurt",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "HK",
+      "focusTeams": [
+        "Beşiktaş"
+      ]
+    },
+    {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ]
+    },
+    {
+      "id": "feyyaz-ucar",
+      "name": "Feyyaz Uçar",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "FU",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "sergen-yalcin",
+      "name": "Sergen Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "SY",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "senol-gunes",
+      "name": "Şenol Güneş",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "ŞG",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "hasan-tuncel",
+      "name": "Hasan Tüncel",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HT",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "gokmen-sahin",
+      "name": "Gökmen Şahin",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "GŞ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "yunus-emre-sel",
+      "name": "Yunus Emre Sel",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "YES",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ]
+    },
+    {
+      "id": "baris-yurduseven",
+      "name": "Barış Yurduseven",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "BY",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ]
+    },
+    {
+      "id": "ezgi-alp",
+      "name": "Ezgi Alp",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "EA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "tuncay-lakot",
+      "name": "Tuncay Lakot",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "TL",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "haluk-ayyildiz",
+      "name": "Haluk Ayyıldız",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "nurgul-gunaydin",
+      "name": "Nurgül Günaydın",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "NG",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "osman-baskir",
+      "name": "Osman Başkır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OB",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "yahya-karabina",
+      "name": "Yahya Karabina",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "YK",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "birol-sancak",
+      "name": "Birol Sancak",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "BS",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "servet-ozkara",
+      "name": "Servet Özkara",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "SÖ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "altug-atalay",
+      "name": "Altuğ Atalay",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "AA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "alihan-telatar",
+      "name": "Alihan Telatar",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "AT",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "aziz-sancak",
+      "name": "Aziz Sancak",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "AS",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "salih-biyik",
+      "name": "Salih Bıyık",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "SB",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "dogukan-ozkurt",
+      "name": "Doğukan Özkurt",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "DÖ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "tamer-kucukali",
+      "name": "Tamer Küçükali",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "TK",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "mehmet-cemil-altin",
+      "name": "Mehmet Cemil Altın",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MCA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "yilmaz-cakmak",
+      "name": "Yılmaz Çakmak",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "YÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "cagri-aktas",
+      "name": "Çağrı Aktaş",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "ÇA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "cengizhan-bahadir",
+      "name": "Cengizhan Bahadır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "CB",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "melisa-sener",
+      "name": "Melisa Şener",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MŞ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "ihsan-oksuz",
+      "name": "İhsan Öksüz",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "İÖ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "turgay-besir",
+      "name": "Turgay Beşir",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "TB",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "serkan-asan",
+      "name": "Serkan Asan",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "SA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "okan-citlak",
+      "name": "Okan Çıtlak",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "hasan-al",
+      "name": "Hasan Al",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "ibrahim-akbulut",
+      "name": "İbrahim Akbulut",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "İA",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "aksal-yavuz",
+      "name": "Aksal Yavuz",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "AY",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "suleyman-ozisik",
+      "name": "Süleyman Özışık",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "SÖ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "hasan-kurt",
+      "name": "Hasan Kurt",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HK",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "murat-taskin",
+      "name": "Murat Taşkın",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MT",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "levent-ustabasi",
+      "name": "Levent Ustabaşı",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "LU",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "olcay-cakir",
+      "name": "Olcay Çakır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ]
+    },
+    {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ]
+    },
+    {
+      "id": "ertan-suzgun",
+      "name": "Ertan Süzgün",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ES",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "salim-manav",
+      "name": "Salim Manav",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SM",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "burhan-can-terzi",
+      "name": "Burhan Can Terzi",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BCT",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "volkan-demir",
+      "name": "Volkan Demir",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "VD",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "savas-corlu",
+      "name": "Savaş Çorlu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SÇ",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "tayfun-akkaya",
+      "name": "Tayfun Akkaya",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "onur-cubukcu",
+      "name": "Onur Çubukçu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "nezih-aksener",
+      "name": "Nezih Akşener",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "NA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "ibrahim-yildiz",
+      "name": "İbrahim Yıldız",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "İY",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "gokhan-karatas",
+      "name": "Gökhan Karataş",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GK",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "okay-karacan",
+      "name": "Okay Karacan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "OK",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "murat-kosova",
+      "name": "Murat Kosova",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MK",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "ceren-dalgic",
+      "name": "Ceren Dalgıç",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "CD",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "gurler-akgun",
+      "name": "Gürler Akgün",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "ridvan-dilmen",
+      "name": "Rıdvan Dilmen",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "RD",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "mehmet-ayan",
+      "name": "Mehmet Ayan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "tumer-metin",
+      "name": "Tümer Metin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TM",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "ilker-yagcioglu",
+      "name": "İlker Yağcıoğlu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "İY",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "rustu-recber",
+      "name": "Rüştü Reçber",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "RR",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "volkan-demirel",
+      "name": "Volkan Demirel",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "VD",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "emre-bol",
+      "name": "Emre Bol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "firat-aydinus",
+      "name": "Fırat Aydınus",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "FA",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "bunyamin-gezer",
+      "name": "Bünyamin Gezer",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BG",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "deniz-ates-bitnel",
+      "name": "Deniz Ateş Bitnel",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "DAB",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "murat-fevzi-tanirli",
+      "name": "Murat Fevzi Tanırlı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MFT",
+      "focusTeams": [
+        "Genel"
+      ]
+    },
+    {
+      "id": "mehmet-demirkol",
+      "name": "Mehmet Demirkol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MD",
+      "focusTeams": [
+        "Genel"
+      ]
     }
   ],
   "statements": [
@@ -1022,102 +2900,6 @@
     },
     {
       "id": 57,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "positive",
-      "strength": 6,
-      "summary": "Nihat Kahveci'den Vincenzo Montella'ya: Yendiği maçtan sonra elini güçlü hissedip insanlara laf söylemesin - 2026 Dünya Kupası Kahveci'den Montella'ya: Yendiğin maçtan sonra insanlara laf söyleme!",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveciden-vincenzo-montellaya-yendigi-mactan-sonra-elini-guclu-hissedip-insanlara-laf-soylemesin-64279",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 58,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Yayınlanma: 26.06.2026 - 10:37 Son Güncelleme 26.06.2026 - 18:44 Nihat Kahveci , A Milli Futbol Takımı'nın ABD karşısındaki galibiyetini değerlendirdi.",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveciden-vincenzo-montellaya-yendigi-mactan-sonra-elini-guclu-hissedip-insanlara-laf-soylemesin-64279",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 59,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Kontraspor yorumcusu Nihat Kahveci , ABD'yi mağlup etmemize karşın ilk 2 maçtan alınan mağlubiyetle elenmenin üzücü olduğunu ifade etti.",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveci-boyle-veda-mi-olur-vallahi-aciyor-64270",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 60,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "negative",
-      "strength": 6,
-      "summary": "3-2'lik zaferin ardından sert manşet: Kadro kumarın bir işe yaramadı 2026 Dünya Kupası Dünya Kupası Nihat Kahveci A Milli Takım Kahveci'den eleştiri: ABD maçı 1000 tane zafere denkse 2002'deki Güney Kore galibiyeti ne?",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveci-boyle-veda-mi-olur-vallahi-aciyor-64270",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 61,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "negative",
-      "strength": 6,
-      "summary": "- 2026 Dünya Kupası Nihat Kahveci'den Montella'ya eleştiri: ABD maçı 1000 tane zafere denkse 2002'deki Güney Kore galibiyeti ne?",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveciden-montellaya-elestiri-bugunku-galibiyet-1000-tane-zafere-denkse-2002deki-guney-kore-galibiyeti-kac-bin-tane-zafer-o-zaman-64268",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 62,
-      "commentator": "nihat-kahveci",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "negative",
-      "strength": 6,
-      "summary": "Kontraspor yorumcusu Nihat Kahveci, teknik direktör Vincenzo Montella'nın \"Bu maç 1000 zafere bedel\" sözünü sert bir dille eleştirdi.",
-      "source": "Kontraspor",
-      "url": "https://kontraspor.com/futbol/2026-dunya-kupasi/nihat-kahveciden-montellaya-elestiri-bugunku-galibiyet-1000-tane-zafere-denkse-2002deki-guney-kore-galibiyeti-kac-bin-tane-zafer-o-zaman-64268",
-      "confidence": 95,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 63,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": null,
@@ -1130,12 +2912,12 @@
       "strength": 6,
       "summary": "00:16 Levent Tüzemen: Torreira'yı tehdit eden kişi tutuklanmış!",
       "source": "A Spor",
-      "url": "https://www.aspor.com.tr/rizespor",
+      "url": "https://www.aspor.com.tr/futbol",
       "confidence": 100,
       "status": "auto_candidate"
     },
     {
-      "id": 64,
+      "id": 58,
       "commentator": "levent-tuzemen",
       "date": "2026-09-04",
       "team": null,
@@ -1148,147 +2930,7 @@
       "strength": 6,
       "summary": "00:15 Levent Tüzemen: Torreira'yı tehdit eden kişi tutuklanmış!",
       "source": "A Spor",
-      "url": "https://www.aspor.com.tr/rizespor",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 65,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke den çarpıcı değerlendirme Sınıfta kaldı | beIN SPORTS Türkiye - beinsports.com.tr/ FUTBOL Trendyol Süper Lig Trendyol 1.",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 66,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den Osimhen, Mourinho ve Ferdi yorumları Tüm Yazılar 8 Ekim 2024 Uğur Meleke'den çarpıcı değerlendirme!",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 67,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den Osimhen, Mourinho ve Ferdi yorumları Tüm Yazılar 3 Ekim 2024 Temsilcilerimiz Avrupa sınavlarında ne yapmalı?",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-okan-buruk-ve-fred-sozleri",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 68,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke den Ferdi Kadıoğlu analizi İlk maç performansı | beIN SPORTS Türkiye - beinsports.com.tr/ FUTBOL Trendyol Süper Lig Trendyol 1.",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-ferdi-kadioglu-analizi-ilk-mac-performansi",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 69,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den Osimhen, Mourinho ve Ferdi yorumları Tüm Yazılar 18 Eylül 2024 Uğur Meleke'den Ferdi Kadıoğlu analizi!",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-ferdi-kadioglu-analizi-ilk-mac-performansi",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 70,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "10 Numara yayında Uğur Meleke den Osimhen Mourinho ve Ferdi yoruml | beIN SPORTS Türkiye - beinsports.com.tr/ FUTBOL Trendyol Süper Lig Trendyol 1.",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/10-numara-yayinda-ugur-melekeden-osimhen-mourinho-ve-ferdi-yorumlari",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 71,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den Osimhen, Mourinho ve Ferdi yorumları '10 Numara' yayında!",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/10-numara-yayinda-ugur-melekeden-osimhen-mourinho-ve-ferdi-yorumlari",
-      "confidence": 100,
-      "status": "auto_candidate"
-    },
-    {
-      "id": 72,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den Osimhen, Mourinho ve Ferdi yorumları Digiturk beIN MEDIA GROUP beIN SPORTS United States beIN SPORTS France beIN SPORTS Australia beIN SPORTS Hong Kong beIN SPORTS Thailand beIN SPORTS Philippines beIN SP",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/10-numara-yayinda-ugur-melekeden-osimhen-mourinho-ve-ferdi-yorumlari",
+      "url": "https://www.aspor.com.tr/futbol",
       "confidence": 100,
       "status": "auto_candidate"
     }
