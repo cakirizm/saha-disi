@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:29:43.632222+00:00",
+  "generated_at": "2026-09-04T19:24:37.033478+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -116,6 +116,34 @@
       "resolvedTitle": "🚨Sinan Engin, Lukaku ve Osimhen'i  Yorumluyor. #galatasaray #fenerbahçe  #lukaku #osimhen",
       "verified_identity": true,
       "resolver": "public_profile"
+    },
+    "ahmet-cakar": {
+      "photoURL": "https://i.ytimg.com/vi/fHuVkaJZHe8/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAAuQsqgDrPpk5cELD-R-Z4sDxMuQ&days_since_epoch=20700",
+      "photoSource": "https://www.youtube.com/playlist?list=PLwsfJxbw91OJz4c8RKwLNqtBGu7S6FN2z",
+      "resolvedTitle": "Ahmet Çakar - YouTube Özel",
+      "verified_identity": true,
+      "resolver": "public_profile"
+    },
+    "mesut-yildirim": {
+      "photoURL": "https://yt3.googleusercontent.com/DRtOI1QaOV6JSrLCskyXdezWaPTo4QtYaKMLVVn8pBtPusgZni8tvqIQ8dhT2aI_W9eV5vHaJ4o=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UCrg9bdA9kjLDrzqJy-0Vtdg",
+      "resolvedTitle": "Mesut Yıldırım",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
+    },
+    "bulent-timurlenk": {
+      "photoURL": "https://i.ytimg.com/vi/rfw_oFX7ppo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLACKqXLoummaqrxoTK-gDSHTYiOBA&usqp=CCk",
+      "photoSource": "https://www.youtube.com/shorts/rfw_oFX7ppo",
+      "resolvedTitle": "Bülent Timurlenk: ''Reset tuşuna basmış Leao'yu görmemiz lazım''",
+      "verified_identity": true,
+      "resolver": "public_profile"
+    },
+    "hakan-dede": {
+      "photoURL": "https://yt3.googleusercontent.com/SWKUJ68ANmIL9248fp-r8XNGkVC4T4Au4IPMa6kDyuOfHETToDyUYqqsJADC3qAjB9hYcJEZ0w=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UC9FCFBp9MD5TpQ732zihWKw",
+      "resolvedTitle": "HAKAN DEDE",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
     }
   }
 }

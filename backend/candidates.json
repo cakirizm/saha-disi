@@ -1,56 +1,5 @@
 [
   {
-    "candidate_id": "bbb9380f453ac377e657",
-    "commentator": "erman-ozgur",
-    "summary_candidate": "İç sahada çok can yakacaklar!",
-    "team": "Kocaelispor",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEdUaERncWFIcFpCR2M5VzZIYjZwdEpBM3B4Mm00Z1NtQWRQNThDdGhOTXFKRF9obHZhcTRPWEYtMEVTTDYtWXVLZ3cxRTZFbXRYSU90YVRNeHVzQUpYcUpCRHU1aGZlTGlTTk1ucUlDemxnaUdRT1FlMG1zS1lnT29SUjNESDJXRHBnRnB2ZExNekFU0gGaAUFVX3lxTE16QTZST1B3cVc4ZDFER0FhUXVXeVEzMXl1cnNoS0s1UzhRS0F4Y2NHOVItVTl3amN2SWRXdkZOS1h2MzZzNmpkR0h1M01LVnFzcm45N2VFWG9DVEsyU1VDQVJkaklSek9nYmctMVF4MXNyZEVScnYxeURuVkt4eDZiODNqYjhZdElkakVDbXVMbzI1b1VFRVYwS0E?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:21.848940+00:00"
-  },
-  {
-    "candidate_id": "b38ce4f92359b6447130",
-    "commentator": "ugur-karakullukcu",
-    "summary_candidate": "Okan Buruk iki dakika oynatmaktan bile çekiniyor, Galatasaray'ı anlamakta güçlük çekiyorum",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "positive",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbk9aRTdieW9UOE1fY2k1bUNwTjRPeVBYZmo0RG1kaDdhUlhxZ0lJZEN2SDhKS2JMLV80QVdNREVqOWVxN1d2Rl96ZVZ6WWJXcXhkeUJoTGE5a09aUVM0UU05QW1pR1gzcHF1RFlJeVNrYWFRNXpRSFF3c1JxbnlBVl9McXZacDFndGhZajVUY2REMWdQTEtfWlN1a2VieFc0eXVrZ2NuT09tcGZGdUM5alotbU40Y2VvcGN6WGgxc1JEcmJoQ2UxVGp5Uk0wdkNZ0gHWAUFVX3lxTFBSNllhSzdFVkFEbllwWTBOekgyaTZXd2lwTFBHUDY1aHdvd2k0RFFSVm1MS3J2NWsyQWFSMkJGZ1ZKSFFJbWNEOUUtWlNrSDNOaVE2NHJyY2NDQ3c1XzBFTWZWdFdjYU9Bd3J0STUyd2w5N3cyam01dzFyQXJyWTBwM0NYT3hnMHl3Z1N2MlhsbF9MQTVDVFNEZXZPWjJ5QTlQa1BVR1p4OFFCeXJDS0VCRURuR0Zyc3hmUzdIQTRuQ3haMFR6OV9sUS1YTUhwVjFoc0VMR0E?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.157285+00:00"
-  },
-  {
-    "candidate_id": "836e35831b69210376df",
-    "commentator": "ugur-karakullukcu",
-    "summary_candidate": "Okan Buruk iki dakika oynatmaktan bile çekiniyor, Galatasaray'ı anlamakta güçlük çekiyorum\" - Haber Sarı Kırmızı",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "positive",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbk9aRTdieW9UOE1fY2k1bUNwTjRPeVBYZmo0RG1kaDdhUlhxZ0lJZEN2SDhKS2JMLV80QVdNREVqOWVxN1d2Rl96ZVZ6WWJXcXhkeUJoTGE5a09aUVM0UU05QW1pR1gzcHF1RFlJeVNrYWFRNXpRSFF3c1JxbnlBVl9McXZacDFndGhZajVUY2REMWdQTEtfWlN1a2VieFc0eXVrZ2NuT09tcGZGdUM5alotbU40Y2VvcGN6WGgxc1JEcmJoQ2UxVGp5Uk0wdkNZ0gHWAUFVX3lxTFBSNllhSzdFVkFEbllwWTBOekgyaTZXd2lwTFBHUDY1aHdvd2k0RFFSVm1MS3J2NWsyQWFSMkJGZ1ZKSFFJbWNEOUUtWlNrSDNOaVE2NHJyY2NDQ3c1XzBFTWZWdFdjYU9Bd3J0STUyd2w5N3cyam01dzFyQXJyWTBwM0NYT3hnMHl3Z1N2MlhsbF9MQTVDVFNEZXZPWjJ5QTlQa1BVR1p4OFFCeXJDS0VCRURuR0Zyc3hmUzdIQTRuQ3haMFR6OV9sUS1YTUhwVjFoc0VMR0E?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.157349+00:00"
-  },
-  {
     "candidate_id": "fde9197c9540ad110f92",
     "commentator": "levent-tuzemen",
     "summary_candidate": "Torreira'yı tehdit eden kişi tutuklanmış!",
@@ -71,7 +20,75 @@
     "image_url": "https://iaaspr.tmgrup.com.tr/27eb94/1200/675/0/0/864/486?u=https://iaspr.tmgrup.com.tr/2026/09/04/ziraat-turkiye-kupasi-1-eleme-turu-maclarinin-programi-aciklandi-1788528736750.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.246557+00:00"
+    "discovered_at": "2026-09-04T19:24:13.872678+00:00"
+  },
+  {
+    "candidate_id": "bbb9380f453ac377e657",
+    "commentator": "erman-ozgur",
+    "summary_candidate": "İç sahada çok can yakacaklar!",
+    "team": "Kocaelispor",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEdUaERncWFIcFpCR2M5VzZIYjZwdEpBM3B4Mm00Z1NtQWRQNThDdGhOTXFKRF9obHZhcTRPWEYtMEVTTDYtWXVLZ3cxRTZFbXRYSU90YVRNeHVzQUpYcUpCRHU1aGZlTGlTTk1ucUlDemxnaUdRT1FlMG1zS1lnT29SUjNESDJXRHBnRnB2ZExNekFU0gGaAUFVX3lxTE16QTZST1B3cVc4ZDFER0FhUXVXeVEzMXl1cnNoS0s1UzhRS0F4Y2NHOVItVTl3amN2SWRXdkZOS1h2MzZzNmpkR0h1M01LVnFzcm45N2VFWG9DVEsyU1VDQVJkaklSek9nYmctMVF4MXNyZEVScnYxeURuVkt4eDZiODNqYjhZdElkakVDbXVMbzI1b1VFRVYwS0E?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:13.782988+00:00"
+  },
+  {
+    "candidate_id": "b38ce4f92359b6447130",
+    "commentator": "ugur-karakullukcu",
+    "summary_candidate": "Okan Buruk iki dakika oynatmaktan bile çekiniyor, Galatasaray'ı anlamakta güçlük çekiyorum",
+    "team": "Galatasaray",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbk9aRTdieW9UOE1fY2k1bUNwTjRPeVBYZmo0RG1kaDdhUlhxZ0lJZEN2SDhKS2JMLV80QVdNREVqOWVxN1d2Rl96ZVZ6WWJXcXhkeUJoTGE5a09aUVM0UU05QW1pR1gzcHF1RFlJeVNrYWFRNXpRSFF3c1JxbnlBVl9McXZacDFndGhZajVUY2REMWdQTEtfWlN1a2VieFc0eXVrZ2NuT09tcGZGdUM5alotbU40Y2VvcGN6WGgxc1JEcmJoQ2UxVGp5Uk0wdkNZ0gHWAUFVX3lxTFBSNllhSzdFVkFEbllwWTBOekgyaTZXd2lwTFBHUDY1aHdvd2k0RFFSVm1MS3J2NWsyQWFSMkJGZ1ZKSFFJbWNEOUUtWlNrSDNOaVE2NHJyY2NDQ3c1XzBFTWZWdFdjYU9Bd3J0STUyd2w5N3cyam01dzFyQXJyWTBwM0NYT3hnMHl3Z1N2MlhsbF9MQTVDVFNEZXZPWjJ5QTlQa1BVR1p4OFFCeXJDS0VCRURuR0Zyc3hmUzdIQTRuQ3haMFR6OV9sUS1YTUhwVjFoc0VMR0E?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:14.273556+00:00"
+  },
+  {
+    "candidate_id": "836e35831b69210376df",
+    "commentator": "ugur-karakullukcu",
+    "summary_candidate": "Okan Buruk iki dakika oynatmaktan bile çekiniyor, Galatasaray'ı anlamakta güçlük çekiyorum\" - Haber Sarı Kırmızı",
+    "team": "Galatasaray",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbk9aRTdieW9UOE1fY2k1bUNwTjRPeVBYZmo0RG1kaDdhUlhxZ0lJZEN2SDhKS2JMLV80QVdNREVqOWVxN1d2Rl96ZVZ6WWJXcXhkeUJoTGE5a09aUVM0UU05QW1pR1gzcHF1RFlJeVNrYWFRNXpRSFF3c1JxbnlBVl9McXZacDFndGhZajVUY2REMWdQTEtfWlN1a2VieFc0eXVrZ2NuT09tcGZGdUM5alotbU40Y2VvcGN6WGgxc1JEcmJoQ2UxVGp5Uk0wdkNZ0gHWAUFVX3lxTFBSNllhSzdFVkFEbllwWTBOekgyaTZXd2lwTFBHUDY1aHdvd2k0RFFSVm1MS3J2NWsyQWFSMkJGZ1ZKSFFJbWNEOUUtWlNrSDNOaVE2NHJyY2NDQ3c1XzBFTWZWdFdjYU9Bd3J0STUyd2w5N3cyam01dzFyQXJyWTBwM0NYT3hnMHl3Z1N2MlhsbF9MQTVDVFNEZXZPWjJ5QTlQa1BVR1p4OFFCeXJDS0VCRURuR0Zyc3hmUzdIQTRuQ3haMFR6OV9sUS1YTUhwVjFoc0VMR0E?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:14.273603+00:00"
+  },
+  {
+    "candidate_id": "e72af7ac3d784b838211",
+    "commentator": "yagiz-sabuncuoglu",
+    "summary_candidate": "Cengiz Ünder Çorum ile anlaştı - Habercim19",
+    "team": "Çorum",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQXzlRaEVlZk5SVHR5VmN3RzFBYk1XV3E1UGoxbkVFMGxZYUhBaUJQUEJ5M3RyWlNiQjJzeFBPbmlid2pxNHdwc2Rya0pIbnRJMHd6SllhSk9pU29EbFQtR1YyWUdXcVBITEhvR0RiTy12ZzB2UUlRQ044bS1EbTlTYS14bkEtMk00NU1UUzFiNA?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:13.687019+00:00"
   },
   {
     "candidate_id": "331599206b9f397231d3",
@@ -90,41 +107,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.137284+00:00"
-  },
-  {
-    "candidate_id": "fdedce0b3450755ea255",
-    "commentator": "sinan-engin",
-    "summary_candidate": "Onu alan şampiyon olur",
-    "team": null,
-    "players": [],
-    "topic": "Tahmin",
-    "type": "prediction",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajByckp1SEdhblpZcTB5YWhvUmNOWXBOUldnVk9mNVVZRHU3LXl5LVg4cUhUeFV1WmpHb2pNSUljV3g1UndXaVB0RmVFV0VxRGo4THpEUWFZTWVrT09NLUlVel9BVkVBSFktREdMdnhGYXl2YnJIRnhEVUdCQWxndUNGMUlDVzU2dVBlbHJIMmlndVJWSWQzWk44TUR6VkFycWdrN2VqV1ZsOEl6eDZJSGx4NA?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.675260+00:00"
-  },
-  {
-    "candidate_id": "9e41c50a68227acc7557",
-    "commentator": "sinan-engin",
-    "summary_candidate": "Şerefsizlere Bak Nasıl Saldırmışlar!",
-    "team": "Fenerbahçe",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTVpSl95T2M5T2sxV1ZrSGJ2dzZyVENjaWp2b0hqT094cHpDM3RkM2F2ellXS3RJS2tzY2JoNVhkQjBQbExhWXN1cnhHazNaeUFLWENwaXZzUTNsZEc2QjhPSk1Uank4bEczSV9rM2xmUkNaQ2NDamNfN0hlSzQyWjBaVXRhM2g0bTJaSUs4dFhCNU9VUmc1RFZ4S2h0Z0p4d3JQRGp1WVlzSHZDYUxncDZUWGpXY1BSM1BaZ0l4M011SkU?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.201774+00:00"
+    "discovered_at": "2026-09-04T19:24:13.796120+00:00"
   },
   {
     "candidate_id": "ea8e97aab097618dc670",
@@ -141,7 +124,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.741712+00:00"
+    "discovered_at": "2026-09-04T19:24:14.631539+00:00"
   },
   {
     "candidate_id": "bf97abe3e0ccfaf5c2db",
@@ -158,7 +141,78 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.741761+00:00"
+    "discovered_at": "2026-09-04T19:24:14.631597+00:00"
+  },
+  {
+    "candidate_id": "fdedce0b3450755ea255",
+    "commentator": "sinan-engin",
+    "summary_candidate": "Onu alan şampiyon olur",
+    "team": null,
+    "players": [],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajByckp1SEdhblpZcTB5YWhvUmNOWXBOUldnVk9mNVVZRHU3LXl5LVg4cUhUeFV1WmpHb2pNSUljV3g1UndXaVB0RmVFV0VxRGo4THpEUWFZTWVrT09NLUlVel9BVkVBSFktREdMdnhGYXl2YnJIRnhEVUdCQWxndUNGMUlDVzU2dVBlbHJIMmlndVJWSWQzWk44TUR6VkFycWdrN2VqV1ZsOEl6eDZJSGx4NA?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:14.693050+00:00"
+  },
+  {
+    "candidate_id": "9e41c50a68227acc7557",
+    "commentator": "sinan-engin",
+    "summary_candidate": "Şerefsizlere Bak Nasıl Saldırmışlar!",
+    "team": "Fenerbahçe",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTVpSl95T2M5T2sxV1ZrSGJ2dzZyVENjaWp2b0hqT094cHpDM3RkM2F2ellXS3RJS2tzY2JoNVhkQjBQbExhWXN1cnhHazNaeUFLWENwaXZzUTNsZEc2QjhPSk1Uank4bEczSV9rM2xmUkNaQ2NDamNfN0hlSzQyWjBaVXRhM2g0bTJaSUs4dFhCNU9VUmc1RFZ4S2h0Z0p4d3JQRGp1WVlzSHZDYUxncDZUWGpXY1BSM1BaZ0l4M011SkU?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:15.315854+00:00"
+  },
+  {
+    "candidate_id": "197c546db9a7a5f39b2a",
+    "commentator": "nevzat-dindar",
+    "summary_candidate": "Ismaila Sarr, Galatasaray",
+    "team": "Galatasaray",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGQ4YVUzQTA5MjZQNjBfa05udHBtSFBWQnoxZzd4dFRQanRFazlfdkltVmNQWFN2Ylk3TUlfbS0tZWNlc0xmclp3MWc5dWM4TGFLSndjYlU1cHl2SXpPNFNsVTZnQzBxSE83RlBJd1o2MV9QaUNsN1Q5TkdsRUxyR2EyNVlaWWdFbmMzbmwxVGJrZUQxMDZFa2VMSmFudUl4YTlXYkotalRUc2RZeTVQdy1SQi1GTVdKZUg4ZVRXd3lUQ29wWmxCSm04MWJVSEE?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:14.804657+00:00"
+  },
+  {
+    "candidate_id": "a31e2aa0937a51e98f21",
+    "commentator": "kaya-temel",
+    "summary_candidate": "Barış Alper Yedek Kalmalıydı, Sane",
+    "team": null,
+    "players": [
+      "Sane",
+      "Barış Alper"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONmllSEpyRnpTQWY5R1ZJSGk3Qk42VXMwR3JoamRXSTVla1lBcXZCbnZsbFZ3dGM0YjhTOEZUOHFNN2NTbTFVTWxaRnV3VzlhOEZScGhCS2NXaUxQUkJKMU1Zb2VBc2tQaW9LeFNaU1JsVFlHTEhDd3NKSVRfbkhFN1VWNVRycWFtSk8zVkZSSTVWczM4bTNCTGJ0VGpGOXBNN1RLdHVIbFNsZWtVZGdBUnZhR2J5OU5mc2MyaGpvMzNtU2tHZnNsVmVIbw?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:14.861894+00:00"
   },
   {
     "candidate_id": "6a470486ed3ec8c64e1e",
@@ -177,7 +231,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.856703+00:00"
+    "discovered_at": "2026-09-04T19:24:14.843947+00:00"
   },
   {
     "candidate_id": "72d711a058665de214c0",
@@ -194,24 +248,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.371390+00:00"
-  },
-  {
-    "candidate_id": "197c546db9a7a5f39b2a",
-    "commentator": "nevzat-dindar",
-    "summary_candidate": "Ismaila Sarr, Galatasaray",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGQ4YVUzQTA5MjZQNjBfa05udHBtSFBWQnoxZzd4dFRQanRFazlfdkltVmNQWFN2Ylk3TUlfbS0tZWNlc0xmclp3MWc5dWM4TGFLSndjYlU1cHl2SXpPNFNsVTZnQzBxSE83RlBJd1o2MV9QaUNsN1Q5TkdsRUxyR2EyNVlaWWdFbmMzbmwxVGJrZUQxMDZFa2VMSmFudUl4YTlXYkotalRUc2RZeTVQdy1SQi1GTVdKZUg4ZVRXd3lUQ29wWmxCSm04MWJVSEE?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:22.904886+00:00"
+    "discovered_at": "2026-09-04T19:24:15.125734+00:00"
   },
   {
     "candidate_id": "76b899ebc66aa2db60fd",
@@ -228,7 +265,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.190376+00:00"
+    "discovered_at": "2026-09-04T19:24:14.975601+00:00"
   },
   {
     "candidate_id": "3ed7bfc1feb96eb5c3fb",
@@ -247,7 +284,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.400080+00:00"
+    "discovered_at": "2026-09-04T19:24:15.284442+00:00"
   },
   {
     "candidate_id": "7000d27f5873167da471",
@@ -266,7 +303,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.400133+00:00"
+    "discovered_at": "2026-09-04T19:24:15.284499+00:00"
   },
   {
     "candidate_id": "f8d05c4bbdb1006a9f1d",
@@ -285,7 +322,7 @@
     "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.769600+00:00"
+    "discovered_at": "2026-09-04T19:24:15.878872+00:00"
   },
   {
     "candidate_id": "5257a63ddab7cba4c4aa",
@@ -304,7 +341,7 @@
     "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.769722+00:00"
+    "discovered_at": "2026-09-04T19:24:15.879015+00:00"
   },
   {
     "candidate_id": "40b9733580befef7eca2",
@@ -321,7 +358,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.979608+00:00"
+    "discovered_at": "2026-09-04T19:24:16.012818+00:00"
   },
   {
     "candidate_id": "25b4f0b3091419794633",
@@ -338,7 +375,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:23.979664+00:00"
+    "discovered_at": "2026-09-04T19:24:16.012864+00:00"
   },
   {
     "candidate_id": "eb10b76142a15e0e5a72",
@@ -357,7 +394,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:24.096072+00:00"
+    "discovered_at": "2026-09-04T19:24:16.203426+00:00"
   },
   {
     "candidate_id": "21d430ee3717a5fc0bae",
@@ -374,7 +411,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:25.552898+00:00"
+    "discovered_at": "2026-09-04T19:24:17.843401+00:00"
   },
   {
     "candidate_id": "0275a817ab245ef2a783",
@@ -391,7 +428,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:26.358969+00:00"
+    "discovered_at": "2026-09-04T19:24:18.770193+00:00"
   },
   {
     "candidate_id": "c546dfe3ecc63321c5e0",
@@ -408,7 +445,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:26.121432+00:00"
+    "discovered_at": "2026-09-04T19:24:18.503842+00:00"
   },
   {
     "candidate_id": "a6558eb8e4483ba92065",
@@ -425,7 +462,24 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:27.075756+00:00"
+    "discovered_at": "2026-09-04T19:24:19.495057+00:00"
+  },
+  {
+    "candidate_id": "a9e39c529a3ea8bd111e",
+    "commentator": "mustafa-culcu",
+    "summary_candidate": "Hakemlik adına çok ayıp - Halk TV",
+    "team": null,
+    "players": [],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T19:24:19.761230+00:00"
   },
   {
     "candidate_id": "e3a124172127e4398e39",
@@ -444,24 +498,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:27.839117+00:00"
-  },
-  {
-    "candidate_id": "a9e39c529a3ea8bd111e",
-    "commentator": "mustafa-culcu",
-    "summary_candidate": "Hakemlik adına çok ayıp - Halk TV",
-    "team": null,
-    "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:27.490381+00:00"
+    "discovered_at": "2026-09-04T19:24:20.350725+00:00"
   },
   {
     "candidate_id": "3b7f665b5bce2a5bb2c3",
@@ -478,7 +515,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:27.574626+00:00"
+    "discovered_at": "2026-09-04T19:24:19.865207+00:00"
   },
   {
     "candidate_id": "ed20293cf49a3b7cbb1f",
@@ -495,7 +532,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:27.574670+00:00"
+    "discovered_at": "2026-09-04T19:24:19.865251+00:00"
   },
   {
     "candidate_id": "1a8e8e2fb09d09b75549",
@@ -512,7 +549,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.448836+00:00"
+    "discovered_at": "2026-09-04T19:24:20.954043+00:00"
   },
   {
     "candidate_id": "86e11efcfe26591c0cb2",
@@ -529,7 +566,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.448880+00:00"
+    "discovered_at": "2026-09-04T19:24:20.954087+00:00"
   },
   {
     "candidate_id": "c0aec6c62e9d9cfeb0e9",
@@ -548,7 +585,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.472448+00:00"
+    "discovered_at": "2026-09-04T19:24:20.981284+00:00"
   },
   {
     "candidate_id": "8b9c51f1302ffe859d88",
@@ -567,7 +604,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.472491+00:00"
+    "discovered_at": "2026-09-04T19:24:20.981329+00:00"
   },
   {
     "candidate_id": "9be4b01cb6afb141d1b2",
@@ -586,7 +623,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.472523+00:00"
+    "discovered_at": "2026-09-04T19:24:20.981358+00:00"
   },
   {
     "candidate_id": "4c23af35b65dcfa5a7b5",
@@ -605,6 +642,6 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T18:29:28.472559+00:00"
+    "discovered_at": "2026-09-04T19:24:20.981421+00:00"
   }
 ]
