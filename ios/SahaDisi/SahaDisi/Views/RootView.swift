@@ -95,6 +95,7 @@ struct NotificationSettingsView: View {
 
 struct MoreDetailView: View {
     @EnvironmentObject var store: AppStore
+    @StateObject private var notifications = NotificationService.shared
     let title: String
     let icon: String
     @State private var liveDataEnabled = true
@@ -104,6 +105,13 @@ struct MoreDetailView: View {
                 HStack(spacing: 12) { Image(systemName: icon).font(.title2).frame(width: 46, height: 46).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 13)); Text(title).font(.largeTitle.black()) }
                 if title == "Ayarlar" {
                     SDCard { Toggle("Canlı veri yenileme", isOn: $liveDataEnabled) }
+                } else if title == "Bildirimler" {
+                    SDCard {
+                        Toggle(isOn: Binding(get: { notifications.allEnabled }, set: { value in Task { await notifications.setAll(value) } })) {
+                            VStack(alignment: .leading, spacing: 3) { Text("Tüm Bildirimler").font(.headline); Text("Yeni doğrulanmış her yorum için bildirim al.").font(.caption).foregroundStyle(SDTheme.muted) }
+                        }
+                    }
+                    NavigationLink { NotificationSettingsView() } label: { Label("Tüm bildirim tercihlerini yönet", systemImage: "slider.horizontal.3").font(.headline).foregroundStyle(SDTheme.accent) }
                 } else if title == "Takip Ettiklerim" {
                     SDCard { Text("Takım ve yorumcu bildirim tercihlerini ilgili profil sayfalarındaki zil düğmelerinden yönetebilirsin.").foregroundStyle(SDTheme.muted) }
                 } else if title == "Hakkında" {
