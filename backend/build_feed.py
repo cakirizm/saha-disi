@@ -39,7 +39,7 @@ if tff_path.exists():
   else:merged.append(tm)
  if merged:seed['matches']=merged
 
-# Portraits: first prefer verified public profile-image resolver, then recent editorial image.
+# Portraits: prefer the public profile-image resolver; editorial images are a fallback for direct-source profiles.
 photo_by_commentator={}
 photo_path=B/'commentator_photos.json'
 if photo_path.exists():
@@ -50,7 +50,7 @@ if photo_path.exists():
  except Exception:pass
 for c in sorted(candidates,key=lambda x:x.get('discovered_at',''),reverse=True):
  img=c.get('image_url');cid=c.get('commentator')
- if cid and img and str(img).startswith(('http://','https://')) and cid not in photo_by_commentator:photo_by_commentator[cid]=img
+ if cid and img and str(img).startswith(('http://','https://')) and cid not in photo_by_commentator and c.get('confidence',0)>=95:photo_by_commentator[cid]=img
 
 roster_path=B/'commentator_roster.json'
 if roster_path.exists():
@@ -73,6 +73,18 @@ if roster_path.exists():
 PAUSED_COMMENTATORS={'onder-ozen'}
 known={(s['commentator'],clean_summary(s['summary']).casefold()) for s in seed.get('statements',[])}
 next_id=max((s['id'] for s in seed.get('statements',[])),default=0)+1;review=[]
+
+# Hand-checked current snippets are merged first so a generic headline can never replace them.
+manual_path=B/'manual_verified.json'
+if manual_path.exists():
+ try:manual=json.loads(manual_path.read_text())
+ except Exception:manual=[]
+ for row in manual:
+  summary=clean_summary(row.get('summary',''));key=(row.get('commentator'),summary.casefold())
+  if not row.get('commentator') or len(summary)<20 or key in known:continue
+  seed['statements'].append({'id':next_id,'commentator':row['commentator'],'date':row.get('date',''),'team':row.get('team'),'players':row.get('players',[]),'topic':row.get('topic','Genel yorum'),'type':row.get('type','opinion'),'sentiment':row.get('sentiment','neutral'),'strength':row.get('strength',7),'summary':summary,'source':row.get('source','Doğrulanmış kaynak'),'url':row.get('url',''),'confidence':row.get('confidence',100),'status':'verified_manual'})
+  known.add(key);next_id+=1
+
 for c in candidates:
  if c.get('commentator') in PAUSED_COMMENTATORS:continue
  if c.get('confidence',0)<95:review.append(c);continue
@@ -83,7 +95,7 @@ for c in candidates:
  seed['statements'].append({'id':next_id,'commentator':c['commentator'],'date':c['discovered_at'][:10],'team':c.get('team'),'players':c.get('players',[]),'topic':c.get('topic','Genel yorum'),'type':c.get('type','opinion'),'sentiment':c.get('sentiment','neutral'),'strength':c.get('strength',6),'summary':summary,'source':c.get('source','Kamuya açık kaynak'),'url':c.get('url',''),'confidence':c.get('confidence',95),'status':'auto_candidate'})
  known.add(key);next_id+=1
 
-# Always present commentators in activity order in the payload too. Zero-comment profiles naturally sink.
+# Activity order: people with the most verified comments first, zero-comment profiles last.
 counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
 seed['commentators']=sorted(seed.get('commentators',[]),key=lambda c:(-counts.get(c['id'],0),c['name']))
