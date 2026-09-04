@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-04T22:02:10.338278+00:00",
+  "generated_at": "2026-09-04T22:09:46.449712+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
-    "successful": 17,
+    "successful": 79,
     "youtube_sources": 4,
-    "new_videos": 7,
-    "candidates": 71
+    "new_videos": 0,
+    "candidates": 61
   },
   "sources": [
     {
@@ -92,9 +92,9 @@
     {
       "commentator": "sansal-buyuka",
       "source": "CNBC-e · Saha ve Ötesi",
-      "candidates": 0,
-      "ok": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
@@ -125,496 +125,496 @@
       "commentator": "ahmet-cakar",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "levent-tuzemen",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "erman-ozgur",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ugur-karakullukcu",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "yagiz-sabuncuoglu",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "sinan-engin",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "haluk-yurekli",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ugur-meleke",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ali-naci-kucuk",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "nevzat-dindar",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "kaya-temel",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "serhan-turk",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 3,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "oguz-altay",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "koray-gok",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "semih-sezerli",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "servet-ozkara",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "hasan-al",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "mustafa-culcu",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "savas-corlu",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "burhan-can-terzi",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "bunyamin-gezer",
       "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "candidates": 4,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "firat-aydinus",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "guntekin-onay",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "serdar-ali-celikler",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "ali-ece",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "onder-ozen",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "metin-tekin",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "abdulkerim-durmaz",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "emre-ozcan",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "erman-yasar",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "caner-eler",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "bulent-timurlenk",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "firat-gunayer",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "nihat-kahveci",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "erman-toroglu",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
-      "kind": "web"
-    },
-    {
-      "commentator": "necati-ates",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ibrahim-seten",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "emre-ozcan",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "serdar-ali-celikler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "guntekin-onay",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ali-ece",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "onder-ozen",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "metin-tekin",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "abdulkerim-durmaz",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "erman-yasar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "caner-eler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "bulent-timurlenk",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "firat-gunayer",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "erman-toroglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "necati-ates",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "sansal-buyuka",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "cem-dizdar",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ogun-temizkanoglu",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "emre-kaplan",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "yakup-cinar",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "mehmet-ozcan",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "kadir-cetincali",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "suleyman-rodop",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "cagatay-celik",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "cumhur-onder-arslan",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "deniz-gulen",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "emrah-kayalioglu",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "emrah-oktay",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "erdem-acikgoz",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "eren-kaleli",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "evren-goz",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "evren-turhan",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "eyup-yildiz",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "feridun-nigdelioglu",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "gokhan-dinc",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "gokhan-karakaya",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "huseyin-kilinc",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "ilgaz-cinar",
       "source": "Google News RSS",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 503: Service Unavailable",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "source": "Socrates",
       "kind": "youtube",
       "items": 15,
-      "new_videos": 3,
-      "candidates": 11,
+      "new_videos": 0,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -622,8 +622,8 @@
       "source": "Tivibu Spor · Orta Nokta",
       "kind": "youtube",
       "items": 15,
-      "new_videos": 1,
-      "candidates": 10,
+      "new_videos": 0,
+      "candidates": 0,
       "ok": true,
       "error": null
     },
@@ -640,8 +640,8 @@
       "source": "VOLE / NEO Spor",
       "kind": "youtube",
       "items": 15,
-      "new_videos": 3,
-      "candidates": 17,
+      "new_videos": 0,
+      "candidates": 0,
       "ok": true,
       "error": null
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:08:43.379334+00:00",
+  "generated_at": "2026-09-04T22:10:00.860656+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -290,6 +290,18 @@
         "Genel"
       ],
       "photoURL": null
+    },
+    {
+      "id": "sansal-buyuka",
+      "name": "Şansal Büyüka",
+      "role": "Futbol yorumcusu",
+      "primarySource": "CNBC-e · Saha ve Ötesi",
+      "avatar": "ŞB",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "abdulkerim-durmaz",
@@ -2249,18 +2261,6 @@
       "photoURL": null
     },
     {
-      "id": "sansal-buyuka",
-      "name": "Şansal Büyüka",
-      "role": "Futbol yorumcusu",
-      "primarySource": "CNBC-e · Saha ve Ötesi",
-      "avatar": "ŞB",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
       "id": "senol-gunes",
       "name": "Şenol Güneş",
       "role": "Futbol yorumcusu / muhabir",
@@ -4025,6 +4025,25 @@
       "url": "https://www.youtube.com/watch?v=Z7JdY0OQvNQ",
       "image_url": "https://i.ytimg.com/vi/Z7JdY0OQvNQ/hqdefault.jpg",
       "confidence": 96,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 103,
+      "commentator": "sansal-buyuka",
+      "date": "2026-09-04",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Lütfen Alkışlamayın – Safiye Ayla ve Komando",
+      "source": "CNBC-e · Saha ve Ötesi",
+      "url": "https://www.cnbce.com/tv/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-v29828",
+      "image_url": "https://img.cnbce.com/2/1280/720/storage/files/images/2026/05/11/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-zc9i.jpg",
+      "confidence": 100,
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null
