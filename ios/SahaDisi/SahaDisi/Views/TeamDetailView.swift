@@ -43,7 +43,7 @@ struct TeamDetailView: View {
                     SDCard { Text("Bu takım için henüz doğrulanmış doğrudan yorum yok.").foregroundStyle(SDTheme.muted) }
                 } else {
                     ForEach(statements) { s in
-                        NavigationLink(value: s) {
+                        NavigationLink { StatementDetailView(statement: s) } label: {
                             let c = store.commentator(id: s.commentator)
                             VStack(alignment: .leading, spacing: 10) {
                                 HStack(spacing: 10) {

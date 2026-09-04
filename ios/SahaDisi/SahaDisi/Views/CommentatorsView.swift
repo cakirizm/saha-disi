@@ -56,12 +56,9 @@ struct CommentatorsView: View {
                         NavigationLink { CommentatorProfileView(commentator: c) } label: {
                             HStack(spacing: 12) {
                                 AvatarView(text: c.avatar, size: 50, photoURL: c.photoURL)
-                                VStack(alignment: .leading, spacing: 4) {
-                                    Text(c.name).font(.headline)
-                                    Text(count == 0 ? "Henüz doğrulanmış yorum yok" : "\(count) yorum · \(c.primarySource)")
-                                        .font(.caption).foregroundStyle(count == 0 ? SDTheme.muted2 : SDTheme.muted)
-                                }
+                                Text(c.name).font(.headline)
                                 Spacer()
+                                if count > 0 { Text("\(count) yorum").font(.caption).foregroundStyle(SDTheme.accent) }
                                 Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2)
                             }
                             .padding(.vertical, 10)

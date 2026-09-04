@@ -50,8 +50,6 @@ struct CommentatorProfileView: View {
             AvatarView(text: commentator.avatar, size: 92, photoURL: commentator.photoURL)
             VStack(alignment: .leading, spacing: 7) {
                 Text(commentator.name).font(.title2.weight(.black))
-                Text(commentator.role).font(.caption).foregroundStyle(SDTheme.muted)
-                Text(commentator.primarySource).font(.caption2).foregroundStyle(SDTheme.muted2)
                 notificationMenu
             }
             Spacer()
@@ -106,21 +104,7 @@ struct CommentatorProfileView: View {
             Text(teamFilter.map { "\($0) Hakkındaki Yorumlar" } ?? "Son Yorumlar").font(.title3.bold())
             if statements.isEmpty { Text("Bu filtre için doğrulanmış kayıt henüz yok.").foregroundStyle(SDTheme.muted) }
             ForEach(statements) { s in
-                NavigationLink(value: s) {
-                    VStack(alignment: .leading, spacing: 9) {
-                        HStack {
-                            Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted)
-                            Text("·").foregroundStyle(SDTheme.muted2)
-                            Text(s.type == "prediction" ? "Maç Öncesi" : "Doğrudan alıntı").font(.caption2).foregroundStyle(SDTheme.muted)
-                            Spacer(); predictionBadge(s)
-                        }
-                        Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(5)
-                        HStack {
-                            if let team = s.team { Text(store.canonicalTeam(team)).font(.caption).foregroundStyle(SDTheme.muted) }
-                            Spacer(); Text(s.source).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1)
-                        }
-                    }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
-                }.buttonStyle(.plain)
+                StatementTweetCard(statement: s)
             }
         }
     }

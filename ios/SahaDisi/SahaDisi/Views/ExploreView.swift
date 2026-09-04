@@ -77,7 +77,7 @@ struct ExploreView: View {
     private var trendSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             sectionHeader(selected == "Konular" ? "Gündem Konuları" : "Trend Sözler", "Canlı")
-            ForEach(store.hotStatements.prefix(15)) { s in NavigationLink(value: s) { StatementRow(statement: s) }.buttonStyle(.plain) }
+            ForEach(store.hotStatements.prefix(15)) { s in NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain) }
         }
     }
 
@@ -92,7 +92,7 @@ struct ExploreView: View {
     private var searchResults: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Arama Sonuçları").font(.title3.bold())
-            ForEach(filtered.prefix(30)) { s in NavigationLink(value: s) { StatementRow(statement: s) }.buttonStyle(.plain) }
+            ForEach(filtered.prefix(30)) { s in NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain) }
         }
     }
 

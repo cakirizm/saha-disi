@@ -36,6 +36,15 @@ final class AppStore: ObservableObject {
         return nil
     }
 
+    func artworkURL(for team: String) -> String? {
+        let target = canonicalTeam(team)
+        return (payload?.statements ?? [])
+            .filter { $0.team.map(canonicalTeam) == target && $0.imageURL != nil }
+            .sorted { $0.date > $1.date }
+            .compactMap(\.imageURL)
+            .first
+    }
+
     func statements(for commentatorID: String) -> [Statement] {
         (payload?.statements ?? []).filter { $0.commentator == commentatorID }.sorted { $0.date > $1.date }
     }
@@ -115,6 +124,10 @@ final class AppStore: ObservableObject {
             if $0.strength == $1.strength { return $0.date > $1.date }
             return $0.strength > $1.strength
         }
+    }
+
+    var latestStatements: [Statement] {
+        (payload?.statements ?? []).sorted { $0.date > $1.date }
     }
 
     func canonicalTeam(_ value: String) -> String {

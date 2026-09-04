@@ -121,6 +121,69 @@ struct SDLogo: View {
     }
 }
 
+struct LiveFootballMark: View {
+    var body: some View {
+        HStack(spacing: 10) {
+            ZStack {
+                RoundedRectangle(cornerRadius: 10).fill(SDTheme.accent)
+                Image(systemName: "dot.radiowaves.left.and.right").font(.system(size: 17, weight: .black)).foregroundStyle(.black)
+            }.frame(width: 38, height: 38)
+            VStack(alignment: .leading, spacing: 0) {
+                Text("CANLI").font(.system(size: 18, weight: .black, design: .rounded)).tracking(1.4)
+                Text("FUTBOL AKIŞI").font(.system(size: 9, weight: .bold, design: .rounded)).tracking(1.1).foregroundStyle(SDTheme.muted)
+            }
+        }
+    }
+}
+
+struct StatementSocialBar: View {
+    let statement: Statement
+    @State private var liked = false
+    @State private var comments: [String] = []
+    @State private var showingComments = false
+    @State private var draft = ""
+
+    var body: some View {
+        HStack(spacing: 24) {
+            Button { withAnimation(.snappy) { liked.toggle() } } label: {
+                Label(liked ? "1" : "Beğen", systemImage: liked ? "heart.fill" : "heart")
+                    .foregroundStyle(liked ? SDTheme.red : SDTheme.muted)
+            }
+            Button { showingComments = true } label: {
+                Label(comments.isEmpty ? "Yorum" : "\(comments.count)", systemImage: "bubble.left")
+            }
+            if let url = URL(string: statement.url), !statement.url.isEmpty {
+                ShareLink(item: url, subject: Text("Futbol yorumu"), message: Text(statement.summary)) {
+                    Label("Paylaş", systemImage: "square.and.arrow.up")
+                }
+            } else {
+                ShareLink(item: statement.summary) { Label("Paylaş", systemImage: "square.and.arrow.up") }
+            }
+            Spacer()
+        }
+        .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted)
+        .buttonStyle(.plain)
+        .sheet(isPresented: $showingComments) {
+            NavigationStack {
+                VStack(spacing: 16) {
+                    if comments.isEmpty { ContentUnavailableView("Henüz yorum yok", systemImage: "bubble.left", description: Text("İlk yorumu sen yaz.")) }
+                    else { List(comments, id: \.self) { Text($0) } }
+                    HStack {
+                        TextField("Yorum yaz…", text: $draft).textFieldStyle(.roundedBorder)
+                        Button("Gönder") {
+                            let value = draft.trimmingCharacters(in: .whitespacesAndNewlines)
+                            guard !value.isEmpty else { return }
+                            comments.append(value); draft = ""
+                        }.disabled(draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    }.padding()
+                }
+                .navigationTitle("Yorumlar").navigationBarTitleDisplayMode(.inline)
+                .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Bitti") { showingComments = false } } }
+            }.presentationDetents([.medium, .large])
+        }
+    }
+}
+
 struct RankBar: View {
     let rank: Int; let name: String; let count: Int; let maxCount: Int
     var body: some View {

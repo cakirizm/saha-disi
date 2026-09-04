@@ -17,14 +17,14 @@ struct MatchDetailView: View {
                 if !rows.isEmpty {
                     filterBar
                     Text("Bu Maça Bağlı Yorumlar").font(.title3.bold())
-                    ForEach(filteredRows) { s in NavigationLink(value: s) { matchComment(s, contextual: false) }.buttonStyle(.plain) }
+                    ForEach(filteredRows) { s in NavigationLink { StatementDetailView(statement: s) } label: { matchComment(s, contextual: false) }.buttonStyle(.plain) }
                 } else {
                     SDCard { VStack(alignment: .leading, spacing: 7) { Text("Henüz bu maça bağlı doğrulanmış yorum yok").font(.headline); Text("Sadece gerçekten bu maça bağlanmış yorumlar burada gösterilir.").font(.subheadline).foregroundStyle(SDTheme.muted) } }
                 }
                 if !relatedRows.isEmpty {
                     Text("Takımlar Hakkındaki Güncel Yorumlar").font(.title3.bold())
                     Text("Bunlar bu maça aitmiş gibi gösterilmez; yalnızca iki takım hakkında yakın dönem doğrulanmış sözlerdir.").font(.caption).foregroundStyle(SDTheme.muted)
-                    ForEach(relatedRows) { s in NavigationLink(value: s) { matchComment(s, contextual: true) }.buttonStyle(.plain) }
+                    ForEach(relatedRows) { s in NavigationLink { StatementDetailView(statement: s) } label: { matchComment(s, contextual: true) }.buttonStyle(.plain) }
                 }
             }.padding(16)
         }

@@ -21,6 +21,7 @@ struct HomeView: View {
             LazyVStack(alignment: .leading, spacing: 18) {
                 topNav
                 agendaCarousel
+                latestFeed
                 compactScores
                 hotClaims
                 topPlayers
@@ -37,7 +38,7 @@ struct HomeView: View {
     private var topNav: some View {
         VStack(alignment: .leading, spacing: 14) {
             HStack {
-                SDLogo()
+                LiveFootballMark()
                 Spacer()
                 NavigationLink { ExploreView() } label: { Image(systemName: "magnifyingglass").font(.title3).frame(width: 38, height: 38) }
                 NavigationLink { MoreDetailView(title: "Bildirimler", icon: "bell") } label: { Image(systemName: "bell").font(.title3).frame(width: 38, height: 38) }
@@ -88,7 +89,7 @@ struct HomeView: View {
             MatchArtwork(match: match)
             LinearGradient(colors: [.clear, Color.black.opacity(0.90)], startPoint: .top, endPoint: .bottom)
             VStack(alignment: .leading, spacing: 9) {
-                HStack { TagPill(text: "GÜNDEM", highlighted: true); Spacer(); Text("\(match.week). Hafta").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
+                HStack { Spacer(); Text("\(match.week). Hafta").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
                 Text(heroHeadline(match)).font(.system(size: 25, weight: .black, design: .rounded)).lineLimit(2)
                 Text(heroSubline(match)).font(.subheadline).foregroundStyle(Color.white.opacity(0.82)).lineLimit(2)
                 Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption2).foregroundStyle(Color.white.opacity(0.58))
@@ -124,13 +125,22 @@ struct HomeView: View {
         }
     }
 
+    private var latestFeed: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            header("Son Yorumlar", trailing: "Canlı")
+            ForEach(store.latestStatements.prefix(12)) { statement in
+                StatementTweetCard(statement: statement)
+            }
+        }
+    }
+
     private var hotClaims: some View {
         VStack(alignment: .leading, spacing: 10) {
             header("En İddialı Sözler", trailing: "Kaydır")
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
                     ForEach(store.hotStatements.prefix(8)) { s in
-                        NavigationLink(value: s) {
+                        NavigationLink { StatementDetailView(statement: s) } label: {
                             VStack(alignment: .leading, spacing: 10) {
                                 let c = store.commentator(id: s.commentator)
                                 HStack(spacing: 8) { AvatarView(text: c?.avatar ?? "?", size: 34, photoURL: c?.photoURL); Text(c?.name ?? s.commentator).font(.caption.bold()).lineLimit(1) }
@@ -167,7 +177,7 @@ struct HomeView: View {
                 NavigationLink { CommentatorProfileView(commentator: c) } label: {
                     HStack(spacing: 12) {
                         AvatarView(text: c.avatar, size: 46, photoURL: c.photoURL)
-                        VStack(alignment: .leading, spacing: 2) { Text(c.name).font(.headline); Text(c.primarySource).font(.caption2).foregroundStyle(SDTheme.muted).lineLimit(1) }
+                        Text(c.name).font(.headline)
                         Spacer(); Text("\(count) yorum").font(.caption.bold()).foregroundStyle(count == 0 ? SDTheme.muted2 : SDTheme.accent)
                         Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2)
                     }.padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14))
@@ -186,19 +196,32 @@ struct HomeView: View {
 }
 
 struct MatchArtwork: View {
+    @EnvironmentObject var store: AppStore
     let match: Match
     var body: some View {
         ZStack {
             LinearGradient(colors: [Color.white.opacity(0.12), SDTheme.background2], startPoint: .topLeading, endPoint: .bottomTrailing)
-            if let imageURL = match.imageURL, let url = URL(string: imageURL) {
-                AsyncImage(url: url) { phase in if case .success(let image) = phase { image.resizable().scaledToFill().opacity(0.40) } }
+            HStack(spacing: 0) {
+                teamArtwork(store.artworkURL(for: match.home) ?? match.imageURL)
+                teamArtwork(store.artworkURL(for: match.away) ?? match.imageURL)
             }
-            HStack(spacing: 24) {
-                TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: 82)
-                Text("VS").font(.caption.black()).foregroundStyle(Color.white.opacity(0.45))
-                TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: 82)
-            }
+            LinearGradient(colors: [Color.black.opacity(0.12), Color.black.opacity(0.58)], startPoint: .top, endPoint: .bottom)
         }.clipped()
+    }
+
+    @ViewBuilder private func teamArtwork(_ value: String?) -> some View {
+        if let value, let url = URL(string: value) {
+            AsyncImage(url: url) { phase in
+                if case .success(let image) = phase { image.resizable().scaledToFill() }
+                else { artworkFallback }
+            }.clipped()
+        } else { artworkFallback }
+    }
+    private var artworkFallback: some View {
+        ZStack {
+            LinearGradient(colors: [SDTheme.panel2, SDTheme.background], startPoint: .top, endPoint: .bottom)
+            Image(systemName: "soccerball").font(.system(size: 74, weight: .ultraLight)).foregroundStyle(Color.white.opacity(0.12))
+        }
     }
 }
 
@@ -220,6 +243,37 @@ struct StatementRow: View {
                 HStack { TagPill(text: statement.topic); if let team = statement.team { TagPill(text: team) }; Spacer(); Text("%\(statement.confidence)").font(.caption2).foregroundStyle(SDTheme.muted) }
             }
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
+    }
+}
+
+struct StatementTweetCard: View {
+    @EnvironmentObject var store: AppStore
+    let statement: Statement
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            NavigationLink { StatementDetailView(statement: statement) } label: {
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack(spacing: 10) {
+                        let commentator = store.commentator(id: statement.commentator)
+                        AvatarView(text: commentator?.avatar ?? "?", size: 44, photoURL: commentator?.photoURL)
+                        Text(commentator?.name ?? statement.commentator).font(.headline)
+                        Spacer()
+                        Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1).minimumScaleFactor(0.75)
+                    }
+                    Text(statement.summary).font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
+                    if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
+                        AsyncImage(url: url) { phase in
+                            if case .success(let image) = phase { image.resizable().scaledToFill() }
+                            else { Rectangle().fill(SDTheme.panel2) }
+                        }.frame(height: 190).frame(maxWidth: .infinity).clipped().clipShape(RoundedRectangle(cornerRadius: 14))
+                    }
+                }
+            }.buttonStyle(.plain)
+            StatementSocialBar(statement: statement)
+        }
+        .padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
+        .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
     }
 }
 

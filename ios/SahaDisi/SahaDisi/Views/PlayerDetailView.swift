@@ -64,7 +64,7 @@ struct PlayerDetailView: View {
                 }
             }
             Text("Hakkında Söylenenler").font(.title3.bold())
-            ForEach(rows) { s in NavigationLink(value: s) { StatementRow(statement: s) }.buttonStyle(.plain) }
+            ForEach(rows) { s in NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain) }
         }
     }
 
