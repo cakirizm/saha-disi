@@ -43,7 +43,7 @@ struct CommentatorsView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
                 HStack {
-                    Text("Yorumcular").font(.largeTitle.black())
+                    Text("Yorumcular").font(.largeTitle.weight(.black))
                     Spacer()
                     Text("\(rows.count)").font(.caption.bold()).foregroundStyle(SDTheme.muted)
                 }
