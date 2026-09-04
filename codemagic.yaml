@@ -3,31 +3,53 @@ workflows:
     name: Saha Dışı iOS → TestFlight
     instance_type: mac_mini_m2
     max_build_duration: 60
+
+    integrations:
+      app_store_connect: nova
+
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.sahadisi.app
-      groups:
-        - app_store_connect
       xcode: latest
+
     scripts:
       - name: Set up code signing
         script: |
           keychain initialize
           keychain add-certificates
           xcode-project use-profiles
-      - name: Build archive
+
+      - name: Set unique build number
+        script: |
+          cd ios/SahaDisi
+          BUILD_NUMBER=$(date -u +%y%m%d%H%M)
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUILD_NUMBER" Info.plist
+          echo "Using build number $BUILD_NUMBER"
+
+      - name: Build IPA
         script: |
           cd ios/SahaDisi
           xcode-project build-ipa \
             --project "SahaDisi.xcodeproj" \
             --scheme "SahaDisi"
+
+      - name: Verify IPA exists
+        script: |
+          IPA_COUNT=$(find ios/SahaDisi/build/ios/ipa -name '*.ipa' -type f 2>/dev/null | wc -l | tr -d ' ')
+          echo "IPA files found: $IPA_COUNT"
+          if [ "$IPA_COUNT" -lt 1 ]; then
+            echo "No IPA produced; stopping before publishing."
+            exit 1
+          fi
+          find ios/SahaDisi/build/ios/ipa -name '*.ipa' -type f -print
+
     artifacts:
-      - build/ios/ipa/*.ipa
+      - ios/SahaDisi/build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+
     publishing:
       app_store_connect:
-        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        auth: integration
         submit_to_testflight: true
+        submit_to_app_store: false
