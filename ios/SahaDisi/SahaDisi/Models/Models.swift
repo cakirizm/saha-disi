@@ -61,12 +61,16 @@ struct Match: Codable, Identifiable, Hashable {
     let homeScore: Int?
     let awayScore: Int?
     let imageURL: String?
+    let homeLogoURL: String?
+    let awayLogoURL: String?
 
     enum CodingKeys: String, CodingKey {
         case id, league, week, home, away, kickoff
         case homeScore = "home_score"
         case awayScore = "away_score"
         case imageURL = "image_url"
+        case homeLogoURL = "home_logo_url"
+        case awayLogoURL = "away_logo_url"
     }
 }
 
