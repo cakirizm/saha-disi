@@ -17,10 +17,10 @@
     "strength": 6,
     "source": "A Spor",
     "url": "https://www.aspor.com.tr/futbol",
-    "image_url": "https://iaaspr.tmgrup.com.tr/7ff3c0/1200/675/0/0/800/450?u=https://iaspr.tmgrup.com.tr/2026/09/05/mourinholu-real-madrid-deplasmanda-real-betise-kayip-1788557515183.jpeg",
+    "image_url": "https://iaaspr.tmgrup.com.tr/2fea80/1200/675/0/0/800/449?u=https://iaspr.tmgrup.com.tr/2026/09/05/psg-5-futbolcusuyla-sozlesme-uzatti-1788557822207.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.093445+00:00"
+    "discovered_at": "2026-09-04T21:50:46.063860+00:00"
   },
   {
     "candidate_id": "b38ce4f92359b6447130",
@@ -37,7 +37,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.493846+00:00"
+    "discovered_at": "2026-09-04T21:50:46.421569+00:00"
   },
   {
     "candidate_id": "836e35831b69210376df",
@@ -54,7 +54,77 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.493886+00:00"
+    "discovered_at": "2026-09-04T21:50:46.421616+00:00"
+  },
+  {
+    "candidate_id": "fdedce0b3450755ea255",
+    "commentator": "sinan-engin",
+    "summary_candidate": "Onu alan şampiyon olur",
+    "team": null,
+    "players": [],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajByckp1SEdhblpZcTB5YWhvUmNOWXBOUldnVk9mNVVZRHU3LXl5LVg4cUhUeFV1WmpHb2pNSUljV3g1UndXaVB0RmVFV0VxRGo4THpEUWFZTWVrT09NLUlVel9BVkVBSFktREdMdnhGYXl2YnJIRnhEVUdCQWxndUNGMUlDVzU2dVBlbHJIMmlndVJWSWQzWk44TUR6VkFycWdrN2VqV1ZsOEl6eDZJSGx4NA?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:45.507189+00:00"
+  },
+  {
+    "candidate_id": "9e41c50a68227acc7557",
+    "commentator": "sinan-engin",
+    "summary_candidate": "Şerefsizlere Bak Nasıl Saldırmışlar!",
+    "team": "Fenerbahçe",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTVpSl95T2M5T2sxV1ZrSGJ2dzZyVENjaWp2b0hqT094cHpDM3RkM2F2ellXS3RJS2tzY2JoNVhkQjBQbExhWXN1cnhHazNaeUFLWENwaXZzUTNsZEc2QjhPSk1Uank4bEczSV9rM2xmUkNaQ2NDamNfN0hlSzQyWjBaVXRhM2g0bTJaSUs4dFhCNU9VUmc1RFZ4S2h0Z0p4d3JQRGp1WVlzSHZDYUxncDZUWGpXY1BSM1BaZ0l4M011SkU?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:46.435170+00:00"
+  },
+  {
+    "candidate_id": "6a470486ed3ec8c64e1e",
+    "commentator": "ali-naci-kucuk",
+    "summary_candidate": "Galatasaray B Planı Olamaz!",
+    "team": "Galatasaray",
+    "players": [
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fTmZoUW1NeVRiQkgySlJqajUxSW1GclZzOTBQS0N0ZE1rdGtSTjJVMThUUHR5OTl5c25JUERsUTExckNlZ0NNc05Lam5ockVYRUZkbFlMclVLOHA5?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:45.608620+00:00"
+  },
+  {
+    "candidate_id": "72d711a058665de214c0",
+    "commentator": "ali-naci-kucuk",
+    "summary_candidate": "Çok Zor Bir Transfer!",
+    "team": null,
+    "players": [],
+    "topic": "Transfer",
+    "type": "transfer",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWU1lJVFB0NUtfb3pXaEF1LTJveW1QM01LbUd2bUlJVXRvSmpiV2NtM3pmT0x2YTBtYi1ZY2NPM0xERFZ3UFJrSzljVXlGQ3NNTTcxUm5jOGpOaHc?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:46.090055+00:00"
   },
   {
     "candidate_id": "76b899ebc66aa2db60fd",
@@ -71,7 +141,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.137152+00:00"
+    "discovered_at": "2026-09-04T21:50:45.773664+00:00"
   },
   {
     "candidate_id": "3ed7bfc1feb96eb5c3fb",
@@ -90,7 +160,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.484326+00:00"
+    "discovered_at": "2026-09-04T21:50:46.299964+00:00"
   },
   {
     "candidate_id": "7000d27f5873167da471",
@@ -109,41 +179,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:04.484385+00:00"
-  },
-  {
-    "candidate_id": "40b9733580befef7eca2",
-    "commentator": "oguz-altay",
-    "summary_candidate": "Benim bildiğim Galatasaray buradan kaptırmaz, çok küçük bir maddi fark var",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGVTUmdwcU5ZUDZadmdDRUMyS282NE5WNEdNcTZ6bElXWmFrZzBpNE1qdHp3VTVxNTFCQlA1Z0FqaDV0WTBvT19oc3dabHI0TFg1RUNOaHdWVngybnliblhfaEYxS200cGhJZ3FtbVpaaUdIaFpDUVBwUm54WktlLVNBX2pocUhWeWhmQmJ5OVh1dWhzMXhlYmRucG1zdXJqQVlWSUNoOFVDekhEM2o4Zk1rWdIBuAFBVV95cUxPaXd5M21uUmY2bzZUZDZoR2pCbjZkcnNzV2RLc0tFVU5jakVjQkxER3ZyeEo5Tm00Mm0tcjA0N2ZzS0Z4ek5aTW93V0ZsMGt1R0c0YXpiY0FuZXBnMVg5eS11LTZPYlE5b256dmM1NjVVWGpFX0FheHVWOG9HNTJSUDg0X0Vsb2FVYjVXOWNuTTdfVU5LMUw3NVZZSHVjaWpGbnpzOXFESERmTFlTd2F6R3N1bWJFMVlu?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:05.117739+00:00"
-  },
-  {
-    "candidate_id": "25b4f0b3091419794633",
-    "commentator": "oguz-altay",
-    "summary_candidate": "Benim bildiğim Galatasaray buradan kaptırmaz, çok küçük bir maddi fark var\" - Haber Sarı Kırmızı",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGVTUmdwcU5ZUDZadmdDRUMyS282NE5WNEdNcTZ6bElXWmFrZzBpNE1qdHp3VTVxNTFCQlA1Z0FqaDV0WTBvT19oc3dabHI0TFg1RUNOaHdWVngybnliblhfaEYxS200cGhJZ3FtbVpaaUdIaFpDUVBwUm54WktlLVNBX2pocUhWeWhmQmJ5OVh1dWhzMXhlYmRucG1zdXJqQVlWSUNoOFVDekhEM2o4Zk1rWdIBuAFBVV95cUxPaXd5M21uUmY2bzZUZDZoR2pCbjZkcnNzV2RLc0tFVU5jakVjQkxER3ZyeEo5Tm00Mm0tcjA0N2ZzS0Z4ek5aTW93V0ZsMGt1R0c0YXpiY0FuZXBnMVg5eS11LTZPYlE5b256dmM1NjVVWGpFX0FheHVWOG9HNTJSUDg0X0Vsb2FVYjVXOWNuTTdfVU5LMUw3NVZZSHVjaWpGbnpzOXFESERmTFlTd2F6R3N1bWJFMVlu?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:05.117781+00:00"
+    "discovered_at": "2026-09-04T21:50:46.300008+00:00"
   },
   {
     "candidate_id": "eb10b76142a15e0e5a72",
@@ -162,7 +198,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:05.693863+00:00"
+    "discovered_at": "2026-09-04T21:50:46.986597+00:00"
   },
   {
     "candidate_id": "f8d05c4bbdb1006a9f1d",
@@ -181,7 +217,7 @@
     "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:06.751222+00:00"
+    "discovered_at": "2026-09-04T21:50:47.462768+00:00"
   },
   {
     "candidate_id": "5257a63ddab7cba4c4aa",
@@ -200,7 +236,7 @@
     "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:06.751344+00:00"
+    "discovered_at": "2026-09-04T21:50:47.462893+00:00"
   },
   {
     "candidate_id": "21d430ee3717a5fc0bae",
@@ -217,7 +253,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:06.163982+00:00"
+    "discovered_at": "2026-09-04T21:50:47.639335+00:00"
   },
   {
     "candidate_id": "c546dfe3ecc63321c5e0",
@@ -234,76 +270,99 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:06.894574+00:00"
+    "discovered_at": "2026-09-04T21:50:48.275956+00:00"
   },
   {
-    "candidate_id": "a9e39c529a3ea8bd111e",
-    "commentator": "mustafa-culcu",
-    "summary_candidate": "Hakemlik adına çok ayıp - Halk TV",
-    "team": null,
+    "candidate_id": "a6558eb8e4483ba92065",
+    "commentator": "hasan-al",
+    "summary_candidate": "'Trabzonspor çok büyük hatalar yaparak elendi' - Cumhuriyet",
+    "team": "Trabzonspor",
     "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:07.358147+00:00"
-  },
-  {
-    "candidate_id": "e3a124172127e4398e39",
-    "commentator": "savas-corlu",
-    "summary_candidate": "Victor Osimhen Olmazsa Galatasaray Sıkıntıya Girer - bolgegundemi.com",
-    "team": "Galatasaray",
-    "players": [
-      "Osimhen"
-    ],
     "topic": "Genel yorum",
     "type": "opinion",
-    "sentiment": "neutral",
+    "sentiment": "negative",
     "strength": 6,
     "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTklDbGtKcFJOZGlGcmJzekxyNVBuZ0RLWnZKaGJxa3RUQU1fcjhEd2dDcHVvZG9RS25aQ0gxU0UyRTlseEJVV2FHT05lYnNpZ0JwcDdUN250eExoWE5MWHJsZ1ZCN1NKMmR1eTZYOWo1SUZPbXQ1enJaU256UUlGWUp5MkZOd0JwUTg1bXZ3OExCdDRic1RRb3czN1F0QmxVNkVmdzVQelRHWmFtUXc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSXMwc3FhTXRzUzdFRjVxVWxkQXQ3azEwSmdCQTVmV2xOc2VMVFA5UjJIUUZ2Ul92dl9aSmdxeWs1UHNhdm5FUlJyMHZuUHdiTWFTb0t0aXEzblAwdTZZdkdkNUFBcTdoY2s4dlJya2FVVVJuaGFEcmdYaVNoeklYNFp3M294NVVCc2p0aFVxMTBWT1dJc29QQ1dteUQ?oc=5",
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:08.054379+00:00"
+    "discovered_at": "2026-09-04T21:50:48.631450+00:00"
   },
   {
-    "candidate_id": "1a8e8e2fb09d09b75549",
-    "commentator": "firat-aydinus",
-    "summary_candidate": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!",
-    "team": "Fenerbahçe",
-    "players": [],
+    "candidate_id": "c0aec6c62e9d9cfeb0e9",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Penaltı” 🗣️Deniz Çoban: “Penaltı",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
     "topic": "Hakem / VAR",
     "type": "referee",
     "sentiment": "neutral",
     "strength": 8,
     "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT21YUnJJYkNMeW0zbUlQR3pCM1R3MHp2UDVDc2FZN0VtcjdzcVRva0pSMzlwQnUxZnVvaEJKUDJUMXhvNGl2U1VqLXdKNllrbFJZcy1IcXE5XzRYQWdfVWdqb0FVM2dfR29vMHl6Y2RPNTJ0dnNYWjNDRGhfeDNDaWNwOEYtNGNDZmwxanhCSDJCenNSYldFVnVmYk50eDRpZFl2ajVPWllYS25WRWY4?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:08.720221+00:00"
+    "discovered_at": "2026-09-04T21:50:49.198652+00:00"
   },
   {
-    "candidate_id": "86e11efcfe26591c0cb2",
-    "commentator": "firat-aydinus",
-    "summary_candidate": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!\" - Ajansspor",
-    "team": "Fenerbahçe",
-    "players": [],
+    "candidate_id": "8b9c51f1302ffe859d88",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Penaltı” 🗣️Fırat Aydınus: “Penaltı",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
     "topic": "Hakem / VAR",
     "type": "referee",
     "sentiment": "neutral",
     "strength": 8,
     "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT21YUnJJYkNMeW0zbUlQR3pCM1R3MHp2UDVDc2FZN0VtcjdzcVRva0pSMzlwQnUxZnVvaEJKUDJUMXhvNGl2U1VqLXdKNllrbFJZcy1IcXE5XzRYQWdfVWdqb0FVM2dfR29vMHl6Y2RPNTJ0dnNYWjNDRGhfeDNDaWNwOEYtNGNDZmwxanhCSDJCenNSYldFVnVmYk50eDRpZFl2ajVPWllYS25WRWY4?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T21:35:08.720263+00:00"
+    "discovered_at": "2026-09-04T21:50:49.198734+00:00"
+  },
+  {
+    "candidate_id": "9be4b01cb6afb141d1b2",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Penaltı” 🗣️Erman Toroğlu: “Penaltı",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:49.198770+00:00"
+  },
+  {
+    "candidate_id": "4c23af35b65dcfa5a7b5",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Penaltı” 🗣️Fırat Aydınus: “Penaltı” 🗣️Ahmet Çakar: “Penaltı” 🗣️Erman Toroğlu: “Penaltı” #Beşiktaş #duhuliye #haber1903 - instagram.com",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-04T21:50:49.198807+00:00"
   }
 ]

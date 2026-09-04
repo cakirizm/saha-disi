@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:35:23.112643+00:00",
+  "generated_at": "2026-09-04T21:51:03.218341+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -135,6 +135,13 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Og%C3%BCn_Temizkano%C4%9Flu.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoSource": "https://tr.wikipedia.org/wiki/Og%C3%BCn_Temizkano%C4%9Flu",
       "resolvedTitle": "Ogün Temizkanoğlu",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "volkan-demirel": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Volkan_Demirel%2714-15.JPG/960px-Volkan_Demirel%2714-15.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Volkan_Demirel",
+      "resolvedTitle": "Volkan Demirel",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
