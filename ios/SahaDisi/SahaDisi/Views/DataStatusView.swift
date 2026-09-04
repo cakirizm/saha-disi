@@ -5,7 +5,7 @@ struct DataStatusView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 16) {
-                Text("Veri Kaynakları").font(.largeTitle.black())
+                Text("Veri Kaynakları").font(.largeTitle.weight(.black))
                 Text("Saha Dışı'nın canlı veri ve doğrulama durumu").foregroundStyle(SDTheme.muted)
                 HStack { metric("Yorum", store.payload?.statements.count ?? 0); metric("Yorumcu", store.payload?.commentators.count ?? 0); metric("Oyuncu", store.rankedPlayers.count) }
                 SDCard {
@@ -27,5 +27,5 @@ struct DataStatusView: View {
             }.padding(16)
         }.background(SDTheme.background).refreshable { await store.refresh() }
     }
-    private func metric(_ title: String, _ value: Int) -> some View { VStack { Text("\(value)").font(.title2.black()); Text(title).font(.caption2).foregroundStyle(SDTheme.muted) }.frame(maxWidth: .infinity).padding(10).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }
+    private func metric(_ title: String, _ value: Int) -> some View { VStack { Text("\(value)").font(.title2.weight(.black)); Text(title).font(.caption2).foregroundStyle(SDTheme.muted) }.frame(maxWidth: .infinity).padding(10).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14)) }
 }
