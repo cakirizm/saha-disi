@@ -36,7 +36,7 @@ struct CommentatorProfileView: View {
         HStack(alignment: .top, spacing: 14) {
             AvatarView(text: commentator.avatar, size: 88)
             VStack(alignment: .leading, spacing: 7) {
-                Text(commentator.name).font(.title2.black())
+                Text(commentator.name).font(.title2.weight(.black))
                 Text("\(commentator.role) · \(commentator.primarySource)").font(.caption).foregroundStyle(SDTheme.muted)
                 Button("Takip Et") {}.font(.caption.bold()).padding(.horizontal, 18).padding(.vertical, 8).background(SDTheme.accent).clipShape(Capsule())
             }
@@ -90,7 +90,7 @@ struct CommentatorProfileView: View {
             Text("Tahmin Performansı").font(.title3.bold())
             SDCard {
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("%\(successRate) başarı").font(.title2.black()).foregroundStyle(successRate >= 50 ? SDTheme.green : SDTheme.red)
+                    Text("%\(successRate) başarı").font(.title2.weight(.black)).foregroundStyle(successRate >= 50 ? SDTheme.green : SDTheme.red)
                     ProgressView(value: Double(successRate), total: 100).tint(SDTheme.accent)
                     Text("\(predictions.total) sonuçlanan tahmin · \(predictions.correct) doğru · \(predictions.wrong) yanlış").font(.caption).foregroundStyle(SDTheme.muted)
                 }
@@ -122,12 +122,12 @@ struct CommentatorProfileView: View {
     }
 
     private func stat(_ title: String, _ value: Int, _ color: Color, suffix: String = "") -> some View {
-        VStack(spacing: 4) { Text("\(value)\(suffix)").font(.title3.black()).foregroundStyle(color); Text(title).font(.system(size: 9)).foregroundStyle(SDTheme.muted).multilineTextAlignment(.center) }.frame(maxWidth: .infinity)
+        VStack(spacing: 4) { Text("\(value)\(suffix)").font(.title3.weight(.black)).foregroundStyle(color); Text(title).font(.system(size: 9)).foregroundStyle(SDTheme.muted).multilineTextAlignment(.center) }.frame(maxWidth: .infinity)
     }
-    private func smallMetric(_ title: String, _ value: Int) -> some View { VStack(spacing: 4) { Text("\(value)").font(.title2.black()); Text(title).font(.caption2).foregroundStyle(SDTheme.muted) }.frame(maxWidth: .infinity).padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 13)) }
+    private func smallMetric(_ title: String, _ value: Int) -> some View { VStack(spacing: 4) { Text("\(value)").font(.title2.weight(.black)); Text(title).font(.caption2).foregroundStyle(SDTheme.muted) }.frame(maxWidth: .infinity).padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 13)) }
     private func predictionBadge(_ s: Statement) -> some View {
         let label = s.predictionOutcome == "correct" ? "DOĞRU" : (s.predictionOutcome == "wrong" ? "YANLIŞ" : "")
         let color = s.predictionOutcome == "correct" ? SDTheme.green : SDTheme.red
-        return Text(label).font(.caption2.black()).padding(.horizontal, 7).padding(.vertical, 4).background(color.opacity(label.isEmpty ? 0 : 0.15)).foregroundStyle(color).clipShape(RoundedRectangle(cornerRadius: 4))
+        return Text(label).font(.caption2.weight(.black)).padding(.horizontal, 7).padding(.vertical, 4).background(color.opacity(label.isEmpty ? 0 : 0.15)).foregroundStyle(color).clipShape(RoundedRectangle(cornerRadius: 4))
     }
 }
