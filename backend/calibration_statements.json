@@ -1,0 +1,159 @@
+{
+  "purpose": "benchmark_calibration_only",
+  "statements": [
+    {
+      "id": 6,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Yunus Akgün"
+      ],
+      "topic": "Hücum uyumu",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Osimhen-Yunus ikilisinin uyumunun Galatasaray'ın hücumunu yukarı taşıdığını belirtiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/22/hakemlik-adina-ayip",
+      "confidence": 100
+    },
+    {
+      "id": 7,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Form",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Osimhen'i çok formda ve istekli buluyor; varlığının Galatasaray'ın sorunlarını azalttığını düşünüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/22/hakemlik-adina-ayip",
+      "confidence": 100
+    },
+    {
+      "id": 8,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Kadro derinliği",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Şampiyonlar Ligi seviyesi için Galatasaray'ın kadro derinliği ve kalite takviyesine ihtiyaç duyduğunu düşünüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/22/hakemlik-adina-ayip",
+      "confidence": 100
+    },
+    {
+      "id": 9,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-28",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Trabzonspor-Ferencvaros maçındaki hakem yönetimini güçsüz buluyor ve kritik kararların yönetilemediğini savunuyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/28/hakem-ezildi",
+      "confidence": 100
+    },
+    {
+      "id": 10,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-23",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood",
+        "Asensio",
+        "Kerem"
+      ],
+      "topic": "Takım performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Fenerbahçe'nin doğru 11 ile daha etkili olduğunu, Greenwood'u çok iyi; Asensio'yu kaliteli bulduğunu belirtiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/23/bir-haftada-patladiniz",
+      "confidence": 100
+    },
+    {
+      "id": 11,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-16",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Gençlerbirliği maçında Fenerbahçe lehine verilmesi gerektiğini düşündüğü bir penaltının VAR tarafından kaçırıldığını savunuyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/16/goutasin-eli-penalti",
+      "confidence": 100
+    },
+    {
+      "id": 12,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-19",
+      "team": "Fenerbahçe",
+      "players": [
+        "Skriniar",
+        "Greenwood"
+      ],
+      "topic": "Avrupa maçı",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Fenerbahçe'nin Lyon karşısında zorlanacağını ama rakibini eleyebilecek güce sahip olduğunu öngörüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/19/skriniar-daha-dikkatli-olmali",
+      "confidence": 100
+    },
+    {
+      "id": 17,
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Galatasaray-Göztepe maçındaki hakem kararlarını eleştirel biçimde değerlendirdi.",
+      "source": "GZT / köşe yazısı aktarımı",
+      "url": "https://www.gzt.com/spor/ahmet-cakar-ve-mustafa-culcudan-mac-sonrasi-olay-yorum-mehmet-turkmeni-yerden-yere-vurdular-galatasaray-goztepe-maci-4256103",
+      "confidence": 88,
+      "status": "verified_source"
+    },
+    {
+      "commentator": "mustafa-culcu",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Torreira",
+        "Batrakov"
+      ],
+      "topic": "Maç sonrası / hakem",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Galatasaray’ın oyununda ciddi sorunlar gördü, Osimhen’i galibiyetin mimarı olarak öne çıkardı ve maçın hakem/VAR yönetimini eleştirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/08/30/seviye-atladilar",
+      "confidence": 100,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-gs-goz",
+      "id": 26
+    }
+  ]
+}

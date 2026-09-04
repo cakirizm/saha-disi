@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Saha Dışı — Futbolun diğer yüzü</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app-shell">
+  <header class="topbar">
+    <div class="brand">SAHA DIŞI<span>.</span></div>
+    <div class="top-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Ara">⌕</button>
+      <button class="live-pill"><i></i> Veri canlı</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">FUTBOLUN DİĞER YÜZÜ</div>
+      <h1>Kim ne dedi?<br><em>Biz unutmuyoruz.</em></h1>
+      <p>Yorumcuların sözleri, oyuncu gündemi ve iddialı tahminler tek yerde.</p>
+    </section>
+
+    <nav class="tabs" id="tabs">
+      <button class="active" data-view="gundem">Gündem</button>
+      <button data-view="takimlar">Takımlar</button>
+      <button data-view="oyuncular">Oyuncular</button>
+      <button data-view="yorumcular">Yorumcular</button>
+    </nav>
+
+    <section id="view"></section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="active" data-bottom="gundem"><span>⌂</span>Ana Sayfa</button>
+    <button data-bottom="kesfet"><span>◉</span>Keşfet</button>
+    <button data-bottom="iddiali"><span>↗</span>İddialı Sözler</button>
+    <button data-bottom="profil"><span>◎</span>Profil</button>
+  </nav>
+</div>
+<div class="modal" id="modal"><div class="modal-card"><button id="closeModal">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>

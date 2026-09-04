@@ -1,0 +1,20 @@
+name: SahaDisi
+options:
+  bundleIdPrefix: com.sahadisi
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+    SWIFT_VERSION: 5.0
+targets:
+  SahaDisi:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: SahaDisi
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sahadisi.app
+        INFOPLIST_FILE: SahaDisi/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1"

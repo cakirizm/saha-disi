@@ -1,0 +1,1116 @@
+{
+  "generated_at": "2026-09-04T01:20:00+04:00",
+  "commentators": [
+    {
+      "id": "ugur-meleke",
+      "name": "Uğur Meleke",
+      "role": "Futbol yorumcusu",
+      "primarySource": "beIN SPORTS",
+      "avatar": "UM"
+    },
+    {
+      "id": "guntekin-onay",
+      "name": "Güntekin Onay",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Hürriyet / beIN SPORTS",
+      "avatar": "GO"
+    },
+    {
+      "id": "serdar-ali-celikler",
+      "name": "Serdar Ali Çelikler",
+      "role": "Yorumcu",
+      "primarySource": "VOLE / NEO Spor",
+      "avatar": "SAÇ"
+    },
+    {
+      "id": "ali-ece",
+      "name": "Ali Ece",
+      "role": "Yorumcu",
+      "primarySource": "VOLE",
+      "avatar": "AE"
+    },
+    {
+      "id": "onder-ozen",
+      "name": "Önder Özen",
+      "role": "Beşiktaş Futbol Direktörü / eski yorumcu",
+      "primarySource": "Beşiktaş",
+      "avatar": "ÖÖ"
+    },
+    {
+      "id": "metin-tekin",
+      "name": "Metin Tekin",
+      "role": "Futbol yorumcusu",
+      "primarySource": "VOLE / NEO Spor",
+      "avatar": "MT"
+    },
+    {
+      "id": "abdulkerim-durmaz",
+      "name": "Abdülkerim Durmaz",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Beyaz Futbol / VOLE",
+      "avatar": "AD"
+    },
+    {
+      "id": "emre-ozcan",
+      "name": "Emre Özcan",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Socrates · Tardini Büfe",
+      "avatar": "EÖ"
+    },
+    {
+      "id": "erman-yasar",
+      "name": "Erman Yaşar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Socrates",
+      "avatar": "EY"
+    },
+    {
+      "id": "caner-eler",
+      "name": "Caner Eler",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Socrates",
+      "avatar": "CE"
+    },
+    {
+      "id": "yagiz-sabuncuoglu",
+      "name": "Yağız Sabuncuoğlu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Kendi yayınları / 343 keşif",
+      "avatar": "YS"
+    },
+    {
+      "id": "ugur-karakullukcu",
+      "name": "Uğur Karakullukçu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Kendi kanalı",
+      "avatar": "UK"
+    },
+    {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT"
+    },
+    {
+      "id": "firat-gunayer",
+      "name": "Fırat Günayer",
+      "role": "Yorumcu ve içerik üreticisi",
+      "primarySource": "Sports Digitale / Rabona",
+      "avatar": "FG"
+    },
+    {
+      "id": "nihat-kahveci",
+      "name": "Nihat Kahveci",
+      "role": "Yorumcu",
+      "primarySource": "Kontraspor",
+      "avatar": "NK"
+    },
+    {
+      "id": "erman-ozgur",
+      "name": "Erman Özgür",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Tivibu Spor · Orta Nokta",
+      "avatar": "EÖ"
+    },
+    {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT"
+    },
+    {
+      "id": "erman-toroglu",
+      "name": "Erman Toroğlu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "ET"
+    },
+    {
+      "id": "ahmet-cakar",
+      "name": "Ahmet Çakar",
+      "role": "Yorumcu / Yazar",
+      "primarySource": "A Spor / Beyaz Futbol",
+      "avatar": "AC"
+    },
+    {
+      "id": "sinan-engin",
+      "name": "Sinan Engin",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Beyaz Futbol",
+      "avatar": "SE"
+    },
+    {
+      "id": "necati-ates",
+      "name": "Necati Ateş",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Beyaz Futbol",
+      "avatar": "NA"
+    },
+    {
+      "id": "haluk-yurekli",
+      "name": "Haluk Yürekli",
+      "role": "Futbol yorumcusu",
+      "primarySource": "YouTube / TV",
+      "avatar": "HY"
+    },
+    {
+      "id": "ibrahim-seten",
+      "name": "İbrahim Seten",
+      "role": "Futbol yorumcusu",
+      "primarySource": "343",
+      "avatar": "İS"
+    },
+    {
+      "id": "sansal-buyuka",
+      "name": "Şansal Büyüka",
+      "role": "Futbol yorumcusu",
+      "primarySource": "CNBC-e · Saha ve Ötesi",
+      "avatar": "ŞB"
+    },
+    {
+      "id": "ali-naci-kucuk",
+      "name": "Ali Naci Küçük",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Spor basını",
+      "avatar": "AN"
+    },
+    {
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD"
+    },
+    {
+      "id": "ogun-temizkanoglu",
+      "name": "Ogün Temizkanoğlu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor · Stadyum",
+      "avatar": "OT"
+    }
+  ],
+  "statements": [
+    {
+      "id": 1,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Osimhen'i Türk futbol tarihinin en önemli golcülerinden biri olarak değerlendiriyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/22/futbola-yeni-baslamis-gibi",
+      "confidence": 100
+    },
+    {
+      "id": 2,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [
+        "Sane",
+        "Barış Alper"
+      ],
+      "topic": "Form",
+      "type": "performance",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Sane ve Barış Alper'in formsuz olduğunu, potansiyellerine dönmeleri halinde Galatasaray'ın yeniden çok etkili olacağını düşünüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/22/futbola-yeni-baslamis-gibi",
+      "confidence": 100
+    },
+    {
+      "id": 3,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-22",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Takım gücü",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Gol üretme açısından Türkiye'nin en güçlü takımının hâlâ Galatasaray olduğunu savunuyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/22/futbola-yeni-baslamis-gibi",
+      "confidence": 100
+    },
+    {
+      "id": 4,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-15",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Yunus Akgün"
+      ],
+      "topic": "Takım durumu",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Galatasaray'da ciddi bir problem olduğunu; Osimhen ve Yunus dışında oyuncuların isteksiz göründüğünü düşünüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/15/problemin-buyuk-oldugunu-dusunuyorum",
+      "confidence": 100
+    },
+    {
+      "id": 5,
+      "commentator": "ahmet-cakar",
+      "date": "2026-07-22",
+      "team": "Fenerbahçe",
+      "players": [
+        "Talisca"
+      ],
+      "topic": "Oyuncu kalitesi",
+      "type": "hot_take",
+      "sentiment": "positive",
+      "strength": 10,
+      "summary": "Talisca'yı o an için Süper Lig'in en yetenekli ve yaratıcı oyuncusu olarak görüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/07/22/olumcul-frikik",
+      "confidence": 100
+    },
+    {
+      "id": 13,
+      "commentator": "nihat-kahveci",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Oğuz Aydın'ın forma şansı bulduğunda kalitesini gösterdiğini ve Fenerbahçe için önemli bir kazanım olduğunu düşünüyor.",
+      "source": "Yeni Şafak / Kontraspor aktarımı",
+      "url": "https://www.yenisafak.com/galeri/spor/nihat-kahveciden-dikkat-ceken-yorum-fenerbahce-bir-oyuncu-aldi-kimse-farkinda-degil-4852157",
+      "confidence": 88,
+      "status": "verified_source"
+    },
+    {
+      "id": 14,
+      "commentator": "nihat-kahveci",
+      "date": "2026-09-01",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Vlahovic'in Çorum FK karşısında yalnızca golleriyle değil bağlantı oyunu, hareketliliği ve topsuz konsantrasyonuyla çok güçlü bir performans verdiğini değerlendiriyor.",
+      "source": "GZT / Kontraspor aktarımı",
+      "url": "https://www.gzt.com/spor/nihat-kahveci-besiktas-corum-fk-macini-yorumladi-4256638",
+      "confidence": 90,
+      "status": "verified_source"
+    },
+    {
+      "id": 15,
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-09-03",
+      "team": "Fenerbahçe",
+      "players": [
+        "Asensio"
+      ],
+      "topic": "Sağlık iddiası",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Asensio'nun diz bağlarında ciddi bir problem bulunduğu ve ameliyat olabileceği yönündeki iddia, Fenerbahçe tarafından aynı gün kamuoyuna yapılan açıklamayla reddedildi.",
+      "source": "TGRT Haber / kulüp açıklaması",
+      "url": "https://www.tgrthaber.com/spor/fenerbahceden-serdar-ali-celikler-ve-yusuf-kenan-calikin-iddialarina-sert-yanit-asens-3357387",
+      "confidence": 95,
+      "status": "officially_denied"
+    },
+    {
+      "id": 16,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Galatasaray-Göztepe maçının hakem yönetimini çok sert şekilde eleştirdi.",
+      "source": "GZT / köşe yazısı aktarımı",
+      "url": "https://www.gzt.com/spor/ahmet-cakar-ve-mustafa-culcudan-mac-sonrasi-olay-yorum-mehmet-turkmeni-yerden-yere-vurdular-galatasaray-goztepe-maci-4256103",
+      "confidence": 90,
+      "status": "verified_source"
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-28",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Maç tahmini",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 9,
+      "summary": "Galatasaray-Göztepe maçının berabere biteceğini öngördü. Galatasaray 3-2 kazandı; tahmin yanlış sonuçlandı.",
+      "source": "Ensonhaber / Doktor Çakar",
+      "url": "https://www.ensonhaber.com/ahmet-cakar-super-ligde-3-haftanin-tahminlerini-yapti-h1561172",
+      "confidence": 95,
+      "status": "prediction_wrong",
+      "match_id": "sl-2026-w3-gs-goz",
+      "prediction_outcome": "wrong",
+      "id": 18
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-28",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç tahmini",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Samsunspor-Fenerbahçe maçını Fenerbahçe’nin kazanacağını öngördü. Fenerbahçe 2-0 kazandı; tahmin doğru sonuçlandı.",
+      "source": "Ensonhaber / Doktor Çakar",
+      "url": "https://www.ensonhaber.com/ahmet-cakar-super-ligde-3-haftanin-tahminlerini-yapti-h1561172",
+      "confidence": 95,
+      "status": "prediction_correct",
+      "match_id": "sl-2026-w3-sam-fb",
+      "prediction_outcome": "correct",
+      "id": 19
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-28",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç tahmini",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Beşiktaş-Çorum FK maçını Beşiktaş’ın kazanacağını öngördü. Beşiktaş 6-2 kazandı; tahmin doğru sonuçlandı.",
+      "source": "Ensonhaber / Doktor Çakar",
+      "url": "https://www.ensonhaber.com/ahmet-cakar-super-ligde-3-haftanin-tahminlerini-yapti-h1561172",
+      "confidence": 95,
+      "status": "prediction_correct",
+      "match_id": "sl-2026-w3-bjk-corum",
+      "prediction_outcome": "correct",
+      "id": 20
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-28",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Maç tahmini",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Amed SK-Trabzonspor maçını Trabzonspor’un kazanacağını öngördü. Amed SK 2-1 kazandı; tahmin yanlış sonuçlandı.",
+      "source": "Ensonhaber / Doktor Çakar",
+      "url": "https://www.ensonhaber.com/ahmet-cakar-super-ligde-3-haftanin-tahminlerini-yapti-h1561172",
+      "confidence": 95,
+      "status": "prediction_wrong",
+      "match_id": "sl-2026-w3-amed-ts",
+      "prediction_outcome": "wrong",
+      "id": 21
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Oğuz Aydın",
+        "Archie Brown"
+      ],
+      "topic": "Maç sonrası performans",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Samsunspor galibiyeti sonrası Oğuz Aydın’ın fırsatı çok iyi değerlendirdiğini ve Archie Brown’ın maçın en iyi Fenerbahçelisi olduğunu değerlendirdi.",
+      "source": "Haber Global / Kontraspor",
+      "url": "https://haberglobal.com/spor/nihat-kahveci-fenerbahce-bir-oyuncu-aldi-kimse-farkinda-degil-541807",
+      "confidence": 95,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-sam-fb",
+      "id": 22
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "date": "2026-08-31",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic",
+        "Cerny",
+        "Murillo",
+        "Trossard",
+        "Orkun Kökçü",
+        "Salih Özcan"
+      ],
+      "topic": "Maç sonrası performans",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Çorum FK maçından sonra Beşiktaş hücumunu 10 üzerinden 9,5 seviyesinde değerlendirdi; Vlahovic, Cerny, Murillo ve Salih Özcan’ı öne çıkardı.",
+      "source": "Haber Global / Kontraspor",
+      "url": "https://haberglobal.com/spor/nihat-kahveci-derbiyi-kazanmanin-formulunu-verdi-541942",
+      "confidence": 95,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-bjk-corum",
+      "id": 23
+    },
+    {
+      "commentator": "ali-ece",
+      "date": "2026-09-01",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic",
+        "İlhan Fakılı",
+        "Trossard"
+      ],
+      "topic": "Maç sonrası performans",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Çorum FK galibiyeti sonrası Beşiktaş’ın hücum çeşitliliğini ve Vlahovic’in bağlantı oyununu övdü; savunma dengesinde ise daha güçlü rakipler öncesi risk gördü.",
+      "source": "Duhuliye / NEO Spor",
+      "url": "https://www.duhuliye.com/futbol/vlahovic-kullanim-kilavuzunun-ilk-sayfalari-acildi-5427/amp",
+      "confidence": 92,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-bjk-corum",
+      "id": 24
+    },
+    {
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç sonrası / hakem",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Samsunspor-Fenerbahçe maçı sonrasında hakemlerin oyunu fazla düdükle böldüğünü ve Dünya Kupası’ndaki yaklaşımdan ders alınmadığını savundu.",
+      "source": "Futboo / NEO Spor",
+      "url": "https://www.futboo.com/foto-galeri/serdar-ali-celikler-in-samsunspor-fenerbahce-degerlendirmesi/5047/resim/5",
+      "confidence": 90,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-sam-fb",
+      "id": 25
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Kante",
+        "Guendouzi",
+        "Semedo",
+        "Vedat Muriqi",
+        "Oğuz Aydın"
+      ],
+      "topic": "Maç sonrası performans",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 10,
+      "summary": "Samsunspor galibiyeti sonrası dört büyük içinde en iyi futbolu oynayan ve en çok pozisyona giren takımın Fenerbahçe olduğunu savundu; hakem Yasin Kol’u ise sert biçimde eleştirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/fenerbahce/2026/08/31/ahmet-cakar-samsunspor-fenerbahce-macindaki-tartismali-pozisyonlari-yorumladi",
+      "confidence": 100,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-sam-fb",
+      "id": 27
+    },
+    {
+      "id": 28,
+      "commentator": "ugur-meleke",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Takım performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Samsunspor maçının ilk yarısındaki Fenerbahçe performansını son iki yılın en iyi Fenerbahçe oyunu olarak değerlendirdi.",
+      "source": "Hürriyet / Habertürk",
+      "url": "https://www.haberturk.com/spor/foto/spor-yazarlari-fenerbahce-nin-samsunspor-galibiyetini-degerlendirdi-3909227",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 29,
+      "commentator": "ugur-meleke",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Taktik",
+      "type": "tactical",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Greenwood merkeze ve iç koridora yaklaştığında daha etkili olduğunu, kaleye yakın kullanımının sezon için önemli bir referans verdiğini belirtti.",
+      "source": "Hürriyet / Diken",
+      "url": "https://www.diken.com.tr/ugur-meleke-son-iki-yilin-en-iyi-fenerbahcesi/",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 30,
+      "commentator": "ugur-meleke",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Archie Brown",
+        "Oğuz Aydın",
+        "Vedat Muriqi"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Archie Brown, Oğuz Aydın ve Vedat Muriqi’nin Lyon ve Samsunspor maçlarında Fenerbahçe’nin yükselen performansında belirleyici olduğunu vurguladı.",
+      "source": "Hürriyet / Diken",
+      "url": "https://www.diken.com.tr/ugur-meleke-son-iki-yilin-en-iyi-fenerbahcesi/",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 31,
+      "commentator": "metin-tekin",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Takım performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Samsunspor deplasmanının kağıt üzerinde zor görünmesine rağmen Fenerbahçe’nin maçı oldukça rahat geçtiğini ve Lyon galibiyetiyle oluşan havanın güçlenebileceğini söyledi.",
+      "source": "NEO Spor / Futboo",
+      "url": "https://www.futboo.com/foto-galeri/serdar-ali-celikler-in-samsunspor-fenerbahce-degerlendirmesi/5047/resim/5",
+      "confidence": 90,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 32,
+      "commentator": "metin-tekin",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Oğuz Aydın’ın yoğun rekabet içinde bulduğu forma fırsatlarını çok iyi kullandığını ve Samsunspor’a attığı golü özellikle övdü.",
+      "source": "NEO Spor / Futboo",
+      "url": "https://www.futboo.com/foto-galeri/serdar-ali-celikler-in-samsunspor-fenerbahce-degerlendirmesi/5047/resim/5",
+      "confidence": 90,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 33,
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Kadro planlaması",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Fenerbahçe kadrosunu Şampiyonlar Ligi ve lig yarışını birlikte götürmek için yetersiz gördüğünü, Avrupa dönüşlerinde Galatasaray’a göre daha fazla zorlanabileceğini savundu.",
+      "source": "NEO Spor / GS Gazete",
+      "url": "https://www.gsgazete.com/serdar-ali-celikler-galatasaray-lille-macini-erteleyecek",
+      "confidence": 85
+    },
+    {
+      "id": 34,
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-08-31",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Fikstür",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 9,
+      "summary": "Galatasaray’ın Fenerbahçe derbisi öncesindeki Avrupa maçı nedeniyle federasyona başvurup derbinin gününü değiştirmeye çalışacağını öngördü.",
+      "source": "NEO Spor / GS Gazete",
+      "url": "https://www.gsgazete.com/serdar-ali-celikler-galatasaray-lille-macini-erteleyecek",
+      "confidence": 85
+    },
+    {
+      "id": 35,
+      "commentator": "ugur-karakullukcu",
+      "date": "2026-09-02",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Osimhen’in performansını çok güçlü biçimde övdü ve onu izlemenin özel bir deneyim olduğunu vurguladı.",
+      "source": "Uğur Karakullukçu",
+      "url": "https://www.ugurkarakullukcu.com/",
+      "confidence": 100
+    },
+    {
+      "id": 36,
+      "commentator": "ugur-karakullukcu",
+      "date": "2026-09-02",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Batrakov’un saha içinde daha tecrübeli oyuncuları yönlendirebilmesini olumlu buldu.",
+      "source": "Uğur Karakullukçu",
+      "url": "https://www.ugurkarakullukcu.com/",
+      "confidence": 100
+    },
+    {
+      "id": 37,
+      "commentator": "ugur-karakullukcu",
+      "date": "2026-09-02",
+      "team": "Galatasaray",
+      "players": [
+        "Fofana"
+      ],
+      "topic": "Orta saha",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Fofana’nın orta saha oyunu açısından yeterli özellik göstermediğini savundu.",
+      "source": "Uğur Karakullukçu",
+      "url": "https://www.ugurkarakullukcu.com/",
+      "confidence": 100
+    },
+    {
+      "id": 38,
+      "commentator": "ugur-karakullukcu",
+      "date": "2026-09-02",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Transfer",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Galatasaray’ın orta saha takviyesi yapmaması halinde sezon içinde ciddi sorun yaşayabileceğini söyledi.",
+      "source": "Uğur Karakullukçu",
+      "url": "https://www.ugurkarakullukcu.com/",
+      "confidence": 100
+    },
+    {
+      "id": 39,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-08-27",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Greenwood’un oyun zekâsı ve estetiğinin Fenerbahçe’nin oyun çıtasını yükselttiğini belirtti.",
+      "source": "Sabah / A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/08/27/kalite-emekle-birlesince",
+      "confidence": 100
+    },
+    {
+      "id": 40,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-08-27",
+      "team": "Fenerbahçe",
+      "players": [
+        "Vedat Muriqi"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Vedat Muriqi’nin gol katkısının yanında presini ve takım arkadaşlarına bağlantı istasyonu olmasını övdü.",
+      "source": "Sabah / A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/08/27/kalite-emekle-birlesince",
+      "confidence": 100
+    },
+    {
+      "id": 41,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-08-27",
+      "team": "Fenerbahçe",
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu profili",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Oğuz Aydın’ı Kerem’e kıyasla daha dengeli, kontrollü ve iki ayağı üzerinde daha sağlam bir profil olarak değerlendirdi.",
+      "source": "Sabah / A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/08/27/kalite-emekle-birlesince",
+      "confidence": 100
+    },
+    {
+      "id": 42,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01",
+      "team": "Trabzonspor",
+      "players": [
+        "Onana"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Onana’nın çok sayıda kurtarışla öne çıkmasının Amed SK’nin ne kadar etkili oynadığını gösterdiğini belirtti.",
+      "source": "Sabah / Habertürk",
+      "url": "https://www.haberturk.com/spor/foto/spor-yazarlari-amedspor-trabzonspor-macini-degerlendirdi-3909447",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-amed-ts"
+    },
+    {
+      "id": 43,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01",
+      "team": "Trabzonspor",
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Onuachu’yu Amed SK karşısında etkisiz buldu; top tutma ve ikili mücadelelerde beklenen katkıyı veremediğini yazdı.",
+      "source": "Sabah / Habertürk",
+      "url": "https://www.haberturk.com/spor/foto/spor-yazarlari-amedspor-trabzonspor-macini-degerlendirdi-3909447",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-amed-ts"
+    },
+    {
+      "id": 44,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01",
+      "team": "Trabzonspor",
+      "players": [
+        "Muçi",
+        "Salah"
+      ],
+      "topic": "Hücum",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Muçi’nin hırsı ve hızlı pasıyla Salah’ın gol koşusunu hazırlamasını olumlu değerlendirdi.",
+      "source": "Sabah / Habertürk",
+      "url": "https://www.haberturk.com/spor/foto/spor-yazarlari-amedspor-trabzonspor-macini-degerlendirdi-3909447",
+      "confidence": 95,
+      "matchId": "sl-2026-w3-amed-ts"
+    },
+    {
+      "id": 45,
+      "commentator": "erman-toroglu",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Avrupa seviyesi",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 9,
+      "summary": "Galatasaray’ın mevcut oyun ve yönetim yaklaşımıyla Şampiyonlar Ligi’nde ciddi sorun yaşayacağını savundu.",
+      "source": "Sözcü TV",
+      "url": "https://www.sozcu.com.tr/erman-toroglu-galatasaray-goztepe-macini-sozcu-tv-de-yorumluyor-p353805",
+      "confidence": 100,
+      "matchId": "sl-2026-w3-gs-goz"
+    },
+    {
+      "id": 46,
+      "commentator": "erman-toroglu",
+      "date": "2026-08-30",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Takım performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Samsunspor deplasmanında Fenerbahçe’nin sahada düzenli ve derli toplu bir görüntü verdiğini belirtti.",
+      "source": "Sözcü / Yorumla",
+      "url": "https://www.yorumla.net/spor/futbol/haber/samsunspor-fenerbahce-sonrasi-toroglu-tribunlerin-yarisi-bos-sebebi-ne/113719",
+      "confidence": 80,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 47,
+      "commentator": "cem-dizdar",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Archie Brown",
+        "Oğuz Aydın",
+        "Greenwood"
+      ],
+      "topic": "Taktik",
+      "type": "tactical",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Fenerbahçe’nin özellikle Brown-Oğuz sol kanadı ve Greenwood’un merkeze yaklaşmasıyla Samsunspor karşısında çok rahat pozisyon ürettiğini değerlendirdi.",
+      "source": "Fanatik / Sahadan",
+      "url": "https://www.sahadan.com/haberler/futbol/spor-yazarlarinin-fenerbahce-yorumlari/a291eb4b-8947-40af-8aa9-aaeefcd3b6d0",
+      "confidence": 90,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 48,
+      "commentator": "haluk-yurekli",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [
+        "Camavinga"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 9,
+      "summary": "Galatasaray’ın uzun süredir Eduardo Camavinga’yı istediğini ve oyuncunun durumunu takip ettiğini aktardı.",
+      "source": "343 Digital / Şok Gazetesi",
+      "url": "https://sokgazetesi.com.tr/foto-galeri/galatasarayda-camavinga-surprizi-uzun-suredir-kurulan-hayal-gercek-oluyor",
+      "confidence": 85
+    },
+    {
+      "id": 49,
+      "commentator": "necati-ates",
+      "date": "2026-08-18",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 9,
+      "summary": "Galatasaray yönetimine yakın bir isimden yeni transfer konusunda doğrudan bilgi aldığını söyleyerek transfer iddiasında bulundu.",
+      "source": "Türkiye Gazetesi",
+      "url": "https://www.turkiyegazetesi.com.tr/spor/net-bilgidir-dedi-galatasarayin-yeni-transferini-acikladi-soyledigi-kisiden-duydum-1809914",
+      "confidence": 85
+    },
+    {
+      "id": 50,
+      "commentator": "ali-naci-kucuk",
+      "date": "2026-08-10",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Yönetim / Transfer",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Galatasaray yönetiminin transferdeki gecikmeleri ve iç çekişmelerinin sezon öncesi ortamı ciddi biçimde bozduğunu değerlendirdi.",
+      "source": "Elips Haber",
+      "url": "https://www.elipshaber.com/galatasaraya-kritik-uyari-2000de-yasananlardan-daha-kotusu-olur",
+      "confidence": 80
+    },
+    {
+      "id": 51,
+      "commentator": "nihat-kahveci",
+      "date": "2026-08-30",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 9,
+      "summary": "Göztepe maçından sonra Osimhen’in oyuna sürekli temasını ve hücumdaki etkisini övdü.",
+      "source": "Kontraspor / Yorumla",
+      "url": "https://www.yorumla.net/spor/haber/galatasaray-goztepe-yi-3-2-yendi-nihat-kahveci-osimhen-i-ovdu/113669",
+      "confidence": 80,
+      "matchId": "sl-2026-w3-gs-goz"
+    },
+    {
+      "id": 52,
+      "commentator": "firat-gunayer",
+      "date": "2026-08-31",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Transfer planlaması",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beşiktaş’ın yüksek maliyetli oyunculardan zarar ederek ayrılmasını eleştirdi; bu sezon daha güvenli isimlere yönelmesini ise önceki yıllara göre daha doğru buldu.",
+      "source": "Fırat Günayer sosyal paylaşımı / indeks",
+      "url": "https://w.twstalker.com/firatgunayer",
+      "confidence": 65
+    },
+    {
+      "id": 53,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Vedat Muriqi"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Vedat Muriqi’nin vuruş tekniğini ve oyun bilgisini çok üst düzey buldu; Samsunspor karşısındaki golünü özellikle övdü.",
+      "source": "Sabah / Fotomaç",
+      "url": "https://www.fotomac.com.tr/fenerbahce/2026/08/31/ahmet-cakardan-samsunspor-fenerbahce-maci-sonrasi-flas-yorum",
+      "confidence": 100,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 54,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31",
+      "team": "Fenerbahçe",
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu performansı",
+      "type": "performance",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Oğuz Aydın’ın ikinci goldeki koşusunu ve dar açıdan yaptığı bitirişi övdü.",
+      "source": "Sabah / Fotomaç",
+      "url": "https://www.fotomac.com.tr/fenerbahce/2026/08/31/ahmet-cakardan-samsunspor-fenerbahce-maci-sonrasi-flas-yorum",
+      "confidence": 100,
+      "matchId": "sl-2026-w3-sam-fb"
+    },
+    {
+      "id": 55,
+      "commentator": "abdulkerim-durmaz",
+      "date": "2026-08-31",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Skor tahmini",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 9,
+      "summary": "Amedspor–Trabzonspor maçının 1-1 beraberlikle biteceğini öngördü.",
+      "source": "Halk TV / Derin Futbol aktarımı",
+      "url": "https://halktv.com.tr/spor/abdulkerim-durmaz-amedspor-trabzonspor-macinin-sonucunu-acikladi-1052199h",
+      "confidence": 90,
+      "status": "verified_source",
+      "match_id": "sl-2026-w3-amed-ts",
+      "prediction_outcome": "wrong"
+    },
+    {
+      "id": 56,
+      "commentator": "sinan-engin",
+      "date": "2026-08-27",
+      "team": "Galatasaray",
+      "players": [
+        "Rafael Leao"
+      ],
+      "topic": "Transfer",
+      "type": "hot_take",
+      "sentiment": "positive",
+      "strength": 10,
+      "summary": "Rafael Leao transferinin Galatasaray için tamamlandığını iddia ederek “hayırlı olsun” dedi.",
+      "source": "Halk TV / Asist Analiz TV aktarımı",
+      "url": "https://halktv.com.tr/spor/sinan-engin-galatasarayin-yeni-transferini-acikladi-hayirli-olsun-1051365h",
+      "confidence": 88,
+      "status": "verified_source",
+      "match_id": null,
+      "prediction_outcome": null
+    }
+  ],
+  "matches": [
+    {
+      "id": "sl-2026-w3-gen-erz",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Gençlerbirliği",
+      "away": "Erzurumspor",
+      "kickoff": "2026-08-28T20:00:00+03:00",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "id": "sl-2026-w3-konya-kocaeli",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Konyaspor",
+      "away": "Kocaelispor",
+      "kickoff": "2026-08-29T20:00:00+03:00",
+      "home_score": 1,
+      "away_score": 2
+    },
+    {
+      "id": "sl-2026-w3-gaz-rize",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Gaziantep FK",
+      "away": "Ç. Rizespor",
+      "kickoff": "2026-08-29T20:00:00+03:00",
+      "home_score": 1,
+      "away_score": 2
+    },
+    {
+      "id": "sl-2026-w3-gs-goz",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Galatasaray",
+      "away": "Göztepe",
+      "kickoff": "2026-08-29T20:00:00+03:00",
+      "home_score": 3,
+      "away_score": 2
+    },
+    {
+      "id": "sl-2026-w3-eyup-alanya",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Eyüpspor",
+      "away": "Alanyaspor",
+      "kickoff": "2026-08-30T20:00:00+03:00",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "id": "sl-2026-w3-basak-kas",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Başakşehir",
+      "away": "Kasımpaşa",
+      "kickoff": "2026-08-30T20:00:00+03:00",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "id": "sl-2026-w3-sam-fb",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Samsunspor",
+      "away": "Fenerbahçe",
+      "kickoff": "2026-08-30T20:00:00+03:00",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "id": "sl-2026-w3-bjk-corum",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Beşiktaş",
+      "away": "Çorum FK",
+      "kickoff": "2026-08-31T20:00:00+03:00",
+      "home_score": 6,
+      "away_score": 2
+    },
+    {
+      "id": "sl-2026-w3-amed-ts",
+      "league": "Trendyol Süper Lig",
+      "week": 3,
+      "home": "Amed SK",
+      "away": "Trabzonspor",
+      "kickoff": "2026-08-31T20:00:00+03:00",
+      "home_score": 2,
+      "away_score": 1
+    }
+  ]
+}
