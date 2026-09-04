@@ -17,7 +17,7 @@ CANON={
  'galatasaray a.ş.':'Galatasaray','galatasaray':'Galatasaray','fenerbahçe a.ş.':'Fenerbahçe','fenerbahçe':'Fenerbahçe',
  'beşiktaş a.ş.':'Beşiktaş','beşiktaş':'Beşiktaş','trabzonspor a.ş.':'Trabzonspor','trabzonspor':'Trabzonspor',
  'samsunspor a.ş.':'Samsunspor','samsunspor':'Samsunspor','göztepe a.ş.':'Göztepe','göztepe':'Göztepe',
- 'tümosan konyaspor':'Konyaspor','konyaspor':'Konyaspor','çaykur rizespor a.ş.':'Rizespor','çaykur rizespor':'Rizespor','rizespor':'Rizespor',
+ 'tümosan konyaspor':'Konyaspor','konyaspor':'Konyaspor','çaykur rizespor a.ş.':'Rizespor','çaykur rizespor':'Rizespor','ç. rizespor':'Rizespor','rizespor':'Rizespor',
  'kocaelispor':'Kocaelispor','gençlerbirliği':'Gençlerbirliği','arca çorum fk':'Çorum FK','çorum fk':'Çorum FK','çorum':'Çorum FK',
  'eyüpspor':'Eyüpspor','gaziantep futbol kulübü a.ş.':'Gaziantep FK','gaziantep futbol kulübü':'Gaziantep FK','gaziantep fk':'Gaziantep FK','gaziantep':'Gaziantep FK',
  'corendon alanyaspor':'Alanyaspor','alanyaspor':'Alanyaspor','istanbul başakşehir fk':'Başakşehir','istanbul başakşehir':'Başakşehir','başakşehir':'Başakşehir',
@@ -42,7 +42,6 @@ def looks_paraphrased(value):
 
 def fixture_key(m):return (int(m.get('week') or 0),canonical(m.get('home')),canonical(m.get('away')))
 
-# Remove legacy editorial summaries. They were not literal statements.
 legacy=[]
 for s in seed.get('statements',[]):
     summary=clean_summary(s.get('summary',''))
@@ -50,7 +49,6 @@ for s in seed.get('statements',[]):
         row=dict(s);row['summary']=summary;row['team']=canonical(row.get('team')) if row.get('team') else None;row['verbatim']=True;legacy.append(row)
 seed['statements']=legacy
 
-# Automated TFF cache.
 tff=[]
 try:tff=json.loads((B/'tff_matches.json').read_text())
 except Exception:pass
@@ -61,7 +59,6 @@ for m in tff:
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
     base=dict(matches.get(key,{}));base.update({k:v for k,v in row.items() if v not in ('',None)});base.setdefault('home_score',None);base.setdefault('away_score',None);matches[key]=base
 
-# Hand-verified current-week corrections always win over a bad parser result.
 overrides=[]
 try:overrides=json.loads((B/'fixture_overrides.json').read_text())
 except Exception:pass
@@ -70,7 +67,6 @@ for m in overrides:
     base=dict(matches.get(key,{}));base.update(row);base.setdefault('image_url',None);matches[key]=base
 seed['matches']=sorted(matches.values(),key=lambda x:(int(x.get('week') or 0),x.get('kickoff',''),x.get('home','')))
 
-# Club crests.
 logos={}
 try:logos=json.loads((B/'team_logos.json').read_text())
 except Exception:pass
@@ -78,7 +74,6 @@ for m in seed.get('matches',[]):
     m['home_logo_url']=logos.get(m.get('home'))
     m['away_logo_url']=logos.get(m.get('away'))
 
-# Commentator portraits.
 photo_by_commentator={}
 try:
     pdata=json.loads((B/'commentator_photos.json').read_text()).get('photos',{})
