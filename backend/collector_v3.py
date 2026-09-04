@@ -1,6 +1,6 @@
-"""Saha Dışı V6 public-source collector.
-Collects current public football commentary conservatively. Direct quotes can clear the
-live gate; generic/paraphrased headlines stay in review. Article images are remote URLs only.
+"""Saha Dışı V7 public-source collector.
+Only clear, attributable football remarks can reach the live feed. Generic headlines,
+old recycled stories and publisher labels stay out of live data. Article images are retained.
 """
 from __future__ import annotations
 import hashlib, html, json, re, time, urllib.parse, xml.etree.ElementTree as ET
@@ -11,14 +11,15 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-UA='Mozilla/5.0 (compatible; SahaDisiCollector/0.6; public-source-indexer)'
+UA='Mozilla/5.0 (compatible; SahaDisiCollector/0.7; public-source-indexer)'
 ROSTER=json.loads((B/'commentator_roster.json').read_text())
 PEOPLE=[(cid,name) for cid,name,_groups in ROSTER]
 COMMENTATORS={cid:[name] for cid,name in PEOPLE}
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
-QUOTE_RE=re.compile(r'[“\"‘](.{24,300}?)[”\"’]')
+QUOTE_RE=re.compile(r'[“\"‘](.{20,360}?)[”\"’]')
 GENERIC={'yorumladı','eleştirdi','övdü','değerlendirdi','açıklamalarda bulundu','konuştu'}
+CURRENT_YEAR=datetime.now(timezone.utc).year
 
 class Parser(HTMLParser):
  def __init__(self): super().__init__(); self.text=[]; self.links=[]; self.images=[]; self.skip=0
@@ -47,7 +48,7 @@ def tags(text,items):
 def classify(s):
  l=s.casefold(); typ='opinion';topic='Genel yorum';sent='neutral';strength=6
  if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','beğen','mükemmel','harika']):sent='positive'
- if any(x in l for x in ['kötü','hata','eleştir','zayıf','problem','yanlış','yetersiz']):sent='negative'
+ if any(x in l for x in ['kötü','hata','zayıf','problem','yanlış','yetersiz']):sent='negative'
  if any(x in l for x in ['penaltı','hakem','var ']):typ='referee';topic='Hakem / VAR';strength=8
  if any(x in l for x in ['olacak','kazanır','yenilmez','şampiyon','eler','puan alır']):typ='prediction';topic='Tahmin';strength=8
  if any(x in l for x in ['transfer','imza','anlaşma','bonservis']):typ='transfer';topic='Transfer';strength=max(strength,8)
@@ -55,10 +56,7 @@ def classify(s):
  return typ,topic,sent,strength
 
 def rss_urls(cid,name):
- qs=[
-  f'"{name}" (futbol OR Galatasaray OR Fenerbahçe OR Beşiktaş OR Trabzonspor) when:30d',
-  f'"{name}" (dedi OR söyledi OR "şöyle konuştu" OR "ifadelerini kullandı") when:30d',
-  f'"{name}" (transfer OR hakem OR derbi OR maç) when:30d']
+ qs=[f'"{name}" futbol when:14d',f'"{name}" (dedi OR söyledi OR açıkladı) when:14d',f'"{name}" (transfer OR hakem OR derbi OR maç) when:14d']
  return [{'url':f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':84,'cid':cid,'rss':True} for q in qs]
 
 def direct_sources():
@@ -68,7 +66,7 @@ def direct_sources():
   {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen'},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke'}]
 
-def discover(src,limit=5):
+def discover(src,limit=6):
  doc=fetch(src['url'])
  if '<rss' in doc[:500].lower() or '<feed' in doc[:500].lower():
   root=ET.fromstring(doc);out=[]
@@ -84,33 +82,39 @@ def discover(src,limit=5):
 
 def clean_statement(text,name):
  text=' '.join(html.unescape(text).replace('“','"').replace('”','"').split()).strip(' -–—')
- # Drop Google News publisher suffix.
  text=re.sub(r'\s+-\s+[^-]{2,70}$','',text).strip()
  quotes=QUOTE_RE.findall(text)
  if quotes:
   q=max(quotes,key=len).strip(' "')
-  if len(q)>=24:return q[:320]
+  if len(q)>=20:return q[:360]
  if ':' in text:
   left,right=text.split(':',1)
-  if name.casefold() in left.casefold() and len(right.strip())>=24:return right.strip(' "')[:320]
- # Remove only the attribution lead-in, never replace the actual words with a label.
+  if name.casefold() in left.casefold() and len(right.strip())>=20:return right.strip(' "')[:360]
  text=re.sub(r'^.*?'+re.escape(name)+r'\s*(?:,|:|-)?\s*','',text,flags=re.I)
- for g in GENERIC:
-  text=re.sub(r'^'+re.escape(g)+r'\s*[:,-]?\s*','',text,flags=re.I)
- return text.strip(' "-–—')[:320]
+ for g in GENERIC:text=re.sub(r'^'+re.escape(g)+r'\s*[:,-]?\s*','',text,flags=re.I)
+ return text.strip(' "-–—')[:360]
+
+def noisy(summary, raw, rss=False):
+ low=summary.casefold()
+ if len(summary)<24:return True
+ if any(x in low for x in ['tüm yazılar','beın sports türkiye','son dakika','haberleri','çarpıcı değerlendirme!']):return True
+ years=[int(x) for x in re.findall(r'\b20\d{2}\b',summary)]
+ if years and max(years)<CURRENT_YEAR:return True
+ if rss and not (QUOTE_RE.search(raw) or ':' in raw):return True
+ return False
 
 def candidate_from_text(text,src,url,image_url=None):
  text=' '.join(html.unescape(text).split())
  if src['cid'] not in detect(text): return []
  name=COMMENTATORS[src['cid']][0]
- chunks=[text] if len(text)<=520 else re.split(r'(?<=[.!?])\s+',text)
+ chunks=[text] if len(text)<=650 else re.split(r'(?<=[.!?])\s+',text)
  rows=[]
  for raw in chunks:
-  if not 30<=len(raw)<=520 or src['cid'] not in detect(raw):continue
+  if not 30<=len(raw)<=650 or src['cid'] not in detect(raw):continue
   teams=tags(raw,TEAMS);players=tags(raw,PLAYERS)
   if not teams and not players and not any(k in raw.casefold() for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu']):continue
   summary=clean_statement(raw,name)
-  if len(summary)<24 or summary.casefold() in GENERIC:continue
+  if noisy(summary,raw,src.get('rss',False)):continue
   typ,topic,sent,strength=classify(summary)
   direct_quote=bool(QUOTE_RE.search(raw)) or (':' in raw and name.casefold() in raw.split(':',1)[0].casefold())
   confidence=max(src['trust'],95) if direct_quote else src['trust']
@@ -125,7 +129,7 @@ def extract(url,src,hint=''):
  except Exception:text=hint;image=None
  return candidate_from_text(text+' '+hint,src,url,image)
 
-def run(limit=5):
+def run(limit=6):
  sources=direct_sources()+[x for cid,name in PEOPLE for x in rss_urls(cid,name)]
  rows=[];health=[]
  for src in sources:
