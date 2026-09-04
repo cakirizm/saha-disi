@@ -7,12 +7,12 @@ struct TeamDetailView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 22) {
-                Text(team).font(.largeTitle.black())
+                Text(team).font(.largeTitle.weight(.black))
                 Text("Kim en çok konuşuyor?").font(.title3.bold())
                 ForEach(Array(store.commentatorRanking(for: team).enumerated()), id: \.offset) { index, row in
                     NavigationLink { CommentatorProfileView(commentator: row.0) } label: {
                         HStack(spacing: 12) {
-                            Text("\(index + 1)").font(.title3.black()).foregroundStyle(SDTheme.accent).frame(width: 28)
+                            Text("\(index + 1)").font(.title3.weight(.black)).foregroundStyle(SDTheme.accent).frame(width: 28)
                             AvatarView(text: row.0.avatar, size: 42)
                             Text(row.0.name).font(.headline)
                             Spacer(); Text("\(row.1)").foregroundStyle(SDTheme.muted)
