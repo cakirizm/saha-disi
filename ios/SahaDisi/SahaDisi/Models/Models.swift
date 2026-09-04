@@ -5,10 +5,11 @@ struct FeedPayload: Codable {
     let commentators: [Commentator]
     let statements: [Statement]
     let matches: [Match]?
+    let players: [PlayerProfile]?
 
     enum CodingKeys: String, CodingKey {
         case generatedAt = "generated_at"
-        case commentators, statements, matches
+        case commentators, statements, matches, players
     }
 
     init(from decoder: Decoder) throws {
@@ -17,6 +18,7 @@ struct FeedPayload: Codable {
         commentators = try values.decodeIfPresent([Commentator].self, forKey: .commentators) ?? []
         statements = try values.decodeIfPresent([Statement].self, forKey: .statements) ?? []
         matches = try values.decodeIfPresent([Match].self, forKey: .matches) ?? []
+        players = try values.decodeIfPresent([PlayerProfile].self, forKey: .players) ?? []
     }
 }
 
@@ -104,6 +106,13 @@ struct Match: Codable, Identifiable, Hashable {
     let imageURL: String?
     let homeLogoURL: String?
     let awayLogoURL: String?
+    let status: String?
+    let venue: String?
+    let referee: String?
+    let attendance: Int?
+    let statistics: [MatchStatistic]
+    let events: [MatchEvent]
+    let playerRatings: [PlayerMatchRating]
 
     enum CodingKeys: String, CodingKey {
         case id, league, week, home, away, kickoff
@@ -112,6 +121,8 @@ struct Match: Codable, Identifiable, Hashable {
         case imageURL = "image_url"
         case homeLogoURL = "home_logo_url"
         case awayLogoURL = "away_logo_url"
+        case status, venue, referee, attendance, statistics, events
+        case playerRatings = "player_ratings"
     }
 
     init(from decoder: Decoder) throws {
@@ -127,6 +138,62 @@ struct Match: Codable, Identifiable, Hashable {
         imageURL = try values.decodeIfPresent(String.self, forKey: .imageURL)
         homeLogoURL = try values.decodeIfPresent(String.self, forKey: .homeLogoURL)
         awayLogoURL = try values.decodeIfPresent(String.self, forKey: .awayLogoURL)
+        status = try values.decodeIfPresent(String.self, forKey: .status)
+        venue = try values.decodeIfPresent(String.self, forKey: .venue)
+        referee = try values.decodeIfPresent(String.self, forKey: .referee)
+        attendance = try values.decodeIfPresent(Int.self, forKey: .attendance)
+        statistics = try values.decodeIfPresent([MatchStatistic].self, forKey: .statistics) ?? []
+        events = try values.decodeIfPresent([MatchEvent].self, forKey: .events) ?? []
+        playerRatings = try values.decodeIfPresent([PlayerMatchRating].self, forKey: .playerRatings) ?? []
+    }
+}
+
+struct MatchStatistic: Codable, Hashable {
+    let name: String
+    let home: String
+    let away: String
+}
+
+struct MatchEvent: Codable, Identifiable, Hashable {
+    let id: String
+    let minute: Int
+    let type: String
+    let team: String
+    let player: String?
+    let detail: String?
+}
+
+struct PlayerMatchRating: Codable, Identifiable, Hashable {
+    var id: String { "\(team)-\(player)" }
+    let player: String
+    let team: String
+    let rating: Double?
+    let minutes: Int?
+    let goals: Int?
+    let assists: Int?
+}
+
+struct PlayerProfile: Codable, Identifiable, Hashable {
+    let id: String
+    let name: String
+    let team: String?
+    let position: String?
+    let number: Int?
+    let photoURL: String?
+    let appearances: Int?
+    let minutes: Int?
+    let goals: Int?
+    let assists: Int?
+    let yellowCards: Int?
+    let redCards: Int?
+    let averageRating: Double?
+
+    enum CodingKeys: String, CodingKey {
+        case id, name, team, position, number, appearances, minutes, goals, assists
+        case photoURL = "photo_url"
+        case yellowCards = "yellow_cards"
+        case redCards = "red_cards"
+        case averageRating = "average_rating"
     }
 }
 

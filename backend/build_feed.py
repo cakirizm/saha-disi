@@ -143,6 +143,22 @@ for c in candidates:
 counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
 seed['commentators']=sorted(seed.get('commentators',[]),key=lambda c:(-counts.get(c['id'],0),c['name']))
+
+# Publish a stable player directory even before a statistics provider is connected.
+# Provider-supplied bio/stat fields already present in the feed are preserved.
+existing_players={p.get('name','').casefold():dict(p) for p in seed.get('players',[]) if p.get('name')}
+mentioned={}
+for statement in seed.get('statements',[]):
+    for raw_name in statement.get('players',[]):
+        name=re.sub(r'[^\wÇĞİÖŞÜçğıöşü .\'-]+$','',str(raw_name)).strip()
+        if len(name)<2:continue
+        key=name.casefold();mentioned.setdefault(key,name)
+players=[]
+for key,name in sorted(mentioned.items(),key=lambda item:item[1].casefold()):
+    row=existing_players.get(key,{'id':re.sub(r'[^a-z0-9]+','-',name.casefold().replace('ı','i').replace('ş','s').replace('ğ','g').replace('ü','u').replace('ö','o').replace('ç','c')).strip('-'),'name':name})
+    row['comment_count']=sum(1 for s in seed.get('statements',[]) if any(str(p).casefold()==key for p in s.get('players',[])))
+    players.append(row)
+seed['players']=players
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')

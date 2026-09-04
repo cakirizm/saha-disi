@@ -14,6 +14,7 @@ struct MatchDetailView: View {
             LazyVStack(alignment: .leading, spacing: 18) {
                 MatchPoster(match: match).frame(height: 190).clipShape(RoundedRectangle(cornerRadius: 20))
                 matchMeta
+                matchCenter
                 if !rows.isEmpty {
                     filterBar
                     Text("Bu Maça Bağlı Yorumlar").font(.title3.bold())
@@ -37,6 +38,69 @@ struct MatchDetailView: View {
             HStack { Text(match.home).font(.title3.black()); Spacer(); Text(score).font(.title.black()); Spacer(); Text(match.away).font(.title3.black()) }
             Text("\(SDDate.text(match.kickoff, includeTime: true)) · \(match.league)").font(.caption).foregroundStyle(SDTheme.muted)
         }.padding(.horizontal, 4)
+    }
+
+    private var matchCenter: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            if match.venue != nil || match.referee != nil || match.attendance != nil {
+                Text("Maç Bilgileri").font(.title3.bold())
+                SDCard {
+                    VStack(alignment: .leading, spacing: 9) {
+                        if let venue = match.venue { Label(venue, systemImage: "sportscourt") }
+                        if let referee = match.referee { Label(referee, systemImage: "person.fill") }
+                        if let attendance = match.attendance { Label("\(attendance.formatted()) seyirci", systemImage: "person.3.fill") }
+                    }.font(.subheadline)
+                }
+            }
+            if !match.events.isEmpty {
+                Text("Maçın Olayları").font(.title3.bold())
+                SDCard {
+                    VStack(spacing: 11) {
+                        ForEach(match.events) { event in
+                            HStack(alignment: .top, spacing: 12) {
+                                Text("\(event.minute)’").font(.headline.monospacedDigit()).foregroundStyle(SDTheme.accent).frame(width: 42, alignment: .leading)
+                                Image(systemName: eventIcon(event.type)).frame(width: 22)
+                                VStack(alignment: .leading, spacing: 2) { Text(event.player ?? event.team).font(.subheadline.bold()); Text(event.detail ?? event.type).font(.caption).foregroundStyle(SDTheme.muted) }
+                                Spacer()
+                            }
+                        }
+                    }
+                }
+            }
+            if !match.statistics.isEmpty {
+                Text("Maç İstatistikleri").font(.title3.bold())
+                SDCard {
+                    VStack(spacing: 13) {
+                        ForEach(match.statistics, id: \.name) { item in
+                            VStack(spacing: 4) { HStack { Text(item.home).font(.subheadline.bold()); Spacer(); Text(item.name).font(.caption).foregroundStyle(SDTheme.muted); Spacer(); Text(item.away).font(.subheadline.bold()) }; Divider().overlay(Color.white.opacity(0.08)) }
+                        }
+                    }
+                }
+            }
+            if !match.playerRatings.isEmpty {
+                Text("Oyuncu Puanları").font(.title3.bold())
+                SDCard {
+                    VStack(spacing: 10) {
+                        ForEach(match.playerRatings.sorted { ($0.rating ?? 0) > ($1.rating ?? 0) }) { row in
+                            NavigationLink { PlayerDetailView(player: row.player) } label: {
+                                HStack { VStack(alignment: .leading) { Text(row.player).font(.subheadline.bold()); Text(row.team).font(.caption2).foregroundStyle(SDTheme.muted) }; Spacer(); Text(row.rating.map { String(format: "%.1f", $0) } ?? "—").font(.headline.monospacedDigit()) }
+                            }.buttonStyle(.plain)
+                        }
+                    }
+                }
+            }
+            if match.events.isEmpty && match.statistics.isEmpty && match.playerRatings.isEmpty {
+                SDCard { Label("Ayrıntılı olay, istatistik ve oyuncu puanı verisi henüz bu maç için sağlanmadı.", systemImage: "chart.xyaxis.line").font(.subheadline).foregroundStyle(SDTheme.muted) }
+            }
+        }
+    }
+
+    private func eventIcon(_ type: String) -> String {
+        let value = type.lowercased()
+        if value.contains("goal") || value.contains("gol") { return "soccerball" }
+        if value.contains("card") || value.contains("kart") { return "rectangle.fill" }
+        if value.contains("var") || value.contains("penalt") { return "video.fill" }
+        return "circle.fill"
     }
 
     private var filteredRows: [Statement] {

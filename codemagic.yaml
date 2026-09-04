@@ -32,6 +32,11 @@ workflows:
           /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $BUILD_NUMBER" Info.plist
           echo "Using build number $BUILD_NUMBER"
 
+      - name: Bundle latest verified feed
+        script: |
+          cp backend/feed.json ios/SahaDisi/SahaDisi/Resources/seed.json
+          python3 -c "import json; json.load(open('ios/SahaDisi/SahaDisi/Resources/seed.json', encoding='utf-8'))"
+
       - name: Build IPA
         script: |
           cd ios/SahaDisi

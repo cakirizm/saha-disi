@@ -62,7 +62,17 @@ final class AppStore: ObservableObject {
     }
 
     func statements(player: String) -> [Statement] {
-        (payload?.statements ?? []).filter { $0.players.contains(player) }.sorted { $0.date > $1.date }
+        (payload?.statements ?? []).filter { $0.players.contains { $0.localizedCaseInsensitiveCompare(player) == .orderedSame } }.sorted { $0.date > $1.date }
+    }
+
+    func playerProfile(named name: String) -> PlayerProfile? {
+        payload?.players?.first { $0.name.localizedCaseInsensitiveCompare(name) == .orderedSame }
+    }
+
+    func matchHistory(for player: String) -> [(Match, PlayerMatchRating)] {
+        (payload?.matches ?? []).compactMap { match in
+            match.playerRatings.first { $0.player.localizedCaseInsensitiveCompare(player) == .orderedSame }.map { (match, $0) }
+        }.sorted { $0.0.kickoff > $1.0.kickoff }
     }
 
     func statements(matchID: String) -> [Statement] {
