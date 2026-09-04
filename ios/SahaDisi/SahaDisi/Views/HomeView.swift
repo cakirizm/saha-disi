@@ -2,19 +2,21 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject var store: AppStore
-    private var featuredMatch: Match? {
-        (store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.first { !$0.home.contains("Gençlerbirliği") }
+    @State private var heroIndex = 0
+
+    private var featuredMatches: [Match] {
+        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(4))
     }
 
     private var recentMatches: [Match] {
-        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(3))
+        Array((store.payload?.matches ?? []).sorted { $0.kickoff > $1.kickoff }.prefix(4))
     }
 
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 18) {
                 topNav
-                if let match = featuredMatch { matchHero(match) }
+                agendaCarousel
                 compactScores
                 hotClaims
                 topPlayers
@@ -30,58 +32,100 @@ struct HomeView: View {
 
     private var topNav: some View {
         VStack(alignment: .leading, spacing: 14) {
-            HStack { SDLogo(); Spacer(); Image(systemName: "magnifyingglass").font(.title3); Image(systemName: "bell").font(.title3).padding(.leading, 10) }
-                .padding(.top, 10)
-            HStack(spacing: 24) {
-                topTab("Futbol", true); topTab("Yorumcular", false); topTab("Oyuncular", false); topTab("Takımlar", false)
+            HStack {
+                SDLogo()
+                Spacer()
+                NavigationLink { ExploreView() } label: { Image(systemName: "magnifyingglass").font(.title3).frame(width: 36, height: 36) }
+                NavigationLink { MoreDetailView(title: "Bildirimler", icon: "bell") } label: { Image(systemName: "bell").font(.title3).frame(width: 36, height: 36) }
+            }.buttonStyle(.plain).padding(.top, 10)
+
+            HStack(spacing: 20) {
+                topTab("Futbol", selected: true) { MatchesView() }
+                topTab("Yorumcular", selected: false) { CommentatorsView() }
+                topTab("Oyuncular", selected: false) { ExploreView() }
+                topTab("Takımlar", selected: false) { ExploreView() }
             }
             Rectangle().fill(SDTheme.line).frame(height: 1)
         }
     }
 
-    private func topTab(_ text: String, _ selected: Bool) -> some View {
+    private func topTab<Destination: View>(_ text: String, selected: Bool, @ViewBuilder destination: () -> Destination) -> some View {
+        NavigationLink(destination: destination()) {
+            VStack(spacing: 8) {
+                Text(text).font(.caption.weight(selected ? .bold : .medium)).foregroundStyle(selected ? .white : SDTheme.muted)
+                Capsule().fill(selected ? SDTheme.accent : .clear).frame(height: 2)
+            }
+        }.buttonStyle(.plain)
+    }
+
+    private var agendaCarousel: some View {
         VStack(spacing: 8) {
-            Text(text).font(.caption.weight(selected ? .bold : .medium)).foregroundStyle(selected ? .white : SDTheme.muted)
-            Capsule().fill(selected ? SDTheme.accent : .clear).frame(height: 2)
+            if featuredMatches.isEmpty {
+                SDCard { Text("Gündem verisi yükleniyor…").foregroundStyle(SDTheme.muted) }
+            } else {
+                TabView(selection: $heroIndex) {
+                    ForEach(Array(featuredMatches.enumerated()), id: \.element.id) { index, match in
+                        NavigationLink { MatchDetailView(match: match) } label: {
+                            matchHero(match)
+                        }
+                        .buttonStyle(.plain)
+                        .tag(index)
+                    }
+                }
+                .frame(height: 250)
+                .tabViewStyle(.page(indexDisplayMode: .never))
+
+                HStack(spacing: 6) {
+                    ForEach(featuredMatches.indices, id: \.self) { index in
+                        Button { withAnimation { heroIndex = index } } label: {
+                            Capsule().fill(index == heroIndex ? SDTheme.accent : Color.white.opacity(0.18)).frame(width: index == heroIndex ? 18 : 6, height: 6)
+                        }.buttonStyle(.plain)
+                    }
+                }
+            }
         }
     }
 
     private func matchHero(_ match: Match) -> some View {
-        NavigationLink { MatchDetailView(match: match) } label: {
-            ZStack(alignment: .bottomLeading) {
-                LinearGradient(colors: [Color(red: 0.06, green: 0.13, blue: 0.17), Color.black.opacity(0.95)], startPoint: .top, endPoint: .bottom)
-                VStack(alignment: .leading, spacing: 12) {
-                    TagPill(text: "GÜNDEM", highlighted: true)
-                    Text(heroHeadline(match)).font(.system(size: 27, weight: .black, design: .rounded)).lineLimit(2)
-                    Text(heroSubline(match)).font(.subheadline).foregroundStyle(Color.white.opacity(0.82)).lineLimit(2)
-                    HStack(spacing: 5) { Circle().fill(SDTheme.accent).frame(width: 5, height: 5); Circle().fill(Color.white.opacity(0.25)).frame(width: 5, height: 5); Circle().fill(Color.white.opacity(0.25)).frame(width: 5, height: 5) }
-                }.padding(18)
-            }
-            .frame(height: 240)
-            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 22).stroke(SDTheme.line))
-        }.buttonStyle(.plain)
+        ZStack(alignment: .bottomLeading) {
+            MatchArtwork(match: match)
+            LinearGradient(colors: [.clear, Color.black.opacity(0.88)], startPoint: .top, endPoint: .bottom)
+            VStack(alignment: .leading, spacing: 10) {
+                HStack { TagPill(text: "GÜNDEM", highlighted: true); Spacer(); Text("Hafta \(match.week)").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
+                Text(heroHeadline(match)).font(.system(size: 26, weight: .black, design: .rounded)).lineLimit(2)
+                Text(heroSubline(match)).font(.subheadline).foregroundStyle(Color.white.opacity(0.82)).lineLimit(2)
+                Text("Kaydırarak diğer gündemlere geç").font(.caption2).foregroundStyle(Color.white.opacity(0.55))
+            }.padding(18)
+        }
+        .frame(height: 240)
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 22).stroke(SDTheme.line))
     }
 
     private func heroHeadline(_ m: Match) -> String {
         guard let hs = m.homeScore, let as_ = m.awayScore else { return "\(m.home) - \(m.away)" }
-        let winner = hs == as_ ? "Beraberlik" : (hs > as_ ? m.home : m.away)
-        return hs == as_ ? "\(m.home) ile \(m.away) puanları paylaştı" : "\(winner) 3 puanı aldı"
+        if hs == as_ { return "\(m.home) ile \(m.away) puanları paylaştı" }
+        return "\(hs > as_ ? m.home : m.away) 3 puanı aldı"
     }
+
     private func heroSubline(_ m: Match) -> String {
         let count = store.statements(matchID: m.id).count
-        return "\(m.home) \(m.homeScore ?? 0)-\(m.awayScore ?? 0) \(m.away) · \(count) doğrulanmış yorum"
+        let scoreText = (m.homeScore != nil && m.awayScore != nil) ? "\(m.homeScore!)-\(m.awayScore!)" : "vs"
+        return "\(m.home) \(scoreText) \(m.away) · \(count) doğrulanmış yorum"
     }
 
     private var compactScores: some View {
-        VStack(spacing: 7) {
+        VStack(alignment: .leading, spacing: 8) {
+            header("Son Maçlar", trailing: "Maçlara git")
             ForEach(recentMatches, id: \.id) { match in
                 NavigationLink { MatchDetailView(match: match) } label: {
-                    HStack {
+                    HStack(spacing: 10) {
+                        MatchMiniArt(match: match)
                         Text(match.home).font(.subheadline.weight(.semibold)).frame(maxWidth: .infinity, alignment: .leading)
-                        Text(score(match)).font(.headline.black()).frame(width: 62)
+                        Text(score(match)).font(.headline.black()).frame(width: 54)
                         Text(match.away).font(.subheadline.weight(.semibold)).frame(maxWidth: .infinity, alignment: .trailing)
-                    }.padding(.horizontal, 14).padding(.vertical, 12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 12))
+                        Image(systemName: "chevron.right").font(.caption2).foregroundStyle(SDTheme.muted2)
+                    }.padding(.horizontal, 12).padding(.vertical, 10).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 12))
                 }.buttonStyle(.plain)
             }
         }
@@ -89,16 +133,17 @@ struct HomeView: View {
 
     private var hotClaims: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("En İddialı Sözler", trailing: "Tümü")
+            header("En İddialı Sözler", trailing: "Kaydır")
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
-                    ForEach(store.hotStatements.prefix(5)) { s in
+                    ForEach(store.hotStatements.prefix(8)) { s in
                         NavigationLink(value: s) {
                             VStack(alignment: .leading, spacing: 10) {
-                                HStack(spacing: 8) { AvatarView(text: store.commentator(id: s.commentator)?.avatar ?? "?", size: 32); Text(store.commentator(id: s.commentator)?.name ?? s.commentator).font(.caption.bold()).lineLimit(1) }
-                                Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(3).frame(height: 58, alignment: .top)
+                                let c = store.commentator(id: s.commentator)
+                                HStack(spacing: 8) { AvatarView(text: c?.avatar ?? "?", size: 34, photoURL: c?.photoURL); Text(c?.name ?? s.commentator).font(.caption.bold()).lineLimit(1) }
+                                Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(4).frame(height: 74, alignment: .top)
                                 HStack { outcomeBadge(s); Spacer(); Text(s.date).font(.caption2).foregroundStyle(SDTheme.muted2) }
-                            }.padding(14).frame(width: 260, alignment: .leading).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
+                            }.padding(14).frame(width: 275, alignment: .leading).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
                         }.buttonStyle(.plain)
                     }
                 }
@@ -108,11 +153,10 @@ struct HomeView: View {
 
     private var topPlayers: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("En Çok Konuşulan Oyuncular", trailing: "Son veriler")
+            header("En Çok Konuşulan Oyuncular", trailing: "Canlı")
             SDCard {
                 VStack(spacing: 5) {
-                    let rows = Array(store.rankedPlayers.prefix(5))
-                    let maxCount = rows.first?.count ?? 1
+                    let rows = Array(store.rankedPlayers.prefix(5)); let maxCount = rows.first?.count ?? 1
                     ForEach(Array(rows.enumerated()), id: \.element.id) { index, item in
                         NavigationLink { PlayerDetailView(player: item.name) } label: { RankBar(rank: index + 1, name: item.name, count: item.count, maxCount: maxCount) }.buttonStyle(.plain)
                     }
@@ -123,7 +167,7 @@ struct HomeView: View {
 
     private var topTeams: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("En Çok Konuşulan Takımlar", trailing: "Tümü")
+            header("En Çok Konuşulan Takımlar", trailing: "Canlı")
             SDCard {
                 VStack(spacing: 5) {
                     let rows = Array(store.rankedTeams.prefix(5)); let maxCount = rows.first?.count ?? 1
@@ -137,23 +181,63 @@ struct HomeView: View {
 
     private var activeCommentators: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("Öne Çıkan Yorumcular", trailing: "\(store.payload?.commentators.count ?? 0) yorumcu")
-            ForEach(store.rankedCommentators.prefix(5), id: \.0.id) { c, count in
+            header("Öne Çıkan Yorumcular", trailing: "\(store.payload?.commentators.count ?? 0) kişi")
+            ForEach(store.rankedCommentators.prefix(6), id: \.0.id) { c, count in
                 NavigationLink { CommentatorProfileView(commentator: c) } label: {
-                    HStack(spacing: 12) { AvatarView(text: c.avatar, size: 44); VStack(alignment: .leading, spacing: 2) { Text(c.name).font(.headline); Text(c.primarySource).font(.caption2).foregroundStyle(SDTheme.muted) }; Spacer(); Text("\(count) yorum").font(.caption.bold()).foregroundStyle(SDTheme.accent); Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2) }
-                        .padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14))
+                    HStack(spacing: 12) {
+                        AvatarView(text: c.avatar, size: 46, photoURL: c.photoURL)
+                        VStack(alignment: .leading, spacing: 2) { Text(c.name).font(.headline); Text(c.primarySource).font(.caption2).foregroundStyle(SDTheme.muted).lineLimit(1) }
+                        Spacer(); Text("\(count) yorum").font(.caption.bold()).foregroundStyle(count == 0 ? SDTheme.muted2 : SDTheme.accent)
+                        Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2)
+                    }.padding(12).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14))
                 }.buttonStyle(.plain)
             }
         }
     }
 
     private func outcomeBadge(_ s: Statement) -> some View {
-        let text: String = s.predictionOutcome == "correct" ? "DOĞRU" : (s.predictionOutcome == "wrong" ? "YANLIŞ" : "İDDİALI")
-        let color: Color = s.predictionOutcome == "correct" ? SDTheme.green : (s.predictionOutcome == "wrong" ? SDTheme.red : SDTheme.accent)
+        let text = s.predictionOutcome == "correct" ? "DOĞRU" : (s.predictionOutcome == "wrong" ? "YANLIŞ" : "İDDİALI")
+        let color = s.predictionOutcome == "correct" ? SDTheme.green : (s.predictionOutcome == "wrong" ? SDTheme.red : SDTheme.accent)
         return Text(text).font(.caption2.black()).padding(.horizontal, 7).padding(.vertical, 4).background(color.opacity(0.15)).foregroundStyle(color).clipShape(RoundedRectangle(cornerRadius: 5))
     }
+
     private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "vs" }
     private func header(_ title: String, trailing: String) -> some View { HStack { Text(title).font(.title3.bold()); Spacer(); Text(trailing).font(.caption).foregroundStyle(SDTheme.accent) } }
+}
+
+struct MatchArtwork: View {
+    let match: Match
+    var body: some View {
+        ZStack {
+            LinearGradient(colors: [Color.white.opacity(0.12), SDTheme.background2], startPoint: .topLeading, endPoint: .bottomTrailing)
+            if let imageURL = match.imageURL, let url = URL(string: imageURL) {
+                AsyncImage(url: url) { phase in
+                    if case .success(let image) = phase { image.resizable().scaledToFill() }
+                }
+            }
+            HStack(spacing: 24) {
+                teamDisc(match.home)
+                Text("VS").font(.caption.black()).foregroundStyle(Color.white.opacity(0.45))
+                teamDisc(match.away)
+            }
+        }
+        .clipped()
+    }
+    private func teamDisc(_ name: String) -> some View {
+        ZStack { Circle().fill(Color.black.opacity(0.28)); Text(initials(name)).font(.system(size: 28, weight: .black, design: .rounded)) }
+            .frame(width: 78, height: 78).overlay(Circle().stroke(Color.white.opacity(0.15)))
+    }
+    private func initials(_ name: String) -> String { String(name.split(separator: " ").prefix(2).compactMap { $0.first }.map(String.init).joined()) }
+}
+
+struct MatchMiniArt: View {
+    let match: Match
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 9).fill(LinearGradient(colors: [SDTheme.panel2, Color.white.opacity(0.08)], startPoint: .topLeading, endPoint: .bottomTrailing))
+            Image(systemName: "sportscourt.fill").font(.caption).foregroundStyle(.white.opacity(0.75))
+        }.frame(width: 38, height: 38)
+    }
 }
 
 struct StatementRow: View {
@@ -161,10 +245,11 @@ struct StatementRow: View {
     let statement: Statement
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            AvatarView(text: store.commentator(id: statement.commentator)?.avatar ?? "?", size: 42)
+            let c = store.commentator(id: statement.commentator)
+            AvatarView(text: c?.avatar ?? "?", size: 42, photoURL: c?.photoURL)
             VStack(alignment: .leading, spacing: 7) {
-                HStack { Text(store.commentator(id: statement.commentator)?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(statement.date).font(.caption2).foregroundStyle(SDTheme.muted2) }
-                Text(statement.summary).font(.subheadline).lineLimit(4)
+                HStack { Text(c?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(statement.date).font(.caption2).foregroundStyle(SDTheme.muted2) }
+                Text(statement.summary).font(.subheadline).lineLimit(5)
                 HStack { TagPill(text: statement.topic); if let team = statement.team { TagPill(text: team) }; Spacer(); Text("%\(statement.confidence)").font(.caption2).foregroundStyle(SDTheme.muted) }
             }
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
