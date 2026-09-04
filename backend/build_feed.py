@@ -12,21 +12,22 @@ def clean_summary(value):
  if ':' in value:
   left,right=value.split(':',1)
   generic=('yorumladı','eleştirdi','övdü','değerlendirdi','açıkladı','konuştu','dedi')
-  if any(x in left.casefold() for x in generic) and len(right.strip())>=20:return right.strip()[:320]
- return value[:320]
+  if any(x in left.casefold() for x in generic) and len(right.strip())>=20:return right.strip()[:360]
+ return value[:360]
+
+def norm(v):
+ v=(v or '').casefold().replace('a.ş.','').replace('fk','').strip()
+ aliases={'arca çorum':'çorum','çorum':'çorum','gaziantep futbol kulübü':'gaziantep','gaziantep':'gaziantep','tümosan konyaspor':'konyaspor','çaykur rizespor':'rizespor','istanbul başakşehir':'başakşehir','amed sportif faaliyetler':'amed','amed sk':'amed'}
+ return aliases.get(v,v)
 
 for s in seed.get('statements',[]):s['summary']=clean_summary(s.get('summary',''))
 
-# Official TFF weekly fixture. Existing curated IDs win where the same fixture already existed.
+# Official TFF fixture: use the full weekly schedule when available.
 tff_path=B/'tff_matches.json'
 if tff_path.exists():
  try:tff=json.loads(tff_path.read_text())
  except Exception:tff=[]
  old=seed.get('matches',[])
- def norm(v):
-  v=(v or '').casefold().replace('a.ş.','').replace('fk','').strip()
-  aliases={'arca çorum':'çorum','gaziantep futbol kulübü':'gaziantep','tümosan konyaspor':'konyaspor','çaykur rizespor':'rizespor','istanbul başakşehir':'başakşehir','amed sportif faaliyetler':'amed'}
-  return aliases.get(v,v)
  old_map={(m.get('week'),norm(m.get('home')),norm(m.get('away'))):m for m in old}
  merged=[]
  for tm in tff:
@@ -39,7 +40,17 @@ if tff_path.exists():
   else:merged.append(tm)
  if merged:seed['matches']=merged
 
-# Portraits: prefer the public profile-image resolver; editorial images are a fallback for direct-source profiles.
+# Club crests are remote public thumbnails resolved by team name.
+logos={}
+logo_path=B/'team_logos.json'
+if logo_path.exists():
+ try:logos=json.loads(logo_path.read_text())
+ except Exception:logos={}
+for m in seed.get('matches',[]):
+ m['home_logo_url']=logos.get(m.get('home')) or logos.get('Çorum' if norm(m.get('home'))=='çorum' else m.get('home'))
+ m['away_logo_url']=logos.get(m.get('away')) or logos.get('Çorum' if norm(m.get('away'))=='çorum' else m.get('away'))
+
+# Portraits: prefer public profile images; direct editorial images are only a fallback.
 photo_by_commentator={}
 photo_path=B/'commentator_photos.json'
 if photo_path.exists():
@@ -74,7 +85,6 @@ PAUSED_COMMENTATORS={'onder-ozen'}
 known={(s['commentator'],clean_summary(s['summary']).casefold()) for s in seed.get('statements',[])}
 next_id=max((s['id'] for s in seed.get('statements',[])),default=0)+1;review=[]
 
-# Hand-checked current snippets are merged first so a generic headline can never replace them.
 manual_path=B/'manual_verified.json'
 if manual_path.exists():
  try:manual=json.loads(manual_path.read_text())
@@ -82,7 +92,7 @@ if manual_path.exists():
  for row in manual:
   summary=clean_summary(row.get('summary',''));key=(row.get('commentator'),summary.casefold())
   if not row.get('commentator') or len(summary)<20 or key in known:continue
-  seed['statements'].append({'id':next_id,'commentator':row['commentator'],'date':row.get('date',''),'team':row.get('team'),'players':row.get('players',[]),'topic':row.get('topic','Genel yorum'),'type':row.get('type','opinion'),'sentiment':row.get('sentiment','neutral'),'strength':row.get('strength',7),'summary':summary,'source':row.get('source','Doğrulanmış kaynak'),'url':row.get('url',''),'confidence':row.get('confidence',100),'status':'verified_manual'})
+  seed['statements'].append({'id':next_id,'commentator':row['commentator'],'date':row.get('date',''),'team':row.get('team'),'players':row.get('players',[]),'topic':row.get('topic','Genel yorum'),'type':row.get('type','opinion'),'sentiment':row.get('sentiment','neutral'),'strength':row.get('strength',7),'summary':summary,'source':row.get('source','Doğrulanmış kaynak'),'url':row.get('url',''),'image_url':row.get('image_url'),'confidence':row.get('confidence',100),'status':'verified_manual'})
   known.add(key);next_id+=1
 
 for c in candidates:
@@ -92,10 +102,9 @@ for c in candidates:
  if len(summary)<20:continue
  key=(c['commentator'],summary.casefold())
  if key in known:continue
- seed['statements'].append({'id':next_id,'commentator':c['commentator'],'date':c['discovered_at'][:10],'team':c.get('team'),'players':c.get('players',[]),'topic':c.get('topic','Genel yorum'),'type':c.get('type','opinion'),'sentiment':c.get('sentiment','neutral'),'strength':c.get('strength',6),'summary':summary,'source':c.get('source','Kamuya açık kaynak'),'url':c.get('url',''),'confidence':c.get('confidence',95),'status':'auto_candidate'})
+ seed['statements'].append({'id':next_id,'commentator':c['commentator'],'date':c['discovered_at'][:10],'team':c.get('team'),'players':c.get('players',[]),'topic':c.get('topic','Genel yorum'),'type':c.get('type','opinion'),'sentiment':c.get('sentiment','neutral'),'strength':c.get('strength',6),'summary':summary,'source':c.get('source','Kamuya açık kaynak'),'url':c.get('url',''),'image_url':c.get('image_url'),'confidence':c.get('confidence',95),'status':'auto_candidate'})
  known.add(key);next_id+=1
 
-# Activity order: people with the most verified comments first, zero-comment profiles last.
 counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
 seed['commentators']=sorted(seed.get('commentators',[]),key=lambda c:(-counts.get(c['id'],0),c['name']))
