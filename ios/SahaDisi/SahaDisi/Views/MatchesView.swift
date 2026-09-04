@@ -24,16 +24,16 @@ struct MatchesView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
-                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: "Süper Lig") }
-                Text("TFF fikstürü · geçmiş ve gelecek haftalar").font(.subheadline).foregroundStyle(SDTheme.muted)
+                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: "Canlı TFF") }
+                Text("Trendyol Süper Lig fikstürü · haftalar ve güncel skorlar").font(.subheadline).foregroundStyle(SDTheme.muted)
                 weekPicker
 
                 if visibleMatches.isEmpty {
-                    ContentUnavailableView("Maç bulunamadı", systemImage: "sportscourt", description: Text("Fikstür güncellenirken tekrar deneyin."))
+                    ContentUnavailableView("Maç bulunamadı", systemImage: "sportscourt", description: Text("Canlı fikstür güncelleniyor. Yenilemek için aşağı çek."))
                 } else {
                     ForEach(weeksToShow, id: \.self) { week in
                         VStack(alignment: .leading, spacing: 10) {
-                            Text("\(week). Hafta").font(.title3.bold()).padding(.top, 4)
+                            Text(weekTitle(week)).font(.title3.bold()).padding(.top, 4)
                             ForEach(sortedMatches(in: week)) { match in matchCard(match) }
                         }
                     }
@@ -60,9 +60,9 @@ struct MatchesView: View {
     private var weekPicker: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                Button { selectedWeek = nil } label: { weekChip("Tümü", active: selectedWeek == nil) }.buttonStyle(.plain)
+                Button { selectedWeek = nil } label: { weekChip("Tüm Haftalar", active: selectedWeek == nil) }.buttonStyle(.plain)
                 ForEach(weeks, id: \.self) { week in
-                    Button { selectedWeek = week } label: { weekChip("\(week). Hafta", active: selectedWeek == week) }.buttonStyle(.plain)
+                    Button { selectedWeek = week } label: { weekChip(weekTitle(week), active: selectedWeek == week) }.buttonStyle(.plain)
                 }
             }
         }
@@ -78,33 +78,31 @@ struct MatchesView: View {
         let linked = store.statements(matchID: match.id)
         return NavigationLink { MatchDetailView(match: match) } label: {
             VStack(spacing: 0) {
-                HStack(spacing: 18) {
-                    TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: 64)
-                    VStack(spacing: 3) {
-                        Text(score(match)).font(.title2.black())
-                        Text(linked.isEmpty ? "Henüz yorum yok" : "\(linked.count) doğrulanmış yorum").font(.caption2).foregroundStyle(linked.isEmpty ? SDTheme.muted2 : SDTheme.accent)
-                    }.frame(maxWidth: .infinity)
-                    TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: 64)
-                }.padding(.top, 14).padding(.horizontal, 18)
-
+                MatchPoster(match: match, compact: true).frame(height: 112)
                 VStack(spacing: 10) {
                     HStack {
                         Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption2).foregroundStyle(SDTheme.muted2)
-                        Spacer(); Text("\(match.week). Hafta").font(.caption2).foregroundStyle(SDTheme.muted)
+                        Spacer(); Text(weekTitle(match.week)).font(.caption2.bold()).foregroundStyle(SDTheme.muted)
                     }
                     HStack {
                         Text(match.home).font(.headline).frame(maxWidth: .infinity, alignment: .leading)
-                        Text("-").foregroundStyle(SDTheme.muted2)
+                        Text(score(match)).font(.title3.black()).frame(minWidth: 60)
                         Text(match.away).font(.headline).frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     HStack {
-                        if !linked.isEmpty { Label("Yorumları gör", systemImage: "quote.bubble").font(.caption).foregroundStyle(SDTheme.accent) }
+                        Text(linked.isEmpty ? "Henüz bu maça bağlı doğrulanmış yorum yok" : "\(linked.count) maça bağlı doğrulanmış yorum")
+                            .font(.caption2).foregroundStyle(linked.isEmpty ? SDTheme.muted2 : SDTheme.accent)
                         Spacer(); Image(systemName: "chevron.right").font(.caption).foregroundStyle(SDTheme.muted2)
                     }
                 }.padding(14)
             }
             .background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 17)).overlay(RoundedRectangle(cornerRadius: 17).stroke(SDTheme.line))
         }.buttonStyle(.plain)
+    }
+
+    private func weekTitle(_ week: Int) -> String {
+        let words = [1:"Birinci Hafta",2:"İkinci Hafta",3:"Üçüncü Hafta",4:"Dördüncü Hafta",5:"Beşinci Hafta",6:"Altıncı Hafta",7:"Yedinci Hafta",8:"Sekizinci Hafta",9:"Dokuzuncu Hafta",10:"Onuncu Hafta",11:"On Birinci Hafta",12:"On İkinci Hafta",13:"On Üçüncü Hafta",14:"On Dördüncü Hafta",15:"On Beşinci Hafta",16:"On Altıncı Hafta",17:"On Yedinci Hafta",18:"On Sekizinci Hafta",19:"On Dokuzuncu Hafta",20:"Yirminci Hafta",21:"Yirmi Birinci Hafta",22:"Yirmi İkinci Hafta",23:"Yirmi Üçüncü Hafta",24:"Yirmi Dördüncü Hafta",25:"Yirmi Beşinci Hafta",26:"Yirmi Altıncı Hafta",27:"Yirmi Yedinci Hafta",28:"Yirmi Sekizinci Hafta",29:"Yirmi Dokuzuncu Hafta",30:"Otuzuncu Hafta",31:"Otuz Birinci Hafta",32:"Otuz İkinci Hafta",33:"Otuz Üçüncü Hafta",34:"Otuz Dördüncü Hafta"]
+        return words[week] ?? "\(week). Hafta"
     }
 
     private func parseDate(_ value: String) -> Date? {
@@ -118,5 +116,26 @@ struct MatchesView: View {
         return nil
     }
 
-    private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "vs" }
+    private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "VS" }
+}
+
+struct MatchPoster: View {
+    let match: Match
+    var compact = false
+    var body: some View {
+        ZStack {
+            LinearGradient(colors: [SDTheme.panel2, SDTheme.background], startPoint: .topLeading, endPoint: .bottomTrailing)
+            Circle().fill(Color.white.opacity(0.035)).frame(width: 220, height: 220).offset(x: -110, y: -70)
+            Circle().fill(Color.white.opacity(0.025)).frame(width: 180, height: 180).offset(x: 130, y: 80)
+            HStack(spacing: compact ? 18 : 28) {
+                TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: compact ? 62 : 82)
+                VStack(spacing: 4) {
+                    Text(match.homeScore == nil ? "VS" : "\(match.homeScore!) - \(match.awayScore!)")
+                        .font(.system(size: compact ? 18 : 26, weight: .black, design: .rounded))
+                    Text("SÜPER LİG").font(.system(size: 9, weight: .bold)).tracking(1.2).foregroundStyle(SDTheme.muted2)
+                }
+                TeamLogoView(name: match.away, urlString: match.awayLogoURL, size: compact ? 62 : 82)
+            }
+        }.clipped()
+    }
 }

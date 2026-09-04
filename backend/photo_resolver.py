@@ -1,66 +1,104 @@
-"""Resolve commentator portraits only when identity can be validated by page title.
-Wrong faces are worse than initials, so ambiguous search results are rejected.
+"""Resolve commentator portraits conservatively from public profile pages.
+A picture is accepted only when the page title/OG title contains the full commentator name.
+Ambiguous article images are rejected; initials remain the fallback instead of a wrong face.
 """
 from __future__ import annotations
-import json, re, time, unicodedata, urllib.parse
+import html, json, re, time, unicodedata, urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-UA='SahaDisi/1.2 verified public profile image resolver'
+ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'; OUT=B/'commentator_photos.json'
 ROSTER=json.loads((B/'commentator_roster.json').read_text())
-OUT=B/'commentator_photos.json'
-
-def get_json(url):
-    req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr'})
-    with urlopen(req,timeout=12) as r:return json.loads(r.read().decode('utf-8','ignore'))
+UA='Mozilla/5.0 (compatible; SahaDisi/2.0; verified-public-profile-resolver)'
+ALLOWED=('youtube.com','www.youtube.com','instagram.com','www.instagram.com','x.com','twitter.com','tr.wikipedia.org')
 
 def norm(value):
-    value=unicodedata.normalize('NFKD', value or '').encode('ascii','ignore').decode().casefold()
-    return re.sub(r'[^a-z0-9]+',' ',value).strip()
+ value=unicodedata.normalize('NFKD',value or '').encode('ascii','ignore').decode().casefold()
+ return re.sub(r'[^a-z0-9]+',' ',value).strip()
 
 def identity_matches(name,title):
-    n=norm(name); t=norm(title)
-    if not n or not t:return False
-    if n==t:return True
-    tokens=[x for x in n.split() if len(x)>1]
-    # All name tokens must exist in the resolved title; surname-only matches caused wrong people.
-    return len(tokens)>=2 and all(x in t.split() for x in tokens)
+ n=norm(name);t=norm(title)
+ tokens=[x for x in n.split() if len(x)>1]
+ return len(tokens)>=2 and all(x in t.split() for x in tokens)
+
+def fetch(url,timeout=15):
+ req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr-TR,tr;q=0.9'})
+ with urlopen(req,timeout=timeout) as r:return r.read().decode('utf-8','ignore'),r.geturl()
+
+def get_json(url):
+ raw,_=fetch(url);return json.loads(raw)
+
+def wikipedia(name):
+ q=urllib.parse.urlencode({'action':'query','generator':'search','gsrsearch':f'"{name}"','gsrnamespace':0,'gsrlimit':5,'prop':'pageimages|info','piprop':'thumbnail|original','pithumbsize':600,'inprop':'url','format':'json','origin':'*'})
+ data=get_json('https://tr.wikipedia.org/w/api.php?'+q)
+ pages=list(data.get('query',{}).get('pages',{}).values())
+ pages.sort(key=lambda p:(0 if norm(p.get('title'))==norm(name) else 1,int(p.get('index',999))))
+ for p in pages:
+  title=p.get('title','')
+  if not identity_matches(name,title):continue
+  img=(p.get('thumbnail') or {}).get('source') or (p.get('original') or {}).get('source')
+  if img:return {'photoURL':img,'photoSource':p.get('fullurl') or 'https://tr.wikipedia.org/','resolvedTitle':title,'verified_identity':True,'resolver':'wikipedia'}
+ return None
+
+def meta(doc,key):
+ patterns=[rf'<meta[^>]+(?:property|name)=["\']{re.escape(key)}["\'][^>]+content=["\']([^"\']+)',rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']{re.escape(key)}["\']']
+ for pattern in patterns:
+  m=re.search(pattern,doc,re.I)
+  if m:return html.unescape(m.group(1)).strip()
+ return None
+
+def page_title(doc):
+ return meta(doc,'og:title') or (html.unescape(re.search(r'<title[^>]*>(.*?)</title>',doc,re.I|re.S).group(1)).strip() if re.search(r'<title[^>]*>(.*?)</title>',doc,re.I|re.S) else '')
+
+def search_public_profiles(name):
+ query=urllib.parse.quote(f'"{name}" (YouTube OR Instagram OR X)')
+ try:doc,_=fetch('https://html.duckduckgo.com/html/?q='+query)
+ except Exception:return []
+ urls=[]
+ for href in re.findall(r'href=["\']([^"\']+)["\']',doc,re.I):
+  href=html.unescape(href)
+  if 'uddg=' in href:
+   try:href=urllib.parse.parse_qs(urllib.parse.urlparse(href).query).get('uddg',[href])[0]
+   except Exception:pass
+  host=urllib.parse.urlparse(href).netloc.casefold()
+  if any(host==d or host.endswith('.'+d) for d in ALLOWED):urls.append(href)
+ return list(dict.fromkeys(urls))[:8]
+
+def public_profile(name):
+ for url in search_public_profiles(name):
+  try:doc,final=fetch(url);title=page_title(doc)
+  except Exception:continue
+  if not identity_matches(name,title):continue
+  img=meta(doc,'og:image') or meta(doc,'twitter:image')
+  if not img or not img.startswith('http'):continue
+  return {'photoURL':img,'photoSource':final,'resolvedTitle':title,'verified_identity':True,'resolver':'public_profile'}
+ return None
 
 def resolve(name):
-    q=urllib.parse.urlencode({'action':'query','generator':'search','gsrsearch':f'"{name}"','gsrnamespace':0,'gsrlimit':5,'prop':'pageimages|info','piprop':'thumbnail|original','pithumbsize':480,'inprop':'url','format':'json','origin':'*'})
-    data=get_json('https://tr.wikipedia.org/w/api.php?'+q)
-    pages=list(data.get('query',{}).get('pages',{}).values())
-    pages.sort(key=lambda p:(0 if norm(p.get('title'))==norm(name) else 1, int(p.get('index',999))))
-    for p in pages:
-        title=p.get('title','')
-        if not identity_matches(name,title): continue
-        img=(p.get('thumbnail') or {}).get('source') or (p.get('original') or {}).get('source')
-        if img:
-            return {'photoURL':img,'photoSource':p.get('fullurl') or 'https://tr.wikipedia.org/','resolvedTitle':title,'verified_identity':True}
-    return None
+ try:
+  hit=wikipedia(name)
+  if hit:return hit
+ except Exception:pass
+ try:return public_profile(name)
+ except Exception:return None
 
 def main():
-    previous={}
-    if OUT.exists():
-        try: previous=json.loads(OUT.read_text()).get('photos',{})
-        except Exception: pass
-    photos={}; checked=0; found=0
-    by_id={cid:name for cid,name,_groups in ROSTER}
-    for cid,row in previous.items():
-        name=by_id.get(cid)
-        if name and row.get('photoURL') and row.get('verified_identity') and identity_matches(name,row.get('resolvedTitle','')):
-            photos[cid]=row
-    for cid,name,_groups in ROSTER:
-        if cid in photos: continue
-        checked+=1
-        try:
-            hit=resolve(name)
-            if hit: photos[cid]=hit; found+=1
-        except Exception: pass
-        time.sleep(.05)
-    OUT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'photos':photos},ensure_ascii=False,indent=2))
-    print('verified photos total',len(photos),'new',found,'checked',checked)
+ previous={}
+ if OUT.exists():
+  try:previous=json.loads(OUT.read_text()).get('photos',{})
+  except Exception:pass
+ by_id={cid:name for cid,name,_ in ROSTER};photos={}
+ for cid,row in previous.items():
+  name=by_id.get(cid)
+  if name and row.get('photoURL') and row.get('verified_identity') and identity_matches(name,row.get('resolvedTitle','')):photos[cid]=row
+ checked=found=0
+ for cid,name,_ in ROSTER:
+  if cid in photos:continue
+  checked+=1;hit=resolve(name)
+  if hit:photos[cid]=hit;found+=1
+  time.sleep(.08)
+ OUT.write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'photos':photos},ensure_ascii=False,indent=2))
+ print('verified commentator photos',len(photos),'of',len(ROSTER),'new',found,'checked',checked)
 
-if __name__=='__main__': main()
+if __name__=='__main__':main()

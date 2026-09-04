@@ -31,31 +31,33 @@ final class AppStore: ObservableObject {
         (payload?.statements ?? []).filter { $0.commentator == commentatorID }.sorted { $0.date > $1.date }
     }
 
+    func statements(for commentatorID: String, team: String) -> [Statement] {
+        let target = canonicalTeam(team)
+        return (payload?.statements ?? []).filter {
+            $0.commentator == commentatorID && $0.team.map(canonicalTeam) == target
+        }.sorted { $0.date > $1.date }
+    }
+
     func statements(team: String) -> [Statement] {
         let target = canonicalTeam(team)
-        return (payload?.statements ?? []).filter { row in
-            guard let value = row.team else { return false }
-            return canonicalTeam(value) == target
-        }.sorted { $0.date > $1.date }
+        return (payload?.statements ?? []).filter { $0.team.map(canonicalTeam) == target }.sorted { $0.date > $1.date }
     }
 
     func statements(player: String) -> [Statement] {
         (payload?.statements ?? []).filter { $0.players.contains(player) }.sorted { $0.date > $1.date }
     }
 
-    /// Exact match-linked comments first. If the collector could not attach a match id,
-    /// show recent verified comments about either club around the fixture date instead of an empty page.
     func statements(matchID: String) -> [Statement] {
-        let all = payload?.statements ?? []
-        let exact = all.filter { $0.matchId == matchID }.sorted { $0.date > $1.date }
-        if !exact.isEmpty { return exact }
+        (payload?.statements ?? []).filter { $0.matchId == matchID }.sorted { $0.date > $1.date }
+    }
+
+    func relatedStatements(matchID: String) -> [Statement] {
         guard let match = payload?.matches?.first(where: { $0.id == matchID }) else { return [] }
         let clubs = Set([canonicalTeam(match.home), canonicalTeam(match.away)])
-        let kickoff = parseDate(match.kickoff)
-        return all.filter { row in
-            guard let team = row.team, clubs.contains(canonicalTeam(team)) else { return false }
-            guard let kickoff, let statementDate = parseDate(row.date) else { return true }
-            return abs(statementDate.timeIntervalSince(kickoff)) <= 60 * 60 * 24 * 7
+        let exactIDs = Set(statements(matchID: matchID).map(\.id))
+        return (payload?.statements ?? []).filter { row in
+            guard !exactIDs.contains(row.id), let team = row.team else { return false }
+            return clubs.contains(canonicalTeam(team))
         }.sorted { $0.date > $1.date }
     }
 
@@ -106,33 +108,20 @@ final class AppStore: ObservableObject {
         }
     }
 
-    private func canonicalTeam(_ value: String) -> String {
+    func canonicalTeam(_ value: String) -> String {
         let key = value.trimmingCharacters(in: .whitespacesAndNewlines).lowercased(with: Locale(identifier: "tr_TR"))
         let aliases: [String:String] = [
-            "galatasaray a.ş.":"Galatasaray", "galatasaray":"Galatasaray",
-            "fenerbahçe a.ş.":"Fenerbahçe", "fenerbahçe":"Fenerbahçe",
-            "beşiktaş a.ş.":"Beşiktaş", "beşiktaş":"Beşiktaş",
-            "trabzonspor a.ş.":"Trabzonspor", "trabzonspor":"Trabzonspor",
-            "göztepe a.ş.":"Göztepe", "göztepe":"Göztepe",
-            "tümosan konyaspor":"Konyaspor", "konyaspor":"Konyaspor",
-            "çaykur rizespor":"Rizespor", "rizespor":"Rizespor",
-            "arca çorum fk":"Çorum FK", "çorum fk":"Çorum FK", "çorum":"Çorum FK",
-            "gaziantep futbol kulübü a.ş.":"Gaziantep FK", "gaziantep futbol kulübü":"Gaziantep FK", "gaziantep fk":"Gaziantep FK", "gaziantep":"Gaziantep FK",
+            "galatasaray a.ş.":"Galatasaray", "galatasaray":"Galatasaray", "fenerbahçe a.ş.":"Fenerbahçe", "fenerbahçe":"Fenerbahçe",
+            "beşiktaş a.ş.":"Beşiktaş", "beşiktaş":"Beşiktaş", "trabzonspor a.ş.":"Trabzonspor", "trabzonspor":"Trabzonspor",
+            "samsunspor a.ş.":"Samsunspor", "samsunspor":"Samsunspor", "göztepe a.ş.":"Göztepe", "göztepe":"Göztepe",
+            "tümosan konyaspor":"Konyaspor", "konyaspor":"Konyaspor", "çaykur rizespor a.ş.":"Rizespor", "çaykur rizespor":"Rizespor", "rizespor":"Rizespor",
+            "arca çorum fk":"Çorum FK", "çorum fk":"Çorum FK", "çorum":"Çorum FK", "gaziantep futbol kulübü a.ş.":"Gaziantep FK",
+            "gaziantep futbol kulübü":"Gaziantep FK", "gaziantep fk":"Gaziantep FK", "gaziantep":"Gaziantep FK",
             "istanbul başakşehir fk":"Başakşehir", "istanbul başakşehir":"Başakşehir", "başakşehir":"Başakşehir",
-            "amed sportif faaliyetler":"Amed SK", "amed":"Amed SK", "amed sk":"Amed SK",
-            "erzurumspor fk":"Erzurumspor", "erzurumspor":"Erzurumspor",
-            "corendon alanyaspor":"Alanyaspor", "alanyaspor":"Alanyaspor"
+            "amed sportif faaliyetler":"Amed SK", "amed":"Amed SK", "amed sk":"Amed SK", "erzurumspor fk":"Erzurumspor", "erzurumspor":"Erzurumspor",
+            "corendon alanyaspor":"Alanyaspor", "alanyaspor":"Alanyaspor", "kasımpaşa a.ş.":"Kasımpaşa", "kasımpaşa":"Kasımpaşa",
+            "kocaelispor":"Kocaelispor", "gençlerbirliği":"Gençlerbirliği", "eyüpspor":"Eyüpspor"
         ]
         return aliases[key] ?? value
-    }
-
-    private func parseDate(_ value: String) -> Date? {
-        let iso = ISO8601DateFormatter()
-        if let d = iso.date(from: value) { return d }
-        for format in ["yyyy-MM-dd", "dd.MM.yyyy HH:mm"] {
-            let f = DateFormatter(); f.locale = Locale(identifier: "tr_TR"); f.dateFormat = format
-            if let d = f.date(from: value) { return d }
-        }
-        return nil
     }
 }

@@ -10,8 +10,8 @@ struct CommentatorProfileView: View {
 
     private var allStatements: [Statement] { store.statements(for: commentator.id) }
     private var statements: [Statement] {
-        guard let teamFilter else { return allStatements }
-        return allStatements.filter { $0.team == teamFilter }
+        if let teamFilter { return store.statements(for: commentator.id, team: teamFilter) }
+        return allStatements
     }
     private var topPlayers: [RankedItem] {
         let all = statements.flatMap(\.players)
@@ -65,7 +65,7 @@ struct CommentatorProfileView: View {
             }
             if let teamFilter {
                 Button { Task { await notifications.toggle(commentatorID: commentator.id, team: teamFilter) } } label: {
-                    Label(notifications.isPairEnabled(commentator.id, team: teamFilter) ? "\(teamFilter) filtresini kapat" : "Sadece \(teamFilter) + \(commentator.name)", systemImage: "bell.and.waves.left.and.right")
+                    Label(notifications.isPairEnabled(commentator.id, team: teamFilter) ? "\(teamFilter) + \(commentator.name) bildirimini kapat" : "Sadece \(teamFilter) + \(commentator.name)", systemImage: "bell.and.waves.left.and.right")
                 }
             }
             Button { Task { await notifications.setAll(!notifications.allEnabled) } } label: {
@@ -111,12 +111,12 @@ struct CommentatorProfileView: View {
                         HStack {
                             Text(SDDate.text(s.date)).font(.caption2).foregroundStyle(SDTheme.muted)
                             Text("·").foregroundStyle(SDTheme.muted2)
-                            Text(s.type == "prediction" ? "Maç Öncesi" : "Doğrulanmış söz").font(.caption2).foregroundStyle(SDTheme.muted)
+                            Text(s.type == "prediction" ? "Maç Öncesi" : "Doğrudan alıntı").font(.caption2).foregroundStyle(SDTheme.muted)
                             Spacer(); predictionBadge(s)
                         }
                         Text("“\(s.summary)”").font(.subheadline.weight(.semibold)).lineLimit(5)
                         HStack {
-                            if let team = s.team { Text(team).font(.caption).foregroundStyle(SDTheme.muted) }
+                            if let team = s.team { Text(store.canonicalTeam(team)).font(.caption).foregroundStyle(SDTheme.muted) }
                             Spacer(); Text(s.source).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1)
                         }
                     }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
@@ -157,7 +157,7 @@ struct CommentatorProfileView: View {
         SDCard {
             VStack(alignment: .leading, spacing: 10) {
                 Text(commentator.name).font(.headline)
-                Text("Saha Dışı, kamuya açık kaynaklardan doğrulanmış doğrudan sözleri kısa ve kaynak bağlantılı biçimde gösterir. Ana kaynak: \(commentator.primarySource).").font(.subheadline).foregroundStyle(SDTheme.muted)
+                Text("Saha Dışı yalnızca kaynaktan doğrulanabilen gerçek cümleleri kısa alıntı olarak gösterir. Uzun içerik için kaynak bağlantısı kullanılır.").font(.subheadline).foregroundStyle(SDTheme.muted)
             }
         }
     }

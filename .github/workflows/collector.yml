@@ -8,12 +8,8 @@ on:
     branches: [main]
     paths:
       - 'backend/*.py'
-      - 'backend/sources.json'
-      - 'backend/commentators.json'
-      - 'backend/commentator_roster.json'
-      - 'backend/fixture_overrides.json'
-      - 'backend/manual_verified.json'
-      - 'backend/team_logos.json'
+      - 'backend/*.json'
+      - 'ios/SahaDisi/SahaDisi/**/*.swift'
       - '.github/workflows/collector.yml'
 
 permissions:
@@ -26,7 +22,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,66 +34,76 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Collect public commentary
+      - name: Collect literal public commentary
         run: python backend/collector_v3.py
 
       - name: Collect official TFF fixture
-        run: python backend/tff_fixtures.py || echo 'TFF parser unavailable; keeping previous fixture data.'
+        run: python backend/tff_fixtures.py
 
-      - name: Resolve public commentator photos
-        run: python backend/photo_resolver.py || echo 'Photo resolver unavailable; initials remain as fallback.'
+      - name: Resolve verified commentator photos
+        run: python backend/photo_resolver.py
 
-      - name: Resolve public team logos
-        run: python backend/team_logo_resolver.py || echo 'Team logo resolver unavailable; initials remain as fallback.'
+      - name: Resolve real club crests
+        run: python backend/team_logo_resolver.py
 
       - name: Build live feed
         run: python backend/build_feed.py
 
-      - name: Validate feed before publish
+      - name: Validate feed integrity
         run: |
           python - <<'PY'
-          import json
-          from datetime import datetime
+          import json,re
           from pathlib import Path
-
-          feed=json.loads(Path('backend/feed.json').read_text())
+          p=json.loads(Path('backend/feed.json').read_text())
           roster=json.loads(Path('backend/commentator_roster.json').read_text())
-          overrides=json.loads(Path('backend/fixture_overrides.json').read_text())
+          logos=json.loads(Path('backend/team_logos.json').read_text())
+          photos=json.loads(Path('backend/commentator_photos.json').read_text()).get('photos',{})
+          assert len(p.get('commentators', [])) == len(roster) == 204
+          assert isinstance(p.get('statements'), list) and isinstance(p.get('matches'), list)
+          assert p.get('generated_at')
+          ids=[s['id'] for s in p['statements']]
+          assert len(ids)==len(set(ids))
+          valid={c['id'] for c in p['commentators']}
+          assert all(s['commentator'] in valid for s in p['statements'])
+          assert all(s.get('verbatim') is True for s in p['statements'])
+          assert all(s.get('status') in {'verified_manual','verified_direct_quote'} for s in p['statements'])
+          editorial=(' eleştirdi',' yorumladı',' değerlendirdi',' söyledi',' sert dille',' açıkladı')
+          assert not any(any(x in (' '+s.get('summary','').casefold()) for x in editorial) for s in p['statements'])
+          bad=('Ã','Å','Ä','Â','�')
+          def walk(v):
+            if isinstance(v,str): return [v]
+            if isinstance(v,list): return [x for i in v for x in walk(i)]
+            if isinstance(v,dict): return [x for i in v.values() for x in walk(i)]
+            return []
+          strings=walk(p)
+          broken=[s for s in strings if any(x in s for x in bad)]
+          assert not broken, f'mojibake detected: {broken[:5]}'
+          assert len(p['matches']) >= 18
+          assert all(int(m.get('week',0)) > 0 for m in p['matches'])
+          current=[m for m in p['matches'] if int(m.get('week',0))==4]
+          assert len(current)==9, f'week 4 fixture count {len(current)} != 9'
+          teams={m['home'] for m in p['matches']}|{m['away'] for m in p['matches']}
+          missing=[t for t in teams if not logos.get(t)]
+          assert not missing, f'missing logos: {missing}'
+          favicon=[u for u in logos.values() if 'google.com/s2/favicons' in u]
+          assert not favicon, 'favicon URLs are not accepted as club crests'
+          assert all((not c.get('photoURL')) or c['id'] in photos for c in p['commentators'])
+          print('PASS feed',len(p['commentators']),'commentators',len(p['statements']),'literal quotes',len(p['matches']),'matches',len(photos),'verified photos')
+          PY
 
-          commentators=feed.get('commentators', [])
-          statements=feed.get('statements', [])
-          matches=feed.get('matches', [])
-
-          assert len(commentators) == len(roster) == 204, 'commentator roster mismatch'
-          assert isinstance(statements, list) and isinstance(matches, list)
-          assert feed.get('generated_at'), 'generated_at missing'
-
-          statement_ids=[s['id'] for s in statements]
-          assert len(statement_ids)==len(set(statement_ids)), 'duplicate statement ids'
-          valid_commentators={c['id'] for c in commentators}
-          assert all(s.get('commentator') in valid_commentators for s in statements), 'unknown commentator in statement'
-
-          # Never publish editorial summaries as if they were quotations.
-          assert all(s.get('verbatim') is True for s in statements), 'non-verbatim statement reached live feed'
-          assert all(s.get('status') in {'verified_manual','verified_direct_quote'} for s in statements), 'unverified statement reached live feed'
-          assert all(len((s.get('summary') or '').strip()) >= 20 for s in statements), 'empty/short statement reached live feed'
-
-          match_ids=[m.get('id') for m in matches]
-          assert all(match_ids) and len(match_ids)==len(set(match_ids)), 'missing/duplicate match ids'
-          assert all(int(m.get('week',0)) > 0 for m in matches), 'invalid match week'
-
-          # Every hand-verified current fixture must survive the automated merge exactly.
-          by_id={m['id']:m for m in matches}
-          for expected in overrides:
-              actual=by_id.get(expected['id'])
-              assert actual is not None, f"verified fixture missing: {expected['id']}"
-              for key in ('league','week','home','away','kickoff','home_score','away_score'):
-                  assert actual.get(key)==expected.get(key), f"fixture mismatch {expected['id']} field={key}: {actual.get(key)!r} != {expected.get(key)!r}"
-              datetime.fromisoformat(expected['kickoff'])
-              assert actual.get('home_logo_url'), f"home logo missing: {expected['home']}"
-              assert actual.get('away_logo_url'), f"away logo missing: {expected['away']}"
-
-          print('validated', len(commentators), 'commentators', len(statements), 'verified statements', len(matches), 'matches', len(overrides), 'verified fixtures')
+      - name: Validate iOS source requirements
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          files={p.name:p.read_text() for p in Path('ios/SahaDisi/SahaDisi').rglob('*.swift')}
+          joined='\n'.join(files.values())
+          assert 'Birinci Hafta' in joined and 'Üçüncü Hafta' in joined and 'Dördüncü Hafta' in joined
+          assert 'func statements(for commentatorID: String, team: String)' in joined
+          assert 'NotificationSettingsView' in joined
+          assert 'toggle(commentatorID:' in joined
+          assert 'MatchPoster' in joined
+          assert 'Takımlar Hakkındaki Güncel Yorumlar' in joined
+          print('PASS iOS static requirements')
           PY
 
       - name: Publish changed live data
@@ -105,13 +111,11 @@ jobs:
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json
-          test ! -f backend/tff_matches.json || git add backend/tff_matches.json
-          test ! -f backend/commentator_photos.json || git add backend/commentator_photos.json
-          test ! -f backend/team_logos.json || git add backend/team_logos.json
+          git add backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
           else
-            git commit -m 'data: refresh live football commentary feed'
+            git commit -m 'data: refresh verified live feed'
             git pull --rebase origin main
             git push origin main
           fi

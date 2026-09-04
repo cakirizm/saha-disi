@@ -1,6 +1,6 @@
-"""Saha Dışı V7 public-source collector.
-Only clear, attributable football remarks can reach the live feed. Generic headlines,
-old recycled stories and publisher labels stay out of live data. Article images are retained.
+"""Saha Dışı public-source collector.
+Only attributable, literal football quotes are emitted as candidates. Headlines such as
+"eleştirdi", "yorumladı" or editorial paraphrases are never converted into a quote.
 """
 from __future__ import annotations
 import hashlib, html, json, re, time, urllib.parse, xml.etree.ElementTree as ET
@@ -11,43 +11,64 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
-UA='Mozilla/5.0 (compatible; SahaDisiCollector/0.7; public-source-indexer)'
+UA='Mozilla/5.0 (compatible; SahaDisiCollector/2.0; literal-quote-indexer)'
 ROSTER=json.loads((B/'commentator_roster.json').read_text())
-PEOPLE=[(cid,name) for cid,name,_groups in ROSTER]
-COMMENTATORS={cid:[name] for cid,name in PEOPLE}
+PEOPLE=[(cid,name) for cid,name,_ in ROSTER]; COMMENTATORS={cid:name for cid,name in PEOPLE}
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
-QUOTE_RE=re.compile(r'[“\"‘](.{20,360}?)[”\"’]')
-GENERIC={'yorumladı','eleştirdi','övdü','değerlendirdi','açıklamalarda bulundu','konuştu'}
-CURRENT_YEAR=datetime.now(timezone.utc).year
+QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
+BAD_MARKERS=('eleştirdi','yorumladı','değerlendirdi','açıkladı','söyledi','ifade etti','konuştu','övdü','sert dille','çarpıcı sözler','flaş sözler')
 
 class Parser(HTMLParser):
- def __init__(self): super().__init__(); self.text=[]; self.links=[]; self.images=[]; self.skip=0
+ def __init__(self): super().__init__();self.text=[];self.links=[];self.images=[];self.skip=0
  def handle_starttag(self,t,a):
   a=dict(a)
-  if t in {'script','style','svg','nav','footer'}: self.skip+=1
-  if t=='a' and a.get('href'): self.links.append(a['href'])
+  if t in {'script','style','svg','nav','footer'}:self.skip+=1
+  if t=='a' and a.get('href'):self.links.append(a['href'])
   if t=='meta':
    key=(a.get('property') or a.get('name') or '').casefold()
-   if key in {'og:image','twitter:image','twitter:image:src'} and a.get('content'): self.images.append(a['content'])
+   if key in {'og:image','twitter:image','twitter:image:src'} and a.get('content'):self.images.append(a['content'])
  def handle_endtag(self,t):
   if t in {'script','style','svg','nav','footer'} and self.skip:self.skip-=1
  def handle_data(self,d):
   if not self.skip:
-   x=' '.join(html.unescape(d).split())
+   x=' '.join(html.unescape(d).replace('\xa0',' ').split())
    if len(x)>2:self.text.append(x)
+
+def decode_body(raw,content_type=''):
+ declared=''
+ m=re.search(r'charset=([\w-]+)',content_type,re.I)
+ if m:declared=m.group(1)
+ for enc in [declared,'utf-8','windows-1254','iso-8859-9']:
+  if not enc:continue
+  try:
+   text=raw.decode(enc)
+   if not any(x in text for x in ('Ã§','Ã¼','ÅŸ','Ä±','Ä°','Ã¶','ÄŸ')):return text
+  except Exception:pass
+ return raw.decode('windows-1254','replace')
+
+def repair_text(value):
+ value=html.unescape(value or '').replace('\xa0',' ')
+ for _ in range(2):
+  if any(x in value for x in ('Ã','Å','Ä')):
+   try:
+    fixed=value.encode('latin1').decode('utf-8')
+    if fixed!=value:value=fixed;continue
+   except Exception:pass
+  break
+ return ' '.join(value.split())
 
 def fetch(url):
  req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr-TR,tr;q=0.9'})
- with urlopen(req,timeout=16) as r:return r.read().decode('utf-8','ignore')
-def parse(doc): p=Parser();p.feed(doc);return p
-def detect(text):
- low=text.casefold();return [cid for cid,aliases in COMMENTATORS.items() if any(a.casefold() in low for a in aliases)]
+ with urlopen(req,timeout=18) as r:return decode_body(r.read(),r.headers.get('Content-Type',''))
+def parse(doc):p=Parser();p.feed(doc);return p
+
 def tags(text,items):
  low=text.casefold();return [x for x in items if x.casefold() in low]
+
 def classify(s):
- l=s.casefold(); typ='opinion';topic='Genel yorum';sent='neutral';strength=6
- if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','beğen','mükemmel','harika']):sent='positive'
+ l=s.casefold();typ='opinion';topic='Genel yorum';sent='neutral';strength=6
+ if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','mükemmel','harika']):sent='positive'
  if any(x in l for x in ['kötü','hata','zayıf','problem','yanlış','yetersiz']):sent='negative'
  if any(x in l for x in ['penaltı','hakem','var ']):typ='referee';topic='Hakem / VAR';strength=8
  if any(x in l for x in ['olacak','kazanır','yenilmez','şampiyon','eler','puan alır']):typ='prediction';topic='Tahmin';strength=8
@@ -56,22 +77,22 @@ def classify(s):
  return typ,topic,sent,strength
 
 def rss_urls(cid,name):
- qs=[f'"{name}" futbol when:14d',f'"{name}" (dedi OR söyledi OR açıkladı) when:14d',f'"{name}" (transfer OR hakem OR derbi OR maç) when:14d']
- return [{'url':f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':84,'cid':cid,'rss':True} for q in qs]
+ queries=[f'"{name}" futbol when:14d',f'"{name}" maç when:14d',f'"{name}" transfer when:14d']
+ return [{'url':f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':90,'cid':cid,'rss':True} for q in queries]
 
 def direct_sources():
  return [
-  {'url':'https://kontraspor.com/haberleri/nihat-kahveci','source':'Kontraspor','trust':95,'cid':'nihat-kahveci'},
+  {'url':'https://kontraspor.com/haberleri/nihat-kahveci','source':'Kontraspor','trust':98,'cid':'nihat-kahveci'},
   {'url':'https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv','source':'A Spor','trust':100,'cid':'ahmet-cakar'},
   {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen'},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke'}]
 
-def discover(src,limit=6):
+def discover(src,limit=7):
  doc=fetch(src['url'])
- if '<rss' in doc[:500].lower() or '<feed' in doc[:500].lower():
+ if '<rss' in doc[:700].lower() or '<feed' in doc[:700].lower():
   root=ET.fromstring(doc);out=[]
   for item in root.findall('.//item')[:limit]:
-   link=item.findtext('link');title=html.unescape(item.findtext('title') or '')
+   link=item.findtext('link');title=repair_text(item.findtext('title') or '')
    if link:out.append((link,title))
   return out
  p=parse(doc);host=urlparse(src['url']).netloc;out=[]
@@ -80,56 +101,41 @@ def discover(src,limit=6):
   if pu.netloc==host and u!=src['url'] and any(k in pu.path.casefold() for k in ['spor','futbol','yazar','video','haber']):out.append((u.split('#')[0],''))
  return list(dict.fromkeys(out))[:limit]
 
-def clean_statement(text,name):
- text=' '.join(html.unescape(text).replace('“','"').replace('”','"').split()).strip(' -–—')
- text=re.sub(r'\s+-\s+[^-]{2,70}$','',text).strip()
- quotes=QUOTE_RE.findall(text)
- if quotes:
-  q=max(quotes,key=len).strip(' "')
-  if len(q)>=20:return q[:360]
- if ':' in text:
-  left,right=text.split(':',1)
-  if name.casefold() in left.casefold() and len(right.strip())>=20:return right.strip(' "')[:360]
- text=re.sub(r'^.*?'+re.escape(name)+r'\s*(?:,|:|-)?\s*','',text,flags=re.I)
- for g in GENERIC:text=re.sub(r'^'+re.escape(g)+r'\s*[:,-]?\s*','',text,flags=re.I)
- return text.strip(' "-–—')[:360]
+def literal_quotes(text,name):
+ text=repair_text(text)
+ quotes=[]
+ for q in QUOTE_RE.findall(text):
+  q=repair_text(q).strip(' "“”')
+  if 20<=len(q)<=420:quotes.append(q)
+ # Explicit speaker format: Name: exact sentence
+ speaker=re.compile(re.escape(name)+r'\s*[:：]\s*([^\n]{20,420})',re.I)
+ for m in speaker.findall(text):
+  q=repair_text(re.split(r'(?<=[.!?])\s+',m)[0]).strip(' "“”')
+  if 20<=len(q)<=420:quotes.append(q)
+ return list(dict.fromkeys(quotes))
 
-def noisy(summary, raw, rss=False):
- low=summary.casefold()
- if len(summary)<24:return True
- if any(x in low for x in ['tüm yazılar','beın sports türkiye','son dakika','haberleri','çarpıcı değerlendirme!']):return True
- years=[int(x) for x in re.findall(r'\b20\d{2}\b',summary)]
- if years and max(years)<CURRENT_YEAR:return True
- if rss and not (QUOTE_RE.search(raw) or ':' in raw):return True
- return False
-
-def candidate_from_text(text,src,url,image_url=None):
- text=' '.join(html.unescape(text).split())
- if src['cid'] not in detect(text): return []
- name=COMMENTATORS[src['cid']][0]
- chunks=[text] if len(text)<=650 else re.split(r'(?<=[.!?])\s+',text)
+def candidate_rows(text,src,url,image_url=None):
+ name=COMMENTATORS[src['cid']]; text=repair_text(text)
+ if name.casefold() not in text.casefold():return []
  rows=[]
- for raw in chunks:
-  if not 30<=len(raw)<=650 or src['cid'] not in detect(raw):continue
-  teams=tags(raw,TEAMS);players=tags(raw,PLAYERS)
-  if not teams and not players and not any(k in raw.casefold() for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu']):continue
-  summary=clean_statement(raw,name)
-  if noisy(summary,raw,src.get('rss',False)):continue
-  typ,topic,sent,strength=classify(summary)
-  direct_quote=bool(QUOTE_RE.search(raw)) or (':' in raw and name.casefold() in raw.split(':',1)[0].casefold())
-  confidence=max(src['trust'],95) if direct_quote else src['trust']
-  key=hashlib.sha256(f"{src['cid']}|{summary.casefold()}".encode()).hexdigest()[:20]
-  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':summary,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':image_url,'confidence':confidence,'direct_quote':direct_quote,'discovered_at':datetime.now(timezone.utc).isoformat()})
+ for quote in literal_quotes(text,name):
+  low=quote.casefold()
+  if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
+  context=text
+  teams=tags(context,TEAMS);players=tags(quote+' '+context,PLAYERS)
+  if not teams and not players and not any(k in low for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu']):continue
+  typ,topic,sent,strength=classify(quote)
+  key=hashlib.sha256(f"{src['cid']}|{quote.casefold()}".encode('utf-8')).hexdigest()[:20]
+  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':image_url,'confidence':max(src['trust'],95),'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
  return rows
 
 def extract(url,src,hint=''):
- if src.get('rss'):return candidate_from_text(hint,src,url)
  try:
   doc=fetch(url);p=parse(doc);text=' '.join(p.text);image=urljoin(url,p.images[0]) if p.images else None
- except Exception:text=hint;image=None
- return candidate_from_text(text+' '+hint,src,url,image)
+ except Exception:return []
+ return candidate_rows(text+' '+hint,src,url,image)
 
-def run(limit=6):
+def run(limit=7):
  sources=direct_sources()+[x for cid,name in PEOPLE for x in rss_urls(cid,name)]
  rows=[];health=[]
  for src in sources:
@@ -143,5 +149,6 @@ def run(limit=6):
  unique={x['candidate_id']:x for x in rows}
  (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2))
  (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'sources':health},ensure_ascii=False,indent=2))
- print('candidates',len(unique),'commentators',len(PEOPLE),'sources',len(sources))
+ print('literal quote candidates',len(unique),'commentators',len(PEOPLE),'sources',len(sources))
+
 if __name__=='__main__':run()
