@@ -23,7 +23,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,8 +39,10 @@ jobs:
         run: python backend/collector_v3.py
 
       - name: Collect official TFF fixture
-        run: |
-          python backend/tff_fixture.py || echo 'TFF parser unavailable; keeping previous fixture data.'
+        run: python backend/tff_fixtures.py || echo 'TFF parser unavailable; keeping previous fixture data.'
+
+      - name: Resolve public commentator photos
+        run: python backend/photo_resolver.py || echo 'Photo resolver unavailable; initials remain as fallback.'
 
       - name: Build live feed
         run: python backend/build_feed.py
@@ -70,6 +72,7 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json
           test ! -f backend/tff_matches.json || git add backend/tff_matches.json
+          test ! -f backend/commentator_photos.json || git add backend/commentator_photos.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
           else
