@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:53:07.721350+00:00",
+  "generated_at": "2026-09-05T23:55:15.217764+00:00",
   "commentators": [
     {
       "id": "levent-tuzemen",
@@ -35,6 +35,17 @@
       "photoURL": null
     },
     {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -62,17 +73,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "DÇ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -32760,6 +32760,169 @@
         "speaker_id": "tunc-kayaci",
         "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyetin-mimari-2635349",
         "published_at": "2026-08-24T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1232,
+      "commentator": "fatih-dogan",
+      "date": "2026-08-17T06:40:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fakat siyah-beyazlı takım, bu avantajı ikinci golle taçlandıramadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/08/17/hedefi-12den-vurdu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/08/17/hedefi-12den-vurdu",
+        "published_at": "2026-08-17T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1233,
+      "commentator": "hamit-turhan",
+      "date": "2026-08-22T19:57:18+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bütün bu keşmekeş içinde Erzurum maçına hazırlanan Sarı-Kırmızılı takım, bir puan kaybının daha sezona mal olabileceği bilinciyle sahaya çıktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-galatasaraya-karsi-2635224",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-galatasaraya-karsi-2635224",
+        "published_at": "2026-08-22T19:57:18+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1234,
+      "commentator": "tunc-kayaci",
+      "date": "2026-08-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fofana’nın tek vuruşla attığı gol ister istemez Lyon’u coştururken, momentumu da rakibe verdik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/ruyalar-gercek-oldu-2635718",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/ruyalar-gercek-oldu-2635718",
+        "published_at": "2026-08-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1235,
+      "commentator": "ender-bilgin",
+      "date": "2026-08-01T06:50:17+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sol kanat, yedek forvet ve belki bir stoper daha...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+        "published_at": "2026-08-01T06:50:17+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1236,
+      "commentator": "ender-bilgin",
+      "date": "2026-08-01T06:50:17+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İki önemli yıldız ve geleceği parlak iki iyi genç oyuncuyla birlikte transfer operasyonu tamamlanacak.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+        "published_at": "2026-08-01T06:50:17+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1237,
+      "commentator": "yunus-emre-sel",
+      "date": "2026-07-31T06:50:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Frankfurt maçına göre daha ciddi görüntü verdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/07/31/bouchouari-dikkat-cekti",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "yunus-emre-sel",
+        "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/07/31/bouchouari-dikkat-cekti",
+        "published_at": "2026-07-31T06:50:29+03:00"
       },
       "image_kind": null
     }
