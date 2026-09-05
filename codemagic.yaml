@@ -47,9 +47,16 @@ workflows:
       - name: Build IPA
         script: |
           cd ios/SahaDisi
+          # The minimal Xcode project isn't patched by use-profiles, so pass the
+          # signing team, identity and the freshly created App Store profile
+          # explicitly as archive build settings (these override the project).
+          PROFILE=$(ls "$HOME/Library/MobileDevice/Provisioning Profiles/"*.mobileprovision 2>/dev/null | head -n 1)
+          PROFILE_NAME=$(security cms -D -i "$PROFILE" 2>/dev/null | plutil -extract Name raw - 2>/dev/null)
+          echo "Signing with profile: $PROFILE_NAME"
           xcode-project build-ipa \
             --project "SahaDisi.xcodeproj" \
-            --scheme "SahaDisi"
+            --scheme "SahaDisi" \
+            --archive-xcargs "COMPILER_INDEX_STORE_ENABLE=NO CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=34JL83RV94 CODE_SIGN_IDENTITY=\"Apple Distribution\" PROVISIONING_PROFILE_SPECIFIER=\"$PROFILE_NAME\""
 
       - name: Verify IPA exists
         script: |
