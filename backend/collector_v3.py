@@ -69,6 +69,8 @@ def classify(s):
  l=s.casefold();typ='opinion';topic='Genel yorum';sent='neutral';strength=6
  if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','mükemmel','harika']):sent='positive'
  if any(x in l for x in ['kötü','hata','zayıf','problem','yanlış','yetersiz']):sent='negative'
+ if any(x in l for x in ['performans','forma','golcü',' gol','asist','oynadı','oynuyor','formda','düşüşte','mevki','pozisyon ','santrfor','kanat','stoper']):typ='player';topic='Oyuncu Performansı';strength=max(strength,7)
+ if any(x in l for x in ['teknik direktör','hoca',' diziliş','taktik',' sistem',' kadro','rotasyon','oyun planı','oynatmıyor','oynatmalı','değişiklik','tercih etti','oyun anlayışı']):typ='coaching';topic='Teknik Direktör';strength=max(strength,7)
  if any(x in l for x in ['penaltı','hakem','var ']):typ='referee';topic='Hakem / VAR';strength=8
  if any(x in l for x in ['olacak','kazanır','yenilmez','şampiyon','eler','puan alır']):typ='prediction';topic='Tahmin';strength=8
  if any(x in l for x in ['kesin','asla','imkansız','en iyi']):typ='hot_take';strength=10
