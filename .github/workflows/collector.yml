@@ -119,6 +119,9 @@ jobs:
             echo 'No feed changes.'
           else
             git commit -m 'data: refresh verified live feed'
-            git pull --rebase --autostash origin main
-            git push origin main
+            n=0
+            until git pull --rebase --autostash origin main && git push origin main; do
+              n=$((n+1)); if [ $n -ge 5 ]; then echo "push failed after $n attempts"; exit 1; fi
+              echo "push race, retry $n"; sleep 6
+            done
           fi
