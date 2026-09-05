@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T09:52:34.206850+00:00",
+  "generated_at": "2026-09-05T10:22:20.623651+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
-    "successful": 79,
+    "successful": 77,
     "youtube_sources": 4,
     "new_videos": 0,
-    "candidates": 54
+    "candidates": 56
   },
   "sources": [
     {
@@ -21,22 +21,22 @@
       "commentator": "ahmet-cakar",
       "source": "A Spor",
       "candidates": 0,
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden",
       "kind": "web"
     },
     {
       "commentator": "levent-tuzemen",
       "source": "A Spor",
-      "candidates": 1,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 403: Forbidden",
       "kind": "web"
     },
     {
       "commentator": "ugur-meleke",
       "source": "beIN SPORTS",
-      "candidates": 0,
+      "candidates": 2,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
