@@ -5,6 +5,10 @@ workflows:
     max_build_duration: 60
 
     environment:
+      # App Store Connect API key + certificate private key come from the
+      # "appstore" variable group (defined in Codemagic → Environment variables).
+      groups:
+        - appstore
       # No automatic ios_signing block: it fetches (but never creates) the
       # profile during environment setup and fails before the scripts run.
       # Signing files are created explicitly in the "Set up code signing" step.
