@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:04:33.727051+00:00",
+  "generated_at": "2026-09-05T14:09:55.664130+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -86,6 +86,17 @@
       "avatar": "LT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "semih-sezerli",
+      "name": "Semih Sezerli",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -232,17 +243,6 @@
       "avatar": "SÇ",
       "focusTeams": [
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "semih-sezerli",
-      "name": "Semih Sezerli",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "SS",
-      "focusTeams": [
-        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -4506,6 +4506,26 @@
       "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "image_kind": null
+    },
+    {
+      "id": 131,
+      "commentator": "semih-sezerli",
+      "date": "2026-09-05",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "’Fenerbahçe’nin uluslararası bir gürültüye ihtiyacı vardı",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON25uaTZ2QmtsUGZsYlVPVV82a3lqektHSEdCWUo5WnRwTmhrR0R2RkJudHdiN3hBVnY5Y3FJT1JOS0dQOU03MzJMSXVodGRFRlVEWGkwdjIxZlZEX0FPYkZYT2JJV3ZOd2tkUGVGbDB1U2JxQTY5d3dUc3pzb0tqQU9ObzZJRGFqMUZuYU9vRVJkZmJLaG5yUWtISE1HSERlZWllVDhMM1pydFR0ZXIwdzMtb2JZRUhZQnBpNDRSM1pieGZr?oc=5",
       "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
