@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T13:18:52.348645+00:00",
+  "generated_at": "2026-09-05T13:19:47.409663+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
-    "successful": 79,
+    "successful": 78,
     "youtube_sources": 4,
     "new_videos": 0,
     "candidates": 60
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -612,11 +612,9 @@
     {
       "source": "Socrates",
       "kind": "youtube",
-      "items": 15,
-      "new_videos": 0,
       "candidates": 0,
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "source": "Tivibu Spor · Orta Nokta",
