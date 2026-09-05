@@ -47,11 +47,26 @@ def article_content(doc):
             return str(node['articleBody']),str(node['datePublished'])
     return '\n'.join(' '.join(x.split()) for x in ''.join(parser.parts).splitlines() if x.strip()),parser.date
 
+_ATTR_VERBS=r'(?:dedi|söyledi|ifade etti|ifadelerini kullandı|kaydetti|belirtti|vurguladı|konuştu|açıkladı|değerlendirdi|şunları söyledi|diye konuştu)'
+
 def attributed_quotes(text,name):
-    pattern=re.compile(re.escape(name)+r'\s*(?:[:,：]|(?:şunları söyledi|dedi|ifadelerini kullandı)\s*:)\s*[“"]([^”"]{20,1600})[”"]',re.I)
-    result=[]
-    for match in pattern.finditer(text):
-        quote=' '.join(match.group(1).split())
-        if len(quote)>420:quote=re.split(r'(?<=[.!?])\s+',quote)[0]
-        if 20<=len(quote)<=420:result.append((quote,match.group(0)))
+    esc=re.escape(name)
+    # Each pattern keeps the speaker's name tightly bound to the quote (no sentence
+    # boundary between them), covering the common Turkish attribution orders.
+    patterns=[
+        # Name[,: / verb] ... "quote"  — name introduces the quote in the same clause
+        re.compile(esc+r'[^"“.!?]{0,60}?[“"]([^”"]{20,1600})[”"]',re.I),
+        # "quote" ... verb ... Name    — quote first, attributed afterwards
+        re.compile(r'[“"]([^”"]{20,1600})[”"][^"“]{0,50}?'+_ATTR_VERBS+r'[^"“]{0,25}?'+esc,re.I),
+        # "quote" diyen Name
+        re.compile(r'[“"]([^”"]{20,1600})[”"][^"“]{0,25}?diyen\s+'+esc,re.I),
+    ]
+    seen=set();result=[]
+    for pattern in patterns:
+        for match in pattern.finditer(text):
+            quote=' '.join(match.group(1).split())
+            if len(quote)>420:quote=re.split(r'(?<=[.!?])\s+',quote)[0]
+            key=quote.casefold()
+            if 20<=len(quote)<=420 and key not in seen:
+                seen.add(key);result.append((quote,match.group(0)))
     return result
