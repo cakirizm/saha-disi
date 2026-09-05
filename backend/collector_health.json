@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-04T22:23:42.610710+00:00",
+  "generated_at": "2026-09-05T09:34:25.395608+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
     "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
-    "candidates": 66
+    "candidates": 57
   },
   "sources": [
     {
@@ -36,7 +36,7 @@
     {
       "commentator": "ugur-meleke",
       "source": "beIN SPORTS",
-      "candidates": 2,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -76,7 +76,7 @@
     {
       "commentator": "ibrahim-seten",
       "source": "343",
-      "candidates": 15,
+      "candidates": 13,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -84,7 +84,7 @@
     {
       "commentator": "yagiz-sabuncuoglu",
       "source": "343",
-      "candidates": 15,
+      "candidates": 13,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -172,7 +172,7 @@
     {
       "commentator": "haluk-yurekli",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -188,7 +188,7 @@
     {
       "commentator": "ali-naci-kucuk",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 3,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -196,7 +196,7 @@
     {
       "commentator": "nevzat-dindar",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -204,7 +204,7 @@
     {
       "commentator": "kaya-temel",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -212,7 +212,7 @@
     {
       "commentator": "serhan-turk",
       "source": "Google News RSS",
-      "candidates": 3,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -268,7 +268,7 @@
     {
       "commentator": "mustafa-culcu",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -292,7 +292,7 @@
     {
       "commentator": "bunyamin-gezer",
       "source": "Google News RSS",
-      "candidates": 4,
+      "candidates": 6,
       "ok": true,
       "error": null,
       "kind": "web"

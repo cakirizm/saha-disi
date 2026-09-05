@@ -5,6 +5,7 @@
     "summary_candidate": "Torreira'yı tehdit eden kişi tutuklanmış!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Greenwood",
       "Asensio",
       "Guendouzi",
@@ -17,48 +18,36 @@
     "strength": 6,
     "source": "A Spor",
     "url": "https://www.aspor.com.tr/futbol",
-    "image_url": "https://iaaspr.tmgrup.com.tr/ea0c4f/1200/675/0/0/800/450?u=https://iaspr.tmgrup.com.tr/2026/09/05/psg-teknik-adam-luis-enriquenin-sozlesmesini-uzatti-1788558780572.jpeg",
+    "image_url": "https://iaaspr.tmgrup.com.tr/4f698f/1200/675/0/6/836/476?u=https://iaspr.tmgrup.com.tr/2026/09/05/borussia-monchengladbach-elversberg-maci-ne-zaman-saat-kacta-ve-hangi-kanalda-1788600808882.jpg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.384271+00:00"
+    "discovered_at": "2026-09-05T09:34:10.629433+00:00"
   },
   {
-    "candidate_id": "f8d05c4bbdb1006a9f1d",
-    "commentator": "ugur-meleke",
-    "summary_candidate": "Sınıfta kaldı\" Uğur Meleke'den çarpıcı değerlendirme!",
-    "team": null,
+    "candidate_id": "50666b354d10835020bd",
+    "commentator": "ibrahim-seten",
+    "summary_candidate": "Okanball değil, Osiball var!",
+    "team": "Galatasaray",
     "players": [
-      "Osimhen"
+      "Osimhen",
+      "Talisca",
+      "Greenwood",
+      "Asensio",
+      "Batrakov",
+      "Guendouzi",
+      "Leao",
+      "Onuachu"
     ],
     "topic": "Genel yorum",
     "type": "opinion",
     "sentiment": "neutral",
     "strength": 6,
-    "source": "beIN SPORTS",
-    "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-    "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
-    "confidence": 100,
+    "source": "343",
+    "url": "https://343digital.com/kategori/video",
+    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+    "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.451064+00:00"
-  },
-  {
-    "candidate_id": "5257a63ddab7cba4c4aa",
-    "commentator": "ugur-meleke",
-    "summary_candidate": "Uğur Meleke'den çarpıcı değerlendirme!",
-    "team": null,
-    "players": [
-      "Osimhen"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "beIN SPORTS",
-    "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-    "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
-    "confidence": 100,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.451180+00:00"
+    "discovered_at": "2026-09-05T09:34:11.312271+00:00"
   },
   {
     "candidate_id": "6dacccbf930a6fc7bdb9",
@@ -66,12 +55,12 @@
     "summary_candidate": "Galatasaray’ı farklı kılan eleştiri!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -84,7 +73,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.096248+00:00"
+    "discovered_at": "2026-09-05T09:34:11.312532+00:00"
   },
   {
     "candidate_id": "a3076b5a6da1167533a1",
@@ -92,12 +81,12 @@
     "summary_candidate": "Avrupa için lig feda edilmeyecek!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -110,85 +99,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.096525+00:00"
-  },
-  {
-    "candidate_id": "eb6470045bad30d00059",
-    "commentator": "ibrahim-seten",
-    "summary_candidate": "Göztepe’nin beklentisi transferden vazgeçirdi!",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Transfer",
-    "type": "transfer",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.096803+00:00"
-  },
-  {
-    "candidate_id": "517941bb17ca29ace248",
-    "commentator": "ibrahim-seten",
-    "summary_candidate": "Galatasaray Torreira",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.097031+00:00"
-  },
-  {
-    "candidate_id": "d147af8c8b35500c891f",
-    "commentator": "ibrahim-seten",
-    "summary_candidate": "Bak Serdar Ali Çelikler!",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.097244+00:00"
+    "discovered_at": "2026-09-05T09:34:11.312805+00:00"
   },
   {
     "candidate_id": "8b1ee3fc585799e4ddba",
@@ -196,12 +107,12 @@
     "summary_candidate": "Galatasaray B Planı Olamaz!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -214,7 +125,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.097450+00:00"
+    "discovered_at": "2026-09-05T09:34:11.313054+00:00"
   },
   {
     "candidate_id": "e8780f816145aae2110c",
@@ -222,12 +133,12 @@
     "summary_candidate": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -240,7 +151,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.097647+00:00"
+    "discovered_at": "2026-09-05T09:34:11.313291+00:00"
   },
   {
     "candidate_id": "dbd191c4152b5bef0065",
@@ -248,12 +159,12 @@
     "summary_candidate": "Eleştiriler medyanın cilvesi!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -266,7 +177,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.097867+00:00"
+    "discovered_at": "2026-09-05T09:34:11.313518+00:00"
   },
   {
     "candidate_id": "445277f72050232c1ad2",
@@ -274,12 +185,12 @@
     "summary_candidate": "Astrolojiye ilgi duyuyorum!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -292,7 +203,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.098148+00:00"
+    "discovered_at": "2026-09-05T09:34:11.313749+00:00"
   },
   {
     "candidate_id": "0e5b53a3199b80314737",
@@ -300,12 +211,12 @@
     "summary_candidate": "İspanya turnuva boyunca hükmetti!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -318,7 +229,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.098349+00:00"
+    "discovered_at": "2026-09-05T09:34:11.313975+00:00"
   },
   {
     "candidate_id": "fb48449d1ef6c1bf6285",
@@ -326,12 +237,12 @@
     "summary_candidate": "Gönlüm İspanya’dan yana!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -344,7 +255,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.098532+00:00"
+    "discovered_at": "2026-09-05T09:34:11.314216+00:00"
   },
   {
     "candidate_id": "d16105dd88d1bcb4cea9",
@@ -352,12 +263,12 @@
     "summary_candidate": "İspanya, sahanın her noktasını domine etti!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -370,46 +281,46 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.098724+00:00"
+    "discovered_at": "2026-09-05T09:34:11.315290+00:00"
   },
   {
-    "candidate_id": "1e665366007be9be1cdc",
+    "candidate_id": "2f02723f62671e8710ca",
     "commentator": "ibrahim-seten",
-    "summary_candidate": "Sergen Yalçın’ı Beşiktaş",
+    "summary_candidate": "Transfer obezliğinin zirvesindeyiz!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
-    "topic": "Genel yorum",
-    "type": "opinion",
+    "topic": "Transfer",
+    "type": "transfer",
     "sentiment": "neutral",
-    "strength": 6,
+    "strength": 8,
     "source": "343",
     "url": "https://343digital.com/kategori/video",
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.098937+00:00"
+    "discovered_at": "2026-09-05T09:34:11.315537+00:00"
   },
   {
-    "candidate_id": "355679f3e7110aaec365",
+    "candidate_id": "07cf9d3995459c5e6122",
     "commentator": "ibrahim-seten",
-    "summary_candidate": "Cem Papila olayı, ‘Beşiktaş",
+    "summary_candidate": "Tuchel artık sahaya dokunmalı!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -422,20 +333,20 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.099127+00:00"
+    "discovered_at": "2026-09-05T09:34:11.315796+00:00"
   },
   {
-    "candidate_id": "60bbc323b52d410f5659",
+    "candidate_id": "51d2c1ed09b10bfff5d8",
     "commentator": "ibrahim-seten",
-    "summary_candidate": "Bu saatten sonra yöneticilik değil, Beşiktaş",
+    "summary_candidate": "Kenan Yıldız çok mütevazı",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -448,7 +359,33 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.099302+00:00"
+    "discovered_at": "2026-09-05T09:34:11.316025+00:00"
+  },
+  {
+    "candidate_id": "5238efcbcef0f2ee6c02",
+    "commentator": "yagiz-sabuncuoglu",
+    "summary_candidate": "Okanball değil, Osiball var!",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Talisca",
+      "Greenwood",
+      "Asensio",
+      "Batrakov",
+      "Guendouzi",
+      "Leao",
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "343",
+    "url": "https://343digital.com/kategori/video",
+    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-05T09:34:11.408077+00:00"
   },
   {
     "candidate_id": "d74ad95800758a3af50e",
@@ -456,12 +393,12 @@
     "summary_candidate": "Galatasaray’ı farklı kılan eleştiri!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -474,7 +411,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.145108+00:00"
+    "discovered_at": "2026-09-05T09:34:11.408336+00:00"
   },
   {
     "candidate_id": "f63512e02eac87973ea1",
@@ -482,12 +419,12 @@
     "summary_candidate": "Avrupa için lig feda edilmeyecek!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -500,85 +437,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.145392+00:00"
-  },
-  {
-    "candidate_id": "ef436b74fb7505eaa1e2",
-    "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Göztepe’nin beklentisi transferden vazgeçirdi!",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Transfer",
-    "type": "transfer",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.145656+00:00"
-  },
-  {
-    "candidate_id": "ef1950cf28aae96688fb",
-    "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Galatasaray Torreira",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.145906+00:00"
-  },
-  {
-    "candidate_id": "1be8fa5a808d75a66140",
-    "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Bak Serdar Ali Çelikler!",
-    "team": "Galatasaray",
-    "players": [
-      "Talisca",
-      "Greenwood",
-      "Asensio",
-      "Batrakov",
-      "Guendouzi",
-      "Torreira",
-      "Leao",
-      "Onuachu"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "343",
-    "url": "https://343digital.com/kategori/video",
-    "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.146123+00:00"
+    "discovered_at": "2026-09-05T09:34:11.408575+00:00"
   },
   {
     "candidate_id": "a8d11babcc6c557a9a3d",
@@ -586,12 +445,12 @@
     "summary_candidate": "Galatasaray B Planı Olamaz!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -604,7 +463,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.146330+00:00"
+    "discovered_at": "2026-09-05T09:34:11.408829+00:00"
   },
   {
     "candidate_id": "69d0128379367dd52a97",
@@ -612,12 +471,12 @@
     "summary_candidate": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -630,7 +489,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.146808+00:00"
+    "discovered_at": "2026-09-05T09:34:11.409068+00:00"
   },
   {
     "candidate_id": "94c002a8c9bbb07be05a",
@@ -638,12 +497,12 @@
     "summary_candidate": "Eleştiriler medyanın cilvesi!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -656,7 +515,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147015+00:00"
+    "discovered_at": "2026-09-05T09:34:11.409299+00:00"
   },
   {
     "candidate_id": "bd34fd46d739a401fbdd",
@@ -664,12 +523,12 @@
     "summary_candidate": "Astrolojiye ilgi duyuyorum!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -682,7 +541,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147201+00:00"
+    "discovered_at": "2026-09-05T09:34:11.409522+00:00"
   },
   {
     "candidate_id": "12f0b1969b06b33d1237",
@@ -690,12 +549,12 @@
     "summary_candidate": "İspanya turnuva boyunca hükmetti!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -708,7 +567,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147385+00:00"
+    "discovered_at": "2026-09-05T09:34:11.409759+00:00"
   },
   {
     "candidate_id": "ca6c0962d2182efdbe4d",
@@ -716,12 +575,12 @@
     "summary_candidate": "Gönlüm İspanya’dan yana!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -734,7 +593,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147563+00:00"
+    "discovered_at": "2026-09-05T09:34:11.409975+00:00"
   },
   {
     "candidate_id": "f3c66099b46b7ce7b603",
@@ -742,12 +601,12 @@
     "summary_candidate": "İspanya, sahanın her noktasını domine etti!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -760,46 +619,46 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147773+00:00"
+    "discovered_at": "2026-09-05T09:34:11.410193+00:00"
   },
   {
-    "candidate_id": "dd55f6191053dee8ff9f",
+    "candidate_id": "57732c161e5eae77a109",
     "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Sergen Yalçın’ı Beşiktaş",
+    "summary_candidate": "Transfer obezliğinin zirvesindeyiz!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
-    "topic": "Genel yorum",
-    "type": "opinion",
+    "topic": "Transfer",
+    "type": "transfer",
     "sentiment": "neutral",
-    "strength": 6,
+    "strength": 8,
     "source": "343",
     "url": "https://343digital.com/kategori/video",
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.147951+00:00"
+    "discovered_at": "2026-09-05T09:34:11.410914+00:00"
   },
   {
-    "candidate_id": "bddc558d35c0a0881101",
+    "candidate_id": "0296182ee1c65a1236c3",
     "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Cem Papila olayı, ‘Beşiktaş",
+    "summary_candidate": "Tuchel artık sahaya dokunmalı!",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -812,20 +671,20 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.148124+00:00"
+    "discovered_at": "2026-09-05T09:34:11.411149+00:00"
   },
   {
-    "candidate_id": "4f71788d9dfc09cd42aa",
+    "candidate_id": "f33847196e5fc23b989b",
     "commentator": "yagiz-sabuncuoglu",
-    "summary_candidate": "Bu saatten sonra yöneticilik değil, Beşiktaş",
+    "summary_candidate": "Kenan Yıldız çok mütevazı",
     "team": "Galatasaray",
     "players": [
+      "Osimhen",
       "Talisca",
       "Greenwood",
       "Asensio",
       "Batrakov",
       "Guendouzi",
-      "Torreira",
       "Leao",
       "Onuachu"
     ],
@@ -838,7 +697,7 @@
     "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.148298+00:00"
+    "discovered_at": "2026-09-05T09:34:11.411372+00:00"
   },
   {
     "candidate_id": "6854468bf5633d20f1ba",
@@ -855,7 +714,7 @@
     "image_url": "https://img.cnbce.com/2/1280/720/storage/files/images/2026/05/11/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-zc9i.jpg",
     "confidence": 100,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.894059+00:00"
+    "discovered_at": "2026-09-05T09:34:11.300602+00:00"
   },
   {
     "candidate_id": "331599206b9f397231d3",
@@ -874,7 +733,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.096102+00:00"
+    "discovered_at": "2026-09-05T09:34:10.019311+00:00"
   },
   {
     "candidate_id": "bbb9380f453ac377e657",
@@ -891,7 +750,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.435337+00:00"
+    "discovered_at": "2026-09-05T09:34:10.418557+00:00"
   },
   {
     "candidate_id": "b38ce4f92359b6447130",
@@ -908,7 +767,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.946611+00:00"
+    "discovered_at": "2026-09-05T09:34:11.025734+00:00"
   },
   {
     "candidate_id": "836e35831b69210376df",
@@ -925,7 +784,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.946653+00:00"
+    "discovered_at": "2026-09-05T09:34:11.025788+00:00"
   },
   {
     "candidate_id": "e72af7ac3d784b838211",
@@ -942,7 +801,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.056193+00:00"
+    "discovered_at": "2026-09-05T09:34:11.143307+00:00"
   },
   {
     "candidate_id": "fdedce0b3450755ea255",
@@ -959,7 +818,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:26.933936+00:00"
+    "discovered_at": "2026-09-05T09:34:10.976468+00:00"
   },
   {
     "candidate_id": "9e41c50a68227acc7557",
@@ -976,41 +835,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.340373+00:00"
-  },
-  {
-    "candidate_id": "ea8e97aab097618dc670",
-    "commentator": "haluk-yurekli",
-    "summary_candidate": "Galatasaray'da çok uzun zamandır hayali kurulan oyuncu, durumunu izliyorlar",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTU2UEVabDhIbERMWXlpbURWcG9uT1RqMUxLSnNneHpVNXVKc3RIU1F0bEFMRHlFVkRTYzNWQXBLRFA3cVFEbV8xTFFPSHdiWVJYdl96a29yd2FmRk9oZHExSHZMOElSanloS0hRMkNtT25yOC15c2QtWmZSMFVRd3ROdDlueFdVWkpnUlVMYVdBWjZYRFBqU3oyYWJCZ3gtbDhEVWI4dDJQVE1uTmJCM0tXeTItZjDSAbwBQVVfeXFMTWl3ZnZDdzFmbF9qNmpHRW14SjBMYWVqSFdUcTlld0YtN3FFQTkyQkV5Z1I3ZEtoYjE2aE51MndxTzNqLXljVFE1aUlMcnUwdDNfcUFBSG9UME9FZkEyS1lfSVhHMVU3eXd1X3lMbjVBdUpla1hHU2djSFZ1R2xFdG5zU0xrc3pldzcyenNCYmFLYzhDLWQ0ZjI1dzJtNzB5R3RZRkFqbnh5c3dwWENNRkpDWUY0NzBNS0tDQjM?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.084437+00:00"
-  },
-  {
-    "candidate_id": "bf97abe3e0ccfaf5c2db",
-    "commentator": "haluk-yurekli",
-    "summary_candidate": "Galatasaray'da çok uzun zamandır hayali kurulan oyuncu, durumunu izliyorlar\" - Haber Sarı Kırmızı",
-    "team": "Galatasaray",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTU2UEVabDhIbERMWXlpbURWcG9uT1RqMUxLSnNneHpVNXVKc3RIU1F0bEFMRHlFVkRTYzNWQXBLRFA3cVFEbV8xTFFPSHdiWVJYdl96a29yd2FmRk9oZHExSHZMOElSanloS0hRMkNtT25yOC15c2QtWmZSMFVRd3ROdDlueFdVWkpnUlVMYVdBWjZYRFBqU3oyYWJCZ3gtbDhEVWI4dDJQVE1uTmJCM0tXeTItZjDSAbwBQVVfeXFMTWl3ZnZDdzFmbF9qNmpHRW14SjBMYWVqSFdUcTlld0YtN3FFQTkyQkV5Z1I3ZEtoYjE2aE51MndxTzNqLXljVFE1aUlMcnUwdDNfcUFBSG9UME9FZkEyS1lfSVhHMVU3eXd1X3lMbjVBdUpla1hHU2djSFZ1R2xFdG5zU0xrc3pldzcyenNCYmFLYzhDLWQ0ZjI1dzJtNzB5R3RZRkFqbnh5c3dwWENNRkpDWUY0NzBNS0tDQjM?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.084478+00:00"
+    "discovered_at": "2026-09-05T09:34:11.520390+00:00"
   },
   {
     "candidate_id": "72d711a058665de214c0",
@@ -1027,31 +852,46 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.156694+00:00"
+    "discovered_at": "2026-09-05T09:34:11.084603+00:00"
   },
   {
-    "candidate_id": "6a470486ed3ec8c64e1e",
+    "candidate_id": "1478b88aed50aecc65b4",
     "commentator": "ali-naci-kucuk",
-    "summary_candidate": "Galatasaray B Planı Olamaz!",
+    "summary_candidate": "Galatasaray 45-50 milyon Euro'ya çıktı, Perşembe akşamı belli olacak",
     "team": "Galatasaray",
-    "players": [
-      "Leao"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
+    "players": [],
+    "topic": "Tahmin",
+    "type": "prediction",
     "sentiment": "neutral",
-    "strength": 6,
+    "strength": 8,
     "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fTmZoUW1NeVRiQkgySlJqajUxSW1GclZzOTBQS0N0ZE1rdGtSTjJVMThUUHR5OTl5c25JUERsUTExckNlZ0NNc05Lam5ockVYRUZkbFlMclVLOHA5?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWkZsSXNQdkxja0VLcHVCdF9WZVkybDRuVFRvZlpyNXVETTAwRno5RDRnb0NBS3NIalN3NUd5LVNaczQwZ3B5blZkLUE2VE5IWmU2SUZxSnNpNVRIc3FvUjNxYmdTS0tQM2haWl9LS1RNRnBqVVQ3VTFzRXV4OU1DTVd0WWp0RkZHa1dqZXNBYVhXbk9BR3RUSGFraXYwLVZrdUY5WmZoWEtubGZQY0lN0gG0AUFVX3lxTE5SMzRSaE5BbGhmQ1FObUhkV1hDSVVzQ1dyNmR3Qmk4dUlTeFJJVjRwZXREQ2NOcmdwcDlQN3NCR05CUkJnMDY3UEFackp1QnRWenI3RlZOR3BFWEhROTlpR1pWSHJvVjI0S3VPZmZmNUZnTWNqWXUyckZDMlN6c3d0X20wdDF0Z0IwNWx6d2N3XzRfWEpQdDJtcFhqTXBTQ1dOZFl5X2lSbVZpQldVUFNfTzIxNg?oc=5",
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.443210+00:00"
+    "discovered_at": "2026-09-05T09:34:11.691039+00:00"
   },
   {
-    "candidate_id": "197c546db9a7a5f39b2a",
-    "commentator": "nevzat-dindar",
-    "summary_candidate": "Ismaila Sarr, Galatasaray",
+    "candidate_id": "94ad52eeec506e9cfab6",
+    "commentator": "ali-naci-kucuk",
+    "summary_candidate": "Galatasaray 45-50 milyon Euro'ya çıktı, Perşembe akşamı belli olacak\" - Haber Sarı Kırmızı",
+    "team": "Galatasaray",
+    "players": [],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWkZsSXNQdkxja0VLcHVCdF9WZVkybDRuVFRvZlpyNXVETTAwRno5RDRnb0NBS3NIalN3NUd5LVNaczQwZ3B5blZkLUE2VE5IWmU2SUZxSnNpNVRIc3FvUjNxYmdTS0tQM2haWl9LS1RNRnBqVVQ3VTFzRXV4OU1DTVd0WWp0RkZHa1dqZXNBYVhXbk9BR3RUSGFraXYwLVZrdUY5WmZoWEtubGZQY0lN0gG0AUFVX3lxTE5SMzRSaE5BbGhmQ1FObUhkV1hDSVVzQ1dyNmR3Qmk4dUlTeFJJVjRwZXREQ2NOcmdwcDlQN3NCR05CUkJnMDY3UEFackp1QnRWenI3RlZOR3BFWEhROTlpR1pWSHJvVjI0S3VPZmZmNUZnTWNqWXUyckZDMlN6c3d0X20wdDF0Z0IwNWx6d2N3XzRfWEpQdDJtcFhqTXBTQ1dOZFl5X2lSbVZpQldVUFNfTzIxNg?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-05T09:34:11.691081+00:00"
+  },
+  {
+    "candidate_id": "9124ea36f94d05d2bfee",
+    "commentator": "kaya-temel",
+    "summary_candidate": "Galatasaray'da Bir Yıldız Daha İnebilir!'",
     "team": "Galatasaray",
     "players": [],
     "topic": "Genel yorum",
@@ -1059,11 +899,11 @@
     "sentiment": "neutral",
     "strength": 6,
     "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGQ4YVUzQTA5MjZQNjBfa05udHBtSFBWQnoxZzd4dFRQanRFazlfdkltVmNQWFN2Ylk3TUlfbS0tZWNlc0xmclp3MWc5dWM4TGFLSndjYlU1cHl2SXpPNFNsVTZnQzBxSE83RlBJd1o2MV9QaUNsN1Q5TkdsRUxyR2EyNVlaWWdFbmMzbmwxVGJrZUQxMDZFa2VMSmFudUl4YTlXYkotalRUc2RZeTVQdy1SQi1GTVdKZUg4ZVRXd3lUQ29wWmxCSm04MWJVSEE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUmdzS0F0YmUtbHEwRWVIWWE5V1A1a3VzSWkySWFSWld6S1lBMnBIUGV3MnQ4bGU5Wm9tekh1ZXp4VDA5MXV1YjdGaHlYX19PYzVmR21sNktObGlaWkk2cWpSSGRiZ013d1VZOXhRVEd5b2NJQkk0dE1VMUFIUEdUR0Q5S242eVlTR0hXZWJQQmhNbTJ6SUNkMU1yVmkxbjFLRUZaOVNDREdBTVAwMG15bWlrdXBObkxsQ3BqUzV3?oc=5",
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.128256+00:00"
+    "discovered_at": "2026-09-05T09:34:11.490955+00:00"
   },
   {
     "candidate_id": "76b899ebc66aa2db60fd",
@@ -1080,45 +920,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.141179+00:00"
-  },
-  {
-    "candidate_id": "3ed7bfc1feb96eb5c3fb",
-    "commentator": "serhan-turk",
-    "summary_candidate": "Asensio Fenerbahçe İçin Çok Önemli Bir Oyuncu Haline Geldi!",
-    "team": "Fenerbahçe",
-    "players": [
-      "Asensio"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPemtIemlCMlBkb1U0ekZpelR3RDVwaldCZHFxZzNLaWs1aV8yWW1NVHNfOFR1RUx2WlNhOFVOaGFjcEgzY3B6S1RJNERCeTVsZTJNdXVJLUExN3ZTbXZlTS1EWEpfZk9peVNaWEVSY1paMm5zc3A0T0ZySTlqbkJDM28zVEVfRnBVYVNDTTBrOEN1UVR6c1VGZ1A3RUFnaDd3d2x6TUdmdDdBREI5LTRRSXozTHBoUQ?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.328475+00:00"
-  },
-  {
-    "candidate_id": "b83efb4a25c6747b32c3",
-    "commentator": "serhan-turk",
-    "summary_candidate": "Asensio Fenerbahçe İçin Çok Önemli Bir Oyuncu Haline Geldi!\" - aspor.com.tr",
-    "team": "Fenerbahçe",
-    "players": [
-      "Asensio"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPemtIemlCMlBkb1U0ekZpelR3RDVwaldCZHFxZzNLaWs1aV8yWW1NVHNfOFR1RUx2WlNhOFVOaGFjcEgzY3B6S1RJNERCeTVsZTJNdXVJLUExN3ZTbXZlTS1EWEpfZk9peVNaWEVSY1paMm5zc3A0T0ZySTlqbkJDM28zVEVfRnBVYVNDTTBrOEN1UVR6c1VGZ1A3RUFnaDd3d2x6TUdmdDdBREI5LTRRSXozTHBoUQ?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.328517+00:00"
+    "discovered_at": "2026-09-05T09:34:11.470789+00:00"
   },
   {
     "candidate_id": "40b9733580befef7eca2",
@@ -1135,7 +937,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.168006+00:00"
+    "discovered_at": "2026-09-05T09:34:11.484878+00:00"
   },
   {
     "candidate_id": "25b4f0b3091419794633",
@@ -1152,7 +954,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.168046+00:00"
+    "discovered_at": "2026-09-05T09:34:11.484922+00:00"
   },
   {
     "candidate_id": "eb10b76142a15e0e5a72",
@@ -1171,7 +973,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.911610+00:00"
+    "discovered_at": "2026-09-05T09:34:12.038823+00:00"
   },
   {
     "candidate_id": "21d430ee3717a5fc0bae",
@@ -1188,7 +990,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.519502+00:00"
+    "discovered_at": "2026-09-05T09:34:11.760520+00:00"
   },
   {
     "candidate_id": "0275a817ab245ef2a783",
@@ -1205,24 +1007,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.636143+00:00"
-  },
-  {
-    "candidate_id": "c546dfe3ecc63321c5e0",
-    "commentator": "turgay-demir",
-    "summary_candidate": "Beşiktaş’ı doğradılar… Öyle ince ince değil, adeta satırla doğradılar.",
-    "team": "Beşiktaş",
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fazY3dlZMS1d4U1E3RTlpM2liLWFQYmxZZ3hmRy1ZWW9DbnlTa1BIODcyWUpud1NMalE3RFM1a0FpODhnN2hxWmExemo5eXNmZmc?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.853111+00:00"
+    "discovered_at": "2026-09-05T09:34:11.829431+00:00"
   },
   {
     "candidate_id": "a6558eb8e4483ba92065",
@@ -1239,24 +1024,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.821130+00:00"
-  },
-  {
-    "candidate_id": "a9e39c529a3ea8bd111e",
-    "commentator": "mustafa-culcu",
-    "summary_candidate": "Hakemlik adına çok ayıp - Halk TV",
-    "team": null,
-    "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Google News RSS",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
-    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-    "confidence": 95,
-    "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.935455+00:00"
+    "discovered_at": "2026-09-05T09:34:11.852406+00:00"
   },
   {
     "candidate_id": "e3a124172127e4398e39",
@@ -1275,7 +1043,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.176647+00:00"
+    "discovered_at": "2026-09-05T09:34:12.456252+00:00"
   },
   {
     "candidate_id": "3b7f665b5bce2a5bb2c3",
@@ -1292,7 +1060,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.942424+00:00"
+    "discovered_at": "2026-09-05T09:34:12.371490+00:00"
   },
   {
     "candidate_id": "ed20293cf49a3b7cbb1f",
@@ -1309,7 +1077,41 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:27.942464+00:00"
+    "discovered_at": "2026-09-05T09:34:12.371543+00:00"
+  },
+  {
+    "candidate_id": "11efe1a836b6794cf667",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Beşiktaş resmen doğrandı. Bu kadar olmaz.",
+    "team": "Beşiktaş",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DM0VPb2NNd0lHMEVaejA2TFc0VWJGc3hNbXdibzlNNEs2dkJlazhGckg3cDVZSWU3NV9xbEc4T3R0b2ZnWm4tUE9URGI0UFpwSUE?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-05T09:34:12.388025+00:00"
+  },
+  {
+    "candidate_id": "ee2874211c5c9ee4ca11",
+    "commentator": "bunyamin-gezer",
+    "summary_candidate": "Beşiktaş resmen doğrandı.",
+    "team": "Beşiktaş",
+    "players": [],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Google News RSS",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DM0VPb2NNd0lHMEVaejA2TFc0VWJGc3hNbXdibzlNNEs2dkJlazhGckg3cDVZSWU3NV9xbEc4T3R0b2ZnWm4tUE9URGI0UFpwSUE?oc=5",
+    "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+    "confidence": 95,
+    "direct_quote": true,
+    "discovered_at": "2026-09-05T09:34:12.388063+00:00"
   },
   {
     "candidate_id": "c0aec6c62e9d9cfeb0e9",
@@ -1328,7 +1130,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.140395+00:00"
+    "discovered_at": "2026-09-05T09:34:12.660098+00:00"
   },
   {
     "candidate_id": "8b9c51f1302ffe859d88",
@@ -1347,7 +1149,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.140458+00:00"
+    "discovered_at": "2026-09-05T09:34:12.660141+00:00"
   },
   {
     "candidate_id": "9be4b01cb6afb141d1b2",
@@ -1366,7 +1168,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.140486+00:00"
+    "discovered_at": "2026-09-05T09:34:12.660169+00:00"
   },
   {
     "candidate_id": "4c23af35b65dcfa5a7b5",
@@ -1385,7 +1187,7 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.140576+00:00"
+    "discovered_at": "2026-09-05T09:34:12.660203+00:00"
   },
   {
     "candidate_id": "1a8e8e2fb09d09b75549",
@@ -1402,12 +1204,12 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.486622+00:00"
+    "discovered_at": "2026-09-05T09:34:12.727661+00:00"
   },
   {
-    "candidate_id": "c9d9575bd4b5c3b8227c",
+    "candidate_id": "86e11efcfe26591c0cb2",
     "commentator": "firat-aydinus",
-    "summary_candidate": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!\" - ajansspor.com",
+    "summary_candidate": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!\" - Ajansspor",
     "team": "Fenerbahçe",
     "players": [],
     "topic": "Hakem / VAR",
@@ -1419,6 +1221,6 @@
     "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-04T22:23:28.486664+00:00"
+    "discovered_at": "2026-09-05T09:34:12.727702+00:00"
   }
 ]
