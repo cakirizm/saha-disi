@@ -8,9 +8,9 @@ workflows:
       app_store_connect: nova
 
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.sahadisi.app
+      # No automatic ios_signing block: it fetches (but never creates) the
+      # profile during environment setup and fails before the scripts run.
+      # Signing files are created explicitly in the "Set up code signing" step.
       xcode: latest
 
     scripts:
