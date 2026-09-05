@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T12:31:39.488809+00:00",
+  "generated_at": "2026-09-05T13:13:35.776627+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
     "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
-    "candidates": 58
+    "candidates": 59
   },
   "sources": [
     {
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
