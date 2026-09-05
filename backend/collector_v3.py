@@ -80,10 +80,10 @@ def rss_source(cid,name):
  return {'url':f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':90,'cid':cid,'rss':True}
 def direct_sources():
  return [
-  {'url':'https://kontraspor.com/haberleri/nihat-kahveci','source':'Kontraspor','trust':98,'cid':'nihat-kahveci'},
-  {'url':'https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv','source':'A Spor','trust':100,'cid':'ahmet-cakar'},
-  {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen'},
-  {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke'}]
+  {'url':'https://kontraspor.com/haberleri/nihat-kahveci','source':'Kontraspor','trust':98,'cid':'nihat-kahveci','byline':True},
+  {'url':'https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv','source':'A Spor','trust':100,'cid':'ahmet-cakar','byline':True},
+  {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen','byline':True},
+  {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke','byline':True}]
 def discover(src,limit=3):
  if src.get('article'):return [(src['url'],'')]
  doc=fetch(src['url'])
@@ -93,10 +93,18 @@ def discover(src,limit=3):
    link=item.findtext('link');title=repair_text(item.findtext('title') or '')
    if link:out.append((link,title))
   return out
- p=parse(doc);host=urlparse(src['url']).netloc;out=[]
+ p=parse(doc);host=urlparse(src['url']).netloc
+ # Follow only article permalinks under the author/section path (deeper than the
+ # index and carrying a hyphenated slug) — not category/menu pages like /futbol.
+ base=re.sub(r'/(arsiv|arşiv)/?$','',urlparse(src['url']).path).rstrip('/')
+ out=[]
  for h in p.links:
-  u=urljoin(src['url'],h);pu=urlparse(u)
-  if pu.netloc==host and u!=src['url'] and any(k in pu.path.casefold() for k in ['spor','futbol','yazar','video','haber']):out.append((u.split('#')[0],''))
+  u=urljoin(src['url'],h).split('#')[0].split('?')[0];pu=urlparse(u)
+  if pu.netloc!=host:continue
+  path=pu.path.rstrip('/')
+  if path.startswith(base+'/') and path!=base:
+   slug=path[len(base)+1:]
+   if '-' in slug:out.append((u,''))
  return list(dict.fromkeys(out))[:limit]
 def literal_quotes(text,name):
  text=repair_text(text);quotes=[]
@@ -124,6 +132,20 @@ def candidate_rows(text,src,url,image_url=None):
   key=hashlib.sha256(f"{src['cid']}|{quote.casefold()}".encode('utf-8')).hexdigest()[:20]
   rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':None,'confidence':src['trust'],'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
  return rows
+def byline_statements(text):
+ # A signed column is the author's own words (byline proves it); keep the
+ # opinionated, on-topic sentences as their statements.
+ out=[]
+ for sentence in re.split(r'(?<=[.!?])\s+',repair_text(text)):
+  s=repair_text(sentence).strip(' "“”-')
+  low=s.casefold();words=s.split()
+  if not (40<=len(s)<=320 and len(words)>=6):continue
+  if '?' in s:continue
+  if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
+  teams=tags(s,TEAMS);players=tags(s,PLAYERS)
+  if not teams and not players and not any(k in low for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu','penaltı','var']):continue
+  out.append(s)
+ return list(dict.fromkeys(out))[:4]
 def extract(url,src,hint=''):
  from article_content import article_content, attributed_quotes
  if re.search(r'/(kategori|category|etiket|tag|search)(/|$)',urlparse(url).path) or urlparse(url).netloc=='news.google.com':return []
@@ -131,9 +153,16 @@ def extract(url,src,hint=''):
   doc=fetch(url);text,published=article_content(doc)
  except Exception:return []
  if not text or not published:return []
- rows=[]
- for quote,context in attributed_quotes(text,COMMENTATORS[src['cid']]):
-  found=candidate_rows(COMMENTATORS[src['cid']]+': "'+quote+'"',src,url)
+ name=COMMENTATORS[src['cid']];rows=[]
+ if src.get('byline'):
+  for sentence in byline_statements(text):
+   teams=tags(sentence,TEAMS);players=tags(sentence+' '+text,PLAYERS)
+   typ,topic,sent,strength=classify(sentence)
+   key=hashlib.sha256(f"{src['cid']}|{sentence.casefold()}".encode('utf-8')).hexdigest()[:20]
+   rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':sentence,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':None,'confidence':src['trust'],'direct_quote':True,'published_at':published,'discovered_at':datetime.now(timezone.utc).isoformat(),'evidence':{'version':2,'method':'columnist_byline','speaker_id':src['cid'],'url':url,'published_at':published}})
+  return rows
+ for quote,context in attributed_quotes(text,name):
+  found=candidate_rows(name+': "'+quote+'"',src,url)
   for row in found:
    row['published_at']=published
    row['evidence']={'version':2,'method':'article_explicit_speaker','speaker_id':src['cid'],'url':url,'context':context,'published_at':published}

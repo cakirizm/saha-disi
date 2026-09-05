@@ -14,7 +14,7 @@ class ArticleParser(HTMLParser):
             if key in {'article:published_time','datepublished','pubdate'}:self.date=attrs.get('content','')
         if tag=='script' and attrs.get('type')=='application/ld+json':self.script=[]
         marker=' '.join([attrs.get('itemprop',''),attrs.get('class',''),attrs.get('id','')]).lower()
-        body=bool(re.search(r'articlebody|article-body|article__body|news-content|news-detail-content|entry-content',marker))
+        body=bool(re.search(r'articlebody|article-body|article__body|articledetailcontent|detailcontent__body|news-content|news-detail-content|entry-content',marker))
         parent=self.stack[-1] if self.stack else ('',False,False)
         blocked=parent[2] or tag in {'nav','aside','footer','script','style','figure'} or bool(re.search(r'related|recommend|breadcrumb',marker))
         if tag not in {'meta','img','br','hr','input','link','source','wbr'}:self.stack.append((tag,parent[1] or body,blocked))
