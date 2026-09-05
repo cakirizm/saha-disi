@@ -1,858 +1,118 @@
 [
   {
-    "candidate_id": "4d316eaf0947a77879d0",
-    "commentator": "sinan-vardar",
-    "summary_candidate": "Beşiktaş'ta stoperler rakip golcüye yakın oynamadığı için çok fazla pozisyon veriyor.",
-    "team": "Beşiktaş",
-    "players": [],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:12:41+03:00",
-    "discovered_at": "2026-09-05T23:25:17.967751+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "sinan-vardar",
-      "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-      "published_at": "2023-12-10T07:12:41+03:00"
-    }
-  },
-  {
-    "candidate_id": "2eb89f10e85d9dcfbdce",
-    "commentator": "sinan-vardar",
-    "summary_candidate": "Cenk'in akıllıca bir hamleyle kaptığı topu ileri alana taşımasıyla bulduğumuz pozisyonda hakem bence kırmızı kart olan pozisyonu sarı kartla geçiştirdi.",
-    "team": null,
-    "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:12:41+03:00",
-    "discovered_at": "2026-09-05T23:25:17.968586+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "sinan-vardar",
-      "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-      "published_at": "2023-12-10T07:12:41+03:00"
-    }
-  },
-  {
-    "candidate_id": "cd209177ab82b296e9a8",
-    "commentator": "sinan-vardar",
-    "summary_candidate": "dakikasında Tayfur'a benzer bir pozisyonda direkt kırmızı çıkardı ve VAR sayesinde sarıya çevirdi.",
-    "team": null,
-    "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:12:41+03:00",
-    "discovered_at": "2026-09-05T23:25:17.969336+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "sinan-vardar",
-      "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-      "published_at": "2023-12-10T07:12:41+03:00"
-    }
-  },
-  {
-    "candidate_id": "a65bfddcea26ca0df860",
-    "commentator": "sinan-vardar",
-    "summary_candidate": "Maalesef takımın bu hale gelmesinin büyük sebebi sezon başında yapılan yanlış transferlerle kadro oluşturulmaya çalışması.",
-    "team": null,
-    "players": [],
-    "topic": "Transfer",
-    "type": "transfer",
+    "candidate_id": "b8d77ebb27a57c936675",
+    "commentator": "omer-urundul",
+    "summary_candidate": "Sezon başından beri Avrupa kulvarındaki iyi neticelere rağmen Fenerbahçe hakkındaki genel görüşümü üstüne basa basa söylüyorum; Eğer fizik gücün yetersizse yıldız futbolcu olmanın hiçbir özelliği yok.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
     "sentiment": "negative",
     "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/08/16/rotasyona-itirazim-yok-tercihler-yanlis",
     "image_url": null,
-    "confidence": 92,
+    "confidence": 98,
     "direct_quote": true,
-    "published_at": "2023-12-10T07:12:41+03:00",
-    "discovered_at": "2026-09-05T23:25:17.970090+00:00",
+    "published_at": "2026-08-16T06:40:51+03:00",
+    "discovered_at": "2026-09-05T23:28:53.824100+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "omer-urundul",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/08/16/rotasyona-itirazim-yok-tercihler-yanlis",
+      "published_at": "2026-08-16T06:40:51+03:00"
+    }
+  },
+  {
+    "candidate_id": "f7325fb77e7c0722e37e",
+    "commentator": "sinan-vardar",
+    "summary_candidate": "Ancak onun dışında üretkenlik acısından Beşiktaş'ın şu an için sahaya sürebileceği en ideal 11'in bu olduğunu düşünüyorum.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/09/01/atanin-ve-tutanin-iyi-olacak",
+    "image_url": null,
+    "confidence": 98,
+    "direct_quote": true,
+    "published_at": "2026-09-01T06:40:44+03:00",
+    "discovered_at": "2026-09-05T23:28:52.247204+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "sinan-vardar",
-      "url": "https://www.takvim.com.tr/yazarlar/sinan-vardar/2023/12/10/sezon-basinin-gunahi",
-      "published_at": "2023-12-10T07:12:41+03:00"
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/09/01/atanin-ve-tutanin-iyi-olacak",
+      "published_at": "2026-09-01T06:40:44+03:00"
     }
   },
   {
-    "candidate_id": "3dfeb4ca7c97ef7f538f",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Galatasaray SüperLig'in son maçına yedek ağırlıklı bir kadro ile çıktı.",
-    "team": "Galatasaray",
+    "candidate_id": "3901a7f3088f3e11a870",
+    "commentator": "sinan-vardar",
+    "summary_candidate": "Adaptasyon süreci tamamlandığında Beşiktaş'ın sol kanat sıkıntısını tamamen bitirecek bir oyuncu olduğunu düşünüyorum.",
+    "team": "Beşiktaş",
     "players": [
-      "Sane",
-      "Singo"
-    ],
-    "topic": "Teknik Direktör",
-    "type": "coaching",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-18T07:01:40+03:00",
-    "discovered_at": "2026-09-05T23:25:17.823636+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-      "published_at": "2026-05-18T07:01:40+03:00"
-    }
-  },
-  {
-    "candidate_id": "52a722a30ead69dd8b7f",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Leroy Sane ilk yarıda etkili oynadı ama takım yorgun ve çoğu oyuncunun aklı tatildeydi.",
-    "team": null,
-    "players": [
-      "Sane",
-      "Singo"
+      "Vlahovic",
+      "Trossard",
+      "Cerny"
     ],
     "topic": "Oyuncu Performansı",
     "type": "player",
     "sentiment": "neutral",
     "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/08/19/besiktas-sampiyonlugun-en-buyuk-adayi",
     "image_url": null,
-    "confidence": 92,
+    "confidence": 98,
     "direct_quote": true,
-    "published_at": "2026-05-18T07:01:40+03:00",
-    "discovered_at": "2026-09-05T23:25:17.824625+00:00",
+    "published_at": "2026-08-19T06:40:48+03:00",
+    "discovered_at": "2026-09-05T23:28:53.942876+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-      "published_at": "2026-05-18T07:01:40+03:00"
+      "speaker_id": "sinan-vardar",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/08/19/besiktas-sampiyonlugun-en-buyuk-adayi",
+      "published_at": "2026-08-19T06:40:48+03:00"
     }
   },
   {
-    "candidate_id": "c8cc544161f0f6547723",
-    "commentator": "evren-turhan",
-    "summary_candidate": "İlk yarı etkiliydi ama daha çok eksiği var.",
+    "candidate_id": "0bbc96e3e9bc45c24038",
+    "commentator": "emre-bol",
+    "summary_candidate": "Hep söylüyorum; Talisca gol atar ama takıma yardım edemez.",
     "team": null,
     "players": [
-      "Sane",
-      "Singo"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-18T07:01:40+03:00",
-    "discovered_at": "2026-09-05T23:25:17.825552+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-      "published_at": "2026-05-18T07:01:40+03:00"
-    }
-  },
-  {
-    "candidate_id": "8c5aad2044b5a5b57814",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Galatasaray'da Noa Lang ve Sacha Boey' un son maçlarıydı.",
-    "team": "Galatasaray",
-    "players": [
-      "Sane",
-      "Singo"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-18T07:01:40+03:00",
-    "discovered_at": "2026-09-05T23:25:17.826536+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/18/akillari-tatildeydi",
-      "published_at": "2026-05-18T07:01:40+03:00"
-    }
-  },
-  {
-    "candidate_id": "8dba5e25fe65b157da51",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Galatasaray Antalyaspor karşısına şampiyon olmak için çıktı.",
-    "team": "Galatasaray",
-    "players": [
-      "Osimhen",
-      "Sane",
-      "Barış Alper"
-    ],
-    "topic": "Tahmin",
-    "type": "prediction",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-10T07:00:52+03:00",
-    "discovered_at": "2026-09-05T23:25:18.238610+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-      "published_at": "2026-05-10T07:00:52+03:00"
-    }
-  },
-  {
-    "candidate_id": "669d69be095df2d94aab",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Topa sahip olan ve önde basan takımdı ama bir türlü son paslar ve son vuruşta başarılı olamadılar.",
-    "team": null,
-    "players": [
-      "Osimhen",
-      "Sane",
-      "Barış Alper"
-    ],
-    "topic": "Genel yorum",
-    "type": "hot_take",
-    "sentiment": "positive",
-    "strength": 10,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-10T07:00:52+03:00",
-    "discovered_at": "2026-09-05T23:25:18.239643+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-      "published_at": "2026-05-10T07:00:52+03:00"
-    }
-  },
-  {
-    "candidate_id": "bc551ae0a66ea4cfc524",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Önemli yıldızları Sane ve Barış Alper Yılmaz bir türlü oyuna giremedi.",
-    "team": null,
-    "players": [
-      "Osimhen",
-      "Sane",
-      "Barış Alper"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-10T07:00:52+03:00",
-    "discovered_at": "2026-09-05T23:25:18.240644+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-      "published_at": "2026-05-10T07:00:52+03:00"
-    }
-  },
-  {
-    "candidate_id": "372ac12ebbd05fddc341",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Galatasaray'ın Nijeryalı golcüsü Osimhen ilerde tek başına mücadele etti, çok yalnız kaldı.",
-    "team": "Galatasaray",
-    "players": [
-      "Osimhen",
-      "Sane",
-      "Barış Alper"
-    ],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-10T07:00:52+03:00",
-    "discovered_at": "2026-09-05T23:25:18.241832+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/10/4x4luk-galatasaray",
-      "published_at": "2026-05-10T07:00:52+03:00"
-    }
-  },
-  {
-    "candidate_id": "ac5c731376932644b990",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Samsun deplasmanına 'şampiyonluğun ilanı' motivasyonuyla çıkan Galatasaray, kağıt üzerinde favori olduğu bir maçta sahaya beklenen ciddiyeti yansıtamadı.",
-    "team": "Galatasaray",
-    "players": [
-      "Barış Alper"
-    ],
-    "topic": "Tahmin",
-    "type": "prediction",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-03T07:03:39+03:00",
-    "discovered_at": "2026-09-05T23:25:18.607466+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-      "published_at": "2026-05-03T07:03:39+03:00"
-    }
-  },
-  {
-    "candidate_id": "011a67a4ddd8286ddd77",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Maçın başında fena bir görüntü vermeyen sarı-kırmızılılar, bu olumlu başlangıcı ne yazık ki sürdüremedi.",
-    "team": null,
-    "players": [
-      "Barış Alper"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-03T07:03:39+03:00",
-    "discovered_at": "2026-09-05T23:25:18.608830+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-      "published_at": "2026-05-03T07:03:39+03:00"
-    }
-  },
-  {
-    "candidate_id": "2d0a34fa938c8658bf13",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Takımın üzerinde belirgin bir rehavet hissediliyordu.",
-    "team": null,
-    "players": [
-      "Barış Alper"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-03T07:03:39+03:00",
-    "discovered_at": "2026-09-05T23:25:18.610109+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-      "published_at": "2026-05-03T07:03:39+03:00"
-    }
-  },
-  {
-    "candidate_id": "934e6e0f99e07ca3f996",
-    "commentator": "evren-turhan",
-    "summary_candidate": "Şampiyonluk havası, maç oynanmadan kazanılmış bir özgüvene dönüşmüş gibiydi.",
-    "team": null,
-    "players": [
-      "Barış Alper"
-    ],
-    "topic": "Tahmin",
-    "type": "prediction",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-05-03T07:03:39+03:00",
-    "discovered_at": "2026-09-05T23:25:18.611486+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "evren-turhan",
-      "url": "https://www.takvim.com.tr/yazarlar/evren-turhan/2026/05/03/futbol-ciddi-bir-oyundur",
-      "published_at": "2026-05-03T07:03:39+03:00"
-    }
-  },
-  {
-    "candidate_id": "52f56f7153efb7d24a20",
-    "commentator": "gurcan-bilgic",
-    "summary_candidate": "Rakibini kalesine getirmediği gibi, neredeyse gol kaçırmayan oyuncusu olmadan bitirdi maçı.",
-    "team": null,
-    "players": [],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:14:19+03:00",
-    "discovered_at": "2026-09-05T23:25:17.972985+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "gurcan-bilgic",
-      "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-      "published_at": "2023-12-10T07:14:19+03:00"
-    }
-  },
-  {
-    "candidate_id": "b017c4c48f25cb848134",
-    "commentator": "gurcan-bilgic",
-    "summary_candidate": "Penaltı kaçırdı, direkten topu döndü, Mert'in kurtarışları vardı.",
-    "team": null,
-    "players": [],
-    "topic": "Hakem / VAR",
-    "type": "referee",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:14:19+03:00",
-    "discovered_at": "2026-09-05T23:25:17.973879+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "gurcan-bilgic",
-      "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-      "published_at": "2023-12-10T07:14:19+03:00"
-    }
-  },
-  {
-    "candidate_id": "beab1aee27596f0b21f4",
-    "commentator": "gurcan-bilgic",
-    "summary_candidate": "20 şuttan, üç golden, rakip ceza alanında 40 topla buluşmadan bahsediyoruz.",
-    "team": null,
-    "players": [],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:14:19+03:00",
-    "discovered_at": "2026-09-05T23:25:17.974752+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "gurcan-bilgic",
-      "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-      "published_at": "2023-12-10T07:14:19+03:00"
-    }
-  },
-  {
-    "candidate_id": "e4a04c8a34fca1bd0943",
-    "commentator": "gurcan-bilgic",
-    "summary_candidate": "Dzeko'nun en verimli maçıydı, İrfan Can karşısında rakip yokmuş gibi oynadı.",
-    "team": null,
-    "players": [],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2023-12-10T07:14:19+03:00",
-    "discovered_at": "2026-09-05T23:25:17.975728+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "gurcan-bilgic",
-      "url": "https://www.takvim.com.tr/yazarlar/gurcan-bilgic/2023/12/10/tarihi-farki-kacirdilar",
-      "published_at": "2023-12-10T07:14:19+03:00"
-    }
-  },
-  {
-    "candidate_id": "844ce62dc211e059b4d3",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Hem de bu kadar moralsiz bir takım, maçın daha hemen başında geriye düşmesine rağmen.",
-    "team": null,
-    "players": [
-      "Barış Alper",
-      "Oğuz Aydın"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-27T07:04:18+03:00",
-    "discovered_at": "2026-09-05T23:25:18.071167+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-      "published_at": "2026-06-27T07:04:18+03:00"
-    }
-  },
-  {
-    "candidate_id": "eae77a352b7b564f5c33",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Topu ABD'ye bıraktık ve takım olarak topun arkasına geçtik.",
-    "team": null,
-    "players": [
-      "Barış Alper",
-      "Oğuz Aydın"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-27T07:04:18+03:00",
-    "discovered_at": "2026-09-05T23:25:18.072017+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-      "published_at": "2026-06-27T07:04:18+03:00"
-    }
-  },
-  {
-    "candidate_id": "67c01f5f66ef9e7ffc2e",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "En uçta Barış Alper Yılmaz rakip savunmayı tabiri caizse dövdü.",
-    "team": null,
-    "players": [
-      "Barış Alper",
-      "Oğuz Aydın"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-27T07:04:18+03:00",
-    "discovered_at": "2026-09-05T23:25:18.072817+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-      "published_at": "2026-06-27T07:04:18+03:00"
-    }
-  },
-  {
-    "candidate_id": "90c3eddb2e2daf1f2380",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "maçın en beklenmedik ismi Oğuz Aydın sağ kanadı Zeki ile çok iyi kullandı.",
-    "team": null,
-    "players": [
-      "Barış Alper",
-      "Oğuz Aydın"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "positive",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-27T07:04:18+03:00",
-    "discovered_at": "2026-09-05T23:25:18.073630+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/27/dogru-oyun",
-      "published_at": "2026-06-27T07:04:18+03:00"
-    }
-  },
-  {
-    "candidate_id": "e837bf4e10eaa52a92e6",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Venezuela maçının ardından Montella'nın önde baskı ile oynadığını bunun da riskli bir oyun olduğunu söylemiştim.",
-    "team": null,
-    "players": [
+      "Talisca",
+      "Greenwood",
+      "Asensio",
       "Kerem"
     ],
     "topic": "Oyuncu Performansı",
     "type": "player",
     "sentiment": "neutral",
     "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/08/23/10-numara-asensio",
     "image_url": null,
-    "confidence": 92,
+    "confidence": 98,
     "direct_quote": true,
-    "published_at": "2026-06-15T07:00:44+03:00",
-    "discovered_at": "2026-09-05T23:25:18.407173+00:00",
+    "published_at": "2026-08-23T06:40:50+03:00",
+    "discovered_at": "2026-09-05T23:28:52.993980+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-      "published_at": "2026-06-15T07:00:44+03:00"
-    }
-  },
-  {
-    "candidate_id": "66fbcd2d756863b29654",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Maalesef Avustralya maçında korktuğum başıma geldi.",
-    "team": null,
-    "players": [
-      "Kerem"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-15T07:00:44+03:00",
-    "discovered_at": "2026-09-05T23:25:18.408162+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-      "published_at": "2026-06-15T07:00:44+03:00"
-    }
-  },
-  {
-    "candidate_id": "209c1ed7aa9cb6efba36",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Bütün maç boyunca rakip ceza sahasının önünde oynamamıza rağmen çok iyi savunma yapan ve hızlı geçişlerle pozisyon bulmayı hedefleyen rakibimizin tuzağına düştük.",
-    "team": null,
-    "players": [
-      "Kerem"
-    ],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "positive",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-15T07:00:44+03:00",
-    "discovered_at": "2026-09-05T23:25:18.409352+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-      "published_at": "2026-06-15T07:00:44+03:00"
-    }
-  },
-  {
-    "candidate_id": "ba11564351459fb735ba",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Oyuncuların mücadelesinden ve maçı kazanma arzusundan hiçbir şikayetim yok ama Montella'nın başlangıç planı da oyun içinde yaptığı hamleler de doğru değildi.",
-    "team": null,
-    "players": [
-      "Kerem"
-    ],
-    "topic": "Tahmin",
-    "type": "prediction",
-    "sentiment": "neutral",
-    "strength": 8,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-15T07:00:44+03:00",
-    "discovered_at": "2026-09-05T23:25:18.410425+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/15/paraguayi-yenmeliyiz",
-      "published_at": "2026-06-15T07:00:44+03:00"
-    }
-  },
-  {
-    "candidate_id": "147afcf3689559efcab2",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "MİLLİ Takımımız, Venezuela maçında önde baskı yaparak oynadı.",
-    "team": null,
-    "players": [],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-08T07:08:01+03:00",
-    "discovered_at": "2026-09-05T23:25:18.780528+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-      "published_at": "2026-06-08T07:08:01+03:00"
-    }
-  },
-  {
-    "candidate_id": "9911e94d91838472c44a",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Oyuncuların iştahı ve fiziksel durumları gayet iyiydi.",
-    "team": null,
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-08T07:08:01+03:00",
-    "discovered_at": "2026-09-05T23:25:18.781049+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-      "published_at": "2026-06-08T07:08:01+03:00"
-    }
-  },
-  {
-    "candidate_id": "a4d68ded5509001b95f9",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Montella'nın tercih ettiği oyun büyük takımların tercih ettiği ve aslında zor bir oyun.",
-    "team": null,
-    "players": [],
-    "topic": "Teknik Direktör",
-    "type": "coaching",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-08T07:08:01+03:00",
-    "discovered_at": "2026-09-05T23:25:18.781606+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-      "published_at": "2026-06-08T07:08:01+03:00"
-    }
-  },
-  {
-    "candidate_id": "f5fdb1cdbf0ee44a5ea5",
-    "commentator": "ilker-yagcioglu",
-    "summary_candidate": "Dolayısıyla çabuk oynayan, süratli takımlara karşı bu ön alan baskısını doğru yapmak zorundayız.",
-    "team": null,
-    "players": [],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-06-08T07:08:01+03:00",
-    "discovered_at": "2026-09-05T23:25:18.782161+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ilker-yagcioglu",
-      "url": "https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/2026/06/08/buyuk-takim-oyunu",
-      "published_at": "2026-06-08T07:08:01+03:00"
+      "speaker_id": "emre-bol",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/08/23/10-numara-asensio",
+      "published_at": "2026-08-23T06:40:50+03:00"
     }
   },
   {
@@ -873,7 +133,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-09-05T23:25:18.050164+00:00",
+    "discovered_at": "2026-09-05T23:28:51.936329+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -900,7 +160,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-09-05T23:25:18.051446+00:00",
+    "discovered_at": "2026-09-05T23:28:51.937515+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -927,7 +187,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-09-05T23:25:18.052709+00:00",
+    "discovered_at": "2026-09-05T23:28:51.938698+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -954,7 +214,115 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-09-05T23:25:18.053983+00:00",
+    "discovered_at": "2026-09-05T23:28:51.939888+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+      "published_at": "2026-09-01T07:06:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "bc7bcfdc326b22194549",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "İlk yarı istediği topları bulamasa da yıldız oyuncu açılınca golcü kimliğini gösterdi ve derbi öncesi herkesi rahatlattı.",
+    "team": null,
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T07:06:42+03:00",
+    "discovered_at": "2026-09-05T23:28:51.941456+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+      "published_at": "2026-09-01T07:06:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "6a79436fe6c3d6dc6f2f",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Gecenin olumsuz yanı Beşiktaş açısından kalesinde bu kez iki gol görmesiydi.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T07:06:42+03:00",
+    "discovered_at": "2026-09-05T23:28:51.943403+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+      "published_at": "2026-09-01T07:06:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "646eaec7847b83dc1dd2",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Savunma ciddi maçlarda sıkıntı yaratabilir şimdiden söyleyelim!",
+    "team": null,
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T07:06:42+03:00",
+    "discovered_at": "2026-09-05T23:28:51.945230+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+      "published_at": "2026-09-01T07:06:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "383739329530bb006ef5",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Evet Beşiktaş baştan sona oyunu domine edip bu sezonun en farklı skorunu alıp taraftarını mest etti.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/01/hos-geldin-dusan",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T07:06:42+03:00",
+    "discovered_at": "2026-09-05T23:28:51.946858+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -982,7 +350,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-28T07:00:59+03:00",
-    "discovered_at": "2026-09-05T23:25:18.467370+00:00",
+    "discovered_at": "2026-09-05T23:28:52.314541+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1010,7 +378,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-28T07:00:59+03:00",
-    "discovered_at": "2026-09-05T23:25:18.468420+00:00",
+    "discovered_at": "2026-09-05T23:28:52.315649+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1038,7 +406,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-28T07:00:59+03:00",
-    "discovered_at": "2026-09-05T23:25:18.469436+00:00",
+    "discovered_at": "2026-09-05T23:28:52.316583+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1066,7 +434,119 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-28T07:00:59+03:00",
-    "discovered_at": "2026-09-05T23:25:18.470437+00:00",
+    "discovered_at": "2026-09-05T23:28:52.317501+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "f9240d0536c0a1b64267",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Vlahovic'in sahaya sürülmesini ise doğru buluyorum.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:52.318309+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "96ae099377418e0da63f",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Yıldız futbolcunun son durumunu görmek için uygun bir maçtı.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:52.319163+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "1ccc2c65f503f2fba3c0",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Takım oturdukça onun da performansı yükselecektir.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:52.319998+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "1fbc905b42fce0568282",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Kötü bir Beşiktaş izlesek de UEFA Avrupa Ligi'ne kalmayı başardık.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/28/bu-sonuc-surpriz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:52.320861+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1096,7 +576,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-24T07:03:58+03:00",
-    "discovered_at": "2026-09-05T23:25:18.871885+00:00",
+    "discovered_at": "2026-09-05T23:28:52.778464+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1126,7 +606,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-24T07:03:58+03:00",
-    "discovered_at": "2026-09-05T23:25:18.873812+00:00",
+    "discovered_at": "2026-09-05T23:28:52.780196+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1156,7 +636,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-24T07:03:58+03:00",
-    "discovered_at": "2026-09-05T23:25:18.875802+00:00",
+    "discovered_at": "2026-09-05T23:28:52.782277+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1186,13 +666,4205 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-24T07:03:58+03:00",
-    "discovered_at": "2026-09-05T23:25:18.877155+00:00",
+    "discovered_at": "2026-09-05T23:28:52.784132+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "kartal-yigit",
       "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
       "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "c14387e86b6df74f3cc8",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Beşiktaş yine bilindik bir şekilde oyunun hâkimi gözüktü ama geçen maçlara göre tempo ve dinamiklik anlamında çok gerideydi.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard",
+      "Cerny",
+      "Ndidi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:52.786033+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "69b67d59b0549c44b072",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Üretkenliğin de Beşiktaş adına sınırlı olduğu oyunda ortadaki etkisizliğin yanı sıra Trossard'ın gününde olmaması, o kanatta sadece Rıdvan'ın bindirmeler yapması, kenardan sadece Cerny'nin bir şeyler denemesi Kartal'ın kanat organizasyonlarının da sınırlı olmasına neden oldu.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard",
+      "Cerny",
+      "Ndidi"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:52.788196+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "9e6463979bc10b4b75da",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Bu sezonki en isteksiz, rakibe özellikle ikinci yarıda fırsatlar sunan ve en sonunda kalesini gole kapatan Nübel'in de gol yediği bir Beşiktaş izledik.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard",
+      "Cerny",
+      "Ndidi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:52.790359+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "ab757a6fe78c56d128ed",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Tablo belki inanılmaz kötü değildi ama Beşiktaş resmî 7.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard",
+      "Cerny",
+      "Ndidi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:52.792221+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/24/nazarlik-olsun",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "909a675f812130c5e4de",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Bu sezon Beşiktaş'ı geçen yıldan ayıracak en önemli faktör rakip kim olursa olsun aynı tempo, dinamiklik, önde agresif baskı olacaktır.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.669124+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "02cc749c56fde7fd9f98",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "İtaliano ayrıca yıldız dahi olsa dün özellikle Trossard başta olmak üzere düzene uymalarını belli ki tembihlemiş.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.671417+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "d4e445fc712758af02eb",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Adamlar doğru dürüst çıkamadı bile ha tabii ki buna Beşiktaş izin vermedi en başta ama kalite farkı da bunu doğurdu.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.673715+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "b07f629e88e81b070283",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Bizim takım oyuna öyle başladı ki ilk 30 dakika adamlar nereye geldiklerini şaşırdı, elleri ayakları titredi.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.675924+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "5e736f18db0e5c00b817",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Aynı oyun ve skorların lig aşamasında da devam edeceğinin de büyük sinyallerini verdi.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.677634+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "f0fa0069f27bb4d46ca0",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Son yıllardaki Avrupa bozgunlarını yaşayan taraftar bu sahneyi görünce keyifleniyor.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Trossard"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:53.679909+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/21/her-rakibe-ayni-oyun",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "193503b7b014de8fdee4",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "İtalya'da rotasyonu seven Vincenzo İtaliano Beşiktaş'ta da bunu erken başlattı.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.145011+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "d5fa20299d87b8950243",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Eyüpspor karşısında da aynı tempo, dinamiklik , müthiş sert baskı ile oynadı Beşiktaş.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.146023+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "d9d777f1ee195f08336f",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Bu da büyük ihtimalle Vlahovic'in katılması ile sona erecek o zaman da farklı galibiyetler tadından yenmeyecektir.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.147074+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "1c48a3382867850d81a8",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "SKOR RAHATLIĞI ŞART Ancak tek farklı skorlar her zaman risktir bunun için bir an önce skor rahatlığı gelmesi şart.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.148506+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "71083d1d1346750ba08e",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Görünen o ki hoca oyuncularını en üst düzeyde maçlara hazırlıyor.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.150026+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "401b7676a136b91d7f8c",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Bu orta sahada oynamaz denilen Olaitan kaç maçtır en iyilerden.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.151504+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "f60384a25ce34748179d",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Orkun dün vasat olunca Salih ile beraber orta sahanın süpürücüsü idi.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.152713+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "5273686cc8279362cb6d",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Unutmadan doğal olarak herkes Trassord, Vlahovic konuşuyor ama Salih de sezonun transferlerinden.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Cerny"
+    ],
+    "topic": "Transfer",
+    "type": "transfer",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-17T06:59:50+03:00",
+    "discovered_at": "2026-09-05T23:28:54.154151+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/17/hos-geldin-vincenzo",
+      "published_at": "2026-08-17T06:59:50+03:00"
+    }
+  },
+  {
+    "candidate_id": "1de1ad6e0a17369a8aa4",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Heyecanıyla, motivasyonuyla içerideki oyuncularının da iliklerine kadar bunu yaşamasını istiyor.",
+    "team": null,
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.799704+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "81314ff05c625b26f978",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Ortaya da sezon başından bu yana keyif vermeye çalışan, önde baskı ile rakibi çoğu zaman bunaltan bir Beşiktaş çıkıyor.",
+    "team": "Beşiktaş",
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.801048+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "fde8933c41043a8157d2",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Dün de Hradec önünde aynı Beşiktaş'ı izledik.",
+    "team": "Beşiktaş",
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.802555+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "e479d8ce4725362522f4",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Evet, önde baskı, istek çok iyi Beşiktaş'ta.",
+    "team": "Beşiktaş",
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.804712+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "825f7952f71497121725",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Eleştirilen Cerny golünü atıp biraz olsun üzerindeki yükü attı.",
+    "team": null,
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.806798+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "cfb1616d830033761cb3",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Buraya bir transfer gelecek gibi gözüküyor.",
+    "team": null,
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Transfer",
+    "type": "transfer",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.810471+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "424a6bfc9ac89ddabaca",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Ayrıca Sosa tarzı bir hücumcu orta saha alınırsa bu baskı, pozisyon anlamında çok daha meyvelerini verir.",
+    "team": null,
+    "players": [
+      "Cerny"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-14T07:01:35+03:00",
+    "discovered_at": "2026-09-05T23:28:54.813710+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/08/14/iliklere-kadar-yasatiyor",
+      "published_at": "2026-08-14T07:01:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "8baf432af836617d9457",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Barış mı, Leao mu derken ikisini de kulübede görmek çok enteresandı doğrusu...",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.984166+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "ad37d9f99ed66078548d",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Okan Hoca idrak etti sanırım; Sane fazla ses çıkarmıyor diye bir çırpıda vazgeçilecek, yedek soyundurulacak bir topçu değil.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.985901+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "9238b65c0530821b79c3",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Önce kafayla, sonra savunma arkasına atılan bir topla, ayakla gole çok yaklaşan Victor tarifsiz bir gol atarak takımını öne geçirdi.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.987392+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "f7a19ce5bc0427800899",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Bir takımın HER ŞEYİ olmak böyle bedeller ödettirebiliyor işte.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.988772+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "0c2d79102c145609e806",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Keşke onun seviyesine yakın birkaç gayretli performans daha olsaydı ya da zamanında rotasyona dahil olmuş bir golcü hazırda bulunsaydı.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.991374+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "6b8674655b9b6129ad00",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Şampiyonluk aslanın ağzında, Şampiyonlar Ligi ise ejderhanın midesinde.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Tahmin",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.992594+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "19ba0e35a2312819dbb0",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Lizbon'da o olmazsa değil puan almak, gol atmak bile hayal gibi.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.993870+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "00205fcbdfff5b1d52ca",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Okan Buruk teknik direktörlüğünde 16 maç evinde yenilgi yüzü görmeyen Başakşehir, şampiyon olduğu sezondan bu yana evindeki en uzun yenilmezlik serisinin içindeydi.",
+    "team": "Başakşehir",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Leao"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-05T07:05:04+03:00",
+    "discovered_at": "2026-09-05T23:28:54.995333+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/09/05/3-puandan-cok-fazlasi",
+      "published_at": "2026-09-05T07:05:04+03:00"
+    }
+  },
+  {
+    "candidate_id": "0e4f3c9fa3e5a2de19f4",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "GÖZTEPE büyük gizemler barındıran bir rakip değil.",
+    "team": "Göztepe",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.440553+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "bf61912bd030a9e0a01a",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Göztepe ligin en çok faul yapan ve uzun boy ortalamasına sahip takımı.",
+    "team": "Göztepe",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.442518+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "9e1a6af8aa1dd1568503",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Sarı kırmızılı teknik heyetin vasat bir futbolsever kadar dahi rakibini analiz etmediği şüphesi uyandı bende.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.444037+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "debf76509a674af16fca",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Galatasaray kornerden yediği golden önce taçtan yiyordu...",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.446157+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "949b1550279e05c9c1a7",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Buruk'un öğrencileri Davinson'la bir şans golü bulup, Osimhen'in neden 75 milyon avro ettiğini gösteren pasıyla Sara'yı buluşturduğu topla öne geçti.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.448817+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "711eb3223bf34ab3de54",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Ardından yine Osimhen'in kazandırdığı penaltıyı gole çevirmesiyle fark ikiye çıktı.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.451422+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "ae909f5ac7f6c7ec6829",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Kendi evinde Çorum'u yenemeyen Cimbom, 'taçtan gol yeme' başarısını göstererek maçı yeniden komaya soktu.",
+    "team": "Çorum",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.454244+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "4e5173626768b8e7a766",
+    "commentator": "serkan-korkmaz",
+    "summary_candidate": "Birkaç gün sonra Şampiyonlar Ligi başlıyor ve Galatasaray evinde orta sıra takımlarıyla başa baş oynuyor.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Barış Alper",
+      "Batrakov",
+      "Leao"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-30T07:01:30+03:00",
+    "discovered_at": "2026-09-05T23:28:55.456141+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "serkan-korkmaz",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/08/30/sadece-osimhen",
+      "published_at": "2026-08-30T07:01:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "a8bdbd3c750d9c2b8eb0",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Okan Buruk'un Çorum beraberliği sonrası Sane-Leminadeğişimi, Alman yıldızı cezalandırma değil, merkeze artı 1 yapma isteğinin sonucuydu.",
+    "team": "Çorum",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.886086+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "af96dbcde00d6d9567b6",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Burada asıl sorulması gereken, Buruk'un Erzurum gibi kadrosu ciddi kalitesiz ve problemli bir takım önünde neden bunu yaptığı.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "negative",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.887433+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "c4bf493a565405dbf4f7",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Hem Çorum beraberliği sonrası yeni bir puankaybı kaygısı hem de savunmaikilisinin formsuzluğu sanırımBuruk'u böyle bir düşünceye itti.",
+    "team": "Çorum",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.889343+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "e041d4d1bda646d56a11",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Aslında dün Galatasaray'ın karşısında öyle bir rakip vardı ki, ne buna yanıt verebildik ne de takımın geçen haftaya göre gelişimini gözlemleyebildik.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.890758+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "63b53b1280ebd41babe1",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Lig'deki kadrosuyla sahada olan Erzurum çok kolay bir lokma oldu Buruk'un takımı için.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.892207+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "6b17c8420df0971da460",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Yunus Akgün 'yenitransfer yoksa, ben varım' mesajınıveriyor iki haftadır.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Transfer",
+    "type": "transfer",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.894459+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "719d2ac01565455d4eed",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Osimhen ilk kez Galatasaray'da sezon başı kampına katıldı.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.896601+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "0aeaa47a9c03c75f1210",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "2 haftada şimdiden 4 gol ve 1 asist oldu.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Yunus Akgün"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-22T07:07:03+03:00",
+    "discovered_at": "2026-09-05T23:28:54.899112+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/22/yunus-akgun-ve-osimhen",
+      "published_at": "2026-08-22T07:07:03+03:00"
+    }
+  },
+  {
+    "candidate_id": "fff4e6027675d14f4abe",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Galatasaray, Antalyaspor önünde şampiyonluk maçında son dakikalara 2-2 girmişti.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.556196+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "da3311f79bf57932bb10",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Aslında sadece bu maçta değil, Süper Lig'de sezonun yüzde 80'inde oyun hep krizler barındırıyordu içinde.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.558604+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "ffc5022e3cffebe727f0",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Geçen sezonun finalinden sadece 1 farklı oyuncu 11'deydi dün.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.561103+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "91942ef78a1f7b649594",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Dün Galatasaray için çok kötü oynadı demek haksızlık olur.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "negative",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.562244+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "d1e71b9865e25b6df64b",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Osimhen geçen sezonki gibi takımını tek başına sırtladı.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.563419+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "41a7209cc029df6f2b95",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Torreira zaten uzun süredir eskisi gibi değil.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.564646+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "21d1898419ce6fc40e9d",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Futbolda en büyük yanlışlardan birisi sahadaki gerçeklerle inatlaşmaktır.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.566717+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "789b05180a471349bdd7",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Galatasaray geçen sezonun finalinden beri gerçeklere sırtını döndü.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane",
+      "Torreira"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-15T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.568059+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/08/15/bu-da-planlama-dahilinde",
+      "published_at": "2026-08-15T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "067d612f2a8bcd067985",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Fenerbahçe'de Polonya'ya giderken hedef turdu, onu da alıp geldiler.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.920683+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "31f698de765d9560ffc0",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Ancak oyun ve oyuncu performansları hem bir sonraki eşleşme hem de sezonun bundan sonrası için kırmızı alarmdı.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.922234+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "9c2ca0e893c296ba17d3",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Oosterwolde sezon içinde belki 4-5 maç için ideal bektir.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.923497+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "47a3dd11c39296f370bb",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Ancak onun dışında asla Fenerbahçe gibi topa sahip olmak isteyen, oyunu 3.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.924710+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "5e702ab36546805fd6cb",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "bölgede oynamak isteyen bir takımın asla beki olamaz.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.926122+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "31830c3da22e3dcfcb75",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "İrfan Can artık 2023'te bıraktığı futbolcu değil.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.927738+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "6d66660a3a0a677e082a",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "2026 Fenerbahçesi'nin ancak hamle oyuncusu olabilir.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.977275+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "5c83916e63f15450bad7",
+    "commentator": "onur-ozkan",
+    "summary_candidate": "Kerem Aktürkoğlu berbat bir maç çıkardı.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-07-30T07:00:05+03:00",
+    "discovered_at": "2026-09-05T23:28:55.978667+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "onur-ozkan",
+      "url": "https://www.takvim.com.tr/yazarlar/onur-ozkan/2026/07/30/graza-bu-oyunla-olmaz",
+      "published_at": "2026-07-30T07:00:05+03:00"
+    }
+  },
+  {
+    "candidate_id": "ca9f402db9ad7a8663dd",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Lyon galibiyetinin moraliyle Samsunspor deplasmanına çıkan Fenerbahçe, maça çok iyi başladı.",
+    "team": null,
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.844566+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "cebe085b7b39f8e2685f",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Golü de erken bulan Sarı-Lacivertliler, 20-30.",
+    "team": null,
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.846421+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "f4adedf4fd3aeb86797a",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Ancak özellikle ilk yarının son bölümünde Oğuz Aydın veBrown üzerinden sol kanadı çok iyi kullanan Fenerbahçe, oyunun kontrolünü yenideneline aldı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.849588+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "a72c68c11e540ac8a1d3",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe ikinci yarıya ise müthiş başladı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.851260+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "f8a9dc801a5e6261c03a",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Lyon maçınında en iyilerinden olan OğuzAydın, attığı ikinci golleyine sahneye çıktı ve maçınadamı oldu.",
+    "team": null,
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.853024+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "f36fe8a05a991ff4b7ca",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Samsun gibi zor bir deplasmanda Fenerbahçe hemiyi oynadı hem de kalesindeciddi bir pozisyon vermedi.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.854522+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "9eb0ed117897cabe7321",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Kante'ye ise ayrı bir parantez açmak gerekiyor.",
+    "team": null,
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.856028+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "6a18969556f473d4d9f4",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Mücadelesi, enerjisi ve oyun aklıyla orta sahada yine müthiş bir performans ortaya koydu.",
+    "team": null,
+    "players": [
+      "Asensio",
+      "Oğuz Aydın",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:59:07+03:00",
+    "discovered_at": "2026-09-05T23:28:54.857180+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/31/derbiyi-buyuk-istahla-bekliyor",
+      "published_at": "2026-08-31T06:59:07+03:00"
+    }
+  },
+  {
+    "candidate_id": "fdea64f46a16eeb94e59",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe Lyon deplasmanında sadece turu geçmedi, ŞampiyonlarLigi'nde neden yer almak istediğini de sahada gösterdi.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.366168+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "2c7f4495706573585422",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Maç öncesi kadroda soru işareti olarak görülen Oğuz Aydın ise gecenin yıldızlarından biri oldu.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.367902+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "7c79ac2c9a8574b273b7",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Görevini eksiksiz yapan tecrübeli futbolcu, performansıyla önemli bir mesaj verdi.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.369608+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "62c8e265eeb72902faef",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Orta sahada Kantéve Guendouzi de mücadele gücü ve oyun disiplinleriyle Fenerbahçe'nin üstünlüğünde büyük rol oynadı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.371482+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "fada43d9264a824ca008",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Özellikle Talisca ve Muriç gibi oyuncuların enerjisi düşerken, Fenerbahçe yine de istekli oyununu sürdürdü.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.373061+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "17f2ab092bcec571eb52",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Yenilen golden önce takımın temposunu düşürmesi gerektiği kanaatindeyim.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.374673+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "782809fb4795b44b2fa1",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Bu planın biraz daha erken uygulanması Fenerbahçe'nin işini kolaylaştırabilirdi.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.375968+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "c796ba42a9232e94d5db",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Hakem kararları ve Lyon'un baskısına rağmen İsmail Kartal ve öğrencileri mücadeleyi bırakmadı.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Oğuz Aydın",
+      "Guendouzi"
+    ],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-27T07:05:27+03:00",
+    "discovered_at": "2026-09-05T23:28:55.376949+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/27/devler-ligine-cok-yakisti",
+      "published_at": "2026-08-27T07:05:27+03:00"
+    }
+  },
+  {
+    "candidate_id": "790129e7a3d9927f3c42",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Maça taraftarının müthiş desteğiyle yüksek tempo, arzu, istek ve doğru oyunla başlayan bir Fenerbahçe vardı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.803981+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "d68fdb87c5ca2ee5a270",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Asensio'nun organizasyonda lider olduğu ilk yarıda çok doğru oyun ve gelen 3 gol vardı.",
+    "team": null,
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.805304+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "2c8bc1618889b5c09b38",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe her geçen gün oyun ritmini ve pozisyona girme sayısını artırıyor.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.807697+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "bf39ff673122e157e61e",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "yarıya ön alan baskısıyla başlayan sarı-lacivertliler Greenwood'la4.",
+    "team": null,
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.809094+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "29e3b34dfab9b46f4b01",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "yarıda özellikle verilen pozisyonlar ve Ederson'un kurtarışlarıyla ön plana çıktığı bölüm, takım savunmasının düzeltilmesi gerektiğini ön plana çıkardı.",
+    "team": null,
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.810903+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "cdb970598a3237548114",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe, görünen o ki her maçta gol bulacak ama bu gol yeme hastalığı devam ederse Şampiyonlar Ligi'nde başına iş açar.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.812274+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "60c1bfe3aab805ee39be",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Lyon maçı öncesi kazanılan 3 puan Fenerbahçe'nin öz güveni açısından çok önemli.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.813492+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "bee5f207b5ae743d469c",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Çarşamba günü Fenerbahçe sezonun en önemli maçlarından birini oynayacak.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Greenwood",
+      "Asensio",
+      "Kante",
+      "Semedo"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-23T07:02:38+03:00",
+    "discovered_at": "2026-09-05T23:28:55.814685+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/23/lyon-niyetine",
+      "published_at": "2026-08-23T07:02:38+03:00"
+    }
+  },
+  {
+    "candidate_id": "6a489d54abde7c077638",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Önceki akşam pozisyonu az bir maç izledik.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.396851+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "8a1cffe75116758b20b3",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Ama özellikle çoğalma, pozisyon üretme taraftarın ah bu da kaçırmamı diyeceğimiz sadece Vedat'ın kafası vardı.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.397952+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "6c2bab859cda0658cc71",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Ve ilk yarım saatten sonra oyun hâkimiyetini Lyon'a bırakan Fenerbahçe.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.399896+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "be4e291f9332c03c3b49",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Deplasmana gideceksiniz bana göre Avrupa'nın en zor deplasmanlarından biri Lyon...",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.401587+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "e73aaafaf7ae18a54262",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "devre her takımın isteyeceği gibi başlamıştı.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.403587+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "5eda6d2ec657505f9eb8",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Greenwood'un bireysel golü acaba olacaktı mı dedirtiyordu.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.405959+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "9e079dc3afc20f047053",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Momentum yakalamış Fener biraz daha tempo yükseltir diye düşündük ama formsuz Kerem'le, ritmini daha bulmamış Vedat'la, yanlış kullanılan Talisca'yla maalesef beraberliği razı olduk.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.408592+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "1bdddc9419c88d185363",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Maç öncesi %50/50 olan tur şansı şimdi biraz Lyon'a döndü.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-20T07:05:30+03:00",
+    "discovered_at": "2026-09-05T23:28:56.411295+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/20/zor-ama-imkansiz-degil",
+      "published_at": "2026-08-20T07:05:30+03:00"
+    }
+  },
+  {
+    "candidate_id": "e9dd0f3e0557f07a7353",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Aslında Fenerbahçe oyuna çok iyi başladı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "positive",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.917496+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "bff440a1c368b42f8c93",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe adına ilk yarıda en net pozisyon Vedat Muriç ile yakalanan pozisyondu.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.919669+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "0f0f4d7d50657628bd3e",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "İlk yarının ortalarından sonra oyun hâkimiyetini kaybeden bir Fenerbahçe izledik.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.921138+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "3c98367745c7472b1e8a",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Nitekim sonrasında kalesinde golü de gördü...",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.922153+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "0185b272e52839ffb0db",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "İlk yarıda Kerem Aktürkoğlu ve Talisca Fenerbahçe'yi eksik oynattı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.923213+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "1dda1faba350759c0ca9",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Greenwood'un müthiş golüyle Fenerbahçe beraberliği sağladı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.924154+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "35d52bce15f5a42a1d30",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Maç önü yayınımda şansların yüzde 50'ye 50 olduğunu söylemiştim.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.925061+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "71e933d00078e411458b",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "İki takımın kalitesine bakarak bunu söyledim...",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Greenwood",
+      "Kerem",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-19T06:58:35+03:00",
+    "discovered_at": "2026-09-05T23:28:56.926273+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/19/avantaji-kaybetti",
+      "published_at": "2026-08-19T06:58:35+03:00"
+    }
+  },
+  {
+    "candidate_id": "c60c8af4aad80ecb91e8",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Fenerbahçe, Gençlerbirliği karşısında özellikle ilk 30 dakikada sahada istediklerini yapamadı.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.364740+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "d2a4c6b90e485e2f32ca",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "İsmail Hoca'nın yaptığı geniş rotasyon, takımın oyun ritmini olumsuz etkiledi.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.366283+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "cb0cccd61ca1f57b11de",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Yedekten şans bulan futbolcular ise beklentilerin altında kalınca ortaya Lyon maçı öncesi moralleri bozan bir tablo çıktı.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.367504+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "532665da0523e269fc2e",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Gençlerbirliği'nin oyun planı oldukça netti: Savunmada beklemek ve kazandığı toplarla hızlı geçiş hücumlarına çıkmak.",
+    "team": "Gençlerbirliği",
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.369371+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "2f770376051f50d83319",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Rakip, Fenerbahçe kalesine iki kez ciddi şekilde geldi ve iki gol buldu.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.371411+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "04f9df6f9f4b8b332cc0",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Bu durum, Fenerbahçe'nin geçiş hücumlarına karşı yaşadığı savunma problemini bir kez daha gözler önüne serdi.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.373609+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "55ec6b9414347696e1da",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "Asıl dikkat çeken nokta ise Fenerbahçe'nin savunma zaafının artık rakipler tarafından kolaylıkla kullanılabilmesi.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.375420+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "7778dfbb96f718519056",
+    "commentator": "abdullah-ercan",
+    "summary_candidate": "İrfan Can Kahveci ve Asensio'nun etkisiz performansları da takımın hücum gücünü düşürdü.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Asensio"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-16T07:00:14+03:00",
+    "discovered_at": "2026-09-05T23:28:57.377025+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "abdullah-ercan",
+      "url": "https://www.takvim.com.tr/yazarlar/abdullah-ercan/2026/08/16/rotasyonun-agir-bedeli",
+      "published_at": "2026-08-16T07:00:14+03:00"
+    }
+  },
+  {
+    "candidate_id": "61303acf7cec1b1af229",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor Diyarbakır'da üç puandan fazlasını bıraktı.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.123846+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "95b33f9da85831aca20d",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İlk yarıda başlayan oyunsuzluk maç boyunca da büyüdü.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.125263+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "e79aa600d13329528ab7",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Muhammed Salah'ın golü Trabzonspor'un oyununu anlatan bir gol olmaktan çok, oyundaki bütün kusurları kısa süreliğine örten bireysel bir parıltıydı.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.126728+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "84fe79e6e2d4a4489b1b",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Fakat gol, Trabzonspor'u uyandırması gerekirken uyuşturdu.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.128725+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "9bb7cdaf2fcf77f5bd97",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor topu tuttu ama Amedspor oyunu yönetti.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.130624+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "fe9bd1c4d09bf6c3b16c",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İkinci yarıda Trabzonspor biraz daha öne çıktı, rakip kaleyi daha fazla yokladı ve Lafont'u çalıştırdı.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.132213+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "17e242ca9e8c89163037",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Ceza sahasına yerleşmek, rakibi genişletmek, üçüncü oyuncuyu harekete geçirmek, santrforu beslemek ve dönen topları toplamaktır.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.133635+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "ac23d421ba7394c1c6f3",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor bunların hiçbirini süreklilik içinde yapamadı.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-09-01T10:18:40+03:00",
+    "discovered_at": "2026-09-05T23:28:55.135099+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/09/01/buyuk-kadro",
+      "published_at": "2026-09-01T10:18:40+03:00"
+    }
+  },
+  {
+    "candidate_id": "1a61a147256e6bdef999",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Ferencváros karşısındaki problem Budapeşte'de değil Trabzon'daki ilk maçta başladı.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.514355+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "c5bbbff2414ab23e41f9",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor topa sahip oluyor fakat merkezden rakibini delemiyor.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.516555+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "797be9c09cee5fde6906",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Orta saha top dolaştırıyor fakat üretemiyor.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.519046+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "cb23e1fe8b6ac8df1883",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Ardından çözüm Salah'ın adam eksiltmesine, Muçi'nin bireysel yaratıcılığına ya da Onuachu'ya gönderilecek toplara kalıyor.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.521293+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "6df76cd3505f66374d9f",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Bu durum Avrupa futbolunda sürdürülebilir bir hücum planı olabilir mi, Allah aşkına!",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.523131+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "57db741fffc841e60546",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor yoluna Konferans Ligi'nde devam edecek.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.525078+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "90d38dc8d1ffd999ed15",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor yönetiminin ve Fatih Tekke'nin önünde artık bazı kararlar var.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.526765+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "e332698af8a6c5ab7a16",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Onuachu'nun geçen sezonki fiziksel hakimiyetinden ve oyun içindeki ağırlığından ciddi biçimde uzaklaştığı görülüyor.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-28T07:00:59+03:00",
+    "discovered_at": "2026-09-05T23:28:55.528028+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/28/ilk-mac",
+      "published_at": "2026-08-28T07:00:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "4d81fba2193a979d96c9",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Sahada iki takımın da benzer 4-4-2 dizilişleri dikkat çekerken, Fatih Tekke özellikle ilk 20 dakikada Salah'ı Onuachu'nun yanına çekip Muçi'yi kanatta kullanmayı tercih etti.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.853886+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "9f5d554d33955a40a913",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor maça oldukça iyi başladı, oyunun kontrolünü aldı ve pozisyonlar üretti.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.855527+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "8afd9deb25126e4a9ec1",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Onuachu'nun istenen seviyede bir istasyon olamaması da ilk yarının önemli sorunlarından biriydi.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.857064+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "7bace7ba1123a49b3d80",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Nitekim Trabzonspor aleyhine verilen penaltının başlangıcında da onun bağlantıyı kuramadığı bir pozisyon vardı.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Hakem / VAR",
+    "type": "referee",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.858918+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "029e361b0bdb1e0c0cc1",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İlk yarı genelinde oyun Trabzonspor'un kontrolünde geçse de iki takım da tempoyu fazla yükseltmedi.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.860484+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "2d8e8a56a9d053f3ffde",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Başakşehir kazandığı toplarla geçiş ararken, Trabzonspor rakibinin bu özelliğini bildiği için daha kontrollü oynadı.",
+    "team": null,
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.862009+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "7d025a4cf3694211d33e",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İkinci yarıya Trabzonspor'un baskılı başlamasını bekliyordum ve öyle de oldu.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.863468+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "913fab1066ef5c19f116",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Öndeki oyuncuların sürekli yer değiştirmesi, Salah'ın zaman zaman sağ iç koridora gelmesi, Muçi'nin merkeze yaklaşması ve Aral'ın savunma ile orta saha arasındaki boşlukları kullanması Başakşehir'in savunma düzenini bozdu.",
+    "team": "Başakşehir",
+    "players": [
+      "Onuachu",
+      "Muçi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-24T07:03:58+03:00",
+    "discovered_at": "2026-09-05T23:28:55.866246+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/24/hareket-bereket",
+      "published_at": "2026-08-24T07:03:58+03:00"
+    }
+  },
+  {
+    "candidate_id": "fac49c0281e74555d3b7",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Fatih Tekke maça Onuachu ve Umut Nayir'i birlikte kullanarak 4-4-2 düzeniyle başladı.",
+    "team": null,
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.357603+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "6cb84bba771d7fa5937b",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İki santrforun varlığı oyunun merkezindeki yükü Melih ve Bouchouari ikilisinin üzerine bıraktı.",
+    "team": null,
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.359338+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "bde5560e876f6e3f990d",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Bu tercihin sahada karşılık bulabilmesi için Trabzonspor'un oyunu rakip yarı sahaya yıkması, ikinci topları toplaması ve merkezde sayısal dengeyi kaybetmemesi gerekiyordu.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.360976+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "f6bb7d246ba326d8492c",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "İlk yarıdaki yüzde 61'lik topa sahip olma oranı ilk bakışta Trabzonspor'un oyuna hükmettiğini düşündürebilir.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.362245+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "b736ed7bfc1eda042686",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Ferencváros, topu Trabzonspor'a bırakırken oyunun nerede ve nasıl oynanacağını büyük ölçüde kendisi belirledi.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.363652+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "a6f033cc447d3ecd1da7",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Faul, zaman zaman takımın rakibi nerede karşıladığını, ikili mücadeleye ne kadar girebildiğini ve geçişi nerede kesebildiğini de anlatır.",
+    "team": null,
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.365899+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "1f921b893c4eedeb2323",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Trabzonspor'un rakibi karşılamakta ve merkezde doğru eşleşmeleri oluşturmakta yaşadığı problem bu büyük farkın nedenlerinden biriydi.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "negative",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.367573+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "b2e37d51fc17b8e64752",
+    "commentator": "ulas-ozdemir",
+    "summary_candidate": "Bu nedenle Trabzonspor'un transfer ihtiyacını da iki ayrı başlık üzerinden okumak gerekiyor.",
+    "team": "Trabzonspor",
+    "players": [
+      "Onuachu"
+    ],
+    "topic": "Transfer",
+    "type": "transfer",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-08-21T07:04:19+03:00",
+    "discovered_at": "2026-09-05T23:28:56.369227+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ulas-ozdemir",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/08/21/merkezi-alarm",
+      "published_at": "2026-08-21T07:04:19+03:00"
+    }
+  },
+  {
+    "candidate_id": "9cbe757dbebfcc1802c6",
+    "commentator": "tunc-kayaci",
+    "summary_candidate": "Lyon’un kafa toplarındaki zaafını 2 şık golle değerlendirdik.",
+    "team": null,
+    "players": [
+      "Talisca"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Fanatik",
+    "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/ruyalar-gercek-oldu-2635718",
+    "image_url": null,
+    "confidence": 95,
+    "direct_quote": true,
+    "published_at": "2026-08-27T06:59:00+03:00",
+    "discovered_at": "2026-09-05T23:28:58.233083+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "tunc-kayaci",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/ruyalar-gercek-oldu-2635718",
+      "published_at": "2026-08-27T06:59:00+03:00"
     }
   }
 ]

@@ -5,7 +5,7 @@ Network work runs concurrently so the hourly live-feed job stays bounded.
 from __future__ import annotations
 import hashlib, html, json, re, urllib.parse, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -18,6 +18,13 @@ PEOPLE=[(cid,name) for cid,name,_ in ROSTER]; COMMENTATORS={cid:name for cid,nam
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Kenan Yıldız','Gabriel Sara','Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
 QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
+# Football vocabulary used to keep off-topic columns (politics, religion, health)
+# out. Every term must be football-specific: bare 'var' matched Turkish "var"
+# ("there is") and let unrelated columnists through.
+# Columns often lose the space after a full stop ("çökerttiler.Değişiklikler"),
+# so also split where a stop is followed directly by a Turkish capital.
+SENTENCE_SPLIT=re.compile(r'(?<=[.!?])\s+|(?<=[.!?])(?=[A-ZÇĞİÖŞÜ])')
+FOOTBALL_TERMS=('maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu','penaltı','ofsayt','kırmızı kart','sarı kart','var kararı','var pozisyon','teknik direktör','forvet','kaleci','defans','orta saha','santrfor','stoper','deplasman','devre arası','asist','süper lig','ligde','puan','taraftar','antrenman','sakatlık','skor','kupa','file bebek','teknik heyet')
 BAD_MARKERS=('eleştirdi','yorumladı','değerlendirdi','açıkladı','söyledi','ifade etti','konuştu','övdü','sert dille','çarpıcı sözler','flaş sözler')
 
 class Parser(HTMLParser):
@@ -65,6 +72,14 @@ def parse(doc):p=Parser();p.feed(doc);return p
 def tags(text,items):
  from feed_quality import mentioned_entities
  return mentioned_entities(text,items)
+MAX_AGE_DAYS=45
+def is_recent(published):
+ # Author archives reach back years (NTV's go to 2010); the feed is about the
+ # current season, so anything older than MAX_AGE_DAYS never becomes a statement.
+ try:stamp=datetime.fromisoformat(str(published).replace('Z','+00:00'))
+ except ValueError:return False
+ if stamp.tzinfo is None:stamp=stamp.replace(tzinfo=timezone.utc)
+ return stamp>=datetime.now(timezone.utc)-timedelta(days=MAX_AGE_DAYS)
 def classify(s):
  l=s.casefold();typ='opinion';topic='Genel yorum';sent='neutral';strength=6
  if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','mükemmel','harika']):sent='positive'
@@ -94,7 +109,15 @@ def direct_sources():
   {'url':'https://www.takvim.com.tr/yazarlar/gurcan-bilgic/arsiv','source':'Takvim','trust':92,'cid':'gurcan-bilgic','byline':True},
   {'url':'https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/arsiv','source':'Takvim','trust':92,'cid':'ilker-yagcioglu','byline':True},
   {'url':'https://www.takvim.com.tr/yazarlar/kartal-yigit/arsiv','source':'Takvim','trust':92,'cid':'kartal-yigit','byline':True},
-  {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke','byline':True}]
+  {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke','byline':True}]+discovered_sources()
+def discovered_sources():
+ # columnist_discovery.py walks publisher author indexes and keeps writers whose
+ # recent columns actually yield football sentences; hand-listing them does not scale.
+ path=B/'columnists.json'
+ if not path.exists():return []
+ try:rows=json.loads(path.read_text(encoding='utf-8')).get('columnists',[])
+ except Exception:return []
+ return [{'url':r['url'],'source':r['source'],'trust':r.get('trust',90),'cid':r['cid'],'byline':True} for r in rows if r.get('url') and r.get('cid')]
 def discover(src,limit=3):
  if src.get('article'):return [(src['url'],'')]
  doc=fetch(src['url'])
@@ -138,7 +161,7 @@ def candidate_rows(text,src,url,image_url=None):
   low=quote.casefold()
   if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
   teams=tags(quote,TEAMS);players=tags(quote,PLAYERS)
-  if not teams and not players and not any(k in low for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu']):continue
+  if not teams and not players and not any(k in low for k in FOOTBALL_TERMS):continue
   typ,topic,sent,strength=classify(quote)
   key=hashlib.sha256(f"{src['cid']}|{quote.casefold()}".encode('utf-8')).hexdigest()[:20]
   rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':None,'confidence':src['trust'],'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
@@ -147,24 +170,25 @@ def byline_statements(text):
  # A signed column is the author's own words (byline proves it); keep the
  # opinionated, on-topic sentences as their statements.
  out=[]
- for sentence in re.split(r'(?<=[.!?])\s+',repair_text(text)):
+ for sentence in SENTENCE_SPLIT.split(repair_text(text)):
   s=repair_text(sentence).strip(' "“”-')
   low=s.casefold();words=s.split()
   if not (40<=len(s)<=320 and len(words)>=6):continue
   if '?' in s:continue
   if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
   teams=tags(s,TEAMS);players=tags(s,PLAYERS)
-  if not teams and not players and not any(k in low for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu','penaltı','var']):continue
+  if not teams and not players and not any(k in low for k in FOOTBALL_TERMS):continue
   out.append(s)
- return list(dict.fromkeys(out))[:4]
+ return list(dict.fromkeys(out))[:8]
 def extract(url,src,hint=''):
  from article_content import article_content, attributed_quotes
  if re.search(r'/(kategori|category|etiket|tag|search)(/|$)',urlparse(url).path) or urlparse(url).netloc=='news.google.com':return []
  try:
   doc=fetch(url);text,published=article_content(doc)
  except Exception:return []
- if not text or not published:return []
- name=COMMENTATORS[src['cid']];rows=[]
+ if not text or not published or not is_recent(published):return []
+ name=COMMENTATORS.get(src['cid'],'');rows=[]
+ if not src.get('byline') and not name:return []
  if src.get('byline'):
   for sentence in byline_statements(text):
    teams=tags(sentence,TEAMS);players=tags(sentence+' '+text,PLAYERS)
@@ -182,11 +206,13 @@ def extract(url,src,hint=''):
 def process_source(src):
  rows=[];err=None
  try:
-  for url,hint in discover(src,3):rows.extend(extract(url,src,hint))
+  for url,hint in discover(src,6):rows.extend(extract(url,src,hint))
  except Exception as e:err=str(e)[:180]
  return rows,{'commentator':src['cid'],'source':src['source'],'candidates':len(rows),'ok':err is None,'error':err}
 def run():
- sources=direct_sources()+[rss_source(cid,name) for cid,name in PEOPLE]
+ direct={};
+ for s in direct_sources():direct.setdefault((s['cid'],s['source']),s)
+ sources=list(direct.values())+[rss_source(cid,name) for cid,name in PEOPLE]
  rows=[];health=[]
  with ThreadPoolExecutor(max_workers=20) as pool:
   futures=[pool.submit(process_source,s) for s in sources]

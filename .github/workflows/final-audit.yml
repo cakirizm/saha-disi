@@ -33,6 +33,8 @@ jobs:
         run: python -m compileall -q -b backend && find backend -maxdepth 1 -name '*.pyc' -delete
       - name: Run data regression tests
         run: python -m unittest discover -s tests -v
+      - name: Refresh football columnist roster
+        run: python backend/columnist_discovery.py --if-due
       - name: Collect incremental multi-source commentary
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
@@ -91,7 +93,7 @@ jobs:
         run: |
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add backend/source_publications.json backend/quarantined_statements.json backend/fixture_health.json backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json backend/collector_state.json
+          git add backend/source_publications.json backend/quarantined_statements.json backend/fixture_health.json backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json backend/collector_state.json backend/columnists.json backend/commentator_roster.json
           if git diff --cached --quiet; then
             echo 'No data change to publish.'
           else
