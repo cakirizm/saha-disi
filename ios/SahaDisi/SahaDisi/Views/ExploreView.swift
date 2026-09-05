@@ -21,6 +21,7 @@ struct ExploreView: View {
             LazyVStack(alignment: .leading, spacing: 16) {
                 Text("Keşfet").font(.largeTitle.black())
                 searchBox
+                if search.isEmpty { hotQuotesSection }
                 tabBar
                 if !search.isEmpty { searchResults }
                 else if selected == "Oyuncular" { playersSection }
@@ -93,6 +94,15 @@ struct ExploreView: View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Arama Sonuçları").font(.title3.bold())
             ForEach(filtered.prefix(30)) { s in NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain) }
+        }
+    }
+
+    private var hotQuotesSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            sectionHeader("En Çarpıcı Sözler", "Bu Hafta")
+            ForEach(Array(store.hotStatements.prefix(3))) { s in
+                NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain)
+            }
         }
     }
 

@@ -16,6 +16,7 @@ struct MatchDetailView: View {
                 matchMeta
                 matchCenter
                 if !rows.isEmpty {
+                    consensusSummary
                     filterBar
                     Text("Bu Maça Bağlı Yorumlar").font(.title3.bold())
                     ForEach(filteredRows) { s in NavigationLink { StatementDetailView(statement: s) } label: { matchComment(s, contextual: false) }.buttonStyle(.plain) }
@@ -31,6 +32,33 @@ struct MatchDetailView: View {
         }
         .background(SDTheme.background).navigationTitle("Maç Detayı").navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Statement.self) { StatementDetailView(statement: $0) }
+    }
+
+    private var consensusSummary: some View {
+        let s = store.sentimentCounts(rows)
+        return SDCard {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    Label("Yorumcu Konsensüsü", systemImage: "bubble.left.and.bubble.right.fill").font(.subheadline.bold())
+                    Spacer()
+                    Text("\(rows.count) yorumcu").font(.caption2).foregroundStyle(SDTheme.muted)
+                }
+                HStack(spacing: 8) {
+                    consensusPill(SDTheme.green, "Olumlu", s.positive)
+                    consensusPill(SDTheme.red, "Eleştirel", s.negative)
+                    consensusPill(SDTheme.muted, "Nötr", s.neutral)
+                }
+            }
+        }
+    }
+
+    private func consensusPill(_ color: Color, _ title: String, _ count: Int) -> some View {
+        HStack(spacing: 5) {
+            Circle().fill(color).frame(width: 8, height: 8)
+            Text("\(title) \(count)").font(.caption2.weight(.semibold)).foregroundStyle(SDTheme.muted)
+        }
+        .padding(.horizontal, 10).padding(.vertical, 6)
+        .background(color.opacity(0.12)).clipShape(Capsule())
     }
 
     private var matchMeta: some View {

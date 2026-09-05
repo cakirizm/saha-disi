@@ -32,6 +32,7 @@ struct CommentatorProfileView: View {
                         .font(.caption.bold()).foregroundStyle(SDTheme.accent)
                 }
                 statsStrip
+                sentimentBar
                 tabBar
                 if selectedTab == "Yorumlar" { commentsSection }
                 else if selectedTab == "İstatistikler" { statisticsSection }
@@ -143,6 +144,42 @@ struct CommentatorProfileView: View {
                 Text(commentator.name).font(.headline)
                 Text("Saha Dışı yalnızca kaynaktan doğrulanabilen gerçek cümleleri kısa alıntı olarak gösterir. Uzun içerik için kaynak bağlantısı kullanılır.").font(.subheadline).foregroundStyle(SDTheme.muted)
             }
+        }
+    }
+
+    private var sentimentBar: some View {
+        let s = store.sentimentCounts(statements)
+        let total = max(s.positive + s.neutral + s.negative, 1)
+        func pct(_ v: Int) -> Int { Int((Double(v) / Double(total)) * 100 + 0.5) }
+        return SDCard {
+            VStack(alignment: .leading, spacing: 10) {
+                HStack {
+                    Label("Yorum Tonu", systemImage: "chart.bar.fill").font(.subheadline.bold())
+                    Spacer()
+                    Text("\(s.positive + s.neutral + s.negative) söz").font(.caption2).foregroundStyle(SDTheme.muted)
+                }
+                GeometryReader { geo in
+                    HStack(spacing: 2) {
+                        Capsule().fill(SDTheme.green).frame(width: geo.size.width * CGFloat(s.positive) / CGFloat(total))
+                        Capsule().fill(SDTheme.red).frame(width: geo.size.width * CGFloat(s.negative) / CGFloat(total))
+                        Capsule().fill(SDTheme.muted).frame(width: geo.size.width * CGFloat(s.neutral) / CGFloat(total))
+                    }
+                }.frame(height: 10)
+                HStack {
+                    legendDot(SDTheme.green, "Olumlu", pct(s.positive))
+                    Spacer()
+                    legendDot(SDTheme.red, "Eleştirel", pct(s.negative))
+                    Spacer()
+                    legendDot(SDTheme.muted, "Nötr", pct(s.neutral))
+                }
+            }
+        }
+    }
+
+    private func legendDot(_ color: Color, _ title: String, _ percent: Int) -> some View {
+        HStack(spacing: 5) {
+            Circle().fill(color).frame(width: 8, height: 8)
+            Text("%\(percent) \(title)").font(.caption2).foregroundStyle(SDTheme.muted)
         }
     }
 

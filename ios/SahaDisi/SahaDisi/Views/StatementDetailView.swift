@@ -4,6 +4,15 @@ struct StatementDetailView: View {
     @EnvironmentObject var store: AppStore
     let statement: Statement
 
+    // Same subject (team + topic), other commentators' takes — the full spectrum.
+    private var otherViews: [Statement] {
+        guard let team = statement.team.map(store.canonicalTeam) else { return [] }
+        return (store.payload?.statements ?? [])
+            .filter { $0.id != statement.id && $0.topic == statement.topic && $0.team.map(store.canonicalTeam) == team }
+            .sorted { $0.strength > $1.strength }
+            .prefix(4).map { $0 }
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
@@ -60,6 +69,14 @@ struct StatementDetailView: View {
                         .background(SDTheme.panel)
                         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                         .overlay(RoundedRectangle(cornerRadius: 14).stroke(SDTheme.line))
+                    }
+                }
+
+                if !otherViews.isEmpty {
+                    Divider().overlay(SDTheme.line)
+                    Text("Aynı konuda diğer görüşler").font(.headline)
+                    ForEach(otherViews) { s in
+                        NavigationLink { StatementDetailView(statement: s) } label: { StatementRow(statement: s) }.buttonStyle(.plain)
                     }
                 }
             }.padding(18)
