@@ -155,13 +155,18 @@ final class AppStore: ObservableObject {
         func byStrength(_ a: Statement, _ b: Statement) -> Bool {
             a.strength == b.strength ? a.date > b.date : a.strength > b.strength
         }
+        // Generic "Genel yorum" is a catch-all: clustering on it lumps unrelated
+        // takes together ("10 yorumcu aynı görüşte" on nothing in common). Only
+        // let a specific, shared topic form a cluster.
+        let genericTopics: Set<String> = ["Genel yorum", "Genel"]
         var result: [StatementGroup] = []
         for key in order {
             let sorted = buckets[key]!.sorted(by: byStrength)
             var seen = Set<String>()
             var perCommentator: [Statement] = []
             for s in sorted where seen.insert(s.commentator).inserted { perCommentator.append(s) }
-            if perCommentator.count >= 2 {
+            let isSpecificTopic = !genericTopics.contains(perCommentator.first?.topic ?? "Genel yorum")
+            if perCommentator.count >= 2 && isSpecificTopic {
                 let lead = perCommentator[0]
                 result.append(StatementGroup(id: key, topic: lead.topic, team: lead.team, sentiment: lead.sentiment, statements: perCommentator))
             } else {

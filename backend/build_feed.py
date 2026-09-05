@@ -140,6 +140,32 @@ for c in candidates:
     seed['statements'].append({'id':next_id,'commentator':c['commentator'],'date':c.get('published_at') or c.get('discovered_at','')[:10],'team':canonical(c.get('team')) if c.get('team') else None,'players':c.get('players',[]),'topic':c.get('topic','Genel yorum'),'type':c.get('type','opinion'),'sentiment':c.get('sentiment','neutral'),'strength':c.get('strength',6),'summary':summary,'source':c.get('source','Kamuya açık kaynak'),'url':c.get('url',''),'image_url':c.get('image_url'),'confidence':c.get('confidence',95),'status':'verified_direct_quote','verbatim':True,'match_id':c.get('match_id')})
     known.add(key);next_id+=1
 
+# Final publish-time cleanup: aggregator titles, logo images and source labels
+# leak through as low-quality noise. Tidy them before the app ever sees them.
+SOURCE_RENAME={'343':'343 Digital'}
+LOGO_IMAGE_HOSTS=('googleusercontent.com','gstatic.com','news.google.com','google.com/')
+HEADLINE_SOURCES={'Google News RSS'}
+
+def strip_headline_suffix(value):
+    text=' '.join((value or '').split()).strip(' “”"\'')
+    # Aggregator titles end with a " - Site Name" credit; drop that trailing credit.
+    if ' - ' in text or ' – ' in text:
+        text=re.sub(r"\s*[-–]\s*[^-–]{2,32}$",'',text).strip(' “”"\'')
+    return text
+
+deduped=[];seen_norm=set()
+for s in seed.get('statements',[]):
+    s['source']=SOURCE_RENAME.get(str(s.get('source','')).strip(),s.get('source'))
+    if s.get('image_url') and any(host in s['image_url'] for host in LOGO_IMAGE_HOSTS):
+        s['image_url']=None
+    if s.get('source') in HEADLINE_SOURCES:
+        cleaned=strip_headline_suffix(s.get('summary',''))
+        if len(cleaned)>=20:s['summary']=cleaned
+    key=(s.get('commentator'),clean_summary(s.get('summary','')).casefold())
+    if key in seen_norm:continue
+    seen_norm.add(key);deduped.append(s)
+seed['statements']=deduped
+
 counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
 seed['commentators']=sorted(seed.get('commentators',[]),key=lambda c:(-counts.get(c['id'],0),c['name']))
