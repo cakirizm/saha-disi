@@ -1,0 +1,27 @@
+# Local credentials and signing material must never enter source control.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+.secrets/
+secrets/
+
+# Local runtimes and build products.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+DerivedData/
+build/
+*.ipa
+*.xcarchive/
+xcuserdata/
+.DS_Store
