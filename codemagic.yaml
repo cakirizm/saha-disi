@@ -50,9 +50,19 @@ workflows:
           # The minimal Xcode project isn't patched by use-profiles, so pass the
           # signing team, identity and the freshly created App Store profile
           # explicitly as archive build settings (these override the project).
-          PROFILE=$(ls "$HOME/Library/MobileDevice/Provisioning Profiles/"*.mobileprovision 2>/dev/null | head -n 1)
+          # Xcode 16+ moved the profiles dir, so search both known locations.
+          echo "== provisioning profile dirs =="
+          ls -la "$HOME/Library/MobileDevice/Provisioning Profiles/" 2>/dev/null || true
+          ls -la "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles/" 2>/dev/null || true
+          PROFILE=$(find "$HOME/Library/MobileDevice/Provisioning Profiles" \
+                         "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles" \
+                         -name '*.mobileprovision' 2>/dev/null | head -n 1)
           PROFILE_NAME=$(security cms -D -i "$PROFILE" 2>/dev/null | plutil -extract Name raw - 2>/dev/null)
           echo "Signing with profile: $PROFILE_NAME"
+          if [ -z "$PROFILE_NAME" ]; then
+            echo "No provisioning profile found on disk — fetch-signing-files did not create one."
+            exit 1
+          fi
           xcode-project build-ipa \
             --project "SahaDisi.xcodeproj" \
             --scheme "SahaDisi" \
