@@ -30,7 +30,8 @@ def post_candidate(account, text, url, date, platform):
                 players=players, type=typ, topic=topic, sentiment=sentiment, strength=strength,
                 source=platform+' · @'+account['username'], url=url, published_at=date,
                 discovered_at=datetime.now(timezone.utc).isoformat(), image_url=None,
-                confidence=95, direct_quote=True, resolver='official_api_author_match')
+                confidence=95, direct_quote=True, resolver='official_api_author_match',
+                evidence={'version':2,'method':'official_api_author_match','speaker_id':account['commentator'],'url':url,'published_at':date})
 
 def x_posts(account, token):
     payload = api_get('https://api.x.com/2/tweets/search/recent', {

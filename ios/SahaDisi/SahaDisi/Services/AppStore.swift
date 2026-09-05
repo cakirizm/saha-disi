@@ -57,11 +57,23 @@ final class AppStore: ObservableObject {
     }
 
     func statements(player: String) -> [Statement] {
-        (payload?.statements ?? []).filter { $0.players.contains { $0.localizedCaseInsensitiveCompare(player) == .orderedSame } }.sorted { $0.date > $1.date }
+        let key = playerKey(player)
+        return (payload?.statements ?? []).filter { $0.players.contains { playerKey($0) == key } }.sorted { $0.date > $1.date }
+    }
+
+    func playerKey(_ name: String) -> String {
+        let value = name.folding(options: [.caseInsensitive, .diacriticInsensitive], locale: Locale(identifier: "en_US_POSIX"))
+            .split(whereSeparator: { $0.isWhitespace }).joined(separator: " ")
+        let aliases = ["victor osimhen": "osimhen", "lucas torreira": "torreira", "rafael leao": "leao", "aleksey batrakov": "batrakov", "leroy sane": "sane", "anderson talisca": "talisca", "marco asensio": "asensio"]
+        return aliases[value] ?? value
+    }
+
+    func publications(player: String) -> [SourcePublication] {
+        (payload?.publications ?? []).filter { $0.players.contains { playerKey($0) == playerKey(player) } }
     }
 
     func playerProfile(named name: String) -> PlayerProfile? {
-        payload?.players?.first { $0.name.localizedCaseInsensitiveCompare(name) == .orderedSame }
+        payload?.players?.first { playerKey($0.name) == playerKey(name) }
     }
 
     func matchHistory(for player: String) -> [(Match, PlayerMatchRating)] {
@@ -92,8 +104,11 @@ final class AppStore: ObservableObject {
 
     var rankedPlayers: [RankedItem] {
         let all = payload?.statements.flatMap(\.players) ?? []
-        let grouped = Dictionary(grouping: all, by: { $0 })
-        return grouped.map { RankedItem(id: $0.key, name: $0.key, count: $0.value.count) }.sorted { $0.count > $1.count }
+        let grouped = Dictionary(grouping: all, by: playerKey)
+        return grouped.map { key, names in
+            let name = names.sorted().first ?? key
+            return RankedItem(id: key, name: name, count: statements(player: name).count)
+        }.sorted { $0.count == $1.count ? $0.name < $1.name : $0.count > $1.count }
     }
 
     var rankedCommentators: [(Commentator, Int)] {

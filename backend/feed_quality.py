@@ -1,5 +1,28 @@
 """Publication rules shared by builders and regression tests."""
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse
+import re
+
+def publication_problem(row):
+    url=urlparse(row.get('url',''))
+    if url.scheme!='https' or not url.netloc:
+        return 'missing_original_url'
+    if url.netloc in {'news.google.com','www.news.google.com'} or re.search(r'/(kategori|category|etiket|tag|search)(/|$)',url.path) or url.path in {'','/'}:
+        return 'index_page_not_statement'
+    if not row.get('date'):
+        return 'missing_publication_date'
+    if row.get('status')=='verified_manual':
+        return None
+    evidence=row.get('evidence') or {}
+    if evidence.get('version')!=2 or evidence.get('speaker_id')!=row.get('commentator') or evidence.get('url')!=row.get('url'):
+        return 'legacy_attribution_requires_review'
+    if evidence.get('method') not in {'article_explicit_speaker','official_api_author_match'}:
+        return 'unverified_speaker'
+    return None
+
+def mentioned_entities(text, names):
+    # Word boundaries prevent e.g. a surname inside an unrelated longer word.
+    return [name for name in names if re.search(r'(?<!\w)'+re.escape(name)+r'(?!\w)', text, re.I)]
 
 def normalize_kickoff(value):
     try:

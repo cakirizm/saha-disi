@@ -34,7 +34,12 @@ struct CommentatorProfileView: View {
                 statsStrip
                 sentimentBar
                 tabBar
-                if selectedTab == "Yorumlar" { commentsSection }
+                if selectedTab == "Yorumlar" {
+                    commentsSection
+                    if teamFilter == nil {
+                        PublicationList(items: (store.payload?.publications ?? []).filter { $0.commentators.contains(commentator.id) })
+                    }
+                }
                 else if selectedTab == "İstatistikler" { statisticsSection }
                 else if selectedTab == "En Çok Konuştuğu" { mostTalkedSection }
                 else { aboutSection }

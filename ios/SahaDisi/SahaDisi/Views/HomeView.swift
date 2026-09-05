@@ -22,6 +22,7 @@ struct HomeView: View {
                 topNav
                 agendaCarousel
                 latestFeed
+                PublicationList(items: Array((store.payload?.publications ?? []).prefix(8)))
                 compactScores
                 hotClaims
                 topPlayers
@@ -292,7 +293,7 @@ struct StatementTweetCard: View {
                 }
             }.buttonStyle(.plain)
             Divider().overlay(SDTheme.line)
-            HStack(spacing: 0) {
+            VStack(alignment: .leading, spacing: 10) {
                 StatementSocialBar(statement: statement)
                 if let url = URL(string: statement.url), !statement.url.isEmpty {
                     Link(destination: url) {

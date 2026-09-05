@@ -17,6 +17,7 @@ struct PlayerDetailView: View {
                 else { statistics }
             }.padding(.horizontal, 16).padding(.bottom, 28)
         }.background(SDTheme.background).navigationTitle(player).navigationBarTitleDisplayMode(.inline)
+            .refreshable { await store.refresh() }
     }
 
     private var hero: some View {
@@ -59,6 +60,7 @@ struct PlayerDetailView: View {
                     }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
                 }.buttonStyle(.plain)
             }
+            PublicationList(items: store.publications(player: player))
         }
     }
 
@@ -78,6 +80,13 @@ struct PlayerDetailView: View {
 
     private var statistics: some View {
         VStack(alignment: .leading, spacing: 13) {
+            Text("Bu oyuncu hakkında").font(.title3.bold())
+            LazyVGrid(columns: [.init(.flexible()), .init(.flexible())], spacing: 10) {
+                stat("Kaynaklı yorum", rows.count)
+                stat("Yorumcu", Set(rows.map(\.commentator)).count)
+                stat("Olumlu yorum", rows.filter { $0.sentiment == "positive" }.count)
+                stat("Eleştirel yorum", rows.filter { $0.sentiment == "negative" }.count)
+            }
             Text("Sezon istatistikleri").font(.title3.bold())
             if let p = profile, [p.appearances, p.minutes, p.goals, p.assists].contains(where: { $0 != nil }) {
                 LazyVGrid(columns: [.init(.flexible()), .init(.flexible())], spacing: 10) {

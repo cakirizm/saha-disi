@@ -1,39 +1,6 @@
 {
-  "generated_at": "2026-09-05T14:26:47.689296+00:00",
+  "generated_at": "2026-09-05T14:34:18.865008+00:00",
   "commentators": [
-    {
-      "id": "yagiz-sabuncuoglu",
-      "name": "Yağız Sabuncuoğlu",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Kendi yayınları / 343 keşif",
-      "avatar": "YS",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "ibrahim-seten",
-      "name": "İbrahim Seten",
-      "role": "Futbol yorumcusu",
-      "primarySource": "343",
-      "avatar": "İS",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "bunyamin-gezer",
-      "name": "Bünyamin Gezer",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "BG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "ahmet-cakar",
       "name": "Ahmet Çakar",
@@ -46,262 +13,15 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
-      "id": "emre-ozcan",
-      "name": "Emre Özcan",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Socrates · Tardini Büfe",
-      "avatar": "EÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "ali-naci-kucuk",
-      "name": "Ali Naci Küçük",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Spor basını",
-      "avatar": "AN",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "kaya-temel",
-      "name": "Kaya Temel",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "KT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "semih-sezerli",
-      "name": "Semih Sezerli",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "SS",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "serhan-turk",
-      "name": "Serhan Türk",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "ST",
-      "focusTeams": [
-        "Galatasaray",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "sinan-engin",
-      "name": "Sinan Engin",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Beyaz Futbol",
-      "avatar": "SE",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "id": "ugur-meleke",
-      "name": "Uğur Meleke",
-      "role": "Futbol yorumcusu",
-      "primarySource": "beIN SPORTS",
-      "avatar": "UM",
-      "focusTeams": [
-        "Fenerbahçe",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "burhan-can-terzi",
-      "name": "Burhan Can Terzi",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "BCT",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://img.gercekgundem.com/rcman/Cw1280h720q95gc/storage/files/images/2026/08/10/gazeteci-burhan-can-terzi-gozaltina-alindi-olad.jpg"
-    },
-    {
-      "id": "erman-ozgur",
-      "name": "Erman Özgür",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Tivibu Spor · Orta Nokta",
-      "avatar": "EÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "firat-aydinus",
-      "name": "Fırat Aydınus",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "FA",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "id": "haluk-yurekli",
-      "name": "Haluk Yürekli",
-      "role": "Futbol yorumcusu",
-      "primarySource": "YouTube / TV",
-      "avatar": "HY",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hasan-al",
-      "name": "Hasan Al",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "HA",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "koray-gok",
-      "name": "Koray Gök",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "KG",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "mustafa-culcu",
-      "name": "Mustafa Çulcu",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "MÇ",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "id": "nevzat-dindar",
-      "name": "Nevzat Dindar",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "ND",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "oguz-altay",
-      "name": "Oğuz Altay",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "OA",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "savas-corlu",
-      "name": "Savaş Çorlu",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SÇ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "serdar-ali-celikler",
-      "name": "Serdar Ali Çelikler",
+      "id": "nihat-kahveci",
+      "name": "Nihat Kahveci",
       "role": "Yorumcu",
-      "primarySource": "VOLE / NEO Spor",
-      "avatar": "SAÇ",
+      "primarySource": "Kontraspor",
+      "avatar": "NK",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
-    },
-    {
-      "id": "servet-ozkara",
-      "name": "Servet Özkara",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "SÖ",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "turgay-demir",
-      "name": "Turgay Demir",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "TD",
-      "focusTeams": [
-        "Beşiktaş",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "ugur-karakullukcu",
-      "name": "Uğur Karakullukçu",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Kendi kanalı",
-      "avatar": "UK",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "sansal-buyuka",
-      "name": "Şansal Büyüka",
-      "role": "Futbol yorumcusu",
-      "primarySource": "CNBC-e · Saha ve Ötesi",
-      "avatar": "ŞB",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "abdulkerim-durmaz",
@@ -390,6 +110,17 @@
       "avatar": "AE",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "ali-naci-kucuk",
+      "name": "Ali Naci Küçük",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Spor basını",
+      "avatar": "AN",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -539,6 +270,17 @@
       "photoURL": null
     },
     {
+      "id": "burhan-can-terzi",
+      "name": "Burhan Can Terzi",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BCT",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://img.gercekgundem.com/rcman/Cw1280h720q95gc/storage/files/images/2026/08/10/gazeteci-burhan-can-terzi-gozaltina-alindi-olad.jpg"
+    },
+    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -546,6 +288,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "bunyamin-gezer",
+      "name": "Bünyamin Gezer",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BG",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -760,6 +513,17 @@
       "photoURL": null
     },
     {
+      "id": "emre-ozcan",
+      "name": "Emre Özcan",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Socrates · Tardini Büfe",
+      "avatar": "EÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "ender-bilgin",
       "name": "Ender Bilgin",
       "role": "Futbol yorumcusu / muhabir",
@@ -831,6 +595,17 @@
       "role": "Futbol yorumcusu",
       "primarySource": "Socrates",
       "avatar": "EY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "erman-ozgur",
+      "name": "Erman Özgür",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Tivibu Spor · Orta Nokta",
+      "avatar": "EÖ",
       "focusTeams": [
         "Genel"
       ],
@@ -971,6 +746,17 @@
         "Trabzonspor"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/Feyyaz_U%C3%A7ar_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "firat-aydinus",
+      "name": "Fırat Aydınus",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "FA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "firat-gunayer",
@@ -1130,6 +916,28 @@
       "photoURL": null
     },
     {
+      "id": "haluk-yurekli",
+      "name": "Haluk Yürekli",
+      "role": "Futbol yorumcusu",
+      "primarySource": "YouTube / TV",
+      "avatar": "HY",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "hasan-al",
+      "name": "Hasan Al",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HA",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hasan-kurt",
       "name": "Hasan Kurt",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -1207,11 +1015,33 @@
       "photoURL": null
     },
     {
+      "id": "kaya-temel",
+      "name": "Kaya Temel",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "kerem-ovet",
       "name": "Kerem Övet",
       "role": "Galatasaray muhabiri / yorumcu",
       "primarySource": "Galatasaray kaynak taraması",
       "avatar": "KÖ",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "koray-gok",
+      "name": "Koray Gök",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "KG",
       "focusTeams": [
         "Galatasaray"
       ],
@@ -1234,6 +1064,17 @@
       "role": "Galatasaray muhabiri / yorumcu",
       "primarySource": "Galatasaray kaynak taraması",
       "avatar": "KÇ",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
       "focusTeams": [
         "Galatasaray"
       ],
@@ -1473,6 +1314,18 @@
       "photoURL": null
     },
     {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "necati-ates",
       "name": "Necati Ateş",
       "role": "Futbol yorumcusu",
@@ -1495,6 +1348,17 @@
       "photoURL": null
     },
     {
+      "id": "nevzat-dindar",
+      "name": "Nevzat Dindar",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ND",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "nezih-aksener",
       "name": "Nezih Akşener",
       "role": "Futbol yorumcusu / muhabir",
@@ -1504,17 +1368,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "nihat-kahveci",
-      "name": "Nihat Kahveci",
-      "role": "Yorumcu",
-      "primarySource": "Kontraspor",
-      "avatar": "NK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "nurgul-gunaydin",
@@ -1649,6 +1502,17 @@
       "photoURL": null
     },
     {
+      "id": "oguz-altay",
+      "name": "Oğuz Altay",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "OA",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "oguz-dizer",
       "name": "Oğuz Dizer",
       "role": "Fenerbahçe muhabiri / yorumcu",
@@ -1759,6 +1623,17 @@
       "photoURL": null
     },
     {
+      "id": "savas-corlu",
+      "name": "Savaş Çorlu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SÇ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "semih-nisanci",
       "name": "Semih Nişancı",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -1766,6 +1641,17 @@
       "avatar": "SN",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "semih-sezerli",
+      "name": "Semih Sezerli",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -1789,6 +1675,17 @@
       "avatar": "SH",
       "focusTeams": [
         "Fenerbahçe"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "serdar-ali-celikler",
+      "name": "Serdar Ali Çelikler",
+      "role": "Yorumcu",
+      "primarySource": "VOLE / NEO Spor",
+      "avatar": "SAÇ",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -1839,6 +1736,18 @@
       "photoURL": null
     },
     {
+      "id": "serhan-turk",
+      "name": "Serhan Türk",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "ST",
+      "focusTeams": [
+        "Galatasaray",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "serkan-akcan",
       "name": "Serkan Akcan",
       "role": "Futbol yorumcusu / muhabir",
@@ -1870,6 +1779,28 @@
         "Trabzonspor"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Serkan_Asan_%282020-21_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "servet-ozkara",
+      "name": "Servet Özkara",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "SÖ",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "sinan-engin",
+      "name": "Sinan Engin",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Beyaz Futbol",
+      "avatar": "SE",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "sinan-vardar",
@@ -1982,6 +1913,18 @@
       "photoURL": null
     },
     {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "tugba-hacibayramoglu",
       "name": "Tuğba Hacıbayramoğlu",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -2002,6 +1945,29 @@
         "Genel"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ec/T%C3%BCmer_Metin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "ugur-karakullukcu",
+      "name": "Uğur Karakullukçu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Kendi kanalı",
+      "avatar": "UK",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "ugur-meleke",
+      "name": "Uğur Meleke",
+      "role": "Futbol yorumcusu",
+      "primarySource": "beIN SPORTS",
+      "avatar": "UM",
+      "focusTeams": [
+        "Fenerbahçe",
+        "Genel"
+      ],
+      "photoURL": null
     },
     {
       "id": "ugur-senpire",
@@ -2066,6 +2032,17 @@
       "avatar": "YÇ",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "yagiz-sabuncuoglu",
+      "name": "Yağız Sabuncuoğlu",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Kendi yayınları / 343 keşif",
+      "avatar": "YS",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -2205,6 +2182,17 @@
       "photoURL": null
     },
     {
+      "id": "ibrahim-seten",
+      "name": "İbrahim Seten",
+      "role": "Futbol yorumcusu",
+      "primarySource": "343",
+      "avatar": "İS",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "ibrahim-yildiz",
       "name": "İbrahim Yıldız",
       "role": "Futbol yorumcusu / muhabir",
@@ -2294,6 +2282,18 @@
       "photoURL": null
     },
     {
+      "id": "sansal-buyuka",
+      "name": "Şansal Büyüka",
+      "role": "Futbol yorumcusu",
+      "primarySource": "CNBC-e · Saha ve Ötesi",
+      "avatar": "ŞB",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
       "id": "senol-gunes",
       "name": "Şenol Güneş",
       "role": "Futbol yorumcusu / muhabir",
@@ -2311,7 +2311,7 @@
       "id": 1,
       "commentator": "ahmet-cakar",
       "date": "2026-08-30",
-      "team": "Galatasaray",
+      "team": null,
       "players": [
         "Osimhen"
       ],
@@ -2353,7 +2353,7 @@
       "id": 3,
       "commentator": "ahmet-cakar",
       "date": "2026-08-31",
-      "team": "Fenerbahçe",
+      "team": null,
       "players": [],
       "topic": "Hakem / VAR",
       "type": "referee",
@@ -2373,7 +2373,7 @@
       "id": 4,
       "commentator": "ahmet-cakar",
       "date": "2026-08-16",
-      "team": "Fenerbahçe",
+      "team": null,
       "players": [],
       "topic": "Kadro / Rotasyon",
       "type": "opinion",
@@ -2390,222 +2390,9 @@
       "image_kind": "verified_portrait"
     },
     {
-      "id": 5,
-      "commentator": "levent-tuzemen",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Greenwood",
-        "Asensio",
-        "Guendouzi",
-        "Torreira",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Torreira'yı tehdit eden kişi tutuklanmış!",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/futbol",
-      "image_url": null,
-      "confidence": 100,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 6,
-      "commentator": "erman-ozgur",
-      "date": "2026-09-04",
-      "team": "Kocaelispor",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İç sahada çok can yakacaklar!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEdUaERncWFIcFpCR2M5VzZIYjZwdEpBM3B4Mm00Z1NtQWRQNThDdGhOTXFKRF9obHZhcTRPWEYtMEVTTDYtWXVLZ3cxRTZFbXRYSU90YVRNeHVzQUpYcUpCRHU1aGZlTGlTTk1ucUlDemxnaUdRT1FlMG1zS1lnT29SUjNESDJXRHBnRnB2ZExNekFU0gGaAUFVX3lxTE16QTZST1B3cVc4ZDFER0FhUXVXeVEzMXl1cnNoS0s1UzhRS0F4Y2NHOVItVTl3amN2SWRXdkZOS1h2MzZzNmpkR0h1M01LVnFzcm45N2VFWG9DVEsyU1VDQVJkaklSek9nYmctMVF4MXNyZEVScnYxeURuVkt4eDZiODNqYjhZdElkakVDbXVMbzI1b1VFRVYwS0E?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 7,
-      "commentator": "ugur-karakullukcu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "positive",
-      "strength": 6,
-      "summary": "Okan Buruk iki dakika oynatmaktan bile çekiniyor, Galatasaray'ı anlamakta güçlük çekiyorum",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbk9aRTdieW9UOE1fY2k1bUNwTjRPeVBYZmo0RG1kaDdhUlhxZ0lJZEN2SDhKS2JMLV80QVdNREVqOWVxN1d2Rl96ZVZ6WWJXcXhkeUJoTGE5a09aUVM0UU05QW1pR1gzcHF1RFlJeVNrYWFRNXpRSFF3c1JxbnlBVl9McXZacDFndGhZajVUY2REMWdQTEtfWlN1a2VieFc0eXVrZ2NuT09tcGZGdUM5alotbU40Y2VvcGN6WGgxc1JEcmJoQ2UxVGp5Uk0wdkNZ0gHWAUFVX3lxTFBSNllhSzdFVkFEbllwWTBOekgyaTZXd2lwTFBHUDY1aHdvd2k0RFFSVm1MS3J2NWsyQWFSMkJGZ1ZKSFFJbWNEOUUtWlNrSDNOaVE2NHJyY2NDQ3c1XzBFTWZWdFdjYU9Bd3J0STUyd2w5N3cyam01dzFyQXJyWTBwM0NYT3hnMHl3Z1N2MlhsbF9MQTVDVFNEZXZPWjJ5QTlQa1BVR1p4OFFCeXJDS0VCRURuR0Zyc3hmUzdIQTRuQ3haMFR6OV9sUS1YTUhwVjFoc0VMR0E?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 9,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Çorum FK",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Cengiz Ünder Çorum ile anlaştı",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQXzlRaEVlZk5SVHR5VmN3RzFBYk1XV3E1UGoxbkVFMGxZYUhBaUJQUEJ5M3RyWlNiQjJzeFBPbmlid2pxNHdwc2Rya0pIbnRJMHd6SllhSk9pU29EbFQtR1YyWUdXcVBITEhvR0RiTy12ZzB2UUlRQ044bS1EbTlTYS14bkEtMk00NU1UUzFiNA?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 10,
-      "commentator": "levent-tuzemen",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Leao"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Transfer politikasını anlamıyorum",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY1lLVkE4ZFdSOThKbmt3SktYVjNMRk9JVzcycWo5c1VTcU91Y3N0b1V1cGVHSVVOYW5LSlVrRlpBeUFST2hfbWVycE9YTk51QWZVRnVndjBTWmxUYVVtSFVMS1FvbDFRVm1rdnV2bmNWU0toWG9VcHhhT2FHbUpKd0JLaUNuVlZ2RmtKZ1hXMUNVd2JlaWdBcE5nX2FjU2F5T0pWTFJIbFk1V1V2YzJOVFBtR2M?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 11,
-      "commentator": "sinan-engin",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Tahmin",
-      "type": "prediction",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Onu alan şampiyon olur",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajByckp1SEdhblpZcTB5YWhvUmNOWXBOUldnVk9mNVVZRHU3LXl5LVg4cUhUeFV1WmpHb2pNSUljV3g1UndXaVB0RmVFV0VxRGo4THpEUWFZTWVrT09NLUlVel9BVkVBSFktREdMdnhGYXl2YnJIRnhEVUdCQWxndUNGMUlDVzU2dVBlbHJIMmlndVJWSWQzWk44TUR6VkFycWdrN2VqV1ZsOEl6eDZJSGx4NA?oc=5",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": "verified_portrait"
-    },
-    {
-      "id": 12,
-      "commentator": "sinan-engin",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Şerefsizlere Bak Nasıl Saldırmışlar!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTVpSl95T2M5T2sxV1ZrSGJ2dzZyVENjaWp2b0hqT094cHpDM3RkM2F2ellXS3RJS2tzY2JoNVhkQjBQbExhWXN1cnhHazNaeUFLWENwaXZzUTNsZEc2QjhPSk1Uank4bEczSV9rM2xmUkNaQ2NDamNfN0hlSzQyWjBaVXRhM2g0bTJaSUs4dFhCNU9VUmc1RFZ4S2h0Z0p4d3JQRGp1WVlzSHZDYUxncDZUWGpXY1BSM1BaZ0l4M011SkU?oc=5",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": "verified_portrait"
-    },
-    {
-      "id": 13,
-      "commentator": "haluk-yurekli",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray'da çok uzun zamandır hayali kurulan oyuncu, durumunu izliyorlar",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTU2UEVabDhIbERMWXlpbURWcG9uT1RqMUxLSnNneHpVNXVKc3RIU1F0bEFMRHlFVkRTYzNWQXBLRFA3cVFEbV8xTFFPSHdiWVJYdl96a29yd2FmRk9oZHExSHZMOElSanloS0hRMkNtT25yOC15c2QtWmZSMFVRd3ROdDlueFdVWkpnUlVMYVdBWjZYRFBqU3oyYWJCZ3gtbDhEVWI4dDJQVE1uTmJCM0tXeTItZjDSAbwBQVVfeXFMTWl3ZnZDdzFmbF9qNmpHRW14SjBMYWVqSFdUcTlld0YtN3FFQTkyQkV5Z1I3ZEtoYjE2aE51MndxTzNqLXljVFE1aUlMcnUwdDNfcUFBSG9UME9FZkEyS1lfSVhHMVU3eXd1X3lMbjVBdUpla1hHU2djSFZ1R2xFdG5zU0xrc3pldzcyenNCYmFLYzhDLWQ0ZjI1dzJtNzB5R3RZRkFqbnh5c3dwWENNRkpDWUY0NzBNS0tDQjM?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 15,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Sınıfta kaldı\" Uğur Meleke'den çarpıcı değerlendirme!",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "image_url": null,
-      "confidence": 100,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 16,
-      "commentator": "ugur-meleke",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Uğur Meleke'den çarpıcı değerlendirme!",
-      "source": "beIN SPORTS",
-      "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "image_url": null,
-      "confidence": 100,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 17,
-      "commentator": "ali-naci-kucuk",
-      "date": "2026-09-04",
+      "id": 132,
+      "commentator": "nihat-kahveci",
+      "date": "2026-09-05T00:21:34+03:00",
       "team": "Galatasaray",
       "players": [
         "Leao"
@@ -2614,1924 +2401,53 @@
       "type": "opinion",
       "sentiment": "neutral",
       "strength": 6,
-      "summary": "Galatasaray B Planı Olamaz!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1fTmZoUW1NeVRiQkgySlJqajUxSW1GclZzOTBQS0N0ZE1rdGtSTjJVMThUUHR5OTl5c25JUERsUTExckNlZ0NNc05Lam5ockVYRUZkbFlMclVLOHA5?oc=5",
-      "image_url": null,
+      "summary": "Leao bugün ilk defa Galatasaray ile forma şansı buldu.",
+      "source": "GZT / Kontraspor",
+      "url": "https://www.gzt.com/spor/nihat-kahveci-basaksehir-galatasaray-macini-yorumladi-4257902",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 18,
-      "commentator": "ali-naci-kucuk",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Çok Zor Bir Transfer!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWU1lJVFB0NUtfb3pXaEF1LTJveW1QM01LbUd2bUlJVXRvSmpiV2NtM3pmT0x2YTBtYi1ZY2NPM0xERFZ3UFJrSzljVXlGQ3NNTTcxUm5jOGpOaHc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 19,
-      "commentator": "nevzat-dindar",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Ismaila Sarr, Galatasaray",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMGQ4YVUzQTA5MjZQNjBfa05udHBtSFBWQnoxZzd4dFRQanRFazlfdkltVmNQWFN2Ylk3TUlfbS0tZWNlc0xmclp3MWc5dWM4TGFLSndjYlU1cHl2SXpPNFNsVTZnQzBxSE83RlBJd1o2MV9QaUNsN1Q5TkdsRUxyR2EyNVlaWWdFbmMzbmwxVGJrZUQxMDZFa2VMSmFudUl4YTlXYkotalRUc2RZeTVQdy1SQi1GTVdKZUg4ZVRXd3lUQ29wWmxCSm04MWJVSEE?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 20,
-      "commentator": "kaya-temel",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Sane",
-        "Barış Alper"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Barış Alper Yedek Kalmalıydı, Sane",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONmllSEpyRnpTQWY5R1ZJSGk3Qk42VXMwR3JoamRXSTVla1lBcXZCbnZsbFZ3dGM0YjhTOEZUOHFNN2NTbTFVTWxaRnV3VzlhOEZScGhCS2NXaUxQUkJKMU1Zb2VBc2tQaW9LeFNaU1JsVFlHTEhDd3NKSVRfbkhFN1VWNVRycWFtSk8zVkZSSTVWczM4bTNCTGJ0VGpGOXBNN1RLdHVIbFNsZWtVZGdBUnZhR2J5OU5mc2MyaGpvMzNtU2tHZnNsVmVIbw?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 21,
-      "commentator": "serhan-turk",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Beşiktaş’ın En İyi Transferi Italiano!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdXYyMmhZNC1MUUhsUXM5bTVzelV3Xy1VeXpPRnFqakFIaFc5Z3M1NERiYmdvNWhodVZWRTJpdjRMcm1uUVh5S3FwYmFFZ2VIeGZuMFh5NVhaLXhMNnNaNFQ4ei1QSVhCMm9PM21UeHRLalpoZ0ZqV0NIS0ZMLXZBY3lMRFllTlhTODc2RlB2a21jOHJYUFJ6N1VVTWltdjNRNHpwREZRc3FVTHBCaWZXb0ZtSGFhZTRRVEZFekVrMFV5RHN6X0N1Ul9IWFFVMUU?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 22,
-      "commentator": "serhan-turk",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [
-        "Asensio"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Asensio Fenerbahçe İçin Çok Önemli Bir Oyuncu Haline Geldi!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPemtIemlCMlBkb1U0ekZpelR3RDVwaldCZHFxZzNLaWs1aV8yWW1NVHNfOFR1RUx2WlNhOFVOaGFjcEgzY3B6S1RJNERCeTVsZTJNdXVJLUExN3ZTbXZlTS1EWEpfZk9peVNaWEVSY1paMm5zc3A0T0ZySTlqbkJDM28zVEVfRnBVYVNDTTBrOEN1UVR6c1VGZ1A3RUFnaDd3d2x6TUdmdDdBREI5LTRRSXozTHBoUQ?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 24,
-      "commentator": "oguz-altay",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Benim bildiğim Galatasaray buradan kaptırmaz, çok küçük bir maddi fark var",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGVTUmdwcU5ZUDZadmdDRUMyS282NE5WNEdNcTZ6bElXWmFrZzBpNE1qdHp3VTVxNTFCQlA1Z0FqaDV0WTBvT19oc3dabHI0TFg1RUNOaHdWVngybnliblhfaEYxS200cGhJZ3FtbVpaaUdIaFpDUVBwUm54WktlLVNBX2pocUhWeWhmQmJ5OVh1dWhzMXhlYmRucG1zdXJqQVlWSUNoOFVDekhEM2o4Zk1rWdIBuAFBVV95cUxPaXd5M21uUmY2bzZUZDZoR2pCbjZkcnNzV2RLc0tFVU5jakVjQkxER3ZyeEo5Tm00Mm0tcjA0N2ZzS0Z4ek5aTW93V0ZsMGt1R0c0YXpiY0FuZXBnMVg5eS11LTZPYlE5b256dmM1NjVVWGpFX0FheHVWOG9HNTJSUDg0X0Vsb2FVYjVXOWNuTTdfVU5LMUw3NVZZSHVjaWpGbnpzOXFESERmTFlTd2F6R3N1bWJFMVlu?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 26,
-      "commentator": "koray-gok",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [
-        "Osimhen"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Osimhen'in Yokluğu Her Yerde Hissedilir",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOHNqYk5JY0tGOTFXeE90RzZiTHg3SHdwYmlmbzlPUFM3YzBsbnRHUVQ1cW1OSUpPeVMycDBVWXEwYmVsdW1QbU5jR09tTno3RW9kRFZ3cWFfdDJMVW1MMnhMaXliZXVKQXBhclpDSWFRMDBOeVFkSzdRZk5IS01nTkUxSDh0S2s?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 27,
-      "commentator": "semih-sezerli",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Fenerbahçe avantajlı bir fikstüre sahip, ilk 24'ü büyük ölçüde garantileyebilir",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaVM5aTdvTGFEWkpIVXlxMERndDJjRlRwNmxuOTN3QVJudmdwTFdQa0gzLTkxSU91MWpIWXQ5NXVHSzhSbC1tWTlPaUE4UzAxek81cHJYN05PSzYtSGg1S3BMZTZDLS1vWWZYdFVMcGhlQW9NQklFUDAyYjZjMEQ1SVdZSU1wb2ZKT0Z4SEJ2NGo5aTBEdmdRY2ZQeW9RendfdGlTYVViNk5GZEVSLVZHdk1TeUlGS1VROHJvdzE0emFzMnVvaGFjd0JHQU1YS2Yz?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 28,
-      "commentator": "servet-ozkara",
-      "date": "2026-09-04",
-      "team": "Trabzonspor",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bu Trabzonspor Acı Veriyor!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NNXZBRUo0ZFFQTnpfVXlEYzZpNGNlYXRPb1pZWmdGVHZKYTJWVjQxUTl4ZFVEb1hRdm91YXJrSkxYYXlHQ1Z3UzRRM0I2blVOeERZdTFQakU2SGJKeE5mMkVsNU5CUms?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 29,
-      "commentator": "turgay-demir",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Beşiktaş’ı doğradılar… Öyle ince ince değil, adeta satırla doğradılar.",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fazY3dlZMS1d4U1E3RTlpM2liLWFQYmxZZ3hmRy1ZWW9DbnlTa1BIODcyWUpud1NMalE3RFM1a0FpODhnN2hxWmExemo5eXNmZmc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 30,
-      "commentator": "hasan-al",
-      "date": "2026-09-04",
-      "team": "Trabzonspor",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "negative",
-      "strength": 6,
-      "summary": "Trabzonspor çok büyük hatalar yaparak elendi",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSXMwc3FhTXRzUzdFRjVxVWxkQXQ3azEwSmdCQTVmV2xOc2VMVFA5UjJIUUZ2Ul92dl9aSmdxeWs1UHNhdm5FUlJyMHZuUHdiTWFTb0t0aXEzblAwdTZZdkdkNUFBcTdoY2s4dlJya2FVVVJuaGFEcmdYaVNoeklYNFp3M294NVVCc2p0aFVxMTBWT1dJc29QQ1dteUQ?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 31,
-      "commentator": "mustafa-culcu",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Hakemlik adına çok ayıp",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "article_explicit_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.gzt.com/spor/nihat-kahveci-basaksehir-galatasaray-macini-yorumladi-4257902",
+        "context": "Nihat Kahveci, \"Leao bugün ilk defa Galatasaray ile forma şansı buldu. Atılan Torreira golü ki onu daha sonra anlatırız. Orada tiki takasıyla golün içindeydi. Dakika 81’de topa bir dokundu. O Milan’daki en iyi dönemindeki hızlı tren modunu açtı. Sıfıra indi. Güzel de bir orta kesti. Leao’da heyecanlandırdı Galatasaraylıları. Osimhen ile beraber onu düşündüğümde Leao’nun aç bir şekilde oynayacağını ve Galatasaray’a da çok katkı sağlayacağını gördüm.\"",
+        "published_at": "2026-09-05T00:21:34+03:00"
+      },
       "image_kind": "verified_portrait"
     },
     {
-      "id": 32,
-      "commentator": "savas-corlu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
+      "id": 133,
+      "commentator": "nihat-kahveci",
+      "date": "2026-09-05T00:21:34+03:00",
+      "team": null,
       "players": [
-        "Osimhen"
+        "Torreira"
       ],
       "topic": "Genel yorum",
       "type": "opinion",
       "sentiment": "neutral",
       "strength": 6,
-      "summary": "Victor Osimhen Olmazsa Galatasaray Sıkıntıya Girer",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTklDbGtKcFJOZGlGcmJzekxyNVBuZ0RLWnZKaGJxa3RUQU1fcjhEd2dDcHVvZG9RS25aQ0gxU0UyRTlseEJVV2FHT05lYnNpZ0JwcDdUN250eExoWE5MWHJsZ1ZCN1NKMmR1eTZYOWo1SUZPbXQ1enJaU256UUlGWUp5MkZOd0JwUTg1bXZ3OExCdDRic1RRb3czN1F0QmxVNkVmdzVQelRHWmFtUXc?oc=5",
-      "image_url": null,
+      "summary": "Torreira’da gol. Bir gol bir asist. Torreira",
+      "source": "GZT / Kontraspor",
+      "url": "https://www.gzt.com/spor/nihat-kahveci-basaksehir-galatasaray-macini-yorumladi-4257902",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 33,
-      "commentator": "burhan-can-terzi",
-      "date": "2026-09-04",
-      "team": null,
-      "players": [],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Dursun Özbek kafaya takmış durumda, transfer etmek için bekliyor",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPenNHUGRnX2V0el95T3FCOVNCLTB4Z1lCaWtpeDVTc0RJVk9kOVViblBTdHpDZkpUSVVOQlE1WjlPT1FkQ0JEZDVWNkxyLUtScF9BaHB0cWVwYXJ4SDNYWjQ4SzJiV3hrZ1l4dU96QmNTTWNFaTlkUTBfR3BES3VGcTZ1ekcyRy1FUUFKdWdvM1F6S2xjdnF2YmM5UlNRT0RRa0ZXNElHUmc4TUpHTGfSAbMBQVVfeXFMTl9TVWhPNWdRVTRCSU1CVVJZN1lJQjBCek9zTU5EaXpvSDdZWlRtSmFFMG5mRzUzbnBkZHFJUTFYNldIRV9MZ3c3dTREcjEzcDVQelRxa0w5VlozWU1KT01pazlJUFRaaGt5OFhBM0lfQ2NNRXZYdU56YXZSLS1PcUY5RXFBVXFSaXctaDh3VHRvQU1qcFpaeVF4ZnhKaWpxVHZMa1JzTHN1RVZWQzFpS3ZWd28?oc=5",
-      "image_url": "https://img.gercekgundem.com/rcman/Cw1280h720q95gc/storage/files/images/2026/08/10/gazeteci-burhan-can-terzi-gozaltina-alindi-olad.jpg",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": "verified_portrait",
-      "transfer_status": "reported"
-    },
-    {
-      "id": 35,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [
-        "Vlahovic"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Penaltı” 🗣️Deniz Çoban: “Penaltı",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 36,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [
-        "Vlahovic"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Penaltı” 🗣️Fırat Aydınus: “Penaltı",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 37,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [
-        "Vlahovic"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Penaltı” 🗣️Erman Toroğlu: “Penaltı",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 38,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-04",
-      "team": "Beşiktaş",
-      "players": [
-        "Vlahovic"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Penaltı” 🗣️Fırat Aydınus: “Penaltı” 🗣️Ahmet Çakar: “Penaltı” 🗣️Erman Toroğlu: “Penaltı” #Beşiktaş #duhuliye #haber1903",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52czdoR2xhY1RBSnd0SWRQQ2ZxRFBFT1VUN2VYVWlRNXI3RHFDbFBBQVQzM0dtYWpIZGJQR2l3OW1jeElQU2s5Z042bnl1YTFpWHc?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 39,
-      "commentator": "firat-aydinus",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT21YUnJJYkNMeW0zbUlQR3pCM1R3MHp2UDVDc2FZN0VtcjdzcVRva0pSMzlwQnUxZnVvaEJKUDJUMXhvNGl2U1VqLXdKNllrbFJZcy1IcXE5XzRYQWdfVWdqb0FVM2dfR29vMHl6Y2RPNTJ0dnNYWjNDRGhfeDNDaWNwOEYtNGNDZmwxanhCSDJCenNSYldFVnVmYk50eDRpZFl2ajVPWllYS25WRWY4?oc=5",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "article_explicit_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.gzt.com/spor/nihat-kahveci-basaksehir-galatasaray-macini-yorumladi-4257902",
+        "context": "Nihat Kahveci, \"Torreira’da gol. Bir gol bir asist. Torreira’da hafif düşüş var. Torreira gitmek istiyor. Ya Torreira’sız olmaz demiyor muyum ben burada ya? Ya düşsün biraz. Abdülkerim ile yarışıyor. En çok kim oynayacak 5. Sezonla beraber diye. Adam makine ya. Üç günde bir maç oynuyor. Şimdi bunu dedik diye sakatlanır bir şey olur.\"",
+        "published_at": "2026-09-05T00:21:34+03:00"
+      },
       "image_kind": "verified_portrait"
-    },
-    {
-      "id": 42,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray’ı farklı kılan eleştiri!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 43,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Avrupa için lig feda edilmeyecek!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 44,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Göztepe’nin beklentisi transferden vazgeçirdi!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 45,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray Torreira",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 46,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bak Serdar Ali Çelikler!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 47,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray B Planı Olamaz!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 48,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 49,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Eleştiriler medyanın cilvesi!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 50,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Astrolojiye ilgi duyuyorum!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 51,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İspanya turnuva boyunca hükmetti!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 52,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Gönlüm İspanya’dan yana!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 53,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İspanya, sahanın her noktasını domine etti!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 54,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Sergen Yalçın’ı Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 55,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Cem Papila olayı, ‘Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 56,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bu saatten sonra yöneticilik değil, Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 57,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray’ı farklı kılan eleştiri!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 58,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Avrupa için lig feda edilmeyecek!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 59,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Göztepe’nin beklentisi transferden vazgeçirdi!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 60,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray Torreira",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 61,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bak Serdar Ali Çelikler!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 62,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray B Planı Olamaz!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 63,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 64,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Eleştiriler medyanın cilvesi!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 65,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Astrolojiye ilgi duyuyorum!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 66,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İspanya turnuva boyunca hükmetti!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 67,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Gönlüm İspanya’dan yana!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 68,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İspanya, sahanın her noktasını domine etti!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 69,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Sergen Yalçın’ı Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 70,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Cem Papila olayı, ‘Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 71,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-04",
-      "team": "Galatasaray",
-      "players": [
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Torreira",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bu saatten sonra yöneticilik değil, Beşiktaş",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 72,
-      "commentator": "emre-ozcan",
-      "date": "2026-09-04T16:04:04+00:00",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Ümit Akta yine Galatasaray ve Fenerbahçe için daha öncelikli bir transfer gibi gözüküyordu.",
-      "source": "Socrates",
-      "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
-      "image_url": null,
-      "confidence": 96,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 73,
-      "commentator": "emre-ozcan",
-      "date": "2026-09-04T16:04:04+00:00",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Birçok Galatasaray ve Fenerbahçe taraftarı biz niye Ümit Akty'ı almadık diye zaten dünden beri yazıyorlar.",
-      "source": "Socrates",
-      "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
-      "image_url": null,
-      "confidence": 96,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 80,
-      "commentator": "emre-ozcan",
-      "date": "2026-09-02T11:39:01+00:00",
-      "team": null,
-      "players": [
-        "Kerem",
-        "Oğuz Aydın",
-        "Muriqi"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "İşte Kerem'in yaşadığı bir kafa travması, sonrasında 2 maçı kaçırması, Oğuz Aydın'ın orada bulduğu Lyon maçı fırsatı, o maçta kilidi açan golde yaptığı katkı, sol kenardan Muriqi'e taşıdı.",
-      "source": "Socrates",
-      "url": "https://www.youtube.com/watch?v=Thwh6EP_27k",
-      "image_url": null,
-      "confidence": 96,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 81,
-      "commentator": "emre-ozcan",
-      "date": "2026-09-02T11:39:01+00:00",
-      "team": null,
-      "players": [
-        "Muriqi"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Bu maçta sol kenardan Muriqi'e ışık gönderdiği top ve yani 2 maçta da 1 gol 2 asist.",
-      "source": "Socrates",
-      "url": "https://www.youtube.com/watch?v=Thwh6EP_27k",
-      "image_url": null,
-      "confidence": 96,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 102,
-      "commentator": "serdar-ali-celikler",
-      "date": "2026-09-02T15:30:29+00:00",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Tahmin",
-      "type": "prediction",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Fenerbahçe'nin iyi bir planlama yapmadığının altını çizerek Şampiyonlar Ligi fikstürünü ver kardeşim.",
-      "source": "VOLE / NEO Spor",
-      "url": "https://www.youtube.com/watch?v=Z7JdY0OQvNQ",
-      "image_url": null,
-      "confidence": 96,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 103,
-      "commentator": "sansal-buyuka",
-      "date": "2026-09-04",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Lütfen Alkışlamayın – Safiye Ayla ve Komando",
-      "source": "CNBC-e · Saha ve Ötesi",
-      "url": "https://www.cnbce.com/tv/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-v29828",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "confidence": 100,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": "verified_portrait"
-    },
-    {
-      "id": 106,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Okanball değil, Osiball var!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 107,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Transfer obezliğinin zirvesindeyiz!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 108,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Tuchel artık sahaya dokunmalı!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 109,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Kenan Yıldız çok mütevazı",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 110,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Okanball değil, Osiball var!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 111,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Transfer",
-      "type": "transfer",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Transfer obezliğinin zirvesindeyiz!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null,
-      "transfer_status": "reported"
-    },
-    {
-      "id": 112,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Tuchel artık sahaya dokunmalı!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 113,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Kenan Yıldız çok mütevazı",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 114,
-      "commentator": "ali-naci-kucuk",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Tahmin",
-      "type": "prediction",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Galatasaray 45-50 milyon Euro'ya çıktı, Perşembe akşamı belli olacak",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWkZsSXNQdkxja0VLcHVCdF9WZVkybDRuVFRvZlpyNXVETTAwRno5RDRnb0NBS3NIalN3NUd5LVNaczQwZ3B5blZkLUE2VE5IWmU2SUZxSnNpNVRIc3FvUjNxYmdTS0tQM2haWl9LS1RNRnBqVVQ3VTFzRXV4OU1DTVd0WWp0RkZHa1dqZXNBYVhXbk9BR3RUSGFraXYwLVZrdUY5WmZoWEtubGZQY0lN0gG0AUFVX3lxTE5SMzRSaE5BbGhmQ1FObUhkV1hDSVVzQ1dyNmR3Qmk4dUlTeFJJVjRwZXREQ2NOcmdwcDlQN3NCR05CUkJnMDY3UEFackp1QnRWenI3RlZOR3BFWEhROTlpR1pWSHJvVjI0S3VPZmZmNUZnTWNqWXUyckZDMlN6c3d0X20wdDF0Z0IwNWx6d2N3XzRfWEpQdDJtcFhqTXBTQ1dOZFl5X2lSbVZpQldVUFNfTzIxNg?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 116,
-      "commentator": "kaya-temel",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Galatasaray'da Bir Yıldız Daha İnebilir!",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUmdzS0F0YmUtbHEwRWVIWWE5V1A1a3VzSWkySWFSWld6S1lBMnBIUGV3MnQ4bGU5Wm9tekh1ZXp4VDA5MXV1YjdGaHlYX19PYzVmR21sNktObGlaWkk2cWpSSGRiZ013d1VZOXhRVEd5b2NJQkk0dE1VMUFIUEdUR0Q5S242eVlTR0hXZWJQQmhNbTJ6SUNkMU1yVmkxbjFLRUZaOVNDREdBTVAwMG15bWlrdXBObkxsQ3BqUzV3?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 117,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-05",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Beşiktaş resmen doğrandı. Bu kadar olmaz.",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DM0VPb2NNd0lHMEVaejA2TFc0VWJGc3hNbXdibzlNNEs2dkJlazhGckg3cDVZSWU3NV9xbEc4T3R0b2ZnWm4tUE9URGI0UFpwSUE?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 118,
-      "commentator": "bunyamin-gezer",
-      "date": "2026-09-05",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Beşiktaş resmen doğrandı.",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DM0VPb2NNd0lHMEVaejA2TFc0VWJGc3hNbXdibzlNNEs2dkJlazhGckg3cDVZSWU3NV9xbEc4T3R0b2ZnWm4tUE9URGI0UFpwSUE?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 119,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "TFF’nin atamaları masum değil!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 120,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "TFF’nin atamaları masum değil!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 121,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Pres yoksa Galatasaray yok!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 122,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Pres yoksa Galatasaray yok!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 123,
-      "commentator": "ibrahim-seten",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 124,
-      "commentator": "yagiz-sabuncuoglu",
-      "date": "2026-09-05",
-      "team": "Galatasaray",
-      "players": [
-        "Osimhen",
-        "Talisca",
-        "Greenwood",
-        "Asensio",
-        "Batrakov",
-        "Guendouzi",
-        "Leao",
-        "Onuachu"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
-      "source": "343 Digital",
-      "url": "https://343digital.com/kategori/video",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
-    },
-    {
-      "id": 131,
-      "commentator": "semih-sezerli",
-      "date": "2026-09-05",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "’Fenerbahçe’nin uluslararası bir gürültüye ihtiyacı vardı",
-      "source": "Google News RSS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON25uaTZ2QmtsUGZsYlVPVV82a3lqektHSEdCWUo5WnRwTmhrR0R2RkJudHdiN3hBVnY5Y3FJT1JOS0dQOU03MzJMSXVodGRFRlVEWGkwdjIxZlZEX0FPYkZYT2JJV3ZOd2tkUGVGbDB1U2JxQTY5d3dUc3pzb0tqQU9ObzZJRGFqMUZuYU9vRVJkZmJLaG5yUWtISE1HSERlZWllVDhMM1pydFR0ZXIwdzMtb2JZRUhZQnBpNDRSM1pieGZr?oc=5",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "image_kind": null
     }
   ],
   "matches": [
@@ -9148,79 +7064,447 @@
   ],
   "players": [
     {
-      "id": "asensio",
-      "name": "Asensio",
-      "comment_count": 46
-    },
-    {
-      "id": "baris-alper",
-      "name": "Barış Alper",
-      "comment_count": 1
-    },
-    {
-      "id": "batrakov",
-      "name": "Batrakov",
-      "comment_count": 44
-    },
-    {
-      "id": "greenwood",
-      "name": "Greenwood",
-      "comment_count": 45
-    },
-    {
-      "id": "guendouzi",
-      "name": "Guendouzi",
-      "comment_count": 45
-    },
-    {
-      "id": "kerem",
-      "name": "Kerem",
-      "comment_count": 1
-    },
-    {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 46
-    },
-    {
-      "id": "muriqi",
-      "name": "Muriqi",
-      "comment_count": 2
-    },
-    {
-      "id": "onuachu",
-      "name": "Onuachu",
-      "comment_count": 45
+      "comment_count": 1
     },
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 19
-    },
-    {
-      "id": "oguz-aydin",
-      "name": "Oğuz Aydın",
       "comment_count": 1
-    },
-    {
-      "id": "sane",
-      "name": "Sane",
-      "comment_count": 1
-    },
-    {
-      "id": "talisca",
-      "name": "Talisca",
-      "comment_count": 44
     },
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 31
+      "comment_count": 1
+    }
+  ],
+  "publications": [
+    {
+      "id": "youtube-uN0f93laEiU",
+      "title": "🔴 CANLI | Fenerbahçe - Beşiktaş Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=uN0f93laEiU",
+      "date": "2026-09-05T10:29:19+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
     },
     {
-      "id": "vlahovic",
-      "name": "Vlahovic",
-      "comment_count": 4
+      "id": "youtube-Uo7OwzBY8Qc",
+      "title": "🔴 CANLI | Fenerbahçe - Beşiktaş Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=Uo7OwzBY8Qc",
+      "date": "2026-09-05T10:28:02+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-b2zqymU6faM",
+      "title": "Nihat Kahveci: Sporting'e karşı Osimhen sakat değilse oynar. Okan Buruk, Yunus Akgün'ü de kesmez.",
+      "url": "https://www.youtube.com/watch?v=b2zqymU6faM",
+      "date": "2026-09-05T08:23:04+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Osimhen",
+        "Yunus Akgün"
+      ]
+    },
+    {
+      "id": "youtube-JZVZQyuzGrE",
+      "title": "🔴 CANLI | Başakşehir - Galatasaray Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=JZVZQyuzGrE",
+      "date": "2026-09-04T21:10:37+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-4Sj580ack2A",
+      "title": "Nihat Kahveci: Torreira; makine gibi, 3 günde bir maç oynuyor.",
+      "url": "https://www.youtube.com/watch?v=4Sj580ack2A",
+      "date": "2026-09-04T20:38:19+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Torreira"
+      ]
+    },
+    {
+      "id": "youtube-3Upb5KgujYM",
+      "title": "Nihat Kahveci: Batrakov, maçın her anındaydı. Daha da iyi olacak.",
+      "url": "https://www.youtube.com/watch?v=3Upb5KgujYM",
+      "date": "2026-09-04T20:23:04+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Batrakov"
+      ]
+    },
+    {
+      "id": "youtube-_vJ5oQFYGrc",
+      "title": "Nihat Kahveci: İlk 33 dakikada; Osimhen oyundayken 11 kez ceza sahasına giren Galatasaray...",
+      "url": "https://www.youtube.com/watch?v=_vJ5oQFYGrc",
+      "date": "2026-09-04T19:56:40+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Osimhen"
+      ]
+    },
+    {
+      "id": "youtube-tjQcSgrEEhM",
+      "title": "Nihat Kahveci: Rafael Leao'nun aç bir şekilde oynayacağını ve Galatasaray'a da çok katkı...",
+      "url": "https://www.youtube.com/watch?v=tjQcSgrEEhM",
+      "date": "2026-09-04T19:28:47+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Leao"
+      ]
+    },
+    {
+      "id": "youtube-14CxLn8JlK8",
+      "title": "🚨 UNITED SECRET IDEA, BARÇA STRIKER OFFERED, BENZEMA FREE, LAMINE GAME OVER, THE SPECIAL CLAUSE…",
+      "url": "https://www.youtube.com/watch?v=14CxLn8JlK8",
+      "date": "2026-09-04T17:59:23+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-VlAEwwE2ZrI",
+      "title": "⚫⚪ Ümit Akdağ & Beşiktaş | Emre Özcan | Atıf Bey Sokak",
+      "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
+      "date": "2026-09-04T16:04:04+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-gw4Fo-guKhc",
+      "title": "Erman Özgür: Selçuk Hoca'nın kariyer başlangıcını Okan Hoca'nın kariyer başlangıcına benzetiyorum.",
+      "url": "https://www.youtube.com/watch?v=gw4Fo-guKhc",
+      "date": "2026-09-04T14:29:34+00:00",
+      "source": "Tivibu Spor · Orta Nokta",
+      "platform": "YouTube",
+      "commentators": [
+        "erman-ozgur"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-5v6QG89PaKw",
+      "title": "Nihat Kahveci: Avrupa'daki rakiplerimiz kim olursa olsun kadrolarımıza bakarken çekinecekler...",
+      "url": "https://www.youtube.com/watch?v=5v6QG89PaKw",
+      "date": "2026-09-03T15:30:14+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-jv0gFbeUxvs",
+      "title": "Nihat Kahveci: Güzel bir kapışma olacak gol krallığında da. Açıldılar ama bir Onuachu gelemedi daha.",
+      "url": "https://www.youtube.com/watch?v=jv0gFbeUxvs",
+      "date": "2026-09-03T08:46:14+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Onuachu"
+      ]
+    },
+    {
+      "id": "youtube-UJx7sknsllg",
+      "title": "Osimhen, Rafael Leao’yu oynatır | Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=UJx7sknsllg",
+      "date": "2026-09-02T16:15:37+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": [
+        "Osimhen",
+        "Leao"
+      ]
+    },
+    {
+      "id": "youtube-Iab6WxCVIBA",
+      "title": "Erkeklerin girdiği pozlardan çıkmak için yakın arkadaşlarına ihtiyacı var | Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=Iab6WxCVIBA",
+      "date": "2026-09-02T16:00:16+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Z7JdY0OQvNQ",
+      "title": "Fenerbahçe'nin yaptığı kadro planlaması bu sezon için yeterli mi? w/ Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=Z7JdY0OQvNQ",
+      "date": "2026-09-02T15:30:29+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-WMf3vo592pM",
+      "title": "Nihat Kahveci: Beşiktaş, Eyüpspor maçında cila gibi bastı, pozisyon vermedi ama...",
+      "url": "https://www.youtube.com/watch?v=WMf3vo592pM",
+      "date": "2026-09-02T14:30:08+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-rVUZP5jvb3I",
+      "title": "💭 Hayalin peşinden gitmek… | Emre Özcan | Tardini Büfe",
+      "url": "https://www.youtube.com/watch?v=rVUZP5jvb3I",
+      "date": "2026-09-02T13:00:10+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Thwh6EP_27k",
+      "title": "🪽 Oğuz Aydın Faktörü | Emre Özcan | Tardini Büfe",
+      "url": "https://www.youtube.com/watch?v=Thwh6EP_27k",
+      "date": "2026-09-02T11:39:01+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan"
+      ],
+      "players": [
+        "Oğuz Aydın"
+      ]
+    },
+    {
+      "id": "youtube-Gmco8kTMpQU",
+      "title": "Nihat Kahveci: Beşiktaş, Avrupa Ligi'ni alırsa 50 forma hediye edeceğim.",
+      "url": "https://www.youtube.com/watch?v=Gmco8kTMpQU",
+      "date": "2026-09-02T10:40:10+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-U9YENDZ1b9w",
+      "title": "🚨🤯 CRAZY! THREE DEALS OFF! CHELSEA DRAMA! TWO WITH THE SAME CLUB! UNITED STOP! ZIRKZEE, LAMINE…",
+      "url": "https://www.youtube.com/watch?v=U9YENDZ1b9w",
+      "date": "2026-09-02T01:32:04+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-kpSpwOYw4N8",
+      "title": "🚨💣 RECORD DEAL! CHELSEA FOR THREE! BALDE-UNITED AND LIVERPOOL DECISION! ENZO, JULIÁN, SARR, GUSTO…",
+      "url": "https://www.youtube.com/watch?v=kpSpwOYw4N8",
+      "date": "2026-09-01T16:34:06+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-869f6thX5J8",
+      "title": "🚨💣 BOMBA! JULIÁN DECISION! ENZO DAY! CHELSEA BID IN! €45M! ALL DEADLINE MOVEMENTS AND MORE…",
+      "url": "https://www.youtube.com/watch?v=869f6thX5J8",
+      "date": "2026-09-01T10:45:06+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-UBbI2K7J-d4",
+      "title": "🚨💣 CRAZY NIGHT! DOUBLE DEAL DONE! £75M! UNITED: TWO OUT! GITTENS, MUDRYK, GREALISH, BALDE, MAATSEN..",
+      "url": "https://www.youtube.com/watch?v=UBbI2K7J-d4",
+      "date": "2026-08-31T23:01:57+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-No4Vd1I_mlc",
+      "title": "🚨💣 DEADLINE BOMBAZO! HIJACK DONE! ENZO, KONE, TWO DEALS IN ONE, MALICK FOFANA, MUDRYK, SANCHEZ…",
+      "url": "https://www.youtube.com/watch?v=No4Vd1I_mlc",
+      "date": "2026-08-31T20:40:10+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-c-90sY2Oxmk",
+      "title": "🚨 TRANSFER UPDATES LIVE: ALL THE LATESTS!",
+      "url": "https://www.youtube.com/watch?v=c-90sY2Oxmk",
+      "date": "2026-08-31T19:55:09+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-URO-JbW8YFI",
+      "title": "🚨💣 BOMBAS! DEAL OFF! ENZO BOOM! KONE, LAMINE, WOLTEMADE, NDIAYE, GAKPO, BARÇA X2, PARDO, GREALISH…",
+      "url": "https://www.youtube.com/watch?v=URO-JbW8YFI",
+      "date": "2026-08-31T16:52:11+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-6vGx1G2MIm8",
+      "title": "🚨 TRANSFER UPDATES LIVE: ALL THE LATESTS!",
+      "url": "https://www.youtube.com/watch?v=6vGx1G2MIm8",
+      "date": "2026-08-31T16:36:25+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-a1NlTD7QOzg",
+      "title": "🚨 TRANSFER UPDATES LIVE: ALL THE LATESTS!",
+      "url": "https://www.youtube.com/watch?v=a1NlTD7QOzg",
+      "date": "2026-08-31T15:12:39+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-z7DoNd5-Ihg",
+      "title": "🚨💣 FOUR STRIKERS! JULIÁN PLAN! WOLTEMADE, BENZEMA FREE, MACALLISTER, DAVID, UNITED, BALDE, MUDRYK…",
+      "url": "https://www.youtube.com/watch?v=z7DoNd5-Ihg",
+      "date": "2026-08-31T06:28:13+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-IFXG1UZZKsk",
+      "title": "🚨💣 CRAZY HOURS! LAMINE, ENZO, UNITED EXIT OFF, GAKPO, NDIAYE, ISMAILA SARR, GABRIEL DONE, HONEST…",
+      "url": "https://www.youtube.com/watch?v=IFXG1UZZKsk",
+      "date": "2026-08-31T00:28:00+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-OXMOb72Gln8",
+      "title": "🚨💣 BOMBA BARÇA! JULIÁN PLAN! SWAP DEAL: LAST ONE! ARSENAL AND LIVERPOOL NEWS! SARR ON! NDIAYE…",
+      "url": "https://www.youtube.com/watch?v=OXMOb72Gln8",
+      "date": "2026-08-30T16:49:43+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-YhRmHJ9sHeM",
+      "title": "🚨💣 JULIÁN CALLS! ENZO OUT! UNITED: MAATSEN, STRIKER, BALDE SWAP TRUTH! CHELSEA: TWO LEAVING…",
+      "url": "https://www.youtube.com/watch?v=YhRmHJ9sHeM",
+      "date": "2026-08-30T07:00:33+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-gsMjCQLRl18",
+      "title": "🚨💣 HIJACK DONE! BARÇA SWAP TRUTH! THREE LEAVING! CASADÒ, LAUTARO, SARR DEAL AGREED, DAVID…",
+      "url": "https://www.youtube.com/watch?v=gsMjCQLRl18",
+      "date": "2026-08-29T23:44:14+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
     }
   ]
 }

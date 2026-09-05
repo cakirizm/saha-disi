@@ -5,7 +5,9 @@
       "name": "Kontraspor - Nihat Kahveci",
       "kind": "html_index",
       "url": "https://kontraspor.com/haberleri/nihat-kahveci",
-      "commentators": ["nihat-kahveci"],
+      "commentators": [
+        "nihat-kahveci"
+      ],
       "trust": 95
     },
     {
@@ -13,7 +15,9 @@
       "name": "A Spor - Ahmet Çakar",
       "kind": "html_index",
       "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv",
-      "commentators": ["ahmet-cakar"],
+      "commentators": [
+        "ahmet-cakar"
+      ],
       "trust": 100
     },
     {
@@ -21,7 +25,12 @@
       "name": "Beyaz Futbol",
       "kind": "html_index",
       "url": "https://www.beyaztv.com.tr/program/beyaz-futbol/",
-      "commentators": ["ahmet-cakar", "sinan-engin", "abdulkerim-durmaz", "necati-ates"],
+      "commentators": [
+        "ahmet-cakar",
+        "sinan-engin",
+        "abdulkerim-durmaz",
+        "necati-ates"
+      ],
       "trust": 95
     },
     {
@@ -29,7 +38,11 @@
       "name": "Socrates",
       "kind": "youtube_index",
       "url": "https://www.youtube.com/@SocratesDergi",
-      "commentators": ["emre-ozcan", "erman-yasar", "caner-eler"],
+      "commentators": [
+        "emre-ozcan",
+        "erman-yasar",
+        "caner-eler"
+      ],
       "trust": 95
     },
     {
@@ -37,7 +50,10 @@
       "name": "343 Digital",
       "kind": "html_index",
       "url": "https://343digital.com/kategori/video",
-      "commentators": ["ibrahim-seten", "yagiz-sabuncuoglu"],
+      "commentators": [
+        "ibrahim-seten",
+        "yagiz-sabuncuoglu"
+      ],
       "trust": 95
     },
     {
@@ -45,7 +61,9 @@
       "name": "CNBC-e · Saha ve Ötesi",
       "kind": "html_index",
       "url": "https://www.cnbce.com/programlar/sansal-buyuka-ile-saha-ve-otesi-pazartesi-2300",
-      "commentators": ["sansal-buyuka"],
+      "commentators": [
+        "sansal-buyuka"
+      ],
       "trust": 100
     },
     {
@@ -54,7 +72,9 @@
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@TivibuSporTurkTelekom",
       "channel_id": "UCzzylIZKbeIDhohxAaQFy1Q",
-      "commentators": ["erman-ozgur"],
+      "commentators": [
+        "erman-ozgur"
+      ],
       "trust": 95
     },
     {
@@ -62,7 +82,9 @@
       "name": "TRT Spor · Stadyum",
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@trtspor",
-      "commentators": ["ogun-temizkanoglu"],
+      "commentators": [
+        "ogun-temizkanoglu"
+      ],
       "trust": 100
     },
     {
@@ -70,7 +92,9 @@
       "name": "Uğur Karakullukçu",
       "kind": "html_index",
       "url": "https://www.ugurkarakullukcu.com/",
-      "commentators": ["ugur-karakullukcu"],
+      "commentators": [
+        "ugur-karakullukcu"
+      ],
       "trust": 100
     },
     {
@@ -78,7 +102,10 @@
       "name": "beIN SPORTS Türkiye",
       "kind": "html_index",
       "url": "https://beinsports.com.tr/",
-      "commentators": ["ugur-meleke", "guntekin-onay"],
+      "commentators": [
+        "ugur-meleke",
+        "guntekin-onay"
+      ],
       "trust": 100
     },
     {
@@ -86,7 +113,65 @@
       "name": "VOLE / NEO Spor",
       "kind": "youtube_search",
       "url": "https://www.youtube.com/@VOLEapp",
-      "commentators": ["serdar-ali-celikler", "ali-ece", "metin-tekin"],
+      "commentators": [
+        "serdar-ali-celikler",
+        "ali-ece",
+        "metin-tekin"
+      ],
+      "trust": 95
+    },
+    {
+      "id": "sports-digitale",
+      "name": "Sports Digitale",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@SportsDigitale",
+      "commentators": [
+        "yagiz-sabuncuoglu",
+        "ertan-suzgun"
+      ],
+      "trust": 95
+    },
+    {
+      "id": "kontraspor-youtube",
+      "name": "Kontraspor",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@kontraspor",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "trust": 95
+    },
+    {
+      "id": "romano-youtube",
+      "name": "Fabrizio Romano",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@FabrizioRomanoYT",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "personal_channel": true,
+      "trust": 95
+    },
+    {
+      "id": "gzt-nihat-match",
+      "name": "GZT / Kontraspor",
+      "kind": "article",
+      "url": "https://www.gzt.com/spor/nihat-kahveci-basaksehir-galatasaray-macini-yorumladi-4257902",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "trust": 95
+    },
+    {
+      "id": "gzt-futbol",
+      "name": "GZT",
+      "kind": "html_index",
+      "url": "https://www.gzt.com/futbol",
+      "commentators": [
+        "nihat-kahveci",
+        "ugur-meleke",
+        "ridvan-dilmen"
+      ],
       "trust": 95
     }
   ]

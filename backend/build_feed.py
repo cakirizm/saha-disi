@@ -7,7 +7,8 @@ from __future__ import annotations
 import json, re
 from datetime import datetime, timezone
 from pathlib import Path
-from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff
+from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
+from collector_v3 import PLAYERS, TEAMS
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 # Continue from the last published feed so verified history never disappears when
@@ -162,8 +163,22 @@ def strip_headline_suffix(value):
         text=re.sub(r"\s*[-–]\s*[^-–]{2,32}$",'',text).strip(' “”"\'')
     return text
 
+quarantine_path=B/'quarantined_statements.json'
+quarantine=json.loads(quarantine_path.read_text(encoding='utf-8')) if quarantine_path.exists() else []
+quarantine_by_key={(s.get('commentator'),s.get('summary'),s.get('url')):s for s in quarantine}
+candidate_evidence={(c.get('commentator'),clean_summary(c.get('summary_candidate','')).casefold()):c.get('evidence') for c in candidates if c.get('evidence')}
 deduped=[];seen_norm=set()
 for s in seed.get('statements',[]):
+    key=(s.get('commentator'),clean_summary(s.get('summary','')).casefold())
+    if key in candidate_evidence:s['evidence']=candidate_evidence[key]
+    reason=publication_problem(s)
+    if reason:
+        quarantine_by_key[(s.get('commentator'),s.get('summary'),s.get('url'))]={**s,'review_reason':reason}
+        continue
+    # Repair historical page-wide tags; only the actual statement supplies entities.
+    s['players']=mentioned_entities(s.get('summary',''),PLAYERS)
+    teams=mentioned_entities(s.get('summary',''),TEAMS)
+    s['team']=canonical(teams[0]) if len(teams)==1 else None
     s['image_url']=statement_image(s,photo_by_commentator)
     s['image_kind']='verified_portrait' if s['image_url'] else None
     if s.get('type')=='transfer':
@@ -176,6 +191,7 @@ for s in seed.get('statements',[]):
     if key in seen_norm:continue
     seen_norm.add(key);deduped.append(s)
 seed['statements']=deduped
+quarantine_path.write_text(json.dumps(list(quarantine_by_key.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 
 counts={}
 for s in seed.get('statements',[]):counts[s['commentator']]=counts.get(s['commentator'],0)+1
@@ -196,6 +212,8 @@ for key,name in sorted(mentioned.items(),key=lambda item:item[1].casefold()):
     row['comment_count']=sum(1 for s in seed.get('statements',[]) if any(str(p).casefold()==key for p in s.get('players',[])))
     players.append(row)
 seed['players']=players
+publication_path=B/'source_publications.json'
+seed['publications']=json.loads(publication_path.read_text(encoding='utf-8')) if publication_path.exists() else []
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')

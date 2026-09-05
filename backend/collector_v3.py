@@ -16,7 +16,7 @@ UA='Mozilla/5.0 (compatible; SahaDisiCollector/2.1; literal-quote-indexer)'
 ROSTER=json.loads((B/'commentator_roster.json').read_text(encoding='utf-8'))
 PEOPLE=[(cid,name) for cid,name,_ in ROSTER]; COMMENTATORS={cid:name for cid,name in PEOPLE}
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
-PLAYERS=['Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
+PLAYERS=['Kenan Yıldız','Gabriel Sara','Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
 QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
 BAD_MARKERS=('eleştirdi','yorumladı','değerlendirdi','açıkladı','söyledi','ifade etti','konuştu','övdü','sert dille','çarpıcı sözler','flaş sözler')
 
@@ -63,7 +63,8 @@ def fetch(url):
  with urlopen(req,timeout=12) as r:return decode_body(r.read(),r.headers.get('Content-Type',''))
 def parse(doc):p=Parser();p.feed(doc);return p
 def tags(text,items):
- low=text.casefold();return [x for x in items if x.casefold() in low]
+ from feed_quality import mentioned_entities
+ return mentioned_entities(text,items)
 def classify(s):
  l=s.casefold();typ='opinion';topic='Genel yorum';sent='neutral';strength=6
  if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','mükemmel','harika']):sent='positive'
@@ -84,6 +85,7 @@ def direct_sources():
   {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen'},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke'}]
 def discover(src,limit=3):
+ if src.get('article'):return [(src['url'],'')]
  doc=fetch(src['url'])
  if '<rss' in doc[:700].lower() or '<feed' in doc[:700].lower():
   root=ET.fromstring(doc);out=[]
@@ -123,10 +125,20 @@ def candidate_rows(text,src,url,image_url=None):
   rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':None,'confidence':src['trust'],'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
  return rows
 def extract(url,src,hint=''):
+ from article_content import article_content, attributed_quotes
+ if re.search(r'/(kategori|category|etiket|tag|search)(/|$)',urlparse(url).path) or urlparse(url).netloc=='news.google.com':return []
  try:
-  doc=fetch(url);p=parse(doc);text=' '.join(p.text);image=urljoin(url,p.images[0]) if p.images else None
+  doc=fetch(url);text,published=article_content(doc)
  except Exception:return []
- return candidate_rows(text+' '+hint,src,url,image)
+ if not text or not published:return []
+ rows=[]
+ for quote,context in attributed_quotes(text,COMMENTATORS[src['cid']]):
+  found=candidate_rows(COMMENTATORS[src['cid']]+': "'+quote+'"',src,url)
+  for row in found:
+   row['published_at']=published
+   row['evidence']={'version':2,'method':'article_explicit_speaker','speaker_id':src['cid'],'url':url,'context':context,'published_at':published}
+  rows.extend(found[:1])
+ return rows
 def process_source(src):
  rows=[];err=None
  try:

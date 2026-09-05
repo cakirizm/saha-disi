@@ -6,20 +6,33 @@ struct FeedPayload: Codable {
     let statements: [Statement]
     let matches: [Match]?
     let players: [PlayerProfile]?
+    let publications: [SourcePublication]
 
     enum CodingKeys: String, CodingKey {
         case generatedAt = "generated_at"
-        case commentators, statements, matches, players
+        case commentators, statements, matches, players, publications
     }
 
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         generatedAt = try values.decodeIfPresent(String.self, forKey: .generatedAt) ?? ""
         commentators = try values.decodeIfPresent([Commentator].self, forKey: .commentators) ?? []
-        statements = try values.decodeIfPresent([Statement].self, forKey: .statements) ?? []
+        statements = (try values.decodeIfPresent([Statement].self, forKey: .statements) ?? []).filter(\.canPublish)
         matches = try values.decodeIfPresent([Match].self, forKey: .matches) ?? []
         players = try values.decodeIfPresent([PlayerProfile].self, forKey: .players) ?? []
+        publications = try values.decodeIfPresent([SourcePublication].self, forKey: .publications) ?? []
     }
+}
+
+struct SourcePublication: Codable, Identifiable, Hashable {
+    let id: String
+    let title: String
+    let url: String
+    let date: String
+    let source: String
+    let platform: String
+    let commentators: [String]
+    let players: [String]
 }
 
 struct Commentator: Codable, Identifiable, Hashable {
@@ -46,6 +59,17 @@ struct Commentator: Codable, Identifiable, Hashable {
     }
 }
 
+struct StatementEvidence: Codable, Hashable {
+    let version: Int
+    let method: String
+    let speakerID: String
+    let url: String
+    enum CodingKeys: String, CodingKey {
+        case version, method, url
+        case speakerID = "speaker_id"
+    }
+}
+
 struct Statement: Codable, Identifiable, Hashable {
     let id: Int
     let commentator: String
@@ -64,12 +88,14 @@ struct Statement: Codable, Identifiable, Hashable {
     let matchId: String?
     let predictionOutcome: String?
     let imageURL: String?
+    let evidence: StatementEvidence?
 
     enum CodingKeys: String, CodingKey {
         case id, commentator, date, team, players, topic, type, sentiment, strength, summary, source, url, confidence, status
         case matchId = "match_id"
         case predictionOutcome = "prediction_outcome"
         case imageURL = "image_url"
+        case evidence
     }
 
     init(from decoder: Decoder) throws {
@@ -91,10 +117,19 @@ struct Statement: Codable, Identifiable, Hashable {
         matchId = try values.decodeIfPresent(String.self, forKey: .matchId)
         predictionOutcome = try values.decodeIfPresent(String.self, forKey: .predictionOutcome)
         imageURL = nil // Commentary artwork comes from the verified commentator identity.
+        evidence = try values.decodeIfPresent(StatementEvidence.self, forKey: .evidence)
     }
 }
 
 extension Statement {
+    var canPublish: Bool {
+        guard let sourceURL = URL(string: url), sourceURL.scheme == "https", sourceURL.host != "news.google.com", !date.isEmpty else { return false }
+        let parts = sourceURL.pathComponents
+        guard !parts.contains(where: { ["kategori", "category", "etiket", "tag", "search"].contains($0) }), parts.count > 1 else { return false }
+        if status == "verified_manual" { return true }
+        return evidence?.version == 2 && evidence?.speakerID == commentator && evidence?.url == url &&
+            ["article_explicit_speaker", "official_api_author_match"].contains(evidence?.method ?? "")
+    }
     /// Kaynak bir video mu yoksa yazılı haber mi? Yönlendirme metnini buna göre seçiyoruz.
     var isVideoSource: Bool {
         let u = url.lowercased()

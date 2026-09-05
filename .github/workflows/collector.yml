@@ -125,7 +125,7 @@ jobs:
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json backend/collector_state.json
-          git add backend/fixture_health.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
+          git add backend/source_publications.json backend/quarantined_statements.json backend/fixture_health.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
           else

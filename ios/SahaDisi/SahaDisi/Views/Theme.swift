@@ -161,7 +161,7 @@ struct StatementSocialBar: View {
             }
             Spacer()
         }
-        .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted)
+        .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1)
         .buttonStyle(.plain)
         .sheet(isPresented: $showingComments) {
             NavigationStack {
@@ -192,6 +192,34 @@ struct RankBar: View {
             Text(name).font(.subheadline.weight(.semibold)).lineLimit(1).frame(width: 120, alignment: .leading)
             GeometryReader { proxy in Capsule().fill(Color.white.opacity(0.06)).overlay(alignment: .leading) { Capsule().fill(SDTheme.accent).frame(width: max(8, proxy.size.width * CGFloat(count) / CGFloat(max(1, maxCount)))) } }.frame(height: 6)
             Text("\(count)").font(.subheadline.bold()).frame(width: 28, alignment: .trailing)
-        }.frame(height: 28)
+        }.frame(height: 44).contentShape(Rectangle())
+    }
+}
+
+struct PublicationList: View {
+    let items: [SourcePublication]
+    var body: some View {
+        if !items.isEmpty {
+            VStack(alignment: .leading, spacing: 12) {
+                Text("Yorumcu ve Muhabir Yayınları").font(.title3.bold())
+                Text("Program ve video başlıkları · tamamını kaynağında izle").font(.caption).foregroundStyle(SDTheme.muted)
+                ForEach(items) { item in
+                    if let url = URL(string: item.url) {
+                        Link(destination: url) {
+                            HStack(alignment: .top, spacing: 12) {
+                                Image(systemName: "play.rectangle.fill").foregroundStyle(SDTheme.accent)
+                                VStack(alignment: .leading, spacing: 6) {
+                                    Text(item.title).font(.subheadline.bold()).multilineTextAlignment(.leading)
+                                    Text("\(item.source) · \(item.platform) · \(SDDate.text(item.date))")
+                                        .font(.caption2).foregroundStyle(SDTheme.muted)
+                                }
+                                Spacer(minLength: 0)
+                                Image(systemName: "arrow.up.right").font(.caption)
+                            }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 14))
+                        }.buttonStyle(.plain)
+                    }
+                }
+            }
+        }
     }
 }

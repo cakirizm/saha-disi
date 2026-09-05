@@ -100,13 +100,19 @@ def transcript_quotes(text):
     return out[:10]
 
 def youtube_rows(source,seen):
-    entries,error=youtube_entries(source);rows=[];processed=[]
+    entries,error=youtube_entries(source);rows=[];processed=[];publications=[]
     mapped=source.get('commentators') or []
     for video in entries:
-        if video['id'] in seen:continue
-        doc=video_document(video['id']);context=norm(video['title'])
+        context=norm(video['title'])
         speakers=[cid for cid in mapped if norm(COMMENTATORS.get(cid,'')) in context]
+        if source.get('personal_channel') and len(mapped)==1:speakers=mapped
+        if speakers:
+            publications.append({'id':'youtube-'+video['id'],'title':video['title'],'url':'https://www.youtube.com/watch?v='+video['id'],
+                                 'date':video['published_at'],'source':source['name'],'platform':'YouTube','commentators':speakers,
+                                 'players':tags(video['title'],PLAYERS)})
+        if video['id'] in seen:continue
         if len(speakers)!=1:continue
+        doc=video_document(video['id'])
         cid=speakers[0];text=transcript(doc,video['id'])
         if not text:continue
         url='https://www.youtube.com/watch?v='+video['id']
@@ -116,14 +122,14 @@ def youtube_rows(source,seen):
             digest=hashlib.sha256(f'{cid}|{quote.casefold()}'.encode()).hexdigest()[:20]
             rows.append({'candidate_id':digest,'commentator':cid,'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sentiment,'strength':strength,'source':source['name'],'url':url,'image_url':None,'confidence':80,'direct_quote':False,'published_at':video['published_at'],'discovered_at':datetime.now(timezone.utc).isoformat(),'resolver':'youtube_caption_requires_speaker_review'})
         processed.append(video['id'])
-    return rows,processed,{'source':source['name'],'kind':'youtube','items':len(entries),'new_videos':len(processed),'candidates':len(rows),'ok':error is None,'error':error}
+    return rows,processed,{'source':source['name'],'kind':'youtube','items':len(entries),'publications':len(publications),'new_videos':len(processed),'candidates':len(rows),'ok':error is None,'error':error},publications
 
 def configured_html_sources():
     out=[]
     for src in CONFIG:
-        if src.get('kind')!='html_index':continue
+        if src.get('kind') not in {'html_index','article'}:continue
         for cid in src.get('commentators') or []:
-            out.append({'url':src['url'],'source':src['name'],'trust':src.get('trust',95),'cid':cid})
+            out.append({'url':src['url'],'source':src['name'],'trust':src.get('trust',95),'cid':cid,'article':src.get('kind')=='article'})
     return out
 
 def platform_discovery(cid):
@@ -132,11 +138,11 @@ def platform_discovery(cid):
             ('agency_discovery','site:aa.com.tr OR site:dha.com.tr OR site:iha.com.tr OR site:reuters.com')]
     for kind,sites in groups:
         query='"'+COMMENTATORS[cid]+'" ('+sites+') when:14d'
-        yield {'url':'https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'tr','gl':'TR','ceid':'TR:tr'}),
+        yield {'url':'https://www.bing.com/search?'+urllib.parse.urlencode({'q':query.replace(' when:14d',''),'format':'rss'}),
                'source':kind,'trust':80,'cid':cid,'rss':True}
 
 def run():
-    state=load_state();seen=set(state.get('seen_videos',[]));rows=[];health=[];processed=[]
+    state=load_state();seen=set(state.get('seen_videos',[]));rows=[];health=[];processed=[];publications=[]
     youtube=[s for s in CONFIG if s.get('kind','').startswith('youtube')]
     article_sources=direct_sources()+configured_html_sources()
     existing={(x['url'],x['cid']) for x in article_sources};article_sources=[x for i,x in enumerate(article_sources) if (x['url'],x['cid']) not in {(y['url'],y['cid']) for y in article_sources[:i]}]
@@ -159,7 +165,8 @@ def run():
         for src in youtube:jobs.append(('youtube',pool.submit(youtube_rows,src,seen),src))
         for kind,future,src in jobs:
             try:
-                if kind=='youtube':found,done,status=future.result();processed.extend(done);health.append(status)
+                if kind=='youtube':
+                    found,done,status,items=future.result();processed.extend(done);health.append(status);publications.extend(items)
                 else:found,status=future.result();status['kind']=kind;health.append(status)
                 rows.extend(found)
             except Exception as exc:health.append({'source':src.get('name') or src.get('source'),'kind':kind,'candidates':0,'ok':False,'error':str(exc)[:180]})
@@ -168,6 +175,10 @@ def run():
     unique.update({x['candidate_id']:x for x in social})
     STATE_PATH.write_text(json.dumps({'updated_at':datetime.now(timezone.utc).isoformat(),'roster_cursor':(cursor+30)%max(len(PEOPLE),1),'seen_videos':list(dict.fromkeys(state.get('seen_videos',[])+processed))[-3000:]},ensure_ascii=False,indent=2),encoding='utf-8')
     (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2),encoding='utf-8')
+    publication_path=B/'source_publications.json'
+    old=json.loads(publication_path.read_text(encoding='utf-8')) if publication_path.exists() else []
+    combined={p['id']:p for p in old+publications}
+    publication_path.write_text(json.dumps(sorted(combined.values(),key=lambda p:p['date'],reverse=True)[:300],ensure_ascii=False,indent=2),encoding='utf-8')
     totals={'sources':len(health),'successful':sum(x.get('ok',False) for x in health),'youtube_sources':len(youtube),'new_videos':len(processed),'candidates':len(unique)}
     (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'totals':totals,'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')
     print('collector v4',totals)

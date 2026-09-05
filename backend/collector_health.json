@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T14:26:33.129115+00:00",
+  "generated_at": "2026-09-05T14:28:54.226818+00:00",
   "tracked_commentators": 207,
   "totals": {
-    "sources": 125,
-    "successful": 123,
-    "youtube_sources": 4,
+    "sources": 132,
+    "successful": 129,
+    "youtube_sources": 7,
     "new_videos": 0,
-    "candidates": 10
+    "candidates": 2
   },
   "sources": [
     {
@@ -93,8 +93,8 @@
       "commentator": "sansal-buyuka",
       "source": "CNBC-e · Saha ve Ötesi",
       "candidates": 0,
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>",
       "kind": "web"
     },
     {
@@ -116,6 +116,38 @@
     {
       "commentator": "guntekin-onay",
       "source": "beIN SPORTS Türkiye",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "GZT / Kontraspor",
+      "candidates": 2,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "GZT",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ugur-meleke",
+      "source": "GZT",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ridvan-dilmen",
+      "source": "GZT",
       "candidates": 0,
       "ok": true,
       "error": null,
@@ -364,7 +396,7 @@
     {
       "commentator": "yagiz-sabuncuoglu",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -468,7 +500,7 @@
     {
       "commentator": "safa-kaan-ozturk",
       "source": "social_discovery",
-      "candidates": 2,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "discovery"
@@ -532,7 +564,7 @@
     {
       "commentator": "sinan-yilmaz",
       "source": "social_discovery",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "discovery"
@@ -548,7 +580,7 @@
     {
       "commentator": "suat-umurhan",
       "source": "social_discovery",
-      "candidates": 3,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "discovery"
@@ -692,7 +724,7 @@
     {
       "commentator": "erhan-telli",
       "source": "social_discovery",
-      "candidates": 2,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "discovery"
@@ -804,7 +836,7 @@
     {
       "commentator": "serdar-kelleci",
       "source": "social_discovery",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "discovery"
@@ -965,6 +997,7 @@
       "source": "Socrates",
       "kind": "youtube",
       "items": 15,
+      "publications": 3,
       "new_videos": 0,
       "candidates": 0,
       "ok": true,
@@ -974,6 +1007,7 @@
       "source": "Tivibu Spor · Orta Nokta",
       "kind": "youtube",
       "items": 15,
+      "publications": 1,
       "new_videos": 0,
       "candidates": 0,
       "ok": true,
@@ -983,6 +1017,7 @@
       "source": "TRT Spor · Stadyum",
       "kind": "youtube",
       "items": 15,
+      "publications": 0,
       "new_videos": 0,
       "candidates": 0,
       "ok": true,
@@ -992,6 +1027,37 @@
       "source": "VOLE / NEO Spor",
       "kind": "youtube",
       "items": 15,
+      "publications": 3,
+      "new_videos": 0,
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "Sports Digitale",
+      "kind": "youtube",
+      "items": 15,
+      "publications": 0,
+      "new_videos": 0,
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "Kontraspor",
+      "kind": "youtube",
+      "items": 15,
+      "publications": 12,
+      "new_videos": 0,
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "Fabrizio Romano",
+      "kind": "youtube",
+      "items": 15,
+      "publications": 15,
       "new_videos": 0,
       "candidates": 0,
       "ok": true,
