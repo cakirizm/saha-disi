@@ -19,8 +19,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: saha-disi-live-feed-v2
-  cancel-in-progress: true
+  # Shared with the final-audit workflow so the two never publish at the same
+  # time and race each other's push. Queue instead of cancelling.
+  group: saha-disi-publish
+  cancel-in-progress: false
 
 jobs:
   collect:
@@ -120,8 +122,10 @@ jobs:
           else
             git commit -m 'data: refresh verified live feed'
             n=0
-            until git pull --rebase --autostash origin main && git push origin main; do
-              n=$((n+1)); if [ $n -ge 5 ]; then echo "push failed after $n attempts"; exit 1; fi
-              echo "push race, retry $n"; sleep 6
+            while true; do
+              git rebase --abort 2>/dev/null || true
+              if git pull --rebase -X theirs --autostash origin main && git push origin main; then break; fi
+              n=$((n+1)); if [ $n -ge 6 ]; then echo "publish failed after $n attempts"; exit 1; fi
+              echo "push race, retry $n"; sleep 5
             done
           fi
