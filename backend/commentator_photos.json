@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:04:47.363900+00:00",
+  "generated_at": "2026-09-05T23:06:06.102416+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -170,6 +170,13 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoSource": "https://tr.wikipedia.org/wiki/F%C4%B1rat_Ayd%C4%B1nus",
       "resolvedTitle": "Fırat Aydınus",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "bunyamin-gezer": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bunyamin_gezer.jpg/960px-Bunyamin_gezer.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/B%C3%BCnyamin_Gezer",
+      "resolvedTitle": "Bünyamin Gezer",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
