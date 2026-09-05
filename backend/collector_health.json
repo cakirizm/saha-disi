@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T10:22:20.623651+00:00",
+  "generated_at": "2026-09-05T10:26:46.932670+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
-    "successful": 77,
+    "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
     "candidates": 56
@@ -21,16 +21,16 @@
       "commentator": "ahmet-cakar",
       "source": "A Spor",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 403: Forbidden",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "levent-tuzemen",
       "source": "A Spor",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 403: Forbidden",
+      "candidates": 1,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
