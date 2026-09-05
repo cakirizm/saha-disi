@@ -140,6 +140,39 @@ final class AppStore: ObservableObject {
         (payload?.statements ?? []).sorted { $0.date > $1.date }
     }
 
+    /// Feed items grouped by shared stance (topic + team + sentiment). A bucket
+    /// with 2+ distinct commentators becomes a cluster (one strongest statement
+    /// per commentator); everything else stays as individual single-item groups.
+    var groupedFeed: [StatementGroup] {
+        var order: [String] = []
+        var buckets: [String: [Statement]] = [:]
+        for s in latestStatements {
+            let team = s.team.map(canonicalTeam) ?? "—"
+            let key = "\(s.topic)||\(team)||\(s.sentiment)"
+            if buckets[key] == nil { order.append(key) }
+            buckets[key, default: []].append(s)
+        }
+        func byStrength(_ a: Statement, _ b: Statement) -> Bool {
+            a.strength == b.strength ? a.date > b.date : a.strength > b.strength
+        }
+        var result: [StatementGroup] = []
+        for key in order {
+            let sorted = buckets[key]!.sorted(by: byStrength)
+            var seen = Set<String>()
+            var perCommentator: [Statement] = []
+            for s in sorted where seen.insert(s.commentator).inserted { perCommentator.append(s) }
+            if perCommentator.count >= 2 {
+                let lead = perCommentator[0]
+                result.append(StatementGroup(id: key, topic: lead.topic, team: lead.team, sentiment: lead.sentiment, statements: perCommentator))
+            } else {
+                for s in sorted {
+                    result.append(StatementGroup(id: "single-\(s.id)", topic: s.topic, team: s.team, sentiment: s.sentiment, statements: [s]))
+                }
+            }
+        }
+        return result.sorted { $0.date > $1.date }
+    }
+
     func canonicalTeam(_ value: String) -> String {
         let key = value.trimmingCharacters(in: .whitespacesAndNewlines).lowercased(with: Locale(identifier: "tr_TR"))
         let aliases: [String:String] = [

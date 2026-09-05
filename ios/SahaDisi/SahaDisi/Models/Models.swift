@@ -109,6 +109,21 @@ extension Statement {
     }
 }
 
+/// A cluster of statements where several commentators share the same stance
+/// (same topic + team + sentiment). Deduped to one statement per commentator.
+struct StatementGroup: Identifiable, Hashable {
+    let id: String
+    let topic: String
+    let team: String?
+    let sentiment: String
+    let statements: [Statement]
+
+    var lead: Statement { statements[0] }
+    var commentatorCount: Int { Set(statements.map(\.commentator)).count }
+    var isCluster: Bool { statements.count >= 2 }
+    var date: String { statements.map(\.date).max() ?? "" }
+}
+
 struct Match: Codable, Identifiable, Hashable {
     let id: String
     let league: String

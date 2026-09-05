@@ -128,8 +128,12 @@ struct HomeView: View {
     private var latestFeed: some View {
         VStack(alignment: .leading, spacing: 10) {
             header("Son Yorumlar", trailing: "Canlı")
-            ForEach(store.latestStatements.prefix(12)) { statement in
-                StatementTweetCard(statement: statement)
+            ForEach(store.groupedFeed.prefix(12)) { group in
+                if group.isCluster {
+                    StatementGroupCard(group: group)
+                } else {
+                    StatementTweetCard(statement: group.lead)
+                }
             }
         }
     }
@@ -282,6 +286,58 @@ struct StatementTweetCard: View {
         }
         .padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
+    }
+}
+
+func sentimentText(_ value: String) -> String {
+    value == "positive" ? "Olumlu" : value == "negative" ? "Eleştirel" : "Nötr"
+}
+func sentimentColor(_ value: String) -> Color {
+    value == "positive" ? SDTheme.green : value == "negative" ? SDTheme.red : SDTheme.muted
+}
+
+/// Feed card standing in for several commentators who share the same stance.
+/// Tapping opens the swipeable per-commentator breakdown.
+struct StatementGroupCard: View {
+    @EnvironmentObject var store: AppStore
+    let group: StatementGroup
+    private var shown: [Statement] { Array(group.statements.prefix(4)) }
+
+    var body: some View {
+        NavigationLink { StatementGroupDetailView(group: group) } label: {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(spacing: 10) {
+                    ZStack(alignment: .leading) {
+                        ForEach(Array(shown.enumerated()), id: \.element.id) { i, s in
+                            let c = store.commentator(id: s.commentator)
+                            AvatarView(text: c?.avatar ?? "?", size: 34, photoURL: c?.photoURL)
+                                .overlay(Circle().stroke(SDTheme.panel, lineWidth: 2))
+                                .offset(x: CGFloat(i) * 21)
+                        }
+                    }
+                    .frame(width: CGFloat(shown.count - 1) * 21 + 34, height: 34, alignment: .leading)
+                    Text("\(group.commentatorCount) yorumcu aynı görüşte")
+                        .font(.subheadline.bold())
+                    Spacer()
+                    Image(systemName: "chevron.right").font(.caption.bold()).foregroundStyle(SDTheme.muted)
+                }
+                Text("“\(group.lead.summary)”")
+                    .font(.body.weight(.medium)).lineSpacing(4).lineLimit(4)
+                    .fixedSize(horizontal: false, vertical: true)
+                HStack(spacing: 6) {
+                    TagPill(text: group.topic)
+                    if let team = group.team { TagPill(text: team) }
+                    Spacer()
+                    Text(sentimentText(group.sentiment))
+                        .font(.caption2.weight(.bold)).foregroundStyle(sentimentColor(group.sentiment))
+                }
+            }
+            .padding(14)
+            .background(SDTheme.panel)
+            .overlay(alignment: .leading) { Rectangle().fill(SDTheme.accent).frame(width: 3) }
+            .clipShape(RoundedRectangle(cornerRadius: 16))
+            .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
+        }.buttonStyle(.plain)
     }
 }
 
