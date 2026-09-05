@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T11:46:48.615980+00:00",
+  "generated_at": "2026-09-05T11:50:19.646658+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
-    "successful": 75,
+    "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
     "candidates": 58
@@ -188,7 +188,7 @@
     {
       "commentator": "ali-naci-kucuk",
       "source": "Google News RSS",
-      "candidates": 2,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -612,30 +612,38 @@
     {
       "source": "Socrates",
       "kind": "youtube",
+      "items": 15,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "error": null
     },
     {
       "source": "Tivibu Spor · Orta Nokta",
       "kind": "youtube",
+      "items": 15,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "error": null
     },
     {
       "source": "TRT Spor · Stadyum",
       "kind": "youtube",
+      "items": 15,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "error": null
     },
     {
       "source": "VOLE / NEO Spor",
       "kind": "youtube",
+      "items": 15,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests"
+      "ok": true,
+      "error": null
     }
   ]
 }
