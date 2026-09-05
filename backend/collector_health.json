@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T13:26:13.233458+00:00",
+  "generated_at": "2026-09-05T13:38:52.687351+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
     "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
-    "candidates": 58
+    "candidates": 61
   },
   "sources": [
     {
@@ -188,7 +188,7 @@
     {
       "commentator": "ali-naci-kucuk",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 2,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -236,7 +236,7 @@
     {
       "commentator": "semih-sezerli",
       "source": "Google News RSS",
-      "candidates": 1,
+      "candidates": 2,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -252,7 +252,7 @@
     {
       "commentator": "turgay-demir",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
