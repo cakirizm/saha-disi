@@ -7,6 +7,7 @@ from __future__ import annotations
 import json, re
 from datetime import datetime, timezone
 from pathlib import Path
+from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 # Continue from the last published feed so verified history never disappears when
@@ -65,18 +66,24 @@ tff=[]
 try:tff=json.loads((B/'tff_matches.json').read_text(encoding='utf-8'))
 except Exception:pass
 matches={}
+official_scores=set()
 for m in seed.get('matches',[]):
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));matches[fixture_key(row)]=row
 for m in tff:
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
-    base=dict(matches.get(key,{}));base.update({k:v for k,v in row.items() if v not in ('',None)});base.setdefault('home_score',None);base.setdefault('away_score',None);matches[key]=base
+    base=merge_fixture(matches.get(key,{}),row);base.setdefault('home_score',None);base.setdefault('away_score',None);matches[key]=base
+    if row.get('home_score') is not None and row.get('away_score') is not None:official_scores.add(key)
 
 overrides=[]
 try:overrides=json.loads((B/'fixture_overrides.json').read_text(encoding='utf-8'))
 except Exception:pass
 for m in overrides:
     row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
-    base=dict(matches.get(key,{}));base.update(row);base.setdefault('image_url',None);matches[key]=base
+    base=merge_fixture(matches.get(key,{}),row,fallback=True)
+    # Explicit, sourced corrections may replace stale data; schedule fallbacks may not.
+    if key not in official_scores and row.get('verified_at') and row.get('source_url'):
+        base=merge_fixture(base,row)
+    base.setdefault('image_url',None);matches[key]=base
 
 for row in matches.values():
     # Keep the API shape stable while TFF kickoff dates are still unannounced.
@@ -84,6 +91,8 @@ for row in matches.values():
     row.setdefault('kickoff','')
     row.setdefault('league','Trendyol Süper Lig')
     row.setdefault('week',0)
+    row['kickoff']=normalize_kickoff(row['kickoff'])
+    row['status']=match_status(row)
 seed['matches']=sorted(matches.values(),key=lambda x:(int(x.get('week') or 0),x.get('kickoff',''),x.get('home','')))
 
 logos={}
@@ -155,9 +164,11 @@ def strip_headline_suffix(value):
 
 deduped=[];seen_norm=set()
 for s in seed.get('statements',[]):
+    s['image_url']=statement_image(s,photo_by_commentator)
+    s['image_kind']='verified_portrait' if s['image_url'] else None
+    if s.get('type')=='transfer':
+        s['transfer_status']='reported'
     s['source']=SOURCE_RENAME.get(str(s.get('source','')).strip(),s.get('source'))
-    if s.get('image_url') and any(host in s['image_url'] for host in LOGO_IMAGE_HOSTS):
-        s['image_url']=None
     if s.get('source') in HEADLINE_SOURCES:
         cleaned=strip_headline_suffix(s.get('summary',''))
         if len(cleaned)>=20:s['summary']=cleaned

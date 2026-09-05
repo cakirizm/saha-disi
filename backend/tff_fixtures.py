@@ -6,6 +6,7 @@ import html, json, re, unicodedata
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
+from datetime import datetime, timezone
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 URLS=['https://www.tff.org/default.aspx?pageID=198','https://www.tff.org/default.aspx?ftxt=1&pageID=198']
@@ -113,7 +114,9 @@ def main():
             rows=parse(fetch(url))
             if len(rows)>len(best):best=rows
         except Exception as e:errors.append(str(e)[:100])
-    rows=best if healthy(best) else old
+    fresh=healthy(best)
+    rows=best if fresh else old
+    (B/'fixture_health.json').write_text(json.dumps({'checked_at':datetime.now(timezone.utc).isoformat(),'source':'TFF','ok':fresh,'using_cache':not fresh,'parsed_matches':len(best),'errors':errors},ensure_ascii=False,indent=2),encoding='utf-8')
     p.write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
     print('tff matches',len(rows),'weeks',len(set(x.get('week') for x in rows)),'best_parse',len(best),'healthy',healthy(best),'errors',errors)
 

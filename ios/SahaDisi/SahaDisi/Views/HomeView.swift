@@ -104,7 +104,7 @@ struct HomeView: View {
     }
     private func heroSubline(_ m: Match) -> String {
         let count = store.statements(matchID: m.id).count
-        let scoreText = (m.homeScore != nil && m.awayScore != nil) ? "\(m.homeScore!)-\(m.awayScore!)" : "vs"
+        let scoreText = m.scoreText
         return "\(m.home) \(scoreText) \(m.away) · \(count) doğrulanmış yorum"
     }
 
@@ -195,7 +195,7 @@ struct HomeView: View {
         let color = s.predictionOutcome == "correct" ? SDTheme.green : (s.predictionOutcome == "wrong" ? SDTheme.red : SDTheme.accent)
         return Text(text).font(.caption2.black()).padding(.horizontal, 7).padding(.vertical, 4).background(color.opacity(0.15)).foregroundStyle(color).clipShape(RoundedRectangle(cornerRadius: 5))
     }
-    private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "vs" }
+    private func score(_ m: Match) -> String { m.scoreText }
     private func header(_ title: String, trailing: String) -> some View { HStack { Text(title).font(.title3.bold()); Spacer(); Text(trailing).font(.caption).foregroundStyle(SDTheme.accent) } }
 }
 
@@ -278,7 +278,7 @@ struct StatementTweetCard: View {
                         }
                     }
                     Text("“\(statement.summary)”").font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
-                    if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
+                    if let imageURL = commentator?.photoURL, let url = URL(string: imageURL) {
                         AsyncImage(url: url) { phase in
                             if case .success(let image) = phase { image.resizable().scaledToFill() }
                             else { Rectangle().fill(SDTheme.panel2) }
@@ -287,6 +287,7 @@ struct StatementTweetCard: View {
                     HStack(spacing: 6) {
                         TagPill(text: statement.topic)
                         if let team = statement.team { TagPill(text: team) }
+                        if statement.type == "transfer" { TagPill(text: "Transfer iddiası") }
                     }
                 }
             }.buttonStyle(.plain)

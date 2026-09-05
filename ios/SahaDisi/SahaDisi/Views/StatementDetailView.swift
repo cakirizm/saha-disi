@@ -36,7 +36,7 @@ struct StatementDetailView: View {
                         .lineSpacing(6).fixedSize(horizontal: false, vertical: true)
                 }
 
-                if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
+                if let imageURL = store.commentator(id: statement.commentator)?.photoURL, let url = URL(string: imageURL) {
                     AsyncImage(url: url) { phase in
                         if case .success(let image) = phase {
                             image.resizable().scaledToFill()
@@ -49,6 +49,10 @@ struct StatementDetailView: View {
                 }
 
                 HStack { TagPill(text: statement.topic); if let team = statement.team { TagPill(text: team) } }
+                if statement.type == "transfer" {
+                    Text("Muhabirin aktarımıdır. Kulübün resmî duyurusu olmadan kesinleşmiş transfer sayılmaz.")
+                        .font(.caption).foregroundStyle(SDTheme.muted)
+                }
                 Divider().overlay(SDTheme.line)
                 StatementSocialBar(statement: statement)
                 Divider().overlay(SDTheme.line)

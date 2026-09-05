@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:26:27.038359+00:00",
+  "generated_at": "2026-09-05T14:04:33.727051+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -649,6 +649,17 @@
       "photoURL": null
     },
     {
+      "id": "david-ornstein",
+      "name": "David Ornstein",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "DO",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "deniz-ates-bitnel",
       "name": "Deniz Ateş Bitnel",
       "role": "Futbol yorumcusu / muhabir",
@@ -905,6 +916,17 @@
       "photoURL": null
     },
     {
+      "id": "fabrizio-romano",
+      "name": "Fabrizio Romano",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "FR",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "fatih-dogan",
       "name": "Fatih Doğan",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -958,6 +980,17 @@
       "avatar": "FG",
       "focusTeams": [
         "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "gianluca-di-marzio",
+      "name": "Gianluca Di Marzio",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GDM",
+      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -2289,11 +2322,12 @@
       "summary": "G.Saray, asla tat vermiyor. Osimhen dışında çabalayan, takımı ateşleyen bir oyuncu yok.",
       "source": "Fotomaç / Sabah",
       "url": "https://www.fotomac.com.tr/galatasaray/2026/08/30/ahmet-cakar-galatasaray-goztepe-macini-yorumladi",
-      "image_url": null,
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
       "confidence": 100,
       "status": "verified_manual",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 2,
@@ -2308,11 +2342,12 @@
       "summary": "İddia ediyorum dört büyük arasında en iyi futbolu oynayan takım Fenerbahçe.",
       "source": "A Spor / Sabah",
       "url": "https://www.aspor.com.tr/fenerbahce/2026/08/31/ahmet-cakar-samsunspor-fenerbahce-macindaki-tartismali-pozisyonlari-yorumladi",
-      "image_url": null,
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
       "confidence": 100,
       "status": "verified_manual",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 3,
@@ -2327,11 +2362,12 @@
       "summary": "Yasin Kol, inanılmaz kötü bir maç yönetti.",
       "source": "A Spor / Sabah",
       "url": "https://www.aspor.com.tr/fenerbahce/2026/08/31/ahmet-cakar-samsunspor-fenerbahce-macindaki-tartismali-pozisyonlari-yorumladi",
-      "image_url": null,
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
       "confidence": 100,
       "status": "verified_manual",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 4,
@@ -2346,11 +2382,12 @@
       "summary": "Sezon başı rotasyon hem çok tehlikeli hem de çok anlamsız geliyor bana.",
       "source": "A Spor / Sabah",
       "url": "https://www.aspor.com.tr/fenerbahce/2026/08/16/ahmet-cakar-genclerbirligi-fenerbahce-macindaki-penalti-pozisyonunu-yorumladi",
-      "image_url": null,
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
       "confidence": 100,
       "status": "verified_manual",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 5,
@@ -2371,11 +2408,12 @@
       "summary": "Torreira'yı tehdit eden kişi tutuklanmış!",
       "source": "A Spor",
       "url": "https://www.aspor.com.tr/futbol",
-      "image_url": "https://iaaspr.tmgrup.com.tr/27eb94/1200/675/0/0/864/486?u=https://iaspr.tmgrup.com.tr/2026/09/04/ziraat-turkiye-kupasi-1-eleme-turu-maclarinin-programi-aciklandi-1788528736750.jpeg",
+      "image_url": null,
       "confidence": 100,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 6,
@@ -2394,7 +2432,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 7,
@@ -2413,7 +2452,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 9,
@@ -2432,7 +2472,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 10,
@@ -2453,7 +2494,9 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 11,
@@ -2468,11 +2511,12 @@
       "summary": "Onu alan şampiyon olur",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajByckp1SEdhblpZcTB5YWhvUmNOWXBOUldnVk9mNVVZRHU3LXl5LVg4cUhUeFV1WmpHb2pNSUljV3g1UndXaVB0RmVFV0VxRGo4THpEUWFZTWVrT09NLUlVel9BVkVBSFktREdMdnhGYXl2YnJIRnhEVUdCQWxndUNGMUlDVzU2dVBlbHJIMmlndVJWSWQzWk44TUR6VkFycWdrN2VqV1ZsOEl6eDZJSGx4NA?oc=5",
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 12,
@@ -2487,11 +2531,12 @@
       "summary": "Şerefsizlere Bak Nasıl Saldırmışlar!",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTVpSl95T2M5T2sxV1ZrSGJ2dzZyVENjaWp2b0hqT094cHpDM3RkM2F2ellXS3RJS2tzY2JoNVhkQjBQbExhWXN1cnhHazNaeUFLWENwaXZzUTNsZEc2QjhPSk1Uank4bEczSV9rM2xmUkNaQ2NDamNfN0hlSzQyWjBaVXRhM2g0bTJaSUs4dFhCNU9VUmc1RFZ4S2h0Z0p4d3JQRGp1WVlzSHZDYUxncDZUWGpXY1BSM1BaZ0l4M011SkU?oc=5",
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sinan_Engin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 13,
@@ -2510,7 +2555,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 15,
@@ -2527,11 +2573,12 @@
       "summary": "Sınıfta kaldı\" Uğur Meleke'den çarpıcı değerlendirme!",
       "source": "beIN SPORTS",
       "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
+      "image_url": null,
       "confidence": 100,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 16,
@@ -2548,11 +2595,12 @@
       "summary": "Uğur Meleke'den çarpıcı değerlendirme!",
       "source": "beIN SPORTS",
       "url": "https://beinsports.com.tr/yazarlar/ugurmeleke/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi",
-      "image_url": "https://media05.ligtv.com.tr/img/news/2024/10/08/ugur-melekeden-carpici-degerlendirme-sinifta-kaldi/748_416/meleke.jpeg",
+      "image_url": null,
       "confidence": 100,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 17,
@@ -2573,7 +2621,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 18,
@@ -2592,7 +2641,9 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 19,
@@ -2611,7 +2662,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 20,
@@ -2633,7 +2685,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 21,
@@ -2652,7 +2705,9 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 22,
@@ -2673,7 +2728,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 24,
@@ -2692,7 +2748,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 26,
@@ -2713,7 +2770,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 27,
@@ -2732,7 +2790,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 28,
@@ -2751,7 +2810,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 29,
@@ -2770,7 +2830,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 30,
@@ -2789,7 +2850,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 31,
@@ -2804,11 +2866,12 @@
       "summary": "Hakemlik adına çok ayıp",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yTmw1MEE2bkZiMUVHaEI5bmpOM3VLV3Q1Zjlyenh6VnBFaFJCZjNhTkE4YXZGbEZGbFJjU2dTblQ1aXBPeWFOZ01BSlZ3TFEyOV8xTHRHcmt4QWgtanM5TGM0Rm9PTlUwMWxKdE5Jb0lGUFUyR2Rva2YwZHVOQQ?oc=5",
-      "image_url": null,
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 32,
@@ -2829,7 +2892,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 33,
@@ -2844,11 +2908,13 @@
       "summary": "Dursun Özbek kafaya takmış durumda, transfer etmek için bekliyor",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPenNHUGRnX2V0el95T3FCOVNCLTB4Z1lCaWtpeDVTc0RJVk9kOVViblBTdHpDZkpUSVVOQlE1WjlPT1FkQ0JEZDVWNkxyLUtScF9BaHB0cWVwYXJ4SDNYWjQ4SzJiV3hrZ1l4dU96QmNTTWNFaTlkUTBfR3BES3VGcTZ1ekcyRy1FUUFKdWdvM1F6S2xjdnF2YmM5UlNRT0RRa0ZXNElHUmc4TUpHTGfSAbMBQVVfeXFMTl9TVWhPNWdRVTRCSU1CVVJZN1lJQjBCek9zTU5EaXpvSDdZWlRtSmFFMG5mRzUzbnBkZHFJUTFYNldIRV9MZ3c3dTREcjEzcDVQelRxa0w5VlozWU1KT01pazlJUFRaaGt5OFhBM0lfQ2NNRXZYdU56YXZSLS1PcUY5RXFBVXFSaXctaDh3VHRvQU1qcFpaeVF4ZnhKaWpxVHZMa1JzTHN1RVZWQzFpS3ZWd28?oc=5",
-      "image_url": null,
+      "image_url": "https://img.gercekgundem.com/rcman/Cw1280h720q95gc/storage/files/images/2026/08/10/gazeteci-burhan-can-terzi-gozaltina-alindi-olad.jpg",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait",
+      "transfer_status": "reported"
     },
     {
       "id": 35,
@@ -2869,7 +2935,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 36,
@@ -2890,7 +2957,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 37,
@@ -2911,7 +2979,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 38,
@@ -2932,7 +3001,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 39,
@@ -2947,11 +3017,12 @@
       "summary": "Fenerbahçe - Beşiktaş derbisi için o hakemi çağırır, yönet derim!",
       "source": "Google News RSS",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT21YUnJJYkNMeW0zbUlQR3pCM1R3MHp2UDVDc2FZN0VtcjdzcVRva0pSMzlwQnUxZnVvaEJKUDJUMXhvNGl2U1VqLXdKNllrbFJZcy1IcXE5XzRYQWdfVWdqb0FVM2dfR29vMHl6Y2RPNTJ0dnNYWjNDRGhfeDNDaWNwOEYtNGNDZmwxanhCSDJCenNSYldFVnVmYk50eDRpZFl2ajVPWllYS25WRWY4?oc=5",
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 42,
@@ -2975,11 +3046,12 @@
       "summary": "Galatasaray’ı farklı kılan eleştiri!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 43,
@@ -3003,11 +3075,12 @@
       "summary": "Avrupa için lig feda edilmeyecek!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 44,
@@ -3031,11 +3104,13 @@
       "summary": "Göztepe’nin beklentisi transferden vazgeçirdi!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 45,
@@ -3059,11 +3134,12 @@
       "summary": "Galatasaray Torreira",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 46,
@@ -3087,11 +3163,12 @@
       "summary": "Bak Serdar Ali Çelikler!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 47,
@@ -3115,11 +3192,12 @@
       "summary": "Galatasaray B Planı Olamaz!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 48,
@@ -3143,11 +3221,13 @@
       "summary": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 49,
@@ -3171,11 +3251,12 @@
       "summary": "Eleştiriler medyanın cilvesi!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 50,
@@ -3199,11 +3280,12 @@
       "summary": "Astrolojiye ilgi duyuyorum!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 51,
@@ -3227,11 +3309,12 @@
       "summary": "İspanya turnuva boyunca hükmetti!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 52,
@@ -3255,11 +3338,12 @@
       "summary": "Gönlüm İspanya’dan yana!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 53,
@@ -3283,11 +3367,12 @@
       "summary": "İspanya, sahanın her noktasını domine etti!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 54,
@@ -3311,11 +3396,12 @@
       "summary": "Sergen Yalçın’ı Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 55,
@@ -3339,11 +3425,12 @@
       "summary": "Cem Papila olayı, ‘Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 56,
@@ -3367,11 +3454,12 @@
       "summary": "Bu saatten sonra yöneticilik değil, Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 57,
@@ -3395,11 +3483,12 @@
       "summary": "Galatasaray’ı farklı kılan eleştiri!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 58,
@@ -3423,11 +3512,12 @@
       "summary": "Avrupa için lig feda edilmeyecek!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 59,
@@ -3451,11 +3541,13 @@
       "summary": "Göztepe’nin beklentisi transferden vazgeçirdi!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 60,
@@ -3479,11 +3571,12 @@
       "summary": "Galatasaray Torreira",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 61,
@@ -3507,11 +3600,12 @@
       "summary": "Bak Serdar Ali Çelikler!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 62,
@@ -3535,11 +3629,12 @@
       "summary": "Galatasaray B Planı Olamaz!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 63,
@@ -3563,11 +3658,13 @@
       "summary": "Dev” atak!” | bihaber Özel haberler, transfer gelişmeleri, teyitler ve yalanlamalar… Fenerbahçe ve Galatasaray",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 64,
@@ -3591,11 +3688,12 @@
       "summary": "Eleştiriler medyanın cilvesi!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 65,
@@ -3619,11 +3717,12 @@
       "summary": "Astrolojiye ilgi duyuyorum!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 66,
@@ -3647,11 +3746,12 @@
       "summary": "İspanya turnuva boyunca hükmetti!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 67,
@@ -3675,11 +3775,12 @@
       "summary": "Gönlüm İspanya’dan yana!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 68,
@@ -3703,11 +3804,12 @@
       "summary": "İspanya, sahanın her noktasını domine etti!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 69,
@@ -3731,11 +3833,12 @@
       "summary": "Sergen Yalçın’ı Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 70,
@@ -3759,11 +3862,12 @@
       "summary": "Cem Papila olayı, ‘Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 71,
@@ -3787,11 +3891,12 @@
       "summary": "Bu saatten sonra yöneticilik değil, Beşiktaş",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 72,
@@ -3806,11 +3911,13 @@
       "summary": "Ümit Akta yine Galatasaray ve Fenerbahçe için daha öncelikli bir transfer gibi gözüküyordu.",
       "source": "Socrates",
       "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
-      "image_url": "https://i.ytimg.com/vi/VlAEwwE2ZrI/hqdefault.jpg",
+      "image_url": null,
       "confidence": 96,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 73,
@@ -3825,11 +3932,12 @@
       "summary": "Birçok Galatasaray ve Fenerbahçe taraftarı biz niye Ümit Akty'ı almadık diye zaten dünden beri yazıyorlar.",
       "source": "Socrates",
       "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
-      "image_url": "https://i.ytimg.com/vi/VlAEwwE2ZrI/hqdefault.jpg",
+      "image_url": null,
       "confidence": 96,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 80,
@@ -3848,11 +3956,12 @@
       "summary": "İşte Kerem'in yaşadığı bir kafa travması, sonrasında 2 maçı kaçırması, Oğuz Aydın'ın orada bulduğu Lyon maçı fırsatı, o maçta kilidi açan golde yaptığı katkı, sol kenardan Muriqi'e taşıdı.",
       "source": "Socrates",
       "url": "https://www.youtube.com/watch?v=Thwh6EP_27k",
-      "image_url": "https://i.ytimg.com/vi/Thwh6EP_27k/hqdefault.jpg",
+      "image_url": null,
       "confidence": 96,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 81,
@@ -3869,11 +3978,12 @@
       "summary": "Bu maçta sol kenardan Muriqi'e ışık gönderdiği top ve yani 2 maçta da 1 gol 2 asist.",
       "source": "Socrates",
       "url": "https://www.youtube.com/watch?v=Thwh6EP_27k",
-      "image_url": "https://i.ytimg.com/vi/Thwh6EP_27k/hqdefault.jpg",
+      "image_url": null,
       "confidence": 96,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 102,
@@ -3888,11 +3998,12 @@
       "summary": "Fenerbahçe'nin iyi bir planlama yapmadığının altını çizerek Şampiyonlar Ligi fikstürünü ver kardeşim.",
       "source": "VOLE / NEO Spor",
       "url": "https://www.youtube.com/watch?v=Z7JdY0OQvNQ",
-      "image_url": "https://i.ytimg.com/vi/Z7JdY0OQvNQ/hqdefault.jpg",
+      "image_url": null,
       "confidence": 96,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 103,
@@ -3907,11 +4018,12 @@
       "summary": "Lütfen Alkışlamayın – Safiye Ayla ve Komando",
       "source": "CNBC-e · Saha ve Ötesi",
       "url": "https://www.cnbce.com/tv/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-v29828",
-      "image_url": "https://img.cnbce.com/2/1280/720/storage/files/images/2026/05/11/teknik-direktor-aykut-kocaman-mi-olacak-fenerbahcenin-futbol-akli-olan-yonetime-ihtiyaci-var-zc9i.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "confidence": 100,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": "verified_portrait"
     },
     {
       "id": 106,
@@ -3935,11 +4047,12 @@
       "summary": "Okanball değil, Osiball var!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 107,
@@ -3963,11 +4076,13 @@
       "summary": "Transfer obezliğinin zirvesindeyiz!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 108,
@@ -3991,11 +4106,12 @@
       "summary": "Tuchel artık sahaya dokunmalı!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 109,
@@ -4019,11 +4135,12 @@
       "summary": "Kenan Yıldız çok mütevazı",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 110,
@@ -4047,11 +4164,12 @@
       "summary": "Okanball değil, Osiball var!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 111,
@@ -4075,11 +4193,13 @@
       "summary": "Transfer obezliğinin zirvesindeyiz!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null,
+      "transfer_status": "reported"
     },
     {
       "id": 112,
@@ -4103,11 +4223,12 @@
       "summary": "Tuchel artık sahaya dokunmalı!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 113,
@@ -4131,11 +4252,12 @@
       "summary": "Kenan Yıldız çok mütevazı",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 114,
@@ -4154,7 +4276,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 116,
@@ -4173,7 +4296,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 117,
@@ -4192,7 +4316,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 118,
@@ -4211,7 +4336,8 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 119,
@@ -4235,11 +4361,12 @@
       "summary": "TFF’nin atamaları masum değil!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 120,
@@ -4263,11 +4390,12 @@
       "summary": "TFF’nin atamaları masum değil!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 121,
@@ -4291,11 +4419,12 @@
       "summary": "Pres yoksa Galatasaray yok!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 122,
@@ -4319,11 +4448,12 @@
       "summary": "Pres yoksa Galatasaray yok!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 123,
@@ -4347,11 +4477,12 @@
       "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     },
     {
       "id": 124,
@@ -4375,11 +4506,12 @@
       "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
       "source": "343 Digital",
       "url": "https://343digital.com/kategori/video",
-      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "image_url": null,
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null
+      "match_id": null,
+      "image_kind": null
     }
   ],
   "matches": [
@@ -4395,7 +4527,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-basaksehir-kocaelispor",
@@ -4409,7 +4542,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-besiktas-eyupspor",
@@ -4423,7 +4557,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-galatasaray-corum-fk",
@@ -4437,7 +4572,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-gaziantep-fk-alanyaspor",
@@ -4451,7 +4587,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-genclerbirligi-fenerbahce",
@@ -4465,7 +4602,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-kasmpasa-trabzonspor",
@@ -4479,7 +4617,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-konyaspor-rizespor",
@@ -4493,7 +4632,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-01-samsunspor-goztepe",
@@ -4507,7 +4647,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-alanyaspor-besiktas",
@@ -4521,7 +4662,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-erzurumspor-galatasaray",
@@ -4535,7 +4677,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-eyupspor-gaziantep-fk",
@@ -4549,7 +4692,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-fenerbahce-konyaspor",
@@ -4563,7 +4707,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-goztepe-genclerbirligi",
@@ -4577,7 +4722,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-kocaelispor-amed-sk",
@@ -4591,7 +4737,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-rizespor-samsunspor",
@@ -4605,7 +4752,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-trabzonspor-basaksehir",
@@ -4619,7 +4767,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-02-corum-fk-kasmpasa",
@@ -4633,7 +4782,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "finished"
     },
     {
       "id": "sl-2026-03-genclerbirligi-erzurumspor",
@@ -4648,7 +4798,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png"
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "status": "finished"
     },
     {
       "id": "sl-2026-03-konyaspor-kocaelispor",
@@ -4663,7 +4814,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "status": "finished"
     },
     {
       "id": "sl-2026-03-galatasaray-goztepe",
@@ -4678,10 +4830,11 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "status": "finished"
     },
     {
-      "id": "sl-2026-03-gaziantep-rizespor",
+      "id": "sl-2026-03-gaziantep-fk-rizespor",
       "league": "Trendyol Süper Lig",
       "week": 3,
       "home": "Gaziantep FK",
@@ -4693,7 +4846,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "status": "finished"
     },
     {
       "id": "sl-2026-03-eyupspor-alanyaspor",
@@ -4708,10 +4862,11 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "status": "finished"
     },
     {
-      "id": "sl-2026-03-basaksehir-kasimpasa",
+      "id": "sl-2026-03-basaksehir-kasmpasa",
       "league": "Trendyol Süper Lig",
       "week": 3,
       "home": "Başakşehir",
@@ -4723,7 +4878,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "status": "finished"
     },
     {
       "id": "sl-2026-03-samsunspor-fenerbahce",
@@ -4738,10 +4894,11 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "status": "finished"
     },
     {
-      "id": "sl-2026-03-amed-trabzonspor",
+      "id": "sl-2026-03-amed-sk-trabzonspor",
       "league": "Trendyol Süper Lig",
       "week": 3,
       "home": "Amed SK",
@@ -4753,10 +4910,11 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "status": "finished"
     },
     {
-      "id": "sl-2026-03-besiktas-corum",
+      "id": "sl-2026-03-besiktas-corum-fk",
       "league": "Trendyol Süper Lig",
       "week": 3,
       "home": "Beşiktaş",
@@ -4768,7 +4926,8 @@
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "status": "finished"
     },
     {
       "id": "sl-2026-04-basaksehir-galatasaray",
@@ -4776,14 +4935,17 @@
       "week": 4,
       "home": "Başakşehir",
       "away": "Galatasaray",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 3,
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "kickoff": "2026-09-04T20:00:00+03:00",
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "status": "finished",
+      "verified_at": "2026-09-05",
+      "corroborating_url": "https://ibfk.com.tr/haberler/istanbul-basaksehir-2-3-galatasaray"
     },
     {
       "id": "sl-2026-04-erzurumspor-konyaspor",
@@ -4798,7 +4960,8 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-04-fenerbahce-besiktas",
@@ -4813,10 +4976,11 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "status": "scheduled"
     },
     {
-      "id": "sl-2026-04-kasimpasa-amed",
+      "id": "sl-2026-04-kasmpasa-amed-sk",
       "league": "Trendyol Süper Lig",
       "week": 4,
       "home": "Kasımpaşa",
@@ -4828,10 +4992,11 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg"
+      "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "status": "scheduled"
     },
     {
-      "id": "sl-2026-04-corum-eyupspor",
+      "id": "sl-2026-04-corum-fk-eyupspor",
       "league": "Trendyol Süper Lig",
       "week": 4,
       "home": "Çorum FK",
@@ -4843,7 +5008,8 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-04-kocaelispor-samsunspor",
@@ -4858,7 +5024,8 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-04-trabzonspor-genclerbirligi",
@@ -4873,10 +5040,11 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "status": "scheduled"
     },
     {
-      "id": "sl-2026-04-goztepe-gaziantep",
+      "id": "sl-2026-04-goztepe-gaziantep-fk",
       "league": "Trendyol Süper Lig",
       "week": 4,
       "home": "Göztepe",
@@ -4888,7 +5056,8 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-04-rizespor-alanyaspor",
@@ -4903,7 +5072,8 @@
       "away_score": null,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png"
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-05-alanyaspor-goztepe",
@@ -4917,7 +5087,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-amed-sk-basaksehir",
@@ -4931,7 +5102,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-besiktas-erzurumspor",
@@ -4945,7 +5117,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-eyupspor-rizespor",
@@ -4959,7 +5132,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-galatasaray-kocaelispor",
@@ -4973,7 +5147,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-gaziantep-fk-fenerbahce",
@@ -4987,7 +5162,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-genclerbirligi-kasmpasa",
@@ -5001,7 +5177,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-konyaspor-trabzonspor",
@@ -5015,7 +5192,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-05-samsunspor-corum-fk",
@@ -5029,7 +5207,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-amed-sk-besiktas",
@@ -5043,7 +5222,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-basaksehir-genclerbirligi",
@@ -5057,7 +5237,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-erzurumspor-samsunspor",
@@ -5071,7 +5252,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-fenerbahce-eyupspor",
@@ -5085,7 +5267,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-goztepe-rizespor",
@@ -5099,7 +5282,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-kasmpasa-konyaspor",
@@ -5113,7 +5297,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-kocaelispor-gaziantep-fk",
@@ -5127,7 +5312,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-trabzonspor-galatasaray",
@@ -5141,7 +5327,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-06-corum-fk-alanyaspor",
@@ -5155,7 +5342,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-alanyaspor-erzurumspor",
@@ -5169,7 +5357,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-besiktas-kocaelispor",
@@ -5183,7 +5372,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-eyupspor-goztepe",
@@ -5197,7 +5387,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-galatasaray-kasmpasa",
@@ -5211,7 +5402,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-gaziantep-fk-corum-fk",
@@ -5225,7 +5417,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-genclerbirligi-amed-sk",
@@ -5239,7 +5432,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-konyaspor-basaksehir",
@@ -5253,7 +5447,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-rizespor-fenerbahce",
@@ -5267,7 +5462,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-07-samsunspor-trabzonspor",
@@ -5281,7 +5477,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-amed-sk-konyaspor",
@@ -5295,7 +5492,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-basaksehir-gaziantep-fk",
@@ -5309,7 +5507,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-erzurumspor-eyupspor",
@@ -5323,7 +5522,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-fenerbahce-alanyaspor",
@@ -5337,7 +5537,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-genclerbirligi-galatasaray",
@@ -5351,7 +5552,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-kasmpasa-samsunspor",
@@ -5365,7 +5567,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-kocaelispor-goztepe",
@@ -5379,7 +5582,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-trabzonspor-besiktas",
@@ -5393,7 +5597,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-08-corum-fk-rizespor",
@@ -5407,7 +5612,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-alanyaspor-kocaelispor",
@@ -5421,7 +5627,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-besiktas-basaksehir",
@@ -5435,7 +5642,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-eyupspor-kasmpasa",
@@ -5449,7 +5657,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-galatasaray-fenerbahce",
@@ -5463,7 +5672,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-gaziantep-fk-erzurumspor",
@@ -5477,7 +5687,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-goztepe-corum-fk",
@@ -5491,7 +5702,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-konyaspor-genclerbirligi",
@@ -5505,7 +5717,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-rizespor-trabzonspor",
@@ -5519,7 +5732,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-09-samsunspor-amed-sk",
@@ -5533,7 +5747,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-amed-sk-eyupspor",
@@ -5547,7 +5762,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-basaksehir-samsunspor",
@@ -5561,7 +5777,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-erzurumspor-corum-fk",
@@ -5575,7 +5792,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-fenerbahce-goztepe",
@@ -5589,7 +5807,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-genclerbirligi-alanyaspor",
@@ -5603,7 +5822,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-kasmpasa-besiktas",
@@ -5617,7 +5837,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-kocaelispor-rizespor",
@@ -5631,7 +5852,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-konyaspor-galatasaray",
@@ -5645,7 +5867,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-10-trabzonspor-gaziantep-fk",
@@ -5659,7 +5882,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-alanyaspor-trabzonspor",
@@ -5673,7 +5897,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-besiktas-genclerbirligi",
@@ -5687,7 +5912,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-eyupspor-kocaelispor",
@@ -5701,7 +5927,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-galatasaray-amed-sk",
@@ -5715,7 +5942,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-gaziantep-fk-kasmpasa",
@@ -5729,7 +5957,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-goztepe-basaksehir",
@@ -5743,7 +5972,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-rizespor-erzurumspor",
@@ -5757,7 +5987,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-samsunspor-konyaspor",
@@ -5771,7 +6002,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-11-corum-fk-fenerbahce",
@@ -5785,7 +6017,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-amed-sk-rizespor",
@@ -5799,7 +6032,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-basaksehir-corum-fk",
@@ -5813,7 +6047,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-erzurumspor-goztepe",
@@ -5827,7 +6062,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-galatasaray-samsunspor",
@@ -5841,7 +6077,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-genclerbirligi-gaziantep-fk",
@@ -5855,7 +6092,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-kasmpasa-alanyaspor",
@@ -5869,7 +6107,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-kocaelispor-fenerbahce",
@@ -5883,7 +6122,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-konyaspor-besiktas",
@@ -5897,7 +6137,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-12-trabzonspor-eyupspor",
@@ -5911,7 +6152,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-alanyaspor-konyaspor",
@@ -5925,7 +6167,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-besiktas-galatasaray",
@@ -5939,7 +6182,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-eyupspor-basaksehir",
@@ -5953,7 +6197,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-fenerbahce-erzurumspor",
@@ -5967,7 +6212,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-gaziantep-fk-amed-sk",
@@ -5981,7 +6227,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-goztepe-trabzonspor",
@@ -5995,7 +6242,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-rizespor-kasmpasa",
@@ -6009,7 +6257,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-samsunspor-genclerbirligi",
@@ -6023,7 +6272,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-13-corum-fk-kocaelispor",
@@ -6037,7 +6287,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-amed-sk-alanyaspor",
@@ -6051,7 +6302,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-basaksehir-fenerbahce",
@@ -6065,7 +6317,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-besiktas-samsunspor",
@@ -6079,7 +6332,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-erzurumspor-kocaelispor",
@@ -6093,7 +6347,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-galatasaray-rizespor",
@@ -6107,7 +6362,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-genclerbirligi-eyupspor",
@@ -6121,7 +6377,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-kasmpasa-goztepe",
@@ -6135,7 +6392,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-konyaspor-gaziantep-fk",
@@ -6149,7 +6407,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-14-trabzonspor-corum-fk",
@@ -6163,7 +6422,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-alanyaspor-samsunspor",
@@ -6177,7 +6437,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-erzurumspor-kasmpasa",
@@ -6191,7 +6452,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-eyupspor-galatasaray",
@@ -6205,7 +6467,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-fenerbahce-trabzonspor",
@@ -6219,7 +6482,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-gaziantep-fk-besiktas",
@@ -6233,7 +6497,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-goztepe-konyaspor",
@@ -6247,7 +6512,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-kocaelispor-genclerbirligi",
@@ -6261,7 +6527,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-rizespor-basaksehir",
@@ -6275,7 +6542,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-15-corum-fk-amed-sk",
@@ -6289,7 +6557,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-amed-sk-goztepe",
@@ -6303,7 +6572,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-basaksehir-erzurumspor",
@@ -6317,7 +6587,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-besiktas-rizespor",
@@ -6331,7 +6602,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-galatasaray-alanyaspor",
@@ -6345,7 +6617,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-genclerbirligi-corum-fk",
@@ -6359,7 +6632,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-kasmpasa-fenerbahce",
@@ -6373,7 +6647,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-konyaspor-eyupspor",
@@ -6387,7 +6662,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-samsunspor-gaziantep-fk",
@@ -6401,7 +6677,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-16-trabzonspor-kocaelispor",
@@ -6415,7 +6692,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-alanyaspor-basaksehir",
@@ -6429,7 +6707,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-erzurumspor-trabzonspor",
@@ -6443,7 +6722,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-eyupspor-samsunspor",
@@ -6457,7 +6737,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-fenerbahce-amed-sk",
@@ -6471,7 +6752,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-gaziantep-fk-galatasaray",
@@ -6485,7 +6767,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-goztepe-besiktas",
@@ -6499,7 +6782,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-kocaelispor-kasmpasa",
@@ -6513,7 +6797,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-rizespor-genclerbirligi",
@@ -6527,7 +6812,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-17-corum-fk-konyaspor",
@@ -6541,7 +6827,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-alanyaspor-gaziantep-fk",
@@ -6555,7 +6842,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-erzurumspor-amed-sk",
@@ -6569,7 +6857,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-eyupspor-besiktas",
@@ -6583,7 +6872,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-fenerbahce-genclerbirligi",
@@ -6597,7 +6887,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-goztepe-samsunspor",
@@ -6611,7 +6902,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-kocaelispor-basaksehir",
@@ -6625,7 +6917,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-rizespor-konyaspor",
@@ -6639,7 +6932,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-trabzonspor-kasmpasa",
@@ -6653,7 +6947,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-18-corum-fk-galatasaray",
@@ -6667,7 +6962,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-amed-sk-kocaelispor",
@@ -6681,7 +6977,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-basaksehir-trabzonspor",
@@ -6695,7 +6992,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-besiktas-alanyaspor",
@@ -6709,7 +7007,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-galatasaray-erzurumspor",
@@ -6723,7 +7022,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-gaziantep-fk-eyupspor",
@@ -6737,7 +7037,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-genclerbirligi-goztepe",
@@ -6751,7 +7052,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-kasmpasa-corum-fk",
@@ -6765,7 +7067,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-konyaspor-fenerbahce",
@@ -6779,7 +7082,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-19-samsunspor-rizespor",
@@ -6793,7 +7097,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-alanyaspor-eyupspor",
@@ -6807,7 +7112,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-erzurumspor-genclerbirligi",
@@ -6821,7 +7127,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-fenerbahce-samsunspor",
@@ -6835,7 +7142,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-goztepe-galatasaray",
@@ -6849,7 +7157,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-kasmpasa-basaksehir",
@@ -6863,7 +7172,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-kocaelispor-konyaspor",
@@ -6877,7 +7187,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-rizespor-gaziantep-fk",
@@ -6891,7 +7202,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-trabzonspor-amed-sk",
@@ -6905,7 +7217,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-20-corum-fk-besiktas",
@@ -6919,7 +7232,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-alanyaspor-rizespor",
@@ -6933,7 +7247,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-amed-sk-kasmpasa",
@@ -6947,7 +7262,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-besiktas-fenerbahce",
@@ -6961,7 +7277,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-eyupspor-corum-fk",
@@ -6975,7 +7292,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-galatasaray-basaksehir",
@@ -6989,7 +7307,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-gaziantep-fk-goztepe",
@@ -7003,7 +7322,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-genclerbirligi-trabzonspor",
@@ -7017,7 +7337,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-konyaspor-erzurumspor",
@@ -7031,7 +7352,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-21-samsunspor-kocaelispor",
@@ -7045,7 +7367,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-basaksehir-amed-sk",
@@ -7059,7 +7382,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-erzurumspor-besiktas",
@@ -7073,7 +7397,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-fenerbahce-gaziantep-fk",
@@ -7087,7 +7412,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-goztepe-alanyaspor",
@@ -7101,7 +7427,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-kasmpasa-genclerbirligi",
@@ -7115,7 +7442,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-kocaelispor-galatasaray",
@@ -7129,7 +7457,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-rizespor-eyupspor",
@@ -7143,7 +7472,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-trabzonspor-konyaspor",
@@ -7157,7 +7487,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-22-corum-fk-samsunspor",
@@ -7171,7 +7502,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-alanyaspor-corum-fk",
@@ -7185,7 +7517,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-besiktas-amed-sk",
@@ -7199,7 +7532,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-eyupspor-fenerbahce",
@@ -7213,7 +7547,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-galatasaray-trabzonspor",
@@ -7227,7 +7562,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-gaziantep-fk-kocaelispor",
@@ -7241,7 +7577,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-genclerbirligi-basaksehir",
@@ -7255,7 +7592,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-konyaspor-kasmpasa",
@@ -7269,7 +7607,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-rizespor-goztepe",
@@ -7283,7 +7622,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-23-samsunspor-erzurumspor",
@@ -7297,7 +7637,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-amed-sk-genclerbirligi",
@@ -7311,7 +7652,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-basaksehir-konyaspor",
@@ -7325,7 +7667,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-erzurumspor-alanyaspor",
@@ -7339,7 +7682,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-fenerbahce-rizespor",
@@ -7353,7 +7697,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-goztepe-eyupspor",
@@ -7367,7 +7712,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-kasmpasa-galatasaray",
@@ -7381,7 +7727,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-kocaelispor-besiktas",
@@ -7395,7 +7742,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-trabzonspor-samsunspor",
@@ -7409,7 +7757,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-24-corum-fk-gaziantep-fk",
@@ -7423,7 +7772,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-alanyaspor-fenerbahce",
@@ -7437,7 +7787,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-besiktas-trabzonspor",
@@ -7451,7 +7802,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-eyupspor-erzurumspor",
@@ -7465,7 +7817,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-galatasaray-genclerbirligi",
@@ -7479,7 +7832,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-gaziantep-fk-basaksehir",
@@ -7493,7 +7847,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-goztepe-kocaelispor",
@@ -7507,7 +7862,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-konyaspor-amed-sk",
@@ -7521,7 +7877,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-rizespor-corum-fk",
@@ -7535,7 +7892,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-25-samsunspor-kasmpasa",
@@ -7549,7 +7907,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-amed-sk-samsunspor",
@@ -7563,7 +7922,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-basaksehir-besiktas",
@@ -7577,7 +7937,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-erzurumspor-gaziantep-fk",
@@ -7591,7 +7952,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-fenerbahce-galatasaray",
@@ -7605,7 +7967,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-genclerbirligi-konyaspor",
@@ -7619,7 +7982,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-kasmpasa-eyupspor",
@@ -7633,7 +7997,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-kocaelispor-alanyaspor",
@@ -7647,7 +8012,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-trabzonspor-rizespor",
@@ -7661,7 +8027,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-26-corum-fk-goztepe",
@@ -7675,7 +8042,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-alanyaspor-genclerbirligi",
@@ -7689,7 +8057,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-besiktas-kasmpasa",
@@ -7703,7 +8072,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-eyupspor-amed-sk",
@@ -7717,7 +8087,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-galatasaray-konyaspor",
@@ -7731,7 +8102,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-gaziantep-fk-trabzonspor",
@@ -7745,7 +8117,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-goztepe-fenerbahce",
@@ -7759,7 +8132,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-rizespor-kocaelispor",
@@ -7773,7 +8147,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-samsunspor-basaksehir",
@@ -7787,7 +8162,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-27-corum-fk-erzurumspor",
@@ -7801,7 +8177,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-amed-sk-galatasaray",
@@ -7815,7 +8192,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-basaksehir-goztepe",
@@ -7829,7 +8207,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-erzurumspor-rizespor",
@@ -7843,7 +8222,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-fenerbahce-corum-fk",
@@ -7857,7 +8237,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-genclerbirligi-besiktas",
@@ -7871,7 +8252,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-kasmpasa-gaziantep-fk",
@@ -7885,7 +8267,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-kocaelispor-eyupspor",
@@ -7899,7 +8282,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-konyaspor-samsunspor",
@@ -7913,7 +8297,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-28-trabzonspor-alanyaspor",
@@ -7927,7 +8312,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-alanyaspor-kasmpasa",
@@ -7941,7 +8327,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-besiktas-konyaspor",
@@ -7955,7 +8342,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-eyupspor-trabzonspor",
@@ -7969,7 +8357,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-fenerbahce-kocaelispor",
@@ -7983,7 +8372,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-gaziantep-fk-genclerbirligi",
@@ -7997,7 +8387,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-goztepe-erzurumspor",
@@ -8011,7 +8402,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-rizespor-amed-sk",
@@ -8025,7 +8417,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-samsunspor-galatasaray",
@@ -8039,7 +8432,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-29-corum-fk-basaksehir",
@@ -8053,7 +8447,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-amed-sk-gaziantep-fk",
@@ -8067,7 +8462,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-basaksehir-eyupspor",
@@ -8081,7 +8477,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-erzurumspor-fenerbahce",
@@ -8095,7 +8492,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-galatasaray-besiktas",
@@ -8109,7 +8507,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-genclerbirligi-samsunspor",
@@ -8123,7 +8522,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-kasmpasa-rizespor",
@@ -8137,7 +8537,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-kocaelispor-corum-fk",
@@ -8151,7 +8552,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-konyaspor-alanyaspor",
@@ -8165,7 +8567,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-30-trabzonspor-goztepe",
@@ -8179,7 +8582,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-alanyaspor-amed-sk",
@@ -8193,7 +8597,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-eyupspor-genclerbirligi",
@@ -8207,7 +8612,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-fenerbahce-basaksehir",
@@ -8221,7 +8627,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-gaziantep-fk-konyaspor",
@@ -8235,7 +8642,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-goztepe-kasmpasa",
@@ -8249,7 +8657,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-kocaelispor-erzurumspor",
@@ -8263,7 +8672,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-rizespor-galatasaray",
@@ -8277,7 +8687,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-samsunspor-besiktas",
@@ -8291,7 +8702,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-31-corum-fk-trabzonspor",
@@ -8305,7 +8717,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-amed-sk-corum-fk",
@@ -8319,7 +8732,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-basaksehir-rizespor",
@@ -8333,7 +8747,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-besiktas-gaziantep-fk",
@@ -8347,7 +8762,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-galatasaray-eyupspor",
@@ -8361,7 +8777,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-genclerbirligi-kocaelispor",
@@ -8375,7 +8792,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-kasmpasa-erzurumspor",
@@ -8389,7 +8807,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-konyaspor-goztepe",
@@ -8403,7 +8822,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-samsunspor-alanyaspor",
@@ -8417,7 +8837,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-32-trabzonspor-fenerbahce",
@@ -8431,7 +8852,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-alanyaspor-galatasaray",
@@ -8445,7 +8867,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-erzurumspor-basaksehir",
@@ -8459,7 +8882,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-eyupspor-konyaspor",
@@ -8473,7 +8897,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-fenerbahce-kasmpasa",
@@ -8487,7 +8912,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-gaziantep-fk-samsunspor",
@@ -8501,7 +8927,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-goztepe-amed-sk",
@@ -8515,7 +8942,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-kocaelispor-trabzonspor",
@@ -8529,7 +8957,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-rizespor-besiktas",
@@ -8543,7 +8972,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-33-corum-fk-genclerbirligi",
@@ -8557,7 +8987,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-amed-sk-fenerbahce",
@@ -8571,7 +9002,8 @@
       "away_score": null,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-basaksehir-alanyaspor",
@@ -8585,7 +9017,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-besiktas-goztepe",
@@ -8599,7 +9032,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-galatasaray-gaziantep-fk",
@@ -8613,7 +9047,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-genclerbirligi-rizespor",
@@ -8627,7 +9062,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-kasmpasa-kocaelispor",
@@ -8641,7 +9077,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-konyaspor-corum-fk",
@@ -8655,7 +9092,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-samsunspor-eyupspor",
@@ -8669,7 +9107,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     },
     {
       "id": "sl-2026-34-trabzonspor-erzurumspor",
@@ -8683,7 +9122,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": ""
+      "kickoff": "",
+      "status": "unscheduled"
     }
   ],
   "players": [

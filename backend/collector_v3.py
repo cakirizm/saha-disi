@@ -70,12 +70,12 @@ def classify(s):
  if any(x in l for x in ['kötü','hata','zayıf','problem','yanlış','yetersiz']):sent='negative'
  if any(x in l for x in ['penaltı','hakem','var ']):typ='referee';topic='Hakem / VAR';strength=8
  if any(x in l for x in ['olacak','kazanır','yenilmez','şampiyon','eler','puan alır']):typ='prediction';topic='Tahmin';strength=8
- if any(x in l for x in ['transfer','imza','anlaşma','bonservis']):typ='transfer';topic='Transfer';strength=max(strength,8)
  if any(x in l for x in ['kesin','asla','imkansız','en iyi']):typ='hot_take';strength=10
+ if any(x in l for x in ['transfer','imza','anlaşma','bonservis','signing','contract','here we go','deal agreed','medical']):typ='transfer';topic='Transfer';strength=max(strength,8)
  return typ,topic,sent,strength
 
 def rss_source(cid,name):
- q=f'"{name}" (futbol OR maç OR transfer OR hakem) when:14d'
+ q=f'"{name}" (futbol OR football OR maç OR transfer OR hakem) when:14d'
  return {'url':f'https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl=tr&gl=TR&ceid=TR:tr','source':'Google News RSS','trust':90,'cid':cid,'rss':True}
 def direct_sources():
  return [
@@ -98,8 +98,11 @@ def discover(src,limit=3):
  return list(dict.fromkeys(out))[:limit]
 def literal_quotes(text,name):
  text=repair_text(text);quotes=[]
- for q in QUOTE_RE.findall(text):
-  q=repair_text(q).strip(' "“”')
+ # A name anywhere on a page does not attribute all its quoted text.
+ for match in QUOTE_RE.finditer(text):
+  prefix=text[max(0,match.start()-len(name)-8):match.start()]
+  if not re.search(re.escape(name)+r'\s*[:：]\s*$',prefix,re.I):continue
+  q=repair_text(match.group(1)).strip(' "“”')
   if 20<=len(q)<=420:quotes.append(q)
  speaker=re.compile(re.escape(name)+r'\s*[:：]\s*([^\n]{20,420})',re.I)
  for m in speaker.findall(text):
@@ -113,11 +116,11 @@ def candidate_rows(text,src,url,image_url=None):
  for quote in literal_quotes(text,name):
   low=quote.casefold()
   if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
-  teams=tags(text,TEAMS);players=tags(quote+' '+text,PLAYERS)
+  teams=tags(quote,TEAMS);players=tags(quote,PLAYERS)
   if not teams and not players and not any(k in low for k in ['maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu']):continue
   typ,topic,sent,strength=classify(quote)
   key=hashlib.sha256(f"{src['cid']}|{quote.casefold()}".encode('utf-8')).hexdigest()[:20]
-  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':image_url,'confidence':max(src['trust'],95),'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
+  rows.append({'candidate_id':key,'commentator':src['cid'],'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sent,'strength':strength,'source':src['source'],'url':url,'image_url':None,'confidence':src['trust'],'direct_quote':True,'discovered_at':datetime.now(timezone.utc).isoformat()})
  return rows
 def extract(url,src,hint=''):
  try:

@@ -65,6 +65,7 @@ struct MatchDetailView: View {
         VStack(spacing: 8) {
             HStack { Text(match.home).font(.title3.black()); Spacer(); Text(score).font(.title.black()); Spacer(); Text(match.away).font(.title3.black()) }
             Text("\(SDDate.text(match.kickoff, includeTime: true)) · \(match.league)").font(.caption).foregroundStyle(SDTheme.muted)
+            Text(match.statusText).font(.caption.bold()).foregroundStyle(SDTheme.muted)
         }.padding(.horizontal, 4)
     }
 
@@ -157,5 +158,5 @@ struct MatchDetailView: View {
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
     }
 
-    private var score: String { if let h=match.homeScore, let a=match.awayScore { return "\(h) - \(a)" }; return "VS" }
+    private var score: String { match.scoreText }
 }

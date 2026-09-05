@@ -31,7 +31,14 @@ jobs:
         run: pip install -r backend/requirements.txt
       - name: Python syntax audit
         run: python -m compileall -q -b backend && find backend -maxdepth 1 -name '*.pyc' -delete
+      - name: Run data regression tests
+        run: python -m unittest discover -s tests -v
       - name: Collect incremental multi-source commentary
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
         run: python backend/collector_v4.py
       - name: Fetch TFF fixture
         run: python backend/tff_fixtures.py
@@ -50,7 +57,7 @@ jobs:
           roster=json.loads(Path('backend/commentator_roster.json').read_text())
           logos=json.loads(Path('backend/team_logos.json').read_text())
           photos=json.loads(Path('backend/commentator_photos.json').read_text()).get('photos',{})
-          assert len(p['commentators'])==len(roster)==204
+          assert len(p['commentators'])==len(roster)
           assert p.get('generated_at')
           bad=('Ã','Å','Ä','Â','�')
           def walk(v):
@@ -76,13 +83,13 @@ jobs:
           swift='\n'.join(x.read_text() for x in Path('ios/SahaDisi/SahaDisi').rglob('*.swift'))
           for token in ['Birinci Hafta','İkinci Hafta','Üçüncü Hafta','Dördüncü Hafta','Beşinci Hafta','func statements(for commentatorID: String, team: String)','NotificationSettingsView','toggle(commentatorID:','MatchPoster','Takımlar Hakkındaki Güncel Yorumlar']:
             assert token in swift, token
-          print(f'AUDIT_PASS commentators=204 quotes={len(statements)} matches={len(matches)} week4=9 verified_photos={len(photos)} crests={len([t for t in teams if logos.get(t)])}')
+          print(f'AUDIT_PASS commentators={len(roster)} quotes={len(statements)} matches={len(matches)} week4=9 verified_photos={len(photos)} crests={len([t for t in teams if logos.get(t)])}')
           PY
       - name: Publish verified feed
         run: |
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/collector_state.json
+          git add backend/fixture_health.json backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/collector_state.json
           if git diff --cached --quiet; then
             echo 'No data change to publish.'
           else

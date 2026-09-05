@@ -37,12 +37,7 @@ final class AppStore: ObservableObject {
     }
 
     func artworkURL(for team: String) -> String? {
-        let target = canonicalTeam(team)
-        return (payload?.statements ?? [])
-            .filter { $0.team.map(canonicalTeam) == target && $0.imageURL != nil }
-            .sorted { $0.date > $1.date }
-            .compactMap(\.imageURL)
-            .first
+        logoURL(for: team)
     }
 
     func statements(for commentatorID: String) -> [Statement] {

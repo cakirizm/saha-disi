@@ -10,6 +10,7 @@ import hashlib, html, json, re, urllib.parse, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+from social_sources import collect_social
 
 from collector_v3 import (
     B, COMMENTATORS, PEOPLE, PLAYERS, TEAMS, candidate_rows, classify, direct_sources,
@@ -113,7 +114,7 @@ def youtube_rows(source,seen):
             typ,topic,sentiment,strength=classify(quote)
             teams=tags(quote,TEAMS);players=tags(quote,PLAYERS)
             digest=hashlib.sha256(f'{cid}|{quote.casefold()}'.encode()).hexdigest()[:20]
-            rows.append({'candidate_id':digest,'commentator':cid,'summary_candidate':quote,'team':teams[0] if teams else None,'players':players,'topic':topic,'type':typ,'sentiment':sentiment,'strength':strength,'source':source['name'],'url':url,'image_url':f'https://i.ytimg.com/vi/{video["id"]}/hqdefault.jpg','confidence':96,'direct_quote':True,'published_at':video['published_at'],'discovered_at':datetime.now(timezone.utc).isoformat(),'resolver':'youtube_caption_exact_speaker'})
+            rows.append({'candidate_id':digest,'commentator':cid,'summary_candidate':quote,'team':teams[0] if len(teams)==1 else None,'players':players,'topic':topic,'type':typ,'sentiment':sentiment,'strength':strength,'source':source['name'],'url':url,'image_url':None,'confidence':80,'direct_quote':False,'published_at':video['published_at'],'discovered_at':datetime.now(timezone.utc).isoformat(),'resolver':'youtube_caption_requires_speaker_review'})
         processed.append(video['id'])
     return rows,processed,{'source':source['name'],'kind':'youtube','items':len(entries),'new_videos':len(processed),'candidates':len(rows),'ok':error is None,'error':error}
 
@@ -125,6 +126,15 @@ def configured_html_sources():
             out.append({'url':src['url'],'source':src['name'],'trust':src.get('trust',95),'cid':cid})
     return out
 
+def platform_discovery(cid):
+    # Search-index discovery is supplementary, never a claim of API coverage.
+    groups=[('social_discovery','site:x.com OR site:twitter.com OR site:instagram.com OR site:youtube.com'),
+            ('agency_discovery','site:aa.com.tr OR site:dha.com.tr OR site:iha.com.tr OR site:reuters.com')]
+    for kind,sites in groups:
+        query='"'+COMMENTATORS[cid]+'" ('+sites+') when:14d'
+        yield {'url':'https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'tr','gl':'TR','ceid':'TR:tr'}),
+               'source':kind,'trust':80,'cid':cid,'rss':True}
+
 def run():
     state=load_state();seen=set(state.get('seen_videos',[]));rows=[];health=[];processed=[]
     youtube=[s for s in CONFIG if s.get('kind','').startswith('youtube')]
@@ -135,19 +145,28 @@ def run():
         live=json.loads((B/'feed.json').read_text(encoding='utf-8'))
         active_ids=list(dict.fromkeys([s['commentator'] for s in live.get('statements',[])]))
     except Exception:pass
-    priority=list(dict.fromkeys(active_ids+[cid for cid,_ in PEOPLE[:50]]))
+    # Rotate through the entire roster instead of permanently excluding everyone
+    # beyond the first 50. Transfer reporters are checked on every run.
+    cursor=int(state.get('roster_cursor',0)) % max(len(PEOPLE),1)
+    batch=(PEOPLE+PEOPLE)[cursor:cursor+30]
+    reporters=['yagiz-sabuncuoglu','ertan-suzgun','fabrizio-romano','david-ornstein','gianluca-di-marzio']
+    priority=list(dict.fromkeys([cid for cid,_ in batch]+[cid for cid in reporters if cid in COMMENTATORS]))
     jobs=[]
     with ThreadPoolExecutor(max_workers=16) as pool:
         for src in article_sources+[rss_source(cid,COMMENTATORS[cid]) for cid in priority]:jobs.append(('web',pool.submit(process_source,src),src))
+        for cid in priority:
+            for src in platform_discovery(cid):jobs.append(('discovery',pool.submit(process_source,src),src))
         for src in youtube:jobs.append(('youtube',pool.submit(youtube_rows,src,seen),src))
         for kind,future,src in jobs:
             try:
                 if kind=='youtube':found,done,status=future.result();processed.extend(done);health.append(status)
-                else:found,status=future.result();status['kind']='web';health.append(status)
+                else:found,status=future.result();status['kind']=kind;health.append(status)
                 rows.extend(found)
             except Exception as exc:health.append({'source':src.get('name') or src.get('source'),'kind':kind,'candidates':0,'ok':False,'error':str(exc)[:180]})
     unique={x['candidate_id']:x for x in rows}
-    STATE_PATH.write_text(json.dumps({'updated_at':datetime.now(timezone.utc).isoformat(),'seen_videos':list(dict.fromkeys(state.get('seen_videos',[])+processed))[-3000:]},ensure_ascii=False,indent=2),encoding='utf-8')
+    social,social_health=collect_social();health.extend(social_health)
+    unique.update({x['candidate_id']:x for x in social})
+    STATE_PATH.write_text(json.dumps({'updated_at':datetime.now(timezone.utc).isoformat(),'roster_cursor':(cursor+30)%max(len(PEOPLE),1),'seen_videos':list(dict.fromkeys(state.get('seen_videos',[])+processed))[-3000:]},ensure_ascii=False,indent=2),encoding='utf-8')
     (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2),encoding='utf-8')
     totals={'sources':len(health),'successful':sum(x.get('ok',False) for x in health),'youtube_sources':len(youtube),'new_videos':len(processed),'candidates':len(unique)}
     (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'totals':totals,'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')

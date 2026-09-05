@@ -9,6 +9,8 @@ on:
     paths:
       - 'backend/*.py'
       - 'backend/sources.json'
+      - 'backend/social_accounts.json'
+      - 'tests/**'
       - 'backend/commentator_roster.json'
       - 'backend/manual_verified.json'
       - 'backend/fixture_overrides.json'
@@ -42,7 +44,14 @@ jobs:
       - name: Install collector dependencies
         run: pip install -r backend/requirements.txt
 
+      - name: Run data regression tests
+        run: python -m unittest discover -s tests -v
       - name: Collect incremental multi-source commentary
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
         run: python backend/collector_v4.py
 
       - name: Collect official TFF fixture
@@ -66,7 +75,7 @@ jobs:
           roster=json.loads(Path('backend/commentator_roster.json').read_text())
           logos=json.loads(Path('backend/team_logos.json').read_text())
           photos=json.loads(Path('backend/commentator_photos.json').read_text()).get('photos',{})
-          assert len(p.get('commentators', [])) == len(roster) == 204
+          assert len(p.get('commentators', [])) == len(roster)
           assert isinstance(p.get('statements'), list) and isinstance(p.get('matches'), list)
           assert p.get('generated_at')
           ids=[s['id'] for s in p['statements']]
@@ -116,7 +125,7 @@ jobs:
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/review_queue.json backend/candidates.json backend/collector_state.json
-          git add backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
+          git add backend/fixture_health.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'
           else

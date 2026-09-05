@@ -24,7 +24,10 @@ struct MatchesView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
-                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: "Canlı TFF") }
+                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: "TFF fikstürü") }
+                if let generatedAt = store.payload?.generatedAt {
+                    Text("Veri güncellemesi: \(SDDate.text(generatedAt, includeTime: true))").font(.caption2).foregroundStyle(SDTheme.muted)
+                }
                 Text("Trendyol Süper Lig fikstürü · haftalar ve güncel skorlar").font(.subheadline).foregroundStyle(SDTheme.muted)
                 weekPicker
 
@@ -89,6 +92,7 @@ struct MatchesView: View {
                         Text(score(match)).font(.title3.black()).frame(minWidth: 60)
                         Text(match.away).font(.headline).frame(maxWidth: .infinity, alignment: .trailing)
                     }
+                    Text(match.statusText).font(.caption).foregroundStyle(SDTheme.muted)
                     HStack {
                         Text(linked.isEmpty ? "Henüz bu maça bağlı doğrulanmış yorum yok" : "\(linked.count) maça bağlı doğrulanmış yorum")
                             .font(.caption2).foregroundStyle(linked.isEmpty ? SDTheme.muted2 : SDTheme.accent)
@@ -110,13 +114,13 @@ struct MatchesView: View {
         if let d = iso.date(from: value) { return d }
         let formats = ["yyyy-MM-dd", "dd.MM.yyyy HH:mm"]
         for format in formats {
-            let formatter = DateFormatter(); formatter.locale = Locale(identifier: "tr_TR"); formatter.dateFormat = format
+            let formatter = DateFormatter(); formatter.locale = Locale(identifier: "tr_TR"); formatter.timeZone = TimeZone(identifier: "Europe/Istanbul"); formatter.dateFormat = format
             if let d = formatter.date(from: value) { return d }
         }
         return nil
     }
 
-    private func score(_ m: Match) -> String { if let h = m.homeScore, let a = m.awayScore { return "\(h) - \(a)" }; return "VS" }
+    private func score(_ m: Match) -> String { m.scoreText }
 }
 
 struct MatchPoster: View {
@@ -130,7 +134,7 @@ struct MatchPoster: View {
             HStack(spacing: compact ? 18 : 28) {
                 TeamLogoView(name: match.home, urlString: match.homeLogoURL, size: compact ? 62 : 82)
                 VStack(spacing: 4) {
-                    Text(match.homeScore == nil ? "VS" : "\(match.homeScore!) - \(match.awayScore!)")
+                    Text(match.scoreText)
                         .font(.system(size: compact ? 18 : 26, weight: .black, design: .rounded))
                     Text("SÜPER LİG").font(.system(size: 9, weight: .bold)).tracking(1.2).foregroundStyle(SDTheme.muted2)
                 }

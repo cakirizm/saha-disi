@@ -90,7 +90,7 @@ struct Statement: Codable, Identifiable, Hashable {
         status = try values.decodeIfPresent(String.self, forKey: .status)
         matchId = try values.decodeIfPresent(String.self, forKey: .matchId)
         predictionOutcome = try values.decodeIfPresent(String.self, forKey: .predictionOutcome)
-        imageURL = try values.decodeIfPresent(String.self, forKey: .imageURL)
+        imageURL = nil // Commentary artwork comes from the verified commentator identity.
     }
 }
 
@@ -101,7 +101,11 @@ extension Statement {
         return u.contains("youtube.com") || u.contains("youtu.be")
     }
     /// "Tamamını izlemek/okumak isteyeni oraya yönlendir" — eyleme dönük başlık.
-    var sourceActionTitle: String { isVideoSource ? "Videoyu izle" : "Habere git" }
+    var sourceActionTitle: String {
+        let host = URL(string: url)?.host?.lowercased() ?? ""
+        if ["x.com", "twitter.com", "instagram.com", "www.instagram.com", "www.x.com"].contains(host) { return "Paylaşımı aç" }
+        return isVideoSource ? "Videoyu izle" : "Habere git"
+    }
     var sourceActionIcon: String { isVideoSource ? "play.rectangle.fill" : "arrow.up.right" }
     var sourceActionHint: String {
         isVideoSource ? "Tamamını izlemek için \(source) kaynağına git"
@@ -175,6 +179,35 @@ struct Match: Codable, Identifiable, Hashable {
         statistics = try values.decodeIfPresent([MatchStatistic].self, forKey: .statistics) ?? []
         events = try values.decodeIfPresent([MatchEvent].self, forKey: .events) ?? []
         playerRatings = try values.decodeIfPresent([PlayerMatchRating].self, forKey: .playerRatings) ?? []
+    }
+}
+
+extension Match {
+    var scoreText: String {
+        if let homeScore, let awayScore { return "\(homeScore) - \(awayScore)" }
+        return statusText == "Başlamadı" ? "VS" : "—"
+    }
+
+    var statusText: String {
+        switch status {
+        case "live": return "Canlı"
+        case "finished": return "Maç bitti"
+        case "postponed": return "Ertelendi"
+        case "cancelled": return "İptal edildi"
+        case "suspended": return "Durduruldu"
+        default: break
+        }
+        if homeScore != nil && awayScore != nil { return "Maç bitti" }
+        var date = ISO8601DateFormatter().date(from: kickoff)
+        if date == nil {
+            let formatter = DateFormatter()
+            formatter.locale = Locale(identifier: "tr_TR")
+            formatter.timeZone = TimeZone(identifier: "Europe/Istanbul")
+            formatter.dateFormat = "dd.MM.yyyy HH:mm"
+            date = formatter.date(from: kickoff)
+        }
+        guard let date else { return "Tarih bekleniyor" }
+        return date <= Date() ? "Sonuç bekleniyor" : "Başlamadı"
     }
 }
 
