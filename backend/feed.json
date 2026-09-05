@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:55:36.829835+00:00",
+  "generated_at": "2026-09-05T12:31:57.621231+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -4324,6 +4324,62 @@
       "status": "verified_direct_quote",
       "verbatim": true,
       "match_id": null
+    },
+    {
+      "id": 123,
+      "commentator": "ibrahim-seten",
+      "date": "2026-09-05",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Talisca",
+        "Greenwood",
+        "Asensio",
+        "Batrakov",
+        "Guendouzi",
+        "Leao",
+        "Onuachu"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
+      "source": "343 Digital",
+      "url": "https://343digital.com/kategori/video",
+      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 124,
+      "commentator": "yagiz-sabuncuoglu",
+      "date": "2026-09-05",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Talisca",
+        "Greenwood",
+        "Asensio",
+        "Batrakov",
+        "Guendouzi",
+        "Leao",
+        "Onuachu"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem görevlendirilmesinde iyi niyet yok!",
+      "source": "343 Digital",
+      "url": "https://343digital.com/kategori/video",
+      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
     }
   ],
   "matches": [
@@ -8634,7 +8690,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 44
+      "comment_count": 46
     },
     {
       "id": "baris-alper",
@@ -8644,17 +8700,17 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 42
+      "comment_count": 44
     },
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 43
+      "comment_count": 45
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 43
+      "comment_count": 45
     },
     {
       "id": "kerem",
@@ -8664,7 +8720,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 44
+      "comment_count": 46
     },
     {
       "id": "muriqi",
@@ -8674,12 +8730,12 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 43
+      "comment_count": 45
     },
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 17
+      "comment_count": 19
     },
     {
       "id": "oguz-aydin",
@@ -8694,7 +8750,7 @@
     {
       "id": "talisca",
       "name": "Talisca",
-      "comment_count": 42
+      "comment_count": 44
     },
     {
       "id": "torreira",
