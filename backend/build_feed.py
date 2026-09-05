@@ -5,7 +5,7 @@ merged on top of the automated TFF cache so the app never shows a known-wrong cu
 """
 from __future__ import annotations
 import json, re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
 from collector_v3 import PLAYERS, TEAMS
@@ -33,6 +33,29 @@ CANON={
 def canonical(v):
     raw=' '.join((v or '').split()).strip()
     return CANON.get(raw.casefold(),raw)
+
+# Columnists write the short forms ("G.Saray", "F.Bahçe", "BJK"), which the club
+# list does not contain; without them most statements stayed untagged and could
+# not be tied to a fixture.
+TEAM_ALIASES={
+ 'Galatasaray':('G.Saray','G. Saray','Cimbom','Cim Bom'),
+ 'Fenerbahçe':('F.Bahçe','F. Bahçe','F.Bahce','Kanarya'),
+ 'Beşiktaş':('BJK','Kara Kartal'),
+ 'Trabzonspor':('T.Spor','T. Spor','Fırtına'),
+ 'Başakşehir':('İ.Başakşehir','Başakşehir FK'),
+ 'Gaziantep FK':('Gaziantep',),
+ 'Çorum FK':('Çorum',),
+ 'Amed SK':('Amed',),
+}
+
+def teams_in(text):
+    """Canonical clubs named in a piece of text, short forms included."""
+    found=[]
+    for club in TEAMS:
+        surfaces=(club,)+TEAM_ALIASES.get(club,())
+        if mentioned_entities(text,list(surfaces)):
+            found.append(canonical(club))
+    return sorted(set(found))
 
 def clean_summary(value):
     value=' '.join((value or '').split()).strip(' “”-')
@@ -177,8 +200,8 @@ for s in seed.get('statements',[]):
         continue
     # Repair historical page-wide tags; only the actual statement supplies entities.
     s['players']=mentioned_entities(s.get('summary',''),PLAYERS)
-    teams=mentioned_entities(s.get('summary',''),TEAMS)
-    s['team']=canonical(teams[0]) if len(teams)==1 else None
+    teams=teams_in(s.get('summary',''))
+    s['team']=teams[0] if len(teams)==1 else None
     s['image_url']=statement_image(s,photo_by_commentator)
     s['image_kind']='verified_portrait' if s['image_url'] else None
     if s.get('type')=='transfer':
@@ -191,6 +214,41 @@ for s in seed.get('statements',[]):
     if key in seen_norm:continue
     seen_norm.add(key);deduped.append(s)
 seed['statements']=deduped
+
+# Nothing tied a statement to a fixture, so every match screen opened empty. A
+# single sentence rarely names both clubs ("Beşiktaş hak etti"), but the column
+# it came from does, so the article - not the sentence - is what gets matched.
+def parse_stamp(value):
+    try:stamp=datetime.fromisoformat(str(value).replace('Z','+00:00'))
+    except ValueError:return None
+    return stamp if stamp.tzinfo else stamp.replace(tzinfo=timezone.utc)
+
+def link_matches(statements,matches):
+    fixtures=[]
+    for m in matches or []:
+        kickoff=parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff'))
+        if kickoff and m.get('home') and m.get('away'):
+            fixtures.append((m['id'],{canonical(m['home']),canonical(m['away'])},kickoff))
+    articles={}
+    for s in statements:
+        url=s.get('url') or ''
+        if url:articles.setdefault(url,[]).append(s)
+    linked=0
+    for rows in articles.values():
+        named=set();stamp=None
+        for s in rows:
+            named|=set(teams_in(s.get('summary','')))
+            stamp=stamp or parse_stamp(s.get('date'))
+        if len(named)<2 or stamp is None:continue
+        # A column runs the morning after kickoff; a preview may run the day before.
+        best=[(mid,clubs) for mid,clubs,kickoff in fixtures
+              if clubs<=named and kickoff-timedelta(days=1)<=stamp<=kickoff+timedelta(days=4)]
+        if len(best)!=1:continue
+        for s in rows:
+            if not s.get('match_id'):s['match_id']=best[0][0];linked+=1
+    return linked
+
+linked=link_matches(seed['statements'],seed.get('matches'))
 quarantine_path.write_text(json.dumps(list(quarantine_by_key.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 
 counts={}
@@ -223,4 +281,4 @@ seed['publications']=json.loads(publication_path.read_text(encoding='utf-8')) if
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')
-print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
+print('match links',linked);print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
