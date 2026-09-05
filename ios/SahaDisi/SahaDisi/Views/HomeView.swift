@@ -260,18 +260,22 @@ struct StatementTweetCard: View {
     let statement: Statement
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        let commentator = store.commentator(id: statement.commentator)
+        return VStack(alignment: .leading, spacing: 11) {
             NavigationLink { StatementDetailView(statement: statement) } label: {
-                VStack(alignment: .leading, spacing: 12) {
+                VStack(alignment: .leading, spacing: 10) {
                     HStack(spacing: 10) {
-                        let commentator = store.commentator(id: statement.commentator)
                         AvatarView(text: commentator?.avatar ?? "?", size: 44, photoURL: commentator?.photoURL)
                         VStack(alignment: .leading, spacing: 2) {
                             Text(commentator?.name ?? statement.commentator).font(.headline)
                             Text(statement.source).font(.caption2.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1)
                         }
                         Spacer()
-                        Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1).minimumScaleFactor(0.75)
+                        VStack(alignment: .trailing, spacing: 4) {
+                            Text(sentimentText(statement.sentiment).uppercased())
+                                .font(.caption2.weight(.heavy)).foregroundStyle(sentimentColor(statement.sentiment))
+                            Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1).minimumScaleFactor(0.75)
+                        }
                     }
                     Text("“\(statement.summary)”").font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
                     if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
@@ -280,11 +284,29 @@ struct StatementTweetCard: View {
                             else { Rectangle().fill(SDTheme.panel2) }
                         }.frame(height: 190).frame(maxWidth: .infinity).clipped().clipShape(RoundedRectangle(cornerRadius: 14))
                     }
+                    HStack(spacing: 6) {
+                        TagPill(text: statement.topic)
+                        if let team = statement.team { TagPill(text: team) }
+                    }
                 }
             }.buttonStyle(.plain)
-            StatementSocialBar(statement: statement)
+            Divider().overlay(SDTheme.line)
+            HStack(spacing: 0) {
+                StatementSocialBar(statement: statement)
+                if let url = URL(string: statement.url), !statement.url.isEmpty {
+                    Link(destination: url) {
+                        HStack(spacing: 4) {
+                            Text(statement.sourceActionTitle).font(.caption.bold())
+                            Image(systemName: statement.sourceActionIcon).font(.caption2)
+                        }.foregroundStyle(SDTheme.accent)
+                    }
+                }
+            }
         }
-        .padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
+        .padding(14)
+        .background(SDTheme.panel)
+        .overlay(alignment: .leading) { Rectangle().fill(sentimentColor(statement.sentiment)).frame(width: 3) }
+        .clipShape(RoundedRectangle(cornerRadius: 16))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
     }
 }
