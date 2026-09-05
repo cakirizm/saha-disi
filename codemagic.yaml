@@ -17,6 +17,12 @@ workflows:
       - name: Set up code signing
         script: |
           keychain initialize
+          # Create the App Store distribution certificate + provisioning profile
+          # if they do not exist yet. Requires the App Store Connect API key
+          # (integration "nova") to have the App Manager role.
+          app-store-connect fetch-signing-files "com.sahadisi.app" \
+            --type IOS_APP_STORE \
+            --create
           keychain add-certificates
           xcode-project use-profiles
 
