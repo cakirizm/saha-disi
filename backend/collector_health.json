@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T10:31:28.170490+00:00",
+  "generated_at": "2026-09-05T11:08:35.037496+00:00",
   "tracked_commentators": 204,
   "totals": {
     "sources": 79,
     "successful": 79,
     "youtube_sources": 4,
     "new_videos": 0,
-    "candidates": 56
+    "candidates": 57
   },
   "sources": [
     {
@@ -188,7 +188,7 @@
     {
       "commentator": "ali-naci-kucuk",
       "source": "Google News RSS",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:31:40.540656+00:00",
+  "generated_at": "2026-09-05T11:08:50.009727+00:00",
   "commentators": [
     {
       "id": "yagiz-sabuncuoglu",
@@ -113,6 +113,17 @@
       "photoURL": null
     },
     {
+      "id": "hasan-al",
+      "name": "Hasan Al",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "HA",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "kaya-temel",
       "name": "Kaya Temel",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -199,17 +210,6 @@
       "avatar": "EÖ",
       "focusTeams": [
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hasan-al",
-      "name": "Hasan Al",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "HA",
-      "focusTeams": [
-        "Trabzonspor"
       ],
       "photoURL": null
     },
@@ -4458,6 +4458,81 @@
       "source": "343",
       "url": "https://343digital.com/kategori/video",
       "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 121,
+      "commentator": "ibrahim-seten",
+      "date": "2026-09-05",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Talisca",
+        "Greenwood",
+        "Asensio",
+        "Batrakov",
+        "Guendouzi",
+        "Leao",
+        "Onuachu"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Pres yoksa Galatasaray yok!",
+      "source": "343",
+      "url": "https://343digital.com/kategori/video",
+      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 122,
+      "commentator": "yagiz-sabuncuoglu",
+      "date": "2026-09-05",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Talisca",
+        "Greenwood",
+        "Asensio",
+        "Batrakov",
+        "Guendouzi",
+        "Leao",
+        "Onuachu"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Pres yoksa Galatasaray yok!",
+      "source": "343",
+      "url": "https://343digital.com/kategori/video",
+      "image_url": "https://343digital.com/public/frontend/images/brand/og-default.jpg?v=1788226685",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null
+    },
+    {
+      "id": 123,
+      "commentator": "hasan-al",
+      "date": "2026-09-05",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "'Trabzonspor çok büyük hatalar yaparak elendi' - cumhuriyet.com.tr",
+      "source": "Google News RSS",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSXMwc3FhTXRzUzdFRjVxVWxkQXQ3azEwSmdCQTVmV2xOc2VMVFA5UjJIUUZ2Ul92dl9aSmdxeWs1UHNhdm5FUlJyMHZuUHdiTWFTb0t0aXEzblAwdTZZdkdkNUFBcTdoY2s4dlJya2FVVVJuaGFEcmdYaVNoeklYNFp3M294NVVCc2p0aFVxMTBWT1dJc29QQ1dteUQ?oc=5",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
@@ -8772,7 +8847,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 44
+      "comment_count": 46
     },
     {
       "id": "baris-alper",
@@ -8782,17 +8857,17 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 40
+      "comment_count": 42
     },
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 41
+      "comment_count": 43
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 41
+      "comment_count": 43
     },
     {
       "id": "kerem",
@@ -8802,7 +8877,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 42
+      "comment_count": 44
     },
     {
       "id": "muriqi",
@@ -8812,12 +8887,12 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 41
+      "comment_count": 43
     },
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 15
+      "comment_count": 17
     },
     {
       "id": "oguz-aydin",
@@ -8832,7 +8907,7 @@
     {
       "id": "talisca",
       "name": "Talisca",
-      "comment_count": 40
+      "comment_count": 42
     },
     {
       "id": "torreira",
