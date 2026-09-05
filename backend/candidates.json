@@ -17,7 +17,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T14:54:03.718352+00:00",
+    "discovered_at": "2026-09-05T15:26:37.501194+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -44,7 +44,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T14:54:03.719066+00:00",
+    "discovered_at": "2026-09-05T15:26:37.502072+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -71,7 +71,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T14:54:03.719608+00:00",
+    "discovered_at": "2026-09-05T15:26:37.502838+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -98,13 +98,141 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T14:54:03.720155+00:00",
+    "discovered_at": "2026-09-05T15:26:37.503590+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "ahmet-cakar",
       "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
       "published_at": "2026-09-05T06:40:49+03:00"
+    }
+  },
+  {
+    "candidate_id": "4cdb283df58439aae849",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Maç öncesi çok zorlu bir karşılaşma olacak diyorlardı; fakat baktık ki Fenerbahçe güle oynaya kazandı.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Guendouzi",
+      "Kante",
+      "Semedo",
+      "Muriqi"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:40:48+03:00",
+    "discovered_at": "2026-09-05T15:26:37.853145+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "published_at": "2026-08-31T06:40:48+03:00"
+    }
+  },
+  {
+    "candidate_id": "f8579fa85767ab7324b6",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Üstelik bazı oyuncular Fenerbahçe'deki en yüksek seviyedeki oyunlarını oynuyorlar.",
+    "team": "Fenerbahçe",
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Guendouzi",
+      "Kante",
+      "Semedo",
+      "Muriqi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:40:48+03:00",
+    "discovered_at": "2026-09-05T15:26:37.854180+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "published_at": "2026-08-31T06:40:48+03:00"
+    }
+  },
+  {
+    "candidate_id": "59f6197cdc742c85fb0f",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Bunların başında Kante ve Guendouzi geliyor.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Guendouzi",
+      "Kante",
+      "Semedo",
+      "Muriqi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:40:48+03:00",
+    "discovered_at": "2026-09-05T15:26:37.855078+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "published_at": "2026-08-31T06:40:48+03:00"
+    }
+  },
+  {
+    "candidate_id": "c36f695b55f2b8666541",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Her iki kanat beki özellikle Semedo daha önceki maçlarda bazen sıkıntı yaratıyordu ama dün akşam onlar da iyi oynadı.",
+    "team": null,
+    "players": [
+      "Kerem",
+      "Oğuz Aydın",
+      "Guendouzi",
+      "Kante",
+      "Semedo",
+      "Muriqi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-08-31T06:40:48+03:00",
+    "discovered_at": "2026-09-05T15:26:37.855954+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "published_at": "2026-08-31T06:40:48+03:00"
     }
   },
   {
@@ -125,7 +253,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.076370+00:00",
+    "discovered_at": "2026-09-05T15:26:38.168931+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -152,7 +280,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.077179+00:00",
+    "discovered_at": "2026-09-05T15:26:38.170012+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -179,7 +307,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.078551+00:00",
+    "discovered_at": "2026-09-05T15:26:38.171045+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -206,13 +334,125 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.079282+00:00",
+    "discovered_at": "2026-09-05T15:26:38.172134+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "ahmet-cakar",
       "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
       "published_at": "2026-08-30T06:40:46+03:00"
+    }
+  },
+  {
+    "candidate_id": "8d2e9a7e4186263a09e6",
+    "commentator": "levent-tuzemen",
+    "summary_candidate": "Dersine dört yıllık şampiyonluktan çok daha fazla çalışmalısın.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-05T06:40:49+03:00",
+    "discovered_at": "2026-09-05T15:26:37.486633+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "levent-tuzemen",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "published_at": "2026-09-05T06:40:49+03:00"
+    }
+  },
+  {
+    "candidate_id": "a6a236d5ec4b445d560e",
+    "commentator": "levent-tuzemen",
+    "summary_candidate": "Çünkü bu ülkede beş yıl üst üste şampiyon olmuş yerli ya da yabancı hoca yok.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane"
+    ],
+    "topic": "Tahmin",
+    "type": "prediction",
+    "sentiment": "neutral",
+    "strength": 8,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-05T06:40:49+03:00",
+    "discovered_at": "2026-09-05T15:26:37.487415+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "levent-tuzemen",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "published_at": "2026-09-05T06:40:49+03:00"
+    }
+  },
+  {
+    "candidate_id": "da98ee2083cda026b07c",
+    "commentator": "levent-tuzemen",
+    "summary_candidate": "Osimhen'in Galatasaray'ın kalbi ve lideri olduğu Başakşehir maçında net anlaşıldı.",
+    "team": null,
+    "players": [
+      "Osimhen",
+      "Sane"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-05T06:40:49+03:00",
+    "discovered_at": "2026-09-05T15:26:37.488193+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "levent-tuzemen",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "published_at": "2026-09-05T06:40:49+03:00"
+    }
+  },
+  {
+    "candidate_id": "ff1bf7cb04de0b144450",
+    "commentator": "levent-tuzemen",
+    "summary_candidate": "Osimhen'li Galatasaray rakip kalede cirit atarken, Osimhen'siz Galatasaray liderini kaybetmiş bir takım haline dönüştü.",
+    "team": "Galatasaray",
+    "players": [
+      "Osimhen",
+      "Sane"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-05T06:40:49+03:00",
+    "discovered_at": "2026-09-05T15:26:37.488960+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "levent-tuzemen",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "published_at": "2026-09-05T06:40:49+03:00"
     }
   },
   {
@@ -234,7 +474,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T14:54:03.830532+00:00",
+    "discovered_at": "2026-09-05T15:26:37.771885+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -262,7 +502,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T14:54:03.831285+00:00",
+    "discovered_at": "2026-09-05T15:26:37.773005+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -290,7 +530,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T14:54:03.831983+00:00",
+    "discovered_at": "2026-09-05T15:26:37.774044+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -318,7 +558,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T14:54:03.832784+00:00",
+    "discovered_at": "2026-09-05T15:26:37.775072+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -348,7 +588,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.055794+00:00",
+    "discovered_at": "2026-09-05T15:26:38.051369+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -378,7 +618,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.079577+00:00",
+    "discovered_at": "2026-09-05T15:26:38.052454+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -408,7 +648,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.080437+00:00",
+    "discovered_at": "2026-09-05T15:26:38.053573+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -438,7 +678,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T14:54:04.081305+00:00",
+    "discovered_at": "2026-09-05T15:26:38.055031+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -464,7 +704,7 @@
     "image_url": null,
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-05T14:54:03.872839+00:00",
+    "discovered_at": "2026-09-05T15:26:37.550211+00:00",
     "published_at": "2026-09-05T00:21:34+03:00",
     "evidence": {
       "version": 2,
@@ -492,7 +732,7 @@
     "image_url": null,
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-05T14:54:03.872989+00:00",
+    "discovered_at": "2026-09-05T15:26:37.550422+00:00",
     "published_at": "2026-09-05T00:21:34+03:00",
     "evidence": {
       "version": 2,
