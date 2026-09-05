@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T13:14:27.930439+00:00",
+  "generated_at": "2026-09-05T13:19:05.214623+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -156,6 +156,20 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Serkan_Asan_%282020-21_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoSource": "https://tr.wikipedia.org/wiki/Serkan_Asan",
       "resolvedTitle": "Serkan Asan",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "mustafa-culcu": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Mustafa_%C3%87ulcu",
+      "resolvedTitle": "Mustafa Çulcu",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "firat-aydinus": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/8/8b/F%C4%B1ratAyd%C4%B1nus.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/F%C4%B1rat_Ayd%C4%B1nus",
+      "resolvedTitle": "Fırat Aydınus",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
