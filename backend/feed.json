@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:47:36.864081+00:00",
+  "generated_at": "2026-09-05T14:53:48.087959+00:00",
   "commentators": [
     {
       "id": "ahmet-cakar",
@@ -11,6 +11,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
     },
     {
       "id": "nihat-kahveci",
@@ -1064,17 +1075,6 @@
       "role": "Galatasaray muhabiri / yorumcu",
       "primarySource": "Galatasaray kaynak taraması",
       "avatar": "KÇ",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
       "focusTeams": [
         "Galatasaray"
       ],
@@ -2448,6 +2448,669 @@
         "published_at": "2026-09-05T00:21:34+03:00"
       },
       "image_kind": "verified_portrait"
+    },
+    {
+      "id": 134,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": "Başakşehir",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Dün gece Başakşehir Fatih Terim Stadı'nda Türk hakemliğinin kara gecelerinden birini daha izledik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 135,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Üst düzey futbolda maçın sonucuna etkili bu kadar fazla hata yapılması asla normal karşılanamaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 136,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": "Başakşehir",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Başakşehir lehine verdiği penaltı tam bir komedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 137,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Amatör kümede bile böyle penaltı verilmez.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/05/ancak-kabile-maci-yonetir",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 138,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31T06:40:48+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maç öncesi çok zorlu bir karşılaşma olacak diyorlardı; fakat baktık ki Fenerbahçe güle oynaya kazandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+        "published_at": "2026-08-31T06:40:48+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 139,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31T06:40:48+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üstelik bazı oyuncular Fenerbahçe'deki en yüksek seviyedeki oyunlarını oynuyorlar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+        "published_at": "2026-08-31T06:40:48+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 140,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31T06:40:48+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi",
+        "Kante"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bunların başında Kante ve Guendouzi geliyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+        "published_at": "2026-08-31T06:40:48+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 141,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-31T06:40:48+03:00",
+      "team": null,
+      "players": [
+        "Semedo"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Her iki kanat beki özellikle Semedo daha önceki maçlarda bazen sıkıntı yaratıyordu ama dün akşam onlar da iyi oynadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
+        "published_at": "2026-08-31T06:40:48+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 142,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Osimhen dışında çabalayan, takımı ateşleyen bir oyuncu yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 143,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şimdiye kadar 'Osimhen takımın çok şeyi' diyorduk, belki de her şeyi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 144,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Koskoca G.Saray bir taçtan, bir de kornerden iki gol yedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 145,
+      "commentator": "ahmet-cakar",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Göztepeli oyuncunun ters kafası, Sanchez'in göğsüne çarpıp gol oluyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 146,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Dersine dört yıllık şampiyonluktan çok daha fazla çalışmalısın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 147,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü bu ülkede beş yıl üst üste şampiyon olmuş yerli ya da yabancı hoca yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 148,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Osimhen'in Galatasaray'ın kalbi ve lideri olduğu Başakşehir maçında net anlaşıldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 149,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-05T06:40:49+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Osimhen'li Galatasaray rakip kalede cirit atarken, Osimhen'siz Galatasaray liderini kaybetmiş bir takım haline dönüştü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/05/korkma-okan-hocam",
+        "published_at": "2026-09-05T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 150,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01T06:40:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Acil golcü lazım Trabzonspor'da müthiş kurtarışlar yapan kaleci Onana eğer ön plana çıkıyorsa bu Amed'in ne kadar etkili oynadığını gösterir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+        "published_at": "2026-09-01T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 151,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01T06:40:44+03:00",
+      "team": null,
+      "players": [
+        "Muçi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Önüne düşen topu Muçi çok çabuk rakip savunmanın arkasına sarkan Salah'ın koşu yoluna bıraktı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+        "published_at": "2026-09-01T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 152,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01T06:40:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ayrıca Brezilyalı'nın müthiş bir çevre kontrolü var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+        "published_at": "2026-09-01T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 153,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-01T06:40:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gol Trabzon'u coşturacağına aksine fren yaptırdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/01/acil-golcu-lazim",
+        "published_at": "2026-09-01T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 154,
+      "commentator": "levent-tuzemen",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": "Göztepe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "G.Saray’ın her şeyi Gerek İstanbul'da gerekse İzmir'de G.Saray-Göztepe maçları, çok çekişmeli geçiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 155,
+      "commentator": "levent-tuzemen",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": "Göztepe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Özellikle G.Saray, Göztepe'nin oturmuş sistemine karşı kazanırken hep zorlanıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 156,
+      "commentator": "levent-tuzemen",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Oyuna kötü başlayan ve ilk 15 dakikada Jankat'ın iki net kurtarışıyla ayakta kalan G.Saray, Miroshi'nin golüne engel olamadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 157,
+      "commentator": "levent-tuzemen",
+      "date": "2026-08-30T06:40:46+03:00",
+      "team": "Göztepe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Göztepe, uzun toplarla hücuma tehditkar olarak çıktı, yenilen golde Sara'nın siper olacağı yerde toptan kaçması çok şaşırtıcıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/08/30/gsarayin-her-seyi",
+        "published_at": "2026-08-30T06:40:46+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -7064,13 +7727,33 @@
   ],
   "players": [
     {
+      "id": "guendouzi",
+      "name": "Guendouzi",
+      "comment_count": 1
+    },
+    {
+      "id": "kante",
+      "name": "Kante",
+      "comment_count": 1
+    },
+    {
       "id": "leao",
       "name": "Leao",
       "comment_count": 1
     },
     {
+      "id": "muci",
+      "name": "Muçi",
+      "comment_count": 1
+    },
+    {
       "id": "osimhen",
       "name": "Osimhen",
+      "comment_count": 5
+    },
+    {
+      "id": "semedo",
+      "name": "Semedo",
       "comment_count": 1
     },
     {
