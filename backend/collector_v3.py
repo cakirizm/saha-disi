@@ -83,6 +83,15 @@ def direct_sources():
   {'url':'https://kontraspor.com/haberleri/nihat-kahveci','source':'Kontraspor','trust':98,'cid':'nihat-kahveci','byline':True},
   {'url':'https://www.aspor.com.tr/yazarlar/ahmet-cakar/arsiv','source':'A Spor','trust':100,'cid':'ahmet-cakar','byline':True},
   {'url':'https://www.aspor.com.tr/yazarlar/levent-tuzemen/arsiv','source':'A Spor','trust':100,'cid':'levent-tuzemen','byline':True},
+  {'url':'https://www.aspor.com.tr/yazarlar/bulent-timurlenk/arsiv','source':'A Spor','trust':98,'cid':'bulent-timurlenk','byline':True},
+  {'url':'https://www.fanatik.com.tr/yazarlar/cem-dizdar','source':'Fanatik','trust':95,'cid':'cem-dizdar','byline':True},
+  {'url':'https://www.fanatik.com.tr/yazarlar/orhan-yildirim','source':'Fanatik','trust':95,'cid':'orhan-yildirim','byline':True},
+  {'url':'https://www.fanatik.com.tr/yazarlar/serkan-akcan','source':'Fanatik','trust':95,'cid':'serkan-akcan','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/sinan-vardar/arsiv','source':'Takvim','trust':92,'cid':'sinan-vardar','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/evren-turhan/arsiv','source':'Takvim','trust':92,'cid':'evren-turhan','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/gurcan-bilgic/arsiv','source':'Takvim','trust':92,'cid':'gurcan-bilgic','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/arsiv','source':'Takvim','trust':92,'cid':'ilker-yagcioglu','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/kartal-yigit/arsiv','source':'Takvim','trust':92,'cid':'kartal-yigit','byline':True},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke','byline':True}]
 def discover(src,limit=3):
  if src.get('article'):return [(src['url'],'')]
