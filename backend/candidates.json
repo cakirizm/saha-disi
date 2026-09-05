@@ -1,5 +1,133 @@
 [
   {
+    "candidate_id": "55b962be257668cc5f46",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Önce şunu söyleyeyim, Beşiktaş anasının ak sütü gibi helal bir galibiyet aldı.",
+    "team": "Beşiktaş",
+    "players": [
+      "Talisca",
+      "Kerem",
+      "Skriniar",
+      "Vlahovic",
+      "Trossard",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-06T01:18:42+03:00",
+    "discovered_at": "2026-09-05T22:44:37.430432+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+      "published_at": "2026-09-06T01:18:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "1e99fb1f169fe866998f",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Üstelik Kadıköy'de Beşiktaş'ın böyle oynayacağını, bu kadar pozisyon bulabileceğini hiç düşünmemiştim.",
+    "team": "Beşiktaş",
+    "players": [
+      "Talisca",
+      "Kerem",
+      "Skriniar",
+      "Vlahovic",
+      "Trossard",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-06T01:18:42+03:00",
+    "discovered_at": "2026-09-05T22:44:37.431070+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+      "published_at": "2026-09-06T01:18:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "1ef54a5487b35fab3bc2",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "F.Bahçe'nin attığı gol dışında neredeyse hiçbir pozisyonu yok.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Kerem",
+      "Skriniar",
+      "Vlahovic",
+      "Trossard",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-06T01:18:42+03:00",
+    "discovered_at": "2026-09-05T22:44:37.431680+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+      "published_at": "2026-09-06T01:18:42+03:00"
+    }
+  },
+  {
+    "candidate_id": "b8b1e51fb7508558295b",
+    "commentator": "ahmet-cakar",
+    "summary_candidate": "Attığı gol de tamamen bir bireysel hata.",
+    "team": null,
+    "players": [
+      "Talisca",
+      "Kerem",
+      "Skriniar",
+      "Vlahovic",
+      "Trossard",
+      "Kante"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "negative",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-09-06T01:18:42+03:00",
+    "discovered_at": "2026-09-05T22:44:37.432259+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "ahmet-cakar",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/06/anasinin-ak-sutu-gibi-helal",
+      "published_at": "2026-09-06T01:18:42+03:00"
+    }
+  },
+  {
     "candidate_id": "816f917098cc292d425b",
     "commentator": "ahmet-cakar",
     "summary_candidate": "Dün gece Başakşehir Fatih Terim Stadı'nda Türk hakemliğinin kara gecelerinden birini daha izledik.",
@@ -17,7 +145,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.208986+00:00",
+    "discovered_at": "2026-09-05T22:44:37.820823+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -44,7 +172,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.209988+00:00",
+    "discovered_at": "2026-09-05T22:44:37.821358+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -71,7 +199,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.210921+00:00",
+    "discovered_at": "2026-09-05T22:44:37.821883+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -98,7 +226,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.211965+00:00",
+    "discovered_at": "2026-09-05T22:44:37.822367+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -130,7 +258,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-31T06:40:48+03:00",
-    "discovered_at": "2026-09-05T22:26:03.482229+00:00",
+    "discovered_at": "2026-09-05T22:44:38.157498+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -162,7 +290,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-31T06:40:48+03:00",
-    "discovered_at": "2026-09-05T22:26:03.483309+00:00",
+    "discovered_at": "2026-09-05T22:44:38.158145+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -194,7 +322,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-31T06:40:48+03:00",
-    "discovered_at": "2026-09-05T22:26:03.484330+00:00",
+    "discovered_at": "2026-09-05T22:44:38.158741+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -226,121 +354,13 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-31T06:40:48+03:00",
-    "discovered_at": "2026-09-05T22:26:03.485399+00:00",
+    "discovered_at": "2026-09-05T22:44:38.159379+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "ahmet-cakar",
       "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/31/penalti-yok-kirmizi-var",
       "published_at": "2026-08-31T06:40:48+03:00"
-    }
-  },
-  {
-    "candidate_id": "d176c03f7259de8c121b",
-    "commentator": "ahmet-cakar",
-    "summary_candidate": "Osimhen dışında çabalayan, takımı ateşleyen bir oyuncu yok.",
-    "team": null,
-    "players": [
-      "Osimhen"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "A Spor",
-    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-    "image_url": null,
-    "confidence": 100,
-    "direct_quote": true,
-    "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.803728+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ahmet-cakar",
-      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-      "published_at": "2026-08-30T06:40:46+03:00"
-    }
-  },
-  {
-    "candidate_id": "d2714deef35852b4a37f",
-    "commentator": "ahmet-cakar",
-    "summary_candidate": "Şimdiye kadar 'Osimhen takımın çok şeyi' diyorduk, belki de her şeyi.",
-    "team": null,
-    "players": [
-      "Osimhen"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "A Spor",
-    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-    "image_url": null,
-    "confidence": 100,
-    "direct_quote": true,
-    "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.805040+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ahmet-cakar",
-      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-      "published_at": "2026-08-30T06:40:46+03:00"
-    }
-  },
-  {
-    "candidate_id": "88e9756687312b8aa641",
-    "commentator": "ahmet-cakar",
-    "summary_candidate": "Koskoca G.Saray bir taçtan, bir de kornerden iki gol yedi.",
-    "team": null,
-    "players": [
-      "Osimhen"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "A Spor",
-    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-    "image_url": null,
-    "confidence": 100,
-    "direct_quote": true,
-    "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.806266+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ahmet-cakar",
-      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-      "published_at": "2026-08-30T06:40:46+03:00"
-    }
-  },
-  {
-    "candidate_id": "a446bfcd8df68c82b185",
-    "commentator": "ahmet-cakar",
-    "summary_candidate": "Göztepeli oyuncunun ters kafası, Sanchez'in göğsüne çarpıp gol oluyor.",
-    "team": null,
-    "players": [
-      "Osimhen"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "A Spor",
-    "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-    "image_url": null,
-    "confidence": 100,
-    "direct_quote": true,
-    "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.807475+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "ahmet-cakar",
-      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/08/30/boyle-penalti-yok",
-      "published_at": "2026-08-30T06:40:46+03:00"
     }
   },
   {
@@ -362,7 +382,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.133972+00:00",
+    "discovered_at": "2026-09-05T22:44:37.203709+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -390,7 +410,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.135034+00:00",
+    "discovered_at": "2026-09-05T22:44:37.204292+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -418,7 +438,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.136086+00:00",
+    "discovered_at": "2026-09-05T22:44:37.204851+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -446,7 +466,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-05T06:40:49+03:00",
-    "discovered_at": "2026-09-05T22:26:03.137427+00:00",
+    "discovered_at": "2026-09-05T22:44:37.205425+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -474,7 +494,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T22:26:03.416227+00:00",
+    "discovered_at": "2026-09-05T22:44:37.468599+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -502,7 +522,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T22:26:03.417578+00:00",
+    "discovered_at": "2026-09-05T22:44:37.469347+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -530,7 +550,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T22:26:03.418778+00:00",
+    "discovered_at": "2026-09-05T22:44:37.470079+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -558,7 +578,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-09-01T06:40:44+03:00",
-    "discovered_at": "2026-09-05T22:26:03.419968+00:00",
+    "discovered_at": "2026-09-05T22:44:37.470783+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -588,7 +608,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.716027+00:00",
+    "discovered_at": "2026-09-05T22:44:37.830765+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -618,7 +638,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.717238+00:00",
+    "discovered_at": "2026-09-05T22:44:37.831415+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -648,7 +668,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.718484+00:00",
+    "discovered_at": "2026-09-05T22:44:37.832093+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -678,7 +698,7 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-08-30T06:40:46+03:00",
-    "discovered_at": "2026-09-05T22:26:03.719810+00:00",
+    "discovered_at": "2026-09-05T22:44:37.832817+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -704,7 +724,7 @@
     "image_url": null,
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-05T22:26:02.927120+00:00",
+    "discovered_at": "2026-09-05T22:44:36.822789+00:00",
     "published_at": "2026-09-05T00:21:34+03:00",
     "evidence": {
       "version": 2,
@@ -732,7 +752,7 @@
     "image_url": null,
     "confidence": 95,
     "direct_quote": true,
-    "discovered_at": "2026-09-05T22:26:02.927421+00:00",
+    "discovered_at": "2026-09-05T22:44:36.822959+00:00",
     "published_at": "2026-09-05T00:21:34+03:00",
     "evidence": {
       "version": 2,
