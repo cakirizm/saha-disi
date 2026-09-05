@@ -11,6 +11,8 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
+from feed_quality import EDITORIAL_MARKERS, mentioned_entities
+
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 UA='Mozilla/5.0 (compatible; SahaDisiCollector/2.1; literal-quote-indexer)'
 ROSTER=json.loads((B/'commentator_roster.json').read_text(encoding='utf-8'))
@@ -18,12 +20,12 @@ PEOPLE=[(cid,name) for cid,name,_ in ROSTER]; COMMENTATORS={cid:name for cid,nam
 TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göztepe','Konyaspor','Kocaelispor','Gaziantep','Rizespor','Eyüpspor','Alanyaspor','Başakşehir','Kasımpaşa','Gençlerbirliği','Erzurumspor','Çorum','Amed']
 PLAYERS=['Kenan Yıldız','Gabriel Sara','Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
 QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
-# Football vocabulary used to keep off-topic columns (politics, religion, health)
-# out. Every term must be football-specific: bare 'var' matched Turkish "var"
-# ("there is") and let unrelated columnists through.
 # Columns often lose the space after a full stop ("çökerttiler.Değişiklikler"),
 # so also split where a stop is followed directly by a Turkish capital.
 SENTENCE_SPLIT=re.compile(r'(?<=[.!?])\s+|(?<=[.!?])(?=[A-ZÇĞİÖŞÜ])')
+# Football vocabulary used to keep off-topic columns (politics, religion, health)
+# out. Every term must be football-specific: bare 'var' matched Turkish "var"
+# ("there is") and let unrelated columnists through.
 FOOTBALL_TERMS=('maç','futbol','hakem','gol','transfer','şampiyon','derbi','takım','oyuncu','penaltı','ofsayt','kırmızı kart','sarı kart','var kararı','var pozisyon','teknik direktör','forvet','kaleci','defans','orta saha','santrfor','stoper','deplasman','devre arası','asist','süper lig','ligde','puan','taraftar','antrenman','sakatlık','skor','kupa','file bebek','teknik heyet')
 BAD_MARKERS=('eleştirdi','yorumladı','değerlendirdi','açıkladı','söyledi','ifade etti','konuştu','övdü','sert dille','çarpıcı sözler','flaş sözler')
 
@@ -69,9 +71,7 @@ def fetch(url):
  req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr-TR,tr;q=0.9'})
  with urlopen(req,timeout=12) as r:return decode_body(r.read(),r.headers.get('Content-Type',''))
 def parse(doc):p=Parser();p.feed(doc);return p
-def tags(text,items):
- from feed_quality import mentioned_entities
- return mentioned_entities(text,items)
+def tags(text,items):return mentioned_entities(text,items)
 MAX_AGE_DAYS=45
 def is_recent(published):
  # Author archives reach back years (NTV's go to 2010); the feed is about the
@@ -176,6 +176,8 @@ def byline_statements(text):
   if not (40<=len(s)<=320 and len(words)>=6):continue
   if '?' in s:continue
   if any(low.startswith(x+' ') or low==x for x in BAD_MARKERS):continue
+  # A column quoting someone else ("... söyledi") is not the author's own view.
+  if any(x in ' '+low for x in EDITORIAL_MARKERS):continue
   teams=tags(s,TEAMS);players=tags(s,PLAYERS)
   if not teams and not players and not any(k in low for k in FOOTBALL_TERMS):continue
   out.append(s)

@@ -3,6 +3,9 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urlparse
 import re
 
+# Mirrors the publish-gate rule in .github/workflows: these verbs mark reported speech.
+EDITORIAL_MARKERS=(' eleştirdi',' yorumladı',' değerlendirdi',' söyledi',' sert dille',' açıkladı')
+
 def publication_problem(row):
     url=urlparse(row.get('url',''))
     if url.scheme!='https' or not url.netloc:
@@ -11,6 +14,11 @@ def publication_problem(row):
         return 'index_page_not_statement'
     if not row.get('date'):
         return 'missing_publication_date'
+    # "X eleştirdi / söyledi" is the column reporting a third party, not the
+    # commentator's own words. The publish gate rejects these, so drop them here
+    # instead of failing the whole run at validation time.
+    if any(x in ' ' + (row.get('summary') or '').casefold() for x in EDITORIAL_MARKERS):
+        return 'reported_speech_not_own_words'
     if row.get('status')=='verified_manual':
         return None
     evidence=row.get('evidence') or {}

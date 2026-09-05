@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:40:23.725142+00:00",
+  "generated_at": "2026-09-05T23:53:07.721350+00:00",
   "commentators": [
     {
       "id": "levent-tuzemen",
@@ -13483,33 +13483,6 @@
       "image_kind": null
     },
     {
-      "id": 526,
-      "commentator": "fatih-dogan",
-      "date": "2026-08-17T06:40:47+03:00",
-      "team": null,
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Ama oyunun söylediğinden daha ziyade skorun söylediği şeyler var.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/08/17/hedefi-12den-vurdu",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "fatih-dogan",
-        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/08/17/hedefi-12den-vurdu",
-        "published_at": "2026-08-17T06:40:47+03:00"
-      },
-      "image_kind": null
-    },
-    {
       "id": 527,
       "commentator": "fatih-dogan",
       "date": "2026-08-17T06:40:47+03:00",
@@ -24278,33 +24251,6 @@
       "transfer_status": "reported"
     },
     {
-      "id": 919,
-      "commentator": "ersin-ramoglu",
-      "date": "2026-08-12T06:50:20+03:00",
-      "team": "Trabzonspor",
-      "players": [],
-      "topic": "Teknik Direktör",
-      "type": "coaching",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Trabzonspor Yöneticisi Serkan Kılıç bu sezon Avrupa Ligi, Türkiye Kupası ve Süper Lig'de 50-55 maç oynayacaklarını bu yüzden kadroyu geniş kurmak istediklerini söyledi...",
-      "source": "Fotomaç",
-      "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/08/12/salahi-sasirtan-sehir",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "ersin-ramoglu",
-        "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/08/12/salahi-sasirtan-sehir",
-        "published_at": "2026-08-12T06:50:20+03:00"
-      },
-      "image_kind": null
-    },
-    {
       "id": 920,
       "commentator": "reha-kapsal",
       "date": "2026-08-28T06:50:15+03:00",
@@ -28010,33 +27956,6 @@
       },
       "image_kind": null,
       "transfer_status": "reported"
-    },
-    {
-      "id": 1056,
-      "commentator": "hamit-turhan",
-      "date": "2026-08-22T19:57:18+03:00",
-      "team": "Galatasaray",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Efsane Başkan Faruk Süren'in yıllar önce bana ve Raşit Altun'a verdiği bir röportajında, ısrarla görevini neden bıraktığını sormam karşısında söylediği o meşhur sözü bir kez daha hatırlatmakta fayda görüyorum:Hamit Bey, biliyorsunuz Galatasaray Beyoğlu'ndadır.",
-      "source": "Fanatik",
-      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-galatasaraya-karsi-2635224",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "hamit-turhan",
-        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-galatasaraya-karsi-2635224",
-        "published_at": "2026-08-22T19:57:18+03:00"
-      },
-      "image_kind": null
     },
     {
       "id": 1057,
