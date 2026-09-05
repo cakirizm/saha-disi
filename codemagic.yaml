@@ -17,13 +17,24 @@ workflows:
     scripts:
       - name: Set up code signing
         script: |
+          set -e
+          # Confirm the signing credentials actually reached the build (no secrets printed).
+          echo "ISSUER_ID set:   ${APP_STORE_CONNECT_ISSUER_ID:+yes}"
+          echo "KEY_ID set:      ${APP_STORE_CONNECT_KEY_IDENTIFIER:+yes}"
+          echo "API_KEY set:     ${APP_STORE_CONNECT_PRIVATE_KEY:+yes}"
+          echo "CERT_KEY set:    ${CERTIFICATE_PRIVATE_KEY:+yes}"
           keychain initialize
           # Create the App Store distribution certificate + provisioning profile
-          # if they do not exist yet. Requires the App Store Connect API key
-          # (integration "nova") to have the App Manager role.
+          # if they do not exist yet. --verbose surfaces exactly what happens.
           app-store-connect fetch-signing-files "com.sahadisi.app" \
             --type IOS_APP_STORE \
-            --create
+            --certificate-key "@env:CERTIFICATE_PRIVATE_KEY" \
+            --create \
+            --verbose
+          echo "== profiles created on disk =="
+          find "$HOME/Library/MobileDevice/Provisioning Profiles" \
+               "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles" \
+               -name '*.mobileprovision' 2>/dev/null || true
           keychain add-certificates
           xcode-project use-profiles
 
