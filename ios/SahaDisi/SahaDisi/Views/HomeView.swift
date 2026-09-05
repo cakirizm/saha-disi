@@ -238,8 +238,13 @@ struct StatementRow: View {
             let c = store.commentator(id: statement.commentator)
             AvatarView(text: c?.avatar ?? "?", size: 42, photoURL: c?.photoURL)
             VStack(alignment: .leading, spacing: 7) {
-                HStack { Text(c?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2) }
-                Text(statement.summary).font(.subheadline).lineLimit(5)
+                HStack(spacing: 6) {
+                    Text(c?.name ?? statement.commentator).font(.subheadline.bold())
+                    Text("· \(statement.source)").font(.caption2).foregroundStyle(SDTheme.muted).lineLimit(1)
+                    Spacer()
+                    Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2)
+                }
+                Text("“\(statement.summary)”").font(.subheadline).lineLimit(5)
                 HStack { TagPill(text: statement.topic); if let team = statement.team { TagPill(text: team) }; Spacer(); Text("%\(statement.confidence)").font(.caption2).foregroundStyle(SDTheme.muted) }
             }
         }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 15))
@@ -257,11 +262,14 @@ struct StatementTweetCard: View {
                     HStack(spacing: 10) {
                         let commentator = store.commentator(id: statement.commentator)
                         AvatarView(text: commentator?.avatar ?? "?", size: 44, photoURL: commentator?.photoURL)
-                        Text(commentator?.name ?? statement.commentator).font(.headline)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(commentator?.name ?? statement.commentator).font(.headline)
+                            Text(statement.source).font(.caption2.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1)
+                        }
                         Spacer()
                         Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1).minimumScaleFactor(0.75)
                     }
-                    Text(statement.summary).font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
+                    Text("“\(statement.summary)”").font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
                     if let imageURL = statement.imageURL, let url = URL(string: imageURL) {
                         AsyncImage(url: url) { phase in
                             if case .success(let image) = phase { image.resizable().scaledToFill() }

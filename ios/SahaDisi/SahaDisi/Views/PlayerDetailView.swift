@@ -54,7 +54,7 @@ struct PlayerDetailView: View {
                     let commentator = store.commentator(id: statement.commentator)
                     VStack(alignment: .leading, spacing: 9) {
                         HStack { AvatarView(text: commentator?.avatar ?? "?", size: 36, photoURL: commentator?.photoURL); Text(commentator?.name ?? statement.commentator).font(.subheadline.bold()); Spacer(); Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted) }
-                        Text(statement.summary).font(.body).lineSpacing(3).multilineTextAlignment(.leading)
+                        Text("“\(statement.summary)”").font(.body).lineSpacing(3).multilineTextAlignment(.leading)
                         HStack { Label(statement.source, systemImage: "link"); Spacer(); Text(statement.topic) }.font(.caption2).foregroundStyle(SDTheme.muted)
                     }.padding(14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
                 }.buttonStyle(.plain)

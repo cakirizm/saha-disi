@@ -94,6 +94,21 @@ struct Statement: Codable, Identifiable, Hashable {
     }
 }
 
+extension Statement {
+    /// Kaynak bir video mu yoksa yazılı haber mi? Yönlendirme metnini buna göre seçiyoruz.
+    var isVideoSource: Bool {
+        let u = url.lowercased()
+        return u.contains("youtube.com") || u.contains("youtu.be")
+    }
+    /// "Tamamını izlemek/okumak isteyeni oraya yönlendir" — eyleme dönük başlık.
+    var sourceActionTitle: String { isVideoSource ? "Videoyu izle" : "Habere git" }
+    var sourceActionIcon: String { isVideoSource ? "play.rectangle.fill" : "arrow.up.right" }
+    var sourceActionHint: String {
+        isVideoSource ? "Tamamını izlemek için \(source) kaynağına git"
+                      : "Tamamını okumak için \(source) kaynağına git"
+    }
+}
+
 struct Match: Codable, Identifiable, Hashable {
     let id: String
     let league: String
