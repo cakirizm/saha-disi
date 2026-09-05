@@ -206,10 +206,16 @@ for statement in seed.get('statements',[]):
         name=re.sub(r'[^\wÇĞİÖŞÜçğıöşü .\'-]+$','',str(raw_name)).strip()
         if len(name)<2:continue
         key=name.casefold();mentioned.setdefault(key,name)
+player_photos={}
+try:player_photos=json.loads((B/'player_photos.json').read_text(encoding='utf-8'))
+except Exception:player_photos={}
+photo_by_name={str(n).casefold():u for n,u in player_photos.items() if u}
 players=[]
 for key,name in sorted(mentioned.items(),key=lambda item:item[1].casefold()):
     row=existing_players.get(key,{'id':re.sub(r'[^a-z0-9]+','-',name.casefold().replace('ı','i').replace('ş','s').replace('ğ','g').replace('ü','u').replace('ö','o').replace('ç','c')).strip('-'),'name':name})
     row['comment_count']=sum(1 for s in seed.get('statements',[]) if any(str(p).casefold()==key for p in s.get('players',[])))
+    photo=photo_by_name.get(name.casefold())
+    if photo:row['photoURL']=photo
     players.append(row)
 seed['players']=players
 publication_path=B/'source_publications.json'

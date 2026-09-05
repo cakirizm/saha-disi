@@ -286,6 +286,18 @@ struct StatementTweetCard: View {
                         }.frame(height: 190).frame(maxWidth: .infinity).clipped().clipShape(RoundedRectangle(cornerRadius: 14))
                     }
                     HStack(spacing: 6) {
+                        if statement.players.count == 1, let player = statement.players.first,
+                           let photo = store.playerProfile(named: player)?.photoURL, let url = URL(string: photo) {
+                            HStack(spacing: 5) {
+                                AsyncImage(url: url) { phase in
+                                    if case .success(let img) = phase { img.resizable().scaledToFill() }
+                                    else { Color.white.opacity(0.06) }
+                                }.frame(width: 22, height: 22).clipShape(Circle())
+                                Text(player).font(.caption2.weight(.semibold))
+                            }
+                            .padding(.leading, 4).padding(.trailing, 9).padding(.vertical, 3)
+                            .background(Color.white.opacity(0.06)).clipShape(Capsule())
+                        }
                         TagPill(text: statement.topic)
                         if let team = statement.team { TagPill(text: team) }
                         if statement.type == "transfer" { TagPill(text: "Transfer iddiası") }

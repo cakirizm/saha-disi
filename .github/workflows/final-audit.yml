@@ -46,6 +46,8 @@ jobs:
         run: python backend/photo_resolver.py
       - name: Resolve real club crests
         run: python backend/team_logo_resolver.py
+      - name: Resolve free-licensed player photos
+        run: python backend/player_photo_resolver.py
       - name: Build feed
         run: python backend/build_feed.py
       - name: Full product audit
@@ -89,7 +91,7 @@ jobs:
         run: |
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add backend/source_publications.json backend/quarantined_statements.json backend/fixture_health.json backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/collector_state.json
+          git add backend/source_publications.json backend/quarantined_statements.json backend/fixture_health.json backend/feed.json backend/candidates.json backend/collector_health.json backend/review_queue.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json backend/collector_state.json
           if git diff --cached --quiet; then
             echo 'No data change to publish.'
           else
