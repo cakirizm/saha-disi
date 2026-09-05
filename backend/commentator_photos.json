@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:34:01.062146+00:00",
+  "generated_at": "2026-09-05T11:47:03.640969+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -149,6 +149,13 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ec/T%C3%BCmer_Metin.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoSource": "https://tr.wikipedia.org/wiki/T%C3%BCmer_Metin",
       "resolvedTitle": "Tümer Metin",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "serkan-asan": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/Serkan_Asan_%282020-21_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Serkan_Asan",
+      "resolvedTitle": "Serkan Asan",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
