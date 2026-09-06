@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-06T00:36:08.814965+00:00",
+  "generated_at": "2026-09-06T00:37:35.351965+00:00",
   "tracked_commentators": 223,
   "totals": {
     "sources": 161,
     "successful": 155,
     "youtube_sources": 7,
     "new_videos": 0,
-    "candidates": 847
+    "candidates": 853
   },
   "sources": [
     {
@@ -116,7 +116,7 @@
     {
       "commentator": "emre-bol",
       "source": "A Spor",
-      "candidates": 46,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -132,7 +132,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -140,7 +140,7 @@
     {
       "commentator": "iskender-gunen",
       "source": "A Spor",
-      "candidates": 39,
+      "candidates": 31,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -148,7 +148,7 @@
     {
       "commentator": "murat-ozbostan",
       "source": "A Spor",
-      "candidates": 40,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -156,7 +156,7 @@
     {
       "commentator": "omer-urundul",
       "source": "A Spor",
-      "candidates": 32,
+      "candidates": 16,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -165,8 +165,8 @@
       "commentator": "sinan-vardar",
       "source": "A Spor",
       "candidates": 0,
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -228,9 +228,9 @@
     {
       "commentator": "ender-bilgin",
       "source": "Fotomaç",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests",
+      "candidates": 8,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
@@ -244,7 +244,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 0,
+      "candidates": 16,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -253,16 +253,16 @@
       "commentator": "serkan-yetismisoglu",
       "source": "Fotomaç",
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests",
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "yunus-emre-sel",
       "source": "Fotomaç",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests",
+      "candidates": 24,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
