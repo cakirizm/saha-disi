@@ -51,9 +51,20 @@ final class AppStore: ObservableObject {
         }.sorted { $0.date > $1.date }
     }
 
+    /// A team page carries what the club's own page should: statements naming the
+    /// club, plus statements from columns written about that club's matches. Two
+    /// thirds of statements name no club on their own ("Kadıköy'de böyle
+    /// oynayacağını düşünmezdim"), so filtering on the name alone left the page
+    /// showing a fraction of the commentary that is actually about the team.
     func statements(team: String) -> [Statement] {
         let target = canonicalTeam(team)
-        return (payload?.statements ?? []).filter { $0.team.map(canonicalTeam) == target }.sorted { $0.date > $1.date }
+        let teamMatches = Set((payload?.matches ?? [])
+            .filter { canonicalTeam($0.home) == target || canonicalTeam($0.away) == target }
+            .map(\.id))
+        return (payload?.statements ?? []).filter { row in
+            if row.team.map(canonicalTeam) == target { return true }
+            return row.matchId.map(teamMatches.contains) ?? false
+        }.sorted { $0.date > $1.date }
     }
 
     func statements(player: String) -> [Statement] {
@@ -97,9 +108,16 @@ final class AppStore: ObservableObject {
     }
 
     var rankedTeams: [RankedItem] {
-        let names = payload?.statements.compactMap { $0.team.map(canonicalTeam) } ?? []
-        let grouped = Dictionary(grouping: names, by: { $0 })
-        return grouped.map { RankedItem(id: $0.key, name: $0.key, count: $0.value.count) }.sorted { $0.count > $1.count }
+        // Counted the same way the team page selects, so the number in the list
+        // matches the number of statements the page actually opens with.
+        var names = Set(payload?.statements.compactMap { $0.team.map(canonicalTeam) } ?? [])
+        for match in payload?.matches ?? [] {
+            names.insert(canonicalTeam(match.home))
+            names.insert(canonicalTeam(match.away))
+        }
+        return names.map { RankedItem(id: $0, name: $0, count: statements(team: $0).count) }
+            .filter { $0.count > 0 }
+            .sorted { $0.count == $1.count ? $0.name < $1.name : $0.count > $1.count }
     }
 
     var rankedPlayers: [RankedItem] {
