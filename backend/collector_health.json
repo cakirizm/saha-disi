@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-06T00:20:37.786640+00:00",
+  "generated_at": "2026-09-06T00:22:11.007202+00:00",
   "tracked_commentators": 223,
   "totals": {
     "sources": 155,
-    "successful": 153,
+    "successful": 149,
     "youtube_sources": 7,
     "new_videos": 0,
-    "candidates": 1166
+    "candidates": 871
   },
   "sources": [
     {
@@ -132,7 +132,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -148,7 +148,7 @@
     {
       "commentator": "murat-ozbostan",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -156,7 +156,7 @@
     {
       "commentator": "omer-urundul",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -164,7 +164,7 @@
     {
       "commentator": "sinan-vardar",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 8,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -172,7 +172,7 @@
     {
       "commentator": "turgay-demir",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -180,9 +180,9 @@
     {
       "commentator": "zeki-uzundurukan",
       "source": "A Spor",
-      "candidates": 48,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -244,9 +244,9 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 32,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -260,7 +260,7 @@
     {
       "commentator": "yunus-emre-sel",
       "source": "Fotomaç",
-      "candidates": 24,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
