@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:06:40.043123+00:00",
+  "generated_at": "2026-09-06T00:21:02.478117+00:00",
   "commentators": [
     {
       "id": "levent-tuzemen",
@@ -30,6 +30,18 @@
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "SA",
       "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
         "Genel"
       ],
       "photoURL": null
@@ -119,18 +131,6 @@
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "MÖ",
       "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "turgay-demir",
-      "name": "Turgay Demir",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "TD",
-      "focusTeams": [
-        "Beşiktaş",
         "Genel"
       ],
       "photoURL": null
@@ -32843,6 +32843,313 @@
         "published_at": "2026-08-27T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1235,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ne derbiydi ama… Bunca sıcak havaya ve yüksek nem oranına rağmen iki takım oyuncuları da ilk dakikadan itibaren varlarını, yoklarını çimlere serdiler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1236,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Goller, kartlar, direkten dönen toplar derken gerilim bir an bile azalmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1237,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kanté ve Guendouzi'ye karşı Orkun ve Salih daha etkili oldular.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1238,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Olaitan ise kritik müdahalelerle herkesin yardımına koştu; bir de müthiş ara pasıyla ikinci golün hazırlayıcısı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1239,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda Fenerbahçe belki biriki kez daha etkili geldi Beşiktaş kalesine ama ikinci yarıda oyun tamamen Beşiktaş'ın kontrolündeydi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1240,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Skriniar karambolde attı, Rıdvan ise soldan, adeta sol kroşeyle uzak direği gördü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1241,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [
+        "Skriniar",
+        "Vlahovic"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Vlahovic, Skriniar'ın sert markajından kurtulmak için büyük çaba harcadı ve zaman zaman hava toplarında da üstünlük sağladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1242,
+      "commentator": "turgay-demir",
+      "date": "2026-09-05T23:38:10+03:00",
+      "team": null,
+      "players": [
+        "Cerny"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe'de İrfan Can, Beşiktaş'ta Cerny derbinin en düşük puanını hak ettiler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/06/hak-eden-kazandi",
+        "published_at": "2026-09-05T23:38:10+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1243,
+      "commentator": "ender-bilgin",
+      "date": "2026-08-01T06:50:17+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sol kanat, yedek forvet ve belki bir stoper daha...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+        "published_at": "2026-08-01T06:50:17+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1244,
+      "commentator": "ender-bilgin",
+      "date": "2026-08-01T06:50:17+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İki önemli yıldız ve geleceği parlak iki iyi genç oyuncuyla birlikte transfer operasyonu tamamlanacak.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/08/01/ender-fikirler",
+        "published_at": "2026-08-01T06:50:17+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1245,
+      "commentator": "yunus-emre-sel",
+      "date": "2026-07-31T06:50:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Frankfurt maçına göre daha ciddi görüntü verdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/07/31/bouchouari-dikkat-cekti",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "yunus-emre-sel",
+        "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/07/31/bouchouari-dikkat-cekti",
+        "published_at": "2026-07-31T06:50:29+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -37477,7 +37784,7 @@
     {
       "id": "cerny",
       "name": "Cerny",
-      "comment_count": 12
+      "comment_count": 13
     },
     {
       "id": "greenwood",
@@ -37487,7 +37794,7 @@
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 8,
+      "comment_count": 9,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -37552,12 +37859,13 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 7
+      "comment_count": 9
     },
     {
       "id": "talisca",
       "name": "Talisca",
-      "comment_count": 20
+      "comment_count": 20,
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Galatasaaray_5_Stars.png/500px-Galatasaaray_5_Stars.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "torreira",
@@ -37568,12 +37876,14 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 17
+      "comment_count": 17,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 26
+      "comment_count": 27,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ],
   "publications": [
