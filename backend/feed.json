@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:29:17.977584+00:00",
+  "generated_at": "2026-09-06T22:55:51.894535+00:00",
   "commentators": [
     {
       "id": "serkan-akcan",
@@ -68,6 +68,17 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
+      "id": "murat-ozbostan",
+      "name": "Murat Özbostan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -130,17 +141,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HY",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "murat-ozbostan",
-      "name": "Murat Özbostan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "MÖ",
       "focusTeams": [
         "Genel"
       ],
@@ -34264,6 +34264,222 @@
         "speaker_id": "tunc-kayaci",
         "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/hedef-kazanmakti-2636862",
         "published_at": "2026-09-06T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1286,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Final, bize bir kez daha voleybolun yalnızca smaçtan, bloktan, servisten ibaret olmadığını gösterdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1287,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İşte büyük takımlarla iyi takımların arasındaki fark burada ortaya çıkıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1288,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Büyük takım kötü günde kendini hatırlar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1289,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Zehra'nın blokları İtalya'nın hücumcularına \"Buradan geçemezsiniz\" derken, Eda Erdem'in liderliği yalnızca takım arkadaşlarına değil, tribünlere de yayıldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1290,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Vargas'ı yalnızca attığı sayılarla anlatmak, bu oyuncuya haksızlık olur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1291,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Diğer oyuncular elbette katkı verdi ama kritik topların adresi çoğu zaman Vargas'tı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1292,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fakat burada bir şeyi özellikle söylemek gerekiyor: Bu kupa Vargas'ın kupası değildir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1293,
+      "commentator": "murat-ozbostan",
+      "date": "2026-09-07T01:04:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu kupa Eda'nın liderliğinin, Zehra'nın bloklarının, İlkin'in mücadelesinin, savunmanın çıkardığı mucize topların, kulübenin ve tribünlerin kupasıdır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
+        "published_at": "2026-09-07T01:04:26+03:00"
       },
       "image_kind": null
     }
