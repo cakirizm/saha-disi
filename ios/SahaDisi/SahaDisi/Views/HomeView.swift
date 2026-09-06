@@ -69,11 +69,18 @@ struct HomeView: View {
             if featuredMatches.isEmpty {
                 SDCard { Text("Gündem verisi yükleniyor…").foregroundStyle(SDTheme.muted) }
             } else {
-                TabView(selection: $heroIndex) {
-                    ForEach(Array(featuredMatches.enumerated()), id: \.element.id) { index, match in
-                        NavigationLink { MatchDetailView(match: match) } label: { matchHero(match) }.buttonStyle(.plain).tag(index)
-                    }
-                }.frame(height: 250).tabViewStyle(.page(indexDisplayMode: .never))
+                GeometryReader { geometry in
+                    TabView(selection: $heroIndex) {
+                        ForEach(Array(featuredMatches.enumerated()), id: \.element.id) { index, match in
+                            NavigationLink { MatchDetailView(match: match) } label: {
+                                matchHero(match).frame(width: max(0, geometry.size.width - 4))
+                            }.buttonStyle(.plain).frame(width: geometry.size.width, height: 250).tag(index)
+                        }
+                    }.frame(width: geometry.size.width, height: 250)
+                        .tabViewStyle(.page(indexDisplayMode: .never))
+                        .clipped()
+                }.frame(height: 250)
+                .onChange(of: featuredMatches.map(\.id)) { _, _ in heroIndex = 0 }
                 HStack(spacing: 6) {
                     ForEach(featuredMatches.indices, id: \.self) { index in
                         Button { withAnimation { heroIndex = index } } label: {
@@ -145,14 +152,18 @@ struct HomeView: View {
     }
 
     private var latestFeed: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            header("Son Yorumlar", trailing: "Canlı")
-            ForEach(store.groupedFeed.prefix(12)) { group in
-                if group.isCluster {
-                    StatementGroupCard(group: group)
-                } else {
-                    StatementTweetCard(statement: group.lead)
-                }
+        LazyVStack(alignment: .leading, spacing: 28) {
+            VStack(alignment: .leading, spacing: 5) {
+                Text("Gündemdeki Yorumcular").font(.title3.bold())
+                Text("Son 7 günde akışta en çok yorumu bulunan kişiler")
+                    .font(.caption).foregroundStyle(SDTheme.muted)
+            }
+            let sections = store.commentatorFeedSections
+            if sections.isEmpty {
+                SDCard { Text("Kaynaklı yorumlar geldikçe burada görünecek.").font(.subheadline).foregroundStyle(SDTheme.muted) }
+            }
+            ForEach(sections) { section in
+                CommentatorCarousel(section: section)
             }
         }
     }
@@ -216,6 +227,70 @@ struct HomeView: View {
     }
     private func score(_ m: Match) -> String { m.scoreText }
     private func header(_ title: String, trailing: String) -> some View { HStack { Text(title).font(.title3.bold()); Spacer(); Text(trailing).font(.caption).foregroundStyle(SDTheme.accent) } }
+}
+
+struct CommentatorCarousel: View {
+    let section: CommentatorFeedSection
+    @ScaledMetric(relativeTo: .body) private var cardHeight: CGFloat = 222
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack(alignment: .center, spacing: 10) {
+                AvatarView(text: section.commentator.avatar, size: 40, photoURL: section.commentator.photoURL)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(section.commentator.name).font(.headline).lineLimit(2)
+                    Text("Son 7 günde \(section.recentCount) yorum").font(.caption2).foregroundStyle(SDTheme.muted)
+                }
+                Spacer(minLength: 4)
+                NavigationLink { CommentatorCommentsView(commentator: section.commentator) } label: {
+                    Text("Tamamını gör").font(.caption.bold()).fixedSize(horizontal: true, vertical: false)
+                        .foregroundStyle(SDTheme.accent).frame(minHeight: 44)
+                }.buttonStyle(.plain)
+            }
+            ScrollView(.horizontal, showsIndicators: false) {
+                LazyHStack(spacing: 12) {
+                    ForEach(Array(section.statements.prefix(6).enumerated()), id: \.element.id) { index, statement in
+                        NavigationLink { StatementDetailView(statement: statement) } label: {
+                            VStack(alignment: .leading, spacing: 12) {
+                                HStack {
+                                    Text(SDDate.text(statement.date)).lineLimit(1)
+                                    Spacer()
+                                    Text("\(index + 1) / \(min(section.statements.count, 6))").monospacedDigit()
+                                }.font(.caption2).foregroundStyle(SDTheme.muted)
+                                Text("“\(statement.summary)”").font(.body.weight(.medium)).lineSpacing(4)
+                                    .lineLimit(5).multilineTextAlignment(.leading)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                Spacer(minLength: 0)
+                                HStack {
+                                    Text(statement.source).lineLimit(1)
+                                    Spacer(minLength: 8)
+                                    Image(systemName: "arrow.up.right")
+                                }.font(.caption).foregroundStyle(SDTheme.accent)
+                            }.padding(16).frame(height: cardHeight, alignment: .topLeading)
+                                .background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
+                                .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
+                        }.buttonStyle(.plain).containerRelativeFrame(.horizontal)
+                    }
+                }.scrollTargetLayout()
+            }.scrollTargetBehavior(.viewAligned)
+        }
+    }
+}
+
+struct CommentatorCommentsView: View {
+    @EnvironmentObject var store: AppStore
+    let commentator: Commentator
+    var body: some View {
+        ScrollView {
+            LazyVStack(alignment: .leading, spacing: 16) {
+                ForEach(store.statements(for: commentator.id)) { statement in
+                    StatementTweetCard(statement: statement)
+                }
+            }.padding(16)
+        }.background(SDTheme.background)
+            .navigationTitle(commentator.name).navigationBarTitleDisplayMode(.inline)
+            .refreshable { await store.refresh() }
+    }
 }
 
 struct MatchArtwork: View {

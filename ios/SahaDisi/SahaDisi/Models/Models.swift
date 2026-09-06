@@ -35,6 +35,14 @@ struct SourcePublication: Codable, Identifiable, Hashable {
     let players: [String]
 }
 
+struct CommentatorFeedSection: Identifiable {
+    var id: String { commentator.id }
+    let commentator: Commentator
+    let statements: [Statement]
+    let recentCount: Int
+    let latestDate: Date
+}
+
 struct Commentator: Codable, Identifiable, Hashable {
     let id: String
     let name: String

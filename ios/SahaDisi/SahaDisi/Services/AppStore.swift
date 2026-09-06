@@ -133,6 +133,36 @@ final class AppStore: ObservableObject {
         (payload?.commentators ?? []).map { ($0, statements(for: $0.id).count) }.sorted { $0.1 > $1.1 }
     }
 
+    /// Activity in our feed, not an inferred platform-wide popularity score.
+    var commentatorFeedSections: [CommentatorFeedSection] {
+        let now = Date()
+        let cutoff = now.addingTimeInterval(-7 * 24 * 60 * 60)
+        let iso = ISO8601DateFormatter()
+        let fractional = ISO8601DateFormatter()
+        fractional.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        let day = DateFormatter()
+        day.locale = Locale(identifier: "en_US_POSIX")
+        day.timeZone = TimeZone(identifier: "Europe/Istanbul")
+        day.dateFormat = "yyyy-MM-dd"
+        func date(_ value: String) -> Date {
+            fractional.date(from: value) ?? iso.date(from: value) ?? day.date(from: value) ?? .distantPast
+        }
+        let grouped = Dictionary(grouping: payload?.statements ?? [], by: \.commentator)
+        return (payload?.commentators ?? []).compactMap { person -> CommentatorFeedSection? in
+            guard let comments = grouped[person.id], !comments.isEmpty else { return nil }
+            let sorted = comments.sorted {
+                let left = date($0.date), right = date($1.date)
+                return left == right ? $0.id > $1.id : left > right
+            }
+            let recentCount = sorted.filter { date($0.date) >= cutoff && date($0.date) <= now }.count
+            return CommentatorFeedSection(commentator: person, statements: sorted, recentCount: recentCount, latestDate: date(sorted[0].date))
+        }.sorted {
+            if $0.recentCount != $1.recentCount { return $0.recentCount > $1.recentCount }
+            if $0.latestDate != $1.latestDate { return $0.latestDate > $1.latestDate }
+            return $0.commentator.name < $1.commentator.name
+        }
+    }
+
     func commentatorRanking(for team: String) -> [(Commentator, Int)] {
         let grouped = Dictionary(grouping: statements(team: team), by: \.commentator)
         return grouped.compactMap { id, values in commentator(id: id).map { ($0, values.count) } }.sorted { $0.1 > $1.1 }
