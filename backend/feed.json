@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T22:55:51.894535+00:00",
+  "generated_at": "2026-09-06T23:51:28.989674+00:00",
   "commentators": [
     {
       "id": "serkan-akcan",
@@ -91,6 +91,17 @@
       "photoURL": null
     },
     {
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ZU",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -141,17 +152,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HY",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
@@ -34482,6 +34482,226 @@
         "published_at": "2026-09-07T01:04:26+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1294,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": "Trabzonspor",
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor ve sekiz maçtır suskun olan Onuachu için tam bir patlama maçı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1295,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fatih Tekke'ye Trabzonspor'a verdiği hizmetler için teşekkür etmek lazım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1296,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hüseyin Çimşir, hoca arayışlarının gölgesinde sorumluluk üstlendi ve Trabzonspor'a daha ilk maçında hayat verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1297,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "İki maçtır kulübede unutulan Pina'yı 11'de oynattı, Pina harika bir asistle Onuachu'ya 'al da at' dedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1298,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Aral Şimşir 11'de başladı, ilk golün asistini yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1299,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Orta sahada Melih'in yerine bir tecrübe abidesi Ozan Tufan'a görev verdi Hüseyin hoca.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1300,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gençlerbirliği bu kanattan etkili ataklar yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1301,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-07T00:01:35+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Peki Fatih hoca sonrasında Hüseyin Çimşir ile ne değişti de Trabzonspor dün Gençlerbirliği karşısında şahlandı!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
+        "published_at": "2026-09-07T00:01:35+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -39159,7 +39379,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 10
+      "comment_count": 12
     },
     {
       "id": "orkun-kokcu",
