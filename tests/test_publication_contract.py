@@ -53,4 +53,15 @@ class PublicationContractTests(unittest.TestCase):
         self.assertEqual(len(publications[0]['commentators']),2)
         document.assert_not_called()
 
+    def test_ios_accepts_every_backend_evidence_method(self):
+        # The app re-checks evidence while decoding, so a method the backend
+        # publishes but the app omits is discarded on the device and the feed
+        # silently looks empty. Keep the two gates identical.
+        models=(Path(__file__).resolve().parents[1]/'ios/SahaDisi/SahaDisi/Models/Models.swift').read_text(encoding='utf-8')
+        for method in ('article_explicit_speaker','official_api_author_match','columnist_byline'):
+            row={'url':'https://example.com/yazarlar/a/b','date':'2026-09-05','commentator':'x','summary':'Beşiktaş dün gece çok iyi oynadı ve kazandı.',
+                 'evidence':{'version':2,'method':method,'speaker_id':'x','url':'https://example.com/yazarlar/a/b'}}
+            self.assertIsNone(publication_problem(row),method)
+            self.assertIn(f'"{method}"',models,f'{method} is published but the iOS gate drops it')
+
 if __name__=='__main__':unittest.main()

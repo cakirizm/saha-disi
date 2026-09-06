@@ -128,7 +128,11 @@ extension Statement {
         guard !parts.contains(where: { ["kategori", "category", "etiket", "tag", "search"].contains($0) }), parts.count > 1 else { return false }
         if status == "verified_manual" { return true }
         return evidence?.version == 2 && evidence?.speakerID == commentator && evidence?.url == url &&
-            ["article_explicit_speaker", "official_api_author_match"].contains(evidence?.method ?? "")
+            // Must stay in step with publication_problem() in backend/feed_quality.py.
+            // A signed column is the author's own words, proven by the byline; leaving
+            // columnist_byline out here dropped 1098 of 1104 statements at decode time,
+            // so the app kept showing a nearly empty feed however much the collector found.
+            ["article_explicit_speaker", "official_api_author_match", "columnist_byline"].contains(evidence?.method ?? "")
     }
     /// Kaynak bir video mu yoksa yazılı haber mi? Yönlendirme metnini buna göre seçiyoruz.
     var isVideoSource: Bool {
