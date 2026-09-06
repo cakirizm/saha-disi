@@ -86,16 +86,34 @@ struct HomeView: View {
     }
 
     private func matchHero(_ match: Match) -> some View {
-        ZStack(alignment: .bottomLeading) {
-            MatchArtwork(match: match)
-            LinearGradient(colors: [.clear, Color.black.opacity(0.90)], startPoint: .top, endPoint: .bottom)
-            VStack(alignment: .leading, spacing: 9) {
-                HStack { Spacer(); Text("\(match.week). Hafta").font(.caption2.bold()).foregroundStyle(.white.opacity(0.8)) }
-                Text(heroHeadline(match)).font(.system(size: 25, weight: .black, design: .rounded)).lineLimit(2)
-                Text(heroSubline(match)).font(.subheadline).foregroundStyle(Color.white.opacity(0.82)).lineLimit(2)
-                Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption2).foregroundStyle(Color.white.opacity(0.58))
-            }.padding(18)
-        }.frame(height: 240).clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous)).overlay(RoundedRectangle(cornerRadius: 22).stroke(SDTheme.line))
+        VStack(spacing: 18) {
+            HStack {
+                Text("SÜPER LİG").font(.caption2.bold()).tracking(1)
+                Spacer()
+                Text("\(match.week). Hafta").font(.caption)
+            }.foregroundStyle(SDTheme.muted)
+            HStack(alignment: .center, spacing: 12) {
+                heroTeam(match.home, logo: match.homeLogoURL)
+                VStack(spacing: 6) {
+                    Text(match.scoreText).font(.title2.black()).monospacedDigit().lineLimit(1).minimumScaleFactor(0.8)
+                    Text(match.statusText).font(.caption2).foregroundStyle(SDTheme.muted).multilineTextAlignment(.center)
+                }.frame(width: 84)
+                heroTeam(match.away, logo: match.awayLogoURL)
+            }
+            Text(SDDate.text(match.kickoff, includeTime: true))
+                .font(.caption).foregroundStyle(SDTheme.muted).lineLimit(1).minimumScaleFactor(0.8)
+        }.padding(18).frame(maxWidth: .infinity).frame(height: 240)
+            .background(SDTheme.panel)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(SDTheme.line))
+    }
+
+    private func heroTeam(_ name: String, logo: String?) -> some View {
+        VStack(spacing: 10) {
+            TeamLogoView(name: name, urlString: logo, size: 56)
+            Text(name).font(.subheadline.bold()).lineLimit(2)
+                .multilineTextAlignment(.center).frame(height: 40, alignment: .top)
+        }.frame(maxWidth: .infinity)
     }
 
     private func heroHeadline(_ m: Match) -> String {
@@ -262,29 +280,24 @@ struct StatementTweetCard: View {
 
     var body: some View {
         let commentator = store.commentator(id: statement.commentator)
-        return VStack(alignment: .leading, spacing: 11) {
+        return VStack(alignment: .leading, spacing: 14) {
             NavigationLink { StatementDetailView(statement: statement) } label: {
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 14) {
                     HStack(spacing: 10) {
                         AvatarView(text: commentator?.avatar ?? "?", size: 44, photoURL: commentator?.photoURL)
                         VStack(alignment: .leading, spacing: 2) {
-                            Text(commentator?.name ?? statement.commentator).font(.headline)
+                            Text(commentator?.name ?? statement.commentator).font(.headline).lineLimit(2)
                             Text(statement.source).font(.caption2.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1)
                         }
-                        Spacer()
-                        VStack(alignment: .trailing, spacing: 4) {
-                            Text(sentimentText(statement.sentiment).uppercased())
-                                .font(.caption2.weight(.heavy)).foregroundStyle(sentimentColor(statement.sentiment))
-                            Text(SDDate.text(statement.date)).font(.caption2).foregroundStyle(SDTheme.muted2).lineLimit(1).minimumScaleFactor(0.75)
-                        }
+                        Spacer(minLength: 0)
                     }
+                    HStack {
+                        Text(SDDate.text(statement.date)).foregroundStyle(SDTheme.muted)
+                        Spacer(minLength: 8)
+                        Text(sentimentText(statement.sentiment)).foregroundStyle(sentimentColor(statement.sentiment))
+                    }.font(.caption2).lineLimit(1)
                     Text("“\(statement.summary)”").font(.body.weight(.medium)).lineSpacing(4).fixedSize(horizontal: false, vertical: true)
-                    if let imageURL = commentator?.photoURL, let url = URL(string: imageURL) {
-                        AsyncImage(url: url) { phase in
-                            if case .success(let image) = phase { image.resizable().scaledToFill() }
-                            else { Rectangle().fill(SDTheme.panel2) }
-                        }.frame(height: 190).frame(maxWidth: .infinity).clipped().clipShape(RoundedRectangle(cornerRadius: 14))
-                    }
+                    ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 6) {
                         if statement.players.count == 1, let player = statement.players.first,
                            let photo = store.playerProfile(named: player)?.photoURL, let url = URL(string: photo) {
@@ -302,6 +315,7 @@ struct StatementTweetCard: View {
                         if let team = statement.team { TagPill(text: team) }
                         if statement.type == "transfer" { TagPill(text: "Transfer iddiası") }
                     }
+                    }
                 }
             }.buttonStyle(.plain)
             Divider().overlay(SDTheme.line)
@@ -312,14 +326,14 @@ struct StatementTweetCard: View {
                         HStack(spacing: 4) {
                             Text(statement.sourceActionTitle).font(.caption.bold())
                             Image(systemName: statement.sourceActionIcon).font(.caption2)
-                        }.foregroundStyle(SDTheme.accent)
+                        }.foregroundStyle(SDTheme.accent).frame(maxWidth: .infinity, alignment: .trailing)
+                            .padding(.vertical, 6)
                     }
                 }
             }
         }
-        .padding(14)
+        .padding(16)
         .background(SDTheme.panel)
-        .overlay(alignment: .leading) { Rectangle().fill(sentimentColor(statement.sentiment)).frame(width: 3) }
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .overlay(RoundedRectangle(cornerRadius: 16).stroke(SDTheme.line))
     }

@@ -144,24 +144,26 @@ struct StatementSocialBar: View {
     @State private var draft = ""
 
     var body: some View {
-        HStack(spacing: 24) {
+        HStack(spacing: 12) {
             Button { withAnimation(.snappy) { liked.toggle() } } label: {
                 Label(liked ? "1" : "Beğen", systemImage: liked ? "heart.fill" : "heart")
                     .foregroundStyle(liked ? SDTheme.red : SDTheme.muted)
+                    .frame(maxWidth: .infinity, minHeight: 44)
             }
             Button { showingComments = true } label: {
                 Label(comments.isEmpty ? "Yorum" : "\(comments.count)", systemImage: "bubble.left")
+                    .frame(maxWidth: .infinity, minHeight: 44)
             }
             if let url = URL(string: statement.url), !statement.url.isEmpty {
                 ShareLink(item: url, subject: Text("Futbol yorumu"), message: Text(statement.summary)) {
                     Label("Paylaş", systemImage: "square.and.arrow.up")
+                        .frame(maxWidth: .infinity, minHeight: 44)
                 }
             } else {
-                ShareLink(item: statement.summary) { Label("Paylaş", systemImage: "square.and.arrow.up") }
+                ShareLink(item: statement.summary) { Label("Paylaş", systemImage: "square.and.arrow.up").frame(maxWidth: .infinity, minHeight: 44) }
             }
-            Spacer()
         }
-        .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1)
+        .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1).minimumScaleFactor(0.8)
         .buttonStyle(.plain)
         .sheet(isPresented: $showingComments) {
             NavigationStack {
