@@ -23,13 +23,18 @@ workflows:
           - 'codemagic.yaml'
 
     environment:
-      # App Store Connect API key + certificate private key come from the
+      # App Store Connect publishing credentials come from the
       # "appstore" variable group (defined in Codemagic → Environment variables).
       groups:
         - appstore
-      # No automatic ios_signing block: it fetches (but never creates) the
-      # profile during environment setup and fails before the scripts run.
-      # Signing files are created explicitly in the "Set up code signing" step.
+      # Use the uploaded identity and its matching Saha Disi App Store profile.
+      # Codemagic installs these files and the signing keychain before scripts.
+      ios_signing:
+        provisioning_profiles:
+          - profile: sahadisi_appstore_4995
+            environment_variable: SAHADISI_PROFILE_PATH
+        certificates:
+          - Kurvio
       xcode: latest
 
     scripts:
@@ -40,20 +45,10 @@ workflows:
           echo "ISSUER_ID set:   ${APP_STORE_CONNECT_ISSUER_ID:+yes}"
           echo "KEY_ID set:      ${APP_STORE_CONNECT_KEY_IDENTIFIER:+yes}"
           echo "API_KEY set:     ${APP_STORE_CONNECT_PRIVATE_KEY:+yes}"
-          echo "CERT_KEY set:    ${CERTIFICATE_PRIVATE_KEY:+yes}"
-          keychain initialize
-          # Create the App Store distribution certificate + provisioning profile
-          # if they do not exist yet. --verbose surfaces exactly what happens.
-          app-store-connect fetch-signing-files "com.sahadisi.app" \
-            --type IOS_APP_STORE \
-            --certificate-key "@env:CERTIFICATE_PRIVATE_KEY" \
-            --create \
-            --verbose
-          echo "== profiles created on disk =="
-          find "$HOME/Library/MobileDevice/Provisioning Profiles" \
-               "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles" \
-               -name '*.mobileprovision' 2>/dev/null || true
-          keychain add-certificates
+          if [ ! -f "${SAHADISI_PROFILE_PATH:-}" ]; then
+            echo "The referenced sahadisi_appstore_4995 profile was not installed."
+            exit 1
+          fi
           xcode-project use-profiles
 
       - name: Generate Saha Dışı app icon
@@ -77,19 +72,12 @@ workflows:
         script: |
           cd ios/SahaDisi
           # The minimal Xcode project isn't patched by use-profiles, so pass the
-          # signing team, identity and the freshly created App Store profile
+          # signing team, identity and the selected App Store profile
           # explicitly as archive build settings (these override the project).
-          # Xcode 16+ moved the profiles dir, so search both known locations.
-          echo "== provisioning profile dirs =="
-          ls -la "$HOME/Library/MobileDevice/Provisioning Profiles/" 2>/dev/null || true
-          ls -la "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles/" 2>/dev/null || true
-          PROFILE=$(find "$HOME/Library/MobileDevice/Provisioning Profiles" \
-                         "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles" \
-                         -name '*.mobileprovision' 2>/dev/null | head -n 1)
-          PROFILE_NAME=$(security cms -D -i "$PROFILE" 2>/dev/null | plutil -extract Name raw - 2>/dev/null)
+          PROFILE_NAME=$(security cms -D -i "$SAHADISI_PROFILE_PATH" 2>/dev/null | plutil -extract Name raw - 2>/dev/null)
           echo "Signing with profile: $PROFILE_NAME"
           if [ -z "$PROFILE_NAME" ]; then
-            echo "No provisioning profile found on disk — fetch-signing-files did not create one."
+            echo "Could not read the selected Saha Disi provisioning profile."
             exit 1
           fi
           xcode-project build-ipa \
