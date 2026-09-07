@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:17:32.774733+00:00",
+  "generated_at": "2026-09-07T21:37:10.722644+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -36118,12 +36118,12 @@
       "kickoff": "2026-09-07T20:00:00+03:00",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 4,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-04-rizespor-alanyaspor",
@@ -36134,42 +36134,12 @@
       "kickoff": "2026-09-07T20:00:00+03:00",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "image_url": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "status": "awaiting_result"
-    },
-    {
-      "id": "sl-2026-05-alanyaspor-goztepe",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Alanyaspor",
-      "away": "Göztepe",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-05-amed-sk-basaksehir",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Amed SK",
-      "away": "Başakşehir",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-05-besiktas-erzurumspor",
@@ -36183,8 +36153,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-09-11T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-05-eyupspor-rizespor",
@@ -36198,68 +36168,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-05-galatasaray-kocaelispor",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Galatasaray",
-      "away": "Kocaelispor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-05-gaziantep-fk-fenerbahce",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Gaziantep FK",
-      "away": "Fenerbahçe",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-05-genclerbirligi-kasmpasa",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Gençlerbirliği",
-      "away": "Kasımpaşa",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-05-konyaspor-trabzonspor",
-      "league": "Trendyol Süper Lig",
-      "week": 5,
-      "home": "Konyaspor",
-      "away": "Trabzonspor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-09-12T17:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-05-samsunspor-corum-fk",
@@ -36273,8 +36183,98 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-09-12T17:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-alanyaspor-goztepe",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Alanyaspor",
+      "away": "Göztepe",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": "2026-09-12T20:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-konyaspor-trabzonspor",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Konyaspor",
+      "away": "Trabzonspor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+      "kickoff": "2026-09-12T20:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-genclerbirligi-kasmpasa",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Gençlerbirliği",
+      "away": "Kasımpaşa",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "kickoff": "2026-09-13T17:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-amed-sk-basaksehir",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Amed SK",
+      "away": "Başakşehir",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": "2026-09-13T20:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-galatasaray-kocaelispor",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Galatasaray",
+      "away": "Kocaelispor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": "2026-09-13T20:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-05-gaziantep-fk-fenerbahce",
+      "league": "Trendyol Süper Lig",
+      "week": 5,
+      "home": "Gaziantep FK",
+      "away": "Fenerbahçe",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": "2026-09-14T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-06-amed-sk-besiktas",
@@ -40322,6 +40322,32 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-bztHi6vTQDc",
+      "title": "Nihat Kahveci: Beşiktaş'ın derbideki oyunu, rakiplerini tedirgin etmiştir.",
+      "url": "https://www.youtube.com/watch?v=bztHi6vTQDc",
+      "date": "2026-09-07T18:51:09+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-ph9tzLQfCaw",
+      "title": "Serdal Adalı geçen sezon da Trossard'ı istemiş | Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=ph9tzLQfCaw",
+      "date": "2026-09-07T18:37:08+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": [
+        "Trossard"
+      ]
+    },
     {
       "id": "youtube-8Aw1nu7JDos",
       "title": "Beşiktaş Fenerbahçe'ye karşı merkezi kalabalık tutarak üstünlük sağladı | Ali Ece",
