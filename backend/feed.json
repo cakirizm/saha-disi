@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T23:52:52.305612+00:00",
+  "generated_at": "2026-09-07T00:00:47.138532+00:00",
   "commentators": [
     {
       "id": "serkan-akcan",
@@ -158,6 +158,17 @@
       "photoURL": null
     },
     {
+      "id": "iskender-gunen",
+      "name": "İskender Günen",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "İG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "emre-bol",
       "name": "Emre Bol",
       "role": "Futbol yorumcusu / muhabir",
@@ -196,17 +207,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "iskender-gunen",
-      "name": "İskender Günen",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "İG",
       "focusTeams": [
         "Genel"
       ],
@@ -34702,6 +34702,228 @@
         "published_at": "2026-09-07T00:01:35+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1302,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aral gecenin parlayan yıldızıydı Çalkantılarla dolu bir haftanın ardından Gençlerbirliği maçı büyük önem taşımaktaydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1303,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sahada arzulu, coşkulu ve tempolu bir Trabzonspor vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1304,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yani hücumda kenar organizasyonlarının Trabzonspor için ne kadar önemli olduğu gerçeği, bu maçta bir kez daha görüldü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1305,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sol kanatta müsabakanın başından itibaren çok etkili performans ortaya koyan Aral'ın adrese teslim ortasında Onuachu, takımını öne geçirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1306,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Erken golün verdiği moral ve öz güvenle yapılan baskı sonucunda kazanılan penaltıda, Salah ile ikinci gol atıldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1307,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sağ kanatta Pina ve Salah'ın yakaladığı müthiş oyun ve Pina'nın getirdiği topu, Onuachu ağlara yolladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1308,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "3-0'dan sonra orta sahaların çabuk geçildiği, zaman zaman G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1309,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-07T01:00:19+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bordo-mavililerde Aral, Onuachu'ya yaptığı asistin yanında direkten dönen topu ve ürettiği tehlikelerle maçın en parlak ismi oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
+        "published_at": "2026-09-07T01:00:19+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -39379,7 +39601,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 12
+      "comment_count": 15
     },
     {
       "id": "orkun-kokcu",
