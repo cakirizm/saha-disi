@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-09-07T01:04:57.264052+00:00",
+  "generated_at": "2026-09-07T06:10:26.578272+00:00",
   "commentators": [
-    {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "tunc-kayaci",
       "name": "Tunç Kayacı",
@@ -24,22 +13,33 @@
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "deniz-coban",
+      "name": "Deniz Çoban",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "DÇ",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "deniz-coban",
-      "name": "Deniz Çoban",
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "DÇ",
+      "avatar": "SA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
@@ -213,6 +213,17 @@
       "photoURL": null
     },
     {
+      "id": "reha-kapsal",
+      "name": "Reha Kapsal",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "RK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "serkan-yetismisoglu",
       "name": "Serkan Yetişmişoğlu",
       "role": "Futbol yorumcusu / muhabir",
@@ -229,17 +240,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "BÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "reha-kapsal",
-      "name": "Reha Kapsal",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "RK",
       "focusTeams": [
         "Genel"
       ],
@@ -34290,7 +34290,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34317,7 +34317,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34344,7 +34344,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34371,7 +34371,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34398,7 +34398,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34425,7 +34425,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34452,7 +34452,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34479,7 +34479,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/07/karakterin-destanidir",
-        "published_at": "2026-09-07T01:04:26+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34508,7 +34508,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34535,7 +34535,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34562,7 +34562,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34591,7 +34591,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34618,7 +34618,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34645,7 +34645,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34672,7 +34672,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34699,7 +34699,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/07/bes-yildizlik-oyun",
-        "published_at": "2026-09-07T00:01:35+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34726,7 +34726,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34753,7 +34753,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34780,7 +34780,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34809,7 +34809,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34836,7 +34836,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34865,7 +34865,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34892,7 +34892,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -34921,7 +34921,661 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/07/aral-gecenin-parlayan-yildiziydi",
-        "published_at": "2026-09-07T01:00:19+03:00"
+        "published_at": "2026-09-07T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1310,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "dakikada Trabzonspor’un kazandığı golden önce Ozan’ın Traore’ye yaptığı açık bir faul vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1311,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak faul pozisyonu sonrasında top birkaç kez geriye pas olarak kullanıldı, hatta Trabzonspor sahasına kadar geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1312,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "dakikada VAR müdahalesiyle Trabzonspor penaltı kazandı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1313,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sahada yaşanan hafif bir temasın hakemin takdirine bırakılması gerekirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1314,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem sahada penaltı kararı verse dahi çok ciddi bir itiraz olacağını düşünmüyorum.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1315,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Böylesine basit bir temas için VAR’ın hakemi kenara davet etmesini doğru bulmadım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1316,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "76.dakikada Thalisson’un Metehan Mimaroğlu’na müdahalesinde Trabzonspor lehine penaltı kararı verilmesi gerekirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1317,
+      "commentator": "deniz-coban",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Hakem bu pozisyonda oyunu hatalı şekilde devam ettirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kotu-performans-2636952",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1318,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sezona yaptığı flaş transferlerle iddialı giren Trabzonspor, Avrupa'da elenip Amed'e kaybederken teknik direktör Fatih Tekke’yi kaybetti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1319,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Başkent ekibi, lige iyi başlamış olmanın moraliyle geldiği Trabzon deplasmanında ilk yarıda teslim oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1320,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hüseyin Cimşir yönetimindeki ev sahibi ekip, Onuachu'un 2 gol atıp, yıldızlaştığı ilk yarıda Salah’ın penaltıdan kaydettiği sayı ile 3-0’ı yakaladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1321,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gerçekten iştahlı istekli bir Trabzonspor vardı sahada.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1322,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Özellikle sezona iyi başlayamayan Onachu’nun istediği toplar geldiğinde gollerini atabildiğini gördük.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1323,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gençlerbirliği erken gelen gollerle şok olurken ilk yarının son 15 dakikasında dengeyi kursa da gol atmayı başaramadılar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1324,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İkinci yarıya skorun da rahatlığıyla stressiz çıkan Trabzonspor hücumu düşünse de daha rölanti bir futbol sergiledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1325,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-07T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Aslında Onuachu'nun sakatlanıp çıkmasıyla birlikte yeni transfer Dju'nun yeni takımının formasıyla tanışmasıydı bir anlamda.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-trabzonspor-genclerbirligi",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/istahli-oyunla-zafere-2636949",
+        "published_at": "2026-09-07T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1326,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Trabzonspor'da Fatih hoca görevini bıraktıktan sonra takımın nasıl bir refleks ortaya koyacağı merak ediliyordu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1327,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Nitekim özellikle ilk 25 dakika ortaya koyduğu istekli oyun, ön alan presi ve attığı gollerle maçın fişini erkenden çekti ve sezon başından beri en etkili ilk yarıyı oynadılar.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1328,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bordo mavililer top ayağında iken tartışmasız çok etkili bir takım.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1329,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bunun nedeni hücum hattındaki oyuncuların yetenekleri.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1330,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oyunun durumuna göre atak yaptıklarında her türlü kombinasyon çeşitliliğine sahip oyuncu profillerden oluşuyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1331,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu hücum cephaneliği doğru kullanılırsa her takıma karşı çok rahat gol bulurlar.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1332,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bordo mavililerin böyle yetenekli bir forvet hattı varsa bu oyuncuları çok geriye koşturmamak lazım.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1333,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-07T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Onun için savunma bloğu daha takım boyunu kısaltıp orta sahaya kadar çıkmaları gerekiyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/07/hos-geldin",
+        "published_at": "2026-09-07T06:50:12+03:00"
       },
       "image_kind": null
     }
@@ -39601,7 +40255,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 15
+      "comment_count": 17
     },
     {
       "id": "orkun-kokcu",
