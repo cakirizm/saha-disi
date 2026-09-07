@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T00:00:29.342956+00:00",
+  "generated_at": "2026-09-07T00:02:40.270464+00:00",
   "tracked_commentators": 223,
   "totals": {
     "sources": 164,
     "successful": 158,
     "youtube_sources": 7,
     "new_videos": 0,
-    "candidates": 953
+    "candidates": 1007
   },
   "sources": [
     {
@@ -28,7 +28,7 @@
     {
       "commentator": "levent-tuzemen",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -148,7 +148,7 @@
     {
       "commentator": "murat-ozbostan",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -164,23 +164,23 @@
     {
       "commentator": "sinan-vardar",
       "source": "A Spor",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests",
+      "candidates": 24,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "turgay-demir",
       "source": "A Spor",
-      "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 429: Too Many Requests",
+      "candidates": 16,
+      "ok": true,
+      "error": null,
       "kind": "web"
     },
     {
       "commentator": "zeki-uzundurukan",
       "source": "A Spor",
-      "candidates": 24,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -228,7 +228,7 @@
     {
       "commentator": "ender-bilgin",
       "source": "Fotomaç",
-      "candidates": 8,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -236,7 +236,7 @@
     {
       "commentator": "ersin-ramoglu",
       "source": "Fotomaç",
-      "candidates": 0,
+      "candidates": 4,
       "ok": true,
       "error": null,
       "kind": "web"
