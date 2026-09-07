@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:10:26.578272+00:00",
+  "generated_at": "2026-09-07T12:41:03.863399+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -40234,7 +40234,8 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 13
+      "comment_count": 13,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "leao",
@@ -40244,7 +40245,8 @@
     {
       "id": "muriqi",
       "name": "Muriqi",
-      "comment_count": 4
+      "comment_count": 4,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg/500px-Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "muci",
@@ -40255,12 +40257,14 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 17
+      "comment_count": 17,
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "orkun-kokcu",
       "name": "Orkun Kökçü",
-      "comment_count": 4
+      "comment_count": 4,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg/500px-Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "osimhen",
@@ -40318,6 +40322,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ZK5wuu9p4FU",
+      "title": "Nihat Kahveci: Süper Lig'e robot hakem gelse o da kötü yönetir!",
+      "url": "https://www.youtube.com/watch?v=ZK5wuu9p4FU",
+      "date": "2026-09-07T10:29:29+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Jw8QufAHS3o",
+      "title": "🎁 The top 3 transfers from the final days of the summer window — and some crazy movements! 🍿",
+      "url": "https://www.youtube.com/watch?v=Jw8QufAHS3o",
+      "date": "2026-09-07T07:09:27+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-Ijp_0K2uIOQ",
       "title": "Nihat Kahveci: Beşiktaş, bu kadroyla geçiş oyununu da çok iyi oynuyor.",
