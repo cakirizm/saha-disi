@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-08T00:28:08.709300+00:00",
+  "generated_at": "2026-09-08T06:00:41.441396+00:00",
   "commentators": [
-    {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "deniz-coban",
       "name": "Deniz Çoban",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "DÇ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -191,6 +191,17 @@
       "photoURL": null
     },
     {
+      "id": "serkan-yetismisoglu",
+      "name": "Serkan Yetişmişoğlu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hamit-turhan",
       "name": "Hamit Turhan",
       "role": "Futbol yorumcusu / muhabir",
@@ -218,17 +229,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "RK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "serkan-yetismisoglu",
-      "name": "Serkan Yetişmişoğlu",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SY",
       "focusTeams": [
         "Genel"
       ],
@@ -35602,7 +35602,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35629,7 +35629,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35656,7 +35656,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35683,7 +35683,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35710,7 +35710,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35737,7 +35737,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -35764,7 +35764,7 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
@@ -35792,7 +35792,446 @@
         "method": "columnist_byline",
         "speaker_id": "hakki-yalcin",
         "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
-        "published_at": "2026-09-07T20:11:47+03:00"
+        "published_at": "2026-09-08T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1342,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ligde ilk dört haftayı geride bırakırken hakem kararları yine futbol gündeminin önemli başlıklarından biri oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1343,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Derbinin yanı sıra haftanın kritik maçlarında da tartışmalı pozisyonlar ve hakem kararları öne çıktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1344,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Önümüzdeki haftalarda beklentimiz; hakemlerin daha istikrarlı, daha cesur ve oyun üzerindeki kontrolü daha yüksek bir performans ortaya koyması.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1345,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü ligin kalitesi kadar, hakem yönetimlerinin standardı da futbolun gündemini belirliyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1346,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Haftanın Hakemi: Reşat Onur CoşkunsesHaftanın Hayal Kırıklığı: Halil Umut MelerFenerbahçe-Beşiktaş: Halil Umut MelerHalil Umut Meler, karşılaşmanın başında oyunu kontrol etmeye çalışsa da bunda çok başarılı olamadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1347,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maç boyu ne kart standardını ne de faul standardını sağlayabildi.6.dakikada Agbadou’nun pozisyonunda topun kolla temasının olup olmadığı görüntülerden tam olarak anlaşılamıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1348,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem kararını eleştiremem.17.dakikada ceza sahasına doğru kateden Guendouzi, şortundan çekilerek düşürüldü.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1349,
+      "commentator": "deniz-coban",
+      "date": "2026-09-08T08:31:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemin faul kararı doğruydu; ancak müdahale ceza sahasının dışındaydı.50.dakikada Beşiktaşlı oyuncu tam gol atmak üzereyken Meler’den faul düdüğü geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/hakem-yonetimi-futbolun-gundemi-2637076",
+        "published_at": "2026-09-08T08:31:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1350,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Kaleci Kerem Matışlı'nın büyük hatasını affetmeyen Sylla, topu çalıp golü attı!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1351,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Çabuk tepki veren Timsah, Zeki Yavru'nun pasında ceza sahasına çalımlarla giren Iheanacho sihirli sol ayağıyla ceza yayı içinden kalecinin sağından 6.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1352,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Nijeryalı Kral, golü atınca gidip kaleci Kerem'i teselli etti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1353,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Orta sahayı kaybeden Timsah, sürekli geçiş oyunu yedi, Anziani ve Vargas'ın ceza sahası ve civarında cirit atmasına engel olamadı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1354,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "66'da Baran Başyiğit'le çift forvete dönen ve galibiyet için bastıran Timsah, son nefeste 3 puanı kazandı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1355,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "90+2'de soldan yeni transfer Hırvat kanat Ivan Saranic, nefis kesti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1356,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kaleci Vedat'ın kaçırdığı topu Iheanacho ağlara dürterek, 8.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1357,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-09-08T06:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Kötü oynadığı maçı kazanan Bursaspor, 15 puanla haftayı ikinci kapattı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/09/08/timsahin-krali-var",
+        "published_at": "2026-09-08T06:50:13+03:00"
       },
       "image_kind": null
     }
@@ -40441,7 +40880,7 @@
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 13,
+      "comment_count": 14,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -40453,7 +40892,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 13,
+      "comment_count": 15,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
