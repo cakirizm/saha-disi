@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:37:10.722644+00:00",
+  "generated_at": "2026-09-08T00:28:08.709300+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -66,6 +66,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
     },
     {
       "id": "murat-ozbostan",
@@ -142,17 +153,6 @@
       "avatar": "FD",
       "focusTeams": [
         "Beşiktaş",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
-      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -1787,7 +1787,7 @@
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/5/53/R%C4%B1dvan_Dilmen.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "safa-kaan-ozturk",
@@ -35578,6 +35578,223 @@
         "published_at": "2026-09-07T06:50:12+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1334,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tarihimizde hiçbir takımımız kadın voleybolcularımız kadar görkemli bir başarı elde etmedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1335,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sporun 'sanat dalı' olduğunu yıllardır gösteren ve Avrupa Şampiyonu olan kadın voleybolcuların bir kez daha ellerini öpüyor alnıma koyuyorum.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1336,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kadın sporcuların temiz elleri futbolun kirli ayak oyunlarından bin kere değerlidir!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1337,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Futbolun kültürü ne zarafete müsait ne asalete!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1338,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Derbide gördük ki Beşiktaş'ta iyiye giden çok şey, Fenerbahçe'de kazanmak adına hiçbir şey.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1339,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beşiktaş'ta dirilen bir akşam, Fenerbahçe'de formaların içinde ölü bedenlerle yitirilen bir akşam!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1340,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Yapılan transferlerle eskisinden güçlü olduğu varsayılan Fenerbahçe'nin \"kendini imha planı\" yine yürürlüğe girdiyse, bu takımın yoldan çıkma ihtimali de göz ardı edilmesin.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1341,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-07T20:11:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Düşüncede cesur olduğun zaman, futbolun korkulacak değil yaşanacak yanları var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-04-fenerbahce-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/08/opulecek-eller",
+        "published_at": "2026-09-07T20:11:47+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -40202,12 +40419,14 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 10
+      "comment_count": 10,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 12
+      "comment_count": 12,
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "cerny",
