@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T01:17:43.909810+00:00",
+  "generated_at": "2026-09-09T11:32:55.235067+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -146,6 +146,17 @@
       "photoURL": null
     },
     {
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "fatih-dogan",
       "name": "Fatih Doğan",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -207,17 +218,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HT",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "ender-bilgin",
-      "name": "Ender Bilgin",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
       "focusTeams": [
         "Genel"
       ],
@@ -36302,7 +36302,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36329,7 +36329,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36356,7 +36356,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36383,7 +36383,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
@@ -36411,7 +36411,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36440,7 +36440,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36467,7 +36467,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -36494,7 +36494,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/09/osimhensiz-gunlerin-plani-yapilmaliydi",
-        "published_at": "2026-09-09T01:01:54+03:00"
+        "published_at": "2026-09-09T06:41:21+03:00"
       },
       "image_kind": null
     },
@@ -37537,6 +37537,226 @@
         "published_at": "2026-09-08T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1404,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe ve İsmail Kartal için 'kader haftaları' adlı film çok erken vizyona girdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1405,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Zaten fragmanı ilk haftadaki Gençlerbirliği yenilgisiyle seyretmiştik.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1406,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Normal şartlarda şampiyonluk ipini göğüsleyecek takımın bir sezonda dört, maksimum beş yenilgi alma lüksü olur.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1407,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal'ın Fenerbahçe'si bu hakkın yarısını dördüncü hafta geride kalırken tüketti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1408,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu gerçek, yıllardır sabır taşı çatlayan taraftarın moralini bozdu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1409,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Oysa Aziz Yıldırım'ın başkan olduktan sonra ısrarla, 'bu takımı şampiyon yapacağım' demesi camianın umutlarını yeşertmişti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1410,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Transfer sürecinin ilk yarısı da gayet olumlu geçti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1411,
+      "commentator": "ender-bilgin",
+      "date": "2026-09-09T06:50:24+03:00",
+      "team": null,
+      "players": [
+        "Talisca"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak Talisca'dan çıkmak, sekiz numara ve kanat almamak, ne vereceği meçhul Lukaku ile anlaşmak ciddi anlamda soru işaretleri yarattı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/09/zor-oyunu-bozar",
+        "published_at": "2026-09-09T06:50:24+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
     }
   ],
   "matches": [
@@ -42260,7 +42480,7 @@
     {
       "id": "talisca",
       "name": "Talisca",
-      "comment_count": 21,
+      "comment_count": 22,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Galatasaaray_5_Stars.png/500px-Galatasaaray_5_Stars.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -42284,8 +42504,20 @@
   ],
   "publications": [
     {
+      "id": "youtube-DfAAxvoXmWg",
+      "title": "İsmail Kartal mikro taktik bilmez, standart bir hocadır | Ali Sunal, Serdar Ali Çelikler | Gol Kralı",
+      "url": "https://www.youtube.com/watch?v=DfAAxvoXmWg",
+      "date": "2026-09-09T10:04:09+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
       "id": "youtube-9TvX9CU2OME",
-      "title": "🚨💣 DEAL DONE! MESSI DECISION MADE! LEO’S NEXT MOVE AND CRISTIANO RONALDO TOO! MAC ALLISTER: SO SAD…",
+      "title": "🚨💣 DEAL DONE! MESSI TO BUY 100%! LEO’S NEXT MOVE AND CRISTIANO PLANS! JAMES FOR FREE! MAC ALLISTER…",
       "url": "https://www.youtube.com/watch?v=9TvX9CU2OME",
       "date": "2026-09-08T23:40:07+00:00",
       "source": "Fabrizio Romano",
