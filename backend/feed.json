@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T06:02:09.888224+00:00",
+  "generated_at": "2026-09-10T11:26:19.195245+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -146,6 +146,17 @@
       "photoURL": null
     },
     {
+      "id": "hamit-turhan",
+      "name": "Hamit Turhan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HT",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "ender-bilgin",
       "name": "Ender Bilgin",
       "role": "Futbol yorumcusu / muhabir",
@@ -218,17 +229,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "BÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hamit-turhan",
-      "name": "Hamit Turhan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HT",
       "focusTeams": [
         "Genel"
       ],
@@ -39531,6 +39531,233 @@
         "published_at": "2026-09-10T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1476,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Zira geçen yılki Şampiyonlar Ligi başlangıç maçı olan Eintracht Frankfurt karşılaşmasının neredeyse karbon kopyası gibiydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1477,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Her iki maç öncesi de takımın en büyük silahı Osimhen sakattı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1478,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sahaya çıkan ilk 11'lerde ise üç farklı oyuncu vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1479,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [
+        "Batrakov",
+        "Singo"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Frankfurt maçında sahaya çıkan İlkay, Lemina ve Singo'nun yerine Lizbon karşısında Batrakov, Jakops ve Sara vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1480,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [
+        "Sane",
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Forvet hattı ise her iki maçta da Barış Alper, Yunus ve Sane'den oluşuyordu!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1481,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Buna, maça iyi başlamak, öne geçmek, oyunu domine etmek, maçı koparabileceğin net pozisyonları harcamak, oyunun kırılma anlarında kırılmak, basit hatalarla, basit goller yemek de dahil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1482,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Cim Bom ilk yarı tam bir dominasyon sağladıDün gecenin bir yıl öncesinden farkı, Osimhen'in yanı sıra takımın kilit oyuncularından Lemina'nın da sakat olması, transferlerin geç gelmesi, bu nedenle fizik olarak tam hazır olmamaları ve henüz takıma adaptasyon sağlayamamalarıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1483,
+      "commentator": "hamit-turhan",
+      "date": "2026-09-10T09:53:20+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Buna rağmen teknik direktör Okan Buruk sahaya çıkarabileceği en iyi 11'i çıkarmıştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/deja-vu-2637319",
+        "published_at": "2026-09-10T09:53:20+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -44155,13 +44382,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 13,
+      "comment_count": 14,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -44229,7 +44456,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 44,
+      "comment_count": 46,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -44241,7 +44468,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 22,
+      "comment_count": 23,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -44253,7 +44480,7 @@
     {
       "id": "singo",
       "name": "Singo",
-      "comment_count": 2
+      "comment_count": 3
     },
     {
       "id": "skriniar",
