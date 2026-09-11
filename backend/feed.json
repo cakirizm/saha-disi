@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T01:09:43.041631+00:00",
+  "generated_at": "2026-09-11T06:04:09.428047+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -7,6 +7,28 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "TK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
@@ -35,17 +57,6 @@
       "photoURL": null
     },
     {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "zeki-uzundurukan",
       "name": "Zeki Uzundurukan",
       "role": "Futbol yorumcusu / muhabir",
@@ -62,17 +73,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "ÖÜ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
@@ -99,6 +99,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
+      ],
+      "photoURL": null
     },
     {
       "id": "bulent-timurlenk",
@@ -135,13 +146,13 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
+      "id": "emre-bol",
+      "name": "Emre Bol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
       "focusTeams": [
-        "Beşiktaş"
+        "Genel"
       ],
       "photoURL": null
     },
@@ -185,17 +196,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "İG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "emre-bol",
-      "name": "Emre Bol",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
       "focusTeams": [
         "Genel"
       ],
@@ -39782,7 +39782,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39809,7 +39809,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39838,7 +39838,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39865,7 +39865,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39892,7 +39892,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39919,7 +39919,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39946,7 +39946,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -39973,7 +39973,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/11/elden-mi-kacirdi-1-puan-iyi-mi",
-        "published_at": "2026-09-11T00:57:19+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -40000,7 +40000,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40027,7 +40027,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40054,7 +40054,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40081,7 +40081,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40108,7 +40108,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40135,7 +40135,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40162,7 +40162,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40189,7 +40189,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/11/istifasina-hic-sasirmadim",
-        "published_at": "2026-09-11T01:05:12+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40216,7 +40216,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40243,7 +40243,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40270,7 +40270,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40297,7 +40297,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40324,7 +40324,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40351,7 +40351,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
@@ -40379,7 +40379,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40406,7 +40406,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/11/ah-vedat-ah-diyorum-tabi-ki",
-        "published_at": "2026-09-11T01:05:58+03:00"
+        "published_at": "2026-09-11T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -40628,6 +40628,1069 @@
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/11/az-daha-romayi-yakiyorduk",
         "published_at": "2026-09-10T23:21:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1516,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Haliyle gol atmak Fenerbahçe’nin yapacağından çok Roma’nın ‘Kendine yapacaklarına’ bağlı görünüyordu ki, ilk yarı bu da mümkün olmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1517,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Topu başlarda ayağında daha çok tutan Fenerbahçe’yse de bu istatistiğin eşitlenmeye başladığı 25.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1518,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Devre biterken pas sayısında da öne geçen misafir takımdı üstelik bir de gol atmıştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1519,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Kante"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci devre mutlaka bir şeyler olmalıydı… Nihayet devrenin hemen başında N’Golo Kante hariç, sol bekleri Archie Brown’dan başlayıp tüm oyuncularına topu temas ettiren Fenerbahçe, 20 pas sonunda yine Archie’yi kaleciyle karşı karşıya bırakıp golü buldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1520,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Yani fevkalade bir gol attılar…Direnci önemliydiFakat tıpkı ilk devre olduğu gibi yaklaşık dakikalarda Roma yeniden oyuna girip gol öncesi tehlikeli işler yapmaya başladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1521,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İrili ufaklı karşılıklı tehlikeler oluşturuldaysa da ‘Gol beklentisi’ daha yüksek olan Fenerbahçe’ydi lakin galibiyet golüne ulaşılamadılar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1522,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Topun kıymetini bilerek pas oynamaya çalışan iki takım sınırlı sayıda şut atıp, gerektiği kadar orta denedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1523,
+      "commentator": "cem-dizdar",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kazanabilecek kadar gol pozisyonu yakalayan Fenerbahçe maçı kazanamadıysa da yenilmedi ve yıllar sonra Şampiyonlar Ligi’ne gol atıp puanla başladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/galibiyet-golune-ulasamadilar-2637428",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1524,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Erzurumspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Derbi morali ile yüksek uçan Kartal, Erzurumspor’u ağırlıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1525,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Doğu temsilcisi önünde güzel futbol ve tarihi skor bekliyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1526,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçtan öte festival havasında geçmesi beklenen karşılaşmada eksiklerin olması teknik ekibi rahatsız etmiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1527,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rakip kim olursa olsun, maçlar oynanmadan kazanılmıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1528,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Atletik yapıya sahip yeni transfer artık 11’de sahne almalı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1529,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gösterdiği performans ile yeniden milli takımın kapılarını araladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1530,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş, taraftarı önünde üç puanı cebine koymuş durumda (!) çıkarıp geri ikram eder mi, zor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1531,
+      "commentator": "orhan-yildirim",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Erzurumspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Erzurumspor gücü ölçüsünde iyi niyetle mücadele edecektir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-05-besiktas-erzurumspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-zafer-2637422",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1532,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İtalya Serie A’da bu sezon 3/3 yaparak 10 gol atıp tek gol yiyip liderlik koltuğunda oturan Roma’ya karşı ilk yarıda İsmail Kartal’ın rakibi geride karşılama stratejisi büyük hayal kırıklığıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1533,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İtalyan hoca trend belirleyen bir futbol taktisyeni.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1534,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bire bir baskı oyunu üzerine kariyer inşa etmiş bir futbol bilgesi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1535,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Fakat Gasperini’nin futbola dair ürettiği, baskı üzerine kurulu bu futbol tezi yenilmez değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1536,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Geçen sezon Juventus, İnter, Como, Milan, Napoli, Atalanta yani Serie A’nın ilk 7 sırasında yer alan takımların tamamı Roma’yı çok önde karşılayıp, şiddetli baskıyı kırarak mağlup etti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1537,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Gasperini'nin takımını Fenerbahçe’nin bu kadar derinde karşılaması en büyük yanlışlardan biriydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1538,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe, ligde de ön alan baskısını yüksek şiddette yapan bir takım değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1539,
+      "commentator": "serkan-akcan",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Greenwood",
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rakiplerini daha çok orta sahada karşılayıp hücuma Greenwood ve Kerem ile hızlı giden bir stratejiye sahip.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/gozunde-buyutmus-2637430",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1540,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bütün planı beklemeye, savunmaya, geçiş oyunu oymamaya kurarsan, sen Şampiyonlar Ligi takımı olamazsın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1541,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Liginde evinde oynadığın karşılaşmalar pek kıymetli.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1542,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sadece Greenwood ile ne maç kazanabilirsin ne üst tura çıkabilirsin.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1543,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Öyle ya da böyle iyi savunma yaparak, bekleyip pozisyon vermeyerek puan almayı başardık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1544,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hatta ikinci yarıda maçı kazanacak pozisyonlar bulduk.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1545,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Archie'nin attığı golü, golcü Vedat atabilse belki kazanabilirdik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1546,
+      "commentator": "emre-bol",
+      "date": "2026-09-11T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Öyle ya da böyle Şampiyonlar Ligine hoş geldik...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/09/11/hos-geldik",
+        "published_at": "2026-09-11T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1547,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Derbide Beşiktaş’a kötü bir oyunla kaybeden Fenerbahçe için bir anlamda moral ve yara sarma taraftarından güvenoyu alma maçıydı Roma karşılaşması.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1548,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda gerçekten kontrollü savunma disiplini üst düzeyde adeta rakibine göz açtırmayan bir Fenerbahçe vardı sahada.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1549,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gerçekten bu futbola böyle bir golü hak etmedik açıkçası.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1550,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Brown harika bir golle tribünleri ayağa kaldırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1551,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Kante"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hemen ardından Kante’nin nefis asistini Vedat değerlendirse, öne geçmek içten bile değildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1552,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ancak beklenmedik anda kalemizde gördüğümüz gol, bizi risk almak mecburiyetinde bıraktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1553,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Ligi’nde bu statü eleme usulü değil puan usulü olduğu için kazanamıyorsan da kaybetmeyeceksin.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1554,
+      "commentator": "tunc-kayaci",
+      "date": "2026-09-11T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İyi başlangıçMaç öncesi formda Roma karşısında bir puan iyidir diye düşünen vardır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/galibiyeti-kacirdi-2637427",
+        "published_at": "2026-09-11T06:59:00+03:00"
       },
       "image_kind": null
     }
@@ -45276,7 +46339,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 29
+      "comment_count": 31
     },
     {
       "id": "guendouzi",
@@ -45287,13 +46350,13 @@
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 12,
+      "comment_count": 14,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 16,
+      "comment_count": 17,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
