@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:12:09.318842+00:00",
+  "generated_at": "2026-09-12T17:14:45.705542+00:00",
   "commentators": [
     {
       "id": "tunc-kayaci",
@@ -45199,12 +45199,12 @@
       "away": "Rizespor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "kickoff": "2026-09-12T17:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-05-samsunspor-corum-fk",
@@ -45214,12 +45214,12 @@
       "away": "Çorum FK",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 5,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "kickoff": "2026-09-12T17:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-05-alanyaspor-goztepe",
@@ -45234,7 +45234,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "kickoff": "2026-09-12T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-05-konyaspor-trabzonspor",
@@ -45249,7 +45249,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "kickoff": "2026-09-12T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-05-genclerbirligi-kasmpasa",
