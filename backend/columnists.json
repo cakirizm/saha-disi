@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T01:16:31.652978+00:00",
+ "generated_at": "2026-09-12T05:51:52.872579+00:00",
  "columnists": [
   {
    "cid": "ahmet-cakar",
@@ -8,7 +8,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "bulent-timurlenk",
@@ -17,7 +17,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "emre-bol",
@@ -25,8 +25,8 @@
    "url": "https://www.aspor.com.tr/yazarlar/emre-bol/arsiv",
    "source": "A Spor",
    "trust": 98,
-   "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "sample_sentences": 15,
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "fatih-dogan",
@@ -35,7 +35,16 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
+  },
+  {
+   "cid": "hakki-yalcin",
+   "name": "Hakkı Yalçın",
+   "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/arsiv",
+   "source": "A Spor",
+   "trust": 98,
+   "sample_sentences": 16,
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "iskender-gunen",
@@ -44,7 +53,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "levent-tuzemen",
@@ -53,7 +62,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "murat-ozbostan",
@@ -62,7 +71,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "omer-urundul",
@@ -71,7 +80,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "sinan-vardar",
@@ -80,7 +89,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "turgay-demir",
@@ -89,7 +98,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "zeki-uzundurukan",
@@ -98,7 +107,7 @@
    "source": "A Spor",
    "trust": 98,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "arda-erol",
@@ -125,7 +134,7 @@
    "source": "Fanatik",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-05"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "deniz-coban",
@@ -134,7 +143,7 @@
    "source": "Fanatik",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "engin-saydam",
@@ -164,13 +173,22 @@
    "last_validated": "2026-09-09"
   },
   {
+   "cid": "olcay-cakir",
+   "name": "Olcay Çakır",
+   "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir",
+   "source": "Fanatik",
+   "trust": 95,
+   "sample_sentences": 16,
+   "last_validated": "2026-09-12"
+  },
+  {
    "cid": "orhan-yildirim",
    "name": "Orhan Yıldırım",
    "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim",
    "source": "Fanatik",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-05"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "serkan-akcan",
@@ -197,7 +215,7 @@
    "source": "Fotomaç",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "ersin-ramoglu",
@@ -206,7 +224,7 @@
    "source": "Fotomaç",
    "trust": 95,
    "sample_sentences": 4,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "reha-kapsal",
@@ -215,7 +233,7 @@
    "source": "Fotomaç",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "serkan-yetismisoglu",
@@ -224,7 +242,7 @@
    "source": "Fotomaç",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "yunus-emre-sel",
@@ -233,7 +251,7 @@
    "source": "Fotomaç",
    "trust": 95,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "abdullah-ercan",
@@ -242,16 +260,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
-  },
-  {
-   "cid": "hakki-yalcin",
-   "name": "Hakkı Yalçın",
-   "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/arsiv",
-   "source": "Takvim",
-   "trust": 92,
-   "sample_sentences": 8,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "kartal-yigit",
@@ -260,7 +269,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "onur-ozkan",
@@ -269,7 +278,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "sercan-akkus",
@@ -278,7 +287,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 7,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "serkan-korkmaz",
@@ -287,7 +296,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "ufuk-ozcan",
@@ -296,7 +305,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 7,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   },
   {
    "cid": "ulas-ozdemir",
@@ -305,7 +314,7 @@
    "source": "Takvim",
    "trust": 92,
    "sample_sentences": 16,
-   "last_validated": "2026-09-09"
+   "last_validated": "2026-09-12"
   }
  ]
 }
