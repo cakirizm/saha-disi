@@ -468,6 +468,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-05-alanyaspor-goztepe",
+    "league": "Trendyol Süper Lig",
+    "week": 5,
+    "home": "Alanyaspor",
+    "away": "Göztepe",
+    "kickoff": "",
+    "home_score": 2,
+    "away_score": 2,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-05-besiktas-erzurumspor",
     "league": "Trendyol Süper Lig",
     "week": 5,
@@ -494,6 +507,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-05-konyaspor-trabzonspor",
+    "league": "Trendyol Süper Lig",
+    "week": 5,
+    "home": "Konyaspor",
+    "away": "Trabzonspor",
+    "kickoff": "",
+    "home_score": 1,
+    "away_score": 0,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-05-samsunspor-corum-fk",
     "league": "Trendyol Süper Lig",
     "week": 5,
@@ -502,32 +528,6 @@
     "kickoff": "",
     "home_score": 1,
     "away_score": 5,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-05-alanyaspor-goztepe",
-    "league": "Trendyol Süper Lig",
-    "week": 5,
-    "home": "Alanyaspor",
-    "away": "Göztepe",
-    "kickoff": "12.09.2026 20:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-05-konyaspor-trabzonspor",
-    "league": "Trendyol Süper Lig",
-    "week": 5,
-    "home": "Konyaspor",
-    "away": "Trabzonspor",
-    "kickoff": "12.09.2026 20:00",
-    "home_score": null,
-    "away_score": null,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
