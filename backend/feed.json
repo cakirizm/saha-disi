@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:59:05.881145+00:00",
+  "generated_at": "2026-09-20T01:13:46.993134+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -86,6 +75,17 @@
       "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -101,17 +101,6 @@
       "photoURL": null
     },
     {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "ahmet-cakar",
       "name": "Ahmet Çakar",
       "role": "Yorumcu / Yazar",
@@ -121,6 +110,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
     },
     {
       "id": "turgay-demir",
@@ -169,6 +169,17 @@
       "photoURL": null
     },
     {
+      "id": "iskender-gunen",
+      "name": "İskender Günen",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "İG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "emre-bol",
       "name": "Emre Bol",
       "role": "Futbol yorumcusu / muhabir",
@@ -185,17 +196,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HT",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "iskender-gunen",
-      "name": "İskender Günen",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "İG",
       "focusTeams": [
         "Genel"
       ],
@@ -52990,6 +52990,884 @@
         "published_at": "2026-09-18T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 1967,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saray maçları oynanır, böylesine bir maç, Trabzonspor'un G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1968,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Artık Okan Buruk'tan bu takıma hayır gelmez.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1969,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Yenen tüm goller ağır ve korkunç defans hataları.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1970,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk golde korner atılıyor, Salah 70 metre tek başına ilerleyip golünü atıveriyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1971,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Amatör takımlar bile kornerde bir oyuncuyu bu tür pozisyonlar için geride bırakır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1972,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Üçüncü gol, Sanchez çıkarken rakibine verdi, bu da gol oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1973,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gelelim Okan Buruk'a… Bilerek isteyerek kendini attırdı ki böylesine rezil bir maçtan sonra basın toplantısına çıkmasın diye.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1974,
+      "commentator": "ahmet-cakar",
+      "date": "2026-09-20T01:29:10+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Daha önceki tüm maçlarına bakıyoruz, neredeyse hepsinde atılması lazım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/09/20/toplantiya-cikmamak-icin-kendini-attirdi",
+        "published_at": "2026-09-20T01:29:10+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 1975,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Başsorumlu Buruk Mali kongre Galatasaray yönetimi ve Başkan Dursun Özbek için çok zorlu geçecektir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1976,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Genel düşünce şu: 'Oyun yok, planlama yok, takım aynı, rakip analizi hiç yok.\" Sıkıldık artık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1977,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gelelim maçın analizine… Salah'ın saha içi öğretmenliği yaptığı Trabzonspor'u galibiyetinden dolayı kutluyorum.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1978,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Galatasaray'ı yenerlerken ders olacak gollere imza attılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1979,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Dünya yıldızı Salah, oynadığı oyun, attığı gol ve attırdığı gollerle adeta tek başına Galatasaray'ı tuş etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1980,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": null,
+      "players": [
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "2-Sane, \"İlk 11 başlamıyorum\" diye seni şikayet etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1981,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": null,
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "3-Leao hazır değilse oynamasın ya da oynayabileceği süre kadar yer alsın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1982,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-19T23:50:21+03:00",
+      "team": null,
+      "players": [
+        "Sane",
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Leao- Sane ile birlikte savunmaya yardıma hiç gelmediler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/20/bassorumlu-buruk",
+        "published_at": "2026-09-19T23:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1983,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Diriliş Fırtına Süper Lig'de haftanın en kritik mücadelesinde Trabzonspor mükemmel bir geceye imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 1984,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Thomas Reis ilk maçında farklı bir 11 ile ve taktik anlayışıyla takımını sahaya sürdü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1985,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Savunma ile orta saha arasındaki mesafeyi oldukça dar tutarak Galatasaray'ın yaratıcı ayaklarına hareket alanı tanımayan bordo-mavililer, kazandığı toplarla dikine ve öldürücü hücumlar gerçekleştirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1986,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hoca, Onuachu yerine Franculino'yu tercih etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1987,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saviolo ve Salah'ın patlayıcı hızlarından yararlandı, Salah gerçekten dün akşam bir kez daha görüldü ki Trabzonspor'un her şeyi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1988,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Attığı 3 gol ve yaptığı asistle maça damga vurdu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1989,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Doğaldır ki ikinci yarıda Trabzonspor oyunu daha çok kendi alanında kabul etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1990,
+      "commentator": "iskender-gunen",
+      "date": "2026-09-20T01:19:41+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama Galatasaray'ın girdiği 2 gol pozisyonunda kaleci Onana'nın öne çıktığı anlardan başka, rakibe pozisyon vermedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/09/20/dirilis-firtina",
+        "published_at": "2026-09-20T01:19:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1991,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor, lider Galatasaray'ı 4 farklı skor ile yenerek hem yarışın içine girdi hem de büyük moral kazandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1992,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Oyunu domine eden genelde Galatasaray'dı ama yenen 3 gol var, 2 de net kaçan .",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1993,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Günümüz futbolunda böyle bir takım savunması olmaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1994,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Çünkü takımdaki en büyük rahatsızlık, rakipler ön alan baskısını kırınca pozisyonlar veriyorsun.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1995,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [
+        "Sane",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Böyle bir kritik deplasmanda defansif yönleri hiç olmayan Sane ve Leao'yu birlikte kanatlarda görevlendiriyorsun.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1996,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Okan, Buruk'un takımın bu zaaflarını önleyici birtakım tertipler düşünmesi lazım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1997,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Trabzon'a gelince tabii öncelikle 3 gol atan Salah'ı kutlamak lazım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 1998,
+      "commentator": "omer-urundul",
+      "date": "2026-09-20T01:11:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Reis'in en büyük doğrusu, santrforda hareketli Dju'yu görevlendirmesiydi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/09/20/salahla-her-sey-daha-kolay",
+        "published_at": "2026-09-20T01:11:09+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -53711,12 +54589,12 @@
       "away": "Gaziantep FK",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "kickoff": "2026-09-19T17:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-06-corum-fk-alanyaspor",
@@ -53726,12 +54604,12 @@
       "away": "Alanyaspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "kickoff": "2026-09-19T17:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-06-basaksehir-genclerbirligi",
@@ -53741,12 +54619,12 @@
       "away": "Gençlerbirliği",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "kickoff": "2026-09-19T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-06-trabzonspor-galatasaray",
@@ -53756,12 +54634,12 @@
       "away": "Galatasaray",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "kickoff": "2026-09-19T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-06-erzurumspor-samsunspor",
@@ -57661,7 +58539,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 27
+      "comment_count": 30
     },
     {
       "id": "muriqi",
@@ -57678,7 +58556,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 20,
+      "comment_count": 21,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -57702,7 +58580,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 23,
+      "comment_count": 26,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
