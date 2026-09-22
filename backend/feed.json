@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:03:22.109858+00:00",
+  "generated_at": "2026-09-22T14:59:24.907788+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -60065,6 +60065,33 @@
         "published_at": "2026-09-21T15:29:44+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2226,
+      "commentator": "sinan-vardar",
+      "date": "2026-09-21T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray'ın önceki gün Trabzon karşısında puan kaybetmesiyle beraber Beşiktaş, ilk milli arayı lider bitirme fırsatıyla karşılaştı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/09/21/yol-kazasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-06-amed-sk-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/09/21/yol-kazasi",
+        "published_at": "2026-09-21T06:40:48+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -64824,6 +64851,19 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-2aypzb-O7bs",
+      "title": "😂 Erman Yaşar kendinden çok emin ama... | Erman Yaşar & Emre Özcan | Atıf Bey Sokak",
+      "url": "https://www.youtube.com/watch?v=2aypzb-O7bs",
+      "date": "2026-09-17T17:31:11+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan",
+        "erman-yasar"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-JSNyempxH_s",
       "title": "🔴 CANLI | Sporting - Galatasaray Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
