@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:25:59.440265+00:00",
+  "generated_at": "2026-09-22T05:03:22.109858+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "hakki-yalcin",
       "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
@@ -86,6 +75,17 @@
       "avatar": "HY",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -134,17 +134,6 @@
       "photoURL": null
     },
     {
-      "id": "sinan-vardar",
-      "name": "Sinan Vardar",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "SV",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -153,6 +142,17 @@
       "focusTeams": [
         "Beşiktaş",
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "sinan-vardar",
+      "name": "Sinan Vardar",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "SV",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -246,6 +246,17 @@
       "photoURL": null
     },
     {
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ES",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "reha-kapsal",
       "name": "Reha Kapsal",
       "role": "Futbol yorumcusu / muhabir",
@@ -262,17 +273,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "AE",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
       "focusTeams": [
         "Genel"
       ],
@@ -59440,6 +59440,631 @@
         "published_at": "2026-09-21T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2203,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hafta sonu Fenerbahçe için güzel şeyler oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2204,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": "Eyüpspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sadece Eyüpspor'u farklı yenmekle kalmadı, iki büyük rakibinin kolayca yenilmesiyle, kaybettiği puanların bir kısmını telafi etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2205,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Eyüpspor maçı kolay bir maceraydı ama Fenerbahçe galibiyeti mücadele ederek çağırdı, 3 puan da koşarak geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2206,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "'Geçiyordum uğradım' tarzı santrforlar bu takımdan çok şey aldı çünkü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2207,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ama yine de bu takımın taraftarın sevmediği manzara olmaktan kurtulması için birkaç maçlık periyodu beklemek gerekiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2208,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Asensio"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Asensio'nun da takıma gireceğini düşündüğümüz zaman bunun mümkün olması da zor değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2209,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor muhteşem bir sonuçla Galatasaray'ı yerle bir etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2210,
+      "commentator": "hakki-yalcin",
+      "date": "2026-09-22T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Bu sonuç; gücüne gecikmiş bir takımın harika dönüşü olarak algılanmalı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/22/heykel-salah",
+        "published_at": "2026-09-22T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2211,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hak edilmiş yenilgi Beşiktaş, Amedspor deplasmanında bir puan bile almış olsa ligin lideri olacaktı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2212,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yiğidin hakkını yiğide verelim; Amedspor üç puanı hak etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2213,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Eski Beşiktaşlı Umut, eski Sivaslı Dia Saba, Lyon, Gent, Hoffenheim, Verona derken Avrupa'da bir türlü beklenen düzeye gelemeyen Orban, üçüncü ligden alınan Khalil derken Kosovalı Besnik Hasi, elindeki malzemelerle en iyisini yapmayı bilmiş, başarmış.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2214,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "lk yarıda ev sahibi takım, Beşiktaş'ı adeta şaşkına çevirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2215,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Orban'ın 30 metreden attığı gol harikaydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2216,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ardından benzer mesafeden bir başka şık gol geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2217,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Ancak bu gollerin öncesinde Beşiktaş savunmasının ciddi hataları vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2218,
+      "commentator": "turgay-demir",
+      "date": "2026-09-21T12:54:11+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Önde top tutamayan, kanatlarda Poku ve Fakılı ile bir türlü adım atamayan ve Vlahovic'i aç, susuz bırakan Kartal, gollerin şokuyla soyunma odasına gitti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/21/hak-edilmis-yenilgi",
+        "published_at": "2026-09-21T12:54:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2219,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray ve Beşiktaş’ın yenildiği, Trabzonspor’un direkt rakibini evinde 4-0 yenerek, Fenerbahçe’nin de şaşalı 8-0’lık Eyüpspor galibiyetiyle geçtiğimiz haftada, umudunu geri kazananlar, sağlam bir uyarı alanlar, ne ararsanız vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2220,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sakatlıklar, cezalılar, Avrupa dönüşleri, form durumları vs…O yüzden herkese bu 3 hafta son bir pit-stop şansı, iyi değerlendiren farkı yaratacaktır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2221,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir Büyük TehlikeUzun zamandır medyayı takip eden bir insan olarak ve hasbelkader iletişim işiyle uğraşan bir insan olarak, Galatasaray yönetiminin çok tehlikeli bir oyun oynadığını söylemem gerekir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2222,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray’da Okan Buruk eleştirisinin sosyal medyadaki haz ve tüketim odaklı hesaplar tarafından abartılmasını veya gündem olmasını ciddiye almaya gerek yok.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2223,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "İkisi de problemli çünkü 4 sene üst üste şampiyon olmuş hocanızla, medya önünden hesaplaşmaya kalkışırsanız, o da sizle saha içinden hesaplaşmaya başlar ve bunun sonucundaki zarardan kurtulma şansı iki taraf için de yoktur.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2224,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ortada kaybedilen bir şey yok, Okan Buruk tabi ki eleştirilebilir, mesela denebilir ki Trabzonspor deplasmanına bu orta saha ile çıkılmaz ama medya yansıyan ve hoş olmayan beyanatları bilinçli sızdırmak başka bir şey.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2225,
+      "commentator": "engin-saydam",
+      "date": "2026-09-21T15:29:44+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray’ı bu anlamda bekleyen büyük bir tehlike var, Okan Buruk bu konulara çok kafayı takmayan bir insan ama artık bir noktada da saygı ve arka çıkılmasını bekliyor olabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fragman-bitti-2638508",
+        "published_at": "2026-09-21T15:29:44+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -60274,51 +60899,6 @@
       "status": "finished"
     },
     {
-      "id": "sl-2026-07-alanyaspor-erzurumspor",
-      "league": "Trendyol Süper Lig",
-      "week": 7,
-      "home": "Alanyaspor",
-      "away": "Erzurumspor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-07-besiktas-kocaelispor",
-      "league": "Trendyol Süper Lig",
-      "week": 7,
-      "home": "Beşiktaş",
-      "away": "Kocaelispor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-07-eyupspor-goztepe",
-      "league": "Trendyol Süper Lig",
-      "week": 7,
-      "home": "Eyüpspor",
-      "away": "Göztepe",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
       "id": "sl-2026-07-galatasaray-kasmpasa",
       "league": "Trendyol Süper Lig",
       "week": 7,
@@ -60330,23 +60910,8 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-07-gaziantep-fk-corum-fk",
-      "league": "Trendyol Süper Lig",
-      "week": 7,
-      "home": "Gaziantep FK",
-      "away": "Çorum FK",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-10-09T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-07-genclerbirligi-amed-sk",
@@ -60360,38 +60925,23 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-10-10T13:30:00+03:00",
+      "status": "scheduled"
     },
     {
-      "id": "sl-2026-07-konyaspor-basaksehir",
+      "id": "sl-2026-07-alanyaspor-erzurumspor",
       "league": "Trendyol Süper Lig",
       "week": 7,
-      "home": "Konyaspor",
-      "away": "Başakşehir",
+      "home": "Alanyaspor",
+      "away": "Erzurumspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_score": null,
       "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-07-rizespor-fenerbahce",
-      "league": "Trendyol Süper Lig",
-      "week": 7,
-      "home": "Rizespor",
-      "away": "Fenerbahçe",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
+      "kickoff": "2026-10-10T16:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-07-samsunspor-trabzonspor",
@@ -60405,8 +60955,83 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-10-10T16:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-07-rizespor-fenerbahce",
+      "league": "Trendyol Süper Lig",
+      "week": 7,
+      "home": "Rizespor",
+      "away": "Fenerbahçe",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "kickoff": "2026-10-10T19:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-07-konyaspor-basaksehir",
+      "league": "Trendyol Süper Lig",
+      "week": 7,
+      "home": "Konyaspor",
+      "away": "Başakşehir",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "kickoff": "2026-10-11T13:30:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-07-gaziantep-fk-corum-fk",
+      "league": "Trendyol Süper Lig",
+      "week": 7,
+      "home": "Gaziantep FK",
+      "away": "Çorum FK",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
+      "kickoff": "2026-10-11T16:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-07-besiktas-kocaelispor",
+      "league": "Trendyol Süper Lig",
+      "week": 7,
+      "home": "Beşiktaş",
+      "away": "Kocaelispor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
+      "kickoff": "2026-10-11T19:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-07-eyupspor-goztepe",
+      "league": "Trendyol Süper Lig",
+      "week": 7,
+      "home": "Eyüpspor",
+      "away": "Göztepe",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": "2026-10-12T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-08-amed-sk-konyaspor",
@@ -64058,7 +64683,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 23,
+      "comment_count": 24,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG/500px-Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -64194,7 +64819,7 @@
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 43,
+      "comment_count": 44,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ],
