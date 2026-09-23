@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:59:21.267635+00:00",
+  "generated_at": "2026-09-23T06:02:11.548809+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -191,6 +191,13 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Fabrizio_Romano_in_San_Mam%C3%A9s.jpg/960px-Fabrizio_Romano_in_San_Mam%C3%A9s.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoSource": "https://tr.wikipedia.org/wiki/Fabrizio_Romano",
       "resolvedTitle": "Fabrizio Romano",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "evren-turhan": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/EvrenTurhan.jpg/960px-EvrenTurhan.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Evren_Turhan",
+      "resolvedTitle": "Evren Turhan",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
