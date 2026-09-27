@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:37:58.948542+00:00",
+  "generated_at": "2026-09-27T01:31:26.789777+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -24,22 +24,22 @@
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
@@ -57,17 +57,6 @@
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "levent-tuzemen",
       "name": "Levent Tüzemen",
       "role": "Futbol yorumcusu",
@@ -79,12 +68,35 @@
       "photoURL": null
     },
     {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hakki-yalcin",
       "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HY",
       "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
         "Genel"
       ],
       "photoURL": null
@@ -121,18 +133,6 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
-      "id": "turgay-demir",
-      "name": "Turgay Demir",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "TD",
-      "focusTeams": [
-        "Beşiktaş",
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "bulent-timurlenk",
@@ -246,22 +246,22 @@
       "photoURL": null
     },
     {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
+      "id": "reha-kapsal",
+      "name": "Reha Kapsal",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
+      "avatar": "RK",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "reha-kapsal",
-      "name": "Reha Kapsal",
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "RK",
+      "avatar": "ES",
       "focusTeams": [
         "Genel"
       ],
@@ -63034,7 +63034,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63061,7 +63061,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63088,7 +63088,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63115,7 +63115,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63142,7 +63142,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63169,7 +63169,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63196,7 +63196,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63223,7 +63223,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/09/26/arda-guler-ve-mucadeleyi-sevdim",
-        "published_at": "2026-09-26T01:55:36+03:00"
+        "published_at": "2026-09-26T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -63711,6 +63711,1091 @@
         "speaker_id": "ender-bilgin",
         "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/09/25/vincenzolardan-montella",
         "published_at": "2026-09-25T06:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2359,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu mağlubiyeti hiç hak etmedik Milli Takım, Fransa'ya karşı kaybetmeyi hiç hak etmedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2360,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Çok akıllı oynadılar, topu rakibe bırakıp kompakt futbol anlayışıyla alanları daraltarak Fransız hücum hattına az pozisyon verdiler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2361,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İlk yarıda eğer iki pozisyonda Ferdi, bir pozisyonda da Barış isabetli vurabilselerdi, golü bulabilirdik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2362,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Fransa'nın ilk 45'te girdiği tek tehlikeli atakta Olise'nin köşeye giden gollük vuruşunu Uğurcan mükemmel kurtardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2363,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Savunmadan çıkarken kaptırdığımız topu Mbappe gole çevirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2364,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Ama bul gol öncesi, İsmail'in topu yere vurarak attığı kafa şutu hatalıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2365,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Doğrudan kaleye vursaydı, kesin gol olup biz öne geçecektik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2366,
+      "commentator": "levent-tuzemen",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "54'te yediğimiz golden sonra topla dribbling yapma yeteneği yüksek Kerem'i daha önce oyuna almalıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/09/26/bu-maglubiyeti-hic-hak-etmedik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2367,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Karakterli futbol Son 8 yılda bir Dünya Kupası kazanıp bir sonrakinde finalde Messi'ye çarpılan, geride kalan yaz da en büyük favori gittiği turnuvada yarı finalde mükemmel bir İspanya'ya boyun eğen Fransa ile oynuyorsanız, ilk hesabınız rakibi durdurmak olur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2368,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Biz Dünya Kupası'nda Paraguay ve Avustralya maçlarında rakibin kalabalık defanslarını çözmeye çalışırken acı çektik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2369,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oysa ki Uluslar Ligi'nin 6 maçının beşinde bu takım geçiş hücumları ile rakibin canını yakabilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2370,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Montella'nın savunurkenki beşli defansı, ilk yarıda Fransa'nın Mbappe-Dembele- Olise arkası Cherki'li müthiş forvet hattına 'pozisyon vermedi' dersek yeridir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2371,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Arda yine takım liderliğinin hakkını verirken kabul edelim orta sahada Hakan ve Orkun'un kalitesini ve tecrübesini aradık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2372,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarıda Merih'in Cherki'ye set çektiği pozisyon, Uğurcan'ın kurtarışı tabelayı sıfırda tutarken İsmail'in kafası gol olsa tabelayı da alacaktık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2373,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Önce Uğurcan, ardından Abdülkerim ve Can, pres sonrası kalemizdeki gol… Mbappe'nin sakatlığı Fransa'nın tadını kaçırdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2374,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Buna da Zidane ile ilk maçına iştahlı çıkan Fransa karşısında iyi sonuç derdik!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/09/26/karakterli-futbol",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2375,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Deschamps döneminde yıldızlarıyla parlayan Fransa Milli Takımı, 14 yılın ardından Zinedine Zidane'la farklı bir kimliğe bürüneceğini daha ilk maçında gösterdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2376,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Tüm oyuncular birbirlerine daha yakın oynuyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2377,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Orta saha ile hücum arasındaki mesafe azalıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2378,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "En önemlisi, Mbappé veya Dembélé'nin bir şeyler yaratmasını beklemek yerine, takımın kendisi pozisyon üretmeye çalışıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2379,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Her biri kendi yeteneklerini Zidane'ın oyun kurgusu içinde sergilemeye çalışırken takım oyununa da katkı verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2380,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Yüksek'in altı pastan yaptığı kafa vuruşunda top ağlara gitmiş olsa, maçın başka bir hikâyesi olabilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2381,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "O pozisyonun ardından savunmamızdaki riskli paslaşmaların sonrasında Mbappé golü attı...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2382,
+      "commentator": "turgay-demir",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper",
+        "Oğuz Aydın"
+      ],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Barış Alper, Oğuz Aydın ve Can Uzun biraz daha etkili olabilseler, amacımıza ulaşabilirdik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/09/26/mucadele-ettik-ama",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2383,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dünya Kupası'nın olumsuz izlerini silmek için çıktığımız maçta Fransa'ya karşı ilk yarıda 35 dakika çok akıllı bir futbol ortaya koyduk.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2384,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Zeki-Merih ve Abdülkerim stoper üçlümüz kusursuz hamleler yaptı ilk yarıda.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2385,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "İspanya'dan sonra dünyanın en güçlü milli takımı Fransa.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2386,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarının son bölümünde Olise'nin bir şutu vardı ki, Uğurcan Çakır, mucize ötesi bir kurtarış yaparak devre arasına gol yemeden gitmemizi sağladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2387,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aslında ilk yarının en net pozisyonunu Milli Takımımız yakaladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2388,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama Ferdi o kadar etkisiz bir kafa vuruşu yaptı ki, golden olduk.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2389,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Adeta bir geri pası niteliğindeki kafa vuruşunda top kaleci Maignan'da kaldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2390,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-09-26T06:40:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Arda'nın kullandığı bir korner vardı ki, bir anda ceza sahasında İsmail golle burun buruna geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/09/26/kaybederken-cok-sey-kazandik",
+        "published_at": "2026-09-26T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2391,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "3 tane önemli futbol ülkesi ile oynayacağız.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2392,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kendi seviyemizi test etmek açısından çok önemli maçlar oynayacağız.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2393,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dünya Kupası sonrası ilk başlangıcı kendi evimizde Zidane'lı Fransa ile yaptık.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2394,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Zeki'yi üçüncü stoper yapıp hibrit bir üçlü oluşturduk.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2395,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bunun nedeni bu kadar savunmayı kalenize yakın yerde kurduğunuzda santrfor olarak kullandığımız Barış'ın yanında oynayan Can ve Arda bu oyun anlayışı ile rakip yarı alanı ve kalesinden uzak kalıyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2396,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu alanları hızı ile geçecek oyuncu profilleri değiller.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2397,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bunu ikinci yarı için teknik heyetimizin iyi okuması gerekiyordu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2398,
+      "commentator": "reha-kapsal",
+      "date": "2026-09-26T06:50:14+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir de köşe vuruşundan İsmail ile net bir golden yararlanamadık.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/09/26/seviyenin-ustune-cikmaliyiz",
+        "published_at": "2026-09-26T06:50:14+03:00"
       },
       "image_kind": null
     }
@@ -68337,7 +69422,7 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 16,
+      "comment_count": 17,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -68378,7 +69463,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 26,
+      "comment_count": 27,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -68419,7 +69504,7 @@
     {
       "id": "oguz-aydin",
       "name": "Oğuz Aydın",
-      "comment_count": 9,
+      "comment_count": 10,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG/500px-O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -68472,6 +69557,138 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-dXV61BAyAsI",
+      "title": "Nihat Kahveci: Barcelona durmuyor! Çok formda geliyorlar. İnşallah Galatasaray maçında baskıdan...",
+      "url": "https://www.youtube.com/watch?v=dXV61BAyAsI",
+      "date": "2026-09-26T15:17:09+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-d2upSAtzwxA",
+      "title": "🔴 CANLI | Türkiye - Fransa Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Uluslar Ligi",
+      "url": "https://www.youtube.com/watch?v=d2upSAtzwxA",
+      "date": "2026-09-25T22:09:02+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-RZZv5aky9AQ",
+      "title": "Nihat Kahveci: Bu Fransa'yı şu an eleştiriyorlardır Fransa'da. Deschamps sonrası Zidane geldi...",
+      "url": "https://www.youtube.com/watch?v=RZZv5aky9AQ",
+      "date": "2026-09-25T22:03:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Eq17QIBf3Yo",
+      "title": "Nihat Kahveci: Fransa'ya yenilirsin, yeniliyorsan da böyle yenil!",
+      "url": "https://www.youtube.com/watch?v=Eq17QIBf3Yo",
+      "date": "2026-09-25T21:36:26+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-giTeBg48xms",
+      "title": "Nihat Kahveci: Biz, bu Fransa'ya karşı bence çok kötü oynamadık.",
+      "url": "https://www.youtube.com/watch?v=giTeBg48xms",
+      "date": "2026-09-25T21:16:27+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-RCa4S7pieHI",
+      "title": "Nihat Kahveci: Öyle bir rakip ki üçlü de beşli de oynasan sana en az 3 gol atabilecek bir rakip...",
+      "url": "https://www.youtube.com/watch?v=RCa4S7pieHI",
+      "date": "2026-09-25T18:57:05+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Wxm4o9To7s0",
+      "title": "🔴 CANLI | Türkiye - Fransa Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Uluslar Ligi",
+      "url": "https://www.youtube.com/watch?v=Wxm4o9To7s0",
+      "date": "2026-09-25T18:42:43+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-4h0VVd7fH_0",
+      "title": "Nihat Kahveci: Benim burada güvenebileceğim ortam, Kocaeli'deki atmosfer. Beni korkutan, Zidane'ın..",
+      "url": "https://www.youtube.com/watch?v=4h0VVd7fH_0",
+      "date": "2026-09-25T18:24:15+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-yhy7NRnhKzI",
+      "title": "Nihat Kahveci: Cristiano Ronaldo; ‘Şu an beni konuşan Nihat Kahveci...''",
+      "url": "https://www.youtube.com/watch?v=yhy7NRnhKzI",
+      "date": "2026-09-25T15:43:31+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-0J5ZfB2iAjQ",
+      "title": "Nihat Kahveci: Arda, Fransa'ya karşı 1 gol 1 asist yaparsa Mourinho'nun üstündeki baskıyı artırır.",
+      "url": "https://www.youtube.com/watch?v=0J5ZfB2iAjQ",
+      "date": "2026-09-25T13:00:08+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-KVLUcN4jFb8",
+      "title": "Nihat Kahveci: Dünya Kupası'nda, kapanan takımlara karşı etkili olamadığımızı gördük. Fransa...",
+      "url": "https://www.youtube.com/watch?v=KVLUcN4jFb8",
+      "date": "2026-09-25T11:07:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-Y9cKZA5QKQU",
       "title": "Bir kulüpte karar verici olsam Portekiz'den kimseyi almam | Serdar Ali Çelikler",
