@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:02:03.091520+00:00",
+  "generated_at": "2026-10-02T05:45:08.452851+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -224,22 +224,22 @@
       "photoURL": null
     },
     {
-      "id": "hamit-turhan",
-      "name": "Hamit Turhan",
+      "id": "gokhan-german",
+      "name": "Gökhan German",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HT",
+      "avatar": "GG",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
+      "id": "hamit-turhan",
+      "name": "Hamit Turhan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
+      "avatar": "HT",
       "focusTeams": [
         "Genel"
       ],
@@ -67713,33 +67713,6 @@
       "image_kind": null
     },
     {
-      "id": 2506,
-      "commentator": "hakki-yalcin",
-      "date": "2026-09-30T06:40:52+03:00",
-      "team": null,
-      "players": [],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Fransa karşısında tek gollü yenilgiyi gurur saymakla, 4 gol yedikten sonra İtalya karşısında topa sahip olmakla övünmek de bir şey kazandırmaz, maçları kaybettikten sonra dövünmek de!",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/30/neyi-tartisalim",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "hakki-yalcin",
-        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/30/neyi-tartisalim",
-        "published_at": "2026-09-30T06:40:52+03:00"
-      },
-      "image_kind": null
-    },
-    {
       "id": 2507,
       "commentator": "hakki-yalcin",
       "date": "2026-09-30T06:40:52+03:00",
@@ -69901,6 +69874,114 @@
         "speaker_id": "ersin-ramoglu",
         "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/10/01/bordo-mavi-isyan",
         "published_at": "2026-10-01T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2587,
+      "commentator": "gokhan-german",
+      "date": "2026-10-02T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Anadolu Efes’in kaybı bir maçtan daha fazla oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+        "published_at": "2026-10-02T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2588,
+      "commentator": "gokhan-german",
+      "date": "2026-10-02T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Mike James üzerine kurulan bir kadro, James’in performansının direkt olarak takım performansını belirleyecek bir düzen.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+        "published_at": "2026-10-02T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2589,
+      "commentator": "gokhan-german",
+      "date": "2026-10-02T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kızıl Yıldız evinde oynadığı ilk iki maçı kaybetmişti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+        "published_at": "2026-10-02T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2590,
+      "commentator": "gokhan-german",
+      "date": "2026-10-02T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu maçta da son bölümde o ana kadar hiç oynamayan Yusta’nın arka arkaya yaptığı iki top kaybı da yenilgide faktör oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/hem-maci-hem-jamesi-kaybettik-2639576",
+        "published_at": "2026-10-02T06:59:00+03:00"
       },
       "image_kind": null
     }

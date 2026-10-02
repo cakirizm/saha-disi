@@ -2311,5 +2311,33 @@
     },
     "image_kind": null,
     "review_reason": "reported_speech_not_own_words"
+  },
+  {
+    "id": 2506,
+    "commentator": "hakki-yalcin",
+    "date": "2026-09-30T06:40:52+03:00",
+    "team": null,
+    "players": [],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "summary": "Fransa karşısında tek gollü yenilgiyi gurur saymakla, 4 gol yedikten sonra İtalya karşısında topa sahip olmakla övünmek de bir şey kazandırmaz, maçları kaybettikten sonra dövünmek de!",
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/09/30/neyi-tartisalim",
+    "image_url": null,
+    "confidence": 98,
+    "status": "verified_direct_quote",
+    "verbatim": true,
+    "match_id": null,
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "hakki-yalcin",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/sorgulama-6521876",
+      "published_at": "2026-09-30T06:59:10+03:00"
+    },
+    "image_kind": null,
+    "review_reason": "legacy_attribution_requires_review"
   }
 ]
