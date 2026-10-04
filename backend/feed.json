@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T02:02:28.181625+00:00",
+  "generated_at": "2026-10-04T00:42:05.071664+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -46,6 +46,17 @@
       "photoURL": null
     },
     {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "serkan-akcan",
       "name": "Serkan Akcan",
       "role": "Futbol yorumcusu / muhabir",
@@ -64,17 +75,6 @@
       "avatar": "LT",
       "focusTeams": [
         "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
-      "focusTeams": [
-        "Genel"
       ],
       "photoURL": null
     },
@@ -191,6 +191,17 @@
       "photoURL": null
     },
     {
+      "id": "gokhan-german",
+      "name": "Gökhan German",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "olcay-cakir",
       "name": "Olcay Çakır",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -218,17 +229,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
       "focusTeams": [
         "Genel"
       ],
@@ -70008,7 +70008,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70035,7 +70035,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70062,7 +70062,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70089,7 +70089,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70116,7 +70116,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70143,7 +70143,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70170,7 +70170,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70197,7 +70197,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/03/montella-tek-kelimeyle-dagilmis",
-        "published_at": "2026-10-03T02:01:42+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70224,7 +70224,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70251,7 +70251,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70278,7 +70278,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70305,7 +70305,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70332,7 +70332,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70359,7 +70359,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70386,7 +70386,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70413,7 +70413,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/03/arrivederci-vincenzo-montella",
-        "published_at": "2026-10-03T02:11:33+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70440,7 +70440,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70467,7 +70467,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70494,7 +70494,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70524,7 +70524,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70551,7 +70551,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70578,7 +70578,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70605,7 +70605,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70632,7 +70632,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/03/karakter-sozle-olmaz-sahada-gosterilir",
-        "published_at": "2026-10-03T02:02:24+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70659,7 +70659,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70686,7 +70686,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70716,7 +70716,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70743,7 +70743,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70770,7 +70770,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70797,7 +70797,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70824,7 +70824,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70851,7 +70851,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/03/yalniz-adam",
-        "published_at": "2026-10-03T00:53:18+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70878,7 +70878,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70905,7 +70905,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70932,7 +70932,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70959,7 +70959,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -70986,7 +70986,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -71013,7 +71013,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -71040,7 +71040,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
       },
       "image_kind": null
     },
@@ -71067,7 +71067,876 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/03/bir-inat-ugruna",
-        "published_at": "2026-10-03T00:46:32+03:00"
+        "published_at": "2026-10-03T06:41:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2631,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ülke futbolunda söz sahibi olanların yüksek kabulü ile göreve getirilen MHK'nın karakola düşmesinin yarattığı şaşkınlık...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2632,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üzerine, ilk iki maçı kaybetmiş olmanın getirdiği tedirginlik...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2633,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Arda Güler'e bağlı hücum girişimlerinde arayış içinde görünseler de iş icraya gelince fazlasıyla şaşkın ve düzensizdi Milli Takım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2634,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Tersine yenilen ilk gol, bileşik hataların zincirin halkaları gibi birbirini takip etmesi sonucu geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2635,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Arda'nın yön verdiği hücumlarda üst üste tehlike yarattılarsa da sanki Diğer işleri yaparız ama gol atamayız der gibiydiler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2636,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ülkede kale, stoper, orta saha gibi mevkiilerde yığılma varken, sağ bek ve santrfor gibi mevkilerde ya bir ya hiç oyuncu oluşu Uluslar Ligi A Kategorisi için kabul edilebilir eksikler değildir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/pek-yakinda-2639706",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2637,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üst üste gelen üç yenilgi, futbol kamuoyunda moralleri bozarken, bütün oklar İtalyan teknik adam Vincenzo Montella'ya çevrildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2638,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Montella ise her maç sonrası aynı mesajı veriyor: \"Görevimin başındayım, devam edeceğim.\" Ama futbol sadece söylenenlerden ibaret değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2639,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Montella, Milli Takım'ın başındayken de farklı ülkelerden teklifler aldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2640,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Montella'nın kulüp takımı çalıştırma isteğinin, Milli Takım'daki görevinden daha fazla olduğu artık futbol kamuoyunda yüksek sesle konuşuluyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2641,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kulüp takımı demek her gün sahada olmak, oyuncularla bire bir çalışmak, antrenman yapmak ve takım üzerinde sürekli hâkimiyet kurmak demek.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2642,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli Takım'da şimdi cevabı beklenen soru tam olarak bu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2643,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-04T00:48:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ligler ertelenebilir\", \"Süper Lig durabilir\" senaryoları, talep gördükçe ısıtılıp yeniden servis ediliyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/04/montella-birakabilir",
+        "published_at": "2026-10-04T00:48:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2644,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Belçika deplasmanımızda düdük çalan isim Norveçli Rohit Saggi’ydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2645,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ev sahibinin erken gelen skor avantajıyla atmosferin ve ikili mücadele temposunun bir hayli düştüğü gecede, Saggi’yi zorlayacak bir saha içi pozisyonu oluşmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2646,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Rohit Saggi son derece konforlu bir maç çıkarırken, hakem kararları üzerinden okunacak bir müsabaka izlemedik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2647,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Saha içinde hakem adına tek kritik an 6.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2648,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Belçika’nın penaltı beklediği bu pozisyonda hakemin devam kararı bence bir hataydı; zira pozisyon penaltıyı barındırıyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2649,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Potansiyele yakışmayan tabloMaçın başında Saggi genel olarak kart standardını gevşek tutsa da ilerleyen dakikalarda doğru kart kararlarına imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 2650,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçın ilk bölümünde Ferdi Kadıoğlu’nu çeken Belçikalı oyuncuya ve Barış Alper Yılmaz’a basan Hans Vanaken’e sarı kartların es geçilmesi olumsuzdu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2651,
+      "commentator": "deniz-coban",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem performansını bir kenara bırakırsak; Uluslar A Ligi’nde 3’te 0 çekmiş olmak hepimizin yüreğini sızlatıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/tek-hatasi-penalti-2639700",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2652,
+      "commentator": "gokhan-german",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk iki maçta 144 ile en az sayı yiyen takım olan Fenerbahçe, dün de Dubai gibi hücum potansiyeli yüksek bir takımı 66 sayıda tutmayı başardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2653,
+      "commentator": "gokhan-german",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Son 5 dakikaya 61-61 berabere girildikten sonra konsantrasyonunu artıran Kanarya, hücumda Shields, Key ve Bingham’ın skorer oyunuyla 15-5’lik seri yakalayıp evindeki 3.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2654,
+      "commentator": "gokhan-german",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Baldwin özellikle ilk yarıda skor yükünü sırtlarken kritik anlarda Keys ve Shields sahne aldı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/fenerbahce-yine-duvar-ordu-2639704",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2655,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Uluslar Ligi'nde ilk iki maçta kaybederek, moralsiz çıktığımız Belçika karşılaşmasından hem puan hem de moral almak istiyorduk...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2656,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gol atamıyoruz, bari gol yemeyelim taktiği ilk 45'te işledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2657,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Arda Güler bu nefis ortaları Real Madrid'de yapıyor, sonuç geliyor ama Milli Takım'da geri dönüş alamıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2658,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarıya baktığımızda en az rakip kadar, belki de daha fazla ceza alanına girmişiz, ancak gol yok.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2659,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İşte bu tabloya bakarak Montella'nın sadece sağdan soldan ceza alanına kavisli sert ortaların yanına çizgiye inip dışarı ortalarla da gol aramayı denetmesi gerekli.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2660,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Açıkcası ilk yarıda negatif bakmak haksızlık olur, ancak gol yükünü sadece Arda'dan beklemek de yetersizliğimizi gösterdi...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2661,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kolay değildiİkinci yarı Montella, Barış Alper'i alıp Yunus'u oyuna soktu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2662,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Topu daha yere indirerek, forveti kısalttı ve bu taktikle de çok etkili bir 15 dakika oynadık.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/biz-haric-2639707",
+        "published_at": "2026-10-03T06:59:00+03:00"
       },
       "image_kind": null
     }
@@ -75694,7 +76563,7 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 23,
+      "comment_count": 25,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
