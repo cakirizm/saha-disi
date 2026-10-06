@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:25:23.885698+00:00",
+  "generated_at": "2026-10-06T17:15:03.152452+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -198,6 +198,13 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/EvrenTurhan.jpg/960px-EvrenTurhan.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoSource": "https://tr.wikipedia.org/wiki/Evren_Turhan",
       "resolvedTitle": "Evren Turhan",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "burak-ozdemir": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/Burak_%C3%96zdemir_(sanat%C3%A7%C4%B1)",
+      "resolvedTitle": "Burak Özdemir (sanatçı)",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
