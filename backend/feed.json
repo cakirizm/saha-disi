@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T16:17:33.667210+00:00",
+  "generated_at": "2026-10-09T21:01:47.146523+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -75888,12 +75888,12 @@
       "away": "Kasımpaşa",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 3,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "kickoff": "2026-10-09T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-07-genclerbirligi-amed-sk",
@@ -79819,6 +79819,58 @@
   ],
   "publications": [
     {
+      "id": "youtube-sCrxOg7JtRE",
+      "title": "🔴 CANLI | Galatasaray - Kasımpaşa Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=sCrxOg7JtRE",
+      "date": "2026-10-09T20:54:46+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-6A1HuPIbBUg",
+      "title": "Nihat Kahveci: Batrakov daha çok şut atmalı ama neler yapabileceğini düşündüğümde, Galatasaray'ın...",
+      "url": "https://www.youtube.com/watch?v=6A1HuPIbBUg",
+      "date": "2026-10-09T20:22:16+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Batrakov"
+      ]
+    },
+    {
+      "id": "youtube-V8voOacCzo0",
+      "title": "Nihat Kahveci: Barış Alper Yılmaz'ın belki yeniden doğma maçı olabilir bu.",
+      "url": "https://www.youtube.com/watch?v=V8voOacCzo0",
+      "date": "2026-10-09T20:00:22+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Barış Alper"
+      ]
+    },
+    {
+      "id": "youtube-mX_A46gDv8I",
+      "title": "Nihat Kahveci: Galatasaray çok mu iyi oynadı, kazanabilecek futbolu oynadı.",
+      "url": "https://www.youtube.com/watch?v=mX_A46gDv8I",
+      "date": "2026-10-09T19:45:35+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
       "id": "youtube-I4CV2o_jwbE",
       "title": "🚨💣 OLISE ALL IN! HAALAND: FUTURE, REAL, BARÇA AND CITY ANSWER! €100M RELEASE CLAUSE! MADRID: OUT?",
       "url": "https://www.youtube.com/watch?v=I4CV2o_jwbE",
@@ -79827,18 +79879,6 @@
       "platform": "YouTube",
       "commentators": [
         "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-sCrxOg7JtRE",
-      "title": "🔴 CANLI | Galatasaray - Kasımpaşa Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
-      "url": "https://www.youtube.com/watch?v=sCrxOg7JtRE",
-      "date": "2026-10-09T09:00:09+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     },
