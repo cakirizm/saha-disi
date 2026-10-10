@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:40:25.246566+00:00",
+  "generated_at": "2026-10-10T22:37:24.861683+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -102,17 +102,6 @@
       "photoURL": null
     },
     {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -120,6 +109,17 @@
       "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -169,6 +169,17 @@
       "photoURL": null
     },
     {
+      "id": "iskender-gunen",
+      "name": "İskender Günen",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "İG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "gokhan-german",
       "name": "Gökhan German",
       "role": "Futbol yorumcusu / muhabir",
@@ -185,17 +196,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "iskender-gunen",
-      "name": "İskender Günen",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "İG",
       "focusTeams": [
         "Genel"
       ],
@@ -77565,6 +77565,448 @@
         "published_at": "2026-10-10T17:44:31+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2869,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Franculino iyi mesajlar verdi Galatasaray maçından sonra zorlu geçmesi beklenen Samsunspor maçı ilk 45 dakikada sonuçlandı desek yanlış bir yorum olmaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2870,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sahaya adeta net bir plan dahilinde ve yüksek öz güvenle çıkan Trabzonspor, oyunun başından itibaren temposunu rakibine kabul ettiren taraftı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2871,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Topa daha fazla sahip olan, dönen tüm sahipsiz topları alan ve Samsunspor'u kendi alanına hapseden bir Trabzonspor izledik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2872,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": "Samsunspor",
+      "players": [
+        "Muçi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Önce Muçi, ardından Salah ile yoklanan Samsunspor kalesini Mustafa'nın sol kanattan müthiş bireysel gayreti ve adrese teslim pasıyla Muçi açtı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2873,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Ardından kaleci Okan'ın yaptığı büyük hata, Nwaiwu ile gelen 2.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2874,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": "Samsunspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "gol ve yine Samsunspor'un savunmasının büyük hatası ve Salah'ın asistinde Franculino ile skor 3'e geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2875,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Franculino, genç yaşına rağmen takıma ilerleyen süreçlerde çok daha fazla katkı yapacağının mesajlarını verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2876,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-11T00:34:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Ancak ilk yarının son dakikalarında yaşanan bir detay var ki Trabzonspor gibi hedefleri büyük bir takımın profesyonelliğiyle asla bağdaşmıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/10/franculino-iyi-mesajlar-verdi",
+        "published_at": "2026-10-11T00:34:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2877,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe dün Rize deplasmanında 3 farklı bir galibiyet elde etti ama bu hiç kimseyi aldatmasın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2878,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarıda tesadüfi bir golle skor avantajı yakalandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2879,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "dakikaya kadar sergilenen futbol kesinlikle büyük hedef belirleyen bir takım için geçerli değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2880,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Oğuz gibi önemli bir oyucu varken bu kadar kötü oynayan Greenwood 80.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2881,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [
+        "Kante"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kante de eski gücünde değildi ama deneyimiyle faydalı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2882,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kerem Aktürkoğlu çok hırslı ve çalışkandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2883,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Net gol pozisyonlarında üzerine sanki bir şey çöküyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2884,
+      "commentator": "omer-urundul",
+      "date": "2026-10-11T00:32:06+03:00",
+      "team": null,
+      "players": [
+        "Asensio"
+      ],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İsmail Kartal'ın bence tek doğrusu, maç kritik giderken, rakip tehlikeler yaratırken Asensio- İrfan Can Kahveci değişikliği yapmasıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/10/3-farkli-skor-kimseyi-aldatmasin",
+        "published_at": "2026-10-11T00:32:06+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -82183,7 +82625,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 26,
+      "comment_count": 27,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG/500px-Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82212,7 +82654,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 37,
+      "comment_count": 38,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82224,7 +82666,7 @@
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 16,
+      "comment_count": 17,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82236,7 +82678,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 33,
+      "comment_count": 34,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82253,7 +82695,7 @@
     {
       "id": "muci",
       "name": "Muçi",
-      "comment_count": 12,
+      "comment_count": 13,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg/500px-Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
