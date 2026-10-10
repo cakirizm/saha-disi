@@ -702,6 +702,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-07-alanyaspor-erzurumspor",
+    "league": "Trendyol Süper Lig",
+    "week": 7,
+    "home": "Alanyaspor",
+    "away": "Erzurumspor",
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 0,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-07-galatasaray-kasmpasa",
     "league": "Trendyol Süper Lig",
     "week": 7,
@@ -728,14 +741,14 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
-    "id": "sl-2026-07-alanyaspor-erzurumspor",
+    "id": "sl-2026-07-rizespor-fenerbahce",
     "league": "Trendyol Süper Lig",
     "week": 7,
-    "home": "Alanyaspor",
-    "away": "Erzurumspor",
-    "kickoff": "10.10.2026 16:00",
-    "home_score": null,
-    "away_score": null,
+    "home": "Rizespor",
+    "away": "Fenerbahçe",
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 3,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
@@ -746,22 +759,9 @@
     "week": 7,
     "home": "Samsunspor",
     "away": "Trabzonspor",
-    "kickoff": "10.10.2026 16:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-07-rizespor-fenerbahce",
-    "league": "Trendyol Süper Lig",
-    "week": 7,
-    "home": "Rizespor",
-    "away": "Fenerbahçe",
-    "kickoff": "10.10.2026 19:00",
-    "home_score": null,
-    "away_score": null,
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 3,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"

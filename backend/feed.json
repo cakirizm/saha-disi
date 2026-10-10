@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:47:59.128020+00:00",
+  "generated_at": "2026-10-10T18:40:25.246566+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -77338,6 +77338,233 @@
         "published_at": "2026-10-10T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2861,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Milli maç arasından önce Trabzonspor maçında alınan ağır mağlubiyet taraftarın tadını kaçırmış olacak ki, Kasımpaşa maçında tribünlerde yer yer boşluklar vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2862,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Sane",
+        "Barış Alper",
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Osimhen, Lemina, Sane, İlkay ve Sallai kulübede, Leao sol, Yunus sağ kanatta, Batrakov forvet arkasında, Barış Alper Yılmaz ise sağ bek mevkisindeydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2863,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bir ara kamera Galatasaray'ın yedek kulübesini göstererek Osimhen, Sane ve İlkay'ı aynı kareye zumladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2864,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu üçlünün 37 Milyon Euro tutarındaki yıllık maaşı, Kasımpaşa'nın 42 Milyonluk toplam takım değerinin 5 Milyon altındaydı!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2865,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yani makas böylesine açıktı iki takım arasında.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2866,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Lakin, kâğıt üzerinde de olsa tedirgin edici bir kadroyla sahaya çıkmıştı Sarı-Kırmızılı takım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2867,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak hakemin başlama düdüğüyle beraber durumun hiç de öyle olmadığı, Galatasaray'ın sergilediği coşkulu ve tempolu futbolla ortaya çıktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2868,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-10T17:44:31+03:00",
+      "team": "Kasımpaşa",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Batrakov'un organizatörlüğünde sağlı sollu geliştirilen ataklarla Kasımpaşa kalesini ablukaya alan Sarı-Kırmızılı takımın ilk yarının sonuna kadar gol bulamamasının iki nedeni vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/buyuk-takim-refleksi-2640494",
+        "published_at": "2026-10-10T17:44:31+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -78209,12 +78436,12 @@
       "away": "Erzurumspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "kickoff": "2026-10-10T16:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-07-samsunspor-trabzonspor",
@@ -78224,12 +78451,12 @@
       "away": "Trabzonspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 3,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "kickoff": "2026-10-10T16:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-07-rizespor-fenerbahce",
@@ -78239,12 +78466,12 @@
       "away": "Fenerbahçe",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 3,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "kickoff": "2026-10-10T19:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-07-konyaspor-basaksehir",
@@ -81962,13 +82189,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 30,
+      "comment_count": 31,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 28,
+      "comment_count": 30,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82015,7 +82242,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 37
+      "comment_count": 38
     },
     {
       "id": "muriqi",
@@ -82044,7 +82271,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 59,
+      "comment_count": 61,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82056,7 +82283,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 32,
+      "comment_count": 34,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82109,6 +82336,21 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-a-CQ5to1hV4",
+      "title": "Nihat Kahveci: Oğuz Aydın; oyuna girdi, 7 dakikada 7 bin dakikalık Kerem Aktürkoğlu katkısı sağladı!",
+      "url": "https://www.youtube.com/watch?v=a-CQ5to1hV4",
+      "date": "2026-10-10T18:28:25+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Kerem",
+        "Oğuz Aydın"
+      ]
+    },
     {
       "id": "youtube-NFa2WuWr4n0",
       "title": "Nihat Kahveci: A Milli Takım'ın yeni hocası Fatih Tekke olmalı. Çünkü...",
