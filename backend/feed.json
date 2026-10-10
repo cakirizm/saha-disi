@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:56:30.350455+00:00",
+  "generated_at": "2026-10-10T13:47:59.128020+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -24,17 +24,6 @@
       "photoURL": null
     },
     {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "tunc-kayaci",
       "name": "Tunç Kayacı",
       "role": "Futbol yorumcusu / muhabir",
@@ -51,6 +40,17 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "SA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
@@ -102,6 +102,17 @@
       "photoURL": null
     },
     {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -122,17 +133,6 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
     },
     {
       "id": "orhan-yildirim",
@@ -169,6 +169,17 @@
       "photoURL": null
     },
     {
+      "id": "gokhan-german",
+      "name": "Gökhan German",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "emre-bol",
       "name": "Emre Bol",
       "role": "Futbol yorumcusu / muhabir",
@@ -191,26 +202,15 @@
       "photoURL": null
     },
     {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
+      "id": "burak-ozdemir",
+      "name": "Burak Özdemir",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
+      "avatar": "BÖ",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
-    },
-    {
-      "id": "ender-bilgin",
-      "name": "Ender Bilgin",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "olcay-cakir",
@@ -224,15 +224,15 @@
       "photoURL": null
     },
     {
-      "id": "burak-ozdemir",
-      "name": "Burak Özdemir",
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "BÖ",
+      "avatar": "EB",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "photoURL": null
     },
     {
       "id": "hamit-turhan",
@@ -268,22 +268,22 @@
       "photoURL": null
     },
     {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
+      "id": "arda-erol",
+      "name": "Arda Erol",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
+      "avatar": "AE",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "arda-erol",
-      "name": "Arda Erol",
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "AE",
+      "avatar": "ES",
       "focusTeams": [
         "Genel"
       ],
@@ -75073,7 +75073,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75102,7 +75102,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75129,7 +75129,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75159,7 +75159,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75186,7 +75186,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75213,7 +75213,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75242,7 +75242,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75271,7 +75271,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
-        "published_at": "2026-10-10T01:12:18+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -75301,7 +75301,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75328,7 +75328,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75357,7 +75357,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75386,7 +75386,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75413,7 +75413,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75442,7 +75442,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75472,7 +75472,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75499,7 +75499,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
-        "published_at": "2026-10-10T00:21:34+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75526,7 +75526,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
-        "published_at": "2026-10-10T00:44:31+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75553,7 +75553,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
-        "published_at": "2026-10-10T00:44:31+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75580,7 +75580,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
-        "published_at": "2026-10-10T00:44:31+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75607,7 +75607,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
-        "published_at": "2026-10-10T00:44:31+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
       },
       "image_kind": null
     },
@@ -75634,7 +75634,1708 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
-        "published_at": "2026-10-10T00:44:31+03:00"
+        "published_at": "2026-10-10T06:40:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2799,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Milli araya giderken dört gollü bir hezimet...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2800,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Üç hafta birlikte çalışamayan bir takım, ilk 11'inde 9 milli futbolcunun olduğu maç ve yol yorgunu bir kadro, kulübede olmayan cezalı bir teknik direktör ve rakip namağlup Kasımpaşa...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2801,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray için Barcelona maçı öncesinde bu 90 dakika büyük hendekti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2802,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper",
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Barış Alper Yılmaz'ın sağ bek başladığı maçta Buruk'un takımı merkezi kullanmak yerine sürekli Yunus ve Leao'yu çizgide tutunca Batrakov'u oyun içine sokamadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2803,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Üstelik Sara kötü futboluna devam ediyordu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2804,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Buna rağmen bağlantıyı kuramayan Kasımpaşa'yı kendi yarı sahasında çok da fazla çıkarmadılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2805,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Maçtan önce Okan Buruk aleyhine konuşan Kerem Demirbay, Galatasaray altyapısından yetişmiş \"Beni niye gönderdiniz\" hırsıyla oynayan Ali Yavuz Kol… İlk gol Kocaeli maçında olduğu gibi Abdülkerim'den geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2806,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-10T08:33:11+03:00",
+      "team": "Kasımpaşa",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Kasımpaşa golü bulmuş, Sara kötü oynarken Batrakov kenara gelmişti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/10/buyuk-hendek-geride-kaldi",
+        "published_at": "2026-10-10T08:33:11+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2807,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Kasımpaşa",
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Barış Alper bu sezonun en iyi performansını Kasımpaşa'ya karşı sağ bekte oynayarak göstermiş olabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2808,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Barış Alper gibi antrenör dostu oyuncular her zaman göz bebeği olurlar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2809,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Milli Takım'ın santrforu, Galatasaray'ın sağ-sol forveti, bazen beki...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2810,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu tip durumlarda 'Her şeyden biraz var, hiç birisi tam değil' riski oluşuyor futbolcu için.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2811,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Dün Kasımpaşa'ya karşı sağ bekte Sallai'den daha iyi bir performans sergiledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2812,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Takım 10 kişi kalmışken sahneye çıkıp, golünü de atarak maçı kazandırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2813,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hayli ironikOsimhen'in oynamadığı dönemde Deniz ve Leao'nun sorumluluğu alabilmesi gerekirken, Galatasaray'ı Abdülkerim'in ayakta tutuyor oluşu hayli ironik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2814,
+      "commentator": "serkan-akcan",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Deniz Gül büyük bir potansiyel barındırıyor ve Osimhen'i yedeklemesi için Porto'dan alındı ama çok yetersiz bir görüntü sergiliyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/baris-geldi-2640426",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2815,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sarı-Lacivertliler, ligde sezona büyük bir hayal kırıklığı ile başlamıştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2816,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk 5 maçta Gençlerbirliği ve Beşiktaş yenilgisinin yanı sıra Gaziantep beraberliği, kısa sürede zirvenin uzağında kalınmasına neden oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2817,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak Milli aradan önceki son hafta, Fenerbahçe’ye adeta piyango vurdu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2818,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "8-0’lık Eyüp galibiyetinin yanı sıra Galatasaray ve Beşiktaş’ın mağlup olmasıyla birlikte Kanarya, araya en moralli giren takım oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2819,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Asensio"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sarı-Lacivertliler’de yüzleri güldüren tek gelişme bu sonuçlar değildi.8 maçlık virajMarco Asensio iyileşti ve Turan Tovuz ile oynanan hazırlık maçında formasına kavuştu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2820,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Çubuklu formayla henüz gol atamayan ve performansıyla beklentilerin uzağında kalan Lukaku ise Belçika Milli Takımı’ndaki formuyla dikkat çekti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2821,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sarı-Lacivertliler, 29 günde 8 resmi maça çıkacak.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2822,
+      "commentator": "arda-erol",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Deplasmanda 4 maçın 3’ünü kazanıp, 1’inde berabere kaldılar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/karadenizde-zorlu-randevu-2640437",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2823,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Birçok oyuncusunu Milli Takımlara gönderen Galatasaray, sahasında Kasımpaşa'yı konuk etti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2824,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray'ın Kocaelispor maçından sonra Kasımpaşa karşısında da pozisyonları bitirememe hastalığı nüksetti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2825,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "SKOR YANILTMASINGalatasaray belki maçı 3-1 kazandı, ancak bitiricilik sorunu yine baş gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2826,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Okan Buruk'un öğrencileri maçı çok daha erken koparacak pozisyonlara girdiler, ancak yine son vuruşlarda yetersiz kaldılar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2827,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "10 kişi kaldıktan sonra takımın ve tribünlerin verdiği reaksiyon ise görülmeye değerdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2828,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takımın bitiricilik dışında geriye dönüşlerinde de hala sıkıntı var.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2829,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Güzel olan şeylerden biri de takımın 10 kişi kaldığında bile fiziksel olarak geriye düşmemiş olmasıdır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2830,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "İnatla her maç daha kötü oynamaya devam ediyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/galatasarayin-en-buyuk-sorunu-2640422",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2831,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli aranın ardından Türk futbolu, yeşil sahaların ötesinde adeta bir fırtınanın ortasına uyandı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2832,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Son haftalarda yaşananlar, sıradan bir krizin çok ötesinde: Milli Takımı’n aldığı olumsuz sonuçların yarattığı moral bozukluğu, Merkez Hakem Kurulu Başkanı ile bir hakemin ve eski bir MHK üyesinin tutuklanmasıyla birleşince futbol iklimimiz derin bir kaosun içine sürüklendi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2833,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Böylesine ağır, kasvetli ve baskı altında bir ortamda düdük çalmak, sahaya çıkıp 90 dakika boyunca adaleti dağıtmaya çalışmak şüphesiz her hakemin harcı değildir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2834,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İşte bu yüzden, kaostan çıkışın açılış maçına Halil Umut Meler gibi tecrübeli ve üst seviye bir ismin atanması oldukça isabetli ve doğru bir yaklaşımdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2835,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Kırmızı doğru kararHakemin saha içi performansına baktığımızda Meler, çok kritik kararlara imza attı; doğruları yanlışlarından fazlaydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 2836,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçın öne çıkan kritik anlarını incelediğimizde; Maçın henüz başında sarı kart gören Leao’nun 27.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2837,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "dakikada Winck’e yaptığı müdahalede ikinci sarı kart beklentileri oluştu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2838,
+      "commentator": "deniz-coban",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak pozisyon süzüldüğünde, ikinci sarı kartı gerektirecek bir ihlal yoktu, hakem yanılmadı.14.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/meler-tecrubesini-gosterdi-2640424",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2839,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Beşiktaş’tan harika bir deplasman galibiyeti daha geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2840,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İstanbul’da Valencia ile Barcelona’ya mağlup olan Siyah-Beyazlılar, Maccabi’den sonra Baskonia’yı da yenip ikinci deplasman zaferine imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 2841,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Keyifli bir maç, keyifli bir galibiyet oldu Beşikaş için.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2842,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Maça çok iyi başlayıp, isabetli dış şutlarla 28-18 öne geçen Kartal, 2.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2843,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İspanyol ekibi bir devrede 29 kez çizgiye giderek bir Euroleague rekoru kırdı, tabii ki hakemlerin de yardımıyla.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2844,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Dotson gerçek bir lider gibi takımı yönettiAma moralini bozmayan Beşiktaş, mükemmel bir deplasman maçı oynadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2845,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dotson gerçek bir lider gibi takımı yönetti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2846,
+      "commentator": "gokhan-german",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "14 sayı, 5 ribaunt ve 6 asistle takımın en verimli ismi oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/deplasman-fatihi-2640427",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2847,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şimdi eski takımına karşı özel bir sınavda!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2848,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "ancak bu maç, takımın, tribünlerin ve şehrin yeniden ayağa kalkması için büyük bir fırsat.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2849,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kadro kalitesi ve yıldızlarıyla Trabzonspor favori.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2850,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şimdi dirençli, temaslı oyunu kırmak maçın şifresi!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2851,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Psikolojisi zor maçTrabzonspor’da Salah başlı başına bir hikâye!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2852,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Kalitesi, liderliği ve oyuna ağırlığını koyma becerisiyle bu deplasmanın da kahramanı olmaya en güçlü aday.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2853,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Samsunspor yeniden başlamak, Trabzonspor ise başladığı yerden büyüyerek devam etmek istiyor!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-samsunspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/kahraman-yine-salah-olabilir-2640438",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2854,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Süper Lig, uzun bir aradan sonra RAMS Park'ta taraftara merhaba dedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2855,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "TFF istifalarla sarsıldı, MHK Başkanı ve iki hakem tutuklandı İşte böyle bir futbol ikliminde futbolculardan fazla performans beklemek, haksızlık olur.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2856,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ligin yenilgisiz tek takımı Kasımpaşa'nın, son maçında 4-0'lık bir skorla Trabzonspor karşısında hezimete uğramış Galatasaray'ı zorlaması muhtemeldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2857,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk 45 dakikada organize ataklar yapan ve rakibine pozisyon vermeyen bir Galatasaray izledik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2858,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Orta alanda yeni transfer Batrakov toplu ve topsuz oyunda başarılı bir futbol sergilerken, Deniz Gül doğru koşularıyla, mücadelesiyle gözdolduran diğer isimdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 2859,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Okan Buruk rakibinin atletizmini bildiği için maça motive bir takım sahaya sürerken, Barış Alper'i savunmanın sağında oynatması doğruydu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2860,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Belki gol bir duran toptan Abdülkerim'in kafasıyla geldi ama oynanan futbol bu skoru fazlasıyla haketti...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/futbol-adina-guzeldi-2640425",
+        "published_at": "2026-10-10T06:59:00+03:00"
       },
       "image_kind": null
     }
@@ -76493,12 +78194,12 @@
       "away": "Amed SK",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "kickoff": "2026-10-10T13:30:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-07-alanyaspor-erzurumspor",
@@ -76513,7 +78214,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "kickoff": "2026-10-10T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-07-samsunspor-trabzonspor",
@@ -76528,7 +78229,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "kickoff": "2026-10-10T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-07-rizespor-fenerbahce",
@@ -80255,19 +81956,19 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 25,
+      "comment_count": 26,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG/500px-Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 26,
+      "comment_count": 30,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 25,
+      "comment_count": 28,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -80308,13 +82009,13 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 32,
+      "comment_count": 33,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 34
+      "comment_count": 37
     },
     {
       "id": "muriqi",
@@ -80343,7 +82044,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 58,
+      "comment_count": 59,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -80408,6 +82109,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-NFa2WuWr4n0",
+      "title": "Nihat Kahveci: A Milli Takım'ın yeni hocası Fatih Tekke olmalı. Çünkü...",
+      "url": "https://www.youtube.com/watch?v=NFa2WuWr4n0",
+      "date": "2026-10-10T13:30:22+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-YUJiEfxOdXI",
+      "title": "🔴 CANLI | Rizespor - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=YUJiEfxOdXI",
+      "date": "2026-10-10T09:56:20+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-Fz6DTef77WM",
       "title": "Nihat Kahveci: Rafael Leao'nun rakip ceza sahasında topla buluşma sayısı 3, bunu 11 yaptığın...",
