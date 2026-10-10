@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:01:47.146523+00:00",
+  "generated_at": "2026-10-10T00:56:30.350455+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -113,17 +113,6 @@
       "photoURL": null
     },
     {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "ahmet-cakar",
       "name": "Ahmet Çakar",
       "role": "Yorumcu / Yazar",
@@ -133,6 +122,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
     },
     {
       "id": "orhan-yildirim",
@@ -75047,6 +75047,596 @@
         "published_at": "2026-10-09T06:50:14+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2778,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Torreira"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Koskoca Galatasaray, 90 dakika tek kale oynuyor, rakip ilk baskıda Torreira'yı attırıyor, ardından da beraberlik golünü buluyor ama 10 kişilik G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2779,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saray, son dakikada Barış Alper Yılmaz ile sadece maçı değil birçok şeyi kurtarıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2780,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Aslında ilk yarıya baktığımızda çok iyi bir Galatasaray vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2781,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": null,
+      "players": [
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Leao sol kanatta çok etkiliydi, Batrakov da tüm kritik pasların adamı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2782,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama gol ilk yarının sonunda Abdülkerim ile duran bir toptan geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2783,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İkinci yarı yine Galatasaray rahat başladı ta ki ilk baskıyı yiyene kadar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2784,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": "Kasımpaşa",
+      "players": [
+        "Torreira"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Bir hata, Torreira son adamdan oyundan atıldı, hemen ardından da Kasımpaşa Abdülkerim'in, hemen yanındaki adama rahatlıkla vurdurmasıyla beraberliği yakaladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2785,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-10T01:12:18+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu dakikadan sonra Osimhen oyuna girdi, aslında galibiyet golünü o atabilirdi ama gecenin yıldızı Yunan kaleci yine kurtardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-galatasaray-kasmpasa",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/10/kirmizi-vara-kalmamaliydi",
+        "published_at": "2026-10-10T01:12:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 2786,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Korkunun ecele faydası yok Osimhen, Lemina, Sane gibi yıldızların kulübede oturduğu ilk yarıda G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2787,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saray, Kasımpaşa'ya karşı ciddi bir üstünlük kurdu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2788,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle Deniz ve Leao girdikleri pozisyonda kalecinin üzerine şut atmak yerine üst ağlara doğru vursalar G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2789,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Olması gerekenler kaçtı, 45'te Batrakov'un mühendis biçimi ortasını Abdülkerim gol yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2790,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bazen aşırı güven kişiye ve takıma zarar verir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2791,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [
+        "Torreira"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "dakikada Torreira, topu uzaklaştırmayı düşünmeyip aşırtma ile önüne almak isteyince rakibe faul yaptı ve kırmızı gördü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2792,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": null,
+      "players": [
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Okan hocanın anında Batrakov ve Leao'yu çıkartıp Lemina-Eren'i oyuna alması takıma \"Beyler 10 kişi kaldık iyi savunma yapalım ve skoru koruyalım\" anlayışındaydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2793,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-10T00:21:34+03:00",
+      "team": "Kasımpaşa",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Okan hocanın bu gereksiz hamlesi Kasımpaşa'nın golü bulmasına sebep oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/10/korkunun-ecele-faydasi-yok",
+        "published_at": "2026-10-10T00:21:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2794,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-10T00:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Montella kötü işler yapmadı 20 Eylül 2023 tarihinde bu sayfalarda Montella'nın A Milli Takım'ın başına geçeceği haberini ilk yazan isimdim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+        "published_at": "2026-10-10T00:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2795,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-10T00:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu şartlarda Montella'nın görevine devam etmesi ne TFF yönetimi ne de futbolseverler açısından doğru olurdu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+        "published_at": "2026-10-10T00:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2796,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-10T00:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak futbolun doğasında bu tür kararlar var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+        "published_at": "2026-10-10T00:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2797,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-10T00:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bana göre Milli Takım'ın yoluna yine yabancı, kariyerli ve uluslararası tecrübeye sahip bir teknik adamla devam etmesi gerekiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+        "published_at": "2026-10-10T00:44:31+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2798,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-10T00:44:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli Takım için şimdi yeni bir başlangıç zamanı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/10/montella-kotu-isler-yapmadi",
+        "published_at": "2026-10-10T00:44:31+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -79671,13 +80261,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 25,
+      "comment_count": 26,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 22,
+      "comment_count": 25,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -79724,7 +80314,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 31
+      "comment_count": 34
     },
     {
       "id": "muriqi",
@@ -79753,7 +80343,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 56,
+      "comment_count": 58,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -79765,7 +80355,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 31,
+      "comment_count": 32,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -79795,7 +80385,7 @@
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 11,
+      "comment_count": 14,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lucas_Torreira_2019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -79818,6 +80408,20 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-Fz6DTef77WM",
+      "title": "Nihat Kahveci: Rafael Leao'nun rakip ceza sahasında topla buluşma sayısı 3, bunu 11 yaptığın...",
+      "url": "https://www.youtube.com/watch?v=Fz6DTef77WM",
+      "date": "2026-10-09T21:05:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Leao"
+      ]
+    },
     {
       "id": "youtube-sCrxOg7JtRE",
       "title": "🔴 CANLI | Galatasaray - Kasımpaşa Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
