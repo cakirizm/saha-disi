@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T22:37:24.861683+00:00",
+  "generated_at": "2026-10-11T01:57:50.602698+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -78007,6 +78007,225 @@
         "published_at": "2026-10-11T00:32:06+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 2885,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kısa yol ustası Üç puana katık ettiği güzellikleri parmakla gösterilecek kadardı ama büyük takım olmanın şartı bu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2886,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Ama 'kötü futbol önden gidiyorsa, gerçekler de ardından gelir ve bir takımın başına ne gelirse oynamadan kazanırım duygusundan gelir' gerçeğini de unutmayacaksın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2887,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe adına Rize'de felaket bir ilk yarı izledim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2888,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Attığı golün dışında futbol adına hiçbir şekilde yoktu da yorumlamam gerekirse; \"bu takım kaybettiği 2 maçın kötü bir taklidi\" dedim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2889,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takımın amortismanı gibi duranlar vardı, sahte koşular.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2890,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rakip kale önünde yaptırım gücü yüksek bir anlayış hakim olamadığı içindir ki, sıradan bir takım havası.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2891,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": null,
+      "players": [
+        "Greenwood",
+        "Asensio"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Greenwood ve Asensio denince akla gelen ince işçilik de askıya alınmıştı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 2892,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-10T22:31:23+03:00",
+      "team": "Eyüpspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Eyüpspor maçında oyunu okumaktan bahseden İsmail Kartal'ın oyun kurgusuna bakınca, bu kadar ürkek ve içe kapanık anlayışa karşılık, üstelik rakip arı gibi çalışırken bir şaşırtmaca gerekir diye düşündüm.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/11/kisa-yol-ustasi",
+        "published_at": "2026-10-10T22:31:23+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -82625,7 +82844,7 @@
     {
       "id": "asensio",
       "name": "Asensio",
-      "comment_count": 27,
+      "comment_count": 28,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG/500px-Marco_Asensio_10_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -82654,7 +82873,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 38,
+      "comment_count": 39,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
