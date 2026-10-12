@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:36:48.454046+00:00",
+  "generated_at": "2026-10-12T07:26:15.880625+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -90,6 +90,18 @@
       "photoURL": null
     },
     {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -101,14 +113,13 @@
       "photoURL": null
     },
     {
-      "id": "turgay-demir",
-      "name": "Turgay Demir",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "TD",
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
       "focusTeams": [
-        "Beşiktaş",
-        "Genel"
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -122,17 +133,6 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
     },
     {
       "id": "orhan-yildirim",
@@ -246,22 +246,22 @@
       "photoURL": null
     },
     {
-      "id": "reha-kapsal",
-      "name": "Reha Kapsal",
+      "id": "serkan-yetismisoglu",
+      "name": "Serkan Yetişmişoğlu",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "RK",
+      "avatar": "SY",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "serkan-yetismisoglu",
-      "name": "Serkan Yetişmişoğlu",
+      "id": "reha-kapsal",
+      "name": "Reha Kapsal",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SY",
+      "avatar": "RK",
       "focusTeams": [
         "Genel"
       ],
@@ -290,6 +290,17 @@
       "photoURL": null
     },
     {
+      "id": "songul-soysal",
+      "name": "Songül Soysal",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "yunus-emre-sel",
       "name": "Yunus Emre Sel",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -297,17 +308,6 @@
       "avatar": "YES",
       "focusTeams": [
         "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "songul-soysal",
-      "name": "Songül Soysal",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SS",
-      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -80784,7 +80784,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80811,7 +80811,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80838,7 +80838,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80865,7 +80865,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80892,7 +80892,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80919,7 +80919,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80946,7 +80946,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -80973,7 +80973,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/12/yalnizca-bir-galibiyet-degil",
-        "published_at": "2026-10-12T01:07:54+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81000,7 +81000,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81027,7 +81027,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81054,7 +81054,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81081,7 +81081,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81108,7 +81108,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81135,7 +81135,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81162,7 +81162,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -81189,7 +81189,1982 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/12/ders-alinacak-mac",
-        "published_at": "2026-10-12T01:07:29+03:00"
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3001,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli takım arası 20 gün olunca her takım ritmini kaybetti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3002,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu arada sakat olan Orkun'un ve sakatlanan Vlahovic'in dün maça 11'de başlaması önemliydi… Galatasaray deplasmanında kaybederken de Kocaelispor şunu göstermişti; bu rakibi yiyebilirsiniz ama dişiniz kırılır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3003,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tribünlerle beraber iyi de başladı Beşiktaş.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3004,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Pas trafiğini kurarken de cepheden çektiğin bir şutta köşeye vurup, açıyı genişletip, kaleciyi gafil avladığında da… Orkun böyle bir adam işte.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3005,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Nübel'in hatasında Selçuk İnan'ın takımı beraberliği buldu ama Tayfur'un amatörlüğe kaçan penaltıyı yaptırması, Kartal'a nefes verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3006,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Trossard"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trossard da milli ara sonrası kendini bulmaya çalışıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3007,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Cerny"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Cerny'nin sakatlığı İtaliano'nun takımı için büyük handikap olur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3008,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "İkinci yarıda Orkun başta olmak üzere milli mesaiden dönen oyuncuların yorgunluklarının ortaya çıkacağı kesindi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/12/geometri-muhim",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3009,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Beklendiği gibi Kocaeli’nin ceza sahası önü ve içine gömüleceği, bu durumda Beşiktaş’ın daha çok pas yapacağı dolayısıyla baskı kabiliyetinin ev sahibinde olacağı bir maç olacaktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3010,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Cerny"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Vaclav Cerny’nin yaptırdığı golde onun yapabileceklerine çalışıldığına çeşitli maçlarda şahit olmuştuk.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3011,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Orkun Kökçü"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kimi gol oldu kimi olmadı ama doğru çalışılan tekrarların ‘mermeri deleceğine’ bir kez daha şahit olduk Orkun Kökçü golünde.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3012,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ancak kalecileri Alexander Nübel’in kurtarışının ardından biraz da o pozisyonun yarattığı sorun nedeniyle gelen Kocaeli golü maçı dengeye getirir gibi olduysa da Beşiktaş baskısı yoğundu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3013,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Baskı kuran Beşiktaş’tı ama düzenli oynayarak fırsat kollayan da haklı olarak yine Kocaeli’ydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3014,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş’ın ilk 11’nin piyasa değeri 143 milyon Euro iken savunmasının merkezindeki Matej Maglica’nın yokluğunda Kocaeli 11’in piyasa değeri sadece 14 milyondu!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3015,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Cerny"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Zor da olsa kazandıOrta sahası çalıştıysa da ön alan yaratıcılığı, biraz da Cerny’nin yokluğunda düşük kaldı Beşiktaş’ın.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3016,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fabio Miretti çalışkan, Salih Özcan gayretkeş, Orkun skor katkılıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kritik-viraja-giriyorlar-2640620",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3017,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ardından Selçuk İnan, yıldız oyuncu ile konuşup ilgi gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3018,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli araya, Amed yenilgisiyle giren Beşiktaş, Kocaeli galibiyeti ile kendine geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3019,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sakatlıktan çıkan; Orkun ve Vlahovic skoru belirleyen ayaklar oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3020,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Orta alan yettiKartal’ın orta sahası gününde olunca, rakip kim olursa olsun sıkıntı çekmiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3021,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Trossard",
+        "Cerny"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Salih, oyunda kaldığı süre içinde; Cerny, genç İlhan, Miretti, Trossard çok iyi mücadele ettiler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3022,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Yenilen golde, Nübel gözüne gelen topun kurbanı oldu!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3023,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Körfez ekibi ligde üst sıralarda yer almanın, tesadüf olmadığını gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3024,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Skora bakmaksızın son ana kadar puan mücadelesi yaptı",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/futbol-boyle-guzel-2640621",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3025,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sorunlar var Beşiktaş'ın milli aradan sonra Süper Lig'e Kocaelispor karşısında galibiyetle başlaması tabelada çok kıymetli.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3026,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maçın sonlarında Vlahovic'in tokatla düşürülmesi ve verilmeyen penaltı, bu sezon Beşiktaş aleyhine alınan kararlara bir yenisini ekledi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3027,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sahada ise sert savunma yapan Kocaeli'ye karşı skor üretmekte zorlanan bir takım izledik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3028,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Siyah-beyazlılar maça Orkun'un golüyle hızlı giriş yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3029,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Nitekim Kocaeli, Show'un golüyle skoru eşitledi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3030,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Savunmada yaşanan tereddütler, Beşiktaş'ın hâlâ mesafe alması gereken alanları gösterdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3031,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Korner organizasyonunda Tayfur'un, Djalo'yu düşürmesiyle kazanılan penaltıda Vlahovic hata yapmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3032,
+      "commentator": "fatih-dogan",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sırp forvet, yalnızca gol atmadı, takımının zorlandığı anda sorumluluk aldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/10/12/sorunlar-var",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3033,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üç puanın değeri Beşiktaş, milli aranın ardından evinde Kocaelispor'u ağırlıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3034,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rakiplerinin de kayıpsız geçtiği haftada, Beşiktaş'ın özellikle Trabzonspor maçı öncesinde bu karşılaşmadan üç puanla ayrılması şart.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3035,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş'ta sadece Olaitan yerine Miretti tercihi dışında, diğer 10 futbolcu ideal 11'de görmeye alıştığımız oyuncular.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3036,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Orkun Kökçü"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Kaptan Orkun Kökçü, harika bir şutla topu ağlara yolladı ve Beşiktaş'ı 1-0 öne geçirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3037,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Golden sonra Beşiktaş farkı açabilirdi ancak Nübel'in hatasıyla skor 1-1 oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3038,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ardından kazanılan penaltıda Vlahovic'in golüyle Beşiktaş erken cevap verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3039,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tayfur, oyuncunun zıplamasını engelliyor ve uzun süre çekiyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3040,
+      "commentator": "sinan-vardar",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İkinci yarıda, ilk yarıya göre gol pozisyonu olmasa da iki takım da tehlikeli ataklarla birbirlerinin kalelerini yokladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/10/12/uc-puanin-degeri",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3041,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gomez sonrasında hasret kalmıştık, sırtı dönük oynayabilen bir santrfora… Çok şükür, artık Vlahovic var!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3042,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bir de penaltı atışı var ki… Ceylan gibi süzüldükten sonra topu köşeye bırakıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3043,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Özlemişiz, çok özlemişiz böyle bir pivot santrforu… Beşiktaş iyi takım ama hâlâ bütün parçalar birleşmiş değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3044,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İşte o bölümlerde rakiplere pozisyon veriliyor, hatta kalede gol görülüyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3045,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Kocaelispor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kocaelispor karşısında da benzer şeyler yaşandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3046,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beşiktaş sazı eline aldığında kolayca pozisyon üretti, gollerini attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3047,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçların son bölümlerini rakibinin umutlarını tüketmiş, sonucu tartışmaya kapatmış bir takım olarak oynamalı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3048,
+      "commentator": "turgay-demir",
+      "date": "2026-10-12T06:40:49+03:00",
+      "team": null,
+      "players": [
+        "Trossard"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Dün ikinci yarıda İlhan Fakılı'nın direkten dönen topu ve Trossard'ın iki vuruşu dışında ciddi bir pozisyon yaşanmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-07-besiktas-kocaelispor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/10/12/mario-vlahovic",
+        "published_at": "2026-10-12T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3049,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem Buğra Taşkınsoy, müsabakanın gidişatını doğrudan etkileyen son derece kritik kararlara imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3050,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maç genelinde süzmekte zorlandığı birkaç sarı kart pozisyonu bir yana; gecenin asıl büyük eksikleri es geçilen net bir kırmızı kart ve verilmeyen iki penaltıydı.29.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3051,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Dakika: Hakem, bu dakikadaki penaltı pozisyonunu VAR’a sığınmadan, sahada doğrudan tespit ederek alkışı hak eden doğru bir karara imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3052,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tayfur bu hamlesiyle hücum oyuncusunun topla adil bir şekilde oynamasını açıkça engelledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3053,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemin penaltı kararıyla birlikte çıkarttığı sarı kart da doğruydu.48.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3054,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dakika: İlk yarıdaki pozisyona benzer şekilde, Beşiktaş kalecisi Nübel, rakibi Metehan’ın topla oynama imkânını, ayağından çift elle çekerek engelledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3055,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oyuncunun hareketini kısıtlayan bu hamle, sonraki vuruşunu sağlıklı yapmasını engelledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3056,
+      "commentator": "deniz-coban",
+      "date": "2026-10-12T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Üstelik topla oynama niyeti taşımayan bu müdahaleyle bariz gol şansı engellendiği için, penaltı kararıyla birlikte Nübel’e mutlaka kırmızı kart çıkmalıydı.81.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/gidisati-etkileyen-cok-karar-verdi-2640618",
+        "published_at": "2026-10-12T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3057,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dört takımın rekabetçi göründüğü bir seansta gelen bu sonuç, hafta sonunun geri kalanı için önemli bir işaretti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3058,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Norris sekizinci sıraya gerilerken Piastri yarışı puan alamadan tamamladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3059,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üstelik burada mesele yalnızca kaybedilen puanlar değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3060,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonluk mücadelesinin giderek kızıştığı bir dönemde, aynı takımın iki pilotunun birbirleriyle yaşadığı bu temas kaçınılmaz olarak soru işaretleri yaratıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3061,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takımının strateji mesajlarını alamadığı anlarda alternatik yöntemler denenirken bu kez devreye bir yandan da Verstappen tecrübesi gird.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3062,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ayrıca Red Bull'un yeniden yükselişe geçtiği bir dönemde gelen bu zafer, takımın sezonun geri kalanı için iddiasını da güçlendirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3063,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Verstappen ve Leclerc'in arkasında kaldı ancak kendi şampiyonluk mücadelesi açısından son derece önemli puanlar topladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3064,
+      "commentator": "songul-soysal",
+      "date": "2026-10-12T09:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Russell ile arasındaki şampiyona farkını 102 puana çıkardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/2026-singapur-gp-verstappen-yarim-kalan-hesabi-kapadi-yagmur-ve-kaos-2640608",
+        "published_at": "2026-10-12T09:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3065,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sakat olan Lincoln, Halil Akbunar ve Soner Aydoğdu gibi 3 as oyuncusundan birden yoksun başlayan Timsah'ta; teknik direktör Mustafa Er, ön libero Lewis Baker'ı bu sezon ilk kez 11'de oynattı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3066,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "forvet olarak koyup 4-4-2 başladı yeşil-beyazlılar...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3067,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sağdan Saranic, soldan Boutrah ile forveti dörtleyen Bursaspor, ilk 20 dakika cılız şutlar dışında Nijeryalı golcüyü besleyemedi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3068,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak kalesinin önüne 'otobüsü çeken' Mardin, 1-0'ı korumak için 9 kişiyle defans yaptı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3069,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kanatlardan sıfıra inen ve sürekli kaleyi şut bombardımanına tutan yeşil-beyazlılar, çerçeveyi bulmakta zorlandı!81'de Gol Kralı Iheanacho yine sahne aldı ve ceza sahası dışından sihirli sol ayağıyla attığı nefis golle Timsah'a beraberliği getirdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3070,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Nijeryalı Kral, üstü üste 9 maçta 12 gol attı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3071,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "87'de hakem, Mustafa Er, kırmızı kartla oyundan attı!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3072,
+      "commentator": "serkan-yetismisoglu",
+      "date": "2026-10-12T06:50:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarı tek kale oynayan Bursas, 90+4'te ani atakta Dimitrov'un golüne engel olamayınca liderin 3 puan gerisinde kalarak evinde ilk kez yenildi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-yetismisoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan-yetismisoglu/2026/10/12/timsahin-kalesi-dustu",
+        "published_at": "2026-10-12T06:50:12+03:00"
       },
       "image_kind": null
     }
@@ -85828,7 +87803,7 @@
     {
       "id": "cerny",
       "name": "Cerny",
-      "comment_count": 31
+      "comment_count": 35
     },
     {
       "id": "gabriel-sara",
@@ -85892,7 +87867,7 @@
     {
       "id": "orkun-kokcu",
       "name": "Orkun Kökçü",
-      "comment_count": 7,
+      "comment_count": 9,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg/500px-Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -85946,13 +87921,13 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 29,
+      "comment_count": 32,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 44,
+      "comment_count": 50,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -85964,6 +87939,70 @@
   ],
   "publications": [
     {
+      "id": "youtube-sxVUFAQLWAs",
+      "title": "🔴 CANLI | Beşiktaş - Kocaelispor Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=sxVUFAQLWAs",
+      "date": "2026-10-11T20:31:22+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Z95hJdCKx9o",
+      "title": "Nihat Kahveci: Vincenzo Italiano, iyi hoca. Başarısız olsa da iyi hoca.",
+      "url": "https://www.youtube.com/watch?v=Z95hJdCKx9o",
+      "date": "2026-10-11T20:01:02+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-R5SWOdT6RaQ",
+      "title": "Nihat Kahveci: Ben, bu tarz orta sahaları seviyorum. Ön tarafı arıyor. 12 top kaybet ama bana...",
+      "url": "https://www.youtube.com/watch?v=R5SWOdT6RaQ",
+      "date": "2026-10-11T19:19:07+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-9guSnwfdr8E",
+      "title": "Nihat Kahveci: Vlahovic, Trossard, Salih Özcan; Orkun Kökçü'den rol aldı ve artık Orkun daha....",
+      "url": "https://www.youtube.com/watch?v=9guSnwfdr8E",
+      "date": "2026-10-11T18:54:48+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Vlahovic",
+        "Trossard",
+        "Orkun Kökçü"
+      ]
+    },
+    {
+      "id": "youtube-AK3dDVaSS6c",
+      "title": "Nihat Kahveci: Beşiktaş'ın bu maçı kazanması, çok önemliydi. Maç; 2-2 de bitebilirdi ama Beşiktaş...",
+      "url": "https://www.youtube.com/watch?v=AK3dDVaSS6c",
+      "date": "2026-10-11T18:33:33+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
       "id": "youtube-2FK5kWe9BdA",
       "title": "Büyüleyici Saint-Tropez, Caner Eler ile Yelken 101, Arkas Sailing Team | Pupa Yelkenin İzinde #01",
       "url": "https://www.youtube.com/watch?v=2FK5kWe9BdA",
@@ -85972,18 +88011,6 @@
       "platform": "YouTube",
       "commentators": [
         "caner-eler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-sxVUFAQLWAs",
-      "title": "🔴 CANLI | Beşiktaş - Kocaelispor Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
-      "url": "https://www.youtube.com/watch?v=sxVUFAQLWAs",
-      "date": "2026-10-11T10:00:01+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     },
