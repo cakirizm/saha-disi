@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:46:29.141142+00:00",
+  "generated_at": "2026-10-13T07:47:04.953099+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -205,6 +205,20 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "photoSource": "https://tr.wikipedia.org/wiki/Burak_%C3%96zdemir_(sanat%C3%A7%C4%B1)",
       "resolvedTitle": "Burak Özdemir (sanatçı)",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "olcay-cakir": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Olcay_%C3%87ak%C4%B1r_Turgut",
+      "resolvedTitle": "Olcay Çakır Turgut",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "abdullah-ercan": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg/960px-Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/Abdullah_Ercan",
+      "resolvedTitle": "Abdullah Ercan",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
