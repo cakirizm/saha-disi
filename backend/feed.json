@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:47:35.117178+00:00",
+  "generated_at": "2026-10-14T23:57:44.876390+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -18,6 +18,17 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "MÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
@@ -46,17 +57,6 @@
       "photoURL": null
     },
     {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "cem-dizdar",
       "name": "Cem Dizdar",
       "role": "Futbol yorumcusu",
@@ -79,17 +79,6 @@
       "photoURL": null
     },
     {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -97,6 +86,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -85432,6 +85432,417 @@
         "published_at": "2026-10-13T08:38:58+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3156,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu yaşta arka arkaya maça çıkması elbette normal değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3157,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Yine de bugüne kadar oynadığı karşılaşmalarda çok iyi bir kesici olan İsmail'in belki de kariyerinin en kötü maçını oynamasına hiç gerek yoktu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3158,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": null,
+      "players": [
+        "Skriniar",
+        "Guendouzi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk gol kornerden Guendouzi'nin uzaklaştıramadığı, Skriniar'a çarpıp giden top.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3159,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "İkinci golde Vedat'ın tembel topu ve İsmail'in uyumasıyla kaptırılan top… Ardından yine İsmail'in bireysel top kaybı… Orta sahada kalabalık bir kadrosu olmasına rağmen Fenerbahçe'nin, Şampiyonlar Ligi seviyesinde yetenekli ayak eksikliği çektiği kesin.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3160,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood",
+        "Oğuz Aydın"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ayağına her top geldiğinde ıslıklanan Greenwood'un da bundan etkilenip oyuna hiç girememesiyle birlikte Fenerbahçe'nin hücumdaki bir şeyler yapmaya çalışan tek adamı Oğuz Aydın kaldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3161,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bahçe, ikinci devrede fark büyürken ikili mücadelelerden daha çok rakibin gölgesini kovalayan futbolcularla sahadaydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3162,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-15T01:26:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şimdi haftanın hakemleri açıklanır, kimse de bu maçları hatırlamaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
+        "published_at": "2026-10-15T01:26:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3163,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "18 yıl sonra Şampiyonlar Ligi'ne kalan Fenerbahçe'nin Aston Villa maçına yeteri kadar önem vermediğini gördüm.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3164,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Oysa UEFA'nın düzenlediği en prestijli futbol turnuvası değil mi Şampiyonlar Ligi!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3165,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe, dünkü Aston Villa maçında daha yürekli, daha ateşli futbol oynamalıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3166,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kafamda deli sorular derler ya, dünkü maçın ilk yarısında kalemizde gördüğümüz üç gol ve yaşadığımız büyük hayal kırıklığını anlatamam!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3167,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bu sezon Premier Lig'de başarısız sonuçlar alan Aston Villa'nın ve hocası Unai Emery'nin Şampiyonlar Ligi'ni ne kadar fazla ciddiye aldığını gördük!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3168,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hele bu maç, Şampiyonlar Ligi maçıysa ateşlere basarak koşan, topu ısıran, gözlerden alevler fışkıran takım ruhu ile sahaya çıkarsınız!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3169,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": "Alanyaspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aston Villa maçından önce Alanyaspor maçını düşünmek bana doğru gelmiyor!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3170,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T00:53:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aston Villa maçını kazansanız, tüm Avrupa sizi konuşur!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
+        "published_at": "2026-10-15T00:53:54+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -90079,13 +90490,13 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 40,
+      "comment_count": 41,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 21,
+      "comment_count": 22,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -90144,7 +90555,7 @@
     {
       "id": "oguz-aydin",
       "name": "Oğuz Aydın",
-      "comment_count": 10,
+      "comment_count": 11,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG/500px-O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -90168,7 +90579,7 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
