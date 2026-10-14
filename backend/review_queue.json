@@ -1,5 +1,32 @@
 [
   {
+    "candidate_id": "ecb8e07ad5a5a03116ad",
+    "commentator": "levent-tuzemen",
+    "summary_candidate": "Barça takımını analiz ederken 8 oyuncunun İspanyol ekiplerinin alt yapısından geldiğini vurguladı.",
+    "team": null,
+    "players": [
+      "Leao"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "A Spor",
+    "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/14/cabuk-kirildi",
+    "image_url": null,
+    "confidence": 100,
+    "direct_quote": true,
+    "published_at": "2026-10-14T01:04:08+03:00",
+    "discovered_at": "2026-10-14T01:15:16.035513+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "levent-tuzemen",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/14/cabuk-kirildi",
+      "published_at": "2026-10-14T01:04:08+03:00"
+    }
+  },
+  {
     "candidate_id": "39fb6874270c59a45739",
     "commentator": "orhan-yildirim",
     "summary_candidate": "Maçın başında öne geçmeyi bir anlamda galibiyetin anahtarı olarak görüyor.",
@@ -19,7 +46,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-20T06:59:00+03:00",
-    "discovered_at": "2026-10-13T21:18:44.782922+00:00",
+    "discovered_at": "2026-10-14T01:15:17.782957+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -46,7 +73,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.198672+00:00",
+    "discovered_at": "2026-10-14T01:15:16.891365+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -73,7 +100,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.199507+00:00",
+    "discovered_at": "2026-10-14T01:15:16.892113+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -100,7 +127,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.200252+00:00",
+    "discovered_at": "2026-10-14T01:15:16.892767+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -127,7 +154,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.201087+00:00",
+    "discovered_at": "2026-10-14T01:15:16.893803+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -154,7 +181,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.201866+00:00",
+    "discovered_at": "2026-10-14T01:15:16.894670+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -181,7 +208,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.202871+00:00",
+    "discovered_at": "2026-10-14T01:15:16.895422+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -208,7 +235,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.203620+00:00",
+    "discovered_at": "2026-10-14T01:15:16.896171+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -235,7 +262,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:43.204379+00:00",
+    "discovered_at": "2026-10-14T01:15:16.896926+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -262,7 +289,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.615948+00:00",
+    "discovered_at": "2026-10-14T01:15:17.340719+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -289,7 +316,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.616917+00:00",
+    "discovered_at": "2026-10-14T01:15:17.341702+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -316,7 +343,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.617704+00:00",
+    "discovered_at": "2026-10-14T01:15:17.342434+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -343,7 +370,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.618536+00:00",
+    "discovered_at": "2026-10-14T01:15:17.343202+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -370,7 +397,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.619341+00:00",
+    "discovered_at": "2026-10-14T01:15:17.343941+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -397,7 +424,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.620149+00:00",
+    "discovered_at": "2026-10-14T01:15:17.344670+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -424,7 +451,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.620957+00:00",
+    "discovered_at": "2026-10-14T01:15:17.345408+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -451,7 +478,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-13T21:18:43.621801+00:00",
+    "discovered_at": "2026-10-14T01:15:17.347255+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -478,7 +505,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.041811+00:00",
+    "discovered_at": "2026-10-14T01:15:17.759489+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -505,7 +532,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.042492+00:00",
+    "discovered_at": "2026-10-14T01:15:17.760065+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -532,7 +559,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.043134+00:00",
+    "discovered_at": "2026-10-14T01:15:17.760646+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -559,7 +586,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.043749+00:00",
+    "discovered_at": "2026-10-14T01:15:17.761263+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -586,7 +613,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.044352+00:00",
+    "discovered_at": "2026-10-14T01:15:17.761727+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -613,7 +640,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.044954+00:00",
+    "discovered_at": "2026-10-14T01:15:17.762204+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -640,7 +667,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.045550+00:00",
+    "discovered_at": "2026-10-14T01:15:17.762658+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -667,7 +694,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-13T21:18:44.046184+00:00",
+    "discovered_at": "2026-10-14T01:15:17.763191+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -696,7 +723,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.489520+00:00",
+    "discovered_at": "2026-10-14T01:15:18.130898+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -725,7 +752,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.490183+00:00",
+    "discovered_at": "2026-10-14T01:15:18.131505+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -754,7 +781,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.490793+00:00",
+    "discovered_at": "2026-10-14T01:15:18.132119+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -783,7 +810,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.491457+00:00",
+    "discovered_at": "2026-10-14T01:15:18.132754+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -812,7 +839,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.492074+00:00",
+    "discovered_at": "2026-10-14T01:15:18.133349+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -841,7 +868,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.492722+00:00",
+    "discovered_at": "2026-10-14T01:15:18.133963+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -870,7 +897,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.493347+00:00",
+    "discovered_at": "2026-10-14T01:15:18.134546+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -899,7 +926,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-13T21:18:44.493992+00:00",
+    "discovered_at": "2026-10-14T01:15:18.135168+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -929,7 +956,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.894475+00:00",
+    "discovered_at": "2026-10-14T01:15:18.483199+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -959,7 +986,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.895260+00:00",
+    "discovered_at": "2026-10-14T01:15:18.483865+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -989,7 +1016,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.895993+00:00",
+    "discovered_at": "2026-10-14T01:15:18.484542+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1019,7 +1046,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.896838+00:00",
+    "discovered_at": "2026-10-14T01:15:18.485183+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1049,7 +1076,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.897826+00:00",
+    "discovered_at": "2026-10-14T01:15:18.485811+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1079,7 +1106,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.898667+00:00",
+    "discovered_at": "2026-10-14T01:15:18.486459+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1109,7 +1136,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.899469+00:00",
+    "discovered_at": "2026-10-14T01:15:18.487079+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1139,7 +1166,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-06T07:02:49+03:00",
-    "discovered_at": "2026-10-13T21:18:44.900287+00:00",
+    "discovered_at": "2026-10-14T01:15:18.487758+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1166,7 +1193,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.344703+00:00",
+    "discovered_at": "2026-10-14T01:15:18.869177+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1193,7 +1220,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.345646+00:00",
+    "discovered_at": "2026-10-14T01:15:18.869905+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1220,7 +1247,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.346561+00:00",
+    "discovered_at": "2026-10-14T01:15:18.870655+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1247,7 +1274,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.347680+00:00",
+    "discovered_at": "2026-10-14T01:15:18.871379+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1274,7 +1301,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.348632+00:00",
+    "discovered_at": "2026-10-14T01:15:18.872115+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1301,7 +1328,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.349544+00:00",
+    "discovered_at": "2026-10-14T01:15:18.872811+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1328,7 +1355,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.350434+00:00",
+    "discovered_at": "2026-10-14T01:15:18.873508+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1355,7 +1382,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:45.351353+00:00",
+    "discovered_at": "2026-10-14T01:15:18.874225+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1380,7 +1407,7 @@
     "confidence": 98,
     "direct_quote": true,
     "published_at": "2026-10-04T06:40:47+03:00",
-    "discovered_at": "2026-10-13T21:18:45.503546+00:00",
+    "discovered_at": "2026-10-14T01:15:18.992101+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1405,7 +1432,7 @@
     "confidence": 98,
     "direct_quote": true,
     "published_at": "2026-09-16T06:40:48+03:00",
-    "discovered_at": "2026-10-13T21:18:46.835345+00:00",
+    "discovered_at": "2026-10-14T01:15:19.141057+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1430,7 +1457,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-21T15:29:44+03:00",
-    "discovered_at": "2026-10-13T21:18:46.401777+00:00",
+    "discovered_at": "2026-10-14T01:15:19.179007+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1455,7 +1482,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T13:21:00+03:00",
-    "discovered_at": "2026-10-13T21:18:46.695623+00:00",
+    "discovered_at": "2026-10-14T01:15:19.412028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1480,7 +1507,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T13:21:00+03:00",
-    "discovered_at": "2026-10-13T21:18:46.700725+00:00",
+    "discovered_at": "2026-10-14T01:15:19.415484+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1510,7 +1537,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-01T11:57:46+03:00",
-    "discovered_at": "2026-10-13T21:18:47.472056+00:00",
+    "discovered_at": "2026-10-14T01:15:20.055281+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1539,7 +1566,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T14:38:19+03:00",
-    "discovered_at": "2026-10-13T21:18:46.493476+00:00",
+    "discovered_at": "2026-10-14T01:15:19.646069+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1568,7 +1595,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T14:38:19+03:00",
-    "discovered_at": "2026-10-13T21:18:46.497016+00:00",
+    "discovered_at": "2026-10-14T01:15:19.648911+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1597,7 +1624,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:00+03:00",
-    "discovered_at": "2026-10-13T21:18:46.915624+00:00",
+    "discovered_at": "2026-10-14T01:15:20.070367+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1622,7 +1649,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-30T06:59:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.073596+00:00",
+    "discovered_at": "2026-10-14T01:15:20.947087+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1650,7 +1677,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.464599+00:00",
+    "discovered_at": "2026-10-14T01:15:20.821814+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1678,7 +1705,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.465294+00:00",
+    "discovered_at": "2026-10-14T01:15:20.822454+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1706,7 +1733,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.465925+00:00",
+    "discovered_at": "2026-10-14T01:15:20.822999+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1734,7 +1761,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.466600+00:00",
+    "discovered_at": "2026-10-14T01:15:20.823554+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1762,7 +1789,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.467293+00:00",
+    "discovered_at": "2026-10-14T01:15:20.824124+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1790,7 +1817,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.467967+00:00",
+    "discovered_at": "2026-10-14T01:15:20.824688+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1818,7 +1845,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.468632+00:00",
+    "discovered_at": "2026-10-14T01:15:20.825230+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1846,7 +1873,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.469311+00:00",
+    "discovered_at": "2026-10-14T01:15:20.825755+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1871,7 +1898,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.843446+00:00",
+    "discovered_at": "2026-10-14T01:15:21.155266+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1896,7 +1923,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.844224+00:00",
+    "discovered_at": "2026-10-14T01:15:21.155956+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1921,7 +1948,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.844985+00:00",
+    "discovered_at": "2026-10-14T01:15:21.156768+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1946,7 +1973,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.845728+00:00",
+    "discovered_at": "2026-10-14T01:15:21.157421+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1971,7 +1998,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.846474+00:00",
+    "discovered_at": "2026-10-14T01:15:21.158074+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1996,7 +2023,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.847216+00:00",
+    "discovered_at": "2026-10-14T01:15:21.158717+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2021,7 +2048,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.847917+00:00",
+    "discovered_at": "2026-10-14T01:15:21.159348+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2046,7 +2073,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.848830+00:00",
+    "discovered_at": "2026-10-14T01:15:21.160012+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2071,7 +2098,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.161878+00:00",
+    "discovered_at": "2026-10-14T01:15:21.514110+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2096,7 +2123,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.162559+00:00",
+    "discovered_at": "2026-10-14T01:15:21.514739+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2121,7 +2148,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.163227+00:00",
+    "discovered_at": "2026-10-14T01:15:21.515366+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2146,7 +2173,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.163882+00:00",
+    "discovered_at": "2026-10-14T01:15:21.516015+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2171,7 +2198,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.164574+00:00",
+    "discovered_at": "2026-10-14T01:15:21.516703+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2196,7 +2223,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.165273+00:00",
+    "discovered_at": "2026-10-14T01:15:21.517330+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2221,7 +2248,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.165996+00:00",
+    "discovered_at": "2026-10-14T01:15:21.517960+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2246,7 +2273,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.166722+00:00",
+    "discovered_at": "2026-10-14T01:15:21.518600+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2271,7 +2298,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.480968+00:00",
+    "discovered_at": "2026-10-14T01:15:21.884020+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2296,7 +2323,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.481750+00:00",
+    "discovered_at": "2026-10-14T01:15:21.884904+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2321,7 +2348,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.482492+00:00",
+    "discovered_at": "2026-10-14T01:15:21.885881+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2346,7 +2373,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.483251+00:00",
+    "discovered_at": "2026-10-14T01:15:21.886989+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2371,7 +2398,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.484015+00:00",
+    "discovered_at": "2026-10-14T01:15:21.888036+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2396,7 +2423,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.484762+00:00",
+    "discovered_at": "2026-10-14T01:15:21.889226+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2421,7 +2448,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.485496+00:00",
+    "discovered_at": "2026-10-14T01:15:21.890219+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2446,7 +2473,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-01T07:00:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.486244+00:00",
+    "discovered_at": "2026-10-14T01:15:21.891314+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2474,7 +2501,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.224720+00:00",
+    "discovered_at": "2026-10-14T01:15:22.234535+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2502,7 +2529,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.225595+00:00",
+    "discovered_at": "2026-10-14T01:15:22.235359+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2530,7 +2557,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.226451+00:00",
+    "discovered_at": "2026-10-14T01:15:22.236121+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2558,7 +2585,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.227528+00:00",
+    "discovered_at": "2026-10-14T01:15:22.236843+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2586,7 +2613,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.228377+00:00",
+    "discovered_at": "2026-10-14T01:15:22.238043+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2614,7 +2641,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.229227+00:00",
+    "discovered_at": "2026-10-14T01:15:22.238908+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2642,7 +2669,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.230118+00:00",
+    "discovered_at": "2026-10-14T01:15:22.239656+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2670,7 +2697,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:50.230951+00:00",
+    "discovered_at": "2026-10-14T01:15:22.240377+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2697,7 +2724,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.673370+00:00",
+    "discovered_at": "2026-10-14T01:15:22.562656+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2724,7 +2751,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.674139+00:00",
+    "discovered_at": "2026-10-14T01:15:22.563271+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2751,7 +2778,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.674800+00:00",
+    "discovered_at": "2026-10-14T01:15:22.563967+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2778,7 +2805,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.675493+00:00",
+    "discovered_at": "2026-10-14T01:15:22.564628+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2805,7 +2832,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.676127+00:00",
+    "discovered_at": "2026-10-14T01:15:22.565259+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2832,7 +2859,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.676752+00:00",
+    "discovered_at": "2026-10-14T01:15:22.565859+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2859,7 +2886,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.677406+00:00",
+    "discovered_at": "2026-10-14T01:15:22.566499+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2886,7 +2913,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.678037+00:00",
+    "discovered_at": "2026-10-14T01:15:22.567115+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2911,7 +2938,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-13T21:18:48.623048+00:00",
+    "discovered_at": "2026-10-14T01:15:20.809370+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2936,7 +2963,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-13T21:18:48.624367+00:00",
+    "discovered_at": "2026-10-14T01:15:20.810483+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2961,7 +2988,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-13T21:18:48.625627+00:00",
+    "discovered_at": "2026-10-14T01:15:20.811658+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2986,7 +3013,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:49.015381+00:00",
+    "discovered_at": "2026-10-14T01:15:21.195586+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3011,7 +3038,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:49.018836+00:00",
+    "discovered_at": "2026-10-14T01:15:21.199158+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3036,7 +3063,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-08T06:58:36+03:00",
-    "discovered_at": "2026-10-13T21:18:49.378972+00:00",
+    "discovered_at": "2026-10-14T01:15:21.604997+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3061,7 +3088,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-13T21:18:48.669446+00:00",
+    "discovered_at": "2026-10-14T01:15:20.902558+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3086,7 +3113,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-13T21:18:48.670820+00:00",
+    "discovered_at": "2026-10-14T01:15:20.903927+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3111,7 +3138,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.468291+00:00",
+    "discovered_at": "2026-10-14T01:15:21.680292+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3136,7 +3163,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.469594+00:00",
+    "discovered_at": "2026-10-14T01:15:21.681448+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3161,7 +3188,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-15T07:00:21+03:00",
-    "discovered_at": "2026-10-13T21:18:50.328163+00:00",
+    "discovered_at": "2026-10-14T01:15:22.362747+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3186,7 +3213,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-15T07:00:21+03:00",
-    "discovered_at": "2026-10-13T21:18:50.329615+00:00",
+    "discovered_at": "2026-10-14T01:15:22.363980+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3211,7 +3238,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-08T07:00:23+03:00",
-    "discovered_at": "2026-10-13T21:18:50.699705+00:00",
+    "discovered_at": "2026-10-14T01:15:22.758267+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3236,7 +3263,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:49.548074+00:00",
+    "discovered_at": "2026-10-14T01:15:22.438222+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3261,7 +3288,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.659676+00:00",
+    "discovered_at": "2026-10-14T01:15:21.581953+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3286,7 +3313,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.660541+00:00",
+    "discovered_at": "2026-10-14T01:15:21.582702+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3311,7 +3338,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.661358+00:00",
+    "discovered_at": "2026-10-14T01:15:21.583359+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3336,7 +3363,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.662180+00:00",
+    "discovered_at": "2026-10-14T01:15:21.584017+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3361,7 +3388,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.663021+00:00",
+    "discovered_at": "2026-10-14T01:15:21.584699+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3386,7 +3413,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.663980+00:00",
+    "discovered_at": "2026-10-14T01:15:21.585345+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3411,7 +3438,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.664751+00:00",
+    "discovered_at": "2026-10-14T01:15:21.585998+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3436,7 +3463,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-13T21:18:48.665494+00:00",
+    "discovered_at": "2026-10-14T01:15:21.586628+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3463,7 +3490,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.030996+00:00",
+    "discovered_at": "2026-10-14T01:15:22.022936+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3490,7 +3517,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.031754+00:00",
+    "discovered_at": "2026-10-14T01:15:22.023757+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3517,7 +3544,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.032484+00:00",
+    "discovered_at": "2026-10-14T01:15:22.024392+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3544,7 +3571,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.033226+00:00",
+    "discovered_at": "2026-10-14T01:15:22.025048+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3571,7 +3598,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.033948+00:00",
+    "discovered_at": "2026-10-14T01:15:22.025673+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3598,7 +3625,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.034699+00:00",
+    "discovered_at": "2026-10-14T01:15:22.026316+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3625,7 +3652,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.050684+00:00",
+    "discovered_at": "2026-10-14T01:15:22.026942+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3652,7 +3679,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-13T21:18:49.051430+00:00",
+    "discovered_at": "2026-10-14T01:15:22.027565+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3677,7 +3704,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.578198+00:00",
+    "discovered_at": "2026-10-14T01:15:22.376611+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3702,7 +3729,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.578900+00:00",
+    "discovered_at": "2026-10-14T01:15:22.377241+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3727,7 +3754,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.579805+00:00",
+    "discovered_at": "2026-10-14T01:15:22.377858+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3752,7 +3779,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.580589+00:00",
+    "discovered_at": "2026-10-14T01:15:22.378513+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3777,7 +3804,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.581331+00:00",
+    "discovered_at": "2026-10-14T01:15:22.379178+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3802,7 +3829,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-13T21:18:49.582119+00:00",
+    "discovered_at": "2026-10-14T01:15:22.379829+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3827,7 +3854,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.078540+00:00",
+    "discovered_at": "2026-10-14T01:15:22.769248+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3852,7 +3879,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.079303+00:00",
+    "discovered_at": "2026-10-14T01:15:22.769994+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3877,7 +3904,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.080043+00:00",
+    "discovered_at": "2026-10-14T01:15:22.770701+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3902,7 +3929,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.080820+00:00",
+    "discovered_at": "2026-10-14T01:15:22.771430+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3927,7 +3954,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.081651+00:00",
+    "discovered_at": "2026-10-14T01:15:22.772186+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3952,7 +3979,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.082708+00:00",
+    "discovered_at": "2026-10-14T01:15:22.772896+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3977,7 +4004,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.083884+00:00",
+    "discovered_at": "2026-10-14T01:15:22.773636+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4002,7 +4029,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-13T21:18:50.084817+00:00",
+    "discovered_at": "2026-10-14T01:15:22.774355+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4030,7 +4057,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.456652+00:00",
+    "discovered_at": "2026-10-14T01:15:23.151351+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4058,7 +4085,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.457528+00:00",
+    "discovered_at": "2026-10-14T01:15:23.152087+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4086,7 +4113,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.458346+00:00",
+    "discovered_at": "2026-10-14T01:15:23.152804+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4114,7 +4141,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.459159+00:00",
+    "discovered_at": "2026-10-14T01:15:23.153529+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4142,7 +4169,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.459939+00:00",
+    "discovered_at": "2026-10-14T01:15:23.154241+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4170,7 +4197,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.460794+00:00",
+    "discovered_at": "2026-10-14T01:15:23.155013+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4198,7 +4225,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.461655+00:00",
+    "discovered_at": "2026-10-14T01:15:23.155722+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4226,7 +4253,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:50.462479+00:00",
+    "discovered_at": "2026-10-14T01:15:23.156441+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4251,7 +4278,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.891446+00:00",
+    "discovered_at": "2026-10-14T01:15:21.729571+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4276,7 +4303,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.892093+00:00",
+    "discovered_at": "2026-10-14T01:15:21.730120+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4301,7 +4328,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.892707+00:00",
+    "discovered_at": "2026-10-14T01:15:21.731146+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4326,7 +4353,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.893301+00:00",
+    "discovered_at": "2026-10-14T01:15:21.731909+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4351,7 +4378,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.893886+00:00",
+    "discovered_at": "2026-10-14T01:15:21.732639+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4376,7 +4403,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.894479+00:00",
+    "discovered_at": "2026-10-14T01:15:21.733194+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4401,7 +4428,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:48.895087+00:00",
+    "discovered_at": "2026-10-14T01:15:21.733716+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4431,7 +4458,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.805042+00:00",
+    "discovered_at": "2026-10-14T01:15:21.826464+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4461,7 +4488,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.805840+00:00",
+    "discovered_at": "2026-10-14T01:15:21.827725+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4491,7 +4518,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.806540+00:00",
+    "discovered_at": "2026-10-14T01:15:21.828870+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4521,7 +4548,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.807156+00:00",
+    "discovered_at": "2026-10-14T01:15:21.829794+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4551,7 +4578,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.807811+00:00",
+    "discovered_at": "2026-10-14T01:15:21.830746+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4581,7 +4608,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.808466+00:00",
+    "discovered_at": "2026-10-14T01:15:21.831908+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4611,7 +4638,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.809088+00:00",
+    "discovered_at": "2026-10-14T01:15:21.832844+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4641,7 +4668,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-13T21:18:48.809773+00:00",
+    "discovered_at": "2026-10-14T01:15:21.833706+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4672,7 +4699,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.186719+00:00",
+    "discovered_at": "2026-10-14T01:15:22.202649+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4703,7 +4730,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.187428+00:00",
+    "discovered_at": "2026-10-14T01:15:22.203267+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4734,7 +4761,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.188097+00:00",
+    "discovered_at": "2026-10-14T01:15:22.203936+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4765,7 +4792,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.188786+00:00",
+    "discovered_at": "2026-10-14T01:15:22.204550+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4796,7 +4823,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.189460+00:00",
+    "discovered_at": "2026-10-14T01:15:22.205147+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4827,7 +4854,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.190154+00:00",
+    "discovered_at": "2026-10-14T01:15:22.205747+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4858,7 +4885,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.190841+00:00",
+    "discovered_at": "2026-10-14T01:15:22.206356+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4889,7 +4916,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.191619+00:00",
+    "discovered_at": "2026-10-14T01:15:22.206977+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4920,7 +4947,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.559541+00:00",
+    "discovered_at": "2026-10-14T01:15:22.547863+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4951,7 +4978,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.560341+00:00",
+    "discovered_at": "2026-10-14T01:15:22.548733+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4982,7 +5009,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.561056+00:00",
+    "discovered_at": "2026-10-14T01:15:22.549429+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5013,7 +5040,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.561815+00:00",
+    "discovered_at": "2026-10-14T01:15:22.550142+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5044,7 +5071,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.562523+00:00",
+    "discovered_at": "2026-10-14T01:15:22.550801+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5075,7 +5102,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.563303+00:00",
+    "discovered_at": "2026-10-14T01:15:22.551512+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5106,7 +5133,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.564037+00:00",
+    "discovered_at": "2026-10-14T01:15:22.552202+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5137,7 +5164,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-13T21:18:49.564858+00:00",
+    "discovered_at": "2026-10-14T01:15:22.552870+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5166,7 +5193,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.955711+00:00",
+    "discovered_at": "2026-10-14T01:15:22.932876+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5195,7 +5222,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.956539+00:00",
+    "discovered_at": "2026-10-14T01:15:22.933770+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5224,7 +5251,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.957339+00:00",
+    "discovered_at": "2026-10-14T01:15:22.934479+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5253,7 +5280,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.958082+00:00",
+    "discovered_at": "2026-10-14T01:15:22.935123+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5282,7 +5309,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.958905+00:00",
+    "discovered_at": "2026-10-14T01:15:22.935787+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5311,7 +5338,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.959682+00:00",
+    "discovered_at": "2026-10-14T01:15:22.936434+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5340,7 +5367,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.960428+00:00",
+    "discovered_at": "2026-10-14T01:15:22.937071+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5369,7 +5396,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-05T07:05:04+03:00",
-    "discovered_at": "2026-10-13T21:18:49.961434+00:00",
+    "discovered_at": "2026-10-14T01:15:22.937763+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5400,7 +5427,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.308155+00:00",
+    "discovered_at": "2026-10-14T01:15:23.285605+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5431,7 +5458,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.309015+00:00",
+    "discovered_at": "2026-10-14T01:15:23.286355+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5462,7 +5489,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.309859+00:00",
+    "discovered_at": "2026-10-14T01:15:23.287326+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5493,7 +5520,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.310764+00:00",
+    "discovered_at": "2026-10-14T01:15:23.288389+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5524,7 +5551,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.311649+00:00",
+    "discovered_at": "2026-10-14T01:15:23.289188+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5555,7 +5582,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.312473+00:00",
+    "discovered_at": "2026-10-14T01:15:23.289923+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5586,7 +5613,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.313288+00:00",
+    "discovered_at": "2026-10-14T01:15:23.290672+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5617,7 +5644,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-08-30T07:01:30+03:00",
-    "discovered_at": "2026-10-13T21:18:50.314164+00:00",
+    "discovered_at": "2026-10-14T01:15:23.291428+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5644,7 +5671,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:48.861361+00:00",
+    "discovered_at": "2026-10-14T01:15:21.716428+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5671,7 +5698,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:48.862287+00:00",
+    "discovered_at": "2026-10-14T01:15:21.717290+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5698,7 +5725,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-13T21:18:48.863157+00:00",
+    "discovered_at": "2026-10-14T01:15:21.718063+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5723,7 +5750,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.233725+00:00",
+    "discovered_at": "2026-10-14T01:15:22.069022+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5748,7 +5775,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.235031+00:00",
+    "discovered_at": "2026-10-14T01:15:22.070204+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5773,7 +5800,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.236318+00:00",
+    "discovered_at": "2026-10-14T01:15:22.071336+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5798,7 +5825,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.237932+00:00",
+    "discovered_at": "2026-10-14T01:15:22.072455+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5823,7 +5850,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.239155+00:00",
+    "discovered_at": "2026-10-14T01:15:22.073570+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5848,7 +5875,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-13T21:18:49.240408+00:00",
+    "discovered_at": "2026-10-14T01:15:22.074703+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5876,7 +5903,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.723452+00:00",
+    "discovered_at": "2026-10-14T01:15:22.580246+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5904,7 +5931,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.734515+00:00",
+    "discovered_at": "2026-10-14T01:15:22.581546+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5932,7 +5959,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.736016+00:00",
+    "discovered_at": "2026-10-14T01:15:22.582771+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5960,7 +5987,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.737651+00:00",
+    "discovered_at": "2026-10-14T01:15:22.584177+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5988,7 +6015,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.740284+00:00",
+    "discovered_at": "2026-10-14T01:15:22.585453+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6016,7 +6043,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.741736+00:00",
+    "discovered_at": "2026-10-14T01:15:22.586690+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6044,7 +6071,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.743198+00:00",
+    "discovered_at": "2026-10-14T01:15:22.587942+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6072,7 +6099,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-13T21:18:49.744926+00:00",
+    "discovered_at": "2026-10-14T01:15:22.589290+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6097,7 +6124,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-13T21:18:50.115443+00:00",
+    "discovered_at": "2026-10-14T01:15:22.949561+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6122,7 +6149,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-13T21:18:50.116949+00:00",
+    "discovered_at": "2026-10-14T01:15:22.950490+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6147,7 +6174,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-13T21:18:50.117955+00:00",
+    "discovered_at": "2026-10-14T01:15:22.951428+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6172,7 +6199,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-13T21:18:50.118944+00:00",
+    "discovered_at": "2026-10-14T01:15:22.952359+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6197,7 +6224,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-13T21:18:50.119931+00:00",
+    "discovered_at": "2026-10-14T01:15:22.953290+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6222,7 +6249,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.596823+00:00",
+    "discovered_at": "2026-10-14T01:15:23.243950+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6247,7 +6274,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.598166+00:00",
+    "discovered_at": "2026-10-14T01:15:23.245110+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6272,7 +6299,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.599614+00:00",
+    "discovered_at": "2026-10-14T01:15:23.246283+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6297,7 +6324,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.600950+00:00",
+    "discovered_at": "2026-10-14T01:15:23.247441+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6322,7 +6349,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.602317+00:00",
+    "discovered_at": "2026-10-14T01:15:23.248752+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6347,7 +6374,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.603687+00:00",
+    "discovered_at": "2026-10-14T01:15:23.249929+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6372,7 +6399,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.605249+00:00",
+    "discovered_at": "2026-10-14T01:15:23.251055+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6399,7 +6426,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.758689+00:00",
+    "discovered_at": "2026-10-14T01:15:21.961409+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6426,7 +6453,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.759656+00:00",
+    "discovered_at": "2026-10-14T01:15:21.962183+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6453,7 +6480,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.760678+00:00",
+    "discovered_at": "2026-10-14T01:15:21.962990+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6480,7 +6507,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.761554+00:00",
+    "discovered_at": "2026-10-14T01:15:21.963734+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6507,7 +6534,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.762462+00:00",
+    "discovered_at": "2026-10-14T01:15:21.964535+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6534,7 +6561,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.763309+00:00",
+    "discovered_at": "2026-10-14T01:15:21.965261+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6561,7 +6588,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.764190+00:00",
+    "discovered_at": "2026-10-14T01:15:21.966148+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6588,7 +6615,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-13T21:18:48.765050+00:00",
+    "discovered_at": "2026-10-14T01:15:21.966925+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6616,7 +6643,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.258776+00:00",
+    "discovered_at": "2026-10-14T01:15:22.293974+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6644,7 +6671,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.259712+00:00",
+    "discovered_at": "2026-10-14T01:15:22.294680+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6672,7 +6699,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.260628+00:00",
+    "discovered_at": "2026-10-14T01:15:22.295376+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6700,7 +6727,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.261930+00:00",
+    "discovered_at": "2026-10-14T01:15:22.296049+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6728,7 +6755,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.262880+00:00",
+    "discovered_at": "2026-10-14T01:15:22.296738+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6756,7 +6783,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.263756+00:00",
+    "discovered_at": "2026-10-14T01:15:22.297414+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6784,7 +6811,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.264635+00:00",
+    "discovered_at": "2026-10-14T01:15:22.298079+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6812,7 +6839,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-13T21:18:49.265552+00:00",
+    "discovered_at": "2026-10-14T01:15:22.298781+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6840,7 +6867,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.756991+00:00",
+    "discovered_at": "2026-10-14T01:15:22.683260+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6868,7 +6895,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.757743+00:00",
+    "discovered_at": "2026-10-14T01:15:22.684455+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6896,7 +6923,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.758516+00:00",
+    "discovered_at": "2026-10-14T01:15:22.685186+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6924,7 +6951,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.759552+00:00",
+    "discovered_at": "2026-10-14T01:15:22.686028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6952,7 +6979,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.760307+00:00",
+    "discovered_at": "2026-10-14T01:15:22.686812+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6980,7 +7007,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.761047+00:00",
+    "discovered_at": "2026-10-14T01:15:22.687578+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7008,7 +7035,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.761785+00:00",
+    "discovered_at": "2026-10-14T01:15:22.688337+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7036,7 +7063,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-13T21:18:49.762542+00:00",
+    "discovered_at": "2026-10-14T01:15:22.689134+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7063,7 +7090,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.102348+00:00",
+    "discovered_at": "2026-10-14T01:15:23.106194+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7090,7 +7117,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.103148+00:00",
+    "discovered_at": "2026-10-14T01:15:23.106865+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7117,7 +7144,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.103924+00:00",
+    "discovered_at": "2026-10-14T01:15:23.107552+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7144,7 +7171,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.104682+00:00",
+    "discovered_at": "2026-10-14T01:15:23.108210+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7171,7 +7198,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.105488+00:00",
+    "discovered_at": "2026-10-14T01:15:23.108894+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7198,7 +7225,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.106323+00:00",
+    "discovered_at": "2026-10-14T01:15:23.109553+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7225,7 +7252,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.107133+00:00",
+    "discovered_at": "2026-10-14T01:15:23.110245+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7252,7 +7279,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-07T07:03:00+03:00",
-    "discovered_at": "2026-10-13T21:18:50.107928+00:00",
+    "discovered_at": "2026-10-14T01:15:23.110930+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7280,7 +7307,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.496635+00:00",
+    "discovered_at": "2026-10-14T01:15:23.451347+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7308,7 +7335,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.497489+00:00",
+    "discovered_at": "2026-10-14T01:15:23.452058+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7336,7 +7363,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.498389+00:00",
+    "discovered_at": "2026-10-14T01:15:23.452793+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7364,7 +7391,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.499204+00:00",
+    "discovered_at": "2026-10-14T01:15:23.453483+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7392,7 +7419,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.500026+00:00",
+    "discovered_at": "2026-10-14T01:15:23.454171+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7420,7 +7447,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.500901+00:00",
+    "discovered_at": "2026-10-14T01:15:23.454878+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7448,7 +7475,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.502061+00:00",
+    "discovered_at": "2026-10-14T01:15:23.455609+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7476,7 +7503,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-01T10:18:40+03:00",
-    "discovered_at": "2026-10-13T21:18:50.502868+00:00",
+    "discovered_at": "2026-10-14T01:15:23.456357+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
