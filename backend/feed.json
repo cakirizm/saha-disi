@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:03:36.157613+00:00",
+  "generated_at": "2026-10-14T17:17:24.189898+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -342,6 +342,17 @@
       "avatar": "OÇ",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "suat-umurhan",
+      "name": "Suat Umurhan",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "SU",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -2118,17 +2129,6 @@
       "role": "Galatasaray muhabiri / yorumcu",
       "primarySource": "Galatasaray kaynak taraması",
       "avatar": "SY",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "suat-umurhan",
-      "name": "Suat Umurhan",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "SU",
       "focusTeams": [
         "Galatasaray"
       ],
@@ -85320,6 +85320,118 @@
       },
       "image_kind": null,
       "transfer_status": "reported"
+    },
+    {
+      "id": 3152,
+      "commentator": "suat-umurhan",
+      "date": "2026-10-13T08:38:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "La Liga'da 8'de 8 ile devam ederken 34 olarak tabelaya geçen atılan gol sayısı gerçekten sükseli bir sayı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "suat-umurhan",
+        "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+        "published_at": "2026-10-13T08:38:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3153,
+      "commentator": "suat-umurhan",
+      "date": "2026-10-13T08:38:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Madrid, Chelsea ve PSG maçlarında en dikkat çeken unsur rakiplerinin hızlı hücumları.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "suat-umurhan",
+        "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+        "published_at": "2026-10-13T08:38:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3154,
+      "commentator": "suat-umurhan",
+      "date": "2026-10-13T08:38:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saray, 90 dakikanın tamamında konsantrasyonu kaybetmediği bir maçı oynamak zorunda, zaten bunun aksi düşünülemez.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "suat-umurhan",
+        "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+        "published_at": "2026-10-13T08:38:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3155,
+      "commentator": "suat-umurhan",
+      "date": "2026-10-13T08:38:58+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Sane",
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Leao-Osimhen- Sane gibi hızlı hücuma çok rahat çıkan ve teknik yükü omuzlayıp tek top atabilecek yıldızlar geçiş oyununda da Aslan'ın önünü açabilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "suat-umurhan",
+        "url": "https://www.aspor.com.tr/yazarlar/suat-umurhan/2026/10/13/hizli-gec-hep-kovala",
+        "published_at": "2026-10-13T08:38:58+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -89997,7 +90109,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 41
+      "comment_count": 42
     },
     {
       "id": "muriqi",
@@ -90026,7 +90138,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 64,
+      "comment_count": 65,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -90038,7 +90150,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 34,
+      "comment_count": 35,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -90091,6 +90203,66 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-FjBvT6Yyxls",
+      "title": "Serdar Ali Çelikler rüyama girdi, TFF başkanı olmuştu | Onur Atilla, Burak Topaloğlu | TATAVA",
+      "url": "https://www.youtube.com/watch?v=FjBvT6Yyxls",
+      "date": "2026-10-14T17:05:12+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-8IOgdaqz4EA",
+      "title": "Nihat Kahveci: İlk yarıdaki Galatasaray'ı görünce taraftarlar, 'İşte bu, takımımızla gurur...",
+      "url": "https://www.youtube.com/watch?v=8IOgdaqz4EA",
+      "date": "2026-10-14T15:10:43+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-shjEiTMwixM",
+      "title": "Nihat Kahveci: Bayern Münih'e 3 gol atmış abi Viking; ne yaptılar, o filmdekileri mi getirdiler?",
+      "url": "https://www.youtube.com/watch?v=shjEiTMwixM",
+      "date": "2026-10-14T14:12:26+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-6pU-q7GhcRk",
+      "title": "🔴CANLI | Aston Villa - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=6pU-q7GhcRk",
+      "date": "2026-10-14T11:48:19+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-qnaUdscldBw",
+      "title": "🔴 CANLI | Aston Villa - Fenerbahçe Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=qnaUdscldBw",
+      "date": "2026-10-14T11:46:28+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-kSNHCj_MVag",
       "title": "Nihat Kahveci: Rakip takımlar ve taraftarlar, yıllarca Messi korkusu yaşadı. Şimdi de Yamal abi...",
