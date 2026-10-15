@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:13:08.192649+00:00",
+  "generated_at": "2026-10-15T22:24:26.173154+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -24,6 +24,17 @@
       "photoURL": null
     },
     {
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ZU",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "tunc-kayaci",
       "name": "Tunç Kayacı",
       "role": "Futbol yorumcusu / muhabir",
@@ -40,17 +51,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "SA",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
@@ -87866,6 +87866,224 @@
         "published_at": "2026-10-15T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3245,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Trabzonspor, Finlandiya'da KuPS Kuopio'yu sentetik (suni) çimde oynanan maçta farklı yenerek Konferans Ligi'ne çok iyi bir başlangıç yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3246,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Elindeki dünya yıldızı Muhammed Salah ile maça başladığı için.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3247,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş derbisini mazeret göstererek Salah'ı saklamadığı için.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3248,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Trabzonspor'un kadro kalitesinin Konferans Ligi'nde final oynayabileceğine inandığı için.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3249,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor gibi büyük bir kulübün teknik adamına da bu vizyon yakışır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3250,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Muhammed Salah dünkü maçta 55 dakika oyunda kaldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3251,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Müthiş bir asistle galibiyet kapısını aralayan Muhammed Salah, jeneriklik bir gol de atarak klasına ve büyüklüğüne yakışanı yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3252,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-15T23:03:51+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Onuachu'nun golü attıktan sonra hemen sakatlanması büyük talihsizlik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/16/muhammed-salah-konferans-verdi",
+        "published_at": "2026-10-15T23:03:51+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -92566,7 +92784,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 24,
+      "comment_count": 25,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -92644,6 +92862,54 @@
   ],
   "publications": [
     {
+      "id": "youtube-BHeuuLl3aDg",
+      "title": "Nihat Kahveci: Sevgili arkadaşlar; ekranda gördüğünüz istatistikler, yapay zeka değil! #HyeongyuOh",
+      "url": "https://www.youtube.com/watch?v=BHeuuLl3aDg",
+      "date": "2026-10-15T22:02:10+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-smWUlGtZhXw",
+      "title": "Nihat Kahveci: Trabzonspor ve Beşiktaş camiasını kutluyorum, çok güzel bir 'Oh' çektik! İşte bu ya..",
+      "url": "https://www.youtube.com/watch?v=smWUlGtZhXw",
+      "date": "2026-10-15T21:37:08+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-JyQsTZuEZAU",
+      "title": "Yamal'ı 1'e 1 bırakıyorlar, işini yapıp yeteneğini gösteriyor | Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=JyQsTZuEZAU",
+      "date": "2026-10-15T20:15:12+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-8Hj5mj1U6cQ",
+      "title": "🔴 CANLI | Hoffenheim - Beşiktaş Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
+      "url": "https://www.youtube.com/watch?v=8Hj5mj1U6cQ",
+      "date": "2026-10-15T19:13:12+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
       "id": "youtube-aaPuYnm9MjA",
       "title": "Tartışmayı bitirme taktikleri | Ali Sunal, Serdar Ali Çelikler",
       "url": "https://www.youtube.com/watch?v=aaPuYnm9MjA",
@@ -92698,18 +92964,6 @@
       "title": "🔴CANLI | Hoffenheim - Beşiktaş Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
       "url": "https://www.youtube.com/watch?v=hj3Xar54kws",
       "date": "2026-10-15T12:19:12+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-8Hj5mj1U6cQ",
-      "title": "🔴 CANLI | Hoffenheim - Beşiktaş Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
-      "url": "https://www.youtube.com/watch?v=8Hj5mj1U6cQ",
-      "date": "2026-10-15T12:16:34+00:00",
       "source": "Kontraspor",
       "platform": "YouTube",
       "commentators": [
