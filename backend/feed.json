@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:57:44.876390+00:00",
+  "generated_at": "2026-10-15T04:47:00.323573+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -101,6 +101,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -108,17 +119,6 @@
       "avatar": "TD",
       "focusTeams": [
         "Beşiktaş",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
-      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -191,17 +191,6 @@
       "photoURL": null
     },
     {
-      "id": "iskender-gunen",
-      "name": "İskender Günen",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "İG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "olcay-cakir",
       "name": "Olcay Çakır",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -213,15 +202,15 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "id": "burak-ozdemir",
-      "name": "Burak Özdemir",
+      "id": "iskender-gunen",
+      "name": "İskender Günen",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "BÖ",
+      "avatar": "İG",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+      "photoURL": null
     },
     {
       "id": "ender-bilgin",
@@ -233,6 +222,17 @@
         "Genel"
       ],
       "photoURL": null
+    },
+    {
+      "id": "burak-ozdemir",
+      "name": "Burak Özdemir",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "hamit-turhan",
@@ -85456,7 +85456,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85483,7 +85483,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85513,7 +85513,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85540,7 +85540,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85570,7 +85570,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85597,7 +85597,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85624,7 +85624,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/15/yetenek-eksikligi",
-        "published_at": "2026-10-15T01:26:25+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85651,7 +85651,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85678,7 +85678,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85705,7 +85705,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85732,7 +85732,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85759,7 +85759,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85786,7 +85786,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85813,7 +85813,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -85840,7 +85840,988 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/15/6-ustu-sampiyonlar-ligi-oyle-mi",
-        "published_at": "2026-10-15T00:53:54+03:00"
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3171,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Vallahi billahi yenilmeyecek takım değildi Aston Villa… Lakin Oğuz hariç sahada performans veren kimse yoktu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3172,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İngiliz ekibinden daha çok pozisyona giren, gol beklentisi istatiğinde de önde olan Fenerbahçe'nin gol atamadan çuvalla gol yemesi açıklanabilir gibi değil!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3173,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ha şunu söyleyeyim; yıllardır süregelen santrfor krizi hala devam ediyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3174,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Neredeyse her maç öve öve bitiremediğimiz oyuncunun yokluğunda sadece Aston Villa değil her takım orta sahayı rahatlıkla ele geçirir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3175,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kaptırdığı 3 top Fenerbahçe kalesinde gol oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3176,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rakibe, elindeki malzemeye göre değil, kafasına göre oynatıyor Fenerbahçe'yi… Ağır mağlubiyet oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3177,
+      "commentator": "emre-bol",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Yıllar sonra Fenerbahçe'yi Şampiyonlar Ligine götürmek değil önemli olan… Önemli olan Fenerbahçe'yi rezil etmemek!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/15/iki-ismail",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3178,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Fenerbahçe, Şampiyonlar Ligi'ndeki ikinci maçında Birmingham'da hezimete uğradı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3179,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Futbolun temel noktaları var; fizik güç, mücadele, hücumu düşünürken savunma tedbirlerini bırakmamak, çok basit hatalar yapmamak ya da bunları en azda tutmak… Dün bu önemli ilkeler Fenerbahçe adına adeta sahada yok sayıldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3180,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Basit hatalarla yenen goller, bilhassa ilk yarıda rakibi hücumda tehdit ederken değerlendirilemeyen pozisyonlar bu sonucu doğurdu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3181,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe'yi farklı Rize galibiyetinden sonra eleştirmiştim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3182,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [
+        "Greenwood",
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dün de gördük ki Greenwood'un ayakta duracak hali yok, Guendouzi de eski kimliğinin çok uzağında.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3183,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bunlara bir de İsmail Yüksek eklendi… Her zaman hırslı olan ve savaşan bu futbolcuyu bugüne kadar ilk kez bu kadar etkisiz gördüm.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3184,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [
+        "Muriqi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İki santrforu kıyaslıyorum, biri net iki gol kaçırmanın dışında Vedat Muriqi sahada yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3185,
+      "commentator": "omer-urundul",
+      "date": "2026-10-15T06:40:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Günümüz futbolunda bu da büyük bir sorun.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/15/bir-tek-oguz-aydin-ayakta-kaldi",
+        "published_at": "2026-10-15T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3186,
+      "commentator": "gokhan-german",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hele ki Bayern gibi vasat bir takıma karşı...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3187,
+      "commentator": "gokhan-german",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maçı sürekli çift hanelerde geride götüren, ama 29.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3188,
+      "commentator": "gokhan-german",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bizler gibi izledi 4’te 0 üçlük atan Russell, bu seviyelerin oyuncusu değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3189,
+      "commentator": "gokhan-german",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Pablo Laso’dan bir hayal kırıklığı maç daha.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3190,
+      "commentator": "gokhan-german",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bağıra bağıra giden maç, neredeyse her hücumda yenilen kopya basketler vs...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efeste-hayat-yok-2641039",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3191,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Disiplinli ancak son dönemde hücum üretkenliği düşen bir takım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3192,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Galatasaray karşısındaki dört, Samsun deplasmanındaki üç gollü galibiyetler bu yükselişin göstergesi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3193,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Onana’nın güveni, savunmanın direnci, orta sahanın dengesi ve Salah’ın kalitesi Trabzonspor’un önemli kozları.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3194,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Üstelik Savic ve Mustafa da sakatlıkları nedeniyle götürülmemişken, Reis’ın tercihleri merak konusu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3195,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak Avrupa’da puan kaybına tahammül yok!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3196,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu yalnızca bir deplasman değil, aynı zamanda bir prestij, bir ülke puanı ve bir Türk futbolu meselesi!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3197,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Trabzonspor’un kadro kalitesi ve tarihi, bu kupada büyük hedefler koymasını gerektiriyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3198,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-15T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü Konferans Ligi kupasını Türkiye’ye getirmek, bir lig şampiyonluğu kadar, hatta uluslararası değeriyle çok daha ötesinde bir başarı olacaktır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/onemli-eksiklerle-zafer-pesinde-2641032",
+        "published_at": "2026-10-15T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3199,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Geçtiğimiz yıl Avrupa Ligi şampiyonu olmasına rağmen, yeni sezonda hala oyun kimliğini oturtamamış olmakla eleştirilen Emery'nin Aston Villa'sı beklendiği gibi güçlü ve istekli başladı maça.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3200,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Birleşik savunma hatasından yediğimiz erken ve basit gol bu seviyede yenecek gol değildi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3201,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Son haftalarda Guendouzi'de ciddi bir düşüş var.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3202,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Golden sonra daha öz güvenliydi Fenerbahçe.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3203,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Ardından İrfan-Vedat ve İsmail'in ortak hatasıyla ikinci golü gördük kalemizde.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3204,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [
+        "Kante"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "35 yaşındaki Kante'nin dinamizmini aradık ümitsizce...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3205,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Ama orta sahadaki basit top kayıpları, saçma hatalar kaderimizi belirlemeye devam etti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3206,
+      "commentator": "ender-bilgin",
+      "date": "2026-10-15T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bir başka top kaybında Nikolas Jackson skoru üçleyiverdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/10/15/annemizin-ligi",
+        "published_at": "2026-10-15T06:50:15+03:00"
       },
       "image_kind": null
     }
@@ -90490,19 +91471,19 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 41,
+      "comment_count": 42,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 22,
+      "comment_count": 24,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 17,
+      "comment_count": 18,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -90525,7 +91506,7 @@
     {
       "id": "muriqi",
       "name": "Muriqi",
-      "comment_count": 7,
+      "comment_count": 8,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg/500px-Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
