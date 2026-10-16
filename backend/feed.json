@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:31:34.400967+00:00",
+  "generated_at": "2026-10-16T17:28:46.873487+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -91817,7 +91817,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "kickoff": "2026-10-16T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-08-erzurumspor-eyupspor",
@@ -95613,6 +95613,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-X8xY7knww7c",
+      "title": "Nihat Kahveci: Arda hocaya gerçekten helal olsun!",
+      "url": "https://www.youtube.com/watch?v=X8xY7knww7c",
+      "date": "2026-10-16T17:00:36+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-fGZMP9BTbXA",
+      "title": "Nihat Kahveci: Takım olamıyoruz, takım oyununu oynayamıyoruz. Organizasyonumuz eksik.",
+      "url": "https://www.youtube.com/watch?v=fGZMP9BTbXA",
+      "date": "2026-10-16T12:30:27+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-_QmDvALTxrU",
       "title": "Nihat Kahveci: Serdal Adalı; Önder Özen tercihi, teknik direktör ve doğru transferlerle bugün...",
