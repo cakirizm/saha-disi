@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:30:09.601115+00:00",
+  "generated_at": "2026-10-17T22:23:54.362200+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -24,22 +24,22 @@
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
+      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -79,6 +79,17 @@
       "photoURL": null
     },
     {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hakki-yalcin",
       "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
@@ -97,17 +108,6 @@
       "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -92775,6 +92775,642 @@
         "published_at": "2026-09-04T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3425,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Buruk’tan öz eleştiri Galatasaray, Ankara'da kaybedebileceği bir maçta Deniz Gül sayesinde kıymetli bir 3 puan kazandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3426,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Okan Buruk'u kutluyorum çünkü maç sonu yaptığı, \"Sahayı, maç trafiğini, Şampiyonlar Ligi'ni bahane etmeden iyi konsantre olmalıydık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3427,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Okan hoca ilk kez oyuncuları da önüne katarak ciddi bir öz eleştiri yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3428,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [
+        "Torreira"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Torreira'nın ne kadar kıymetli olduğunu bir kez daha arkadaşları gördü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3429,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "2-Leao'nun sakatlanıp çıkmasından sonra Deniz Gül'ü oyuna alması çok büyük cesaretti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3430,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Kötü zeminde çift santrfora geçmek kolay bir karar değildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3431,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-17T23:28:07+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O Deniz, rakip savunmanın dengesini bozdu ve kazanılan 3 puanın da mimarı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
+        "published_at": "2026-10-17T23:28:07+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3432,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Son 3 maçında kalende 9 gol görmüşsün, son 5 karşılaşmasında 4 mağlubiyet alan G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3433,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Sane"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Akılda kalan tek pozisyon Osimhen'in şut-orta karışımı topunu Sane'nin dışarı attığı an… Ve sen her şey yolundaymış gibi ikinci yarı soyunma odasından aynı 11'le dönüyorsun.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3434,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Rakip 'Rodri- Pedri'li Barcelona orta sahası' dedik, 'sihirbaz Yamal' dedik, peki bu Ankara'daki oyunun bir açıklaması var mı Sayın Okan Buruk!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3435,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [
+        "Gabriel Sara",
+        "Osimhen",
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gabriel Sara sahada yürüyor, Mario Lemina sürekli top kaybı yapıyor, Sallai'nin takıma faydası yok, Leroy Sane istekli ama verimsiz, Osimhen ayağına gelen her topu açı fark etmeden kaleye vuruyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3436,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gençlerbirliği dün ilk ve ikinci yarıda kaçırdıklarıyla 'atamayana atarlar gerçeğiyle' yüzleşti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3437,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Başta Okan Buruk olmak üzere Deniz Gül'ün golüyle kazanmış olsalar da onlar için deniz bitti!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3438,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Batrakov'un maç boyunca müthiş mücadelesi, Uğurcan'ın kurtarışları ve İrfan Can Eğribayat'ın hatasıyla gelen galibiyet.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3439,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-18T00:56:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray üç puanı almış olabilir ama önünde Lille ve Fenerbahçe maçları varken mağluptur bu yolda galip.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
+        "published_at": "2026-10-18T00:56:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3440,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Ligi maçlarından sonra oynanan maç en zor maçtır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3441,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü Şampiyonlar Ligi'nde oynanan bir maçın yorgunluğu ve yıptarıcılığı, bizim ligimizdeki üç maça bedeldir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3442,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hele uzay takımı Barcelona ile oynadıysanız!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3443,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sürekli pas yapan bir takımın ve topun peşinden koşmak Galatasaray'ı oldukça fazla yormuştu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3444,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray aslında başkente bu tedirginlik ve yorgunlukla gitti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3445,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Uğurcan Çakır yaptığı müthiş kurtarışlarla Galatasaray'ı ayakta tuttu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3446,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Genç Batrakov, 90 dakika sahada arı gibi çalışarak Galatasaray'ın pas bağlantılarını sağladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3447,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-17T23:27:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarıda oyuna giren Deniz Gül de attığı altın golle Galatasaray'a üç puanı getiren isim oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
+        "published_at": "2026-10-17T23:27:12+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -97405,7 +98041,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 35,
+      "comment_count": 37,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -97416,7 +98052,7 @@
     {
       "id": "gabriel-sara",
       "name": "Gabriel Sara",
-      "comment_count": 1,
+      "comment_count": 2,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Gabriel_Sara_with_a_fan_%28cropped_2%29.jpg/500px-Gabriel_Sara_with_a_fan_%28cropped_2%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -97452,7 +98088,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 42
+      "comment_count": 43
     },
     {
       "id": "muriqi",
@@ -97487,7 +98123,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 65,
+      "comment_count": 67,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -97499,7 +98135,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 35,
+      "comment_count": 37,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -97529,7 +98165,7 @@
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lucas_Torreira_2019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -97552,6 +98188,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-YAqtR4MoJaM",
+      "title": "Nihat Kahveci: Futbolcu, bu kadar uzun aradan sonra futbol oynamayı özler. Mert Hakan Yandaş...",
+      "url": "https://www.youtube.com/watch?v=YAqtR4MoJaM",
+      "date": "2026-10-17T21:36:59+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-m8iZSBC1W6I",
+      "title": "🔴 CANLI | Fenerbahçe - Alanyaspor Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=m8iZSBC1W6I",
+      "date": "2026-10-17T21:13:33+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-OWAgGz_boKs",
       "title": "Nihat Kahveci: Levent, o nasıl asist? Büyüleyici bir orta, büyüleyici bir asist. Levent Mercan'a...",
@@ -97637,18 +98297,6 @@
       "platform": "YouTube",
       "commentators": [
         "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-m8iZSBC1W6I",
-      "title": "🔴 CANLI | Fenerbahçe - Alanyaspor Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
-      "url": "https://www.youtube.com/watch?v=m8iZSBC1W6I",
-      "date": "2026-10-17T08:58:13+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     },
