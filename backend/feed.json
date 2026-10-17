@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T23:41:01.458617+00:00",
+  "generated_at": "2026-10-17T04:33:55.176243+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -79,6 +79,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -107,17 +118,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "HY",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
       ],
@@ -268,22 +268,22 @@
       "photoURL": null
     },
     {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
+      "id": "arda-erol",
+      "name": "Arda Erol",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
+      "avatar": "AE",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "arda-erol",
-      "name": "Arda Erol",
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "AE",
+      "avatar": "ES",
       "focusTeams": [
         "Genel"
       ],
@@ -90860,7 +90860,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -90887,7 +90887,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -90914,7 +90914,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -90943,7 +90943,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -90970,7 +90970,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -90997,7 +90997,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -91024,7 +91024,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -91051,7 +91051,442 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/17/rakibi-kucumsemek-buyuk-hata-olur",
-        "published_at": "2026-10-17T00:43:09+03:00"
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3362,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takımı toparlayacak kişi Başkan Yıldırım 1 SORU - 1 CEVAP SORU: İngiltere'de ağır yenilgi alan F.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3363,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe'nin gidişatı zaten hiç umut vermiyordu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3364,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": "Rizespor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Son Çaykur Rizespor maçı da bunun bir göstergesiydi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3365,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O geceki maç yazısı kritiğimin başlığı 'Skor aldatmasın'dı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3366,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu, günümüz futbolunda ters gelen bir durumdu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3367,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [
+        "Greenwood",
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Greenwood ile Guendouzi bu konudaki baş aktördü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3368,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu ki oyuncunun da zaten İngiltere'deki performanslarını gördük.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3369,
+      "commentator": "omer-urundul",
+      "date": "2026-10-17T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir teknik direktör öncelikle futbolcularının durumunu iyi tanımalı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/17/takimi-toparlayacak-kisi-baskan-yildirim",
+        "published_at": "2026-10-17T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3370,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aston Villa her ne kadar liginde formsuz olsa da deplasmanda puan almanın zor olduğu bir rakip.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3371,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak 6-0’lık tarihi bir hezimet yaşanacak takım olmadığı da bir gerçek.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3372,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal’ın maç sonu açıklamaları bir kez daha gösterdi ki gerçeklerin farkında değil ya da kabullenmek istemiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3373,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Skor 3-0’ken işlerin yolunda gittiğini söylemesi, Alanya galibiyetiyle bu yenilgiyi affettireceklerini söylemesi...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3374,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": "Alanyaspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İşler iyice karışırFenerbahçe, ligde ilk 7 haftanın 3’ünde kayıp yaşadığı için Alanyaspor maçı tabi ki çok önemli.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3375,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "En fazla yaralar sarılır, takımın bozulan morali biraz olsun düzelir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3376,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal ve öğrencileri, önümüzdeki hafta Galatasaray deplasmanına gidecek.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3377,
+      "commentator": "arda-erol",
+      "date": "2026-10-17T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aksi sonuç, Fenerbahçe’de işleri iyice karıştırabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/affettirmez-yara-sarar-2641271",
+        "published_at": "2026-10-17T06:59:00+03:00"
       },
       "image_kind": null
     }
@@ -95701,13 +96136,13 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 42,
+      "comment_count": 43,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 25,
+      "comment_count": 26,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
