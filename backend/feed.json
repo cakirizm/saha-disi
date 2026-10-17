@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:46:40.127947+00:00",
+  "generated_at": "2026-10-17T17:16:33.163297+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -92630,12 +92630,12 @@
       "away": "Konyaspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "kickoff": "2026-10-17T16:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-08-genclerbirligi-galatasaray",
@@ -92645,12 +92645,12 @@
       "away": "Galatasaray",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "kickoff": "2026-10-17T16:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-08-fenerbahce-alanyaspor",
@@ -92665,7 +92665,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "kickoff": "2026-10-17T19:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-08-kasmpasa-samsunspor",
@@ -96401,6 +96401,80 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ejdK_AVKDq4",
+      "title": "Nihat Kahveci: Bugün Nhaga, Torreira da yokken oynayamaz mıydı? Bir yarım saat süre alamaz mıydı...",
+      "url": "https://www.youtube.com/watch?v=ejdK_AVKDq4",
+      "date": "2026-10-17T15:55:09+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Torreira"
+      ]
+    },
+    {
+      "id": "youtube-QXgDwV23l90",
+      "title": "Nihat Kahveci: Bu oyun, ligde yetiyor ama Şampiyonlar Ligi'nde böyle goller atamıyorsun...",
+      "url": "https://www.youtube.com/watch?v=QXgDwV23l90",
+      "date": "2026-10-17T15:40:49+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-MgFKTvcVNH4",
+      "title": "🚨💣 SCOTT JANUARY BOMBA! MAN UNITED, BALDE & BARÇA PLANS! CONTE DECISION! REAL MADRID: 4 DEALS DONE!",
+      "url": "https://www.youtube.com/watch?v=MgFKTvcVNH4",
+      "date": "2026-10-17T15:39:08+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-m8iZSBC1W6I",
+      "title": "🔴 CANLI | Fenerbahçe - Alanyaspor Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=m8iZSBC1W6I",
+      "date": "2026-10-17T08:58:13+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-yvkOY1oCBRg",
+      "title": "🔴 CANLI | Gençlerbirliği - Galatasaray Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=yvkOY1oCBRg",
+      "date": "2026-10-17T08:49:05+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-6W8PUI9Ib6Q",
+      "title": "Nihat Kahveci: Thomas Reis geldi; Galatasaray'a 4 gol, Samsunspor deplasmanında 3 gol...",
+      "url": "https://www.youtube.com/watch?v=6W8PUI9Ib6Q",
+      "date": "2026-10-17T08:41:40+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-X8xY7knww7c",
       "title": "Nihat Kahveci: Arda hocaya gerçekten helal olsun!",
