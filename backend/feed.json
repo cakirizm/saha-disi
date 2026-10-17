@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:26:26.343423+00:00",
+  "generated_at": "2026-10-17T13:46:40.127947+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -92615,12 +92615,12 @@
       "away": "Eyüpspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "kickoff": "2026-10-17T13:30:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-08-amed-sk-konyaspor",
@@ -92635,7 +92635,7 @@
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "kickoff": "2026-10-17T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-08-genclerbirligi-galatasaray",
@@ -92650,7 +92650,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "kickoff": "2026-10-17T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-08-fenerbahce-alanyaspor",
