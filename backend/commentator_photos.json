@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:49:36.830519+00:00",
+  "generated_at": "2026-10-18T23:18:05.377022+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -219,6 +219,13 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg/960px-Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "photoSource": "https://tr.wikipedia.org/wiki/Abdullah_Ercan",
       "resolvedTitle": "Abdullah Ercan",
+      "verified_identity": true,
+      "resolver": "wikipedia"
+    },
+    "ilker-yagcioglu": {
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%C4%B0lker_Ya%C4%9Fc%C4%B1o%C4%9Flu.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "photoSource": "https://tr.wikipedia.org/wiki/%C4%B0lker_Ya%C4%9Fc%C4%B1o%C4%9Flu",
+      "resolvedTitle": "İlker Yağcıoğlu",
       "verified_identity": true,
       "resolver": "wikipedia"
     }
