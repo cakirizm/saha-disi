@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:14:23.092460+00:00",
+  "generated_at": "2026-10-18T14:39:46.063588+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -96668,12 +96668,12 @@
       "away": "Samsunspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 4,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "kickoff": "2026-10-18T13:30:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-08-kocaelispor-goztepe",
@@ -96688,7 +96688,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "kickoff": "2026-10-18T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-08-basaksehir-gaziantep-fk",
@@ -100394,6 +100394,32 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ucgtTF6b7Tw",
+      "title": "Nihat Kahveci: Kerem Aktürkoğlu, kesin rahatlamıştır. Maç sonunda güldüğünü gördüm.",
+      "url": "https://www.youtube.com/watch?v=ucgtTF6b7Tw",
+      "date": "2026-10-18T14:00:08+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Kerem"
+      ]
+    },
+    {
+      "id": "youtube-dgacNVIdMsw",
+      "title": "Nihat Kahveci: Barcelona, Real Madrid'i de yenerse ligi 15 puan falan farkla şampiyon bitirir.",
+      "url": "https://www.youtube.com/watch?v=dgacNVIdMsw",
+      "date": "2026-10-18T12:32:47+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-3Tn6zp8XDPU",
       "title": "Nihat Kahveci: Batrakov, işin ofans kısmında iyi değildi.",
