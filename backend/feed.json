@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:07:31.113733+00:00",
+  "generated_at": "2026-10-18T05:58:33.469888+00:00",
   "commentators": [
     {
       "id": "murat-ozbostan",
@@ -24,17 +24,6 @@
       "photoURL": null
     },
     {
-      "id": "zeki-uzundurukan",
-      "name": "Zeki Uzundurukan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ZU",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "tunc-kayaci",
       "name": "Tunç Kayacı",
       "role": "Futbol yorumcusu / muhabir",
@@ -46,11 +35,11 @@
       "photoURL": null
     },
     {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
+      "id": "zeki-uzundurukan",
+      "name": "Zeki Uzundurukan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
+      "avatar": "ZU",
       "focusTeams": [
         "Genel"
       ],
@@ -62,6 +51,17 @@
       "role": "Futbol yorumcusu",
       "primarySource": "TRT Spor / Yazar",
       "avatar": "CD",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
       "focusTeams": [
         "Genel"
       ],
@@ -213,17 +213,6 @@
       "photoURL": null
     },
     {
-      "id": "ender-bilgin",
-      "name": "Ender Bilgin",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "burak-ozdemir",
       "name": "Burak Özdemir",
       "role": "Futbol yorumcusu / muhabir",
@@ -233,6 +222,17 @@
         "Genel"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
     },
     {
       "id": "hamit-turhan",
@@ -92799,7 +92799,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92826,7 +92826,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92853,7 +92853,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92882,7 +92882,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92911,7 +92911,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92938,7 +92938,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92965,7 +92965,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/18/buruktan-oz-elestiri",
-        "published_at": "2026-10-17T23:28:07+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -92992,7 +92992,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93022,7 +93022,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93049,7 +93049,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93080,7 +93080,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93107,7 +93107,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93134,7 +93134,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93163,7 +93163,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93190,7 +93190,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/18/magluptur-bu-yolda-galip",
-        "published_at": "2026-10-18T00:56:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93217,7 +93217,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93244,7 +93244,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93271,7 +93271,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93298,7 +93298,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93325,7 +93325,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93352,7 +93352,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93381,7 +93381,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93408,7 +93408,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/18/altin-gol",
-        "published_at": "2026-10-17T23:27:12+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93435,7 +93435,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93462,7 +93462,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93489,7 +93489,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93518,7 +93518,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93547,7 +93547,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93574,7 +93574,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93601,7 +93601,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93628,7 +93628,7 @@
         "method": "columnist_byline",
         "speaker_id": "ahmet-cakar",
         "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
-        "published_at": "2026-10-18T01:11:31+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": "verified_portrait"
     },
@@ -93655,7 +93655,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93682,7 +93682,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
@@ -93712,7 +93712,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93739,7 +93739,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93766,7 +93766,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93793,7 +93793,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93820,7 +93820,7 @@
         "method": "columnist_byline",
         "speaker_id": "emre-bol",
         "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
-        "published_at": "2026-10-17T22:35:30+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93847,7 +93847,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93874,7 +93874,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93901,7 +93901,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93928,7 +93928,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93955,7 +93955,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -93982,7 +93982,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94009,7 +94009,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94036,7 +94036,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
-        "published_at": "2026-10-18T01:03:45+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94063,7 +94063,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94090,7 +94090,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94117,7 +94117,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94144,7 +94144,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94173,7 +94173,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94200,7 +94200,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94227,7 +94227,7 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -94254,7 +94254,824 @@
         "method": "columnist_byline",
         "speaker_id": "omer-urundul",
         "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
-        "published_at": "2026-10-18T01:10:53+03:00"
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3479,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk devre, Gençlerbirliği’nin top ile oynattığı Galatasaray’ın dişe dokunur bir hücum organizasyonu yoktu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3480,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ancak yüksek ihtimalli iki, orta ihtimalli bir gol pozisyonu bulan da ev sahibi takımdı!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3481,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Öteden beri istatistik veriler içindeki “Gol Beklentisi” satırını anlamamışımdır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3482,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Büyük Şans”ta 2’ye 1 Gençlerbirliği, “Şut”ta 10’a 8 Gençlerbirliği, “Korner”de 6’ya 3 Gençlerbirliği öndeyken “Kaleci Kurtarışı”nda 3’e 2 Galatasaray üstünlüğü vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3483,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "dakikada Okan Buruk, sonuca etki edemeyeceklerine ikna olduğu üç ofansif oyuncusunu yenilediği hâlde, o anda bile “Gol Beklentisi”nde Galatasaray öndeydi!..",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3484,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Biri atacaktıİkinci devre Gençlerbirliği ilkine göre daha derli toplu görünürken oyun iyiden iyiye “git gel”e döndü.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3485,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Takım davranışı olarak Gençlerbirliği daha yakınken oyuncu kalitesi, marifet ve borçlanarak kadro derinliği yaratma avantajı Galatasaray’daydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3486,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maç biterken buna yakın bir şey oldu!..“Çok zor bir lig” diye övülen Süper Lig’in “zor maçları”ndan biri daha son anda biraz Deniz Gül gayreti, biraz İrfan Can Eğribayat katkısıyla Galatasaray lehine tamamlandı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/hangisine-inanalim-2641379",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3487,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dün gece Fenerbahçe takımını Aston Villa maçında yaya geçidine dönüşenlerin, nefsi müdafaası olarak hayal ettim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3488,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ama karşısında tamamen içe dönük bir rakip olsa da Fenerbahçe'de o heyecanı gerçek anlamda göremedim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3489,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Meselenin teknik kısmına gelirsek, Lukaku'nun fazlalıklarını atması, attığı golden daha değerli sayılmalı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3490,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": "Çorum FK",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Düşündüm de Cengiz Ünder de Greenwood kadar oynuyordu, hatta Çorum'da çok daha başarılı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3491,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Unutulmasın ki kaç sezondur bütün yanlışlıklar; transferde yolunda gideceği varsayılan etiketli yolcularla gerçekleşmiştir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3492,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-18T06:40:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Çarşamba gecesi İngiltere'de ölüp, cumartesi gecesi Saracoğlu'nda dirildiğini düşünenlerin, dün geceki maçtan sonra kendi yüreklerinden onay alması gerekir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/18/kazanan-hakli-mi",
+        "published_at": "2026-10-18T06:40:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3493,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Barcelona karşısında yüksek tempo bir maçın ardından Ankara'da bir futbol zeminiyle pek de alakası olmayan bir sahada zor bir maça çıktı Galatasaray...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3494,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Okan Buruk döneminin en kötü maçları sıralamasında ilk ikiye oynar bu maç.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3495,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Geçen sezon Alanyaspor deplasmanında ne yaşadıysa Galatasaray dün gece de benzerini yaşadı Eryaman Stadyumu'nda!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3496,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray her hafta biraz daha oyun olarak ileriye gitmesi gerekirken sürekli geriye gitmeye başladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3497,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "BU GÖRÜNTÜ HİÇ HOŞ DEĞİLDakika 88'de Deniz Gül, Galatasaray'a kritik bir üç puanı getiren golü kaydediyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3498,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oyuncunun yanına sadece Jakobs, Barış ve Eren gidiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3499,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "SANE ARTIK YETERLeroy Sane artık Galatasaray için kangrene dönmeye başladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3500,
+      "commentator": "burak-ozdemir",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu kalitede bir oyuncuda böylesi tavır ve davranışlar normal değil!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/her-mac-biraz-daha-geriye-gidiyor-2641377",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3501,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gençlerbirliği karşısında Galatasaray’ı 9 kişiyle mücadele ettirdiğin için...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3502,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Yazıktır; koskoca Galatasaray takımının, kafaca bitmiş oyuncularla şampiyonluk mücadelesi yapmak gibi bir lüksü olamaz...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3503,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tam 61 dakika bu oyuncular sahada kaldı, hiçbir katkı yapmadan.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3504,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kalan bölümde Gençlerbirliği’nin baskılı oyununa karşı dengeyi kuran Galatasaray daha organize oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3505,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle İlkay ve Batrakov orta alanı parsellerken, Deniz Gül hamlesiyle hücum gücünü de artırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3506,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Artık maç golsüz biter derken İrfan Can’ın büyük hatasıyla Galatasaray öne geçti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3507,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "BİRLİĞİ HAK ETTİ90 dakikanın futbol olarak özeti bana göre şöyle: Galibiyeti hak eden taraf Gençlerbirliği’ydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3508,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-18T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu mücadeleden rahatlıkla en az bir puan alabilirlerdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-genclerbirligi-galatasaray",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/9-kisiyle-bu-kadar-2641382",
+        "published_at": "2026-10-18T06:59:00+03:00"
       },
       "image_kind": null
     }
@@ -98887,7 +99704,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 37,
+      "comment_count": 38,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -98904,7 +99721,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 46,
+      "comment_count": 47,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -98981,7 +99798,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 37,
+      "comment_count": 38,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
