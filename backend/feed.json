@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-17T22:23:54.362200+00:00",
+  "generated_at": "2026-10-18T01:07:31.113733+00:00",
   "commentators": [
-    {
-      "id": "deniz-coban",
-      "name": "Deniz Çoban",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "DÇ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "murat-ozbostan",
       "name": "Murat Özbostan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "MÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "deniz-coban",
+      "name": "Deniz Çoban",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "DÇ",
       "focusTeams": [
         "Genel"
       ],
@@ -79,6 +79,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -101,17 +112,6 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -120,17 +120,6 @@
       "focusTeams": [
         "Beşiktaş",
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -144,6 +133,17 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
+      ],
+      "photoURL": null
     },
     {
       "id": "sinan-vardar",
@@ -180,17 +180,6 @@
       "photoURL": null
     },
     {
-      "id": "olcay-cakir",
-      "name": "Olcay Çakır",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "OÇ",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
       "id": "emre-bol",
       "name": "Emre Bol",
       "role": "Futbol yorumcusu / muhabir",
@@ -200,6 +189,17 @@
         "Genel"
       ],
       "photoURL": null
+    },
+    {
+      "id": "olcay-cakir",
+      "name": "Olcay Çakır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "iskender-gunen",
@@ -93411,6 +93411,852 @@
         "published_at": "2026-10-17T23:27:12+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3448,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aston Villa bozgunundan sonra olası bir puan kaybı çok şeyi değiştirebilirdi ama F.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3449,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bahçe bence maçın neredeyse tümünde iyi oynadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3450,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Belki tempo düşük ama sürekli kazanılan toplar, yakalanan birçok pozisyon ve bazı oyuncuların gösterdiği üstün form.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3451,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Önce şunu söyleyelim; Greenwood çok büyük emekle ve fedakârlıkla alındı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3452,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [
+        "Muriqi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Lukaku, stratejik santrfor oyununu Muriqi'ten iyi biliyor ama tabii ki atletik özellikler hala Muriqi lehine.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3453,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "G reenwood, anlamsız şekilde kötü penaltı kullanıyor, dün gece de kaçırdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3454,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İrfan Can tamamladı ama pek tabii ki vuruştan önce ceza alanına girdiği için VAR hakemi haklı olarak iptal ettirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3455,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-18T01:11:31+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Fenerbahçe'ye dün gece için düşük tempo oynadı diyebilirler ancak Alanya çok kötüydü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/18/greenwood-kotu-bir-penaltici",
+        "published_at": "2026-10-18T01:11:31+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3456,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şu Levent Mercan gibi oyuncuların hastasıyım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3457,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": "Alanyaspor",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Alanyaspor karşılaşmasının ilk yarısında gerçekten harika işlere imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3458,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Ayrıca Greenwood penaltıları çok kötü atıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3459,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İstekli, hırslı oyunu Fenerbahçe için önemli.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3460,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Bakın bir takımın yerli oyuncuları ellerini taşın altına koymazlarsa o takım kesinlikle ve kesinlikle şampiyon olamaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3461,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yerli oyuncular biraz hareketlenince Fenerbahçe daha iyi oynamaya başladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3462,
+      "commentator": "emre-bol",
+      "date": "2026-10-17T22:35:30+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Artık önemli bir Galatasaray maçının arefesindeyiz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/18/yerliler-hareketlenince",
+        "published_at": "2026-10-17T22:35:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3463,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray, Ankara'dan 3 puanla döndü ama futboluyla herkesi tam ikna edemedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3464,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "88'de Deniz Gül'ün attığı gol, galibiyeti getirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3465,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Galatasaray topa sahip oldu, rakip yarı sahaya yerleşti ama pozisyon üretmekte zorlandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3466,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Zaman zaman Uğurcan'ın kurtarışlarına ihtiyaç duyulması, maçın kolay geçmediğinin göstergesiydi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3467,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Futbol bazen 90 dakika boyunca aradığınız çözümü, bir oyuncunun tek dokunuşunda önünüze koyar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3468,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Elbette şampiyonluk yarışı yalnızca güzel futbolla kazanılmıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3469,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Zor deplasmanlarda kötü oynarken de üç puanı alabilmek büyük takımların önemli özelliklerinden biri.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3470,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-18T01:03:45+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Galatasaray bunu başardı ancak bu galibiyet, Avrupa'daki sorunları unutturacak bir performans değildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/18/once-kazanmak-onemliydi",
+        "published_at": "2026-10-18T01:03:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3471,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Ligi'ndeki ağır yenilgi sonrası Fenerbahçeli futbolcuların bu maça hırslı çıkacakları beklenen bir gerçekti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3472,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarının tamamı Fenerbahçe'nin üstünlüğü altında geçti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3473,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Penaltının dışında da kaçan pozisyonlar var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3474,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İkinci yarıda Fenerbahçe aynı şekilde başladı ama 55'ten sonra durgunluk dönemi gündeme geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3475,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kısa süre sonra da Kerem ikinci golü atınca gece kurtulmuş oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3476,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sonrasında Vedat'la üçüncü gol de geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3477,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Üç golle, üç puan kazanıldı ama yine de Fenerbahçe hem oyun planı olarak, hem fizik gücü olarak önündeki iki zorlu maça oldukça sıkıntılı gidecek.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3478,
+      "commentator": "omer-urundul",
+      "date": "2026-10-18T01:10:53+03:00",
+      "team": "Alanyaspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir örnek vereyim; Alanyaspor'un ikinci yarıda kaçırdığı iki çok net pozisyon var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-fenerbahce-alanyaspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/18/takimin-en-ciddi-ismi-kante",
+        "published_at": "2026-10-18T01:10:53+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -98058,7 +98904,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 44,
+      "comment_count": 46,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -98082,7 +98928,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 39,
+      "comment_count": 40,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -98093,7 +98939,7 @@
     {
       "id": "muriqi",
       "name": "Muriqi",
-      "comment_count": 8,
+      "comment_count": 9,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg/500px-Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
