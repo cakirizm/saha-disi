@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:45:11.966220+00:00",
+  "generated_at": "2026-10-20T17:14:28.878490+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -228,6 +228,13 @@
       "resolvedTitle": "İlker Yağcıoğlu",
       "verified_identity": true,
       "resolver": "wikipedia"
+    },
+    "ibrahim-yildiz": {
+      "photoURL": "https://yt3.ggpht.com/IGGl8K4gWvry1xnjXFkXhyt-veer09PbsQOkfMTHL7r_xLjH_CeG5UkzAEwcnTjgC6GvCBoA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "photoSource": "https://www.youtube.com/channel/UC9OeFKRyy_lX8CbFBWt6b4A",
+      "resolvedTitle": "Ibrahim Yıldız ",
+      "verified_identity": true,
+      "resolver": "youtube_exact_channel"
     }
   }
 }
