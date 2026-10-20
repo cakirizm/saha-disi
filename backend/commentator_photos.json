@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T20:41:00.697639+00:00",
+  "generated_at": "2026-10-20T23:57:06.468324+00:00",
   "photos": {
     "guntekin-onay": {
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/G%C3%BCntekin_Onay_2021.png/500px-G%C3%BCntekin_Onay_2021.png?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -235,6 +235,13 @@
       "resolvedTitle": "Ibrahim Yıldız ",
       "verified_identity": true,
       "resolver": "youtube_exact_channel"
+    },
+    "senol-gunes": {
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%C5%9Eenol_G%C3%BCne%C5%9F_Stadyumu_-_Medical_Park_Arena.jpg/960px-%C5%9Eenol_G%C3%BCne%C5%9F_Stadyumu_-_Medical_Park_Arena.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "photoSource": "https://tr.wikipedia.org/wiki/%C5%9Eenol_G%C3%BCne%C5%9F_Spor_Kompleksi",
+      "resolvedTitle": "Şenol Güneş Spor Kompleksi",
+      "verified_identity": true,
+      "resolver": "wikipedia"
     }
   }
 }

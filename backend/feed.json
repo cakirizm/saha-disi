@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-10-20T20:41:04.282146+00:00",
+  "generated_at": "2026-10-20T23:57:10.433036+00:00",
   "commentators": [
-    {
-      "id": "deniz-coban",
-      "name": "Deniz Çoban",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "DÇ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "murat-ozbostan",
       "name": "Murat Özbostan",
@@ -24,11 +13,11 @@
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
+      "id": "deniz-coban",
+      "name": "Deniz Çoban",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
+      "avatar": "DÇ",
       "focusTeams": [
         "Genel"
       ],
@@ -40,6 +29,17 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "ZU",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -90,13 +79,13 @@
       "photoURL": null
     },
     {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
       "focusTeams": [
-        "Genel"
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -108,6 +97,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -2600,7 +2600,7 @@
         "Beşiktaş",
         "Trabzonspor"
       ],
-      "photoURL": null
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/%C5%9Eenol_G%C3%BCne%C5%9F_Stadyumu_-_Medical_Park_Arena.jpg/960px-%C5%9Eenol_G%C3%BCne%C5%9F_Stadyumu_-_Medical_Park_Arena.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ],
   "statements": [
@@ -99688,6 +99688,882 @@
         "published_at": "2026-10-20T06:59:00+03:00"
       },
       "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3686,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bahçe Stadı'na gelenler maça iki tulumbayı mideye indirerek başlayan bir takım gördüler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3687,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Önce Oğuz'un nefis golü, ardından Greenwood'un güzel golü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3688,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "dakikada 'farka gider' havası vardı maçta.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3689,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Bahçe sezonun en iyi futbolunu Avrupa'nın Barcelona ile birlikte en formda takımı Roma'ya karşı oynamış, galibiyetin kenarından dönmüştü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3690,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Aston Villa deplasmanındaki ağır mağlubiyet bir tarafta, ligde son 4 maçta kalesini gole kapatıp 14 gol atan bir F.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3691,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [
+        "Greenwood",
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kartal'ın, İrfan'ı dinlendirip Greenwood'u Vedat'ın arkasına koyması, Lukaku'yu dinlendirmesi, Kerem'i ilk 11'de başlatması bütün bunların hepsi pazartesi günkü derbinin 11'ine hazırlıktı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3692,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "O iki tulumba tatlısının üzerine Ederson-Guendouzi'nin oyun kurarken fahiş hatası ortamı ekşitti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3693,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-21T00:49:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Çeklerin bireysel hatadan golle maçın içinde kalması, ikinci yarıda F.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/21/2-tulumba-ve-sonrasi",
+        "published_at": "2026-10-21T00:49:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3694,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sergen Yalçın’a fırsat Milli Takım’a destek!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3695,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sergen Yalçın'ın A Milli Takım'ın başına geçmesi, hiç şüphesiz sürpriz bir gelişme.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3696,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Türk futbolunun önemli isimlerinden biri olan Sergen Yalçın, futbolculuk kariyeriyle zaten bir efsane.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3697,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Onun oyunculuğu konusunda kimsenin şüphesi yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3698,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Teknik direktörlük kariyerinde ise inişler ve çıkışlar yaşadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3699,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak Beşiktaş'ı şampiyonluğa taşıyarak önemli bir başarıya imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3700,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şimdi önünde kariyerinin en önemli fırsatlarından biri var: A Milli Takım.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3701,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-21T00:39:08+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Milli Takım'ın başında olmak, yalnızca bir teknik direktörlük görevi değil; aynı zamanda milyonların beklentisini, umudunu ve heyecanını omuzlarında taşımak demek.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/21/sergen-yalcina-firsat-milli-takima-destek",
+        "published_at": "2026-10-21T00:39:08+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3702,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bahçe maça çok hırslı ve alışılmışın dışında bir tempoyla başladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3703,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hemen sonrasında da Greenwood klas bir vuruşla farkı ikiye çıkardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3704,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Her şey tozpembeydi ama beklenmedik bir anda Guendouzi'nin hatasıyla fark bire indi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3705,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu gole rağmen Fenerbahçe bir şok yaşamadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3706,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "30-35'lere kadar bütün kontrol Fenerbahçe'nin elindeydi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3707,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu arada maçın kırılma anı Oğuz'un yerine oyuna giren Nene'nin kaleciye nişanladığı gol fırsatıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3708,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sonuçta Slavia Prag aradığı golü 90'da buldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3709,
+      "commentator": "omer-urundul",
+      "date": "2026-10-21T00:50:13+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu maç için İsmail Kartal'a yapacağım olumsuz bir eleştiri yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/10/21/ismail-kartala-olumsuz-elestirim-yok",
+        "published_at": "2026-10-21T00:50:13+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3710,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Slavia Prag güç ve kadro kalitesi olarak Fenerbahçe'nin yanına bile yaklaşamaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3711,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu takımı da yenemiyorsan, hangi maçı kazanacaksın Fenerbahçe!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3712,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hem de 50 bin taraftarın desteğini arkasına alarak maça çıkıyorsun!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3713,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Rakip Slavia Prag, Şampiyonlar Ligi'nde çıktığı son 21 maçta galibiyet alamamış.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3714,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe ile Slavia arasında güç ve kalite bakımından dağlar kadar fark var!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3715,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Art arda bulduğun iki güzel golle galibiyet anahtarını cebine koymuşsun.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3716,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Farka gidebileceğin maçta amatörce goller yiyorsun!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3717,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-20T23:20:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü Şampiyonlar Ligi'ne çok önem vermiyorsun İsmail hocam!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/21/sabahin-yendigi-takimi-gecemedik",
+        "published_at": "2026-10-20T23:20:54+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -104335,13 +105211,13 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 48,
+      "comment_count": 51,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 26,
+      "comment_count": 28,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -104359,7 +105235,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 41,
+      "comment_count": 42,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -104465,6 +105341,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-L3INqFQIXDE",
+      "title": "🔴CANLI | Fenerbahçe - Slavia Prag Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=L3INqFQIXDE",
+      "date": "2026-10-20T21:14:03+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-yU1_yFfIuao",
+      "title": "Nihat Kahveci: İsmail Kartal, Barcelona'yı bile yense bir sonraki maç yine sıkıntı.",
+      "url": "https://www.youtube.com/watch?v=yU1_yFfIuao",
+      "date": "2026-10-20T20:40:36+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-LaptZkBfTR4",
       "title": "Nihat Kahveci: Yazık ya, tribünde olan Fenerbahçeli taraftarlara yazık!",
@@ -104722,18 +105622,6 @@
       "platform": "YouTube",
       "commentators": [
         "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-L3INqFQIXDE",
-      "title": "🔴CANLI | Fenerbahçe - Slavia Prag Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
-      "url": "https://www.youtube.com/watch?v=L3INqFQIXDE",
-      "date": "2026-10-20T10:44:27+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     },
@@ -108155,18 +109043,6 @@
       "title": "🚨 TRANSFER UPDATES LIVE: ALL THE LATESTS!",
       "url": "https://www.youtube.com/watch?v=c-90sY2Oxmk",
       "date": "2026-08-31T19:55:09+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-URO-JbW8YFI",
-      "title": "🚨💣 BOMBAS! DEAL OFF! ENZO BOOM! KONE, LAMINE, WOLTEMADE, NDIAYE, GAKPO, BARÇA X2, PARDO, GREALISH…",
-      "url": "https://www.youtube.com/watch?v=URO-JbW8YFI",
-      "date": "2026-08-31T16:52:11+00:00",
       "source": "Fabrizio Romano",
       "platform": "YouTube",
       "commentators": [
