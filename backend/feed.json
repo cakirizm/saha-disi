@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-10-19T21:08:01.727013+00:00",
+  "generated_at": "2026-10-20T00:24:46.381062+00:00",
   "commentators": [
-    {
-      "id": "deniz-coban",
-      "name": "Deniz Çoban",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "DÇ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "murat-ozbostan",
       "name": "Murat Özbostan",
@@ -24,11 +13,11 @@
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
+      "id": "deniz-coban",
+      "name": "Deniz Çoban",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
+      "avatar": "DÇ",
       "focusTeams": [
         "Genel"
       ],
@@ -40,6 +29,17 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "ZU",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -79,6 +79,17 @@
       "photoURL": null
     },
     {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -101,15 +112,15 @@
       "photoURL": null
     },
     {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
+      "id": "ahmet-cakar",
+      "name": "Ahmet Çakar",
+      "role": "Yorumcu / Yazar",
+      "primarySource": "A Spor / Beyaz Futbol",
+      "avatar": "AC",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": null
+      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
       "id": "orhan-yildirim",
@@ -133,17 +144,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "ahmet-cakar",
-      "name": "Ahmet Çakar",
-      "role": "Yorumcu / Yazar",
-      "primarySource": "A Spor / Beyaz Futbol",
-      "avatar": "AC",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
       "id": "sinan-vardar",
@@ -96462,6 +96462,884 @@
         "published_at": "2026-10-19T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3560,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "positive",
+      "strength": 10,
+      "summary": "Sahanın en iyisi Cihan Aydın Dün gece özellikle ilk yarısı mükemmel bir maç izledik ve Trabzonspor, evinde Galatasaray'dan sonra Beşiktaş'ı da rahat yenmesini bildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3561,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İkinci yarıya baktığımızda skor daha da farklı olabilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3562,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Oyuna Beşiktaş çok iyi başlasa da Trabzonspor, Beşiktaş defansının arkasında çok pozisyon buldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3563,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": null,
+      "players": [
+        "Muçi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle Aral ve Muçi ile iyi organize oldular.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3564,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Salah, ilk yarıda belki gol pozisyonlarının içinde değil ama hazırlık anlamında tüm pozisyonların içinde.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3565,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ozan Tufan, Nübel'den dönen topu tamamladı ve Trabzonspor bu devreyi önde kapadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3566,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Aslında bu devreyi Trabzonspor farklı da kazanabilirdi ama ilk yarının son dakikasında Murillo'nun vuruşu direk değil de gol olsa belki de berabere biterdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3567,
+      "commentator": "ahmet-cakar",
+      "date": "2026-10-20T01:12:22+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir de üstelik Beşiktaş defansı önde yakalandığında arkalarına atılan top ya gol oldu ya da büyük pozisyon oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+      "image_url": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg",
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ahmet-cakar",
+        "url": "https://www.aspor.com.tr/yazarlar/ahmet-cakar/2026/10/20/sahanin-en-iyisi-cihan-aydin",
+        "published_at": "2026-10-20T01:12:22+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3568,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Alanya maçında ligdeki umutlara bilet kesildiğini farz edelim ama gerçekleri geçiştirmeyelim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3569,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Alanya maçında futbol adına küçük ipuçları, Aston Villa maçında korkuya saklananların ortak suçlarıdır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3570,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Yüksek gibi hamarat işçinin bir maçlık felaketini onarmak için, güven duygusunu aşılamak gerekir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3571,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [
+        "Kante"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal, Aston Villa maçı sonrasında \"Kante'yi oyuna almak istedim ama girmek istemedi\" diye bir ifade kullandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3572,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Greenwood'un aldığı paraya ve kariyerine bakarsanız; incisi içinde saklı ölgün bir istiridye.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3573,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Her futbolcu takım içinde takım olduysa, F.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3574,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe'nin önünde gerçek gücünü gösterme sınavına çıkacağı önemli maçlar var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3575,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-19T23:44:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu takım Slavia Prag'ı yener, takımın gücü de bunu emreder zaten.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/20/cevapsiz-sorular",
+        "published_at": "2026-10-19T23:44:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3576,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oh ile başlamalıydı Trabzon deplasmanında alınan mağlubiyet, Beşiktaş için yalnızca kaybedilmiş üç puandan ibaret değildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3577,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [
+        "Orkun Kökçü"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu karşılaşma, oyun planında Orkun Kökçü'nün ne kadar önemli olduğunu da gösterdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3578,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Çünkü bazı oyuncuların eksikliği sadece kadroda hissedilmez; takımın oyununda, temposunda ve sahadaki karakterinde kendini gösterir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3579,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş orta sahası topa sahip olsa bile oyuna hükmedemedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3580,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Takım, oyunun temposunu belirlemekte zorlandı; hücumla savunma arasındaki bağlantı zayıfladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3581,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Topun bir bölgeden diğerine taşınması, oyunun yönünün değiştirilmesi ve hücum oyuncularının doğru zamanda topla buluşturulması konusunda sıkıntılar yaşandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3582,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Orkun, yalnızca pas dağıtan bir orta saha oyuncusu değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3583,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-20T00:58:25+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Oyunu okuyan, gerektiğinde tempoyu yükselten, gerektiğinde topu ayağında tutarak takımını rahatlatan bir futbolcu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/20/oh-ile-baslamaliydi",
+        "published_at": "2026-10-20T00:58:25+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3584,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor ile Beşiktaş arasındaki derbiler her zaman büyük seyir zevkine sahne olmuştur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3585,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dün de Akyazı'da nefesleri kesen, gözlerimizin pasının silindiği bir derbi izledik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3586,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Orta alanların çok çabuk geçildiği harika hücumlar ve kalecilerin müthiş performanslarına şahitlik ettik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3587,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Her iki teknik adam ve saha içindeki futbolcular adeta bir satranç maçı oynadılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3588,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic",
+        "Trossard",
+        "Cerny"
+      ],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Savic-Vlahovic; Pina-Trossard; Cabral-Cerny; Salah-Rıdvan; Dju- Agbadou eşleşmeleri kıran kırana geçti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3589,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Papara Park'taki derbiye daha iyi başlayan taraf Beşiktaş oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3590,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [
+        "Cerny"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Miretti ve Cerny ile gole çok yaklaştı siyahbeyazlılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3591,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-19T23:22:30+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beşiktaş'ın baskı kurduğu anlarda bir geçiş hücumu yakalayan Trabzonspor aradığı golü buldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-08-trabzonspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/20/buyuk-reis",
+        "published_at": "2026-10-19T23:22:30+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -101098,7 +101976,7 @@
     {
       "id": "cerny",
       "name": "Cerny",
-      "comment_count": 38
+      "comment_count": 40
     },
     {
       "id": "gabriel-sara",
@@ -101109,7 +101987,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 47,
+      "comment_count": 48,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -101121,7 +101999,7 @@
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 21,
+      "comment_count": 22,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -101150,7 +102028,7 @@
     {
       "id": "muci",
       "name": "Muçi",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg/500px-Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -101168,7 +102046,7 @@
     {
       "id": "orkun-kokcu",
       "name": "Orkun Kökçü",
-      "comment_count": 10,
+      "comment_count": 11,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg/500px-Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -101222,13 +102100,13 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 36,
+      "comment_count": 37,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 58,
+      "comment_count": 59,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
