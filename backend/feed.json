@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-21T04:56:14.652917+00:00",
+  "generated_at": "2026-10-21T10:15:38.220733+00:00",
   "commentators": [
-    {
-      "id": "murat-ozbostan",
-      "name": "Murat Özbostan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "MÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
     {
       "id": "deniz-coban",
       "name": "Deniz Çoban",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "DÇ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "murat-ozbostan",
+      "name": "Murat Özbostan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MÖ",
       "focusTeams": [
         "Genel"
       ],
@@ -46,22 +46,22 @@
       "photoURL": null
     },
     {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
       "focusTeams": [
         "Genel"
       ],
@@ -101003,6 +101003,417 @@
         "published_at": "2026-10-21T06:40:50+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3734,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Başlangıcı, istatistik verileri ışığında, fevkalade yaptı Fenerbahçe.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3735,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Veriler 0-15 dakikalar arasında en çok skor ürettiğini anlatıyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3736,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Özellikle Greenwood golü tasarım ve uygulama açısından örnek sayılabilecek nitelikteydi ve 11.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3737,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlkinde Ederson ile Guendouzi bağlantısındaki uyumsuzluktan gol yediler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3738,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bundan sonrasında Slavia Prag etkisiz görünse bile topu da Fenerbahçe’yi de sahada gezdirip durdu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3739,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İstatistikler ters yönde, Slavia’nın en çok skor yaptığı dakikaların 75-90 arası olduğunu gösteriyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3740,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle rakip alanda topu ele geçirmede Fenerbahçe’ye bariz üstünlük kuran Slavia neyse ki etkili hücumlar örgütleyemedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3741,
+      "commentator": "cem-dizdar",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Lakin Nene’nin sonuçlandıramadığı atak da dahil topu öne her taşıdığında Fenerbahçe de benzer sıkıntıları yaşıyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/durduk-yere-2641749",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3742,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "İspanyol hakem Ricardo de Burgos Bengoetxea, La Liga’nın tecrübeli isimlerinden.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3743,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Devler Ligi’nde son dönemde izlediğimiz en zayıf hakem yönetimlerinden biriydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3744,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Faul standardını oturtamayan İspanyol hakem, oyunu akışına bırakmak ile net ihlalleri atlamayı tamamen birbirine karıştırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3745,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Özellikle Milan Skriniar’a gösterdiği sarı kartı, izah etmek imkânsız: Topa Skriniar vuruyor, rakibin ayağı onun ayağının altına geliyor ama kart Fenerbahçeli stopere çıkıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3746,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemin şansı, oyuncuların iyi niyetli ve futbol odaklı kalmasıydı.19.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3747,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "dakikada ceza sahasında Ake’nin formadan çekildiği pozisyonda çekmenin etkisi hakem takdirinde olsa da penaltı verilmesi çok daha doğru bir karar olurdu.71.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3748,
+      "commentator": "deniz-coban",
+      "date": "2026-10-21T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Özetle Bengoetxea, verdiği kararlarıyla Şampiyonlar Ligi hakemi görüntüsünden oldukça uzaktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-verilmeliydi-2641751",
+        "published_at": "2026-10-21T06:59:00+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -105650,13 +106061,13 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 52,
+      "comment_count": 53,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 28,
+      "comment_count": 29,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -105745,7 +106156,7 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 17,
+      "comment_count": 18,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -105780,6 +106191,69 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-LUhpPjuVk4U",
+      "title": "Nihat Kahveci: 2-0 abi dakika 11, keyifle 3-4 ne zaman gelecek diye beklerim ama Fenerbahçe...",
+      "url": "https://www.youtube.com/watch?v=LUhpPjuVk4U",
+      "date": "2026-10-21T08:58:13+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-DkU2ua13ZOs",
+      "title": "🔴CANLI | Lille - Galatasaray Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=DkU2ua13ZOs",
+      "date": "2026-10-21T08:14:00+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-_3t3XjGoqdM",
+      "title": "🔴 CANLI | Lille - Galatasaray Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=_3t3XjGoqdM",
+      "date": "2026-10-21T08:11:28+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-vRpZnOJ0jJk",
+      "title": "🔽 Leroy Sane'nin top kayıpları | Emre Özcan | Tardini Büfe",
+      "url": "https://www.youtube.com/watch?v=vRpZnOJ0jJk",
+      "date": "2026-10-21T07:00:09+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan"
+      ],
+      "players": [
+        "Sane"
+      ]
+    },
+    {
+      "id": "youtube-SP4kuvRDid0",
+      "title": "🔺 \"Bermuda Üçgeni\" neyi farklı yapıyor? | Erman Yaşar & Emre Özcan | Atıf Bey Sokak",
+      "url": "https://www.youtube.com/watch?v=SP4kuvRDid0",
+      "date": "2026-10-21T05:00:11+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan",
+        "erman-yasar"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-L3INqFQIXDE",
       "title": "🔴CANLI | Fenerbahçe - Slavia Prag Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
@@ -109422,66 +109896,6 @@
       "title": "🚨🤯 CRAZY! THREE DEALS OFF! CHELSEA DRAMA! TWO WITH THE SAME CLUB! UNITED STOP! ZIRKZEE, LAMINE…",
       "url": "https://www.youtube.com/watch?v=U9YENDZ1b9w",
       "date": "2026-09-02T01:32:04+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-kpSpwOYw4N8",
-      "title": "🚨💣 RECORD DEAL! CHELSEA FOR THREE! BALDE-UNITED AND LIVERPOOL DECISION! ENZO, JULIÁN, SARR, GUSTO…",
-      "url": "https://www.youtube.com/watch?v=kpSpwOYw4N8",
-      "date": "2026-09-01T16:34:06+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-869f6thX5J8",
-      "title": "🚨💣 BOMBA! JULIÁN DECISION! ENZO DAY! CHELSEA BID IN! €45M! ALL DEADLINE MOVEMENTS AND MORE…",
-      "url": "https://www.youtube.com/watch?v=869f6thX5J8",
-      "date": "2026-09-01T10:45:06+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-UBbI2K7J-d4",
-      "title": "🚨💣 CRAZY NIGHT! DOUBLE DEAL DONE! £75M! UNITED: TWO OUT! GITTENS, MUDRYK, GREALISH, BALDE, MAATSEN..",
-      "url": "https://www.youtube.com/watch?v=UBbI2K7J-d4",
-      "date": "2026-08-31T23:01:57+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-No4Vd1I_mlc",
-      "title": "🚨💣 DEADLINE BOMBAZO! HIJACK DONE! ENZO, KONE, TWO DEALS IN ONE, MALICK FOFANA, MUDRYK, SANCHEZ…",
-      "url": "https://www.youtube.com/watch?v=No4Vd1I_mlc",
-      "date": "2026-08-31T20:40:10+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-c-90sY2Oxmk",
-      "title": "🚨 TRANSFER UPDATES LIVE: ALL THE LATESTS!",
-      "url": "https://www.youtube.com/watch?v=c-90sY2Oxmk",
-      "date": "2026-08-31T19:55:09+00:00",
       "source": "Fabrizio Romano",
       "platform": "YouTube",
       "commentators": [
