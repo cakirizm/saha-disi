@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:16:47.250744+00:00",
+  "generated_at": "2026-10-22T15:23:26.869510+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -104062,6 +104062,226 @@
         "published_at": "2026-10-22T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3845,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sporting ve Barcelona hezimetlerinin ardından Lille maçı Galatasaray açısından sezonun en kritik karşılaşmalarından biri haline gelmişti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3846,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kaybetmesi halinde muhtemelen Şampiyonlar Ligi'ne havlu atacaktı Sarı-Kırmızılı takım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3847,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Olası bir mağlubiyet aynı zamanda hafta sonu oynanacak derbi maçına da olumsuz yansıyacaktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3848,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Henüz birinci dakikada da Yunus ile skor üstünlüğünü eline geçirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3849,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Golde büyük payı olan Barış Alper'in rakibin sağ kanadını harmanlaması ve ardından trivela ile yaptığı orta görülmeye değerdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3850,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Erken gelen golle morallenen Galatasaray, kontrolü elinde tutması ve oyunu soğutması gereken bölümde bu sezon sıkça tekrarladığı basit bir savunma hatasıyla rakibin ayağa kalkmasına neden oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3851,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kısa bir süre sonra da ikinci golü kalesinde görerek taraftarını büyük bir endişeye sürükledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3852,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-22T15:22:54+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Öne geçtiği Barcelona ve Sporting maçlarını kaybeden Cim Bom, aynı senaryo tekrarlanacak mı diye düşünüldüğü anda sahanın yıldızı Batrakov'la ayağa kalktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasarayin-donusu-2641967",
+        "published_at": "2026-10-22T15:22:54+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -108686,13 +108906,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 35,
+      "comment_count": 36,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 50,
+      "comment_count": 51,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -108839,6 +109059,42 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-NQy8Lnojd6E",
+      "title": "🚨💣 UNITED DECISION! €80M CLAUSE! NICO PAZ PLANS! WHAT HAPPENS NEXT WITH CARRICK AND CO! NAGELSMANN…",
+      "url": "https://www.youtube.com/watch?v=NQy8Lnojd6E",
+      "date": "2026-10-22T14:12:19+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-BAFmEQfW6Kc",
+      "title": "🔴CANLI | Beşiktaş - Crystal Palace Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
+      "url": "https://www.youtube.com/watch?v=BAFmEQfW6Kc",
+      "date": "2026-10-22T11:20:06+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-nBzoLnN7zYU",
+      "title": "🔴 CANLI | Beşiktaş - Crystal Palace Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
+      "url": "https://www.youtube.com/watch?v=nBzoLnN7zYU",
+      "date": "2026-10-22T11:18:25+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-mtwyXXlF-UE",
       "title": "Nihat Kahveci: Galatasaray'ın 3 tane iç saha maçı var; 7 puan al, fişi çek 10 puanla!",
@@ -112506,48 +112762,6 @@
       ],
       "players": [
         "Torreira"
-      ]
-    },
-    {
-      "id": "youtube-3Upb5KgujYM",
-      "title": "Nihat Kahveci: Batrakov, maçın her anındaydı. Daha da iyi olacak.",
-      "url": "https://www.youtube.com/watch?v=3Upb5KgujYM",
-      "date": "2026-09-04T20:23:04+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Batrakov"
-      ]
-    },
-    {
-      "id": "youtube-_vJ5oQFYGrc",
-      "title": "Nihat Kahveci: İlk 33 dakikada; Osimhen oyundayken 11 kez ceza sahasına giren Galatasaray...",
-      "url": "https://www.youtube.com/watch?v=_vJ5oQFYGrc",
-      "date": "2026-09-04T19:56:40+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Osimhen"
-      ]
-    },
-    {
-      "id": "youtube-tjQcSgrEEhM",
-      "title": "Nihat Kahveci: Rafael Leao'nun aç bir şekilde oynayacağını ve Galatasaray'a da çok katkı...",
-      "url": "https://www.youtube.com/watch?v=tjQcSgrEEhM",
-      "date": "2026-09-04T19:28:47+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Leao"
       ]
     }
   ]
