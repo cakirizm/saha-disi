@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T04:55:45.030603+00:00",
+  "generated_at": "2026-10-22T10:16:47.250744+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -35,22 +35,22 @@
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
@@ -112,17 +112,6 @@
       "photoURL": null
     },
     {
-      "id": "ahmet-cakar",
-      "name": "Ahmet Çakar",
-      "role": "Yorumcu / Yazar",
-      "primarySource": "A Spor / Beyaz Futbol",
-      "avatar": "AC",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
       "id": "orhan-yildirim",
       "name": "Orhan Yıldırım",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -132,6 +121,17 @@
         "Beşiktaş"
       ],
       "photoURL": null
+    },
+    {
+      "id": "ahmet-cakar",
+      "name": "Ahmet Çakar",
+      "role": "Yorumcu / Yazar",
+      "primarySource": "A Spor / Beyaz Futbol",
+      "avatar": "AC",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
       "id": "turgay-demir",
@@ -103188,6 +103188,880 @@
         "published_at": "2026-10-22T06:50:15+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3813,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ligde hayal kırıklığı yaşayan Beşiktaş, Crystal Palace önüne galibiyet için çıkacak.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3814,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bir anlamda taraftarı ile barışma maçı olan Avrupa sınavında tüm planlar galibiyet üstüne kurulu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3815,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "italyan hocanın, taktiksel çalışmada forvette oh ile Vlahovic’i birlikte denemesi dikkat çekti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3816,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Belçikalı oyuncu bu maçta farklı görev üstlenecek.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3817,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Ndidi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "son iki maçta form düşüklüğü gösteren salih’in yerine ndidi’nin görev alması da alternatifler arasında.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3818,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Kolay gol yiyorAda ekibi, savunmasında çok kademe hatası yapıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3819,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "oynadığı 7 maçta 17 gol yiyip, sıkıntıyı gözler önüne serdiler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3820,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Zor atıp, kolay yiyen Palace için dolmabahçe’den puan almak neredeyse imkansız.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/kartaldan-avrupa-ucusu-2641887",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3821,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Türk futbolu yine tartışmalı günlerden geçiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3822,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ferhat Gündoğdu’nun ardından TFF, MHK Başkanlığı’na dünyaca ünlü İngiliz hakem Anthony Taylor’ı getirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3823,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Taylor’ın kariyeri heyecan verse de madalyonun diğer yüzünde futbolumuzun geleceğini ilgilendiren kritik bir hukuki soru işareti duruyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3824,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Talimat Belli, Amacı AçıkTFF statüsüne göre, aktif hakemliği son bir yıl içinde bırakmış kişilerin MHK’de görev alamayacağı kuralı açıktır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3825,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Zamanında Mustafa Çulcu’nun hakemliği bırakıp hemen ertesi ay MHK Başkanı olması üzerine bu soğuma süresi düzenlemesi getirilmişti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3826,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yasanın ruhundan hareket edersek; Anthony Taylor’ın 2026 Dünya Kupası’nda düdük çaldıktan sadece 3 ay sonra MHK Başkanlığı’na getirilmesi kuralın temel mantığına ve düzenlenme amacına aykırıdır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3827,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Bir hukukçu değilim ancak futbolun içinden gelen biri olarak bu tablonun bizi sürüklediği tehlikeyi net biçimde görüyorum.2004-2005 Sabri Çelik Örneği2004-2005 sezonundaki Sabri Çelik MHK’si benzer bir oluşum hatası yüzünden yargıya taşınmıştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3828,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T10:01:29+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kanundaki en az bir futbol kökenli üye şartını kâğıt üstünde karşılamak için yapılan hamle, Kemal Ulusu’nun açtığı dava sonucu mahkemeden dönmüştü.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/turk-futbolu-yeni-bir-mhk-kaosuna-mi-surukleniyor-2641922",
+        "published_at": "2026-10-22T10:01:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3829,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Slovenya Futbol Federasyonu'ndan Rade Obrenovic, uluslararası düzeyde çeşitli kulüp ve milli takım maçlarında görev alan bir isim.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3830,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak tam Şampiyonlar Ligi seviyesinin hakemi değil; bu seviyede görev almasında UEFA Başkanı Aleksander Ceferin ile aynı milliyetten olmasının sağladığı avantajın payı büyük.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3831,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemi zora sokacak tansiyonlu pozisyon sayısı azdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3832,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Oyuncuların iyi niyetli tutumu ve oyuna duydukları saygı hakemin işini kolaylaştırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3833,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yerinde gösterdiği 4 sarı kart dışında ekstra bir sertlik yaşanmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3834,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak bu sakin havaya rağmen hakemin Galatasaray lehine çaldığı penaltı kararı bu seviye için kabul edilebilir değildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3835,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Penaltı büyük hataydı Kaleci Berke'nin, Osimhen'in ayağındaki topu tertemiz söküp aldığı pozisyonda penaltı noktasına yürümesi büyük hataydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3836,
+      "commentator": "deniz-coban",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "VAR müdahalesi skandaldan dönülmesini sağlasa da Obrenovic'in bu kararı, kendisinin Şampiyonlar Ligi seviyesinin hakemi olmadığını net şekilde gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/devler-ligi-hakemi-degil-2641905",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3837,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray, Lille deplasmanında deyim yerindeyse kükredi...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3838,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "hot_take",
+      "sentiment": "positive",
+      "strength": 10,
+      "summary": "Aslanlar gibi oynayıp, harika bir galibiyetle Şampiyonlar Ligi'ne 'merhaba' dedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3839,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aslında iki takım için de kırılma maçıydı, çünkü sahaya puansız çıkmışlardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3840,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Yunus Akgün"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "dakikada Yunus Akgün ile gelen gol, işaret fişeği gibiydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3841,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sonrasında kalemizde gördüğümüz iki gole rağmen, demoralize olmadan mücadeleye devam eden, ayakta kalan Galatasaray vardı sahada.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3842,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Özellikle Batrakov çok genç yaşına rağmen şimdiden neler yapabileceğini gösterdi ve ileriye dönük büyük umutlar verdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3843,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Rus yıldız güzel futbolunu harika bir golle de süsleyip, geceye damgasını vuran isimlerin başındaydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3844,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-22T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "İkinci yarıdaki baskı ve rakibi demoralize eden futbol, Lille'i hatalara zorladı ve peş peşe gollerle 4-2'lik bir zafer geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inancin-zaferi-2641904",
+        "published_at": "2026-10-22T06:59:00+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -107818,7 +108692,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 49,
+      "comment_count": 50,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -107882,7 +108756,7 @@
     {
       "id": "ndidi",
       "name": "Ndidi",
-      "comment_count": 3,
+      "comment_count": 4,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ndidi_20170114.jpg/500px-Ndidi_20170114.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -107900,7 +108774,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 71,
+      "comment_count": 72,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -107954,17 +108828,53 @@
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 63,
+      "comment_count": 64,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "yunus-akgun",
       "name": "Yunus Akgün",
-      "comment_count": 3,
+      "comment_count": 4,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Yunus_Akg%C3%BCn_20220225_7_%28cropped%29.jpg/500px-Yunus_Akg%C3%BCn_20220225_7_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     }
   ],
   "publications": [
+    {
+      "id": "youtube-mtwyXXlF-UE",
+      "title": "Nihat Kahveci: Galatasaray'ın 3 tane iç saha maçı var; 7 puan al, fişi çek 10 puanla!",
+      "url": "https://www.youtube.com/watch?v=mtwyXXlF-UE",
+      "date": "2026-10-22T08:56:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-DVsgjqkTC_0",
+      "title": "🚨💣 MAN UNITED CRISIS! CARRICK: BIG CHANGE, PLAYERS KEY! NAGELSMANN, CONTE, HOWE, SCALONI, FABREGAS…",
+      "url": "https://www.youtube.com/watch?v=DVsgjqkTC_0",
+      "date": "2026-10-22T01:01:09+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-DkU2ua13ZOs",
+      "title": "🔴CANLI | Lille - Galatasaray Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
+      "url": "https://www.youtube.com/watch?v=DkU2ua13ZOs",
+      "date": "2026-10-21T20:51:05+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-YoorE-xbKM4",
       "title": "Nihat Kahveci: Sen bugün Lille'e 4 gol attın. Galatasaray; Aston'a gol atar, Feyenoord'a atar...",
@@ -108120,18 +109030,6 @@
       "title": "Nihat Kahveci: 2-0 abi dakika 11, keyifle 3-4 ne zaman gelecek diye beklerim ama Fenerbahçe...",
       "url": "https://www.youtube.com/watch?v=LUhpPjuVk4U",
       "date": "2026-10-21T08:58:13+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-DkU2ua13ZOs",
-      "title": "🔴CANLI | Lille - Galatasaray Maç Sonu| Nihat Kahveci, Nebil Evren | Kontratak Şampiyonlar Ligi",
-      "url": "https://www.youtube.com/watch?v=DkU2ua13ZOs",
-      "date": "2026-10-21T08:14:00+00:00",
       "source": "Kontraspor",
       "platform": "YouTube",
       "commentators": [
@@ -111651,30 +112549,6 @@
       "players": [
         "Leao"
       ]
-    },
-    {
-      "id": "youtube-14CxLn8JlK8",
-      "title": "🚨 UNITED SECRET IDEA, BARÇA STRIKER OFFERED, BENZEMA FREE, LAMINE GAME OVER, THE SPECIAL CLAUSE…",
-      "url": "https://www.youtube.com/watch?v=14CxLn8JlK8",
-      "date": "2026-09-04T17:59:23+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-VlAEwwE2ZrI",
-      "title": "⚫⚪ Ümit Akdağ & Beşiktaş | Emre Özcan | Atıf Bey Sokak",
-      "url": "https://www.youtube.com/watch?v=VlAEwwE2ZrI",
-      "date": "2026-09-04T16:04:04+00:00",
-      "source": "Socrates",
-      "platform": "YouTube",
-      "commentators": [
-        "emre-ozcan"
-      ],
-      "players": []
     }
   ]
 }
