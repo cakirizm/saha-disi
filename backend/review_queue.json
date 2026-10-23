@@ -17,13 +17,237 @@
     "confidence": 100,
     "direct_quote": true,
     "published_at": "2026-10-14T06:40:59+03:00",
-    "discovered_at": "2026-10-22T23:26:08.530890+00:00",
+    "discovered_at": "2026-10-23T04:56:59.594043+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "levent-tuzemen",
       "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/14/cabuk-kirildi",
       "published_at": "2026-10-14T06:40:59+03:00"
+    }
+  },
+  {
+    "candidate_id": "6cbf499aa3ba7041dcc7",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "ITALIANO'NUN bu sezon ilk kez böylesine kapsamlı rotasyonla çok önem verdiği bir Avrupa ligi maçına çıkması hem çok şaşırtıcı hem de anlamsızdı.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.008194+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "94030eb4f104736a6bb8",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Rotasyonun tavan yaptığı bu 11'de çoğu oyuncu belki de ilk kez uzun süre sonra yan yana oynadı.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.009474+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "418d0f93adaca6758aec",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Dile kolay 8 oyuncu Trabzon'dan farklıydı.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Genel yorum",
+    "type": "opinion",
+    "sentiment": "neutral",
+    "strength": 6,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.010741+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "6b64bb12523769532438",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Hadi Orkun yok tamam, Vlahovic son maç iyi değildi onun yerine Oh'un oynaması da doğru idi ama İtalyan hocanın kötü sonuçlar alsa da bir İngiliz takımına karşı bu kadar eksik hatta 'vurdumduymaz ' bir kadro ile çıkması anlaşılır değildi.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "negative",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.012353+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "3de981dc3c5570bab106",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "İtaliano büyük ihtimalle Başakşehir'in de zor geçeceğini düşünerek aslarını yanında oturttu.",
+    "team": "Başakşehir",
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Genel yorum",
+    "type": "hot_take",
+    "sentiment": "neutral",
+    "strength": 10,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.013653+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "18b25ec184bf36745fc5",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Hoca, 'Trabzon'da yenildik Başakşehir önünde de bir sürpriz lig de işimizi zora sokar.",
+    "team": "Başakşehir",
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.014897+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "e968a495c4ae81df5cae",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "Tam kadro olmayınca Beşiktaş izlediğimiz o baskıyı hiç kuramadı.",
+    "team": "Beşiktaş",
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Teknik Direktör",
+    "type": "coaching",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.016128+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
+    }
+  },
+  {
+    "candidate_id": "3e5294595999556da40f",
+    "commentator": "kartal-yigit",
+    "summary_candidate": "İngilizlerin yine bir atak çıkışında Miretti'nin yerine zorunlu giren Salih'in defansın arasına sarkıttığı güzel pası yakalayan Ndidi, kendilerinin sık sık verdiği bu pozisyonu bu kez karşı tarafa gol olarak atınca rahatladık sandık.",
+    "team": null,
+    "players": [
+      "Vlahovic",
+      "Ndidi"
+    ],
+    "topic": "Oyuncu Performansı",
+    "type": "player",
+    "sentiment": "neutral",
+    "strength": 7,
+    "source": "Takvim",
+    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+    "image_url": null,
+    "confidence": 92,
+    "direct_quote": true,
+    "published_at": "2026-10-23T06:56:32+03:00",
+    "discovered_at": "2026-10-23T04:56:58.017634+00:00",
+    "evidence": {
+      "version": 2,
+      "method": "columnist_byline",
+      "speaker_id": "kartal-yigit",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/10/23/yapma-be-hoca",
+      "published_at": "2026-10-23T06:56:32+03:00"
     }
   },
   {
@@ -45,7 +269,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.587843+00:00",
+    "discovered_at": "2026-10-23T04:56:58.385273+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -73,7 +297,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.589680+00:00",
+    "discovered_at": "2026-10-23T04:56:58.386463+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -101,7 +325,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.590919+00:00",
+    "discovered_at": "2026-10-23T04:56:58.387585+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -129,7 +353,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.592114+00:00",
+    "discovered_at": "2026-10-23T04:56:58.388719+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -157,7 +381,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.593322+00:00",
+    "discovered_at": "2026-10-23T04:56:58.389824+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -185,7 +409,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.594546+00:00",
+    "discovered_at": "2026-10-23T04:56:58.391316+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -213,7 +437,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.595727+00:00",
+    "discovered_at": "2026-10-23T04:56:58.392480+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -241,7 +465,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:07.596899+00:00",
+    "discovered_at": "2026-10-23T04:56:58.393515+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -269,7 +493,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.063621+00:00",
+    "discovered_at": "2026-10-23T04:56:58.827616+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -297,7 +521,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.064960+00:00",
+    "discovered_at": "2026-10-23T04:56:58.829079+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -325,7 +549,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.066461+00:00",
+    "discovered_at": "2026-10-23T04:56:58.830453+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -353,7 +577,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.067953+00:00",
+    "discovered_at": "2026-10-23T04:56:58.831789+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -381,7 +605,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.069469+00:00",
+    "discovered_at": "2026-10-23T04:56:58.833071+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -409,7 +633,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.070895+00:00",
+    "discovered_at": "2026-10-23T04:56:58.834435+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -437,7 +661,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.072167+00:00",
+    "discovered_at": "2026-10-23T04:56:58.835624+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -465,7 +689,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:08.073491+00:00",
+    "discovered_at": "2026-10-23T04:56:58.836885+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -492,7 +716,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.414826+00:00",
+    "discovered_at": "2026-10-23T04:56:59.265917+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -519,7 +743,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.416204+00:00",
+    "discovered_at": "2026-10-23T04:56:59.267121+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -546,7 +770,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.417260+00:00",
+    "discovered_at": "2026-10-23T04:56:59.268190+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -573,7 +797,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.418383+00:00",
+    "discovered_at": "2026-10-23T04:56:59.269363+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -600,7 +824,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.419485+00:00",
+    "discovered_at": "2026-10-23T04:56:59.270618+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -627,7 +851,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.420627+00:00",
+    "discovered_at": "2026-10-23T04:56:59.271868+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -654,7 +878,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.421842+00:00",
+    "discovered_at": "2026-10-23T04:56:59.273007+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -681,7 +905,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:08.422997+00:00",
+    "discovered_at": "2026-10-23T04:56:59.274180+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -708,7 +932,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.839129+00:00",
+    "discovered_at": "2026-10-23T04:56:59.794850+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -735,7 +959,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.841281+00:00",
+    "discovered_at": "2026-10-23T04:56:59.808294+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -762,7 +986,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.842450+00:00",
+    "discovered_at": "2026-10-23T04:56:59.809445+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -789,7 +1013,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.843703+00:00",
+    "discovered_at": "2026-10-23T04:56:59.810654+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -816,7 +1040,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.844958+00:00",
+    "discovered_at": "2026-10-23T04:56:59.811868+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -843,7 +1067,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.846092+00:00",
+    "discovered_at": "2026-10-23T04:56:59.813514+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -870,7 +1094,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.847209+00:00",
+    "discovered_at": "2026-10-23T04:56:59.814660+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -897,7 +1121,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-21T06:59:49+03:00",
-    "discovered_at": "2026-10-22T23:26:08.848319+00:00",
+    "discovered_at": "2026-10-23T04:56:59.815826+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -924,7 +1148,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.354948+00:00",
+    "discovered_at": "2026-10-23T04:57:00.382013+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -951,7 +1175,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.356113+00:00",
+    "discovered_at": "2026-10-23T04:57:00.383317+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -978,7 +1202,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.371125+00:00",
+    "discovered_at": "2026-10-23T04:57:00.384259+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1005,7 +1229,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.372218+00:00",
+    "discovered_at": "2026-10-23T04:57:00.385156+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1032,7 +1256,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.373109+00:00",
+    "discovered_at": "2026-10-23T04:57:00.386028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1059,7 +1283,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.374007+00:00",
+    "discovered_at": "2026-10-23T04:57:00.386905+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1086,7 +1310,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.374861+00:00",
+    "discovered_at": "2026-10-23T04:57:00.388079+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1113,245 +1337,13 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-18T07:05:45+03:00",
-    "discovered_at": "2026-10-22T23:26:09.376261+00:00",
+    "discovered_at": "2026-10-23T04:57:00.388962+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
       "speaker_id": "kartal-yigit",
       "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/18/italiano-yanip-tutusuyor",
       "published_at": "2026-09-18T07:05:45+03:00"
-    }
-  },
-  {
-    "candidate_id": "81b6869085695de99d36",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "BEŞİKTAŞ için yine normal akışında geçen bir maç daha izledik.",
-    "team": "Beşiktaş",
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.910466+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "30432a398a1283549939",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Derbi zaferi sonrası zayıf bir rakibe karşı oynamak iştahı biraz kaçırabilirdi.",
-    "team": null,
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "negative",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.911461+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "17d461f89cd87a5d717f",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Ama Siyah-Beyazlı oyuncular buna izin vermedi.",
-    "team": null,
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.912418+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "3a34adb26fb2403516fe",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Bildiğimiz gibi maça başlayan Beşiktaş, rahat kazanacağının sinyallerini henüz 5 dakika dolmadan verdi.",
-    "team": "Beşiktaş",
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.913553+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "289a401d4bc34f61a561",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Oh ve Cerny ile girişilen pozisyonlar gelecek gollerin habercisiydi.",
-    "team": null,
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.914617+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "603c05e27dcccd881727",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Arzulu başlangıç sonrası Emirhan'ın golüne kadar Erzurumspor oyunu biraz dengeledi.",
-    "team": "Erzurumspor",
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.915628+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "4523b5331ce661294190",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Zaten sonra da goller arka arkaya gelip tek kaleye döndü.",
-    "team": null,
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Oyuncu Performansı",
-    "type": "player",
-    "sentiment": "neutral",
-    "strength": 7,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.916593+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
-    }
-  },
-  {
-    "candidate_id": "68769938588af1b68502",
-    "commentator": "kartal-yigit",
-    "summary_candidate": "Aradaki kalite farkı bariz bir şekilde ortaya çıkınca zaten konuk takımın yapacağı bir şey yoktu.",
-    "team": null,
-    "players": [
-      "Vlahovic",
-      "Trossard",
-      "Cerny"
-    ],
-    "topic": "Genel yorum",
-    "type": "opinion",
-    "sentiment": "neutral",
-    "strength": 6,
-    "source": "Takvim",
-    "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-    "image_url": null,
-    "confidence": 92,
-    "direct_quote": true,
-    "published_at": "2026-09-12T07:03:27+03:00",
-    "discovered_at": "2026-10-22T23:26:09.917631+00:00",
-    "evidence": {
-      "version": 2,
-      "method": "columnist_byline",
-      "speaker_id": "kartal-yigit",
-      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/09/12/evinde-zor-yenilir",
-      "published_at": "2026-09-12T07:03:27+03:00"
     }
   },
   {
@@ -1373,7 +1365,7 @@
     "confidence": 98,
     "direct_quote": true,
     "published_at": "2026-10-20T06:40:48+03:00",
-    "discovered_at": "2026-10-22T23:26:09.738179+00:00",
+    "discovered_at": "2026-10-23T04:57:00.122058+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1398,7 +1390,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-21T15:29:44+03:00",
-    "discovered_at": "2026-10-22T23:26:12.200268+00:00",
+    "discovered_at": "2026-10-23T04:57:01.512992+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1423,7 +1415,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T13:21:00+03:00",
-    "discovered_at": "2026-10-22T23:26:12.724619+00:00",
+    "discovered_at": "2026-10-23T04:57:01.989689+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1448,7 +1440,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T13:21:00+03:00",
-    "discovered_at": "2026-10-22T23:26:12.731041+00:00",
+    "discovered_at": "2026-10-23T04:57:02.010750+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1477,7 +1469,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T14:38:19+03:00",
-    "discovered_at": "2026-10-22T23:26:12.900385+00:00",
+    "discovered_at": "2026-10-23T04:57:01.962104+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1506,7 +1498,7 @@
     "confidence": 95,
     "direct_quote": true,
     "published_at": "2026-09-14T14:38:19+03:00",
-    "discovered_at": "2026-10-22T23:26:12.924446+00:00",
+    "discovered_at": "2026-10-23T04:57:01.983295+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1534,7 +1526,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.448019+00:00",
+    "discovered_at": "2026-10-23T04:57:04.198751+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1562,7 +1554,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.448992+00:00",
+    "discovered_at": "2026-10-23T04:57:04.199703+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1590,7 +1582,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.450060+00:00",
+    "discovered_at": "2026-10-23T04:57:04.200651+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1618,7 +1610,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.451021+00:00",
+    "discovered_at": "2026-10-23T04:57:04.201576+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1646,7 +1638,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.452008+00:00",
+    "discovered_at": "2026-10-23T04:57:04.202594+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1674,7 +1666,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.452958+00:00",
+    "discovered_at": "2026-10-23T04:57:04.203544+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1702,7 +1694,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.454008+00:00",
+    "discovered_at": "2026-10-23T04:57:04.204504+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1730,7 +1722,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-21T07:03:04+03:00",
-    "discovered_at": "2026-10-22T23:26:14.455140+00:00",
+    "discovered_at": "2026-10-23T04:57:04.205562+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1758,7 +1750,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.772120+00:00",
+    "discovered_at": "2026-10-23T04:57:04.553778+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1786,7 +1778,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.773092+00:00",
+    "discovered_at": "2026-10-23T04:57:04.554785+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1814,7 +1806,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.774161+00:00",
+    "discovered_at": "2026-10-23T04:57:04.555834+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1842,7 +1834,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.775307+00:00",
+    "discovered_at": "2026-10-23T04:57:04.556846+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1870,7 +1862,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.776346+00:00",
+    "discovered_at": "2026-10-23T04:57:04.557863+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1898,7 +1890,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.777326+00:00",
+    "discovered_at": "2026-10-23T04:57:04.559274+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1926,7 +1918,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.778370+00:00",
+    "discovered_at": "2026-10-23T04:57:04.560277+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1954,7 +1946,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:14.779392+00:00",
+    "discovered_at": "2026-10-23T04:57:04.561286+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -1982,7 +1974,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.078419+00:00",
+    "discovered_at": "2026-10-23T04:57:04.970603+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2010,7 +2002,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.079586+00:00",
+    "discovered_at": "2026-10-23T04:57:04.971736+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2038,7 +2030,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.080800+00:00",
+    "discovered_at": "2026-10-23T04:57:04.972910+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2066,7 +2058,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.081805+00:00",
+    "discovered_at": "2026-10-23T04:57:04.974232+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2094,7 +2086,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.082800+00:00",
+    "discovered_at": "2026-10-23T04:57:04.975194+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2122,7 +2114,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.083828+00:00",
+    "discovered_at": "2026-10-23T04:57:04.976159+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2150,7 +2142,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.084867+00:00",
+    "discovered_at": "2026-10-23T04:57:04.977162+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2178,7 +2170,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-15T07:04:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.085994+00:00",
+    "discovered_at": "2026-10-23T04:57:04.978222+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2206,7 +2198,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.366180+00:00",
+    "discovered_at": "2026-10-23T04:57:05.540809+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2234,7 +2226,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.367330+00:00",
+    "discovered_at": "2026-10-23T04:57:05.541944+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2262,7 +2254,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.373637+00:00",
+    "discovered_at": "2026-10-23T04:57:05.542971+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2290,7 +2282,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.374595+00:00",
+    "discovered_at": "2026-10-23T04:57:05.544028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2318,7 +2310,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.375566+00:00",
+    "discovered_at": "2026-10-23T04:57:05.545159+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2346,7 +2338,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.376562+00:00",
+    "discovered_at": "2026-10-23T04:57:05.546411+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2374,7 +2366,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.377508+00:00",
+    "discovered_at": "2026-10-23T04:57:05.547350+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2402,7 +2394,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:15.378485+00:00",
+    "discovered_at": "2026-10-23T04:57:05.548253+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2427,7 +2419,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.731201+00:00",
+    "discovered_at": "2026-10-23T04:57:05.938053+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2452,7 +2444,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.732307+00:00",
+    "discovered_at": "2026-10-23T04:57:05.939305+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2477,7 +2469,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.733453+00:00",
+    "discovered_at": "2026-10-23T04:57:05.940387+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2502,7 +2494,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.734523+00:00",
+    "discovered_at": "2026-10-23T04:57:05.941398+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2527,7 +2519,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.735741+00:00",
+    "discovered_at": "2026-10-23T04:57:05.942416+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2552,7 +2544,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.736804+00:00",
+    "discovered_at": "2026-10-23T04:57:05.943538+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2577,7 +2569,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.737791+00:00",
+    "discovered_at": "2026-10-23T04:57:05.945076+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2602,7 +2594,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.738849+00:00",
+    "discovered_at": "2026-10-23T04:57:05.946145+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2627,7 +2619,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.078835+00:00",
+    "discovered_at": "2026-10-23T04:57:06.299214+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2652,7 +2644,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.079830+00:00",
+    "discovered_at": "2026-10-23T04:57:06.300280+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2677,7 +2669,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.080796+00:00",
+    "discovered_at": "2026-10-23T04:57:06.301268+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2702,7 +2694,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.081767+00:00",
+    "discovered_at": "2026-10-23T04:57:06.302259+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2727,7 +2719,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.082758+00:00",
+    "discovered_at": "2026-10-23T04:57:06.303283+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2752,7 +2744,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.083810+00:00",
+    "discovered_at": "2026-10-23T04:57:06.304287+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2777,7 +2769,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.084786+00:00",
+    "discovered_at": "2026-10-23T04:57:06.305286+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2802,7 +2794,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:16.085737+00:00",
+    "discovered_at": "2026-10-23T04:57:06.306425+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2827,7 +2819,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:14.559122+00:00",
+    "discovered_at": "2026-10-23T04:57:04.094757+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2852,7 +2844,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:14.561059+00:00",
+    "discovered_at": "2026-10-23T04:57:04.096661+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2877,7 +2869,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:14.910891+00:00",
+    "discovered_at": "2026-10-23T04:57:04.471140+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2902,7 +2894,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:15.267061+00:00",
+    "discovered_at": "2026-10-23T04:57:04.763038+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2927,7 +2919,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-22T23:26:15.934450+00:00",
+    "discovered_at": "2026-10-23T04:57:05.572405+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2952,7 +2944,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-22T23:26:15.936547+00:00",
+    "discovered_at": "2026-10-23T04:57:05.574608+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -2977,7 +2969,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-22T23:26:15.938395+00:00",
+    "discovered_at": "2026-10-23T04:57:05.577926+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3002,7 +2994,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.346508+00:00",
+    "discovered_at": "2026-10-23T04:57:06.020370+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3027,7 +3019,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.351350+00:00",
+    "discovered_at": "2026-10-23T04:57:06.025684+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3052,7 +3044,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-22T23:26:15.339866+00:00",
+    "discovered_at": "2026-10-23T04:57:04.679044+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3077,7 +3069,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-13T06:59:10+03:00",
-    "discovered_at": "2026-10-22T23:26:15.342268+00:00",
+    "discovered_at": "2026-10-23T04:57:04.681169+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3102,7 +3094,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.184589+00:00",
+    "discovered_at": "2026-10-23T04:57:05.411520+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3127,7 +3119,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.186674+00:00",
+    "discovered_at": "2026-10-23T04:57:05.413485+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3152,7 +3144,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-15T07:00:21+03:00",
-    "discovered_at": "2026-10-22T23:26:17.141704+00:00",
+    "discovered_at": "2026-10-23T04:57:06.214615+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3177,7 +3169,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-15T07:00:21+03:00",
-    "discovered_at": "2026-10-22T23:26:17.143932+00:00",
+    "discovered_at": "2026-10-23T04:57:06.216867+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3202,7 +3194,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-18T07:01:27+03:00",
-    "discovered_at": "2026-10-22T23:26:15.762614+00:00",
+    "discovered_at": "2026-10-23T04:57:05.472693+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3230,7 +3222,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.118431+00:00",
+    "discovered_at": "2026-10-23T04:57:04.078115+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3258,7 +3250,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.119590+00:00",
+    "discovered_at": "2026-10-23T04:57:04.079370+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3286,7 +3278,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.120695+00:00",
+    "discovered_at": "2026-10-23T04:57:04.080495+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3314,7 +3306,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.121926+00:00",
+    "discovered_at": "2026-10-23T04:57:04.081609+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3342,7 +3334,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.123038+00:00",
+    "discovered_at": "2026-10-23T04:57:04.082744+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3370,7 +3362,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.124125+00:00",
+    "discovered_at": "2026-10-23T04:57:04.089346+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3398,7 +3390,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.125247+00:00",
+    "discovered_at": "2026-10-23T04:57:04.090529+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3426,7 +3418,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.126360+00:00",
+    "discovered_at": "2026-10-23T04:57:04.091681+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3451,7 +3443,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.452230+00:00",
+    "discovered_at": "2026-10-23T04:57:04.503618+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3476,7 +3468,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.453467+00:00",
+    "discovered_at": "2026-10-23T04:57:04.504911+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3501,7 +3493,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.454708+00:00",
+    "discovered_at": "2026-10-23T04:57:04.506015+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3526,7 +3518,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.455893+00:00",
+    "discovered_at": "2026-10-23T04:57:04.507049+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3551,7 +3543,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.457316+00:00",
+    "discovered_at": "2026-10-23T04:57:04.508114+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3576,7 +3568,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.458507+00:00",
+    "discovered_at": "2026-10-23T04:57:04.509134+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3601,7 +3593,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.460967+00:00",
+    "discovered_at": "2026-10-23T04:57:04.510405+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3626,7 +3618,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-06T06:58:40+03:00",
-    "discovered_at": "2026-10-22T23:26:15.462008+00:00",
+    "discovered_at": "2026-10-23T04:57:04.511450+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3653,7 +3645,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.861580+00:00",
+    "discovered_at": "2026-10-23T04:57:04.884991+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3680,7 +3672,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.862675+00:00",
+    "discovered_at": "2026-10-23T04:57:04.886307+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3707,7 +3699,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.863895+00:00",
+    "discovered_at": "2026-10-23T04:57:04.887480+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3734,7 +3726,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.864964+00:00",
+    "discovered_at": "2026-10-23T04:57:04.888610+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3761,7 +3753,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.866004+00:00",
+    "discovered_at": "2026-10-23T04:57:04.889690+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3788,7 +3780,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.867146+00:00",
+    "discovered_at": "2026-10-23T04:57:04.890794+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3815,7 +3807,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.868226+00:00",
+    "discovered_at": "2026-10-23T04:57:04.892165+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3842,7 +3834,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-03T07:02:29+03:00",
-    "discovered_at": "2026-10-22T23:26:15.869351+00:00",
+    "discovered_at": "2026-10-23T04:57:04.893334+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3867,7 +3859,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.391174+00:00",
+    "discovered_at": "2026-10-23T04:57:05.250057+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3892,7 +3884,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.392236+00:00",
+    "discovered_at": "2026-10-23T04:57:05.251080+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3917,7 +3909,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.393298+00:00",
+    "discovered_at": "2026-10-23T04:57:05.252115+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3942,7 +3934,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.394538+00:00",
+    "discovered_at": "2026-10-23T04:57:05.253650+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3967,7 +3959,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.395613+00:00",
+    "discovered_at": "2026-10-23T04:57:05.254990+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -3992,7 +3984,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-29T07:00:11+03:00",
-    "discovered_at": "2026-10-22T23:26:16.396705+00:00",
+    "discovered_at": "2026-10-23T04:57:05.256104+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4017,7 +4009,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.857780+00:00",
+    "discovered_at": "2026-10-23T04:57:05.663741+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4042,7 +4034,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.859026+00:00",
+    "discovered_at": "2026-10-23T04:57:05.664856+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4067,7 +4059,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.860220+00:00",
+    "discovered_at": "2026-10-23T04:57:05.665948+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4092,7 +4084,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.861387+00:00",
+    "discovered_at": "2026-10-23T04:57:05.667028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4117,7 +4109,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.862630+00:00",
+    "discovered_at": "2026-10-23T04:57:05.668164+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4142,7 +4134,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.863872+00:00",
+    "discovered_at": "2026-10-23T04:57:05.669706+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4167,7 +4159,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.865037+00:00",
+    "discovered_at": "2026-10-23T04:57:05.670856+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4192,7 +4184,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-26T07:00:19+03:00",
-    "discovered_at": "2026-10-22T23:26:16.866208+00:00",
+    "discovered_at": "2026-10-23T04:57:05.671990+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4220,7 +4212,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.202502+00:00",
+    "discovered_at": "2026-10-23T04:57:06.097741+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4248,7 +4240,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.209127+00:00",
+    "discovered_at": "2026-10-23T04:57:06.099334+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4276,7 +4268,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.210286+00:00",
+    "discovered_at": "2026-10-23T04:57:06.100487+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4304,7 +4296,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.211431+00:00",
+    "discovered_at": "2026-10-23T04:57:06.101657+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4332,7 +4324,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.212562+00:00",
+    "discovered_at": "2026-10-23T04:57:06.102772+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4360,7 +4352,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.219226+00:00",
+    "discovered_at": "2026-10-23T04:57:06.112007+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4388,7 +4380,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.220375+00:00",
+    "discovered_at": "2026-10-23T04:57:06.113270+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4416,7 +4408,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:17.221494+00:00",
+    "discovered_at": "2026-10-23T04:57:06.114634+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4443,7 +4435,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.286281+00:00",
+    "discovered_at": "2026-10-23T04:57:04.277418+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4470,7 +4462,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.287290+00:00",
+    "discovered_at": "2026-10-23T04:57:04.278483+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4497,7 +4489,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.288277+00:00",
+    "discovered_at": "2026-10-23T04:57:04.279516+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4524,7 +4516,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.289431+00:00",
+    "discovered_at": "2026-10-23T04:57:04.280508+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4551,7 +4543,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.290399+00:00",
+    "discovered_at": "2026-10-23T04:57:04.281482+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4578,7 +4570,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.291393+00:00",
+    "discovered_at": "2026-10-23T04:57:04.282513+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4605,7 +4597,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.292569+00:00",
+    "discovered_at": "2026-10-23T04:57:04.283598+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4632,7 +4624,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-22T06:57:49+03:00",
-    "discovered_at": "2026-10-22T23:26:15.293541+00:00",
+    "discovered_at": "2026-10-23T04:57:04.284629+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4659,7 +4651,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.586663+00:00",
+    "discovered_at": "2026-10-23T04:57:04.783125+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4686,7 +4678,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.587874+00:00",
+    "discovered_at": "2026-10-23T04:57:04.784284+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4713,7 +4705,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.589176+00:00",
+    "discovered_at": "2026-10-23T04:57:04.785518+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4740,7 +4732,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.590327+00:00",
+    "discovered_at": "2026-10-23T04:57:04.787599+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4767,7 +4759,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.591815+00:00",
+    "discovered_at": "2026-10-23T04:57:04.788727+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4794,7 +4786,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.592996+00:00",
+    "discovered_at": "2026-10-23T04:57:04.789918+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4821,7 +4813,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.594072+00:00",
+    "discovered_at": "2026-10-23T04:57:04.791093+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4848,7 +4840,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-14T07:00:53+03:00",
-    "discovered_at": "2026-10-22T23:26:15.595269+00:00",
+    "discovered_at": "2026-10-23T04:57:04.792356+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4878,7 +4870,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.902666+00:00",
+    "discovered_at": "2026-10-23T04:57:05.285305+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4908,7 +4900,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.903594+00:00",
+    "discovered_at": "2026-10-23T04:57:05.286227+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4938,7 +4930,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.904592+00:00",
+    "discovered_at": "2026-10-23T04:57:05.287216+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4968,7 +4960,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.905792+00:00",
+    "discovered_at": "2026-10-23T04:57:05.288203+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -4998,7 +4990,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.906770+00:00",
+    "discovered_at": "2026-10-23T04:57:05.289175+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5028,7 +5020,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.907701+00:00",
+    "discovered_at": "2026-10-23T04:57:05.290113+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5058,7 +5050,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.908613+00:00",
+    "discovered_at": "2026-10-23T04:57:05.291022+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5088,7 +5080,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-10T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.909546+00:00",
+    "discovered_at": "2026-10-23T04:57:05.291950+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5119,7 +5111,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.304002+00:00",
+    "discovered_at": "2026-10-23T04:57:05.693675+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5150,7 +5142,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.305235+00:00",
+    "discovered_at": "2026-10-23T04:57:05.694986+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5181,7 +5173,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.306285+00:00",
+    "discovered_at": "2026-10-23T04:57:05.696016+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5212,7 +5204,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.307388+00:00",
+    "discovered_at": "2026-10-23T04:57:05.697032+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5243,7 +5235,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.308438+00:00",
+    "discovered_at": "2026-10-23T04:57:05.698058+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5274,7 +5266,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.309874+00:00",
+    "discovered_at": "2026-10-23T04:57:05.699151+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5305,7 +5297,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.310898+00:00",
+    "discovered_at": "2026-10-23T04:57:05.700630+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5336,7 +5328,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.312003+00:00",
+    "discovered_at": "2026-10-23T04:57:05.701638+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5367,7 +5359,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.733757+00:00",
+    "discovered_at": "2026-10-23T04:57:06.081843+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5398,7 +5390,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.735247+00:00",
+    "discovered_at": "2026-10-23T04:57:06.104159+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5429,7 +5421,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.736435+00:00",
+    "discovered_at": "2026-10-23T04:57:06.105412+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5460,7 +5452,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.737564+00:00",
+    "discovered_at": "2026-10-23T04:57:06.106476+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5491,7 +5483,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.738569+00:00",
+    "discovered_at": "2026-10-23T04:57:06.107474+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5522,7 +5514,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.739635+00:00",
+    "discovered_at": "2026-10-23T04:57:06.108563+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5553,7 +5545,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.740783+00:00",
+    "discovered_at": "2026-10-23T04:57:06.109993+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5584,7 +5576,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-10T07:16:17+03:00",
-    "discovered_at": "2026-10-22T23:26:16.741815+00:00",
+    "discovered_at": "2026-10-23T04:57:06.111106+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5609,7 +5601,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-19T06:57:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.430140+00:00",
+    "discovered_at": "2026-10-23T04:57:04.361389+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5634,7 +5626,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-19T06:57:51+03:00",
-    "discovered_at": "2026-10-22T23:26:15.431848+00:00",
+    "discovered_at": "2026-10-23T04:57:04.363205+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5661,7 +5653,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:15.875677+00:00",
+    "discovered_at": "2026-10-23T04:57:04.813799+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5688,7 +5680,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:15.877018+00:00",
+    "discovered_at": "2026-10-23T04:57:04.815066+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5715,7 +5707,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-12T06:58:43+03:00",
-    "discovered_at": "2026-10-22T23:26:15.878194+00:00",
+    "discovered_at": "2026-10-23T04:57:04.816329+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5740,7 +5732,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.256789+00:00",
+    "discovered_at": "2026-10-23T04:57:05.152886+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5765,7 +5757,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.258544+00:00",
+    "discovered_at": "2026-10-23T04:57:05.154792+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5790,7 +5782,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.261540+00:00",
+    "discovered_at": "2026-10-23T04:57:05.156695+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5815,7 +5807,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.263268+00:00",
+    "discovered_at": "2026-10-23T04:57:05.158516+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5840,7 +5832,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.265240+00:00",
+    "discovered_at": "2026-10-23T04:57:05.160293+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5865,7 +5857,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-05T07:05:14+03:00",
-    "discovered_at": "2026-10-22T23:26:16.267005+00:00",
+    "discovered_at": "2026-10-23T04:57:05.162279+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5893,7 +5885,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.676466+00:00",
+    "discovered_at": "2026-10-23T04:57:05.614761+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5921,7 +5913,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.678529+00:00",
+    "discovered_at": "2026-10-23T04:57:05.617212+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5949,7 +5941,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.680554+00:00",
+    "discovered_at": "2026-10-23T04:57:05.619725+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -5977,7 +5969,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.682693+00:00",
+    "discovered_at": "2026-10-23T04:57:05.622296+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6005,7 +5997,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.684706+00:00",
+    "discovered_at": "2026-10-23T04:57:05.624288+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6033,7 +6025,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.686894+00:00",
+    "discovered_at": "2026-10-23T04:57:05.626437+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6061,7 +6053,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.688994+00:00",
+    "discovered_at": "2026-10-23T04:57:05.628514+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6089,7 +6081,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-28T06:57:50+03:00",
-    "discovered_at": "2026-10-22T23:26:16.691010+00:00",
+    "discovered_at": "2026-10-23T04:57:05.630727+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6114,7 +6106,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-22T23:26:17.216093+00:00",
+    "discovered_at": "2026-10-23T04:57:06.049950+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6139,7 +6131,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-22T23:26:17.217469+00:00",
+    "discovered_at": "2026-10-23T04:57:06.051476+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6164,7 +6156,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-22T23:26:17.218880+00:00",
+    "discovered_at": "2026-10-23T04:57:06.053211+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6189,7 +6181,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-22T23:26:17.223679+00:00",
+    "discovered_at": "2026-10-23T04:57:06.054767+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6214,7 +6206,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-14T06:58:57+03:00",
-    "discovered_at": "2026-10-22T23:26:17.225183+00:00",
+    "discovered_at": "2026-10-23T04:57:06.056302+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6239,7 +6231,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.393446+00:00",
+    "discovered_at": "2026-10-23T04:57:04.436444+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6264,7 +6256,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.394818+00:00",
+    "discovered_at": "2026-10-23T04:57:04.438005+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6289,7 +6281,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.396023+00:00",
+    "discovered_at": "2026-10-23T04:57:04.439507+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6314,7 +6306,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.397191+00:00",
+    "discovered_at": "2026-10-23T04:57:04.440953+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6339,7 +6331,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.398374+00:00",
+    "discovered_at": "2026-10-23T04:57:04.442336+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6364,7 +6356,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.400050+00:00",
+    "discovered_at": "2026-10-23T04:57:04.443659+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6389,7 +6381,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.401255+00:00",
+    "discovered_at": "2026-10-23T04:57:04.446007+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6414,7 +6406,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-20T06:58:22+03:00",
-    "discovered_at": "2026-10-22T23:26:15.402455+00:00",
+    "discovered_at": "2026-10-23T04:57:04.447233+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6439,7 +6431,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.687097+00:00",
+    "discovered_at": "2026-10-23T04:57:05.001660+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6464,7 +6456,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.688376+00:00",
+    "discovered_at": "2026-10-23T04:57:05.002912+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6489,7 +6481,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.689731+00:00",
+    "discovered_at": "2026-10-23T04:57:05.004232+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6514,7 +6506,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.690894+00:00",
+    "discovered_at": "2026-10-23T04:57:05.005520+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6539,7 +6531,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.692553+00:00",
+    "discovered_at": "2026-10-23T04:57:05.006791+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6564,7 +6556,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.693848+00:00",
+    "discovered_at": "2026-10-23T04:57:05.008028+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6589,7 +6581,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.694961+00:00",
+    "discovered_at": "2026-10-23T04:57:05.009264+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6614,7 +6606,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-16T06:59:32+03:00",
-    "discovered_at": "2026-10-22T23:26:15.696083+00:00",
+    "discovered_at": "2026-10-23T04:57:05.010531+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6641,7 +6633,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.047773+00:00",
+    "discovered_at": "2026-10-23T04:57:05.505861+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6668,7 +6660,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.049035+00:00",
+    "discovered_at": "2026-10-23T04:57:05.507053+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6695,7 +6687,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.050367+00:00",
+    "discovered_at": "2026-10-23T04:57:05.508258+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6722,7 +6714,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.051583+00:00",
+    "discovered_at": "2026-10-23T04:57:05.509432+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6749,7 +6741,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.052954+00:00",
+    "discovered_at": "2026-10-23T04:57:05.511203+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6776,7 +6768,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.054177+00:00",
+    "discovered_at": "2026-10-23T04:57:05.512371+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6803,7 +6795,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.055434+00:00",
+    "discovered_at": "2026-10-23T04:57:05.513566+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6830,7 +6822,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-10-11T07:00:44+03:00",
-    "discovered_at": "2026-10-22T23:26:16.056689+00:00",
+    "discovered_at": "2026-10-23T04:57:05.514761+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6858,7 +6850,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.560478+00:00",
+    "discovered_at": "2026-10-23T04:57:05.906776+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6886,7 +6878,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.561943+00:00",
+    "discovered_at": "2026-10-23T04:57:05.908221+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6914,7 +6906,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.563301+00:00",
+    "discovered_at": "2026-10-23T04:57:05.909659+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6942,7 +6934,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.564599+00:00",
+    "discovered_at": "2026-10-23T04:57:05.911034+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6970,7 +6962,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.565939+00:00",
+    "discovered_at": "2026-10-23T04:57:05.912821+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -6998,7 +6990,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.567182+00:00",
+    "discovered_at": "2026-10-23T04:57:05.914088+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7026,7 +7018,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.568402+00:00",
+    "discovered_at": "2026-10-23T04:57:05.915593+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7054,7 +7046,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-20T07:06:42+03:00",
-    "discovered_at": "2026-10-22T23:26:16.569887+00:00",
+    "discovered_at": "2026-10-23T04:57:05.917036+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7082,7 +7074,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.927526+00:00",
+    "discovered_at": "2026-10-23T04:57:06.928845+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7110,7 +7102,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.928608+00:00",
+    "discovered_at": "2026-10-23T04:57:06.929885+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7138,7 +7130,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.929783+00:00",
+    "discovered_at": "2026-10-23T04:57:06.930945+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7166,7 +7158,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.930891+00:00",
+    "discovered_at": "2026-10-23T04:57:06.931969+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7194,7 +7186,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.932057+00:00",
+    "discovered_at": "2026-10-23T04:57:06.933064+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7222,7 +7214,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.933307+00:00",
+    "discovered_at": "2026-10-23T04:57:06.934239+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7250,7 +7242,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.934979+00:00",
+    "discovered_at": "2026-10-23T04:57:06.935387+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
@@ -7278,7 +7270,7 @@
     "confidence": 92,
     "direct_quote": true,
     "published_at": "2026-09-13T07:00:18+03:00",
-    "discovered_at": "2026-10-22T23:26:16.936364+00:00",
+    "discovered_at": "2026-10-23T04:57:06.936570+00:00",
     "evidence": {
       "version": 2,
       "method": "columnist_byline",
