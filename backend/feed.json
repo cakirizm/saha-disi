@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:08:59.392166+00:00",
+  "generated_at": "2026-10-23T19:18:56.095775+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -108199,12 +108199,12 @@
       "away": "Kocaelispor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "kickoff": "2026-10-23T20:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-09-eyupspor-kasmpasa",
@@ -111865,6 +111865,18 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-LSIsSySXNJQ",
+      "title": "⚽️ KARMA 11 | Galatasaray - Fenerbahçe w/ Metin Tekin",
+      "url": "https://www.youtube.com/watch?v=LSIsSySXNJQ",
+      "date": "2026-10-23T15:00:14+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "metin-tekin"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-_5opsPqVA60",
       "title": "Nihat Kahveci: İsmail Hoca, Aston Villa’dan 6 yedi, istifa etmedi. Ama...",
@@ -115546,18 +115558,6 @@
       "title": "Trabzonspor kadrosunun çok iyi olduğunu sanırsa hata yapar | Serdar Ali Çelikler, Ilgaz Çınar | #4",
       "url": "https://www.youtube.com/watch?v=CMA6sCbfC8g",
       "date": "2026-09-07T17:02:43+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-Jx5a7qPkZUs",
-      "title": "Beşiktaş en büyük şampiyonluk adayı | Serdar Ali Çelikler, Ilgaz Çınar | Son Raund | #3",
-      "url": "https://www.youtube.com/watch?v=Jx5a7qPkZUs",
-      "date": "2026-09-07T17:02:39+00:00",
       "source": "VOLE / NEO Spor",
       "platform": "YouTube",
       "commentators": [
