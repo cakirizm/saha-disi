@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:57:36.189103+00:00",
+  "generated_at": "2026-10-23T10:09:26.434566+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -106026,6 +106026,1068 @@
         "published_at": "2026-10-23T07:00:00+03:00"
       },
       "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3917,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Skordan bağımsız olarak, tribünlerin coşkusu görülmeye değerdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3918,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Crystal Palace ise 5 kez gol şansı yakaladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3919,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Trossard",
+        "Ndidi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trossard, Ndidi ve sonradan giren Salih idare ettiler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3920,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "İyi de hocam, bunca paslanmış oyuncu yerine, yıldızları koy.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3921,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bak Olaitan resmen isyan etti attığı golde.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3922,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Büyük maçlar, yıldız isimler ile kazanılır.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3923,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Puanı ikram ettik UEFA Avrupa Ligi, son 16 için şans yüksek.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3924,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İngiliz temsilcisi önündeki futbol ve skor beklentilere cevap veremedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/italiano-boyle-istedi-2642037",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3925,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Belçika Ligi’nin genç yaşta FIFA kokartı takan hakemlerinden biri olan Lawrence Visser, 2017 yılından bu yana uluslararası maçlarda görev yapan tecrübeli bir isim.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3926,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maç, hakem açısından genel olarak oldukça rahat bir mücadele şeklinde geçti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3927,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İki takım oyuncuları da sahanın içinde tamamen futbolun gerekliliklerine odaklandı ve oyunu bozmadılar veya sertliğe başvurmadılar.14.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3928,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "dakikada hakem, Trabzonspor lehine vermesi gereken net bir penaltıyı atladı ve uzun süre VAR incelemesinin tamamlanmasını bekledi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3929,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "VAR’dan gelen bilgi doğrultusunda, penaltı pozisyonunun hemen öncesinde bir ofsayt tespiti yapıldığı anlaşıldı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3930,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakem beyaz noktayı göstererek, son derece doğru bir penaltı kararına imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3931,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maçın uzatma dakikalarında ikinci sarı kartını görerek oyundan ihraç edilen Cabral, bu kırmızı kartı hak etti hakem yanılmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ilk-penaltiyi-kacirdi-ama-2642021",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3932,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Karşılaşmayı Hollanda’nın deneyimli FIFA kokartlı hakemi Danny Makkelie yönetti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3933,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Üst düzey uluslararası tecrübesiyle bilinen Hollandalı hakem, Beşiktaş-Crystal Palace mücadelesinde saha içi duruşuyla bu tecrübesini yansıtmak istedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3934,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu hafta izlediğimiz diğer Türk takımlarının maçlarında olduğu gibi, bu mücadelede de oyuncular futbol odaklı ve futbolun güzelliklerini sergileyen tavırlar içerisindeydiler.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3935,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Steril saha ortamı hakemin işini kolaylaştırırken, Makkelie aşırı rahat davranışlarıyla dikkat çekti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3936,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kriz anlarının yaşanmadığı maçta, ceza sahası içindeki penaltı beklentilerinde devam kararları doğruydu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3937,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Trossard"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Ancak Makkelie, tecrübesine yakışmayacak kart hataları yaptı: Beşiktaş’tan Oh yaklaşık 10 dakikada iki net sarı kartlık hareketine rağmen cezadan kurtuldu; McNeil’in Trossard’a yaptığı kontrolsüz hareket kart görmedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3938,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "dakikada Ümit Akdağ’a çıkarılan sarı kart tamamen yanlıştı, rakibin aldatmaya yönelik hareketten kart görmesi gerekirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3939,
+      "commentator": "deniz-coban",
+      "date": "2026-10-23T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "dakikada Ümit’in iki ayağıyla sıçrayarak, krampon vidalarını rakibin bileğine getirdiği yaralayıcı hamleye gösterdiği kırmızı kart son derece doğru ve yerindeydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/ortalama-bir-performans-2642024",
+        "published_at": "2026-10-23T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3940,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Euroleague'de ilk kez karşı karşıya gelen Anadolu Efes-Beşiktaş derbisinde kazanan Lacivert-Beyazlılar oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3941,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Karşılaşmada skor kontrolünü elinde bulunduran Lacivert-Beyazlılar, rakibinin kendine çok da yaklaştırmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3942,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş da yine en büyük sorun, etkili savunma karşısında, tercih edilen üçlüklerde isabet olmayınca, farkın da açılmasıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3943,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takımda bir tek Nowell'dan skor katkısı alan SiyahBeyazlılar'da Wilbekin de durunca, sonuç da kaçınılmaz oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3944,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sezona iyi başlayan Mike James'in ciddi sakatlığı sonrası, hemen transfer edilen ABD'li oyun kurucu kendini kanıtlama isteğini bu kez takımın en skoreri olarak ortaya koydu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 3945,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçın başında Anadolu Efes'in etkili olan savunması karşısında hücumda sıkışan ve üçlük atışlarıyla skor üretmeye çalışan Beşiktaş isabet bulamayınca, skorda geriye düştü: 18-9.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3946,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Jovcic ANADOLU EFES: Loyd 4, Yusta 13, Saric 14, Malcolm 15, Fernando 4, Payne 22, Ercan Osmani 9, Strazel 4, Jones 4 BEŞİKTAŞ: Dotson 9, Walker 5, Berk Uğurlu, Morgan 3, Metecan Birsen 6, Wilbekin 10, Omoruyi 16, Brown 10, Nowell 14, Gabriel, Zizic 7 1.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3947,
+      "commentator": "hatice-yucel",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş bu bölümü 6'da 1 üçlükle tamamladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/turk-derbisi-anadolu-efesin-2642049",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3948,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Dün gece de geçen sezonun Konferans Ligi şampiyonu bir Premier Lig takımı karşısında, sert rotasyonlu bir kadro sahaya sürmekten çekinmedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3949,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Italiano’nun uzun vadede bir planı var, kim oynarsa oynasın bir sistem takımı oluşturmak.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3950,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak taraftarın gönlünü öyle kazanmış ki yapacağı tüm hamleleri, yenilgiler de olsa kabullendiği aşikar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3951,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Bence bu çizginin uzun süreçte Beşiktaş’ı başarılı sonuçlara taşıması kaçınılmaz, yeter ki bu destek sürsün...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3952,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk 45’te Beşiktaş iyi savunma yaparak ama hücumsal anlamda etkisizdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3953,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Ndidi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Tek etkili atakta Ndidi’nin 45+2’deki golü ilk yarı adına Beşiktaş’ı soyunma odasına moralli ve önde gitmesini sağladı...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3954,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Üst üste yediğimiz iki golün de basit savunma zaaflarından gelmesi, Beşiktaş’ın bu sezon en çok çalışması gereken yerin defans olduğunu gösteriyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3955,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-23T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Çünkü ligdeki 3 yenilgisine baktığımızda top kayıpları, baskı anındaki hatalar ve asist gibi yapılan geri paslardan canı çok yanıyor Siyah-Beyazlılar’ın…Hiç yoktan 2-1 yenik duruma düştükten sonra Italiano, Murillo ve Olaitan’ı bir anlamda oyuna almak zorunda kaldı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kaybetseydi-yazik-olurdu-2642036",
+        "published_at": "2026-10-23T06:59:00+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -110720,7 +111782,7 @@
     {
       "id": "ndidi",
       "name": "Ndidi",
-      "comment_count": 9,
+      "comment_count": 11,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ndidi_20170114.jpg/500px-Ndidi_20170114.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -110786,7 +111848,7 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 40,
+      "comment_count": 42,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -110803,6 +111865,152 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-PnSa8wRWGOM",
+      "title": "Nihat Kahveci: Asıl tebriği Beşiktaş taraftarına ediyorum. Konuşurken diken diken oluyorum...",
+      "url": "https://www.youtube.com/watch?v=PnSa8wRWGOM",
+      "date": "2026-10-23T09:51:18+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube--VRZcGqPzMc",
+      "title": "Astroloji saati: Derbi gününe dolunay denk gelmesi | Ali Sunal, Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=-VRZcGqPzMc",
+      "date": "2026-10-23T09:45:07+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-irkFp2_W1Lg",
+      "title": "Premier Lig ve Bundesliga hakemleri ligimizi yönetirse Avrupa'da final görürüz | Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=irkFp2_W1Lg",
+      "date": "2026-10-23T08:15:03+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Dh7Ok5b23W4",
+      "title": "Nihat Kahveci: Beşiktaş taraftarı, görevini %110 yaptı.",
+      "url": "https://www.youtube.com/watch?v=Dh7Ok5b23W4",
+      "date": "2026-10-23T07:15:39+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-Lsair889-sc",
+      "title": "Yalnız kalmak özgürlük mü, hüzün mü? | Ali Sunal, Serdar Ali Çelikler",
+      "url": "https://www.youtube.com/watch?v=Lsair889-sc",
+      "date": "2026-10-23T07:15:04+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-G-trrw6sAHo",
+      "title": "🇹🇷 \"Sergen Yalçın'a uygun bir görev!\" | Erman Yaşar & Emre Özcan | Atıf Bey Sokak",
+      "url": "https://www.youtube.com/watch?v=G-trrw6sAHo",
+      "date": "2026-10-23T06:00:28+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan",
+        "erman-yasar"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-BAFmEQfW6Kc",
+      "title": "🔴CANLI | Beşiktaş - Crystal Palace Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
+      "url": "https://www.youtube.com/watch?v=BAFmEQfW6Kc",
+      "date": "2026-10-22T23:11:44+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-3yZMq8ix5n0",
+      "title": "Nihat Kahveci: Beşiktaş; bu kadar olumsuzluğa, talihsizliğe, beklenmedik duruma rağmen yenilmedi.",
+      "url": "https://www.youtube.com/watch?v=3yZMq8ix5n0",
+      "date": "2026-10-22T22:05:53+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-K3CyRg413Lc",
+      "title": "Nihat Kahveci: 7 puana 100 kere imza atarım ben; Marsilya, Crystal Palace, Hoffenheim'a karşı.",
+      "url": "https://www.youtube.com/watch?v=K3CyRg413Lc",
+      "date": "2026-10-22T21:45:23+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-bBdMMlQb1to",
+      "title": "Nihat Kahveci: İç sahada yenilgisiz bir Beşiktaş. Bu atmosferle nasıl yenilirsin abi; bir koşan üç..",
+      "url": "https://www.youtube.com/watch?v=bBdMMlQb1to",
+      "date": "2026-10-22T21:26:59+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-8qatS91tUho",
+      "title": "🚑 Ake'nin yokluğunda İsmail Kartal ne yapmalı? | Erman Yaşar & Emre Özcan | Atıf Bey Sokak",
+      "url": "https://www.youtube.com/watch?v=8qatS91tUho",
+      "date": "2026-10-22T20:30:24+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "emre-ozcan",
+        "erman-yasar"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-nBzoLnN7zYU",
+      "title": "🔴 CANLI | Beşiktaş - Crystal Palace Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
+      "url": "https://www.youtube.com/watch?v=nBzoLnN7zYU",
+      "date": "2026-10-22T20:24:20+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-Kvph9hH85wI",
       "title": "Nebil Evren ve Nihat Kahveci'nin Trabzonspor'un ikinci golündeki sevinci: İşte abi; 6 puan, tertemiz",
@@ -110876,30 +112084,6 @@
       "platform": "YouTube",
       "commentators": [
         "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-BAFmEQfW6Kc",
-      "title": "🔴CANLI | Beşiktaş - Crystal Palace Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
-      "url": "https://www.youtube.com/watch?v=BAFmEQfW6Kc",
-      "date": "2026-10-22T11:20:06+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-nBzoLnN7zYU",
-      "title": "🔴 CANLI | Beşiktaş - Crystal Palace Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Avrupa Ligi",
-      "url": "https://www.youtube.com/watch?v=nBzoLnN7zYU",
-      "date": "2026-10-22T11:18:25+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     },
@@ -114380,130 +115564,6 @@
       "platform": "YouTube",
       "commentators": [
         "ali-ece"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-vQaqNR04V8c",
-      "title": "Vincenzo Italiano'nun taktikçiliği, İsmail Kartal'ın ezberciliğini yendi | Ali Ece, Emek Ege | #1",
-      "url": "https://www.youtube.com/watch?v=vQaqNR04V8c",
-      "date": "2026-09-07T15:34:01+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "ali-ece"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-ZK5wuu9p4FU",
-      "title": "Nihat Kahveci: Süper Lig'e robot hakem gelse o da kötü yönetir!",
-      "url": "https://www.youtube.com/watch?v=ZK5wuu9p4FU",
-      "date": "2026-09-07T10:29:29+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-Jw8QufAHS3o",
-      "title": "🎁 The top 3 transfers from the final days of the summer window — and some crazy movements! 🍿",
-      "url": "https://www.youtube.com/watch?v=Jw8QufAHS3o",
-      "date": "2026-09-07T07:09:27+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-Ijp_0K2uIOQ",
-      "title": "Nihat Kahveci: Beşiktaş, bu kadroyla geçiş oyununu da çok iyi oynuyor.",
-      "url": "https://www.youtube.com/watch?v=Ijp_0K2uIOQ",
-      "date": "2026-09-06T12:05:22+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-uN0f93laEiU",
-      "title": "🔴 CANLI | Fenerbahçe - Beşiktaş Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
-      "url": "https://www.youtube.com/watch?v=uN0f93laEiU",
-      "date": "2026-09-05T21:27:45+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-0JO8WUOEMh8",
-      "title": "Nihat Kahveci: Çorum maçında Trossard için \"Geldiğinden beri en iyi maçıydı\" dedim, bugün o günden..",
-      "url": "https://www.youtube.com/watch?v=0JO8WUOEMh8",
-      "date": "2026-09-05T20:52:23+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Trossard"
-      ]
-    },
-    {
-      "id": "youtube-RWxEfKctrZM",
-      "title": "Nihat Kahveci: Vincenzo Italiano'yu Real Madrid'in başına koy, Vlahovic'e 47 gol attırır LaLiga'da!",
-      "url": "https://www.youtube.com/watch?v=RWxEfKctrZM",
-      "date": "2026-09-05T20:31:22+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Vlahovic"
-      ]
-    },
-    {
-      "id": "youtube-IZOqOlLVc4c",
-      "title": "Nihat Kahveci: İsmail Kartal, Şampiyonlar Ligi'ne girerek işleri düzeltmişti. Şimdi yine...",
-      "url": "https://www.youtube.com/watch?v=IZOqOlLVc4c",
-      "date": "2026-09-05T19:39:31+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-CeaCJEEvumQ",
-      "title": "Nihat Kahveci: Maç önünde Vincenzo Italiano, \"Büyük takım gibi oynayacağız\" dedi. Sanki İnönü...",
-      "url": "https://www.youtube.com/watch?v=CeaCJEEvumQ",
-      "date": "2026-09-05T19:32:46+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-8WQF9Y32OZw",
-      "title": "Nihat Kahveci: Vincenzo Italiano'ya Emirhan Topçu'nun geçen seneki derbi performansları izletilse...",
-      "url": "https://www.youtube.com/watch?v=8WQF9Y32OZw",
-      "date": "2026-09-05T17:36:29+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     }
