@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:44:13.152082+00:00",
+  "generated_at": "2026-10-24T16:39:08.133954+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -108229,12 +108229,12 @@
       "away": "Erzurumspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 3,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "kickoff": "2026-10-24T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-09-samsunspor-amed-sk",
@@ -108249,7 +108249,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "kickoff": "2026-10-24T19:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-09-konyaspor-genclerbirligi",
@@ -111865,6 +111865,30 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-WKnju06vIos",
+      "title": "City'den İlk Mağlubiyet, Emery, Kış Çayı, 1863 Boğaziçi, Yeni Bond Erman Yaşar | Gol Yağmuru #07",
+      "url": "https://www.youtube.com/watch?v=WKnju06vIos",
+      "date": "2026-10-24T14:02:15+00:00",
+      "source": "Socrates",
+      "platform": "YouTube",
+      "commentators": [
+        "erman-yasar"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-ZwSbSl-2BmA",
+      "title": "Nihat Kahveci: Fenerbahçe, şampiyon olmak istiyorsa Galatasaray deplasmanında kazanmak zorunda.",
+      "url": "https://www.youtube.com/watch?v=ZwSbSl-2BmA",
+      "date": "2026-10-24T13:37:53+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-LSIsSySXNJQ",
       "title": "⚽️ KARMA 11 | Galatasaray - Fenerbahçe w/ Metin Tekin",
@@ -115534,30 +115558,6 @@
       "title": "Senin hem kadron hem hocan yetersiz kardeşim | Serdar Ali Çelikler",
       "url": "https://www.youtube.com/watch?v=CIqWaJGoVIk",
       "date": "2026-09-07T17:22:18+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube--z7Qrj9P1jo",
-      "title": "Galatasaray Sporting'den puan almak için ekstra işler yapmalı | Serdar Ali Çelikler, Ilgaz Çınar #7",
-      "url": "https://www.youtube.com/watch?v=-z7Qrj9P1jo",
-      "date": "2026-09-07T17:02:52+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-CMA6sCbfC8g",
-      "title": "Trabzonspor kadrosunun çok iyi olduğunu sanırsa hata yapar | Serdar Ali Çelikler, Ilgaz Çınar | #4",
-      "url": "https://www.youtube.com/watch?v=CMA6sCbfC8g",
-      "date": "2026-09-07T17:02:43+00:00",
       "source": "VOLE / NEO Spor",
       "platform": "YouTube",
       "commentators": [
