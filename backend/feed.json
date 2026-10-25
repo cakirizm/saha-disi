@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T01:14:22.341898+00:00",
+  "generated_at": "2026-10-25T06:14:38.104434+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -79,22 +79,22 @@
       "photoURL": null
     },
     {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
       ],
       "photoURL": null
     },
     {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
       "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
+      "primarySource": "A Spor",
+      "avatar": "LT",
       "focusTeams": [
         "Galatasaray"
       ],
@@ -107088,6 +107088,229 @@
         "published_at": "2026-10-23T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3956,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Aslan’ın borcu var Kanarya fırsat kollayacak OSİMHEN HİÇBİR TAKIMDA YOK (+) Lille deplasmanında 4 golle alınan 3 puan ve özellikle ikinci yarıda oynanan futbol, G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3957,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Derbi öncesinde sağlam oyun referansıyla G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3958,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "(+) Mertens'i aradığı büyük maçların ardından Barcelona ve Lille müsabakalarında Batrakov'dan tabela katkısı alan sarı-kırmızılıların elindeki Osimhen silahı, Süper Lig'de hiçbir takımda yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3959,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Nijeryalı oyuncu, Ake'nin de yokluğunda Fenerbahçe savunmasına hem yapacağı pres hem de yakalayacağı pozisyonlarla kâbusu yaşatabilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3960,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "(+) Okan Buruk ile gelen 4 şampiyonlukla ezeli rakibine büyük bir üstünlük kuran G.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3961,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saray'ın, Trabzonspor karşısında yaşadığı ağır yenilginin ardından bu derbide tribünlere gelecek 50 bin taraftarına doğrusu bir galibiyet borcu var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3962,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Tribün-takım sinerjisi, Buruk'un ekibi için büyük koz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3963,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-25T06:40:58+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "YUMUŞAK KARNI SALLAİ (-) Artık 90 dakika sahada kalsa da Osimhen'in sakatlık sonrasında kendini koruyarak hesaplı oynadığı ortada.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/25/aslanin-borcu-var-kanarya-firsat-kollayacak",
+        "published_at": "2026-10-25T06:40:58+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -111718,7 +111941,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 51,
+      "comment_count": 52,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -111800,7 +112023,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 72,
+      "comment_count": 75,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
