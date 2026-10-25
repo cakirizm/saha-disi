@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:43:47.286055+00:00",
+  "generated_at": "2026-10-25T16:28:54.324971+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -108482,12 +108482,12 @@
       "away": "Gençlerbirliği",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "kickoff": "2026-10-25T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-09-goztepe-corum-fk",
@@ -108502,7 +108502,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "kickoff": "2026-10-25T19:00:00+03:00",
-      "status": "scheduled"
+      "status": "awaiting_result"
     },
     {
       "id": "sl-2026-09-besiktas-basaksehir",
@@ -112088,6 +112088,18 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-OM8mkGb3Npk",
+      "title": "Nihat Kahveci: Lukaku mu, Vedat mı... Ben olsam derbide Lukaku'yu oynatırdım.",
+      "url": "https://www.youtube.com/watch?v=OM8mkGb3Npk",
+      "date": "2026-10-25T13:00:27+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-pyCXGKLToOo",
       "title": "Nihat Kahveci: Galatasaray'ın derbi 11'inde bir kişi değişir. Sara yerine Lemina'yı bekliyorum.",
@@ -115773,18 +115785,6 @@
       "players": [
         "Trossard"
       ]
-    },
-    {
-      "id": "youtube-bztHi6vTQDc",
-      "title": "Nihat Kahveci: Beşiktaş'ın derbideki oyunu, rakiplerini tedirgin etmiştir.",
-      "url": "https://www.youtube.com/watch?v=bztHi6vTQDc",
-      "date": "2026-09-07T18:51:09+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
     }
   ]
 }
