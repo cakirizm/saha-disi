@@ -949,6 +949,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-09-besiktas-basaksehir",
+    "league": "Trendyol Süper Lig",
+    "week": 9,
+    "home": "Beşiktaş",
+    "away": "Başakşehir",
+    "kickoff": "",
+    "home_score": 2,
+    "away_score": 0,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-09-eyupspor-kasmpasa",
     "league": "Trendyol Süper Lig",
     "week": 9,
@@ -956,6 +969,19 @@
     "away": "Kasımpaşa",
     "kickoff": "",
     "home_score": 0,
+    "away_score": 1,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
+    "id": "sl-2026-09-galatasaray-fenerbahce",
+    "league": "Trendyol Süper Lig",
+    "week": 9,
+    "home": "Galatasaray",
+    "away": "Fenerbahçe",
+    "kickoff": "",
+    "home_score": 2,
     "away_score": 1,
     "image_url": null,
     "source": "TFF",
@@ -1001,6 +1027,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-09-rizespor-trabzonspor",
+    "league": "Trendyol Süper Lig",
+    "week": 9,
+    "home": "Rizespor",
+    "away": "Trabzonspor",
+    "kickoff": "",
+    "home_score": 3,
+    "away_score": 4,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-09-samsunspor-amed-sk",
     "league": "Trendyol Süper Lig",
     "week": 9,
@@ -1009,45 +1048,6 @@
     "kickoff": "",
     "home_score": 1,
     "away_score": 2,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-09-besiktas-basaksehir",
-    "league": "Trendyol Süper Lig",
-    "week": 9,
-    "home": "Beşiktaş",
-    "away": "Başakşehir",
-    "kickoff": "26.10.2026 19:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-09-rizespor-trabzonspor",
-    "league": "Trendyol Süper Lig",
-    "week": 9,
-    "home": "Rizespor",
-    "away": "Trabzonspor",
-    "kickoff": "26.10.2026 19:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-09-galatasaray-fenerbahce",
-    "league": "Trendyol Süper Lig",
-    "week": 9,
-    "home": "Galatasaray",
-    "away": "Fenerbahçe",
-    "kickoff": "26.10.2026 21:30",
-    "home_score": null,
-    "away_score": null,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
