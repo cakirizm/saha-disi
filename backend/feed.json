@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:15:32.563557+00:00",
+  "generated_at": "2026-10-26T06:24:16.942884+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -146,6 +146,17 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
+      "id": "olcay-cakir",
+      "name": "Olcay Çakır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "sinan-vardar",
       "name": "Sinan Vardar",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -167,17 +178,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "olcay-cakir",
-      "name": "Olcay Çakır",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "OÇ",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "iskender-gunen",
@@ -246,6 +246,17 @@
       "photoURL": null
     },
     {
+      "id": "arda-erol",
+      "name": "Arda Erol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "AE",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "serkan-yetismisoglu",
       "name": "Serkan Yetişmişoğlu",
       "role": "Futbol yorumcusu / muhabir",
@@ -262,17 +273,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "RK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "arda-erol",
-      "name": "Arda Erol",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "AE",
       "focusTeams": [
         "Genel"
       ],
@@ -107335,7 +107335,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107362,7 +107362,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107389,7 +107389,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107418,7 +107418,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107445,7 +107445,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107472,7 +107472,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107501,7 +107501,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
     },
@@ -107528,9 +107528,444 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/26/derbide-mazeret-degil-karakter-konusur",
-        "published_at": "2026-10-26T01:35:27+03:00"
+        "published_at": "2026-10-26T07:02:07+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 3972,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sarı-Lacivertliler için Galatasaray deplasmanı, en sıkıntılı döneme denk geldi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3973,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak şu da bir gerçek; büyük takımlar için ayağa kalkma adına derbiler en büyük fırsat olarak görülür.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3974,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçeli futbolcuların da böyle düşündüğüne eminim.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3975,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi",
+        "Kante"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Saha dışında, Aziz Yıldırım’ın Divan Kurulu konuşmasında, “İsmail Kartal aklımda yoktu” sözleri ve Guendouzi ile Kante’nin maliyetlerini bir kez daha tartışmaya açması, zamanlama açısından çok da doğru olmadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3976,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe şu anda bu ikiliye sahip olsa da oyun kurulumunda ciddi sıkıntı yaşıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3977,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aston Villa ve Slavia Prag maçları, bu sorunun net şekilde ortaya çıktığı karşılaşmalar oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3978,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray, özellikle evinde yoğun hücum baskısı yapan bir takım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3979,
+      "commentator": "arda-erol",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Savunma oyuncular karşılasa bile dönen toplara baskı, Fenerbahçe’nin ana hücum planı olabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "arda-erol",
+        "url": "https://www.fanatik.com.tr/yazarlar/arda-erol/temasli-defans-direkt-hucum-2642285",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3980,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor, Thomas Reis’la yakaladığı yükselişi Rize deplasmanında sürdürmek istiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3981,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Eksikler mazerete dönüşmedi; rotasyon, yeni oyuncular kazanmanın fırsatı oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3982,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak bu atmosfer Trabzonspor’un yıldızlarını da ateşleyebilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3983,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Onu izlemek, rakip tribünler için de özel bir futbol buluşması.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3984,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Derbinin oynanacağı akşamda Trabzonspor, kazanıp zirveye daha da yaklaşmak istiyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3985,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hedef büyüdükçe sınav zorlaşırRecep Uçar’ın Rizespor’u, kompakt yapısıyla özellikle başlangıçta Trabzonspor’u zorlayabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3986,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Reis’ın takımı, oyuna göre şekil değiştirebildiğini, usta ayaklarıyla zoru kolaylaştırabildiğini gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3987,
+      "commentator": "olcay-cakir",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Onana’dan Salah’a uzanan bu hikâyede kazanmak alışkanlığa, gol yememek ortak bir iddiaya dönüşüyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bu-firsat-kacmaz-2642286",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
     }
   ],
   "matches": [
@@ -112184,13 +112619,13 @@
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 29,
+      "comment_count": 30,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 22,
+      "comment_count": 23,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
