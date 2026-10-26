@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:24:16.942884+00:00",
+  "generated_at": "2026-10-26T14:20:49.310027+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -101,17 +101,6 @@
       "photoURL": null
     },
     {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "orhan-yildirim",
       "name": "Orhan Yıldırım",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -119,6 +108,17 @@
       "avatar": "OY",
       "focusTeams": [
         "Beşiktaş"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -301,6 +301,17 @@
       "photoURL": null
     },
     {
+      "id": "songul-soysal",
+      "name": "Songül Soysal",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SS",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "yunus-emre-sel",
       "name": "Yunus Emre Sel",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -308,17 +319,6 @@
       "avatar": "YES",
       "focusTeams": [
         "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "songul-soysal",
-      "name": "Songül Soysal",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SS",
-      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -107966,6 +107966,440 @@
         "published_at": "2026-10-26T06:59:00+03:00"
       },
       "image_kind": "verified_portrait"
+    },
+    {
+      "id": 3988,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonluk isteyen Beşiktaş, kritik maça çıkıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3989,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Başakşehir",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Evinde Başakşehir’i ağırlayacak olan Kartal’da tüm planlar üç puan üstüne kurulu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3990,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak üst üste gelen maçlar yorgunluk yarattı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3991,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Her ne kadar, ‘En iyi idman; maçtır’ dense de fiziki yetersizlik mevcut.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3992,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Aşırı gol atma isteğinin yarattığı stres, final vuruşlarını olumsuz etkiliyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3993,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Trossard"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trossard, Olaitan ve Salih’in etkili oyunu her zaman skora yansımıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3994,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş orta alandaki üstünlüğü ile rakiplerini resmen boğuyordu!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3995,
+      "commentator": "orhan-yildirim",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Poku gibi yetenekli oyuncuya yer açılmıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/tek-yol-galibiyet-2642287",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3996,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Mercedes pilotu Kimi Antonelli, pole pozisyonundan başladığı mücadeleyi kontrollü bir performansla galibiyete taşısa da şampiyonluk için, en azından ABD’de, şartlar sağlanamadı ve rota Meksika’ya çevrildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3997,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Austin’de üç antrenman seansında da Ferrari zirvedeydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3998,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Antonelli'nin pole pozisyonu, Mercedes'in sıralama seansında gerekli performans artışını gerçekleştirdiğini gösterirken Ferrari'nin antrenmanlardaki üstünlüğünü aynı ölçüde koruyamadığına işaret etti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 3999,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Son yarışlardaki gerek pilotaj, gerek pit duvarı, gerekse insiyatif hatalarıyla gündemden düşmeyen İtalyanlar için Austin’de aldıkları puanlar oldukça önemli.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4000,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Elbette ki şampiyonluk için değil, podyum ve üst sıralar için rekabetçi kalabilmek adına.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4001,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "ADIM ADIM ŞAMPİYONLUĞAAntonelli, Austin'de elde ettiği galibiyetle sezonun dokuzuncu Grand Prix zaferini aldı ve şampiyonluk yolunda önemli bir adım attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4002,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak Mercedes pilotu, bu sonuçla dünya şampiyonluğunu matematiksel olarak garantileyemedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4003,
+      "commentator": "songul-soysal",
+      "date": "2026-10-26T10:23:34+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "George Russell'ın sekizinciliği ve Hamilton'ın dördüncülüğü, şampiyonluk kararının bir sonraki yarışa kalmasında etkili oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "songul-soysal",
+        "url": "https://www.fanatik.com.tr/yazarlar/songul-soysal/sampiyonluk-meksikaya-kaldi-mercedes-zirvede-ferrari-takipte-2642310",
+        "published_at": "2026-10-26T10:23:34+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -112726,7 +113160,7 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 42,
+      "comment_count": 43,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -112743,6 +113177,42 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ep3K7wrdzLc",
+      "title": "🔴 CANLI | Galatasaray - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=ep3K7wrdzLc",
+      "date": "2026-10-26T10:28:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-HQuW2iqlKFI",
+      "title": "🔴 CANLI | Beşiktaş - Başakşehir Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=HQuW2iqlKFI",
+      "date": "2026-10-26T10:27:17+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-IkyXYizYniw",
+      "title": "🔴 CANLI | Galatasaray - Fenerbahçe Maç Önü | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=IkyXYizYniw",
+      "date": "2026-10-26T10:20:53+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-yl9dVYffj1Q",
       "title": "Galatasaray ve Fenerbahçe futbolcuları bir müzik grubu kursaydı | Ali Ece",
@@ -116400,42 +116870,6 @@
       "platform": "YouTube",
       "commentators": [
         "ali-ece"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-xivIdpP5iqU",
-      "title": "PPDA’yı halk dilinde anlatacaksak: Taktik yok, bam bam! | Ali Ece",
-      "url": "https://www.youtube.com/watch?v=xivIdpP5iqU",
-      "date": "2026-09-08T12:52:37+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "ali-ece"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-HAJhHoXLTe8",
-      "title": "Italliano fark yarattı | Ali Ece",
-      "url": "https://www.youtube.com/watch?v=HAJhHoXLTe8",
-      "date": "2026-09-08T09:05:48+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "ali-ece"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-puB2N7PBipw",
-      "title": "Fulya Sever Kahveci ve Nihat Kahveci, Süper Lig'de haftanın iyi gününde olan 11'ini seçti.",
-      "url": "https://www.youtube.com/watch?v=puB2N7PBipw",
-      "date": "2026-09-08T08:21:48+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
       ],
       "players": []
     }
