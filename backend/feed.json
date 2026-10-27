@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:33:02.561876+00:00",
+  "generated_at": "2026-10-27T00:31:07.235367+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -191,22 +191,22 @@
       "photoURL": null
     },
     {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
+      "id": "emre-bol",
+      "name": "Emre Bol",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
+      "avatar": "EB",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "emre-bol",
-      "name": "Emre Bol",
+      "id": "gokhan-german",
+      "name": "Gökhan German",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
+      "avatar": "GG",
       "focusTeams": [
         "Genel"
       ],
@@ -342,6 +342,17 @@
       "avatar": "MAK",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "metin-karabas",
+      "name": "Metin Karabaş",
+      "role": "Galatasaray muhabiri / yorumcu",
+      "primarySource": "Galatasaray kaynak taraması",
+      "avatar": "MK",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -1522,17 +1533,6 @@
         "Galatasaray"
       ],
       "photoURL": "https://yt3.googleusercontent.com/DRtOI1QaOV6JSrLCskyXdezWaPTo4QtYaKMLVVn8pBtPusgZni8tvqIQ8dhT2aI_W9eV5vHaJ4o=s176-c-k-c0x00ffffff-no-rj-mo"
-    },
-    {
-      "id": "metin-karabas",
-      "name": "Metin Karabaş",
-      "role": "Galatasaray muhabiri / yorumcu",
-      "primarySource": "Galatasaray kaynak taraması",
-      "avatar": "MK",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
     },
     {
       "id": "metin-tekin",
@@ -108400,6 +108400,1331 @@
         "published_at": "2026-10-26T10:23:34+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 4004,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Galatasaray özellikle ilk yarısını muhteşem oynadığı derbide fark getirecek pozisyonları kolayca harcadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4005,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda Fenerbahçe'nin isabetli şutu yoktu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4006,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama Barış Alper, Fenerbahçe kalesinde adeta pozisyon üstüne pozisyon buldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4007,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Dünyanın en önemli santrforlarından biri olduğu söylenen -bana göre de çok doğru- Osimhen ilk yarıda attığı gollerle derbiye imzasını koydu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 4008,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Barış'ın nefis yaptığı koşu ve kontrol sonrası ara pası ile Osimhen'in attığı şut mükemmeldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4009,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Galatasaray'da her oyuncu birbirlerine yardım ediyor, önde rakibe baskı yapıyor, pozisyon üretiyorlar ama final vuruşlarında isabetli olamıyordu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4010,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Batrakov orta sahayı bir maestro gibi yönetti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4011,
+      "commentator": "levent-tuzemen",
+      "date": "2026-10-27T01:05:46+03:00",
+      "team": null,
+      "players": [
+        "Torreira"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Torreira orta sahada yine inanılmaz toplar kazandı, Lemina agresifliği ve basit oynama alışkanlığı ile Sanchez- Abdülkerim ikilisine nefes aldırdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/10/27/victor-osimhen-imzasini-koydu",
+        "published_at": "2026-10-27T01:05:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4012,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk çeyrekte gördükleri sarı kartlar bunların tezahürüdür.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4013,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray ezber oyununu oynarken rakipten ön alan baskısı yemiyor ve topu iki kanadına taşıyıp rakibi imha etmeye çalışıyordu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4014,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıdaki futbol Okan Buruk'un takımı adına sürklase bir oyundur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4015,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fenerbahçe'nin tek bir şutunun olmadığı ilk 45 dakikada 11 hücum, 2 gol ve Greenwood ile Lukaku'ya top göstermeyen bir Galatasaray… İkinci yarıda Galatasaray maçın fişini çekecek üçüncü golün fırsatlarını da yakaladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4016,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fenerbahçe'yi derbiye sokan, İrfan Can'ın ekstra güzel golü oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4017,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Batrakov",
+        "Torreira"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Orta sahada Lemina-Torreira ve tüm bağlantılarda Batrakov, gollerin sahibi Osimhen'in ardından sahanın yıldızıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4018,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Buruk'un fark bir iken üç oyuncu birden değiştirmesi, Osimhen'i de oyundan alıp dizilişi 4-6-0'a getirmesi riskliydi doğrusu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4019,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-10-27T01:58:12+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray, Lille deplasmanında bulduğu havayı taraftarı önünde iyi futbolla sürdürdü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/10/27/gsaray-borcunu-odedi",
+        "published_at": "2026-10-27T01:58:12+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4020,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yok arkadaş; bu ligde Osimhen'i tutacak kimse yok!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4021,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Yıllardır Galatasaray'ın Fenerbahçe'nin önünde olmasının tek nedeni santrforlardır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4022,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İsmail Kartal'ın şapkasından çıkardığı Archie Brown'un stoper oynaması durumu sarı- lacivertlilerin mağlubiyetini hazırlayan en büyük etkendi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4023,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beni en çok üzen durum Fenerbahçe'nin oyunun hiçbir anında rekabet dahi edememesi!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4024,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarıda sarı- lacivertlilerin gol beklentisi 0.00!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4025,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Oyun sıfır, gol beklentisi sıfır, taktik sıfır, mücadele sıfır!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4026,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İkinci herkes yerli yerine geçip, sahada hayalet gibi dolaşan Grenwood çıkınca Fenerbahçe biraz olsun hareketlendi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4027,
+      "commentator": "emre-bol",
+      "date": "2026-10-27T01:08:59+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ederson olmasaydı ortaya tuhaf bir skor çıkabilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/10/27/otur-sifir",
+        "published_at": "2026-10-27T01:08:59+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4028,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Büyük takım refleksi daha doğru başlık olur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4029,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": "Rizespor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda topa sahip olan ve iki kenardan da atak girişimleri yapan taraf Rizespor'du...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4030,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle Mithat, Trabzonspor'un sol kenarını felç etti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4031,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": "Rizespor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Orta alanda Fabinho ve Melih oyuna hiç giremedi ve orta saha Rizespor'un kontrolünde kaldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4032,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": "Rizespor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu yarıda istenilen hücum organizasyonları da yeterli düzeyde olmadığı için Rizespor ilk yarıyı 2-0 önde bitirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4033,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": null,
+      "players": [
+        "Muçi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Önce Salah-Muçi birlikteliğiyle Melih ağları gördü, ardından yine Muçi'nin getirdiği toplarda Aral ve Franculino ile de 3-2 öne geçen Trabzon oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4034,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yar-ı ya göre değişen şey Trabzonspor'un hücumda gerçek kimliğiyle yer almasıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4035,
+      "commentator": "iskender-gunen",
+      "date": "2026-10-27T01:57:42+03:00",
+      "team": null,
+      "players": [
+        "Muçi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Muçi ilk yarı sahada yoktu, ikinci devre ise atılan gollerin hepsinde büyük payı vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-rizespor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/10/27/iste-buyuk-takim",
+        "published_at": "2026-10-27T01:57:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4036,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş için bu maçın adı üç puan değildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4037,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu maç, ayağa kalkmak, üzerindeki baskıyı kırmak ve yeniden kendine inanmak demekti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4038,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": "Başakşehir",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Başakşehir karşısında yaşanacak bir puan kaybı, siyah-beyazlı takımda bir krizin fitilini ateşleyebilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4039,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Çünkü Beşiktaş'ın artık kaybedecek puanından çok, kaybedecek psikolojik gücü vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4040,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bir kez daha tökezleseydi, tartışmalar büyüyecek, eleştiriler sertleşecek ve takımın üzerindeki baskı dayanılmaz bir noktaya ulaşacaktı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4041,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş'tan kusursuz bir futbol beklemek gerçekçi değildi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4042,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Avrupa maçlarının yükü, yoğun fikstür ve fiziksel yorgunluk takımın üzerine binmiş durumda..",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4043,
+      "commentator": "murat-ozbostan",
+      "date": "2026-10-27T01:50:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş'ın bu maçta ihtiyacı olan da tam olarak buydu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-besiktas-basaksehir",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/10/27/uc-puani-degil-altini-buldu",
+        "published_at": "2026-10-27T01:50:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4044,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Son iki resmi maçını kazanan Galatasaray’da moraller yüksek.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4045,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Gençlerbirliği",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gençlerbirliği karşısında zorlanan Sarı-Kırmızılılar, Lille önündeki 4-2’lik zaferde ise alkış topladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4046,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Fenerbahçe derbisinde motivasyon sorunu yaşanmayacağı kesin.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4047,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Özellikle önde baskı sırasında savunma arkasında bırakılan boşluklar, ligin en golcü takımı Fenerbahçe karşısında ciddi tehlike yaratabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4048,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kadro seçimi önemliBuruk’un Lille maçındaki kadroyu büyük ölçüde korumasını bekliyorum.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4049,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kanatlarda formda Yunus ve Barış öne çıkarken sakatlıktan dönen Leao’nun kulübede kalması daha doğru görünüyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4050,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Sane"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlkay ve Sane’nin sınırlı katkısı da hocanın tercihlerini daraltıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4051,
+      "commentator": "metin-karabas",
+      "date": "2026-10-26T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Fenerbahçe hata kollayacakKonuk ekipte sakatlıklar İsmail Kartal’ın elini zorluyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "metin-karabas",
+        "url": "https://www.fanatik.com.tr/yazarlar/metin-karabas/sadece-motivasyon-yetmez-2642295",
+        "published_at": "2026-10-26T06:59:00+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -109639,34 +110964,19 @@
       "status": "finished"
     },
     {
-      "id": "sl-2026-10-amed-sk-eyupspor",
+      "id": "sl-2026-10-konyaspor-galatasaray",
       "league": "Trendyol Süper Lig",
       "week": 10,
-      "home": "Amed SK",
-      "away": "Eyüpspor",
+      "home": "Konyaspor",
+      "away": "Galatasaray",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_score": null,
       "away_score": null,
-      "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-10-basaksehir-samsunspor",
-      "league": "Trendyol Süper Lig",
-      "week": 10,
-      "home": "Başakşehir",
-      "away": "Samsunspor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+      "kickoff": "2026-10-30T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-10-erzurumspor-corum-fk",
@@ -109680,53 +110990,8 @@
       "away_score": null,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-10-fenerbahce-goztepe",
-      "league": "Trendyol Süper Lig",
-      "week": 10,
-      "home": "Fenerbahçe",
-      "away": "Göztepe",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-10-genclerbirligi-alanyaspor",
-      "league": "Trendyol Süper Lig",
-      "week": 10,
-      "home": "Gençlerbirliği",
-      "away": "Alanyaspor",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
-      "kickoff": "",
-      "status": "unscheduled"
-    },
-    {
-      "id": "sl-2026-10-kasmpasa-besiktas",
-      "league": "Trendyol Süper Lig",
-      "week": 10,
-      "home": "Kasımpaşa",
-      "away": "Beşiktaş",
-      "source": "TFF",
-      "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-10-31T13:30:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-10-kocaelispor-rizespor",
@@ -109740,23 +111005,53 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-10-31T16:00:00+03:00",
+      "status": "scheduled"
     },
     {
-      "id": "sl-2026-10-konyaspor-galatasaray",
+      "id": "sl-2026-10-fenerbahce-goztepe",
       "league": "Trendyol Süper Lig",
       "week": 10,
-      "home": "Konyaspor",
-      "away": "Galatasaray",
+      "home": "Fenerbahçe",
+      "away": "Göztepe",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
       "home_score": null,
       "away_score": null,
-      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
-      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
+      "kickoff": "2026-10-31T19:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-10-amed-sk-eyupspor",
+      "league": "Trendyol Süper Lig",
+      "week": 10,
+      "home": "Amed SK",
+      "away": "Eyüpspor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
+      "kickoff": "2026-11-01T13:30:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-10-basaksehir-samsunspor",
+      "league": "Trendyol Süper Lig",
+      "week": 10,
+      "home": "Başakşehir",
+      "away": "Samsunspor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
+      "kickoff": "2026-11-01T16:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-10-trabzonspor-gaziantep-fk",
@@ -109770,8 +111065,38 @@
       "away_score": null,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
-      "kickoff": "",
-      "status": "unscheduled"
+      "kickoff": "2026-11-01T16:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-10-kasmpasa-besiktas",
+      "league": "Trendyol Süper Lig",
+      "week": 10,
+      "home": "Kasımpaşa",
+      "away": "Beşiktaş",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
+      "kickoff": "2026-11-01T19:00:00+03:00",
+      "status": "scheduled"
+    },
+    {
+      "id": "sl-2026-10-genclerbirligi-alanyaspor",
+      "league": "Trendyol Süper Lig",
+      "week": 10,
+      "home": "Gençlerbirliği",
+      "away": "Alanyaspor",
+      "source": "TFF",
+      "source_url": "https://www.tff.org/default.aspx?pageID=198",
+      "home_score": null,
+      "away_score": null,
+      "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
+      "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+      "kickoff": "2026-11-02T20:00:00+03:00",
+      "status": "scheduled"
     },
     {
       "id": "sl-2026-11-alanyaspor-trabzonspor",
@@ -113024,13 +114349,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 36,
+      "comment_count": 37,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 52,
+      "comment_count": 54,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -113047,7 +114372,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 53,
+      "comment_count": 54,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -113077,7 +114402,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 43
+      "comment_count": 44
     },
     {
       "id": "muriqi",
@@ -113088,7 +114413,7 @@
     {
       "id": "muci",
       "name": "Muçi",
-      "comment_count": 17,
+      "comment_count": 19,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg/500px-Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -113112,7 +114437,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 77,
+      "comment_count": 82,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -113124,7 +114449,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 38,
+      "comment_count": 39,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -113154,7 +114479,7 @@
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 20,
+      "comment_count": 22,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lucas_Torreira_2019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -113177,6 +114502,68 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ep3K7wrdzLc",
+      "title": "🔴 CANLI | Galatasaray - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
+      "url": "https://www.youtube.com/watch?v=ep3K7wrdzLc",
+      "date": "2026-10-26T22:41:42+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-rwKwlWvF4D0",
+      "title": "Nihat Kahveci: Futbol, Fenerbahçe için havadan oynanılan bir spor dalı olmuş!",
+      "url": "https://www.youtube.com/watch?v=rwKwlWvF4D0",
+      "date": "2026-10-26T21:54:13+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-43QtH5SO7mY",
+      "title": "Nihat Kahveci: Batrakov, yine süper oynadı.",
+      "url": "https://www.youtube.com/watch?v=43QtH5SO7mY",
+      "date": "2026-10-26T21:29:55+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": [
+        "Batrakov"
+      ]
+    },
+    {
+      "id": "youtube-kgy-3_ybDFU",
+      "title": "Nihat Kahveci: Bu sezonun en iyi futbolu Galatasaray adına ilk 45 dakikada.",
+      "url": "https://www.youtube.com/watch?v=kgy-3_ybDFU",
+      "date": "2026-10-26T21:05:45+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-VHJRZCZl9wc",
+      "title": "Nihat Kahveci: Galatasaray, muhteşem oynadı. Çünkü neden, çalışmış abi!",
+      "url": "https://www.youtube.com/watch?v=VHJRZCZl9wc",
+      "date": "2026-10-26T20:53:10+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-Suj4lmMjWtA",
       "title": "Nihat Kahveci: Ben, özellikle ofansif anlamda bu kadar iyi bir Olaitan beklemiyordum. Bugünkü şut...",
@@ -113290,18 +114677,6 @@
       "title": "Nihat Kahveci: Beşiktaş'ın kesinlikle kazanması gereken bir maç çünkü Galatasaray ile Fenerbahçe...",
       "url": "https://www.youtube.com/watch?v=FtdAY4f2__g",
       "date": "2026-10-26T15:27:08+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-ep3K7wrdzLc",
-      "title": "🔴 CANLI | Galatasaray - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
-      "url": "https://www.youtube.com/watch?v=ep3K7wrdzLc",
-      "date": "2026-10-26T10:28:55+00:00",
       "source": "Kontraspor",
       "platform": "YouTube",
       "commentators": [
@@ -116810,57 +118185,6 @@
       "title": "Beşiktaşlılar şampiyonluk yarışında olmayı özlemişti | Metin Tekin",
       "url": "https://www.youtube.com/watch?v=9s6uIzaTUNM",
       "date": "2026-09-08T16:15:38+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-O6iS0tkwj0Q",
-      "title": "Osimhen'in yokluğunda Lizbon'da Barış Alper oynamalı | Metin Tekin, Onur Tuğrul | VOLE Teknik #4",
-      "url": "https://www.youtube.com/watch?v=O6iS0tkwj0Q",
-      "date": "2026-09-08T15:57:47+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": [
-        "Osimhen",
-        "Barış Alper"
-      ]
-    },
-    {
-      "id": "youtube-OkwdV_zmzig",
-      "title": "Fenerbahçe'nin Roma'yı yenmeye ihtiyacı var | Metin Tekin, Onur Tuğrul | VOLE TEKNİK #3",
-      "url": "https://www.youtube.com/watch?v=OkwdV_zmzig",
-      "date": "2026-09-08T15:57:44+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-tyxb3nprvpY",
-      "title": "Willock devre arasında Beşiktaş'a gelebilir | Metin Tekin, Onur Tuğrul | VOLE TEKNİK #2",
-      "url": "https://www.youtube.com/watch?v=tyxb3nprvpY",
-      "date": "2026-09-08T15:57:41+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-PH9427tHisI",
-      "title": "Beşiktaş'ın futbolu taraftarını havaya sokuyor | Metin Tekin, Onur Tuğrul | VOLE TEKNİK #1",
-      "url": "https://www.youtube.com/watch?v=PH9427tHisI",
-      "date": "2026-09-08T15:57:39+00:00",
       "source": "VOLE / NEO Spor",
       "platform": "YouTube",
       "commentators": [
