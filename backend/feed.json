@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:20:47.811217+00:00",
+  "generated_at": "2026-10-27T13:17:01.355927+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -112733,6 +112733,635 @@
         "published_at": "2026-10-27T06:50:12+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 4161,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Galatasaray, Fenerbahçe karşısında aslanlar gibi bir derbi zaferine imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 4162,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçtan önce A Spor'da yaptığımız yayında Fenerbahçe 11'ini görünce, 'Bu savunma Fenerbahçe'nin başına iş açar, Galatasaray'ın da işini kolaylaştırır' demiştim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4163,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal'ın Skriniar'ın yanında Oppong'u oynatmayarak Brown ile başlamasının hem Skriniar'ın oyun kimyasını bozacağını hem de sol bekte oynayan Levent'in aksayacağını söylemiştim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4164,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood",
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal, aynı dakikada Fenerbahçe'nin en büyük silahı Greenwood'u da kulübeye çağırdı ve Kerem'i oyuna attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4165,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sahada kaldığı süre içinde Fenerbahçe'nin oyununa bir katkısı olmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4166,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda sahanın tek hakimi Galatasaray'dı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4167,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Attığı iki golün dışında farka gidebilecek pozisyonlar da yakaladı sarı-kırmızılılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4168,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-10-27T09:34:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ama böyle büyük maçlarda yakaladığını atacaksın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/10/27/ana-sutu-gibi-helal-galibiyet",
+        "published_at": "2026-10-27T09:34:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4169,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "2 haftadır yazamadığım için çok fazla konu birikti ama Galatasaray-Fenerbahçe’nin oynandığı hafta önce derbiyle başlamak lazım.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4170,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Çok uzun yıllardır futbol izlerim, geriye dönük hatıralarımın başladığı yıllar 1998-1999 sezonu dersem yanlış olmaz.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4171,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe’nin ne demek olduğunu, nasıl bir büyük bir camia olduğunu iliklerine kadar hissetmiş, bunu yaşamış biri olarak bugün gelinen noktayı anlamam çok mümkün değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4172,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe yönetimi sene başında İsmail Kartal tercihini yaptığı gün bir risk aldı ama istifa ettiğinde geri döndürerek kendi mekanizmasını da kilitlediğini belki şimdi fark ediyordur.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4173,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Milli araya kadar zor bir fikstürü var Fenerbahçe’nin, milli arada birçok şeyin değişmesi lazım başta teknik direktörün…Gelelim kazanana, Galatasaray’a.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4174,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sezonun kırılma maçlarından birinde Fransa’da Lille karşısında gelen galibiyet, Okan Buruk’un da maç sonu belirttiği gibi özgüven ve motivasyona sebep olduğu çok net belliydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4175,
+      "commentator": "engin-saydam",
+      "date": "2026-10-27T13:37:44+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Ligi deplasmanında alınan bir galibiyet sezonun seyrini Galatasaray için değiştirmiş olabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/fark-cok-acik-2642468",
+        "published_at": "2026-10-27T13:37:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4176,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beklediğimiz gibi gergin başladı ilk dakikada bir itiş kakış izledik derbide.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4177,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İster istemez çok duran bir oyun, yerden kalkmayan futbolcular izleriz diye düşündüm.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4178,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Aslında ilk yarıda beni şaşırtan Fenerbahçe’nin oyunun iki tarafını da etkisiz oynamasıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4179,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İsmail Kartal, elindeki iki stoperi kulübeye çekip Archie Brown’u bu bölgede denedi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4180,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sanırım iyice ağırlaşan Skriniar'ın yanında çabuk bir isme şans verdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4181,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak ilk yarı tamamen Galatasaray'ın kontrolünde geçerken Sarı-Lacivertliler’in yenik duruma düştükten sonra bile reaksiyon gösterememesi düşündürücüydü.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4182,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Belki goller çok spontane olmuş olabilir ama gol olabilecek birçok pozisyon buldu Galatasaray.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4183,
+      "commentator": "tunc-kayaci",
+      "date": "2026-10-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle orta alanda bariz üstünlüğü çok netti Sarı-Kırmızılı ekibin ve bu oyun ilk yarıda net bir skor getirdi ev sahibine.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/fener-yarista-zor-kalir-2642406",
+        "published_at": "2026-10-27T06:59:00+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -117380,7 +118009,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 55,
+      "comment_count": 56,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -117404,7 +118033,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 42,
+      "comment_count": 43,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -117475,7 +118104,7 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 23,
+      "comment_count": 25,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -117510,6 +118139,56 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-ehRdRhQ0xGQ",
+      "title": "Italiano, Vlahovic'i çıkarıp Oh'u alsaydı bir şey değişmeyebilirdi | Ali Ece",
+      "url": "https://www.youtube.com/watch?v=ehRdRhQ0xGQ",
+      "date": "2026-10-27T13:00:39+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "ali-ece"
+      ],
+      "players": [
+        "Vlahovic"
+      ]
+    },
+    {
+      "id": "youtube-0CQqh3-TxAo",
+      "title": "Beşiktaş'ın kazanmasını sağlayan da Oh ve Olaitan oldu | Ali Ece",
+      "url": "https://www.youtube.com/watch?v=0CQqh3-TxAo",
+      "date": "2026-10-27T12:15:27+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "ali-ece"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-PRBPXS7yx2M",
+      "title": "Nihat Kahveci: Beşiktaş'ın forması muhteşem, kırmızı - beyaz. Atamız da orada. Formaya bayıldım.",
+      "url": "https://www.youtube.com/watch?v=PRBPXS7yx2M",
+      "date": "2026-10-27T10:44:26+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-nmmm4k4YXfk",
+      "title": "Nihat Kahveci: Galatasaray'da şut atmayan yok, Ederson olmasa 5 olurdu!",
+      "url": "https://www.youtube.com/watch?v=nmmm4k4YXfk",
+      "date": "2026-10-27T08:46:42+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-ep3K7wrdzLc",
       "title": "🔴 CANLI | Galatasaray - Fenerbahçe Maç Sonu | Nihat Kahveci, Nebil Evren | Kontratak Süper Lig",
@@ -121149,54 +121828,6 @@
       "platform": "YouTube",
       "commentators": [
         "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-9TvX9CU2OME",
-      "title": "🚨💣 DEAL DONE! MESSI TO BUY 100%! LEO’S NEXT MOVE AND CRISTIANO PLANS! JAMES FOR FREE! MAC ALLISTER…",
-      "url": "https://www.youtube.com/watch?v=9TvX9CU2OME",
-      "date": "2026-09-08T23:40:07+00:00",
-      "source": "Fabrizio Romano",
-      "platform": "YouTube",
-      "commentators": [
-        "fabrizio-romano"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-oqp20OYZ9lg",
-      "title": "Beşiktaş'ın şimdiki hedefi oyuncularının seviyesini limitlerinin maksimumuna çıkarmak | Metin Tekin",
-      "url": "https://www.youtube.com/watch?v=oqp20OYZ9lg",
-      "date": "2026-09-08T17:45:01+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube--fURfLHYmAA",
-      "title": "Santrforda benim tercihim Barış olur | Metin Tekin",
-      "url": "https://www.youtube.com/watch?v=-fURfLHYmAA",
-      "date": "2026-09-08T17:15:02+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-9s6uIzaTUNM",
-      "title": "Beşiktaşlılar şampiyonluk yarışında olmayı özlemişti | Metin Tekin",
-      "url": "https://www.youtube.com/watch?v=9s6uIzaTUNM",
-      "date": "2026-09-08T16:15:38+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "metin-tekin"
       ],
       "players": []
     }
