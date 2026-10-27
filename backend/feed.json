@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:17:01.355927+00:00",
+  "generated_at": "2026-10-27T18:46:33.738914+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -213,6 +213,17 @@
       "photoURL": null
     },
     {
+      "id": "hamit-turhan",
+      "name": "Hamit Turhan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HT",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "burak-ozdemir",
       "name": "Burak Özdemir",
       "role": "Futbol yorumcusu / muhabir",
@@ -229,17 +240,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hamit-turhan",
-      "name": "Hamit Turhan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HT",
       "focusTeams": [
         "Genel"
       ],
@@ -113362,6 +113362,225 @@
         "published_at": "2026-10-27T06:59:00+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 4184,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Derbi maçları genellikle çok bilinmeyenli denklem gibidir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4185,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maça her türlü sonucun çıkabileceği bir atmosfer hâkim olur.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4186,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak bütün bunları dün geceki derbi için söylemek mümkün değildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4187,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi",
+        "Kante"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Zira, Fenerbahçe Başkanı Aziz Yıldırım'ın maç öncesi teknik direktörü İsmail Kartal ile futbolcuları Guendouzi ve Kante hakkında yaptığı gereksiz açıklamalar ibreyi bir anda Galatasaray'a çevirmiş, Sarı-Kırmızılı takımı maçın mutlak favorisi yapmıştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4188,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ayrıca Galatasaray'ın hafta içi Lille deplasmanında elde ettiği görkemli galibiyet ve buna karşın Fenerbahçe'nin kendi sahasında Slavia Prag karşısında son dakika golüyle berabere kalması da Cim Bom'u moral-motivasyon açısından avantajlı kılan etkenlerden biriydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4189,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu şartlar altında Fenerbahçe'nin zihinsel açıdan bu maça hazır olması mümkün değildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4190,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Olmadığı da maçın başlama vuruşuyla birlikte ortaya çıktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4191,
+      "commentator": "hamit-turhan",
+      "date": "2026-10-27T16:30:22+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sahanın her yerinde uyguladığı amansız presle, mücadelesiyle, yardımlaşmasıyla, çoklu hücum varyasyonlarıyla, savunmadaki dikkatiyle Fenerbahçe'yi adeta sahadan silen Galatasaray, sayısız atak girişiminden iki gol çıkarırken, attığından fazlasını da kaçırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/galatasaray-bileginin-hakkiyla-2642491",
+        "published_at": "2026-10-27T16:30:22+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -118015,13 +118234,13 @@
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 30,
+      "comment_count": 31,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 23,
+      "comment_count": 24,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -118139,6 +118358,102 @@
     }
   ],
   "publications": [
+    {
+      "id": "youtube-t3md2hPbHpc",
+      "title": "Rotasyon konusunda Italiano'yu eleştirmek haksızlık | Serdar Ali Çelikler, Ilgaz Çınar | #6",
+      "url": "https://www.youtube.com/watch?v=t3md2hPbHpc",
+      "date": "2026-10-27T17:01:17+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-9818vwdP7u0",
+      "title": "Fenerbahçe'nin kadrosu gelecek sene de toparlanmaz | Serdar Ali Çelikler, Ilgaz Çınar | Son Raund #5",
+      "url": "https://www.youtube.com/watch?v=9818vwdP7u0",
+      "date": "2026-10-27T17:01:14+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-5sMXsdA9Q-g",
+      "title": "İsmail Kartal'ın Fenerbahçe'yi toparlama şansı yok | Serdar Ali Çelikler, Ilgaz Çınar | Son Raund #4",
+      "url": "https://www.youtube.com/watch?v=5sMXsdA9Q-g",
+      "date": "2026-10-27T17:01:09+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-FSWHBhjPQqI",
+      "title": "Galatasaray devre arasında nereye transfer yapmalı? | Serdar Ali Çelikler, Ilgaz Çınar | #3",
+      "url": "https://www.youtube.com/watch?v=FSWHBhjPQqI",
+      "date": "2026-10-27T17:01:05+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-v358zjIPOPM",
+      "title": "Okan Buruk net bir derbi dominasyonu kurdu | Serdar Ali Çelikler, Ilgaz Çınar | Son Raund #2",
+      "url": "https://www.youtube.com/watch?v=v358zjIPOPM",
+      "date": "2026-10-27T17:01:02+00:00",
+      "source": "VOLE / NEO Spor",
+      "platform": "YouTube",
+      "commentators": [
+        "serdar-ali-celikler"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-EHTLAUFkNkU",
+      "title": "Fulya Sever Kahveci ve Nihat Kahveci, Galatasaray - Fenerbahçe derbisinin iyi gününde olan 11'ini...",
+      "url": "https://www.youtube.com/watch?v=EHTLAUFkNkU",
+      "date": "2026-10-27T16:10:42+00:00",
+      "source": "Kontraspor",
+      "platform": "YouTube",
+      "commentators": [
+        "nihat-kahveci"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-UJUQHhI9ZTs",
+      "title": "Beraberlik Yok | Erman Özgür ve Mustafa Sarp ile Ligimizi Tanıyor",
+      "url": "https://www.youtube.com/watch?v=UJUQHhI9ZTs",
+      "date": "2026-10-27T15:52:51+00:00",
+      "source": "Tivibu Spor · Orta Nokta",
+      "platform": "YouTube",
+      "commentators": [
+        "erman-ozgur"
+      ],
+      "players": []
+    },
+    {
+      "id": "youtube-jdmgctewDEg",
+      "title": "🚨💣 BOOM MAN UNITED! DECISION MADE! WHY THIS? EMERY, CARRICK, HOWE AND MORE! KANE: SIGNING SOON…",
+      "url": "https://www.youtube.com/watch?v=jdmgctewDEg",
+      "date": "2026-10-27T14:50:49+00:00",
+      "source": "Fabrizio Romano",
+      "platform": "YouTube",
+      "commentators": [
+        "fabrizio-romano"
+      ],
+      "players": []
+    },
     {
       "id": "youtube-ehRdRhQ0xGQ",
       "title": "Italiano, Vlahovic'i çıkarıp Oh'u alsaydı bir şey değişmeyebilirdi | Ali Ece",
@@ -121730,104 +122045,6 @@
       "platform": "YouTube",
       "commentators": [
         "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-Q7a8S3udhL4",
-      "title": "🇹🇷 Arda Güler | Emre Özcan | Tardini Büfe",
-      "url": "https://www.youtube.com/watch?v=Q7a8S3udhL4",
-      "date": "2026-09-09T18:33:07+00:00",
-      "source": "Socrates",
-      "platform": "YouTube",
-      "commentators": [
-        "emre-ozcan"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-R4ikRGgPVho",
-      "title": "Nihat Kahveci: Sezonu geri alalım ve Şampiyonlar Ligi'nde Galatasaray'ın Sporting deplasmanına...",
-      "url": "https://www.youtube.com/watch?v=R4ikRGgPVho",
-      "date": "2026-09-09T18:30:15+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-SWdKvpSMmCU",
-      "title": "Konu araba mı, yoksa hayatın gerçekten eski renkleri yok mu? | Ali Sunal, Serdar Ali Çelikler",
-      "url": "https://www.youtube.com/watch?v=SWdKvpSMmCU",
-      "date": "2026-09-09T17:45:22+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-YUqTY4RLUfU",
-      "title": "Beşiktaş’ın tutanı çok iyi, atanı da iyi | Serdar Ali Çelikler",
-      "url": "https://www.youtube.com/watch?v=YUqTY4RLUfU",
-      "date": "2026-09-09T17:00:36+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-dA3JFFcZPVw",
-      "title": "Ronaldo ve Messi’yi bir gün Türkiye’de izleyebilecek miyiz? | Ali Sunal, Serdar Ali Çelikler",
-      "url": "https://www.youtube.com/watch?v=dA3JFFcZPVw",
-      "date": "2026-09-09T16:15:21+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-NWDuymlEMfU",
-      "title": "Nihat Kahveci: Haftanın iyi gününde olan orta saha oyuncusu adayım Lucas Torreira.",
-      "url": "https://www.youtube.com/watch?v=NWDuymlEMfU",
-      "date": "2026-09-09T14:30:02+00:00",
-      "source": "Kontraspor",
-      "platform": "YouTube",
-      "commentators": [
-        "nihat-kahveci"
-      ],
-      "players": [
-        "Torreira"
-      ]
-    },
-    {
-      "id": "youtube-hYNzFc9rqGE",
-      "title": "Bazen de düştüğün yerde kalmak lazım... | Serdar Ali Çelikler",
-      "url": "https://www.youtube.com/watch?v=hYNzFc9rqGE",
-      "date": "2026-09-09T14:15:36+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
-      ],
-      "players": []
-    },
-    {
-      "id": "youtube-DfAAxvoXmWg",
-      "title": "İsmail Kartal mikro taktik bilmez, standart bir hocadır | Ali Sunal, Serdar Ali Çelikler | Gol Kralı",
-      "url": "https://www.youtube.com/watch?v=DfAAxvoXmWg",
-      "date": "2026-09-09T10:04:09+00:00",
-      "source": "VOLE / NEO Spor",
-      "platform": "YouTube",
-      "commentators": [
-        "serdar-ali-celikler"
       ],
       "players": []
     }
