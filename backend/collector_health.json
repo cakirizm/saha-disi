@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-30T01:05:48.342922+00:00",
+  "generated_at": "2026-10-30T23:51:33.806739+00:00",
   "tracked_commentators": 234,
   "totals": {
-    "sources": 169,
-    "successful": 158,
+    "sources": 175,
+    "successful": 164,
     "youtube_sources": 7,
     "new_videos": 0,
-    "candidates": 1376
+    "candidates": 1369
   },
   "sources": [
     {
@@ -36,7 +36,7 @@
     {
       "commentator": "bulent-timurlenk",
       "source": "A Spor",
-      "candidates": 47,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -116,7 +116,7 @@
     {
       "commentator": "emre-bol",
       "source": "A Spor",
-      "candidates": 46,
+      "candidates": 38,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -522,7 +522,7 @@
       "kind": "web"
     },
     {
-      "commentator": "rustu-recber",
+      "commentator": "ufuk-ozcan",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -530,7 +530,7 @@
       "kind": "web"
     },
     {
-      "commentator": "volkan-demirel",
+      "commentator": "erkan-tan",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -538,7 +538,7 @@
       "kind": "web"
     },
     {
-      "commentator": "emre-bol",
+      "commentator": "lutfi-albayrak",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -546,7 +546,7 @@
       "kind": "web"
     },
     {
-      "commentator": "firat-aydinus",
+      "commentator": "gokhan-german",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -554,7 +554,7 @@
       "kind": "web"
     },
     {
-      "commentator": "bunyamin-gezer",
+      "commentator": "songul-soysal",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -562,7 +562,7 @@
       "kind": "web"
     },
     {
-      "commentator": "deniz-ates-bitnel",
+      "commentator": "mesut-aydin-kale",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -570,7 +570,7 @@
       "kind": "web"
     },
     {
-      "commentator": "murat-fevzi-tanirli",
+      "commentator": "ekrem-kiziltas",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -578,7 +578,191 @@
       "kind": "web"
     },
     {
-      "commentator": "mehmet-demirkol",
+      "commentator": "hatice-yucel",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ugur-meleke",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "guntekin-onay",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "serdar-ali-celikler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ali-ece",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "onder-ozen",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "metin-tekin",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "abdulkerim-durmaz",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "emre-ozcan",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "erman-yasar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "caner-eler",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "yagiz-sabuncuoglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ugur-karakullukcu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "bulent-timurlenk",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "firat-gunayer",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "erman-ozgur",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "levent-tuzemen",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "erman-toroglu",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "sinan-engin",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "necati-ates",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "haluk-yurekli",
+      "source": "Google News RSS",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "ertan-suzgun",
       "source": "Google News RSS",
       "candidates": 0,
       "ok": true,
@@ -610,175 +794,487 @@
       "kind": "web"
     },
     {
-      "commentator": "arda-erol",
-      "source": "Google News RSS",
+      "commentator": "ufuk-ozcan",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "burak-ozdemir",
-      "source": "Google News RSS",
+      "commentator": "ufuk-ozcan",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "deniz-coban",
-      "source": "Google News RSS",
+      "commentator": "erkan-tan",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "hamit-turhan",
-      "source": "Google News RSS",
+      "commentator": "erkan-tan",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "tunc-kayaci",
-      "source": "Google News RSS",
+      "commentator": "lutfi-albayrak",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "abdullah-ercan",
-      "source": "Google News RSS",
+      "commentator": "lutfi-albayrak",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "onur-ozkan",
-      "source": "Google News RSS",
+      "commentator": "gokhan-german",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "serkan-korkmaz",
-      "source": "Google News RSS",
+      "commentator": "gokhan-german",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "ulas-ozdemir",
-      "source": "Google News RSS",
+      "commentator": "songul-soysal",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "hakki-yalcin",
-      "source": "Google News RSS",
+      "commentator": "songul-soysal",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "iskender-gunen",
-      "source": "Google News RSS",
+      "commentator": "mesut-aydin-kale",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "murat-ozbostan",
-      "source": "Google News RSS",
+      "commentator": "mesut-aydin-kale",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "zeki-uzundurukan",
-      "source": "Google News RSS",
+      "commentator": "ekrem-kiziltas",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "ersin-ramoglu",
-      "source": "Google News RSS",
+      "commentator": "ekrem-kiziltas",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "reha-kapsal",
-      "source": "Google News RSS",
+      "commentator": "hatice-yucel",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "serkan-yetismisoglu",
-      "source": "Google News RSS",
+      "commentator": "hatice-yucel",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "engin-saydam",
-      "source": "Google News RSS",
+      "commentator": "ugur-meleke",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "okan-cellik",
-      "source": "Google News RSS",
+      "commentator": "ugur-meleke",
+      "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
     },
     {
-      "commentator": "sercan-akkus",
-      "source": "Google News RSS",
+      "commentator": "guntekin-onay",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
+    },
+    {
+      "commentator": "guntekin-onay",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "serdar-ali-celikler",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "serdar-ali-celikler",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ali-ece",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ali-ece",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "onder-ozen",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "onder-ozen",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "metin-tekin",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "metin-tekin",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "abdulkerim-durmaz",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "abdulkerim-durmaz",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "emre-ozcan",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "emre-ozcan",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-yasar",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-yasar",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "caner-eler",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "caner-eler",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
     },
     {
       "commentator": "yagiz-sabuncuoglu",
-      "source": "Google News RSS",
+      "source": "social_discovery",
       "candidates": 0,
       "ok": true,
       "error": null,
-      "kind": "web"
+      "kind": "discovery"
+    },
+    {
+      "commentator": "yagiz-sabuncuoglu",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ugur-karakullukcu",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ugur-karakullukcu",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "bulent-timurlenk",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "bulent-timurlenk",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "firat-gunayer",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "firat-gunayer",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "nihat-kahveci",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-ozgur",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-ozgur",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "levent-tuzemen",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "levent-tuzemen",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-toroglu",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "erman-toroglu",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "ahmet-cakar",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "sinan-engin",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "sinan-engin",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "necati-ates",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "necati-ates",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "haluk-yurekli",
+      "source": "social_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
+    },
+    {
+      "commentator": "haluk-yurekli",
+      "source": "agency_discovery",
+      "candidates": 0,
+      "ok": true,
+      "error": null,
+      "kind": "discovery"
     },
     {
       "commentator": "ertan-suzgun",
-      "source": "Google News RSS",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "web"
-    },
-    {
-      "commentator": "rustu-recber",
       "source": "social_discovery",
       "candidates": 0,
       "ok": true,
@@ -786,119 +1282,7 @@
       "kind": "discovery"
     },
     {
-      "commentator": "rustu-recber",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "volkan-demirel",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "volkan-demirel",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "emre-bol",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "emre-bol",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "firat-aydinus",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "firat-aydinus",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "bunyamin-gezer",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "bunyamin-gezer",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "deniz-ates-bitnel",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "deniz-ates-bitnel",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "murat-fevzi-tanirli",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "murat-fevzi-tanirli",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "mehmet-demirkol",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "mehmet-demirkol",
+      "commentator": "ertan-suzgun",
       "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
@@ -947,342 +1331,6 @@
     },
     {
       "commentator": "gianluca-di-marzio",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "arda-erol",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "arda-erol",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "burak-ozdemir",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "burak-ozdemir",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "deniz-coban",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "deniz-coban",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "hamit-turhan",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "hamit-turhan",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "tunc-kayaci",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "tunc-kayaci",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "abdullah-ercan",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "abdullah-ercan",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "onur-ozkan",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "onur-ozkan",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "serkan-korkmaz",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "serkan-korkmaz",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ulas-ozdemir",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ulas-ozdemir",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "hakki-yalcin",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "hakki-yalcin",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "iskender-gunen",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "iskender-gunen",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "murat-ozbostan",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "murat-ozbostan",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "zeki-uzundurukan",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "zeki-uzundurukan",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ersin-ramoglu",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ersin-ramoglu",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "reha-kapsal",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "reha-kapsal",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "serkan-yetismisoglu",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "serkan-yetismisoglu",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "engin-saydam",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "engin-saydam",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "okan-cellik",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "okan-cellik",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "sercan-akkus",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "sercan-akkus",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "yagiz-sabuncuoglu",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "yagiz-sabuncuoglu",
-      "source": "agency_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ertan-suzgun",
-      "source": "social_discovery",
-      "candidates": 0,
-      "ok": true,
-      "error": null,
-      "kind": "discovery"
-    },
-    {
-      "commentator": "ertan-suzgun",
       "source": "agency_discovery",
       "candidates": 0,
       "ok": true,
@@ -1329,14 +1377,14 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "Fabrizio Romano",
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "x",
