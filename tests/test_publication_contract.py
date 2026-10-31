@@ -6,7 +6,8 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'backend'))
 from article_content import article_content, attributed_quotes
 from feed_quality import publication_problem, mentioned_entities
 from collector_v4 import youtube_rows
-from collector_v3 import extract
+from collector_v3 import extract, SENTENCE_SPLIT
+from incidents import judgements, minute_of, recovered_minutes, build_incidents
 
 class PublicationContractTests(unittest.TestCase):
     def test_legacy_verified_flag_does_not_allow_index_headline(self):
@@ -63,5 +64,38 @@ class PublicationContractTests(unittest.TestCase):
                  'evidence':{'version':2,'method':method,'speaker_id':'x','url':'https://example.com/yazarlar/a/b'}}
             self.assertIsNone(publication_problem(row),method)
             self.assertIn(f'"{method}"',models,f'{method} is published but the iOS gate drops it')
+
+class IncidentVerdictTests(unittest.TestCase):
+    # Sentences below are taken from published referee columns.
+    def test_missed_penalty_is_penalty_and_referee_wrong(self):
+        text='76.dakikada Thalisson’un Metehan Mimaroğlu’na müdahalesinde Trabzonspor lehine penaltı kararı verilmesi gerekirdi.'
+        self.assertEqual(judgements(text),[('penalty','PENALTI','hatali')])
+        self.assertEqual(minute_of(text),76)
+
+    def test_play_on_after_penalty_appeal_is_no_penalty(self):
+        self.assertEqual(judgements('Hakemin maç boyunca penaltı beklenen pozisyonlardaki devam kararları ise yerindeydi.'),[('penalty','DEĞİL','dogru')])
+
+    def test_reporting_a_card_is_not_a_verdict(self):
+        self.assertEqual(judgements("87'de hakem, Mustafa Er, kırmızı kartla oyundan attı!"),[])
+
+    def test_negated_claim_and_frankly_are_not_verdicts(self):
+        self.assertEqual(judgements('Golden önce faul vardı demek ve hakemi eleştirmek mümkün değil.'),[])
+        self.assertEqual(judgements("Orkun'un kazanılan penaltıyı vermesi büyük bir liderlik gösterisiydi doğrusu."),[])
+
+    def test_minute_left_on_previous_sentence_is_recovered(self):
+        rows=[{'id':1,'url':'u','summary':'Sarı kart doğruydu.48.'},{'id':2,'url':'u','summary':'Dakika: Hakemin penaltı kararı doğruydu.'}]
+        self.assertEqual(recovered_minutes(rows),{2:48})
+
+    def test_ordinals_and_club_abbreviations_do_not_split_sentences(self):
+        parts=SENTENCE_SPLIT.split('Sarı kart doğruydu.48. Dakika: Penaltı doğruydu. F.Bahçe çok iyi oynadı.')
+        self.assertEqual(parts,['Sarı kart doğruydu.','48. Dakika: Penaltı doğruydu.','F.Bahçe çok iyi oynadı.'])
+
+    def test_verdicts_without_a_match_are_not_published(self):
+        rows=[{'id':1,'url':'u','commentator':'deniz-coban','summary':'Fenerbahçe lehine verilen penaltı doğruydu.','match_id':None}]
+        self.assertEqual(build_incidents(rows,{'hide_statement_ids':[],'verdicts':{}}),[])
+        rows[0]['match_id']='m1'
+        built=build_incidents(rows,{'hide_statement_ids':[],'verdicts':{}})
+        self.assertEqual(built[0]['opinions'][0]['verdict'],'PENALTI')
+        self.assertTrue(built[0]['opinions'][0]['expert'])
 
 if __name__=='__main__':unittest.main()

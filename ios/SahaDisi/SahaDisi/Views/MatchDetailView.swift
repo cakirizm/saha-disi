@@ -8,6 +8,7 @@ struct MatchDetailView: View {
     private var relatedRows: [Statement] { Array(store.relatedStatements(matchID: match.id).prefix(8)) }
     private var predictions: [Statement] { rows.filter { $0.type == "prediction" } }
     private var afterMatch: [Statement] { rows.filter { $0.type != "prediction" } }
+    private var incidents: [Incident] { store.incidents(matchID: match.id) }
 
     var body: some View {
         ScrollView {
@@ -15,6 +16,7 @@ struct MatchDetailView: View {
                 MatchPoster(match: match).frame(height: 190).clipShape(RoundedRectangle(cornerRadius: 20))
                 matchMeta
                 matchCenter
+                if !incidents.isEmpty { positionDecisions }
                 if !rows.isEmpty {
                     consensusSummary
                     filterBar
@@ -32,6 +34,75 @@ struct MatchDetailView: View {
         }
         .background(SDTheme.background).navigationTitle("Maç Detayı").navigationBarTitleDisplayMode(.inline)
         .navigationDestination(for: Statement.self) { StatementDetailView(statement: $0) }
+    }
+
+    /// Pozisyon Kararı: each disputed moment with every commentator's call and
+    /// their own sentence beside it, so a verdict chip never stands without words.
+    private var positionDecisions: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Pozisyon Kararları").font(.title3.bold())
+            Text("Yorumcuların ve eski hakemlerin bu maçtaki pozisyonlara verdiği karar, kendi sözleriyle.")
+                .font(.caption).foregroundStyle(SDTheme.muted)
+            ForEach(incidents) { incident in
+                SDCard {
+                    VStack(alignment: .leading, spacing: 12) {
+                        HStack(alignment: .firstTextBaseline, spacing: 10) {
+                            Text(incident.minute.map { "\($0)'" } ?? "—")
+                                .font(.system(size: 26, weight: .black, design: .rounded)).foregroundStyle(SDTheme.accent)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(incident.kindLabel).font(.headline)
+                                Text(incident.minute == nil ? "Dakika belirtilmedi" : "\(incident.opinions.count) görüş")
+                                    .font(.caption2).foregroundStyle(SDTheme.muted)
+                            }
+                        }
+                        ForEach(incident.opinions) { opinion in opinionRow(opinion) }
+                    }
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func opinionRow(_ opinion: IncidentOpinion) -> some View {
+        let row = VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 8) {
+                Text(store.commentator(id: opinion.commentator)?.name ?? opinion.commentator).font(.subheadline.bold())
+                if opinion.expert {
+                    Text("Eski hakem").font(.caption2.weight(.semibold)).foregroundStyle(SDTheme.muted)
+                        .padding(.horizontal, 6).padding(.vertical, 2).background(SDTheme.panel2).clipShape(Capsule())
+                }
+                Spacer()
+                Text(opinion.verdict).font(.caption.weight(.heavy)).foregroundStyle(verdictColor(opinion.verdict))
+                    .padding(.horizontal, 9).padding(.vertical, 4)
+                    .overlay(Capsule().stroke(verdictColor(opinion.verdict), lineWidth: 1))
+            }
+            if let call = refereeCallText(opinion.refereeCall) {
+                Label(call.text, systemImage: call.icon).font(.caption).foregroundStyle(call.color)
+            }
+            Text("“\(opinion.summary)”").font(.subheadline).foregroundStyle(SDTheme.muted).fixedSize(horizontal: false, vertical: true)
+        }
+        if let statement = store.statement(id: opinion.statementID) {
+            NavigationLink { StatementDetailView(statement: statement) } label: { row }.buttonStyle(.plain)
+        } else {
+            row
+        }
+    }
+
+    private func verdictColor(_ verdict: String) -> Color {
+        switch verdict {
+        case "PENALTI", "KIRMIZI", "GOL İPTAL": return SDTheme.red
+        case "DEĞİL", "GOL GEÇERLİ": return SDTheme.green
+        case "SARI": return Color(red: 0.95, green: 0.70, blue: 0.23)
+        default: return SDTheme.muted
+        }
+    }
+
+    private func refereeCallText(_ call: String?) -> (text: String, icon: String, color: Color)? {
+        switch call {
+        case "dogru": return ("Hakemin kararı doğru", "checkmark.circle.fill", SDTheme.green)
+        case "hatali": return ("Hakem hatalı", "xmark.circle.fill", SDTheme.red)
+        default: return nil
+        }
     }
 
     private var consensusSummary: some View {

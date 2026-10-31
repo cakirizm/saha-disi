@@ -7,10 +7,11 @@ struct FeedPayload: Codable {
     let matches: [Match]?
     let players: [PlayerProfile]?
     let publications: [SourcePublication]
+    let incidents: [Incident]
 
     enum CodingKeys: String, CodingKey {
         case generatedAt = "generated_at"
-        case commentators, statements, matches, players, publications
+        case commentators, statements, matches, players, publications, incidents
     }
 
     init(from decoder: Decoder) throws {
@@ -21,6 +22,76 @@ struct FeedPayload: Codable {
         matches = try values.decodeIfPresent([Match].self, forKey: .matches) ?? []
         players = try values.decodeIfPresent([PlayerProfile].self, forKey: .players) ?? []
         publications = try values.decodeIfPresent([SourcePublication].self, forKey: .publications) ?? []
+        // A malformed incident must never take the whole feed down with it (a throw
+        // here falls back to the stale cache), and a verdict may only cite a
+        // statement that passed the same publication gate as the feed itself.
+        let published = Set(statements.map(\.id))
+        incidents = ((try? values.decodeIfPresent([Incident].self, forKey: .incidents)) ?? [])
+            .map { $0.keeping(published) }
+            .filter { !$0.opinions.isEmpty }
+    }
+}
+
+/// Pozisyon Kararı: one disputed moment of a match and each commentator's call on it.
+struct Incident: Codable, Identifiable, Hashable {
+    let id: String
+    let matchID: String
+    let minute: Int?
+    let kind: String
+    let kindLabel: String
+    let opinions: [IncidentOpinion]
+
+    enum CodingKeys: String, CodingKey {
+        case id, minute, kind, opinions
+        case matchID = "match_id"
+        case kindLabel = "kind_label"
+    }
+
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        id = try values.decode(String.self, forKey: .id)
+        matchID = try values.decodeIfPresent(String.self, forKey: .matchID) ?? ""
+        minute = try values.decodeIfPresent(Int.self, forKey: .minute)
+        kind = try values.decodeIfPresent(String.self, forKey: .kind) ?? ""
+        kindLabel = try values.decodeIfPresent(String.self, forKey: .kindLabel) ?? "Pozisyon"
+        opinions = (try? values.decodeIfPresent([IncidentOpinion].self, forKey: .opinions)) ?? []
+    }
+
+    private init(copying other: Incident, opinions: [IncidentOpinion]) {
+        id = other.id; matchID = other.matchID; minute = other.minute
+        kind = other.kind; kindLabel = other.kindLabel; self.opinions = opinions
+    }
+
+    func keeping(_ published: Set<Int>) -> Incident {
+        Incident(copying: self, opinions: opinions.filter { published.contains($0.statementID) })
+    }
+}
+
+struct IncidentOpinion: Codable, Identifiable, Hashable {
+    let statementID: Int
+    let commentator: String
+    let verdict: String
+    let refereeCall: String?
+    let summary: String
+    let url: String
+    let expert: Bool
+    var id: Int { statementID }
+
+    enum CodingKeys: String, CodingKey {
+        case commentator, verdict, summary, url, expert
+        case statementID = "statement_id"
+        case refereeCall = "referee_call"
+    }
+
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        statementID = try values.decode(Int.self, forKey: .statementID)
+        commentator = try values.decodeIfPresent(String.self, forKey: .commentator) ?? ""
+        verdict = try values.decodeIfPresent(String.self, forKey: .verdict) ?? ""
+        refereeCall = try values.decodeIfPresent(String.self, forKey: .refereeCall)
+        summary = try values.decodeIfPresent(String.self, forKey: .summary) ?? ""
+        url = try values.decodeIfPresent(String.self, forKey: .url) ?? ""
+        expert = try values.decodeIfPresent(Bool.self, forKey: .expert) ?? false
     }
 }
 

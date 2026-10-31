@@ -21,8 +21,10 @@ TEAMS=['Galatasaray','Fenerbahçe','Beşiktaş','Trabzonspor','Samsunspor','Göz
 PLAYERS=['Kenan Yıldız','Gabriel Sara','Osimhen','Sane','Barış Alper','Yunus Akgün','Talisca','Greenwood','Asensio','Kerem','Skriniar','Oğuz Aydın','Vlahovic','Trossard','Batrakov','Orkun Kökçü','Guendouzi','Kante','Semedo','Muriqi','Singo','Torreira','Leao','Cerny','Ndidi','Onuachu','Muçi']
 QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
 # Columns often lose the space after a full stop ("çökerttiler.Değişiklikler"),
-# so also split where a stop is followed directly by a Turkish capital.
-SENTENCE_SPLIT=re.compile(r'(?<=[.!?])\s+|(?<=[.!?])(?=[A-ZÇĞİÖŞÜ])')
+# so also split where a stop is followed directly by a capital or a digit.
+# A stop after a digit is a Turkish ordinal ("48. dakikada"), not a sentence end;
+# a stop after a single capital is an abbreviation ("F.Bahçe", "G.Saray").
+SENTENCE_SPLIT=re.compile(r'(?<![0-9][.!?])(?<=[.!?])\s+|(?<=[a-zçğıöşü][.!?])(?=[A-ZÇĞİÖŞÜ0-9])')
 # Football vocabulary used to keep off-topic columns (politics, religion, health)
 # out. Every term must be football-specific: bare 'var' matched Turkish "var"
 # ("there is") and let unrelated columnists through.

@@ -93,6 +93,13 @@ final class AppStore: ObservableObject {
         }.sorted { $0.0.kickoff > $1.0.kickoff }
     }
 
+    func incidents(matchID: String) -> [Incident] {
+        (payload?.incidents ?? []).filter { $0.matchID == matchID }
+            .sorted { ($0.minute ?? 999) < ($1.minute ?? 999) }
+    }
+
+    func statement(id: Int) -> Statement? { payload?.statements.first { $0.id == id } }
+
     func statements(matchID: String) -> [Statement] {
         (payload?.statements ?? []).filter { $0.matchId == matchID }.sorted { $0.date > $1.date }
     }

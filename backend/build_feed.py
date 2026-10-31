@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
 from collector_v3 import PLAYERS, TEAMS
+from incidents import build_incidents
 
 ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 # Continue from the last published feed so verified history never disappears when
@@ -246,9 +247,23 @@ def link_matches(statements,matches):
         if len(best)!=1:continue
         for s in rows:
             if not s.get('match_id'):s['match_id']=best[0][0];linked+=1
+    # Referee reviews cover the whole week in one column, so the article names many
+    # clubs and matches no single fixture. Those sentences say "Trabzonspor lehine
+    # penaltı": a named club with exactly one kickoff in the two days before the
+    # column is enough. Narrow window, so a midweek European night is not mistaken
+    # for the weekend league match.
+    for s in statements:
+        if s.get('match_id') or s.get('topic')!='Hakem / VAR':continue
+        stamp=parse_stamp(s.get('date'));named=set(teams_in(s.get('summary','')))
+        if not named or stamp is None:continue
+        best={mid for mid,clubs,kickoff in fixtures if clubs&named and kickoff<=stamp<=kickoff+timedelta(days=2)}
+        if len(best)==1:s['match_id']=best.pop();linked+=1
     return linked
 
 linked=link_matches(seed['statements'],seed.get('matches'))
+# Pozisyon Kararı: verdicts per incident, built only from statements that passed
+# the publication gate above, each carrying the commentator's own sentence.
+seed['incidents']=build_incidents(seed['statements'])
 quarantine_path.write_text(json.dumps(list(quarantine_by_key.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 
 counts={}
@@ -281,4 +296,4 @@ seed['publications']=json.loads(publication_path.read_text(encoding='utf-8')) if
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')
-print('match links',linked);print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
+print('match links',linked,'incidents',len(seed['incidents']));print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
