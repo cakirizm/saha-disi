@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:38:05.988344+00:00",
+ "generated_at": "2026-11-01T21:39:22.074526+00:00",
  "seen_videos": [
   "-8zbN49n-3E",
   "-9dniqQLeeE",
@@ -196,6 +196,7 @@
   "EHTLAUFkNkU",
   "ELMzahEEd8o",
   "EMl_dRe3qpU",
+  "EUoe956bdT0",
   "EWYG9uJtJhA",
   "EYP_2sCaAL4",
   "EdhdRJDZH9M",
@@ -570,6 +571,7 @@
   "gle0huDi18E",
   "grzgUTfaXkU",
   "gvWIFrNBvh0",
+  "gvpR7VMY4nY",
   "h-tehZmRBOs",
   "h3Tsz1LGmmA",
   "h6ciTs9V0Zg",
@@ -798,6 +800,34 @@
   "zycHapw7eLA"
  ],
  "candidates": [
+  {
+   "candidate_id": "be84e911653b62b4cc0a",
+   "commentator": "firat-gunayer",
+   "summary_candidate": "Değişime ayak uydurmayan bu hayatta kaybeder.",
+   "team": null,
+   "players": [],
+   "topic": "Genel yorum",
+   "type": "opinion",
+   "sentiment": "neutral",
+   "strength": 6,
+   "source": "Sports Digitale",
+   "url": "https://www.youtube.com/watch?v=gvpR7VMY4nY&t=0s",
+   "image_url": null,
+   "confidence": 95,
+   "direct_quote": true,
+   "published_at": "2026-11-01T21:09:28Z",
+   "discovered_at": "2026-11-01T21:39:22.074526+00:00",
+   "evidence": {
+    "version": 2,
+    "method": "partner_video_title_speaker",
+    "speaker_id": "firat-gunayer",
+    "url": "https://www.youtube.com/watch?v=gvpR7VMY4nY&t=0s",
+    "video_id": "gvpR7VMY4nY",
+    "title": "Fırat Günayer: \"Değişime ayak uydurmayan bu hayatta kaybeder.\"",
+    "caption": "auto",
+    "published_at": "2026-11-01T21:09:28Z"
+   }
+  },
   {
    "candidate_id": "747b791e87ab4c48b4d5",
    "commentator": "nihat-kahveci",
