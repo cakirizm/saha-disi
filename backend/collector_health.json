@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:51:25.438368+00:00",
+  "generated_at": "2026-11-01T00:52:23.903350+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 178,
@@ -1387,7 +1387,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "Sports Digitale",
