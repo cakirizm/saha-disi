@@ -24,7 +24,7 @@ for attempt in 1 2 3; do
     echo "gönderildi"
     exit 0
   fi
-  git pull -q --rebase origin main
+  git pull -q --rebase -X theirs origin main
 done
 echo "push başarısız" >&2
 exit 1

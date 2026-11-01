@@ -232,7 +232,7 @@ def recent(published, now):
     return stamp >= now - timedelta(days=MAX_AGE_DAYS)
 
 
-def run(only=None, force=False):
+def run(only=None, force=False, ignore_rest=False, budget=None):
     """One polite pass. YouTube blocked the server after ~600 requests in ten
     minutes, so a run now spends at most FETCH_BUDGET requests, only on clips
     whose title names a speaker, pauses between them, keeps whatever it found
@@ -242,13 +242,14 @@ def run(only=None, force=False):
     now = datetime.now(timezone.utc)
     state = load()
     rest = state.get('blocked_until')
-    if rest and datetime.fromisoformat(rest) > now:
+    # The rest note is about the server's IP; a run from another connection ignores it.
+    if rest and not ignore_rest and datetime.fromisoformat(rest) > now:
         print(f'YouTube engeli sonrası bekleniyor: {rest}')
         return
     seen = set(state.get('seen_videos', []))
     rows = {r['candidate_id']: r for r in state.get('candidates', []) if recent(r.get('published_at'), now)}
     partners = [s for s in CONFIG if (s.get('partner') or force) and (only is None or s.get('id') == only)]
-    budget, blocked_until, report = FETCH_BUDGET, None, []
+    budget, blocked_until, report = budget or FETCH_BUDGET, None, []
     try:
         for source in partners:
             videos, error = channel_videos(source, seen)
@@ -297,5 +298,6 @@ def run(only=None, force=False):
 
 
 if __name__ == '__main__':
-    only = sys.argv[sys.argv.index('--source') + 1] if '--source' in sys.argv else None
-    run(only)
+    arg = lambda name: sys.argv[sys.argv.index(name) + 1] if name in sys.argv else None
+    run(arg('--source'), ignore_rest='--ignore-rest' in sys.argv,
+        budget=int(arg('--budget')) if arg('--budget') else None)
