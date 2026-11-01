@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T01:38:24.437427+00:00",
+  "generated_at": "2026-11-01T01:39:22.237825+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 183,
-    "successful": 168,
+    "successful": 167,
     "youtube_sources": 12,
     "new_videos": 0,
     "candidates": 1386
@@ -1420,12 +1420,9 @@
     {
       "source": "343 Digital",
       "kind": "youtube",
-      "items": 15,
-      "publications": 0,
-      "new_videos": 0,
       "candidates": 0,
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "CNBC-e · Saha ve Ötesi",
@@ -1439,7 +1436,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "beIN SPORTS Türkiye",
