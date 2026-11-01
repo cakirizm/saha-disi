@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:46:42.214932+00:00",
+  "generated_at": "2026-11-01T00:47:53.141320+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 178,
@@ -1366,7 +1366,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "Tivibu Spor · Orta Nokta",
@@ -1394,7 +1394,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "Kontraspor",
@@ -1408,7 +1408,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "x",
