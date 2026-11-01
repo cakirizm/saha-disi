@@ -20,7 +20,7 @@ if git diff --cached --quiet; then
   exit 0
 fi
 git -c user.name="saha-disi-youtube" -c user.email="saha-disi-youtube@users.noreply.github.com" \
-  commit -q -m "data: partner YouTube statements"
+  commit -q -m "data: partner YouTube statements [skip ci]"
 
 for attempt in 1 2 3; do
   if git push -q origin main; then

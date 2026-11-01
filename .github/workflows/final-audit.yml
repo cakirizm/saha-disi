@@ -97,7 +97,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No data change to publish.'
           else
-            git commit -m 'data: publish final audited live feed'
+            git commit -m 'data: publish final audited live feed [skip ci]'
             git reset --hard HEAD
             n=0
             while true; do

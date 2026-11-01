@@ -32,7 +32,7 @@ git add backend/youtube_candidates.json
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) { Write-Host 'Yeni video sözü yok.'; exit 0 }
 
-git -c user.name="saha-disi-youtube" -c user.email="saha-disi-youtube@users.noreply.github.com" commit -q -m "data: partner YouTube statements (local)"
+git -c user.name="saha-disi-youtube" -c user.email="saha-disi-youtube@users.noreply.github.com" commit -q -m "data: partner YouTube statements (local) [skip ci]"
 foreach ($attempt in 1..3) {
     git push -q origin main
     if ($LASTEXITCODE -eq 0) { Write-Host 'Gönderildi. Feed en geç bir saat içinde güncellenir.'; exit 0 }

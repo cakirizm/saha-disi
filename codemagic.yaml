@@ -4,6 +4,9 @@ workflows:
     instance_type: mac_mini_m2
     max_build_duration: 60
 
+    # Data commits carry [skip ci], which Codemagic honours, so the hourly bot
+    # pushes start no build. Builds are never cancelled by a newer push: the bot
+    # pushes every hour and would kill a build in progress.
     # Build on push to main. The collector bots push backend/feed.json hourly and
     # those data commits need no app build (the app fetches the feed over the
     # network), so a build only starts when app-facing files actually change.
@@ -14,7 +17,6 @@ workflows:
         - pattern: main
           include: true
           source: true
-      cancel_previous_builds: true
 
     when:
       changeset:
