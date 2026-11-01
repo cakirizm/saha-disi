@@ -284,7 +284,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
             print(report[-1], flush=True)
     except Blocked as exc:
         blocked_until = (now + BLOCK_REST).isoformat()
-        print(f'YouTube bu sunucuyu engelledi, {blocked_until} saatine kadar bekleniyor. Bulunanlar kaydedildi.', flush=True)
+        print(f'YouTube bu bağlantının IP adresini engelledi, {blocked_until} saatine kadar bekleniyor. Bulunanlar kaydedildi.', flush=True)
     body = {'seen_videos': sorted(seen)[-MAX_SEEN:],
             'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True),
             'blocked_until': blocked_until}
