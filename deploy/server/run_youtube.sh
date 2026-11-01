@@ -8,6 +8,9 @@ REPO=${REPO:-/opt/saha-disi}
 PY=${PY:-/opt/sahadisi-venv/bin/python}
 cd "$REPO"
 
+# API keys (TranscriptYT, YouTube Data API) stay on the server, outside the repo.
+if [ -f /etc/sahadisi.env ]; then set -a; . /etc/sahadisi.env; set +a; fi
+
 git pull -q --rebase origin main
 "$PY" backend/youtube_partner.py
 

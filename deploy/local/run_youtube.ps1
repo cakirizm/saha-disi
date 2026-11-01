@@ -13,6 +13,14 @@ $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Set-Location $repo
 $env:PYTHONIOENCODING = 'utf-8'
 
+# API keys stay on this PC, outside the repo: one NAME=value per line.
+$keys = Join-Path $env:USERPROFILE '.sahadisi.env'
+if (Test-Path $keys) {
+    foreach ($line in Get-Content $keys) {
+        if ($line -match '^\s*([A-Z_]+)\s*=\s*(.+?)\s*$') { Set-Item -Path "env:$($Matches[1])" -Value $Matches[2] }
+    }
+}
+
 git pull -q --rebase --autostash origin main
 if ($LASTEXITCODE -ne 0) { throw 'git pull başarısız; önce yerel değişiklikleri kontrol et.' }
 
