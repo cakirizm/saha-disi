@@ -271,7 +271,8 @@ def run(only=None, force=False):
     # server push an empty commit every hour.
     if any(state.get(k) != v for k, v in body.items()) or not OUT.exists():
         OUT.write_text(json.dumps({'generated_at': now.isoformat(), **body}, ensure_ascii=False, indent=1), encoding='utf-8')
-    print('\n'.join(report) or 'izinli (partner) kanal tanımlı değil')
+    if not report:
+        print('izinli (partner) kanal tanımlı değil')
     print(f'youtube_candidates: {len(rows)}')
 
 
