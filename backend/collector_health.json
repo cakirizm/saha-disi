@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T00:55:04.975221+00:00",
+  "generated_at": "2026-11-01T00:56:03.581757+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 183,
-    "successful": 167,
+    "successful": 168,
     "youtube_sources": 12,
     "new_videos": 0,
     "candidates": 1386
@@ -1405,6 +1405,44 @@
     },
     {
       "source": "Fabrizio Romano",
+      "kind": "youtube",
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "source": "Beyaz Futbol",
+      "kind": "youtube",
+      "items": 15,
+      "publications": 0,
+      "new_videos": 0,
+      "candidates": 0,
+      "ok": true,
+      "error": null
+    },
+    {
+      "source": "343 Digital",
+      "kind": "youtube",
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "CNBC-e · Saha ve Ötesi",
+      "kind": "youtube",
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "Uğur Karakullukçu",
+      "kind": "youtube",
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "beIN SPORTS Türkiye",
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
