@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:48:13.517696+00:00",
+  "generated_at": "2026-11-01T00:51:41.883598+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "bulent-timurlenk",
-      "name": "Bülent Timurlenk",
-      "role": "Futbol yorumcusu",
-      "primarySource": "Yazar / TV",
-      "avatar": "BT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "omer-urundul",
       "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
@@ -86,6 +75,17 @@
       "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "bulent-timurlenk",
+      "name": "Bülent Timurlenk",
+      "role": "Futbol yorumcusu",
+      "primarySource": "Yazar / TV",
+      "avatar": "BT",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -119200,6 +119200,224 @@
         "published_at": "2026-10-20T06:50:11+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 4396,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "10. haftada Süper Lig’e havlu attı Fenerbahçe dün gece evinde kaybettiği 3 puanla çok önemli bir yara aldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4397,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fenerbahçe'nin ne yazık ki büyük takım kimliği yok, bir oyun planı yok.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4398,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kendi sahanda çok kritik bir maç oynuyorsun, rakip genelde oyunu domine ediyor, sayısız taç ve korner kazanıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4399,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Skorda denge varken baştan sona Göztepe'nin ofansif anlayışla oynaması, aslında hücum aksiyonları için Fenerbahçe açısından çok elverişli bir ortamdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4400,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ama futbolcularda öylesine bir moralsizlik vardı ki ani 3-4 aksiyonda farkı 2'ye çıkaramadılar.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4401,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Sonunda da Skriniar'in önemli bir hatasıyla önce skora denge geldi, sonra da kornerden yenik duruma düşüldü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4402,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İsmail Kartal da bugün takımın başında görevde olsa dün gece aynı kadro ile başlardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4403,
+      "commentator": "omer-urundul",
+      "date": "2026-11-01T01:07:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ayrıca orta sahada yine yorulan İrfan Can'ın yerine bir takviye gerekiyordu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/01/10-haftada-super-lige-havlu-atti",
+        "published_at": "2026-11-01T01:07:21+03:00"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -123942,7 +124160,7 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 28,
+      "comment_count": 29,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
