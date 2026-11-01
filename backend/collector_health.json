@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:50:48.285316+00:00",
+  "generated_at": "2026-11-01T01:51:47.243736+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 183,
@@ -1366,7 +1366,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "Tivibu Spor · Orta Nokta",
@@ -1429,7 +1429,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "Uğur Karakullukçu",
@@ -1438,8 +1438,8 @@
       "publications": 0,
       "new_videos": 0,
       "candidates": 0,
-      "ok": true,
-      "error": null
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "beIN SPORTS Türkiye",
