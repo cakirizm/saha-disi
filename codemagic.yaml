@@ -33,10 +33,13 @@ workflows:
       # Codemagic installs these files and the signing keychain before scripts.
       ios_signing:
         provisioning_profiles:
-          - profile: sahadisi_appstore_4995
+          - profile: sahadisi_appstore_2027
             environment_variable: SAHADISI_PROFILE_PATH
         certificates:
-          - Kurvio
+          # "Kurvio" (expires 2027-09-02) was revoked in the Apple account, which
+          # invalidated every profile signed with it. SporYap ASC is the team's
+          # current App Store distribution certificate (expires 2027-09-17).
+          - SporYap ASC
       xcode: latest
 
     scripts:
@@ -48,7 +51,7 @@ workflows:
           echo "KEY_ID set:      ${APP_STORE_CONNECT_KEY_IDENTIFIER:+yes}"
           echo "API_KEY set:     ${APP_STORE_CONNECT_PRIVATE_KEY:+yes}"
           if [ ! -f "${SAHADISI_PROFILE_PATH:-}" ]; then
-            echo "The referenced sahadisi_appstore_4995 profile was not installed."
+            echo "The referenced sahadisi_appstore_2027 profile was not installed."
             exit 1
           fi
           xcode-project use-profiles
@@ -95,7 +98,7 @@ workflows:
             # The CLI keeps xcodebuild's own output out of the step log, so look
             # for its saved logs first, then rerun plain xcodebuild, which prints it.
             FOUND=$(find /tmp "${TMPDIR:-/tmp}" "$HOME/Library/Logs" -name "*.log" -mmin -60 2>/dev/null \
-              | xargs grep -h -E "$PATTERN" 2>/dev/null | sort -u | head -60)
+              | xargs grep -h -E "$PATTERN" 2>/dev/null | grep -v CoreSimulator | sort -u | head -60)
             if [ -n "$FOUND" ]; then
               echo "$FOUND"
             else
