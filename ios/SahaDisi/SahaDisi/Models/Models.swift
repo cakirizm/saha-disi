@@ -213,6 +213,23 @@ extension Statement {
             // so the app kept showing a nearly empty feed however much the collector found.
             ["article_explicit_speaker", "official_api_author_match", "columnist_byline", "partner_video_title_speaker"].contains(evidence?.method ?? "")
     }
+    /// Söz bir partner videosunun altyazısından mı alındı (kanal izinli, konuşmacı başlıkta adıyla geçiyor).
+    var isFromVideoCaptions: Bool { evidence?.method == "partner_video_title_speaker" }
+    /// YouTube video kimliği (watch?v=… ya da youtu.be/… bağlantısından).
+    var videoID: String? {
+        guard let parts = URLComponents(string: url) else { return nil }
+        if let v = parts.queryItems?.first(where: { $0.name == "v" })?.value { return v }
+        if parts.host?.contains("youtu.be") == true { return parts.path.split(separator: "/").first.map(String.init) }
+        return nil
+    }
+    /// Sözün videoda söylendiği saniye (&t=95s).
+    var videoSecond: Int? {
+        guard let t = URLComponents(string: url)?.queryItems?.first(where: { $0.name == "t" })?.value else { return nil }
+        return Int(t.trimmingCharacters(in: CharacterSet.decimalDigits.inverted))
+    }
+    /// "1:27" biçiminde an.
+    var videoMoment: String? { videoSecond.map { String(format: "%d:%02d", $0 / 60, $0 % 60) } }
+    var videoThumbnailURL: URL? { videoID.flatMap { URL(string: "https://i.ytimg.com/vi/\($0)/mqdefault.jpg") } }
     /// Kaynak bir video mu yoksa yazılı haber mi? Yönlendirme metnini buna göre seçiyoruz.
     var isVideoSource: Bool {
         let u = url.lowercased()
@@ -222,6 +239,7 @@ extension Statement {
     var sourceActionTitle: String {
         let host = URL(string: url)?.host?.lowercased() ?? ""
         if ["x.com", "twitter.com", "instagram.com", "www.instagram.com", "www.x.com"].contains(host) { return "Paylaşımı aç" }
+        if isFromVideoCaptions, let moment = videoMoment { return "Bu andan izle · \(moment)" }
         return isVideoSource ? "Videoyu izle" : "Habere git"
     }
     var sourceActionIcon: String { isVideoSource ? "play.rectangle.fill" : "arrow.up.right" }

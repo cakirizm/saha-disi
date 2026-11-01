@@ -29,6 +29,9 @@ B = Path(__file__).resolve().parent
 OUT = B / 'youtube_candidates.json'
 METHOD = 'partner_video_title_speaker'
 MAX_AGE_DAYS = 45
+# Captions cost a credit each; a clip older than this is no longer today's
+# conversation and would only spend credits on yesterday's news.
+VIDEO_MAX_AGE_DAYS = 5
 MAX_SEEN = 3000
 FETCH_BUDGET = 30          # YouTube requests per hourly run
 PAUSE = 4                  # seconds, randomised up to twice this between requests
@@ -59,20 +62,25 @@ def norm(text):
 NAMES = {norm(name): cid for cid, name in c.PEOPLE}
 
 
-def title_speaker(title):
+def title_speaker(title, own=None):
     """Who the channel says is speaking, and the quote it puts in the title.
 
     "Nihat Kahveci: 31 Ekim'de ..."  -> ("nihat-kahveci", "31 Ekim'de ...")
     "Konu başlığı | Ali Ece"         -> ("ali-ece", None)  one name, no quote
     "Konu | Erman Yaşar & Emre Özcan" -> (None, None)      two speakers
+
+    A name after "|" only counts as the speaker when it is the last part and one
+    of the channel's own commentators: "Galatasaray'da Neler Oluyor? | Sergen
+    Yalçın" on a show is a clip about him, not by him.
     """
     m = re.match(r'^\s*([^:|]{3,40}?)\s*:\s*(.+)$', title or '')
     if m and NAMES.get(norm(m.group(1))):
         return NAMES[norm(m.group(1))], m.group(2)
     parts = [p.strip() for p in (title or '').split('|')]
-    named = {NAMES[norm(p)] for p in parts[1:] if norm(p) in NAMES}
-    if len(named) == 1 and not any(sep in p for p in parts[1:] for sep in ('&', ',', ' ve ')):
-        return named.pop(), None
+    last = parts[-1] if len(parts) > 1 else ''
+    cid = NAMES.get(norm(last))
+    if cid and own and cid in own and not any(sep in last for sep in ('&', ',', ' ve ')):
+        return cid, None
     return None, None
 
 
@@ -201,25 +209,47 @@ def publish_date(video_id):
     return m.group(1) if m else None
 
 
+_last_call = [0.0]
+MIN_INTERVAL = 7.0   # seconds; the free plan allows 10 requests a minute
+
+
 def transcript_api(path, **params):
     """GET a TranscriptYT endpoint. It fetches from its own infrastructure, so
-    YouTube's block on our IP does not apply; failed calls are not billed."""
+    YouTube's block on our IP does not apply; failed calls are not billed.
+    Calls are spaced to stay under the plan's per-minute limit, and a 429 is
+    waited out once (Retry-After) before the run gives up."""
+    for attempt in (1, 2):
+        wait = _last_call[0] + MIN_INTERVAL - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[0] = time.monotonic()
+        try:
+            return _transcript_get(path, params)
+        except HTTPError as exc:
+            if exc.code == 429 and attempt == 1:
+                time.sleep(min(int(exc.headers.get('Retry-After') or 30), 60))
+                continue
+            return _transcript_error(exc)
+
+
+def _transcript_get(path, params):
     req = Request(f"{TRANSCRIPT_API}/{path}?{urlencode(params)}",
                   headers={'Authorization': 'Bearer ' + key('TRANSCRIPT_API_KEY'),
                            'Accept': 'application/json', 'User-Agent': 'SahaDisi/1.0'})
-    try:
-        with urlopen(req, timeout=60) as r:
-            return json.loads(r.read().decode('utf-8'))
-    except HTTPError as exc:
-        if exc.code == 402:
-            raise Blocked('TranscriptYT kredisi bitti', rest=timedelta(hours=12))
-        if exc.code == 401:
-            raise Blocked('TranscriptYT anahtarı geçersiz', rest=timedelta(hours=12))
-        if exc.code in (429, 503):
-            raise Blocked(f'TranscriptYT {exc.code}, bir sonraki çalışmada tekrar denenecek', rest=None)
-        if exc.code in (400, 404):
-            return None
-        raise
+    with urlopen(req, timeout=60) as r:
+        return json.loads(r.read().decode('utf-8'))
+
+
+def _transcript_error(exc):
+    if exc.code == 402:
+        raise Blocked('TranscriptYT kredisi bitti', rest=timedelta(hours=12))
+    if exc.code == 401:
+        raise Blocked('TranscriptYT anahtarı geçersiz', rest=timedelta(hours=12))
+    if exc.code in (429, 503):
+        raise Blocked(f'TranscriptYT {exc.code}, bir sonraki çalışmada tekrar denenecek', rest=None)
+    if exc.code in (400, 404):
+        return None
+    raise exc
 
 
 def published_dates(video_ids):
@@ -245,7 +275,7 @@ def api_channel_videos(source, seen):
               for v in listing.get('videos', []) if v.get('videoId') and v.get('videoId') not in seen]
     # Dates only matter for clips we may quote, and the batch call is cheap.
     if key('YOUTUBE_API_KEY'):
-        dates = published_dates([v['id'] for v in videos if title_speaker(v['title'])[0]])
+        dates = published_dates([v['id'] for v in videos if title_speaker(v['title'], source.get('commentators'))[0]])
         for v in videos:
             v['published_at'] = dates.get(v['id'])
     return videos, (None if listing else 'liste alınamadı')
@@ -305,12 +335,12 @@ def load():
     return {'seen_videos': [], 'candidates': []}
 
 
-def recent(published, now):
+def recent(published, now, days=MAX_AGE_DAYS):
     try:
         stamp = datetime.fromisoformat(str(published).replace('Z', '+00:00'))
     except ValueError:
         return False
-    return stamp >= now - timedelta(days=MAX_AGE_DAYS)
+    return stamp >= now - timedelta(days=days)
 
 
 def run(only=None, force=False, ignore_rest=False, budget=None):
@@ -336,7 +366,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
             videos, error = channel_videos(source, seen)
             found = 0
             for video in videos:
-                cid, quote = title_speaker(video['title'])
+                cid, quote = title_speaker(video['title'], source.get('commentators'))
                 if not cid:
                     seen.add(video['id'])
                     continue
@@ -349,7 +379,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
                     except Exception:
                         continue
                     time.sleep(PAUSE + random.random() * PAUSE)
-                if not video['published_at'] or not recent(video['published_at'], now):
+                if not video['published_at'] or not recent(video['published_at'], now, VIDEO_MAX_AGE_DAYS):
                     seen.add(video['id'])
                     continue
                 budget -= 1

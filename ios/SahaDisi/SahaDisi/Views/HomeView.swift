@@ -393,10 +393,11 @@ struct StatementTweetCard: View {
                     }
                 }
             }.buttonStyle(.plain)
+            if statement.isFromVideoCaptions { VideoMomentCard(statement: statement) }
             Divider().overlay(SDTheme.line)
             VStack(alignment: .leading, spacing: 10) {
                 StatementSocialBar(statement: statement)
-                if let url = URL(string: statement.url), !statement.url.isEmpty {
+                if !statement.isFromVideoCaptions, let url = URL(string: statement.url), !statement.url.isEmpty {
                     Link(destination: url) {
                         HStack(spacing: 4) {
                             Text(statement.sourceActionTitle).font(.caption.bold())

@@ -36,7 +36,9 @@ struct StatementDetailView: View {
                         .lineSpacing(6).fixedSize(horizontal: false, vertical: true)
                 }
 
-                if let imageURL = store.commentator(id: statement.commentator)?.photoURL, let url = URL(string: imageURL) {
+                if statement.isFromVideoCaptions {
+                    VideoMomentCard(statement: statement)
+                } else if let imageURL = store.commentator(id: statement.commentator)?.photoURL, let url = URL(string: imageURL) {
                     AsyncImage(url: url) { phase in
                         if case .success(let image) = phase {
                             image.resizable().scaledToFill()
