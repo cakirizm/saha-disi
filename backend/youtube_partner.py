@@ -263,6 +263,8 @@ def run(only=None, force=False):
             seen.add(video['id'])
             time.sleep(1)
         report.append(f"{source['name']}: {len(videos)} video, {found} söz" + (f" (hata: {error})" if error else ''))
+        # systemd buffers a non-interactive stdout; flush so the journal shows progress per channel.
+        print(report[-1], flush=True)
     body = {'seen_videos': sorted(seen)[-MAX_SEEN:],
             'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True)}
     # Rewrite only on a real change: a fresh timestamp alone would make the
