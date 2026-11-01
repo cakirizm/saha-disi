@@ -245,9 +245,12 @@ def run(only=None, force=False):
             seen.add(video['id'])
             time.sleep(1)
         report.append(f"{source['name']}: {len(videos)} video, {found} söz" + (f" (hata: {error})" if error else ''))
-    OUT.write_text(json.dumps({'generated_at': now.isoformat(), 'seen_videos': sorted(seen)[-MAX_SEEN:],
-                               'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True)},
-                              ensure_ascii=False, indent=1), encoding='utf-8')
+    body = {'seen_videos': sorted(seen)[-MAX_SEEN:],
+            'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True)}
+    # Rewrite only on a real change: a fresh timestamp alone would make the
+    # server push an empty commit every hour.
+    if any(state.get(k) != v for k, v in body.items()) or not OUT.exists():
+        OUT.write_text(json.dumps({'generated_at': now.isoformat(), **body}, ensure_ascii=False, indent=1), encoding='utf-8')
     print('\n'.join(report) or 'izinli (partner) kanal tanımlı değil')
     print(f'youtube_candidates: {len(rows)}')
 
