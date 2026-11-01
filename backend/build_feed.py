@@ -17,6 +17,10 @@ ROOT=Path(__file__).resolve().parents[1]; B=ROOT/'backend'
 seed_path=(B/'feed.json') if (B/'feed.json').exists() else (ROOT/'data/seed.json')
 seed=json.loads(seed_path.read_text(encoding='utf-8'))
 candidates=json.loads((B/'candidates.json').read_text(encoding='utf-8')) if (B/'candidates.json').exists() else []
+# Partner channels' videos are read on the project server (YouTube refuses GitHub
+# runners) and arrive as their own file, so the two collectors never write the same one.
+if (B/'youtube_candidates.json').exists():
+    candidates+=json.loads((B/'youtube_candidates.json').read_text(encoding='utf-8')).get('candidates',[])
 
 PARAPHRASE_MARKERS=('düşünüyor','değerlendiriyor','savunuyor','belirtiyor','söylüyor','ifade ediyor','eleştirdi','övdü','değerlendirdi','açıkladı','yorumladı','iddia etti','vurguladı','yönündeki iddia','olarak görüyor','olarak değerlendiriyor')
 TRANSCRIPT_SOURCES={'Socrates','TRT Spor · Stadyum','VOLE / NEO Spor','Tivibu Spor · Orta Nokta'}
@@ -167,7 +171,8 @@ for c in candidates:
     if c.get('confidence',0)<95 or not c.get('direct_quote'):
         review.append(c);continue
     summary=clean_summary(c.get('summary_candidate',''))
-    if c.get('source') in TRANSCRIPT_SOURCES and not valid_transcript(summary):review.append(c);continue
+    spoken=c.get('source') in TRANSCRIPT_SOURCES or (c.get('evidence') or {}).get('method')=='partner_video_title_speaker'
+    if spoken and not valid_transcript(summary):review.append(c);continue
     if len(summary)<20 or looks_paraphrased(summary):review.append(c);continue
     key=(c.get('commentator'),summary.casefold())
     if not c.get('commentator') or key in known:continue

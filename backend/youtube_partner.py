@@ -1,0 +1,261 @@
+"""Partner YouTube collector. Runs on the project server, not on GitHub Actions.
+
+YouTube answers 404 to datacenter runners such as GitHub Actions, so the hourly
+CI job never reaches a single video. Channels that agreed to be quoted are read
+here instead, from a host YouTube serves, and the result is pushed as
+youtube_candidates.json for build_feed to merge.
+
+Only sources marked "partner": true in sources.json are read.
+
+Speaker rule: a clip titled "Nihat Kahveci: 31 Ekim'de Fenerbahçe havlu attı"
+names its speaker. The title's quote must appear in the captions, and only the
+caption segment containing it is attributed (YouTube marks a change of speaker
+with ">>"). Anything else stays out, so a guest's words are never put in a
+commentator's mouth.
+"""
+from __future__ import annotations
+import hashlib, json, re, sys, time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import collector_v3 as c
+from collector_v4 import CONFIG, youtube_entries
+from feed_quality import mentioned_entities
+
+B = Path(__file__).resolve().parent
+OUT = B / 'youtube_candidates.json'
+METHOD = 'partner_video_title_speaker'
+MAX_AGE_DAYS = 45
+MAX_SEEN = 3000
+
+
+class Blocked(RuntimeError):
+    """YouTube refused this host; stop instead of marking videos as done."""
+
+
+def norm(text):
+    return ' '.join(re.sub(r"[^\w\s]", ' ', (text or '').casefold()).split())
+
+
+NAMES = {norm(name): cid for cid, name in c.PEOPLE}
+
+
+def title_speaker(title):
+    """("nihat-kahveci", "31 Ekim'de ...") for "Nihat Kahveci: 31 Ekim'de ..."."""
+    m = re.match(r'^\s*([^:|]{3,40}?)\s*:\s*(.+)$', title or '')
+    if not m:
+        return None, None
+    return NAMES.get(norm(m.group(1))), m.group(2)
+
+
+def segments(snippets):
+    """Caption snippets grouped into speaker turns, each part keeping its start second."""
+    turns = [[]]
+    for start, text in snippets:
+        pieces = text.split('>>')
+        for i, piece in enumerate(pieces):
+            if i > 0 and turns[-1]:
+                turns.append([])
+            if piece.strip():
+                turns[-1].append((start, piece.strip()))
+    return [t for t in turns if t]
+
+
+def attributed_turn(snippets, title_quote):
+    """The one speaker turn that contains the title's quote, or None."""
+    words = norm(title_quote).split()
+    if len(words) < 4:
+        return None
+    anchor = ' '.join(words[:4])
+    hits = [t for t in segments(snippets) if anchor in norm(' '.join(p for _, p in t))]
+    return hits[0] if len(hits) == 1 else None
+
+
+def second_of(turn, sentence):
+    lead = ' '.join(norm(sentence).split()[:3])
+    for start, text in turn:
+        if lead and lead in norm(text):
+            return int(start)
+    return int(turn[0][0])
+
+
+def statements_from(video, source, cid, turn, caption_kind, now):
+    rows = []
+    text = ' '.join(p for _, p in turn)
+    for sentence in c.byline_statements(text):
+        t = second_of(turn, sentence)
+        url = f"https://www.youtube.com/watch?v={video['id']}&t={t}s"
+        teams = mentioned_entities(sentence, c.TEAMS)
+        typ, topic, sent, strength = c.classify(sentence)
+        rows.append({
+            'candidate_id': hashlib.sha256(f"{cid}|{sentence.casefold()}".encode('utf-8')).hexdigest()[:20],
+            'commentator': cid, 'summary_candidate': sentence,
+            'team': teams[0] if len(teams) == 1 else None,
+            'players': mentioned_entities(sentence, c.PLAYERS),
+            'topic': topic, 'type': typ, 'sentiment': sent, 'strength': strength,
+            'source': source['name'], 'url': url, 'image_url': None, 'confidence': 95,
+            'direct_quote': True, 'published_at': video['published_at'], 'discovered_at': now.isoformat(),
+            'evidence': {'version': 2, 'method': METHOD, 'speaker_id': cid, 'url': url,
+                         'video_id': video['id'], 'title': video['title'], 'caption': caption_kind,
+                         'published_at': video['published_at']}})
+    return rows
+
+
+PAGE_HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
+                'Accept-Language': 'tr-TR,tr;q=0.9'}
+
+
+def page(url):
+    from urllib.request import Request, urlopen
+    with urlopen(Request(url, headers=PAGE_HEADERS), timeout=20) as r:
+        return r.read().decode('utf-8', 'replace')
+
+
+def initial_data(html):
+    m = re.search(r'var ytInitialData\s*=\s*(\{.*?\});\s*</script>', html, re.S)
+    return json.loads(m.group(1)) if m else {}
+
+
+def walk(node):
+    if isinstance(node, dict):
+        yield node
+        for value in node.values():
+            yield from walk(value)
+    elif isinstance(node, list):
+        for value in node:
+            yield from walk(value)
+
+
+def text_of(value):
+    if isinstance(value, dict):
+        if 'simpleText' in value:
+            return value['simpleText']
+        if 'runs' in value:
+            return ''.join(r.get('text', '') for r in value['runs'])
+        if 'content' in value:
+            return value['content']
+    return ''
+
+
+def page_videos(channel_url):
+    """(id, title) from the channel's Videos and Shorts tabs. YouTube's RSS feed
+    has been answering 404 for long stretches, the channel pages keep working."""
+    base = channel_url.rstrip('/')
+    found = {}
+    for tab in ('shorts', 'videos'):
+        try:
+            data = initial_data(page(f'{base}/{tab}'))
+        except Exception:
+            continue
+        for node in walk(data):
+            if 'videoRenderer' in node and isinstance(node['videoRenderer'], dict):
+                v = node['videoRenderer']
+                found.setdefault(v.get('videoId'), text_of(v.get('title')))
+            if 'shortsLockupViewModel' in node:
+                v = node['shortsLockupViewModel']
+                vid = str(v.get('entityId', '')).replace('shorts-shelf-item-', '')
+                found.setdefault(vid, text_of((v.get('overlayMetadata') or {}).get('primaryText')))
+    return [(vid, title) for vid, title in found.items() if vid and len(vid) == 11 and title]
+
+
+def publish_date(video_id):
+    html = page('https://www.youtube.com/watch?v=' + video_id)
+    m = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', html)
+    return m.group(1) if m else None
+
+
+def channel_videos(source, seen):
+    """New videos of a partner channel with title and publish date."""
+    videos, error = [], None
+    try:
+        videos, error = youtube_entries(source)
+    except Exception as exc:
+        error = str(exc)[:80]
+    if videos:
+        return [v for v in videos if v['id'] not in seen], None
+    out = []
+    for vid, title in page_videos(source['url']):
+        if vid in seen:
+            continue
+        try:
+            published = publish_date(vid)
+        except Exception:
+            published = None
+        if published:
+            out.append({'id': vid, 'title': title, 'published_at': published})
+        time.sleep(0.5)
+    return out, (None if out else error)
+
+
+def captions(api, video_id):
+    """[(start, text)] of the Turkish track and whether it is auto-generated."""
+    from youtube_transcript_api import _errors as E
+    blocked = tuple(getattr(E, n) for n in ('RequestBlocked', 'IpBlocked') if hasattr(E, n))
+    try:
+        track = api.list(video_id).find_transcript(['tr'])
+        fetched = track.fetch()
+    except blocked as exc:
+        raise Blocked(str(exc)[:200])
+    except Exception:
+        return None, None
+    return [(s.start, s.text) for s in fetched], ('auto' if track.is_generated else 'manual')
+
+
+def load():
+    if OUT.exists():
+        try:
+            return json.loads(OUT.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+    return {'seen_videos': [], 'candidates': []}
+
+
+def recent(published, now):
+    try:
+        stamp = datetime.fromisoformat(str(published).replace('Z', '+00:00'))
+    except ValueError:
+        return False
+    return stamp >= now - timedelta(days=MAX_AGE_DAYS)
+
+
+def run(only=None, force=False):
+    from youtube_transcript_api import YouTubeTranscriptApi
+    api = YouTubeTranscriptApi()
+    now = datetime.now(timezone.utc)
+    state = load()
+    seen = set(state.get('seen_videos', []))
+    rows = {r['candidate_id']: r for r in state.get('candidates', []) if recent(r.get('published_at'), now)}
+    partners = [s for s in CONFIG if (s.get('partner') or force) and (only is None or s.get('id') == only)]
+    report = []
+    for source in partners:
+        videos, error = channel_videos(source, seen)
+        found = 0
+        for video in videos:
+            if not recent(video['published_at'], now):
+                seen.add(video['id'])
+                continue
+            cid, quote = title_speaker(video['title'])
+            snippets, kind = captions(api, video['id']) if cid else (None, None)
+            if cid and snippets:
+                turn = attributed_turn(snippets, quote)
+                if turn:
+                    for row in statements_from(video, source, cid, turn, kind, now):
+                        rows[row['candidate_id']] = row
+                        found += 1
+            seen.add(video['id'])
+            time.sleep(1)
+        report.append(f"{source['name']}: {len(videos)} video, {found} söz" + (f" (hata: {error})" if error else ''))
+    OUT.write_text(json.dumps({'generated_at': now.isoformat(), 'seen_videos': sorted(seen)[-MAX_SEEN:],
+                               'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True)},
+                              ensure_ascii=False, indent=1), encoding='utf-8')
+    print('\n'.join(report) or 'izinli (partner) kanal tanımlı değil')
+    print(f'youtube_candidates: {len(rows)}')
+
+
+if __name__ == '__main__':
+    only = sys.argv[sys.argv.index('--source') + 1] if '--source' in sys.argv else None
+    try:
+        run(only)
+    except Blocked as exc:
+        print('YouTube bu sunucuyu engelledi:', exc)
+        sys.exit(2)

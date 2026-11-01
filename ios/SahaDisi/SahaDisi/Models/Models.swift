@@ -211,7 +211,7 @@ extension Statement {
             // A signed column is the author's own words, proven by the byline; leaving
             // columnist_byline out here dropped 1098 of 1104 statements at decode time,
             // so the app kept showing a nearly empty feed however much the collector found.
-            ["article_explicit_speaker", "official_api_author_match", "columnist_byline"].contains(evidence?.method ?? "")
+            ["article_explicit_speaker", "official_api_author_match", "columnist_byline", "partner_video_title_speaker"].contains(evidence?.method ?? "")
     }
     /// Kaynak bir video mu yoksa yazılı haber mi? Yönlendirme metnini buna göre seçiyoruz.
     var isVideoSource: Bool {
@@ -226,7 +226,10 @@ extension Statement {
     }
     var sourceActionIcon: String { isVideoSource ? "play.rectangle.fill" : "arrow.up.right" }
     var sourceActionHint: String {
-        isVideoSource ? "Tamamını izlemek için \(source) kaynağına git"
+        if evidence?.method == "partner_video_title_speaker" {
+            return "Videonun otomatik altyazısından alındı. Söylendiği andan izlemek için \(source) videosunu aç"
+        }
+        return isVideoSource ? "Tamamını izlemek için \(source) kaynağına git"
                       : "Tamamını okumak için \(source) kaynağına git"
     }
 }

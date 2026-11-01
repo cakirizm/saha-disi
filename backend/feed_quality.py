@@ -24,7 +24,7 @@ def publication_problem(row):
     evidence=row.get('evidence') or {}
     if evidence.get('version')!=2 or evidence.get('speaker_id')!=row.get('commentator') or evidence.get('url')!=row.get('url'):
         return 'legacy_attribution_requires_review'
-    if evidence.get('method') not in {'article_explicit_speaker','official_api_author_match','columnist_byline'}:
+    if evidence.get('method') not in {'article_explicit_speaker','official_api_author_match','columnist_byline','partner_video_title_speaker'}:
         return 'unverified_speaker'
     return None
 

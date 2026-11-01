@@ -8,6 +8,7 @@ from feed_quality import publication_problem, mentioned_entities
 from collector_v4 import youtube_rows
 from collector_v3 import extract, SENTENCE_SPLIT
 from incidents import judgements, minute_of, recovered_minutes, build_incidents
+from youtube_partner import title_speaker, attributed_turn
 
 class PublicationContractTests(unittest.TestCase):
     def test_legacy_verified_flag_does_not_allow_index_headline(self):
@@ -59,7 +60,7 @@ class PublicationContractTests(unittest.TestCase):
         # publishes but the app omits is discarded on the device and the feed
         # silently looks empty. Keep the two gates identical.
         models=(Path(__file__).resolve().parents[1]/'ios/SahaDisi/SahaDisi/Models/Models.swift').read_text(encoding='utf-8')
-        for method in ('article_explicit_speaker','official_api_author_match','columnist_byline'):
+        for method in ('article_explicit_speaker','official_api_author_match','columnist_byline','partner_video_title_speaker'):
             row={'url':'https://example.com/yazarlar/a/b','date':'2026-09-05','commentator':'x','summary':'Beşiktaş dün gece çok iyi oynadı ve kazandı.',
                  'evidence':{'version':2,'method':method,'speaker_id':'x','url':'https://example.com/yazarlar/a/b'}}
             self.assertIsNone(publication_problem(row),method)
@@ -97,5 +98,23 @@ class IncidentVerdictTests(unittest.TestCase):
         built=build_incidents(rows,{'hide_statement_ids':[],'verdicts':{}})
         self.assertEqual(built[0]['opinions'][0]['verdict'],'PENALTI')
         self.assertTrue(built[0]['opinions'][0]['expert'])
+
+class PartnerVideoSpeakerTests(unittest.TestCase):
+    def test_title_names_a_known_commentator(self):
+        cid,quote=title_speaker("Nihat Kahveci: 31 Ekim'de Fenerbahçe, havlu attı!")
+        self.assertEqual(cid,'nihat-kahveci')
+        self.assertTrue(quote.startswith("31 Ekim"))
+        self.assertEqual(title_speaker('Nebil Evren: Mourinho gibi...')[0],None)
+        self.assertEqual(title_speaker('Derbi sonrası canlı yayın')[0],None)
+
+    def test_only_the_turn_holding_the_title_quote_is_attributed(self):
+        snippets=[(0.0,'Sunucu: hoş geldiniz bugün derbiyi konuşacağız.'),(4.0,">> 31 Ekim'de Fenerbahçe havlu attı, bornoz attı."),
+                  (9.0,'Şampiyonluk yarışından koptu.'),(14.0,'>> Peki hocam Galatasaray?')]
+        turn=attributed_turn(snippets,"31 Ekim'de Fenerbahçe, havlu attı!")
+        self.assertEqual([t for t,_ in turn],[4.0,9.0])
+        self.assertNotIn('Galatasaray',' '.join(x for _,x in turn))
+
+    def test_quote_missing_from_captions_attributes_nothing(self):
+        self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
 
 if __name__=='__main__':unittest.main()

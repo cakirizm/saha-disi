@@ -1,0 +1,9 @@
+[Unit]
+Description=Saha Disi partner YouTube collector
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/saha-disi/deploy/server/run_youtube.sh
+TimeoutStartSec=1800
