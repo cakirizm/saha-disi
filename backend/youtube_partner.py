@@ -119,26 +119,62 @@ def second_of(turn, sentence):
     return int(turn[0][0])
 
 
-def statements_from(video, source, cid, turn, caption_kind, now):
-    rows = []
-    text = ' '.join(p for _, p in turn)
-    for sentence in c.byline_statements(text):
-        t = second_of(turn, sentence)
-        url = f"https://www.youtube.com/watch?v={video['id']}&t={t}s"
-        teams = mentioned_entities(sentence, c.TEAMS)
-        typ, topic, sent, strength = c.classify(sentence)
-        rows.append({
-            'candidate_id': hashlib.sha256(f"{cid}|{sentence.casefold()}".encode('utf-8')).hexdigest()[:20],
-            'commentator': cid, 'summary_candidate': sentence,
-            'team': teams[0] if len(teams) == 1 else None,
-            'players': mentioned_entities(sentence, c.PLAYERS),
-            'topic': topic, 'type': typ, 'sentiment': sent, 'strength': strength,
-            'source': source['name'], 'url': url, 'image_url': None, 'confidence': 95,
-            'direct_quote': True, 'published_at': video['published_at'], 'discovered_at': now.isoformat(),
-            'evidence': {'version': 2, 'method': METHOD, 'speaker_id': cid, 'url': url,
-                         'video_id': video['id'], 'title': video['title'], 'caption': caption_kind,
-                         'published_at': video['published_at']}})
-    return rows
+FILLERS = (' yani ', ' hani ', ' şey ', ' abi ', ' falan ', ' işte ')
+
+
+def headline_sentence(sentences, title_quote):
+    """The sentence the channel put in the title, found in the captions: the
+    clip's strongest line, picked by the channel and proven by the captions."""
+    anchor = ' '.join(norm(title_quote).split()[:4])
+    for sentence in sentences:
+        if anchor and anchor in norm(sentence) and 20 <= len(sentence) <= 320:
+            return sentence
+    return None
+
+
+def best_sentence(sentences):
+    """For clips titled "Konu | İsim" there is no quote to anchor on: take a full,
+    on-topic sentence that names a club or player and is not filler talk."""
+    picks = []
+    for sentence in sentences:
+        words = sentence.split()
+        if not (60 <= len(sentence) <= 250 and len(words) >= 8) or '?' in sentence:
+            continue
+        if sum((' ' + sentence.casefold() + ' ').count(f) for f in FILLERS) >= 2:
+            continue
+        named = len(mentioned_entities(sentence, c.TEAMS)) + len(mentioned_entities(sentence, c.PLAYERS))
+        if named:
+            picks.append((named, len(sentence), sentence))
+    return max(picks)[2] if picks else None
+
+
+def pick_sentence(text, title_quote):
+    sentences = [x.strip(" \"'“”") for x in c.SENTENCE_SPLIT.split(c.repair_text(text)) if x.strip()]
+    return headline_sentence(sentences, title_quote) if title_quote else best_sentence(sentences)
+
+
+def statements_from(video, source, cid, turn, caption_kind, now, title_quote=None):
+    """One statement per clip. Automatic captions garble names in passing talk
+    ("Shalay", "Muleka"), so the feed takes the line the clip is about rather
+    than every sentence that happens to mention football."""
+    sentence = pick_sentence(' '.join(p for _, p in turn), title_quote)
+    if not sentence:
+        return []
+    t = second_of(turn, sentence)
+    url = f"https://www.youtube.com/watch?v={video['id']}&t={t}s"
+    teams = mentioned_entities(sentence, c.TEAMS)
+    typ, topic, sent, strength = c.classify(sentence)
+    return [{
+        'candidate_id': hashlib.sha256(f"{cid}|{sentence.casefold()}".encode('utf-8')).hexdigest()[:20],
+        'commentator': cid, 'summary_candidate': sentence,
+        'team': teams[0] if len(teams) == 1 else None,
+        'players': mentioned_entities(sentence, c.PLAYERS),
+        'topic': topic, 'type': typ, 'sentiment': sent, 'strength': strength,
+        'source': source['name'], 'url': url, 'image_url': None, 'confidence': 95,
+        'direct_quote': True, 'published_at': video['published_at'], 'discovered_at': now.isoformat(),
+        'evidence': {'version': 2, 'method': METHOD, 'speaker_id': cid, 'url': url,
+                     'video_id': video['id'], 'title': video['title'], 'caption': caption_kind,
+                     'published_at': video['published_at']}}]
 
 
 PAGE_HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36',
@@ -385,7 +421,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
                 budget -= 1
                 snippets, kind = captions(api, video['id'])
                 turn = attributed_turn(snippets, quote) if snippets else None
-                for row in (statements_from(video, source, cid, turn, kind, now) if turn else []):
+                for row in (statements_from(video, source, cid, turn, kind, now, quote) if turn else []):
                     rows[row['candidate_id']] = row
                     found += 1
                 seen.add(video['id'])

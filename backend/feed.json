@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:39:37.695054+00:00",
+  "generated_at": "2026-11-01T01:50:01.235735+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -368,6 +368,17 @@
       "photoURL": null
     },
     {
+      "id": "nihat-kahveci",
+      "name": "Nihat Kahveci",
+      "role": "Yorumcu",
+      "primarySource": "Kontraspor",
+      "avatar": "NK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "suat-umurhan",
       "name": "Suat Umurhan",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -379,15 +390,15 @@
       "photoURL": null
     },
     {
-      "id": "nihat-kahveci",
-      "name": "Nihat Kahveci",
+      "id": "serdar-ali-celikler",
+      "name": "Serdar Ali Çelikler",
       "role": "Yorumcu",
-      "primarySource": "Kontraspor",
-      "avatar": "NK",
+      "primarySource": "VOLE / NEO Spor",
+      "avatar": "SAÇ",
       "focusTeams": [
         "Genel"
       ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "photoURL": null
     },
     {
       "id": "abdullah-ercan",
@@ -2007,17 +2018,6 @@
       "avatar": "SH",
       "focusTeams": [
         "Fenerbahçe"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "serdar-ali-celikler",
-      "name": "Serdar Ali Çelikler",
-      "role": "Yorumcu",
-      "primarySource": "VOLE / NEO Spor",
-      "avatar": "SAÇ",
-      "focusTeams": [
-        "Genel"
       ],
       "photoURL": null
     },
@@ -119418,6 +119418,188 @@
         "published_at": "2026-11-01T01:07:21+03:00"
       },
       "image_kind": null
+    },
+    {
+      "id": 4404,
+      "commentator": "nihat-kahveci",
+      "date": "2026-10-31T18:55:49Z",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "31 Ekim'de Fenerbahçe havlu attı, bornoz attı, Takuni attı, terlik attı, şampuanı attı.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=wBxBP7xnLZ0&t=13s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=wBxBP7xnLZ0&t=13s",
+        "video_id": "wBxBP7xnLZ0",
+        "title": "Nihat Kahveci: 31 Ekim'de Fenerbahçe, havlu attı! Normalde 9 da 19 da kapanır ama Fenerbahçe...",
+        "caption": "auto",
+        "published_at": "2026-10-31T18:55:49Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 4405,
+      "commentator": "nihat-kahveci",
+      "date": "2026-10-31T18:27:28Z",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "şampiyon olursa 3-0 yendiği maç sonrası Fenerbahçe bu sezon şampiyon olursa 100 forma vereceğim dedim.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=bE6HRlrAkUU&t=31s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=bE6HRlrAkUU&t=31s",
+        "video_id": "bE6HRlrAkUU",
+        "title": "Nihat Kahveci: 3-0 yendiği maç sonrası, \"Fenerbahçe, bu sezon şampiyon olursa 100 forma vereceğim\"..",
+        "caption": "auto",
+        "published_at": "2026-10-31T18:27:28Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 4406,
+      "commentator": "nihat-kahveci",
+      "date": "2026-10-28T18:49:09Z",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Vallahi Trabzonspor gümbür gümbür yoluna devam ediyor.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=_zbdDLBS60g&t=0s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=_zbdDLBS60g&t=0s",
+        "video_id": "_zbdDLBS60g",
+        "title": "Nihat Kahveci: Trabzonspor, gümbür gümbür yoluna devam ediyor. Helal olsun!",
+        "caption": "auto",
+        "published_at": "2026-10-28T18:49:09Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 4407,
+      "commentator": "nihat-kahveci",
+      "date": "2026-10-28T14:30:32Z",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "5. Golden Pass biletim sahaya ruhunu, özverisini, gollerini katan, derbide kahraman olan Osimhen'e gidiyor.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=b0qpX-YjdVU&t=87s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=b0qpX-YjdVU&t=87s",
+        "video_id": "b0qpX-YjdVU",
+        "title": "Nihat Kahveci: 5. Golden Pass biletim Osimhen'e gidiyor. Çünkü...",
+        "caption": "auto",
+        "published_at": "2026-10-28T14:30:32Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 4408,
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-10-27T20:11:25Z",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe'ye kazandırılacak başka arazi varsa da gene sen yaparsın.",
+      "source": "VOLE / NEO Spor",
+      "url": "https://www.youtube.com/watch?v=tQZtdLZlW08&t=14s",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "serdar-ali-celikler",
+        "url": "https://www.youtube.com/watch?v=tQZtdLZlW08&t=14s",
+        "video_id": "tQZtdLZlW08",
+        "title": "Ey sevgili Aziz Yıldırım... | Serdar Ali Çelikler",
+        "caption": "auto",
+        "published_at": "2026-10-27T20:11:25Z"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 4409,
+      "commentator": "serdar-ali-celikler",
+      "date": "2026-10-27T20:05:16Z",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maçın açıklaması baştan sona ağır bir Galatasaray galibiyetidir.",
+      "source": "VOLE / NEO Spor",
+      "url": "https://www.youtube.com/watch?v=ykwOceaUJ1k&t=30s",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "serdar-ali-celikler",
+        "url": "https://www.youtube.com/watch?v=ykwOceaUJ1k&t=30s",
+        "video_id": "ykwOceaUJ1k",
+        "title": "Her şeyin başı fikirdir, Okan Buruk'un bir fikri vardı, İsmail Kartal'ın yoktu | Serdar Ali Çelikler",
+        "caption": "auto",
+        "published_at": "2026-10-27T20:05:16Z"
+      },
+      "image_kind": null
     }
   ],
   "matches": [
@@ -124130,7 +124312,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 104,
+      "comment_count": 105,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {

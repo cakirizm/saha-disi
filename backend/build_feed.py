@@ -171,8 +171,11 @@ for c in candidates:
     if c.get('confidence',0)<95 or not c.get('direct_quote'):
         review.append(c);continue
     summary=clean_summary(c.get('summary_candidate',''))
-    spoken=c.get('source') in TRANSCRIPT_SOURCES or (c.get('evidence') or {}).get('method')=='partner_video_title_speaker'
-    if spoken and not valid_transcript(summary):review.append(c);continue
+    # Partner clips arrive as the one line each clip is about (picked in
+    # youtube_partner.py); the long-sentence transcript gate would drop exactly
+    # the short headline lines the channels chose.
+    partner_clip=(c.get('evidence') or {}).get('method')=='partner_video_title_speaker'
+    if c.get('source') in TRANSCRIPT_SOURCES and not partner_clip and not valid_transcript(summary):review.append(c);continue
     if len(summary)<20 or looks_paraphrased(summary):review.append(c);continue
     key=(c.get('commentator'),summary.casefold())
     if not c.get('commentator') or key in known:continue
