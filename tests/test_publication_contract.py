@@ -114,6 +114,13 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
         self.assertEqual([t for t,_ in turn],[4.0,9.0])
         self.assertNotIn('Galatasaray',' '.join(x for _,x in turn))
 
+    def test_single_name_after_pipe_needs_a_single_voice(self):
+        self.assertEqual(title_speaker('Kartal dönemini hangi şarkı anlatıyor? | Ali Ece'),('ali-ece',None))
+        self.assertEqual(title_speaker('Vinicius fayda mı? | Erman Yaşar & Emre Özcan | Atıf Bey Sokak'),(None,None))
+        alone=[(0.0,'Fenerbahçe bu sezon çok zorlanacak.'),(3.0,'Kadro dengesi yok.')]
+        self.assertEqual(len(attributed_turn(alone,None)),2)
+        self.assertIsNone(attributed_turn(alone+[(6.0,'>> Katılıyorum hocam.')],None))
+
     def test_quote_missing_from_captions_attributes_nothing(self):
         self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
 

@@ -43,7 +43,8 @@
         "erman-yasar",
         "caner-eler"
       ],
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "343",
@@ -75,7 +76,8 @@
       "commentators": [
         "erman-ozgur"
       ],
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "trt-stadyum",
@@ -85,7 +87,8 @@
       "commentators": [
         "ogun-temizkanoglu"
       ],
-      "trust": 100
+      "trust": 100,
+      "partner": true
     },
     {
       "id": "ugur-karakullukcu",
@@ -118,7 +121,8 @@
         "ali-ece",
         "metin-tekin"
       ],
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "sports-digitale",
@@ -129,7 +133,8 @@
         "yagiz-sabuncuoglu",
         "ertan-suzgun"
       ],
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "kontraspor-youtube",
@@ -139,7 +144,8 @@
       "commentators": [
         "nihat-kahveci"
       ],
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "romano-youtube",
@@ -150,7 +156,8 @@
         "fabrizio-romano"
       ],
       "personal_channel": true,
-      "trust": 95
+      "trust": 95,
+      "partner": true
     },
     {
       "id": "gzt-nihat-match",
@@ -173,6 +180,66 @@
         "ridvan-dilmen"
       ],
       "trust": 95
+    },
+    {
+      "id": "beyaz-futbol-youtube",
+      "name": "Beyaz Futbol",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@beyazfutbol",
+      "commentators": [
+        "ahmet-cakar",
+        "sinan-engin",
+        "abdulkerim-durmaz",
+        "necati-ates"
+      ],
+      "trust": 95,
+      "partner": true
+    },
+    {
+      "id": "343-youtube",
+      "name": "343 Digital",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@343digital",
+      "commentators": [
+        "ibrahim-seten",
+        "yagiz-sabuncuoglu"
+      ],
+      "trust": 95,
+      "partner": true
+    },
+    {
+      "id": "cnbce-youtube",
+      "name": "CNBC-e · Saha ve Ötesi",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@cnbce",
+      "commentators": [
+        "sansal-buyuka"
+      ],
+      "trust": 100,
+      "partner": true
+    },
+    {
+      "id": "ugur-karakullukcu-youtube",
+      "name": "Uğur Karakullukçu",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@ugurkarakullukcu",
+      "commentators": [
+        "ugur-karakullukcu"
+      ],
+      "trust": 100,
+      "partner": true
+    },
+    {
+      "id": "bein-youtube",
+      "name": "beIN SPORTS Türkiye",
+      "kind": "youtube_index",
+      "url": "https://www.youtube.com/@beINSPORTSTurkiye",
+      "commentators": [
+        "ugur-meleke",
+        "guntekin-onay"
+      ],
+      "trust": 100,
+      "partner": true
     }
   ]
 }

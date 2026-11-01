@@ -41,11 +41,20 @@ NAMES = {norm(name): cid for cid, name in c.PEOPLE}
 
 
 def title_speaker(title):
-    """("nihat-kahveci", "31 Ekim'de ...") for "Nihat Kahveci: 31 Ekim'de ..."."""
+    """Who the channel says is speaking, and the quote it puts in the title.
+
+    "Nihat Kahveci: 31 Ekim'de ..."  -> ("nihat-kahveci", "31 Ekim'de ...")
+    "Konu başlığı | Ali Ece"         -> ("ali-ece", None)  one name, no quote
+    "Konu | Erman Yaşar & Emre Özcan" -> (None, None)      two speakers
+    """
     m = re.match(r'^\s*([^:|]{3,40}?)\s*:\s*(.+)$', title or '')
-    if not m:
-        return None, None
-    return NAMES.get(norm(m.group(1))), m.group(2)
+    if m and NAMES.get(norm(m.group(1))):
+        return NAMES[norm(m.group(1))], m.group(2)
+    parts = [p.strip() for p in (title or '').split('|')]
+    named = {NAMES[norm(p)] for p in parts[1:] if norm(p) in NAMES}
+    if len(named) == 1 and not any(sep in p for p in parts[1:] for sep in ('&', ',', ' ve ')):
+        return named.pop(), None
+    return None, None
 
 
 def segments(snippets):
@@ -62,7 +71,11 @@ def segments(snippets):
 
 
 def attributed_turn(snippets, title_quote):
-    """The one speaker turn that contains the title's quote, or None."""
+    """The one speaker turn that contains the title's quote, or None.
+    Without a quote the clip counts only if nobody else speaks in it at all."""
+    if title_quote is None:
+        turns = segments(snippets)
+        return turns[0] if len(turns) == 1 else None
     words = norm(title_quote).split()
     if len(words) < 4:
         return None
@@ -151,6 +164,11 @@ def page_videos(channel_url):
             if 'videoRenderer' in node and isinstance(node['videoRenderer'], dict):
                 v = node['videoRenderer']
                 found.setdefault(v.get('videoId'), text_of(v.get('title')))
+            if 'lockupViewModel' in node and isinstance(node['lockupViewModel'], dict):
+                v = node['lockupViewModel']
+                meta = ((v.get('metadata') or {}).get('lockupMetadataViewModel') or {})
+                if 'VIDEO' in str(v.get('contentType', '')) or 'SHORTS' in str(v.get('contentType', '')):
+                    found.setdefault(v.get('contentId'), text_of(meta.get('title')))
             if 'shortsLockupViewModel' in node:
                 v = node['shortsLockupViewModel']
                 vid = str(v.get('entityId', '')).replace('shorts-shelf-item-', '')
