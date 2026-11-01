@@ -121,6 +121,29 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
         self.assertEqual(len(attributed_turn(alone,None)),2)
         self.assertIsNone(attributed_turn(alone+[(6.0,'>> Katılıyorum hocam.')],None))
 
+    def test_block_keeps_progress_and_rests(self):
+        import tempfile, json as _json, youtube_partner as yp
+        from datetime import datetime, timezone
+        now=datetime.now(timezone.utc).isoformat()
+        videos=[{'id':'aaaaaaaaaaa','title':"Nihat Kahveci: Fenerbahçe bu sezon çok zorlanacak dostlar",'published_at':now},
+                {'id':'bbbbbbbbbbb','title':"Nihat Kahveci: Beşiktaş derbide çok iyi oynadı arkadaşlar",'published_at':now}]
+        caps=[([(0.0,'Fenerbahçe bu sezon çok zorlanacak dostlar, Fenerbahçe savunmada büyük hatalar yapıyor ve ligde puan kaybediyor.')],'auto')]
+        def fake_captions(api,vid):
+            if caps: return caps.pop()
+            raise yp.Blocked('ip blocked')
+        with tempfile.TemporaryDirectory() as tmp:
+            out=Path(tmp)/'y.json'
+            with patch.object(yp,'OUT',out),patch.object(yp,'CONFIG',[{'id':'k','name':'Kontraspor','url':'u','partner':True}]),                 patch.object(yp,'channel_videos',return_value=(videos,None)),patch.object(yp,'captions',side_effect=fake_captions),                 patch.object(yp,'PAUSE',0),patch('youtube_transcript_api.YouTubeTranscriptApi'):
+                yp.run()
+                saved=_json.loads(out.read_text(encoding='utf-8'))
+                self.assertIn('aaaaaaaaaaa',saved['seen_videos'])
+                self.assertNotIn('bbbbbbbbbbb',saved['seen_videos'])
+                self.assertTrue(saved['candidates'])
+                self.assertTrue(saved['blocked_until'])
+                with patch.object(yp,'channel_videos') as listing:
+                    yp.run()
+                    listing.assert_not_called()
+
     def test_quote_missing_from_captions_attributes_nothing(self):
         self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
 

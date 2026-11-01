@@ -14,7 +14,7 @@ with ">>"). Anything else stays out, so a guest's words are never put in a
 commentator's mouth.
 """
 from __future__ import annotations
-import hashlib, json, re, sys, time
+import hashlib, json, random, re, sys, time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -27,6 +27,9 @@ OUT = B / 'youtube_candidates.json'
 METHOD = 'partner_video_title_speaker'
 MAX_AGE_DAYS = 45
 MAX_SEEN = 3000
+FETCH_BUDGET = 30          # YouTube requests per hourly run
+PAUSE = 4                  # seconds, randomised up to twice this between requests
+BLOCK_REST = timedelta(hours=6)
 
 
 class Blocked(RuntimeError):
@@ -183,7 +186,9 @@ def publish_date(video_id):
 
 
 def channel_videos(source, seen):
-    """New videos of a partner channel with title and publish date."""
+    """Unseen videos of a partner channel. The publish date comes free from RSS;
+    from the channel page it costs a request, so it is fetched later and only
+    for clips that name their speaker."""
     videos, error = [], None
     try:
         videos, error = youtube_entries(source)
@@ -191,18 +196,9 @@ def channel_videos(source, seen):
         error = str(exc)[:80]
     if videos:
         return [v for v in videos if v['id'] not in seen], None
-    out = []
-    for vid, title in page_videos(source['url']):
-        if vid in seen:
-            continue
-        try:
-            published = publish_date(vid)
-        except Exception:
-            published = None
-        if published:
-            out.append({'id': vid, 'title': title, 'published_at': published})
-        time.sleep(0.5)
-    return out, (None if out else error)
+    listed = [{'id': vid, 'title': title, 'published_at': None}
+              for vid, title in page_videos(source['url']) if vid not in seen]
+    return listed, (None if listed else error)
 
 
 def captions(api, video_id):
@@ -237,49 +233,69 @@ def recent(published, now):
 
 
 def run(only=None, force=False):
+    """One polite pass. YouTube blocked the server after ~600 requests in ten
+    minutes, so a run now spends at most FETCH_BUDGET requests, only on clips
+    whose title names a speaker, pauses between them, keeps whatever it found
+    when blocked and then rests for BLOCK_REST before trying again."""
     from youtube_transcript_api import YouTubeTranscriptApi
     api = YouTubeTranscriptApi()
     now = datetime.now(timezone.utc)
     state = load()
+    rest = state.get('blocked_until')
+    if rest and datetime.fromisoformat(rest) > now:
+        print(f'YouTube engeli sonrası bekleniyor: {rest}')
+        return
     seen = set(state.get('seen_videos', []))
     rows = {r['candidate_id']: r for r in state.get('candidates', []) if recent(r.get('published_at'), now)}
     partners = [s for s in CONFIG if (s.get('partner') or force) and (only is None or s.get('id') == only)]
-    report = []
-    for source in partners:
-        videos, error = channel_videos(source, seen)
-        found = 0
-        for video in videos:
-            if not recent(video['published_at'], now):
+    budget, blocked_until, report = FETCH_BUDGET, None, []
+    try:
+        for source in partners:
+            videos, error = channel_videos(source, seen)
+            found = 0
+            for video in videos:
+                cid, quote = title_speaker(video['title'])
+                if not cid:
+                    seen.add(video['id'])
+                    continue
+                if budget <= 0:
+                    break
+                if not video['published_at']:
+                    budget -= 1
+                    try:
+                        video['published_at'] = publish_date(video['id'])
+                    except Exception:
+                        continue
+                    time.sleep(PAUSE + random.random() * PAUSE)
+                if not video['published_at'] or not recent(video['published_at'], now):
+                    seen.add(video['id'])
+                    continue
+                budget -= 1
+                snippets, kind = captions(api, video['id'])
+                turn = attributed_turn(snippets, quote) if snippets else None
+                for row in (statements_from(video, source, cid, turn, kind, now) if turn else []):
+                    rows[row['candidate_id']] = row
+                    found += 1
                 seen.add(video['id'])
-                continue
-            cid, quote = title_speaker(video['title'])
-            snippets, kind = captions(api, video['id']) if cid else (None, None)
-            if cid and snippets:
-                turn = attributed_turn(snippets, quote)
-                if turn:
-                    for row in statements_from(video, source, cid, turn, kind, now):
-                        rows[row['candidate_id']] = row
-                        found += 1
-            seen.add(video['id'])
-            time.sleep(1)
-        report.append(f"{source['name']}: {len(videos)} video, {found} söz" + (f" (hata: {error})" if error else ''))
-        # systemd buffers a non-interactive stdout; flush so the journal shows progress per channel.
-        print(report[-1], flush=True)
+                time.sleep(PAUSE + random.random() * PAUSE)
+            report.append(f"{source['name']}: {found} söz" + (f" (hata: {error})" if error else ''))
+            # systemd buffers a non-interactive stdout; flush so the journal shows progress per channel.
+            print(report[-1], flush=True)
+    except Blocked as exc:
+        blocked_until = (now + BLOCK_REST).isoformat()
+        print(f'YouTube bu sunucuyu engelledi, {blocked_until} saatine kadar bekleniyor. Bulunanlar kaydedildi.', flush=True)
     body = {'seen_videos': sorted(seen)[-MAX_SEEN:],
-            'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True)}
+            'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True),
+            'blocked_until': blocked_until}
     # Rewrite only on a real change: a fresh timestamp alone would make the
     # server push an empty commit every hour.
     if any(state.get(k) != v for k, v in body.items()) or not OUT.exists():
         OUT.write_text(json.dumps({'generated_at': now.isoformat(), **body}, ensure_ascii=False, indent=1), encoding='utf-8')
-    if not report:
+    if not partners:
         print('izinli (partner) kanal tanımlı değil')
-    print(f'youtube_candidates: {len(rows)}')
+    print(f'youtube_candidates: {len(rows)} | bu çalışmada kalan istek hakkı: {max(budget, 0)}')
 
 
 if __name__ == '__main__':
     only = sys.argv[sys.argv.index('--source') + 1] if '--source' in sys.argv else None
-    try:
-        run(only)
-    except Blocked as exc:
-        print('YouTube bu sunucuyu engelledi:', exc)
-        sys.exit(2)
+    run(only)
