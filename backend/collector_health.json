@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01T01:26:51.363730+00:00",
+  "generated_at": "2026-11-01T01:28:01.664060+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 180,
-    "successful": 164,
+    "successful": 169,
     "youtube_sources": 12,
     "new_videos": 0,
     "candidates": 1386
@@ -1340,9 +1340,12 @@
     {
       "source": "Socrates",
       "kind": "youtube",
+      "items": 15,
+      "publications": 3,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "error": null
     },
     {
       "source": "Tivibu Spor · Orta Nokta",
@@ -1375,9 +1378,12 @@
     {
       "source": "Kontraspor",
       "kind": "youtube",
+      "items": 15,
+      "publications": 11,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "ok": true,
+      "error": null
     },
     {
       "source": "Fabrizio Romano",
@@ -1396,16 +1402,22 @@
     {
       "source": "343 Digital",
       "kind": "youtube",
+      "items": 15,
+      "publications": 0,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "error": null
     },
     {
       "source": "CNBC-e · Saha ve Ötesi",
       "kind": "youtube",
+      "items": 15,
+      "publications": 0,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "error": null
     },
     {
       "source": "Uğur Karakullukçu",
@@ -1417,9 +1429,12 @@
     {
       "source": "beIN SPORTS Türkiye",
       "kind": "youtube",
+      "items": 15,
+      "publications": 1,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "error": null
     },
     {
       "source": "x",
