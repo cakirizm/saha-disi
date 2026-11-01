@@ -98,7 +98,7 @@ struct MatchDetailView: View {
     }
 
     private func refereeCallText(_ call: String?) -> (text: String, icon: String, color: Color)? {
-        switch call {
+        switch call ?? "" {
         case "dogru": return ("Hakemin kararı doğru", "checkmark.circle.fill", SDTheme.green)
         case "hatali": return ("Hakem hatalı", "xmark.circle.fill", SDTheme.red)
         default: return nil

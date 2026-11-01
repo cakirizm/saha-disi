@@ -63,7 +63,8 @@ final class AppStore: ObservableObject {
             .map(\.id))
         return (payload?.statements ?? []).filter { row in
             if row.team.map(canonicalTeam) == target { return true }
-            return row.matchId.map(teamMatches.contains) ?? false
+            guard let id = row.matchId else { return false }
+            return teamMatches.contains(id)
         }.sorted { $0.date > $1.date }
     }
 

@@ -80,10 +80,18 @@ workflows:
             echo "Could not read the selected Saha Disi provisioning profile."
             exit 1
           fi
-          xcode-project build-ipa \
+          # On failure Codemagic only says "Failed to archive"; print the actual
+          # compiler and signing errors from the xcodebuild log so they can be fixed.
+          if ! xcode-project build-ipa \
             --project "SahaDisi.xcodeproj" \
             --scheme "SahaDisi" \
-            --archive-xcargs "COMPILER_INDEX_STORE_ENABLE=NO CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=34JL83RV94 CODE_SIGN_IDENTITY=\"Apple Distribution\" PROVISIONING_PROFILE_SPECIFIER=\"$PROFILE_NAME\""
+            --log-path /tmp/sahadisi-xcodebuild.log \
+            --archive-xcargs "COMPILER_INDEX_STORE_ENABLE=NO CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=34JL83RV94 CODE_SIGN_IDENTITY=\"Apple Distribution\" PROVISIONING_PROFILE_SPECIFIER=\"$PROFILE_NAME\""; then
+            echo "==================== XCODE ERRORS ===================="
+            grep -h -E "error:|error -|Code Signing Error|requires a provisioning profile" /tmp/sahadisi-xcodebuild.log 2>/dev/null | sort -u | head -60
+            echo "======================================================"
+            exit 65
+          fi
 
       - name: Verify IPA exists
         script: |
