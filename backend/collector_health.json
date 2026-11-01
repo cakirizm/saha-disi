@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:59:16.816776+00:00",
+  "generated_at": "2026-11-01T01:00:27.541335+00:00",
   "tracked_commentators": 234,
   "totals": {
     "sources": 183,
@@ -1380,14 +1380,17 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "VOLE / NEO Spor",
       "kind": "youtube",
+      "items": 15,
+      "publications": 7,
+      "new_videos": 0,
       "candidates": 0,
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "error": null
     },
     {
       "source": "Sports Digitale",
@@ -1443,7 +1446,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "x",
