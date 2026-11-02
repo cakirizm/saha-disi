@@ -169,4 +169,14 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
     def test_quote_missing_from_captions_attributes_nothing(self):
         self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
 
+class AppResponsivenessTests(unittest.TestCase):
+    def test_screens_read_the_prebuilt_index(self):
+        # View bodies re-run constantly while scrolling. Scanning every statement
+        # there froze the home carousel until iOS killed the app.
+        app=Path(__file__).resolve().parents[1]/'ios/SahaDisi/SahaDisi'
+        store=(app/'Services/AppStore.swift').read_text(encoding='utf-8')
+        self.assertNotIn('payload?.statements ?? []',store)
+        self.assertIn('func statements(matchID: String) -> [Statement] { index.byMatch',store)
+        self.assertIn('private var featuredMatches: [Match] { store.featuredMatches }',(app/'Views/HomeView.swift').read_text(encoding='utf-8'))
+
 if __name__=='__main__':unittest.main()

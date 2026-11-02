@@ -29,6 +29,10 @@ actor FeedService {
         return try bundledFeed()
     }
 
+    /// Built on this actor, off the main thread: sorting and grouping the feed
+    /// takes long enough to stall the UI if a screen has to wait for it.
+    func index(for payload: FeedPayload) -> FeedIndex { FeedIndex(payload) }
+
     private var cacheURL: URL { FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent(cacheFile) }
     private var decoder: JSONDecoder { JSONDecoder() }
     private func bundledFeed() throws -> FeedPayload {

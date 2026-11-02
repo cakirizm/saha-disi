@@ -7,6 +7,8 @@ final class AppStore: ObservableObject {
     @Published var isRefreshing = false
     @Published var errorText: String?
     @Published var lastRefreshAt: Date?
+    /// Answers every lookup below without touching the statements again.
+    private var index = FeedIndex(nil)
 
     func bootstrap(forceRemote: Bool = false) async {
         if payload == nil { isLoading = true } else { isRefreshing = true }
@@ -14,7 +16,11 @@ final class AppStore: ObservableObject {
         do {
             let previousIDs = Set(payload?.statements.map(\.id) ?? [])
             let loaded = try await FeedService.shared.load(forceRemote: forceRemote)
-            payload = loaded
+            // A refresh that brings the same feed must not re-render every screen.
+            if payload == nil || loaded.generatedAt != payload?.generatedAt {
+                index = await FeedService.shared.index(for: loaded)
+                payload = loaded
+            }
             errorText = nil
             lastRefreshAt = Date()
             if !previousIDs.isEmpty {
@@ -25,30 +31,19 @@ final class AppStore: ObservableObject {
     }
 
     func refresh() async { await bootstrap(forceRemote: true) }
-    func commentator(id: String) -> Commentator? { payload?.commentators.first { $0.id == id } }
+    func commentator(id: String) -> Commentator? { index.commentators[id] }
 
-    func logoURL(for team: String) -> String? {
-        let target = canonicalTeam(team)
-        for match in payload?.matches ?? [] {
-            if canonicalTeam(match.home) == target, let url = match.homeLogoURL { return url }
-            if canonicalTeam(match.away) == target, let url = match.awayLogoURL { return url }
-        }
-        return nil
-    }
+    func logoURL(for team: String) -> String? { index.logos[canonicalTeam(team)] }
 
     func artworkURL(for team: String) -> String? {
         logoURL(for: team)
     }
 
-    func statements(for commentatorID: String) -> [Statement] {
-        (payload?.statements ?? []).filter { $0.commentator == commentatorID }.sorted { $0.date > $1.date }
-    }
+    func statements(for commentatorID: String) -> [Statement] { index.byCommentator[commentatorID] ?? [] }
 
     func statements(for commentatorID: String, team: String) -> [Statement] {
         let target = canonicalTeam(team)
-        return (payload?.statements ?? []).filter {
-            $0.commentator == commentatorID && $0.team.map(canonicalTeam) == target
-        }.sorted { $0.date > $1.date }
+        return statements(for: commentatorID).filter { $0.team.map(canonicalTeam) == target }
     }
 
     /// A team page carries what the club's own page should: statements naming the
@@ -56,37 +51,20 @@ final class AppStore: ObservableObject {
     /// thirds of statements name no club on their own ("Kadıköy'de böyle
     /// oynayacağını düşünmezdim"), so filtering on the name alone left the page
     /// showing a fraction of the commentary that is actually about the team.
-    func statements(team: String) -> [Statement] {
-        let target = canonicalTeam(team)
-        let teamMatches = Set((payload?.matches ?? [])
-            .filter { canonicalTeam($0.home) == target || canonicalTeam($0.away) == target }
-            .map(\.id))
-        return (payload?.statements ?? []).filter { row in
-            if row.team.map(canonicalTeam) == target { return true }
-            guard let id = row.matchId else { return false }
-            return teamMatches.contains(id)
-        }.sorted { $0.date > $1.date }
-    }
+    func statements(team: String) -> [Statement] { index.byTeam[canonicalTeam(team)] ?? [] }
 
-    func statements(player: String) -> [Statement] {
-        let key = playerKey(player)
-        return (payload?.statements ?? []).filter { $0.players.contains { playerKey($0) == key } }.sorted { $0.date > $1.date }
-    }
+    /// Only statements whose own sentence names the club.
+    func statements(naming team: String) -> [Statement] { index.byNamedTeam[canonicalTeam(team)] ?? [] }
 
-    func playerKey(_ name: String) -> String {
-        let value = name.folding(options: [.caseInsensitive, .diacriticInsensitive], locale: Locale(identifier: "en_US_POSIX"))
-            .split(whereSeparator: { $0.isWhitespace }).joined(separator: " ")
-        let aliases = ["victor osimhen": "osimhen", "lucas torreira": "torreira", "rafael leao": "leao", "aleksey batrakov": "batrakov", "leroy sane": "sane", "anderson talisca": "talisca", "marco asensio": "asensio"]
-        return aliases[value] ?? value
-    }
+    func statements(player: String) -> [Statement] { index.byPlayer[playerKey(player)] ?? [] }
+
+    func playerKey(_ name: String) -> String { FeedIndex.playerKey(name) }
 
     func publications(player: String) -> [SourcePublication] {
         (payload?.publications ?? []).filter { $0.players.contains { playerKey($0) == playerKey(player) } }
     }
 
-    func playerProfile(named name: String) -> PlayerProfile? {
-        payload?.players?.first { playerKey($0.name) == playerKey(name) }
-    }
+    func playerProfile(named name: String) -> PlayerProfile? { index.profiles[playerKey(name)] }
 
     func matchHistory(for player: String) -> [(Match, PlayerMatchRating)] {
         (payload?.matches ?? []).compactMap { match in
@@ -94,82 +72,26 @@ final class AppStore: ObservableObject {
         }.sorted { $0.0.kickoff > $1.0.kickoff }
     }
 
-    func incidents(matchID: String) -> [Incident] {
-        (payload?.incidents ?? []).filter { $0.matchID == matchID }
-            .sorted { ($0.minute ?? 999) < ($1.minute ?? 999) }
-    }
+    func incidents(matchID: String) -> [Incident] { index.incidents[matchID] ?? [] }
 
-    func statement(id: Int) -> Statement? { payload?.statements.first { $0.id == id } }
+    func statement(id: Int) -> Statement? { index.statementsByID[id] }
 
-    func statements(matchID: String) -> [Statement] {
-        (payload?.statements ?? []).filter { $0.matchId == matchID }.sorted { $0.date > $1.date }
-    }
+    func statements(matchID: String) -> [Statement] { index.byMatch[matchID] ?? [] }
 
     func relatedStatements(matchID: String) -> [Statement] {
         guard let match = payload?.matches?.first(where: { $0.id == matchID }) else { return [] }
-        let clubs = Set([canonicalTeam(match.home), canonicalTeam(match.away)])
         let exactIDs = Set(statements(matchID: matchID).map(\.id))
-        return (payload?.statements ?? []).filter { row in
-            guard !exactIDs.contains(row.id), let team = row.team else { return false }
-            return clubs.contains(canonicalTeam(team))
-        }.sorted { $0.date > $1.date }
+        return (statements(naming: match.home) + statements(naming: match.away))
+            .filter { !exactIDs.contains($0.id) }
+            .sorted { $0.date > $1.date }
     }
 
-    var rankedTeams: [RankedItem] {
-        // Counted the same way the team page selects, so the number in the list
-        // matches the number of statements the page actually opens with.
-        var names = Set(payload?.statements.compactMap { $0.team.map(canonicalTeam) } ?? [])
-        for match in payload?.matches ?? [] {
-            names.insert(canonicalTeam(match.home))
-            names.insert(canonicalTeam(match.away))
-        }
-        return names.map { RankedItem(id: $0, name: $0, count: statements(team: $0).count) }
-            .filter { $0.count > 0 }
-            .sorted { $0.count == $1.count ? $0.name < $1.name : $0.count > $1.count }
-    }
-
-    var rankedPlayers: [RankedItem] {
-        let all = payload?.statements.flatMap(\.players) ?? []
-        let grouped = Dictionary(grouping: all, by: playerKey)
-        return grouped.map { key, names in
-            let name = names.sorted().first ?? key
-            return RankedItem(id: key, name: name, count: statements(player: name).count)
-        }.sorted { $0.count == $1.count ? $0.name < $1.name : $0.count > $1.count }
-    }
-
-    var rankedCommentators: [(Commentator, Int)] {
-        (payload?.commentators ?? []).map { ($0, statements(for: $0.id).count) }.sorted { $0.1 > $1.1 }
-    }
-
-    /// Activity in our feed, not an inferred platform-wide popularity score.
-    var commentatorFeedSections: [CommentatorFeedSection] {
-        let now = Date()
-        let cutoff = now.addingTimeInterval(-7 * 24 * 60 * 60)
-        let iso = ISO8601DateFormatter()
-        let fractional = ISO8601DateFormatter()
-        fractional.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        let day = DateFormatter()
-        day.locale = Locale(identifier: "en_US_POSIX")
-        day.timeZone = TimeZone(identifier: "Europe/Istanbul")
-        day.dateFormat = "yyyy-MM-dd"
-        func date(_ value: String) -> Date {
-            fractional.date(from: value) ?? iso.date(from: value) ?? day.date(from: value) ?? .distantPast
-        }
-        let grouped = Dictionary(grouping: payload?.statements ?? [], by: \.commentator)
-        return (payload?.commentators ?? []).compactMap { person -> CommentatorFeedSection? in
-            guard let comments = grouped[person.id], !comments.isEmpty else { return nil }
-            let sorted = comments.sorted {
-                let left = date($0.date), right = date($1.date)
-                return left == right ? $0.id > $1.id : left > right
-            }
-            let recentCount = sorted.filter { date($0.date) >= cutoff && date($0.date) <= now }.count
-            return CommentatorFeedSection(commentator: person, statements: sorted, recentCount: recentCount, latestDate: date(sorted[0].date))
-        }.sorted {
-            if $0.recentCount != $1.recentCount { return $0.recentCount > $1.recentCount }
-            if $0.latestDate != $1.latestDate { return $0.latestDate > $1.latestDate }
-            return $0.commentator.name < $1.commentator.name
-        }
-    }
+    var rankedTeams: [RankedItem] { index.rankedTeams }
+    var rankedPlayers: [RankedItem] { index.rankedPlayers }
+    var rankedCommentators: [(Commentator, Int)] { index.rankedCommentators }
+    var commentatorFeedSections: [CommentatorFeedSection] { index.commentatorSections }
+    var featuredMatches: [Match] { index.featuredMatches }
+    var recentMatches: [Match] { index.recentMatches }
 
     func commentatorRanking(for team: String) -> [(Commentator, Int)] {
         let grouped = Dictionary(grouping: statements(team: team), by: \.commentator)
@@ -195,16 +117,9 @@ final class AppStore: ObservableObject {
         return (rows.count, rows.filter { $0.predictionOutcome == "correct" }.count, rows.filter { $0.predictionOutcome == "wrong" }.count)
     }
 
-    var hotStatements: [Statement] {
-        (payload?.statements ?? []).sorted {
-            if $0.strength == $1.strength { return $0.date > $1.date }
-            return $0.strength > $1.strength
-        }
-    }
+    var hotStatements: [Statement] { index.hot }
 
-    var latestStatements: [Statement] {
-        (payload?.statements ?? []).sorted { $0.date > $1.date }
-    }
+    var latestStatements: [Statement] { index.latest }
 
     /// Feed items grouped by shared stance (topic + team + sentiment). A bucket
     /// with 2+ distinct commentators becomes a cluster (one strongest statement
@@ -244,23 +159,5 @@ final class AppStore: ObservableObject {
         return result.sorted { $0.date > $1.date }
     }
 
-    func canonicalTeam(_ value: String) -> String {
-        let key = value.trimmingCharacters(in: .whitespacesAndNewlines).lowercased(with: Locale(identifier: "tr_TR"))
-        let aliases: [String:String] = [
-            "galatasaray a.ş.":"Galatasaray", "galatasaray":"Galatasaray", "fenerbahçe a.ş.":"Fenerbahçe", "fenerbahçe":"Fenerbahçe",
-            "beşiktaş a.ş.":"Beşiktaş", "beşiktaş":"Beşiktaş", "trabzonspor a.ş.":"Trabzonspor", "trabzonspor":"Trabzonspor",
-            "samsunspor a.ş.":"Samsunspor", "samsunspor":"Samsunspor", "göztepe a.ş.":"Göztepe", "göztepe":"Göztepe",
-            "tümosan konyaspor":"Konyaspor", "konyaspor":"Konyaspor", "çaykur rizespor a.ş.":"Rizespor", "çaykur rizespor":"Rizespor", "rizespor":"Rizespor",
-            "arca çorum fk":"Çorum FK", "çorum fk":"Çorum FK", "çorum":"Çorum FK", "gaziantep futbol kulübü a.ş.":"Gaziantep FK",
-            "gaziantep futbol kulübü":"Gaziantep FK", "gaziantep fk":"Gaziantep FK", "gaziantep":"Gaziantep FK",
-            "istanbul başakşehir fk":"Başakşehir", "istanbul başakşehir":"Başakşehir", "başakşehir":"Başakşehir",
-            "amed sportif faaliyetler":"Amed SK", "amed":"Amed SK", "amed sk":"Amed SK", "erzurumspor fk":"Erzurumspor", "erzurumspor":"Erzurumspor",
-            "corendon alanyaspor":"Alanyaspor", "alanyaspor":"Alanyaspor", "kasımpaşa a.ş.":"Kasımpaşa", "kasımpaşa":"Kasımpaşa",
-            "kocaelispor":"Kocaelispor", "gençlerbirliği":"Gençlerbirliği", "eyüpspor":"Eyüpspor",
-            "fenerbahce":"Fenerbahçe", "besiktas":"Beşiktaş", "goztepe":"Göztepe", "kasimpasa":"Kasımpaşa",
-            "basaksehir":"Başakşehir", "istanbul basaksehir":"Başakşehir", "caykur rizespor":"Rizespor",
-            "corum fk":"Çorum FK", "genclerbirligi":"Gençlerbirliği", "eyupspor":"Eyüpspor"
-        ]
-        return aliases[key] ?? value
-    }
+    func canonicalTeam(_ value: String) -> String { FeedIndex.canonicalTeam(value) }
 }

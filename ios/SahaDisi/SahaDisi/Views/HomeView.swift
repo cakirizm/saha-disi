@@ -4,17 +4,8 @@ struct HomeView: View {
     @EnvironmentObject var store: AppStore
     @State private var heroIndex = 0
 
-    private var featuredMatches: [Match] {
-        Array((store.payload?.matches ?? []).sorted { a, b in
-            let ac = store.statements(matchID: a.id).count
-            let bc = store.statements(matchID: b.id).count
-            if ac != bc { return ac > bc }
-            return a.kickoff > b.kickoff
-        }.prefix(4))
-    }
-    private var recentMatches: [Match] {
-        Array((store.payload?.matches ?? []).filter { $0.homeScore != nil }.sorted { $0.kickoff > $1.kickoff }.prefix(4))
-    }
+    private var featuredMatches: [Match] { store.featuredMatches }
+    private var recentMatches: [Match] { store.recentMatches }
 
     var body: some View {
         ScrollView {

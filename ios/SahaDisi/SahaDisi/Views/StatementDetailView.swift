@@ -6,9 +6,9 @@ struct StatementDetailView: View {
 
     // Same subject (team + topic), other commentators' takes — the full spectrum.
     private var otherViews: [Statement] {
-        guard let team = statement.team.map(store.canonicalTeam) else { return [] }
-        return (store.payload?.statements ?? [])
-            .filter { $0.id != statement.id && $0.topic == statement.topic && $0.team.map(store.canonicalTeam) == team }
+        guard let team = statement.team else { return [] }
+        return store.statements(naming: team)
+            .filter { $0.id != statement.id && $0.topic == statement.topic }
             .sorted { $0.strength > $1.strength }
             .prefix(4).map { $0 }
     }
