@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T06:54:22.553541+00:00",
+  "generated_at": "2026-11-03T15:14:59.380419+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -235,6 +235,17 @@
       "photoURL": null
     },
     {
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ES",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hatice-yucel",
       "name": "Hatice Yücel",
       "role": "Futbol yorumcusu / muhabir",
@@ -266,17 +277,6 @@
         "Genel"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "serkan-yetismisoglu",
@@ -423,6 +423,17 @@
       "photoURL": null
     },
     {
+      "id": "ali-ece",
+      "name": "Ali Ece",
+      "role": "Yorumcu",
+      "primarySource": "VOLE",
+      "avatar": "AE",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "firat-gunayer",
       "name": "Fırat Günayer",
       "role": "Yorumcu ve içerik üreticisi",
@@ -523,17 +534,6 @@
         "Trabzonspor"
       ],
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "id": "ali-ece",
-      "name": "Ali Ece",
-      "role": "Yorumcu",
-      "primarySource": "VOLE",
-      "avatar": "AE",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "ali-naci-kucuk",
@@ -33679,7 +33679,156 @@
       "image_kind": null
     },
     {
-      "id": 5544,
+      "id": 6038,
+      "commentator": "engin-saydam",
+      "date": "2026-11-03T14:16:05+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Galatasaray’ın Osimhen uzun süreli sakatlanmadığı sürece sezon sonu şampiyon olma ihtimali rakiplerinden daha yüksektir ancak oynanacak derbiler, Avrupa’da yapılacak maçlar, takviye için fırsat bir transfer dönemi ve eskisinden çok daha zorlu bir lig var.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/tasacak-bu-koprualti-2643284",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/tasacak-bu-koprualti-2643284",
+        "published_at": "2026-11-03T14:16:05+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 6039,
+      "commentator": "engin-saydam",
+      "date": "2026-11-03T14:16:05+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "Galatasaray’da iyisiyle kötüsüyle yaşanan her şey, herkesin önünde, tüm kamuoyunun önünde yaşanmaya devam ediyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/tasacak-bu-koprualti-2643284",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/tasacak-bu-koprualti-2643284",
+        "published_at": "2026-11-03T14:16:05+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 6346,
+      "commentator": "nihat-kahveci",
+      "date": "2026-11-03T08:13:37Z",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Şimdi Lil deplasmanında yenen ben Galatasaray'ın Stuttgart'a karşı ki son dönemde de iyi oynuyor.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=yydG6v-wnsM&t=0s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=yydG6v-wnsM&t=0s",
+        "video_id": "yydG6v-wnsM",
+        "title": "Nihat Kahveci: Galatasaray'ın Stuttgart'a karşı galip gelmesini bekliyorum. İnşallah Galatasaray'a..",
+        "caption": "auto",
+        "published_at": "2026-11-03T08:13:37Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 6347,
+      "commentator": "ali-ece",
+      "date": "2026-11-02T13:13:28Z",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu sezon 3üncü kez bir Beşiktaş futbolcusuna ağzının ortasına tokat atıldı.",
+      "source": "VOLE / NEO Spor",
+      "url": "https://www.youtube.com/watch?v=FZ_PUOCsLxE&t=0s",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "ali-ece",
+        "url": "https://www.youtube.com/watch?v=FZ_PUOCsLxE&t=0s",
+        "video_id": "FZ_PUOCsLxE",
+        "title": "Beşiktaşlı oyunculara tokat atmak serbest olunca Araous da bu fırsatı kaçırmadı | Ali Ece",
+        "caption": "auto",
+        "published_at": "2026-11-02T13:13:28Z"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 6348,
+      "commentator": "nihat-kahveci",
+      "date": "2026-11-02T10:31:44Z",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Osimhen'i doğru kullanan keyif yapar.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=aykNqnjKlTw&t=0s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=aykNqnjKlTw&t=0s",
+        "video_id": "aykNqnjKlTw",
+        "title": "Nihat Kahveci: Osimhen'i doğru kullanan, keyif yapar. Böyle bir oyuncu.",
+        "caption": "auto",
+        "published_at": "2026-11-02T10:31:44Z"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 6350,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -33709,7 +33858,7 @@
       "image_kind": null
     },
     {
-      "id": 5545,
+      "id": 6351,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38449,7 +38598,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 45,
+      "comment_count": 47,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
