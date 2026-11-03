@@ -44,7 +44,9 @@ def article_content(doc):
             for v in value:yield from nodes(v)
     for node in nodes(parser.structured):
         if node.get('articleBody') and node.get('datePublished'):
-            return str(node['articleBody']),str(node['datePublished'])
+            # articleBody often drops paragraph breaks, leaving "varİkinci"; restore them.
+            body=re.sub(r'(?<=[a-zçğıöşü])(?=[A-ZÇĞİÖŞÜ])','\n',str(node['articleBody']))
+            return body,str(node['datePublished'])
     return '\n'.join(' '.join(x.split()) for x in ''.join(parser.parts).splitlines() if x.strip()),parser.date
 
 _ATTR_VERBS=r'(?:dedi|söyledi|ifade etti|ifadelerini kullandı|kaydetti|belirtti|vurguladı|konuştu|açıkladı|değerlendirdi|şunları söyledi|diye konuştu)'

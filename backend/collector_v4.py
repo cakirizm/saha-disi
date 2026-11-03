@@ -132,54 +132,24 @@ def configured_html_sources():
             out.append({'url':src['url'],'source':src['name'],'trust':src.get('trust',95),'cid':cid,'article':src.get('kind')=='article'})
     return out
 
-def platform_discovery(cid):
-    # Search-index discovery is supplementary, never a claim of API coverage.
-    groups=[('social_discovery','site:x.com OR site:twitter.com OR site:instagram.com OR site:youtube.com'),
-            ('agency_discovery','site:aa.com.tr OR site:dha.com.tr OR site:iha.com.tr OR site:reuters.com')]
-    for kind,sites in groups:
-        query='"'+COMMENTATORS[cid]+'" ('+sites+') when:14d'
-        yield {'url':'https://www.bing.com/search?'+urllib.parse.urlencode({'q':query.replace(' when:14d',''),'format':'rss'}),
-               'source':kind,'trust':80,'cid':cid,'rss':True}
-
 def run():
-    state=load_state();seen=set(state.get('seen_videos',[]));rows=[];health=[];processed=[];publications=[]
-    youtube=[s for s in CONFIG if s.get('kind','').startswith('youtube')]
+    rows=[];health=[]
     article_sources=direct_sources()+configured_html_sources()
     existing={(x['url'],x['cid']) for x in article_sources};article_sources=[x for i,x in enumerate(article_sources) if (x['url'],x['cid']) not in {(y['url'],y['cid']) for y in article_sources[:i]}]
-    active_ids=[]
-    try:
-        live=json.loads((B/'feed.json').read_text(encoding='utf-8'))
-        active_ids=list(dict.fromkeys([s['commentator'] for s in live.get('statements',[])]))
-    except Exception:pass
-    # Rotate through the entire roster instead of permanently excluding everyone
-    # beyond the first 50. Transfer reporters are checked on every run.
-    cursor=int(state.get('roster_cursor',0)) % max(len(PEOPLE),1)
-    batch=(PEOPLE+PEOPLE)[cursor:cursor+30]
-    reporters=['yagiz-sabuncuoglu','ertan-suzgun','fabrizio-romano','david-ornstein','gianluca-di-marzio']
-    priority=list(dict.fromkeys([cid for cid,_ in batch]+[cid for cid in reporters if cid in COMMENTATORS]))
-    jobs=[]
+    # Partner YouTube runs from youtube_partner.py because YouTube answers 404 to
+    # GitHub's addresses. Google News and Bing searches never produced a statement.
     with ThreadPoolExecutor(max_workers=16) as pool:
-        for src in article_sources+[rss_source(cid,COMMENTATORS[cid]) for cid in priority]:jobs.append(('web',pool.submit(process_source,src),src))
-        for cid in priority:
-            for src in platform_discovery(cid):jobs.append(('discovery',pool.submit(process_source,src),src))
-        for src in youtube:jobs.append(('youtube',pool.submit(youtube_rows,src,seen),src))
-        for kind,future,src in jobs:
+        jobs=[(pool.submit(process_source,src),src) for src in article_sources]
+        for future,src in jobs:
             try:
-                if kind=='youtube':
-                    found,done,status,items=future.result();processed.extend(done);health.append(status);publications.extend(items)
-                else:found,status=future.result();status['kind']=kind;health.append(status)
+                found,status=future.result();status['kind']='web';health.append(status)
                 rows.extend(found)
-            except Exception as exc:health.append({'source':src.get('name') or src.get('source'),'kind':kind,'candidates':0,'ok':False,'error':str(exc)[:180]})
+            except Exception as exc:health.append({'source':src.get('source'),'kind':'web','candidates':0,'ok':False,'error':str(exc)[:180]})
     unique={x['candidate_id']:x for x in rows}
     social,social_health=collect_social();health.extend(social_health)
     unique.update({x['candidate_id']:x for x in social})
-    STATE_PATH.write_text(json.dumps({'updated_at':datetime.now(timezone.utc).isoformat(),'roster_cursor':(cursor+30)%max(len(PEOPLE),1),'seen_videos':list(dict.fromkeys(state.get('seen_videos',[])+processed))[-3000:]},ensure_ascii=False,indent=2),encoding='utf-8')
     (B/'candidates.json').write_text(json.dumps(list(unique.values()),ensure_ascii=False,indent=2),encoding='utf-8')
-    publication_path=B/'source_publications.json'
-    old=json.loads(publication_path.read_text(encoding='utf-8')) if publication_path.exists() else []
-    combined={p['id']:p for p in old+publications}
-    publication_path.write_text(json.dumps(sorted(combined.values(),key=lambda p:p['date'],reverse=True)[:300],ensure_ascii=False,indent=2),encoding='utf-8')
-    totals={'sources':len(health),'successful':sum(x.get('ok',False) for x in health),'youtube_sources':len(youtube),'new_videos':len(processed),'candidates':len(unique)}
+    totals={'sources':len(health),'successful':sum(x.get('ok',False) for x in health),'candidates':len(unique)}
     (B/'collector_health.json').write_text(json.dumps({'generated_at':datetime.now(timezone.utc).isoformat(),'tracked_commentators':len(PEOPLE),'totals':totals,'sources':health},ensure_ascii=False,indent=2),encoding='utf-8')
     print('collector v4',totals)
 

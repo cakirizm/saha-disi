@@ -42,7 +42,6 @@ struct MoreView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 0) {
                 Text("Daha Fazla").font(.largeTitle.black()).padding(.bottom, 22)
-                NavigationLink { MoreDetailView(title: "Ayarlar", icon: "gearshape") } label: { menu("Ayarlar", "gearshape") }.buttonStyle(.plain)
                 NavigationLink { NotificationSettingsView() } label: { menu("Bildirimler", "bell") }.buttonStyle(.plain)
                 NavigationLink { MoreDetailView(title: "Takip Ettiklerim", icon: "heart") } label: { menu("Takip Ettiklerim", "heart") }.buttonStyle(.plain)
                 NavigationLink { DataStatusView() } label: { menu("Veri Kaynakları", "shippingbox") }.buttonStyle(.plain)
@@ -100,14 +99,11 @@ struct MoreDetailView: View {
     @StateObject private var notifications = NotificationService.shared
     let title: String
     let icon: String
-    @State private var liveDataEnabled = true
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 HStack(spacing: 12) { Image(systemName: icon).font(.title2).frame(width: 46, height: 46).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 13)); Text(title).font(.largeTitle.black()) }
-                if title == "Ayarlar" {
-                    SDCard { Toggle("Canlı veri yenileme", isOn: $liveDataEnabled) }
-                } else if title == "Bildirimler" {
+                if title == "Bildirimler" {
                     SDCard {
                         Toggle(isOn: Binding(get: { notifications.allEnabled }, set: { value in Task { await notifications.setAll(value) } })) {
                             VStack(alignment: .leading, spacing: 3) { Text("Tüm Bildirimler").font(.headline); Text("Yeni doğrulanmış her yorum için bildirim al.").font(.caption).foregroundStyle(SDTheme.muted) }

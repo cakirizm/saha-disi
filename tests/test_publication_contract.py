@@ -7,7 +7,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'backend'))
 from article_content import article_content, attributed_quotes
 from feed_quality import publication_problem, mentioned_entities
 from collector_v4 import youtube_rows
-from collector_v3 import extract, SENTENCE_SPLIT
+from collector_v3 import classify, extract, SENTENCE_SPLIT
 from incidents import judgements, minute_of, recovered_minutes, build_incidents
 from youtube_partner import title_speaker, attributed_turn
 
@@ -201,5 +201,35 @@ class PrivacyDisclosureTests(unittest.TestCase):
         for name in ('gizlilik.md','kosullar.md'):
             self.assertIn('blob/main/docs/'+name,root)
             self.assertTrue((self.ROOT/'docs'/name).exists())
+
+class TextGateTests(unittest.TestCase):
+    def row(self,summary,method='columnist_byline'):
+        return {'url':'https://example.com/yazarlar/a/b','date':'2026-09-05','commentator':'x','summary':summary,'status':'verified_direct_quote','evidence':{'version':2,'speaker_id':'x','url':'https://example.com/yazarlar/a/b','method':method}}
+    def test_fragments_and_glued_words_are_held_back(self):
+        for text in ('dakikada kaleciye baskı yapıp topu kazandı.','Çok iyi vardı.Taraftar ikna oldu.','Maçta büyük sıkıntı varİkinci yarı düzelmedi.','Skora bakmaksızın son ana kadar mücadele etti'):
+            self.assertIsNotNone(publication_problem(self.row(text)),text)
+    def test_club_initial_does_not_end_a_sentence(self):
+        self.assertIsNotNone(publication_problem(self.row('Ezeli rakibine büyük üstünlük kuran G.')))
+        self.assertEqual(len(SENTENCE_SPLIT.split('Üstünlük kuran G. Saray dün iyi oynadı.')),1)
+    def test_clean_sentences_and_real_names_pass(self):
+        for text in ('Fenerbahçe dün gece çok iyi oynadı.','McTominay ve SiyahBeyazlılar için zor bir geceydi!'):
+            self.assertIsNone(publication_problem(self.row(text)),text)
+
+class ClassifierWordingTests(unittest.TestCase):
+    def topic(self,text):return classify(text)[1]
+    def test_everyday_var_is_not_referee(self):
+        self.assertNotEqual(self.topic('Hücum planında büyük sıkıntı var ve moral lazım.'),'Hakem / VAR')
+        self.assertEqual(self.topic("Pozisyonda VAR'ın çağırması gerekirdi."),'Hakem / VAR')
+    def test_substrings_are_not_predictions(self):
+        self.assertNotEqual(self.topic('Şampiyonlar Ligi elemelerinde iyi şeyler gösterdi.'),'Tahmin')
+        self.assertEqual(self.topic('Bu sezon Galatasaray şampiyon olur.'),'Tahmin')
+    def test_pulling_off_a_win_is_not_a_transfer(self):
+        self.assertNotEqual(self.topic('Takım galibiyete imza attı.'),'Transfer')
+
+class ArticleBodyBreakTests(unittest.TestCase):
+    def test_run_together_paragraphs_become_separate_sentences(self):
+        doc='<script type="application/ld+json">{"articleBody":"Hücumda büyük sıkıntı varİkinci yarıda takım oyunu toparladı.","datePublished":"2026-09-05"}</script>'
+        body,_=article_content(doc)
+        self.assertEqual(body.splitlines(),['Hücumda büyük sıkıntı var','İkinci yarıda takım oyunu toparladı.'])
 
 if __name__=='__main__':unittest.main()

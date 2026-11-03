@@ -102,7 +102,7 @@ struct FeedIndex {
         rankedPlayers = players.map { key, rows in
             RankedItem(id: key, name: playerNames[key] ?? key, count: rows.count)
         }.sorted { $0.count == $1.count ? $0.name < $1.name : $0.count > $1.count }
-        rankedCommentators = people.map { ($0, byCommentator[$0.id]?.count ?? 0) }.sorted { $0.1 > $1.1 }
+        rankedCommentators = people.map { ($0, byCommentator[$0.id]?.count ?? 0) }.filter { $0.1 > 0 }.sorted { $0.1 > $1.1 }
 
         commentatorSections = FeedIndex.sections(people: people, byCommentator: byCommentator, now: now)
 

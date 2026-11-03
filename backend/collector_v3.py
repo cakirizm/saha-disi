@@ -3,12 +3,14 @@ Only attributable, literal football quotes are emitted as candidates. Editorial 
 Network work runs concurrently so the hourly live-feed job stays bounded.
 """
 from __future__ import annotations
-import hashlib, html, json, re, urllib.parse, xml.etree.ElementTree as ET
+import hashlib, html, json, random, re, threading, time, urllib.parse, xml.etree.ElementTree as ET
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from feed_quality import EDITORIAL_MARKERS, mentioned_entities
@@ -24,7 +26,7 @@ QUOTE_RE=re.compile(r'[“\"‘](.{20,420}?)[”\"’]',re.S)
 # so also split where a stop is followed directly by a capital or a digit.
 # A stop after a digit is a Turkish ordinal ("48. dakikada"), not a sentence end;
 # a stop after a single capital is an abbreviation ("F.Bahçe", "G.Saray").
-SENTENCE_SPLIT=re.compile(r'(?<![0-9][.!?])(?<=[.!?])\s+|(?<=[a-zçğıöşü][.!?])(?=[A-ZÇĞİÖŞÜ0-9])')
+SENTENCE_SPLIT=re.compile(r'(?<![0-9][.!?])(?<! [A-ZÇĞİÖŞÜ]\.)(?<=[.!?])\s+|(?<=[a-zçğıöşü][.!?])(?=[A-ZÇĞİÖŞÜ0-9])')
 # Football vocabulary used to keep off-topic columns (politics, religion, health)
 # out. Every term must be football-specific: bare 'var' matched Turkish "var"
 # ("there is") and let unrelated columnists through.
@@ -69,9 +71,17 @@ def repair_text(value):
   break
  return ' '.join(value.split())
 
-def fetch(url):
+# Takvim and Fotomaç answer 429 when many of their authors are read at once.
+HOST_SLOTS=defaultdict(lambda:threading.BoundedSemaphore(3))
+def fetch(url,attempts=3):
  req=Request(url,headers={'User-Agent':UA,'Accept-Language':'tr-TR,tr;q=0.9'})
- with urlopen(req,timeout=12) as r:return decode_body(r.read(),r.headers.get('Content-Type',''))
+ for attempt in range(attempts):
+  try:
+   with HOST_SLOTS[urlparse(url).netloc]:
+    with urlopen(req,timeout=12) as r:return decode_body(r.read(),r.headers.get('Content-Type',''))
+  except HTTPError as exc:
+   if exc.code!=429 or attempt==attempts-1:raise
+   time.sleep(2*(attempt+1)+random.random())
 def parse(doc):p=Parser();p.feed(doc);return p
 def tags(text,items):return mentioned_entities(text,items)
 MAX_AGE_DAYS=45
@@ -86,12 +96,16 @@ def classify(s):
  l=s.casefold();typ='opinion';topic='Genel yorum';sent='neutral';strength=6
  if any(x in l for x in ['çok iyi','başarılı','kaliteli','güçlü','mükemmel','harika']):sent='positive'
  if any(x in l for x in ['kötü','hata','zayıf','problem','yanlış','yetersiz']):sent='negative'
- if any(x in l for x in ['performans','forma','golcü',' gol','asist','oynadı','oynuyor','formda','düşüşte','mevki','pozisyon ','santrfor','kanat','stoper']):typ='player';topic='Oyuncu Performansı';strength=max(strength,7)
- if any(x in l for x in ['teknik direktör','hoca',' diziliş','taktik',' sistem',' kadro','rotasyon','oyun planı','oynatmıyor','oynatmalı','değişiklik','tercih etti','oyun anlayışı']):typ='coaching';topic='Teknik Direktör';strength=max(strength,7)
- if any(x in l for x in ['penaltı','hakem','var ']):typ='referee';topic='Hakem / VAR';strength=8
- if any(x in l for x in ['olacak','kazanır','yenilmez','şampiyon','eler','puan alır']):typ='prediction';topic='Tahmin';strength=8
+ if any(x in l for x in ['galibiyet','mağlubiyet','beraberlik','deplasman','derbi','ilk yarı','ikinci yarı','skor','puan','maçı','maçta','maçın','maça']):topic='Maç yorumu'
+ if any(x in l for x in ['performans','forma','golcü',' gol','asist','oynadı','oynuyor','formda','düşüşte','mevki','pozisyon ','santrfor','kanat','stoper','oyuncu','kaleci','forvet','defans','orta saha']):typ='player';topic='Oyuncu Performansı';strength=max(strength,7)
+ if any(x in l for x in ['teknik direktör','teknik adam','hoca',' diziliş','taktik',' sistem',' kadro','rotasyon','oyun planı','oynatmıyor','oynatmalı','değişiklik','tercih etti','oyun anlayışı']):typ='coaching';topic='Teknik Direktör';strength=max(strength,7)
+ # "var" is also the everyday word for "there is", so only the capitalised VAR counts.
+ if any(x in l for x in ['penaltı','hakem','ofsayt','kırmızı kart','sarı kart','ele çarp','elle oynama']) or re.search(r'\bVAR\b',s):typ='referee';topic='Hakem / VAR';strength=8
+ # Plain substrings made "şeyler" (eler), "Şampiyonlar Ligi" and any future tense predictions.
+ if re.search(r'\b(eler|şampiyon olur|şampiyon olacak|küme düşer|küme düşecek|tahminim)\b|\b(maçı|derbiyi)\b.*\bkazan(ır|acak)\b',l):typ='prediction';topic='Tahmin';strength=8
  if any(x in l for x in ['kesin','asla','imkansız','en iyi']):typ='hot_take';strength=10
- if any(x in l for x in ['transfer','imza','anlaşma','bonservis','signing','contract','here we go','deal agreed','medical']):typ='transfer';topic='Transfer';strength=max(strength,8)
+ # "imza attı" usually means "pulled off", not signing a contract.
+ if any(x in l for x in ['transfer','imzaladı','sözleşme','kiralık','anlaşma sağla','bonservis','signing','contract','here we go','deal agreed','medical']):typ='transfer';topic='Transfer';strength=max(strength,8)
  return typ,topic,sent,strength
 
 def rss_source(cid,name):
@@ -172,7 +186,8 @@ def byline_statements(text):
  # A signed column is the author's own words (byline proves it); keep the
  # opinionated, on-topic sentences as their statements.
  out=[]
- for sentence in SENTENCE_SPLIT.split(repair_text(text)):
+ sentences=[x for line in (text or '').splitlines() for x in SENTENCE_SPLIT.split(repair_text(line))]
+ for sentence in sentences:
   s=repair_text(sentence).strip(' "“”-')
   low=s.casefold();words=s.split()
   if not (40<=len(s)<=320 and len(words)>=6):continue

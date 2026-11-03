@@ -4,10 +4,11 @@ struct CommentatorsView: View {
     @EnvironmentObject var store: AppStore
     @State private var search = ""
     @State private var selectedFilter = "Tümü"
-    private let filters = ["Tümü", "Aktif", "Yazar", "TV", "Podcast"]
+    private let filters = ["Tümü", "Yazar", "TV", "Podcast"]
 
     private var rows: [Commentator] {
-        let all = store.payload?.commentators ?? []
+        // The roster also tracks people with nothing published yet; an empty profile helps nobody.
+        let all = (store.payload?.commentators ?? []).filter { !store.statements(for: $0.id).isEmpty }
         let searched = search.isEmpty ? all : all.filter {
             $0.name.localizedCaseInsensitiveContains(search) ||
             $0.primarySource.localizedCaseInsensitiveContains(search) ||
@@ -15,7 +16,6 @@ struct CommentatorsView: View {
         }
         let filtered = searched.filter { commentator in
             switch selectedFilter {
-            case "Aktif": return !store.statements(for: commentator.id).isEmpty
             case "Yazar": return matches(commentator, keywords: ["yazar", "writer", "column", "gazete"])
             case "TV": return matches(commentator, keywords: ["tv", "trt", "bein", "tivibu", "a spor", "beyaz", "yorumcu"])
             case "Podcast": return matches(commentator, keywords: ["podcast", "socrates", "vole", "343", "youtube", "digital"])

@@ -197,7 +197,7 @@ struct HomeView: View {
 
     private var activeCommentators: some View {
         VStack(alignment: .leading, spacing: 10) {
-            header("Öne Çıkan Yorumcular", trailing: "\(store.payload?.commentators.count ?? 0) kişi")
+            header("Öne Çıkan Yorumcular", trailing: "\(store.rankedCommentators.count) kişi")
             ForEach(store.rankedCommentators.prefix(6), id: \.0.id) { c, count in
                 NavigationLink { CommentatorProfileView(commentator: c) } label: {
                     HStack(spacing: 12) {

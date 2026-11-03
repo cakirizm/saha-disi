@@ -16,6 +16,25 @@ def has_broken_text(value):
     if isinstance(value,list): return any(has_broken_text(x) for x in value)
     return False
 
+# Sites publish articleBody with paragraphs run together ("varİkinci", "kazandı.Taraftarı").
+# Real names keep their internal capital, so those prefixes are not treated as glue.
+GLUED_WORDS=re.compile(r'[a-zçğıöşü][.!?…]?[A-ZÇĞİÖŞÜ]')
+CAMEL_NAMES=re.compile(r'(?<!\w)(?:Mc|Mac|De|Di|Le|La|Ku|You|Tik|Siyah|Bordo|Sarı)(?=[A-ZÇĞİÖŞÜ])')
+
+def text_problem(row):
+    summary=(row.get('summary') or '').strip()
+    # A lowercase start means the sentence lost its beginning ("dakikada ...").
+    if summary[:1].islower():
+        return 'sentence_fragment'
+    # "... kuran G." is "G. Saray" cut in half.
+    if re.search(r'(?<!\w)[A-ZÇĞİÖŞÜ]\.$',summary):
+        return 'sentence_fragment'
+    if GLUED_WORDS.search(CAMEL_NAMES.sub(' ',summary)):
+        return 'glued_words'
+    if (row.get('evidence') or {}).get('method')=='columnist_byline' and not re.search(r'[.!?…"”»)]$',summary):
+        return 'sentence_fragment'
+    return None
+
 def publication_problem(row):
     url=urlparse(row.get('url',''))
     if url.scheme!='https' or not url.netloc:
@@ -31,6 +50,8 @@ def publication_problem(row):
         return 'reported_speech_not_own_words'
     if has_broken_text(row):
         return 'broken_text'
+    if text_problem(row):
+        return text_problem(row)
     if row.get('status')=='verified_manual':
         return None
     evidence=row.get('evidence') or {}

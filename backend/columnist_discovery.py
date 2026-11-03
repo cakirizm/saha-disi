@@ -11,7 +11,7 @@ are also merged into commentator_roster.json so the app can show them.
 Run periodically (not hourly) - it fetches a few hundred pages.
 """
 from __future__ import annotations
-import json, random, re, time
+import json, re
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -52,21 +52,9 @@ NAME_NOISE = re.compile(
     r'\s*(tüm\s+)?(köşe\s+)?yazıları(nı)?\b.*$|\s*arşiv\b.*$|\s*yazarı\b.*$', re.I)
 
 
-def polite_fetch(url, attempts=3):
-    """Publishers answer 429 when walked quickly; back off instead of losing a source."""
-    for attempt in range(attempts):
-        try:
-            return c.fetch(url)
-        except Exception as exc:
-            if '429' not in str(exc) or attempt == attempts - 1:
-                raise
-            time.sleep(2 * (attempt + 1) + random.random())
-    raise RuntimeError('unreachable')
-
-
 def slugs_of(publisher):
     """Author slugs on an index page (Turkuvaz renders the list from inline JSON)."""
-    doc = polite_fetch(publisher['index'])
+    doc = c.fetch(publisher['index'])
     found = re.findall(r'/yazarlar/([a-z0-9\-]{4,40})', doc)
     return sorted({s for s in found if s not in SKIP_SLUGS})
 
@@ -105,14 +93,14 @@ def validate(job):
            'cid': slug, 'byline': True}
     now = datetime.now(timezone.utc)
     try:
-        doc = polite_fetch(url)
+        doc = c.fetch(url)
         links = c.discover(src, 3)
     except Exception:
         return None
     sentences = 0
     for article_url, _ in links[:2]:
         try:
-            text, published = article_content(polite_fetch(article_url))
+            text, published = article_content(c.fetch(article_url))
         except Exception:
             continue
         if not text or not published or not is_recent(published, now):

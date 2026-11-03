@@ -7,6 +7,8 @@ from __future__ import annotations
 import json, re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from collections import defaultdict
+from collector_v3 import classify
 from feed_quality import has_broken_text, merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
 from collector_v3 import PLAYERS, TEAMS
 from incidents import build_incidents
@@ -50,7 +52,21 @@ TEAM_ALIASES={
  'Başakşehir':('İ.Başakşehir','Başakşehir FK'),
  'Gaziantep FK':('Gaziantep',),
  'Çorum FK':('Çorum',),
- 'Amed SK':('Amed',),
+ 'Amed SK':('Amed','Amedspor'),
+}
+
+# Columns also use colours, demonyms and the bare city. "Sarı-kırmızılı" is left
+# out: Göztepe shares it with Galatasaray, and a wrong club is worse than none.
+TEAM_PATTERNS={
+ 'Galatasaray':r'(?<!\w)(?:galatasaraylı|cimbom)\w*',
+ 'Fenerbahçe':r'(?<!\w)(?:sar[ıi][- ]?lacivertli|fenerbahçeli|kanarya)\w*',
+ 'Beşiktaş':r'(?<!\w)(?:siyah[- ]?beyazl[ıi]|beşiktaşlı)\w*',
+ 'Trabzonspor':r'(?<!\w)(?:bordo[- ]?mavili|trabzonsporlu)\w*|(?<!\w)trabzon(?!\w)',
+ 'Samsunspor':r'(?<!\w)samsun(?!\w)',
+ 'Konyaspor':r'(?<!\w)konya(?!\w)',
+ 'Rizespor':r'(?<!\w)rize(?!\w)',
+ 'Alanyaspor':r'(?<!\w)alanya(?!\w)',
+ 'Gaziantep FK':r'(?<!\w)antep(?!\w)',
 }
 
 def teams_in(text):
@@ -58,7 +74,8 @@ def teams_in(text):
     found=[]
     for club in TEAMS:
         surfaces=(club,)+TEAM_ALIASES.get(club,())
-        if mentioned_entities(text,list(surfaces)):
+        pattern=TEAM_PATTERNS.get(canonical(club))
+        if mentioned_entities(text,list(surfaces)) or (pattern and re.search(pattern,text,re.I)):
             found.append(canonical(club))
     return sorted(set(found))
 
@@ -195,6 +212,19 @@ def strip_headline_suffix(value):
         text=re.sub(r"\s*[-–]\s*[^-–]{2,32}$",'',text).strip(' “”"\'')
     return text
 
+def inherit_article_team(statements):
+    """A column that only ever names one club is about that club, so its other
+    sentences belong on that club's page. One passing mention is not enough."""
+    named=defaultdict(list)
+    for s in statements:
+        if (s.get('evidence') or {}).get('method')=='columnist_byline':
+            named[s.get('url')].extend(teams_in(s.get('summary','')))
+    for s in statements:
+        clubs=named.get(s.get('url'),[])
+        if not s.get('team') and len(clubs)>=2 and len(set(clubs))==1:
+            s['team']=clubs[0]
+    return statements
+
 quarantine_path=B/'quarantined_statements.json'
 quarantine=json.loads(quarantine_path.read_text(encoding='utf-8')) if quarantine_path.exists() else []
 quarantine_by_key={(s.get('commentator'),s.get('summary'),s.get('url')):s for s in quarantine}
@@ -203,6 +233,10 @@ deduped=[];seen_norm=set()
 for s in seed.get('statements',[]):
     key=(s.get('commentator'),clean_summary(s.get('summary','')).casefold())
     if key in candidate_evidence:s['evidence']=candidate_evidence[key]
+    # An old splitter cut the minute off some referee verdicts ("61. dakikada ...").
+    # Pozisyon Kararı needs them, and the ellipsis says the quote is partial.
+    if s.get('summary','').startswith('dakika') and classify(s['summary'])[1]=='Hakem / VAR':
+        s['summary']='…'+s['summary']
     reason=publication_problem(s)
     if reason:
         quarantine_by_key[(s.get('commentator'),s.get('summary'),s.get('url'))]={**s,'review_reason':reason}
@@ -211,6 +245,9 @@ for s in seed.get('statements',[]):
     s['players']=mentioned_entities(s.get('summary',''),PLAYERS)
     teams=teams_in(s.get('summary',''))
     s['team']=teams[0] if len(teams)==1 else None
+    # Older rows carry labels from the previous keyword rules, so label them again.
+    if (s.get('evidence') or {}).get('method')=='columnist_byline':
+        s['type'],s['topic'],_,s['strength']=classify(s.get('summary',''))
     s['image_url']=statement_image(s,photo_by_commentator)
     s['image_kind']='verified_portrait' if s['image_url'] else None
     if s.get('type')=='transfer':
@@ -222,7 +259,7 @@ for s in seed.get('statements',[]):
     key=(s.get('commentator'),clean_summary(s.get('summary','')).casefold())
     if key in seen_norm:continue
     seen_norm.add(key);deduped.append(s)
-seed['statements']=deduped
+seed['statements']=inherit_article_team(deduped)
 
 # Nothing tied a statement to a fixture, so every match screen opened empty. A
 # single sentence rarely names both clubs ("Beşiktaş hak etti"), but the column
