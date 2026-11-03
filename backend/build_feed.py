@@ -7,7 +7,7 @@ from __future__ import annotations
 import json, re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from feed_quality import merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
+from feed_quality import has_broken_text, merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
 from collector_v3 import PLAYERS, TEAMS
 from incidents import build_incidents
 
@@ -300,7 +300,7 @@ for key,name in sorted(mentioned.items(),key=lambda item:item[1].casefold()):
     players.append(row)
 seed['players']=players
 publication_path=B/'source_publications.json'
-seed['publications']=json.loads(publication_path.read_text(encoding='utf-8')) if publication_path.exists() else []
+seed['publications']=[x for x in json.loads(publication_path.read_text(encoding='utf-8')) if not has_broken_text(x)] if publication_path.exists() else []
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')

@@ -136,24 +136,14 @@ struct LiveFootballMark: View {
     }
 }
 
+/// Sharing only. Likes and comments were removed: they lived in the screen's
+/// memory, reached nobody and vanished on leaving, so they promised a community
+/// that does not exist yet.
 struct StatementSocialBar: View {
     let statement: Statement
-    @State private var liked = false
-    @State private var comments: [String] = []
-    @State private var showingComments = false
-    @State private var draft = ""
 
     var body: some View {
-        HStack(spacing: 12) {
-            Button { withAnimation(.snappy) { liked.toggle() } } label: {
-                Label(liked ? "1" : "Beğen", systemImage: liked ? "heart.fill" : "heart")
-                    .foregroundStyle(liked ? SDTheme.red : SDTheme.muted)
-                    .frame(maxWidth: .infinity, minHeight: 44)
-            }
-            Button { showingComments = true } label: {
-                Label(comments.isEmpty ? "Yorum" : "\(comments.count)", systemImage: "bubble.left")
-                    .frame(maxWidth: .infinity, minHeight: 44)
-            }
+        Group {
             if let url = URL(string: statement.url), !statement.url.isEmpty {
                 ShareLink(item: url, subject: Text("Futbol yorumu"), message: Text(statement.summary)) {
                     Label("Paylaş", systemImage: "square.and.arrow.up")
@@ -165,24 +155,6 @@ struct StatementSocialBar: View {
         }
         .font(.caption.weight(.semibold)).foregroundStyle(SDTheme.muted).lineLimit(1).minimumScaleFactor(0.8)
         .buttonStyle(.plain)
-        .sheet(isPresented: $showingComments) {
-            NavigationStack {
-                VStack(spacing: 16) {
-                    if comments.isEmpty { ContentUnavailableView("Henüz yorum yok", systemImage: "bubble.left", description: Text("İlk yorumu sen yaz.")) }
-                    else { List(comments, id: \.self) { Text($0) } }
-                    HStack {
-                        TextField("Yorum yaz…", text: $draft).textFieldStyle(.roundedBorder)
-                        Button("Gönder") {
-                            let value = draft.trimmingCharacters(in: .whitespacesAndNewlines)
-                            guard !value.isEmpty else { return }
-                            comments.append(value); draft = ""
-                        }.disabled(draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                    }.padding()
-                }
-                .navigationTitle("Yorumlar").navigationBarTitleDisplayMode(.inline)
-                .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Bitti") { showingComments = false } } }
-            }.presentationDetents([.medium, .large])
-        }
     }
 }
 

@@ -179,4 +179,12 @@ class AppResponsivenessTests(unittest.TestCase):
         self.assertIn('func statements(matchID: String) -> [Statement] { index.byMatch',store)
         self.assertIn('private var featuredMatches: [Match] { store.featuredMatches }',(app/'Views/HomeView.swift').read_text(encoding='utf-8'))
 
+class BrokenTextGateTests(unittest.TestCase):
+    def test_garbled_row_is_held_back_instead_of_failing_the_feed(self):
+        row={'url':'https://example.com/yazarlar/a/b','date':'2026-09-05','commentator':'x','status':'verified_manual','summary':'BeÅŸiktaÅŸ dÃ¼n gece iyi oynadÄ±.'}
+        self.assertEqual(publication_problem(row),'broken_text')
+        clean=dict(row,summary='Beşiktaş dün gece çok iyi oynadı.')
+        self.assertIsNone(publication_problem(clean))
+        self.assertEqual(publication_problem(dict(clean,evidence={'title':'Bo�uk ba�l�k'})),'broken_text')
+
 if __name__=='__main__':unittest.main()

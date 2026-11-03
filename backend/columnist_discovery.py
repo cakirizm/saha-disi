@@ -18,6 +18,7 @@ from pathlib import Path
 
 import collector_v3 as c
 from article_content import article_content
+from feed_quality import has_broken_text
 
 B = Path(__file__).resolve().parent
 MAX_AGE_DAYS = 45
@@ -80,7 +81,8 @@ def display_name(doc, slug):
             continue
         name = c.repair_text(re.sub(r'<[^>]+>', ' ', m.group(1))).split('|')[0]
         name = NAME_NOISE.sub('', name).strip(' -–—')
-        if 4 <= len(name) <= 40 and ' ' in name:
+        # A wrongly decoded page must not put a garbled name in the roster.
+        if 4 <= len(name) <= 40 and ' ' in name and not has_broken_text(name):
             return name
     return ' '.join(w.capitalize() for w in slug.split('-'))
 

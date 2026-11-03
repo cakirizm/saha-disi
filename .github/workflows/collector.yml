@@ -76,6 +76,13 @@ jobs:
       - name: Validate feed integrity
         run: |
           python - <<'PY'
+          import sys
+          # Job logs need a login; annotations are public, so say which check failed.
+          def report_failure(kind, error, trace):
+              while trace.tb_next: trace = trace.tb_next
+              print(f'::error::check at line {trace.tb_lineno} failed: {str(error)[:600]}')
+              sys.__excepthook__(kind, error, trace)
+          sys.excepthook = report_failure
           import json
           from pathlib import Path
           p=json.loads(Path('backend/feed.json').read_text())

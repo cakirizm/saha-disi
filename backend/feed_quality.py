@@ -6,6 +6,16 @@ import re
 # Mirrors the publish-gate rule in .github/workflows: these verbs mark reported speech.
 EDITORIAL_MARKERS=(' eleştirdi',' yorumladı',' değerlendirdi',' söyledi',' sert dille',' açıkladı')
 
+# Mojibake markers the publish gate rejects anywhere in the feed. One bad page in
+# one run used to fail the whole publication; now only that row is held back.
+BROKEN_TEXT=('Ã','Å','Ä','Â','�')
+
+def has_broken_text(value):
+    if isinstance(value,str): return any(x in value for x in BROKEN_TEXT)
+    if isinstance(value,dict): return any(has_broken_text(x) for x in value.values())
+    if isinstance(value,list): return any(has_broken_text(x) for x in value)
+    return False
+
 def publication_problem(row):
     url=urlparse(row.get('url',''))
     if url.scheme!='https' or not url.netloc:
@@ -19,6 +29,8 @@ def publication_problem(row):
     # instead of failing the whole run at validation time.
     if any(x in ' ' + (row.get('summary') or '').casefold() for x in EDITORIAL_MARKERS):
         return 'reported_speech_not_own_words'
+    if has_broken_text(row):
+        return 'broken_text'
     if row.get('status')=='verified_manual':
         return None
     evidence=row.get('evidence') or {}
