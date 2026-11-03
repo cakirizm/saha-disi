@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T00:05:26.940101+00:00",
+  "generated_at": "2026-11-03T00:06:31.606308+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 185,
-    "successful": 165,
+    "successful": 162,
     "youtube_sources": 12,
     "new_videos": 0,
-    "candidates": 1220
+    "candidates": 1121
   },
   "sources": [
     {
@@ -100,7 +100,7 @@
     {
       "commentator": "kartal-yigit",
       "source": "Takvim",
-      "candidates": 32,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -180,9 +180,9 @@
     {
       "commentator": "zeki-uzundurukan",
       "source": "A Spor",
-      "candidates": 48,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -300,9 +300,9 @@
     {
       "commentator": "ender-bilgin",
       "source": "Fotomaç",
-      "candidates": 8,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -316,7 +316,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 16,
+      "candidates": 8,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -334,7 +334,7 @@
       "source": "Fotomaç",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error",
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -348,7 +348,7 @@
     {
       "commentator": "abdullah-ercan",
       "source": "Takvim",
-      "candidates": 32,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -372,7 +372,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "Takvim",
-      "candidates": 11,
+      "candidates": 9,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -388,7 +388,7 @@
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 22,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -412,7 +412,7 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 7,
+      "candidates": 4,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -420,7 +420,7 @@
     {
       "commentator": "ulas-ozdemir",
       "source": "Takvim",
-      "candidates": 40,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -1037,8 +1037,8 @@
       "commentator": "cankat-koc",
       "source": "agency_discovery",
       "candidates": 0,
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>",
       "kind": "discovery"
     },
     {
@@ -1424,7 +1424,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "Beyaz Futbol",
@@ -1459,7 +1459,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "x",
