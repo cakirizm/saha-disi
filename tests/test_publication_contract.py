@@ -5,7 +5,8 @@ from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'backend'))
 from article_content import article_content, attributed_quotes
-from feed_quality import publication_problem, mentioned_entities
+from datetime import datetime, timezone
+from feed_quality import cap_article_quotes, is_preview_claim, publication_problem, mentioned_entities
 from collector_v4 import youtube_rows
 from collector_v3 import classify, extract, SENTENCE_SPLIT
 from incidents import judgements, minute_of, recovered_minutes, build_incidents
@@ -231,5 +232,26 @@ class ArticleBodyBreakTests(unittest.TestCase):
         doc='<script type="application/ld+json">{"articleBody":"Hücumda büyük sıkıntı varİkinci yarıda takım oyunu toparladı.","datePublished":"2026-09-05"}</script>'
         body,_=article_content(doc)
         self.assertEqual(body.splitlines(),['Hücumda büyük sıkıntı var','İkinci yarıda takım oyunu toparladı.'])
+
+class QuoteLimitTests(unittest.TestCase):
+    def row(self,text,topic='Genel yorum',url='https://example.com/a',method='columnist_byline'):
+        return {'summary':text,'topic':topic,'url':url,'strength':6,'evidence':{'method':method}}
+    def test_column_is_cut_to_two_keeping_the_referee_verdict(self):
+        rows=[self.row(f'Sıradan cümle numarası {i} burada duruyor.') for i in range(5)]+[self.row('Hakemin penaltı kararı doğruydu.','Hakem / VAR')]
+        kept=cap_article_quotes(rows)
+        self.assertEqual(len(kept),2)
+        self.assertIn('Hakemin penaltı kararı doğruydu.',[s['summary'] for s in kept])
+    def test_other_articles_and_videos_are_not_counted_together(self):
+        rows=[self.row(f'Cümle {i}',url=f'https://example.com/{i}') for i in range(3)]+[self.row(f'Video {i}',method='partner_video_title_speaker') for i in range(3)]
+        self.assertEqual(len(cap_article_quotes(rows)),6)
+
+class PreviewClaimTests(unittest.TestCase):
+    before=datetime(2026,9,5,tzinfo=timezone.utc);kickoff=datetime(2026,9,6,tzinfo=timezone.utc)
+    def test_future_tense_before_kickoff_counts(self):
+        self.assertTrue(is_preview_claim('Bu maçın kritik bölgesi orta saha olacak.',self.before,self.kickoff))
+    def test_after_kickoff_or_without_future_tense_does_not(self):
+        self.assertFalse(is_preview_claim('Bu maçın kritik bölgesi orta saha olacak.',self.kickoff,self.before))
+        self.assertFalse(is_preview_claim('Orta saha iyi oynadı.',self.before,self.kickoff))
+        self.assertFalse(is_preview_claim('Oyuncunun bacak kası zorlandı.',self.before,self.kickoff))
 
 if __name__=='__main__':unittest.main()

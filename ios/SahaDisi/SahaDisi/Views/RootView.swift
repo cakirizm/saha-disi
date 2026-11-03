@@ -48,7 +48,6 @@ struct MoreView: View {
                 NavigationLink { MoreDetailView(title: "Hakkında", icon: "info.circle") } label: { menu("Hakkında", "info.circle") }.buttonStyle(.plain)
                 Link(destination: URL(string: "https://github.com/cakirizm/saha-disi/blob/main/docs/gizlilik.md")!) { menu("Gizlilik ve KVKK", "hand.raised") }.buttonStyle(.plain)
                 Link(destination: URL(string: "https://github.com/cakirizm/saha-disi/blob/main/docs/kosullar.md")!) { menu("Kullanım Koşulları", "doc.text") }.buttonStyle(.plain)
-                NavigationLink { MoreDetailView(title: "Geri Bildirim", icon: "rectangle.and.pencil.and.ellipsis") } label: { menu("Geri Bildirim", "rectangle.and.pencil.and.ellipsis") }.buttonStyle(.plain)
                 VStack(spacing: 10) {
                     SDLogo(); Text("v1.0.0").font(.caption2).foregroundStyle(SDTheme.muted2)
                     Text("Futbol sahada oynanır. Burada konuşulur.").font(.caption).foregroundStyle(SDTheme.muted)
@@ -114,8 +113,6 @@ struct MoreDetailView: View {
                     SDCard { Text("Takım ve yorumcu bildirim tercihlerini ilgili profil sayfalarındaki zil düğmelerinden yönetebilirsin.").foregroundStyle(SDTheme.muted) }
                 } else if title == "Hakkında" {
                     SDCard { VStack(alignment: .leading, spacing: 10) { SDLogo(); Text("Saha Dışı; doğrulanmış futbol yorumlarını, tahminleri ve maç gündemini kaynaklarıyla birlikte düzenler."); Text("Futbol sahada oynanır. Burada konuşulur.").foregroundStyle(SDTheme.muted) } }
-                } else {
-                    SDCard { VStack(alignment: .leading, spacing: 10) { Text("Geri bildirim").font(.headline); Text("Görüşlerini ve veri hatalarını bize iletebilirsin.").foregroundStyle(SDTheme.muted); Link("E-posta gönder", destination: URL(string: "mailto:feedback@sahadisi.app")!) } }
                 }
             }.padding(18)
         }.background(SDTheme.background).navigationBarTitleDisplayMode(.inline)

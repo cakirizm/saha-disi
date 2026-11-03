@@ -61,6 +61,29 @@ def publication_problem(row):
         return 'unverified_speaker'
     return None
 
+# Short quotation, not a copy of the column: how many sentences of one article may
+# be published. The reader goes to the source for the rest.
+MAX_QUOTES_PER_ARTICLE=2
+
+def cap_article_quotes(statements, limit=MAX_QUOTES_PER_ARTICLE, preferred=()):
+    """Keep each column's most useful sentences; hand-verified rows and videos are untouched."""
+    def usefulness(s):
+        return (s.get('id') in preferred,s.get('topic') in {'Hakem / VAR','Tahmin'},bool(s.get('team'))+len(s.get('players') or []),
+                s.get('strength') or 0,-abs(len(s.get('summary') or '')-160),str(s.get('summary')))
+    articles={}
+    for s in statements:
+        if (s.get('evidence') or {}).get('method')=='columnist_byline':
+            articles.setdefault(s.get('url'),[]).append(s)
+    dropped={id(s) for rows in articles.values() for s in sorted(rows,key=usefulness,reverse=True)[limit:]}
+    return [s for s in statements if id(s) not in dropped]
+
+FUTURE_TENSE=re.compile(r'\b\w{2,}(?:acak|ecek)(?:tır|tir|lar|ler)?\b')
+NOT_FUTURE=re.compile(r'\b(?:bacak|sıcak|kucak|yumuşacık)\w*',re.I)
+
+def is_preview_claim(summary, published, kickoff):
+    """A sentence in the future tense, printed before kickoff, about that match."""
+    return bool(published and kickoff and published<kickoff and FUTURE_TENSE.search(NOT_FUTURE.sub(' ',summary or '')))
+
 def mentioned_entities(text, names):
     # Word boundaries prevent e.g. a surname inside an unrelated longer word.
     return [name for name in names if re.search(r'(?<!\w)'+re.escape(name)+r'(?!\w)', text, re.I)]

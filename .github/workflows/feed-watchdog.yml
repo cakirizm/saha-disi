@@ -1,0 +1,28 @@
+name: Saha Disi Feed Watchdog
+
+on:
+  schedule:
+    - cron: '43 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fail when the published feed is stale
+        run: |
+          python - <<'PY'
+          import json, urllib.request
+          from datetime import datetime, timezone
+          url='https://raw.githubusercontent.com/cakirizm/saha-disi/main/backend/feed.json'
+          feed=json.load(urllib.request.urlopen(url,timeout=60))
+          age=(datetime.now(timezone.utc)-datetime.fromisoformat(feed['generated_at'])).total_seconds()/3600
+          print(f'feed age {age:.1f} hours, {len(feed["statements"])} statements')
+          if age>12:
+              print(f'::error::Feed {age:.0f} saattir yenilenmedi')
+              raise SystemExit(1)
+          PY

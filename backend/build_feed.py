@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from collections import defaultdict
 from collector_v3 import classify
-from feed_quality import has_broken_text, merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
+from feed_quality import cap_article_quotes, has_broken_text, is_preview_claim, merge_fixture, match_status, statement_image, normalize_kickoff, publication_problem, mentioned_entities
 from collector_v3 import PLAYERS, TEAMS
 from incidents import build_incidents
 
@@ -222,7 +222,8 @@ def inherit_article_team(statements):
     for s in statements:
         clubs=named.get(s.get('url'),[])
         if not s.get('team') and len(clubs)>=2 and len(set(clubs))==1:
-            s['team']=clubs[0]
+            # Kept on the row: once the article is capped its other sentences are gone.
+            s['team']=s['inherited_team']=clubs[0]
     return statements
 
 quarantine_path=B/'quarantined_statements.json'
@@ -244,7 +245,7 @@ for s in seed.get('statements',[]):
     # Repair historical page-wide tags; only the actual statement supplies entities.
     s['players']=mentioned_entities(s.get('summary',''),PLAYERS)
     teams=teams_in(s.get('summary',''))
-    s['team']=teams[0] if len(teams)==1 else None
+    s['team']=teams[0] if len(teams)==1 else s.get('inherited_team')
     # Older rows carry labels from the previous keyword rules, so label them again.
     if (s.get('evidence') or {}).get('method')=='columnist_byline':
         s['type'],s['topic'],_,s['strength']=classify(s.get('summary',''))
@@ -306,6 +307,16 @@ def link_matches(statements,matches):
     return linked
 
 linked=link_matches(seed['statements'],seed.get('matches'))
+# Keyword rules cannot tell a prediction from a sentence that happens to use the
+# word; a future-tense sentence printed before that match's kickoff can be trusted.
+kickoffs={m.get('id'):parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff')) for m in seed.get('matches') or []}
+for s in seed['statements']:
+    if (s.get('evidence') or {}).get('method')=='columnist_byline' and s.get('topic')!='Hakem / VAR' and is_preview_claim(s.get('summary'),parse_stamp(s.get('date')),kickoffs.get(s.get('match_id'))):
+        s['type'],s['topic']='prediction','Tahmin'
+# After linking, which reads whole articles to find the fixture.
+# Sentences Pozisyon Kararı already uses go first, so the limit costs it as little as it can.
+in_incidents={o.get('statement_id') for i in build_incidents(seed['statements']) for o in i.get('opinions',[])}
+seed['statements']=cap_article_quotes(seed['statements'],preferred=in_incidents)
 # Pozisyon Kararı: verdicts per incident, built only from statements that passed
 # the publication gate above, each carrying the commentator's own sentence.
 seed['incidents']=build_incidents(seed['statements'])

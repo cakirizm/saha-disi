@@ -28,3 +28,8 @@ xcuserdata/
 
 # Business records (permissions, contacts); the repository is public.
 private/
+
+# Rebuilt on every run and hold more of each column than the app publishes.
+backend/candidates.json
+backend/review_queue.json
+backend/quarantined_statements.json

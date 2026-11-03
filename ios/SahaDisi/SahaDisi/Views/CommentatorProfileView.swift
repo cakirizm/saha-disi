@@ -84,9 +84,12 @@ struct CommentatorProfileView: View {
     private var statsStrip: some View {
         HStack(spacing: 0) {
             stat(teamFilter == nil ? "Toplam Yorum" : "Takım Yorumu", statements.count, .white)
-            stat("Doğru Tahmin", predictions.correct, SDTheme.green)
-            stat("Yanlış Tahmin", predictions.wrong, SDTheme.red)
-            stat("Başarı Oranı", successRate, SDTheme.green, suffix: "%")
+            // Outcomes need a result check that does not exist yet; 0% would read as a verdict.
+            if predictions.total > 0 {
+                stat("Doğru Tahmin", predictions.correct, SDTheme.green)
+                stat("Yanlış Tahmin", predictions.wrong, SDTheme.red)
+                stat("Başarı Oranı", successRate, SDTheme.green, suffix: "%")
+            }
         }.padding(.vertical, 14).background(SDTheme.panel).clipShape(RoundedRectangle(cornerRadius: 16))
     }
 
@@ -117,12 +120,14 @@ struct CommentatorProfileView: View {
 
     private var statisticsSection: some View {
         VStack(alignment: .leading, spacing: 14) {
-            Text("Tahmin Performansı").font(.title3.bold())
-            SDCard {
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("%\(successRate) başarı").font(.title2.weight(.black)).foregroundStyle(successRate >= 50 ? SDTheme.green : SDTheme.red)
-                    ProgressView(value: Double(successRate), total: 100).tint(SDTheme.accent)
-                    Text("\(predictions.total) sonuçlanan tahmin · \(predictions.correct) doğru · \(predictions.wrong) yanlış").font(.caption).foregroundStyle(SDTheme.muted)
+            if predictions.total > 0 {
+                Text("Tahmin Performansı").font(.title3.bold())
+                SDCard {
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("%\(successRate) başarı").font(.title2.weight(.black)).foregroundStyle(successRate >= 50 ? SDTheme.green : SDTheme.red)
+                        ProgressView(value: Double(successRate), total: 100).tint(SDTheme.accent)
+                        Text("\(predictions.total) sonuçlanan tahmin · \(predictions.correct) doğru · \(predictions.wrong) yanlış").font(.caption).foregroundStyle(SDTheme.muted)
+                    }
                 }
             }
             let sentiments = store.sentimentCounts(statements)
