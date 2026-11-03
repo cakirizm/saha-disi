@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:46:11.775363+00:00",
+  "generated_at": "2026-11-03T06:54:22.553541+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -213,6 +213,17 @@
       "photoURL": null
     },
     {
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "hamit-turhan",
       "name": "Hamit Turhan",
       "role": "Futbol yorumcusu / muhabir",
@@ -224,11 +235,11 @@
       "photoURL": null
     },
     {
-      "id": "ender-bilgin",
-      "name": "Ender Bilgin",
+      "id": "hatice-yucel",
+      "name": "Hatice Yücel",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
+      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -262,17 +273,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "ES",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hatice-yucel",
-      "name": "Hatice Yücel",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -33569,7 +33569,117 @@
       "image_kind": null
     },
     {
-      "id": 4692,
+      "id": 5302,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Güreşte son yıllarda; zaten altyapılarda bir erimenin yaşandığı görülüyordu ancak çok fazla dile getirilmemişti ve beklenen durum, 2026 Dünya Şampiyonası'yla kendini ortaya koydu...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/gureste-beklenen-oldu-2643232",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/gureste-beklenen-oldu-2643232",
+        "published_at": "2026-11-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 5305,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-03T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Serbestte ilk büyükler dünya şampiyonası görmüş isimler var ancak çoğu birkaç yıldır uluslararası turnuvalarda boy göstermemiş.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/gureste-beklenen-oldu-2643232",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/gureste-beklenen-oldu-2643232",
+        "published_at": "2026-11-03T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 5464,
+      "commentator": "ender-bilgin",
+      "date": "2026-11-03T06:53:16+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Açıkçası son seçimde Aziz Yıldırım tercihi Fenerbahçe açısından çok daha doğru görünüyordu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/03/vaatler-ve-gercekler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/03/vaatler-ve-gercekler",
+        "published_at": "2026-11-03T06:53:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 5467,
+      "commentator": "ender-bilgin",
+      "date": "2026-11-03T06:53:16+03:00",
+      "team": null,
+      "players": [
+        "Talisca"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hele Talisca'nın gönderilmesi iyice tuzu biberi oldu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/03/vaatler-ve-gercekler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/03/vaatler-ve-gercekler",
+        "published_at": "2026-11-03T06:53:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 5544,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -33599,7 +33709,7 @@
       "image_kind": null
     },
     {
-      "id": 4693,
+      "id": 5545,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38375,7 +38485,7 @@
     {
       "id": "talisca",
       "name": "Talisca",
-      "comment_count": 19,
+      "comment_count": 20,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Galatasaaray_5_Stars.png/500px-Galatasaaray_5_Stars.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
