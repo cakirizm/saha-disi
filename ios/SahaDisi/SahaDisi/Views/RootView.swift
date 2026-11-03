@@ -47,6 +47,8 @@ struct MoreView: View {
                 NavigationLink { MoreDetailView(title: "Takip Ettiklerim", icon: "heart") } label: { menu("Takip Ettiklerim", "heart") }.buttonStyle(.plain)
                 NavigationLink { DataStatusView() } label: { menu("Veri Kaynakları", "shippingbox") }.buttonStyle(.plain)
                 NavigationLink { MoreDetailView(title: "Hakkında", icon: "info.circle") } label: { menu("Hakkında", "info.circle") }.buttonStyle(.plain)
+                Link(destination: URL(string: "https://github.com/cakirizm/saha-disi/blob/main/docs/gizlilik.md")!) { menu("Gizlilik ve KVKK", "hand.raised") }.buttonStyle(.plain)
+                Link(destination: URL(string: "https://github.com/cakirizm/saha-disi/blob/main/docs/kosullar.md")!) { menu("Kullanım Koşulları", "doc.text") }.buttonStyle(.plain)
                 NavigationLink { MoreDetailView(title: "Geri Bildirim", icon: "rectangle.and.pencil.and.ellipsis") } label: { menu("Geri Bildirim", "rectangle.and.pencil.and.ellipsis") }.buttonStyle(.plain)
                 VStack(spacing: 10) {
                     SDLogo(); Text("v1.0.0").font(.caption2).foregroundStyle(SDTheme.muted2)

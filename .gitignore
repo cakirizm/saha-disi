@@ -25,3 +25,6 @@ build/
 *.xcarchive/
 xcuserdata/
 .DS_Store
+
+# Business records (permissions, contacts); the repository is public.
+private/

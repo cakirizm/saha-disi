@@ -1,3 +1,4 @@
+import plistlib
 import sys
 import unittest
 from pathlib import Path
@@ -186,5 +187,19 @@ class BrokenTextGateTests(unittest.TestCase):
         clean=dict(row,summary='Beşiktaş dün gece çok iyi oynadı.')
         self.assertIsNone(publication_problem(clean))
         self.assertEqual(publication_problem(dict(clean,evidence={'title':'Bo�uk ba�l�k'})),'broken_text')
+
+class PrivacyDisclosureTests(unittest.TestCase):
+    ROOT=Path(__file__).resolve().parents[1]
+    def test_manifest_declares_user_defaults_and_no_tracking(self):
+        manifest=plistlib.loads((self.ROOT/'ios/SahaDisi/SahaDisi/PrivacyInfo.xcprivacy').read_bytes())
+        self.assertFalse(manifest['NSPrivacyTracking'])
+        self.assertEqual(manifest['NSPrivacyCollectedDataTypes'],[])
+        declared={x['NSPrivacyAccessedAPIType']:x['NSPrivacyAccessedAPITypeReasons'] for x in manifest['NSPrivacyAccessedAPITypes']}
+        self.assertEqual(declared,{'NSPrivacyAccessedAPICategoryUserDefaults':['CA92.1']})
+    def test_app_links_to_published_legal_documents(self):
+        root=(self.ROOT/'ios/SahaDisi/SahaDisi/Views/RootView.swift').read_text(encoding='utf-8')
+        for name in ('gizlilik.md','kosullar.md'):
+            self.assertIn('blob/main/docs/'+name,root)
+            self.assertTrue((self.ROOT/'docs'/name).exists())
 
 if __name__=='__main__':unittest.main()
