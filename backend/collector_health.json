@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T00:15:49.928790+00:00",
+  "generated_at": "2026-11-03T00:17:09.172066+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 185,
-    "successful": 169,
+    "successful": 153,
     "youtube_sources": 12,
     "new_videos": 0,
-    "candidates": 1403
+    "candidates": 825
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
     {
       "commentator": "ahmet-cakar",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -28,7 +28,7 @@
     {
       "commentator": "levent-tuzemen",
       "source": "A Spor",
-      "candidates": 34,
+      "candidates": 10,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -36,7 +36,7 @@
     {
       "commentator": "bulent-timurlenk",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -100,7 +100,7 @@
     {
       "commentator": "kartal-yigit",
       "source": "Takvim",
-      "candidates": 40,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -116,7 +116,7 @@
     {
       "commentator": "emre-bol",
       "source": "A Spor",
-      "candidates": 38,
+      "candidates": 22,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -124,7 +124,7 @@
     {
       "commentator": "fatih-dogan",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -132,7 +132,7 @@
     {
       "commentator": "iskender-gunen",
       "source": "A Spor",
-      "candidates": 47,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -140,7 +140,7 @@
     {
       "commentator": "murat-ozbostan",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -148,7 +148,7 @@
     {
       "commentator": "omer-urundul",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 16,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -156,7 +156,7 @@
     {
       "commentator": "sinan-vardar",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -172,7 +172,7 @@
     {
       "commentator": "turgay-demir",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -308,17 +308,17 @@
     {
       "commentator": "ersin-ramoglu",
       "source": "Fotomaç",
-      "candidates": 16,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 16,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -348,9 +348,9 @@
     {
       "commentator": "abdullah-ercan",
       "source": "Takvim",
-      "candidates": 48,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -364,41 +364,41 @@
     {
       "commentator": "erkan-tan",
       "source": "Takvim",
-      "candidates": 5,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "hakki-yalcin",
       "source": "Takvim",
-      "candidates": 15,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "lutfi-albayrak",
       "source": "Takvim",
-      "candidates": 1,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 46,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "sercan-akkus",
       "source": "Takvim",
       "candidates": 0,
-      "ok": true,
-      "error": null,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -412,17 +412,17 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 21,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
       "commentator": "ulas-ozdemir",
       "source": "Takvim",
-      "candidates": 48,
-      "ok": true,
-      "error": null,
+      "candidates": 0,
+      "ok": false,
+      "error": "HTTP Error 429: Too Many Requests",
       "kind": "web"
     },
     {
@@ -1389,7 +1389,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "TRT Spor · Stadyum",
@@ -1410,7 +1410,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "Kontraspor",
@@ -1438,7 +1438,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "source": "CNBC-e · Saha ve Ötesi",
@@ -1459,7 +1459,7 @@
       "kind": "youtube",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "x",
