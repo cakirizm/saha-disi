@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:21:46.558049+00:00",
+  "generated_at": "2026-11-04T18:01:17.994791+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -213,22 +213,22 @@
       "photoURL": null
     },
     {
-      "id": "ender-bilgin",
-      "name": "Ender Bilgin",
+      "id": "hamit-turhan",
+      "name": "Hamit Turhan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
+      "avatar": "HT",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "hamit-turhan",
-      "name": "Hamit Turhan",
+      "id": "ender-bilgin",
+      "name": "Ender Bilgin",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HT",
+      "avatar": "EB",
       "focusTeams": [
         "Genel"
       ],
@@ -34260,7 +34260,67 @@
       "image_kind": null
     },
     {
-      "id": 7704,
+      "id": 8210,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-04T15:53:38+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O coşkuyu yaratan o yıldızın ismi Aleksey Batrakov'du.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/kutup-yildizi-2643394",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/kutup-yildizi-2643394",
+        "published_at": "2026-11-04T15:53:38+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 8212,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-04T15:53:38+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kulübe katılan ilk Rus futbolcu olarak transferiyle bile Galatasaray tarihine geçen Batrakov, dün gece Alman temsilcisi Stuttgart karşısında bir futbol resitali verdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/kutup-yildizi-2643394",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/kutup-yildizi-2643394",
+        "published_at": "2026-11-04T15:53:38+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 8476,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -34290,7 +34350,7 @@
       "image_kind": null
     },
     {
-      "id": 7706,
+      "id": 8478,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -34320,7 +34380,7 @@
       "image_kind": null
     },
     {
-      "id": 7707,
+      "id": 8479,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38978,7 +39038,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 48,
+      "comment_count": 50,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
