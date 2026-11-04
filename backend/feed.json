@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:26:40.055345+00:00",
+  "generated_at": "2026-11-04T09:21:46.558049+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -79,17 +79,6 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -97,6 +86,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -235,6 +235,17 @@
       "photoURL": null
     },
     {
+      "id": "burak-ozdemir",
+      "name": "Burak Özdemir",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "BÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    },
+    {
       "id": "engin-saydam",
       "name": "Engin Saydam",
       "role": "Futbol yorumcusu / muhabir",
@@ -266,17 +277,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "burak-ozdemir",
-      "name": "Burak Özdemir",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "BÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "serkan-yetismisoglu",
@@ -33822,7 +33822,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
-        "published_at": "2026-11-03T23:53:53+03:00"
+        "published_at": "2026-11-04T06:40:46+03:00"
       },
       "image_kind": null,
       "inherited_team": "Galatasaray"
@@ -33852,7 +33852,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
-        "published_at": "2026-11-03T23:53:53+03:00"
+        "published_at": "2026-11-04T06:40:46+03:00"
       },
       "image_kind": null,
       "inherited_team": "Galatasaray"
@@ -33882,7 +33882,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
-        "published_at": "2026-11-04T00:06:29+03:00"
+        "published_at": "2026-11-04T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -33911,12 +33911,356 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
-        "published_at": "2026-11-04T00:06:29+03:00"
+        "published_at": "2026-11-04T06:40:46+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 7230,
+      "id": 6890,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-04T06:40:46+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Atakan sakatlanıp çıkınca Galatasaray'ın ön alan baskısından kaçabilmek için uzun vurmaya başlayan ve önünde Demirovic ve Deniz'le tutunmaya çalışan Alman ekibi, iki pozisyon daha bulurken Buruk'un takımı devreyi 3 farklı bitirebilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/04/prens-boyle-istedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/04/prens-boyle-istedi",
+        "published_at": "2026-11-04T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 6892,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-04T06:40:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Buruk, iki kartlı adamı Barış ve Sallai'yi 65'te oyundan alırken devamındaki değişikliklerle de aslında Fenerbahçe derbisinin benzeri bir planı uyguladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/04/prens-boyle-istedi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/04/prens-boyle-istedi",
+        "published_at": "2026-11-04T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 6925,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Neyse ki ilk atak Batrakov’un şutunda gol oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/tutarliligiyla-kazandi-2643328",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/tutarliligiyla-kazandi-2643328",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 6926,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sanchez’in defans arkasına gönderdiği tek top, esnasında Stuttgart savunmasının dikkat merkezinin Victor Osimhen’de olması genç Batrakov’a yeteneklerini göstereceği bir alanda topla buluşmasını sağladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/tutarliligiyla-kazandi-2643328",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/tutarliligiyla-kazandi-2643328",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 7000,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Batrakov bu sezonun en büyük piyangosu olacağa benziyor Galatasaray için.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/altin-cocuk-2643327",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/altin-cocuk-2643327",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7003,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Batrakov, Şampiyonlar Ligi’nde son 5 şutunda 4 gol attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/altin-cocuk-2643327",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/altin-cocuk-2643327",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 7337,
+      "commentator": "burak-ozdemir",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Şampiyonlar Ligi'nde üç maçta 7 puan toplamış, bir kaç gün önce Bayer Leverkusen'e 4 atmış ve Hakem Chris Kavanagh'ın verdiği yetkiyle tekme tokat oynayan bir Stuttgart vardı dün akşam Rams Park'ta!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/batrakov-acil-gorusme-odasina-2643315",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/batrakov-acil-gorusme-odasina-2643315",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 7338,
+      "commentator": "burak-ozdemir",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "BATRAKOV ACİL GÖRÜŞMEYE!Takıma ve ülkeye uyum sağladıktan sonra Aleksei Batrakov durdurulamaz bir oyuncu oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/batrakov-acil-gorusme-odasina-2643315",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "burak-ozdemir",
+        "url": "https://www.fanatik.com.tr/yazarlar/burak-ozdemir/batrakov-acil-gorusme-odasina-2643315",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 7359,
+      "commentator": "deniz-coban",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Galatasaray’ı durdurmakta zorlanan konuk ekip üst üste sert fauller yapsa da hakem, kart yerine sözlü ikazlarla yetindi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/osimhenin-penaltisini-atladi-2643329",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/osimhenin-penaltisini-atladi-2643329",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7360,
+      "commentator": "deniz-coban",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "37. dakikada El Khannouss’un Batrakov’a kontrolsüz müdahalesine faul dahi çalınmadı; oysa hareket net bir sarı kartlıktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/osimhenin-penaltisini-atladi-2643329",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/osimhenin-penaltisini-atladi-2643329",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7590,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Batrakov iki nefis gole imzasını atarken hem de oynadığı futbolla, katkıyla takımın parlayan yıldızıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kutluyorum-2643326",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kutluyorum-2643326",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7593,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-04T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Orta alandaki birbirini tamamlayan oyuncular, kanatlardan da Barış Alper ve Yunus ile büyük destek aldı...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kutluyorum-2643326",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/kutluyorum-2643326",
+        "published_at": "2026-11-04T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7704,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -33946,7 +34290,7 @@
       "image_kind": null
     },
     {
-      "id": 7232,
+      "id": 7706,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -33976,7 +34320,7 @@
       "image_kind": null
     },
     {
-      "id": 7233,
+      "id": 7707,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38628,13 +38972,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 27,
+      "comment_count": 28,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 41,
+      "comment_count": 48,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -38716,7 +39060,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 48,
+      "comment_count": 49,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
