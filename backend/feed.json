@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:04:53.839137+00:00",
+  "generated_at": "2026-11-04T01:26:40.055345+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -112,17 +112,6 @@
       "photoURL": null
     },
     {
-      "id": "ahmet-cakar",
-      "name": "Ahmet Çakar",
-      "role": "Yorumcu / Yazar",
-      "primarySource": "A Spor / Beyaz Futbol",
-      "avatar": "AC",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
       "id": "levent-tuzemen",
       "name": "Levent Tüzemen",
       "role": "Futbol yorumcusu",
@@ -132,6 +121,17 @@
         "Galatasaray"
       ],
       "photoURL": null
+    },
+    {
+      "id": "ahmet-cakar",
+      "name": "Ahmet Çakar",
+      "role": "Yorumcu / Yazar",
+      "primarySource": "A Spor / Beyaz Futbol",
+      "avatar": "AC",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
       "id": "turgay-demir",
@@ -33798,7 +33798,125 @@
       "image_kind": "verified_portrait"
     },
     {
-      "id": 7226,
+      "id": 6387,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-03T23:53:53+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Mütevazı kimliğinin yanı sıra çalışkanlığı, zekası ve kalitesi ile ön plana çıkan Batrakov iki golde de ders sayılabilecek 2 kaliteli vuruş yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
+        "published_at": "2026-11-03T23:53:53+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 6391,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-03T23:53:53+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Eğer Osimhen iyi mücadele etmesine ve çok çalışmasına rağmen ısrarla gol atmaya çalışması bazı pozisyonların kaybolmasına neden oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/04/kalinka-gecesi",
+        "published_at": "2026-11-03T23:53:53+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 6810,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-04T00:06:29+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu Batrakov var ya; ayağında Güneş'i, Ay'ı, Kuyrukluyıldızı bile top diye sektirir!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
+        "published_at": "2026-11-04T00:06:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 6817,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-04T00:06:29+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu Batrakov var ya; şapkadan tavşan çıkarmadı ama zekası ile futbolu baştan çıkardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/04/batrakov-futbolu-bastan-cikardi",
+        "published_at": "2026-11-04T00:06:29+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 7230,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -33828,7 +33946,7 @@
       "image_kind": null
     },
     {
-      "id": 7228,
+      "id": 7232,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -33858,7 +33976,7 @@
       "image_kind": null
     },
     {
-      "id": 7229,
+      "id": 7233,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38516,7 +38634,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 38,
+      "comment_count": 41,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -38598,7 +38716,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 47,
+      "comment_count": 48,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
