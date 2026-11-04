@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:01:17.994791+00:00",
+  "generated_at": "2026-11-04T23:43:49.798508+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -86,6 +75,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -34320,7 +34320,176 @@
       "transfer_status": "reported"
     },
     {
-      "id": 8476,
+      "id": 8280,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-05T01:16:27+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Liverpool rotasyonlu kadroyla çıkmış, kazanırsa tarihe Fenerbahçe kazandı ama Liverpool da ideal 11 ile sahada değil diye geçmeyecek.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
+        "published_at": "2026-11-05T01:16:27+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8283,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-05T01:16:27+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Ön tarafta atletizmi problemli Lukaku, Grenwood, İrfan üçlüsüyle, orta sahada önündekileri besleyecek bir beyinden yoksun üçlüyle sahaya çıkan Fenerbahçe oyun bozan bir futbol ortaya koydu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
+        "published_at": "2026-11-05T01:16:27+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8428,
+      "commentator": "emre-bol",
+      "date": "2026-11-04T23:34:05+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bence Grenwood'un ceza sahası içinde iki elle itilerek düşürülmesi penaltıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+        "published_at": "2026-11-04T23:34:05+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8429,
+      "commentator": "emre-bol",
+      "date": "2026-11-04T23:34:05+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ancak Fransız hakem VAR'a sormaya bile gerek görmedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+        "published_at": "2026-11-04T23:34:05+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8685,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-05T00:03:28+03:00",
+      "team": null,
+      "players": [
+        "Guendouzi",
+        "Kante"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kuyt'ın üçlü orta saha ile maça çıkması (Guendouzi-Kante ve İsmail) Liverpool'un orta sahada bocalamasını sağladı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
+        "published_at": "2026-11-05T00:03:28+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8687,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-05T00:03:28+03:00",
+      "team": null,
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Greenwood'un, Liverpool savunmasında Jacquet'ye çarparak ağlara giden golü ile bir anda Kadıköy'de bayram yaşandı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
+        "published_at": "2026-11-05T00:03:28+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 9104,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -34350,7 +34519,7 @@
       "image_kind": null
     },
     {
-      "id": 8478,
+      "id": 9106,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -34380,7 +34549,7 @@
       "image_kind": null
     },
     {
-      "id": 8479,
+      "id": 9107,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -39055,19 +39224,19 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 38,
+      "comment_count": 39,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "guendouzi",
       "name": "Guendouzi",
-      "comment_count": 26,
+      "comment_count": 27,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Matt%C3%A9o_Guendouzi_6_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 19,
+      "comment_count": 20,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
