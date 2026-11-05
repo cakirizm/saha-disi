@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T23:43:30.895879+00:00",
+  "generated_at": "2026-11-05T06:54:36.448076+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1456
+    "candidates": 1481
   },
   "sources": [
     {
@@ -114,13 +114,21 @@
     {
       "commentator": "emre-bol",
       "source": "A Spor",
-      "candidates": 46,
+      "candidates": 38,
       "ok": true,
       "error": null,
       "kind": "web"
     },
     {
       "commentator": "fatih-dogan",
+      "source": "A Spor",
+      "candidates": 48,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "hakki-yalcin",
       "source": "A Spor",
       "candidates": 48,
       "ok": true,
@@ -202,7 +210,7 @@
     {
       "commentator": "deniz-coban",
       "source": "Fanatik",
-      "candidates": 47,
+      "candidates": 45,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -242,7 +250,7 @@
     {
       "commentator": "mehmet-caner-kolagasigil",
       "source": "Fanatik",
-      "candidates": 20,
+      "candidates": 28,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -274,7 +282,7 @@
     {
       "commentator": "olcay-cakir",
       "source": "Fanatik",
-      "candidates": 48,
+      "candidates": 46,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -354,7 +362,7 @@
     {
       "commentator": "ekrem-kiziltas",
       "source": "Takvim",
-      "candidates": 3,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -363,14 +371,6 @@
       "commentator": "erkan-tan",
       "source": "Takvim",
       "candidates": 5,
-      "ok": true,
-      "error": null,
-      "kind": "web"
-    },
-    {
-      "commentator": "hakki-yalcin",
-      "source": "Takvim",
-      "candidates": 17,
       "ok": true,
       "error": null,
       "kind": "web"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:43:49.798508+00:00",
+  "generated_at": "2026-11-05T06:54:54.661993+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,6 +68,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -79,11 +90,11 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
+      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -97,17 +108,6 @@
       "avatar": "OY",
       "focusTeams": [
         "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
-      "focusTeams": [
-        "Genel"
       ],
       "photoURL": null
     },
@@ -134,6 +134,17 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
+      "id": "olcay-cakir",
+      "name": "Olcay Çakır",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "OÇ",
+      "focusTeams": [
+        "Trabzonspor"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -144,17 +155,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "olcay-cakir",
-      "name": "Olcay Çakır",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "OÇ",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "sinan-vardar",
@@ -335,22 +335,22 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "id": "ersin-ramoglu",
-      "name": "Ersin Ramoğlu",
+      "id": "mehmet-caner-kolagasigil",
+      "name": "Mehmet Caner Kolağasıgil",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ER",
+      "avatar": "MCK",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "mehmet-caner-kolagasigil",
-      "name": "Mehmet Caner Kolağasıgil",
+      "id": "ersin-ramoglu",
+      "name": "Ersin Ramoğlu",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "MCK",
+      "avatar": "ER",
       "focusTeams": [
         "Genel"
       ],
@@ -34342,7 +34342,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
-        "published_at": "2026-11-05T01:16:27+03:00"
+        "published_at": "2026-11-05T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -34369,7 +34369,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/05/karakter-koydular",
-        "published_at": "2026-11-05T01:16:27+03:00"
+        "published_at": "2026-11-05T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -34384,34 +34384,6 @@
       "sentiment": "neutral",
       "strength": 8,
       "summary": "Bence Grenwood'un ceza sahası içinde iki elle itilerek düşürülmesi penaltıydı.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "emre-bol",
-        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
-        "published_at": "2026-11-04T23:34:05+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Fenerbahçe"
-    },
-    {
-      "id": 8429,
-      "commentator": "emre-bol",
-      "date": "2026-11-04T23:34:05+03:00",
-      "team": "Fenerbahçe",
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Ancak Fransız hakem VAR'a sormaya bile gerek görmedi.",
       "source": "A Spor",
       "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
       "image_url": null,
@@ -34455,7 +34427,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
-        "published_at": "2026-11-05T00:03:28+03:00"
+        "published_at": "2026-11-05T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -34484,12 +34456,726 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/05/liverpoola-gununu-gosterdik",
-        "published_at": "2026-11-05T00:03:28+03:00"
+        "published_at": "2026-11-05T06:40:47+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 9104,
+      "id": 8796,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Lakin Kuyt’ın sözünü ettiği “plan” yine devreye girdi ve tıpkı ilk golde olduğu gibi 4 dakika sonra Şampiyonlar Ligi golcüsü Archie daha önce yaptığı gibi arka direğe sızdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/belki-de-plan-2643446",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/belki-de-plan-2643446",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8797,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Derken Archie’nin tac atışını Skriniar ile pastan ortaya çevirmesi bu kez Liverpool stoper hattını “uykuda yakalayan” Muric’e golü attırdı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/belki-de-plan-2643446",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/belki-de-plan-2643446",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8832,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Son maçta yaşanan puan kaybı ile hayal kırıklığı içindeki Siyah-Beyazlılar; favorisi olmayan maçı erken gol ile lehine çevirmenin hesaplarını yapıyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/favorisi-olmayan-mac-2643449",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/favorisi-olmayan-mac-2643449",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8835,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Deplasmanda sıkıntı çektiğini, dert yanmayacak hoca.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/favorisi-olmayan-mac-2643449",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/favorisi-olmayan-mac-2643449",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Beşiktaş"
+    },
+    {
+      "id": 8866,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Kante"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kante ve arkadaşları Kadıköy’de Liverpool’a karşı öyle yürekten oynadılar ki; sadece maçı kazanmakla kalmadılar, ayların tozunu toprağını üzerlerinden attılar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/inanc-farki-2643447",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/inanc-farki-2643447",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8868,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Kante"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Orta sahayı Kante ve İsmail ile üçleyen Kuyt, İrfan Can’ı sol forvete iterek, topun kıymetini bileceğinin sinyallerini verdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/inanc-farki-2643447",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/inanc-farki-2643447",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8906,
+      "commentator": "emre-bol",
+      "date": "2026-11-05T06:40:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Bence Greenwood'un ceza sahası içinde iki elle itilerek düşürülmesi penaltıydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "emre-bol",
+        "url": "https://www.aspor.com.tr/yazarlar/emre-bol/2026/11/05/tarihin-en-kotusu",
+        "published_at": "2026-11-05T06:40:47+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8975,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-05T06:40:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarının sonunda aldığım not; \"Fenerbahçe böyle oynarsa kazanması futbol yasası.\" Cesaret ve inanç kadar, takımda kendini yenilemenin izlerini de gördük.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/05/ruhani-uyanis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/05/ruhani-uyanis",
+        "published_at": "2026-11-05T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8976,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-05T06:40:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Ne demek istediğimi gelecek maçlarda göreceksiniz.\" Greenwood, yeni koordinat sisteminde yerini alırken, bezgin duruşunu terk edip, kendisindeki sihrin farkına vardı, gecenin kaliteli kısımlarında \"resital\" verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/05/ruhani-uyanis",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/05/ruhani-uyanis",
+        "published_at": "2026-11-05T06:40:47+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 8979,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-03T06:40:48+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Etiketli bir zibidiye ödenecek transfer parası için.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/03/inci-tanesi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/03/inci-tanesi",
+        "published_at": "2026-11-03T06:40:48+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 8980,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-03T06:40:48+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Bu takımın kaptanı Skriniar denen kötü bir örnek.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/03/inci-tanesi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/03/inci-tanesi",
+        "published_at": "2026-11-03T06:40:48+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8987,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-01T06:40:51+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "H H H İnsan kalitesine zerre kadar yatırım yapılmayan bir ülkede Skriniar'a iyi bakın.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/01/gecen-hafta-kuldu-bu-hafta-duman",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/01/gecen-hafta-kuldu-bu-hafta-duman",
+        "published_at": "2026-11-01T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8989,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-01T06:40:51+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ahlaki değerleri yerle bir etmesine bile ses edilmeyen bu adamın, bütün boyalarını nasıl akıttığını görmeyenler için Kerem'i yuhalamak kolay.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/01/gecen-hafta-kuldu-bu-hafta-duman",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-fenerbahce-goztepe",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/01/gecen-hafta-kuldu-bu-hafta-duman",
+        "published_at": "2026-11-01T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8995,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-30T06:40:50+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu takımın Skriniar gibi çirkinlik abidesi ve basiretsiz bir kaptanı varken, konuşacak çok şey var aslında.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/30/celik-kapi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/30/celik-kapi",
+        "published_at": "2026-10-30T06:40:50+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 8997,
+      "commentator": "hakki-yalcin",
+      "date": "2026-10-30T06:40:50+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Yıllardır bütün mesele ya hakemler ya rakipler.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/30/celik-kapi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-09-galatasaray-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/10/30/celik-kapi",
+        "published_at": "2026-10-30T06:40:50+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 9086,
+      "commentator": "omer-urundul",
+      "date": "2026-11-05T06:40:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bu golün moraliyle devre sonuna kadar her şey Fenerbahçe'nin lehine gelişti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/05/kuyt-dogruyu-yapti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/05/kuyt-dogruyu-yapti",
+        "published_at": "2026-11-05T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 9090,
+      "commentator": "omer-urundul",
+      "date": "2026-11-05T06:40:47+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Muriqi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ondan sonra da Vedat Muriqi 3 kişinin arasından müthiş bir kafa golüne imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/05/kuyt-dogruyu-yapti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-urundul",
+        "url": "https://www.aspor.com.tr/yazarlar/omer-urundul/2026/11/05/kuyt-dogruyu-yapti",
+        "published_at": "2026-11-05T06:40:47+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 9269,
+      "commentator": "deniz-coban",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Maçın henüz dengede olduğu 23. dakikada, ceza sahası içinde yaşanan penaltı pozisyonunda hakem hatalı bir karara imza attı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-ve-kirmizi-olmaliydi-2643444",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-ve-kirmizi-olmaliydi-2643444",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 9272,
+      "commentator": "deniz-coban",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Futbolda bu hareketin karşılığı son derece açıktır: Pozisyon hem şüpheye yer bırakmayacak kadar net bir penaltı hem de bariz gol şansının engellenmesi nedeniyle mutlak bir kırmızı karttı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-ve-kirmizi-olmaliydi-2643444",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penalti-ve-kirmizi-olmaliydi-2643444",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 9414,
+      "commentator": "mehmet-caner-kolagasigil",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sakatlık sorunu var mı, oynayacak mı, oynamayacak mı diye soru işaretleri varken öylesine özgüvenli bir performans sergiledi ki adeta Ake'nin dönüşünde Skriniar'a: 'Dikkat et ben buradayım' diyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/mehmet-caner-kolagasigil/oppongu-ayri-bir-yere-not-edelim-2643442",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mehmet-caner-kolagasigil",
+        "url": "https://www.fanatik.com.tr/yazarlar/mehmet-caner-kolagasigil/oppongu-ayri-bir-yere-not-edelim-2643442",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 9416,
+      "commentator": "mehmet-caner-kolagasigil",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Greenwood adeta bu takımın beyni benim olmam gerekiyor ve beni ceza sahasına yakın oynatın dedi maçta.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/mehmet-caner-kolagasigil/oppongu-ayri-bir-yere-not-edelim-2643442",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mehmet-caner-kolagasigil",
+        "url": "https://www.fanatik.com.tr/yazarlar/mehmet-caner-kolagasigil/oppongu-ayri-bir-yere-not-edelim-2643442",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 9446,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Son yedi maçını kazanan Bordo-Mavililer’in en büyük gücü, Thomas Reis yönetiminde gelişen takım duygusu ve Salah’ın etrafında çoğalan hücum cesareti.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/inanc-tam-sinav-buyuk-2643450",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-trabzonspor-gaziantep-fk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/inanc-tam-sinav-buyuk-2643450",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 9448,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ancak Trabzonspor, zorlandığında çözüm üretebildiğini ve farklı oyuncularıyla kazanabildiğini gösterdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/inanc-tam-sinav-buyuk-2643450",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-10-trabzonspor-gaziantep-fk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/inanc-tam-sinav-buyuk-2643450",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 9515,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [
+        "Greenwood"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Greenwood’un biraz sahne alması yetti, beraberlik golünü bulduk hatta galibiyetle soyunma odasına gidebilirdik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/meydan-okuma-2643443",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/meydan-okuma-2643443",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 9519,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-05T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Özellikle Muric girdikten sonra rakip savunmayı zorlarken, harika bir kafa golüyle mücadelesini taçlandırdı ve takımını öne geçiren isim oldu...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/meydan-okuma-2643443",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/meydan-okuma-2643443",
+        "published_at": "2026-11-05T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 9628,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -34519,7 +35205,7 @@
       "image_kind": null
     },
     {
-      "id": 9106,
+      "id": 9630,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -34549,7 +35235,7 @@
       "image_kind": null
     },
     {
-      "id": 9107,
+      "id": 9631,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -39224,7 +39910,7 @@
     {
       "id": "greenwood",
       "name": "Greenwood",
-      "comment_count": 39,
+      "comment_count": 43,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/RonGreenwoodBP.JPG/500px-RonGreenwoodBP.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -39236,7 +39922,7 @@
     {
       "id": "kante",
       "name": "Kante",
-      "comment_count": 20,
+      "comment_count": 22,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG/500px-N%27Golo_Kant%C3%A9_91_Fenerbah%C3%A7e_20260805_%282%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -39248,7 +39934,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 38,
+      "comment_count": 39,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -39259,7 +39945,7 @@
     {
       "id": "muriqi",
       "name": "Muriqi",
-      "comment_count": 6,
+      "comment_count": 7,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg/500px-Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%289%29_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -39319,7 +40005,7 @@
     {
       "id": "skriniar",
       "name": "Skriniar",
-      "comment_count": 19,
+      "comment_count": 24,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG/500px-Milan_%C5%A0kriniar_37_Fenerbah%C3%A7e_20260805_%288%29_%28cropped%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
