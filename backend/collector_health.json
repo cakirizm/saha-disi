@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T06:54:36.448076+00:00",
+  "generated_at": "2026-11-05T15:31:49.784377+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1481
+    "candidates": 1473
   },
   "sources": [
     {
@@ -218,7 +218,7 @@
     {
       "commentator": "engin-saydam",
       "source": "Fanatik",
-      "candidates": 32,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"

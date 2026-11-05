@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:54:54.661993+00:00",
+  "generated_at": "2026-11-05T15:32:05.846095+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -16891,7 +16891,7 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
       "evidence": {
         "version": 2,
         "method": "columnist_byline",
@@ -33396,7 +33396,7 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null,
+      "match_id": "sl-2026-06-trabzonspor-galatasaray",
       "evidence": {
         "version": 2,
         "method": "columnist_byline",
@@ -35175,7 +35175,7 @@
       "inherited_team": "Fenerbahçe"
     },
     {
-      "id": 9628,
+      "id": 10431,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -35205,7 +35205,7 @@
       "image_kind": null
     },
     {
-      "id": 9630,
+      "id": 10433,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -35235,7 +35235,7 @@
       "image_kind": null
     },
     {
-      "id": 9631,
+      "id": 10434,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
