@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:02:50.285993+00:00",
+  "generated_at": "2026-11-06T23:13:44.102880+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -35964,7 +35964,65 @@
       "image_kind": null
     },
     {
-      "id": 11831,
+      "id": 11267,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-07T00:46:41+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kadroda en çok konuşulacak tercihlerden biri Kerem Aktürkoğlu, İrfan Can Kahveci ve Altay Bayındır'ın dışarıda kalması.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/07/daha-adil-ve-performansa-dayali-bir-kadro",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/07/daha-adil-ve-performansa-dayali-bir-kadro",
+        "published_at": "2026-11-07T00:46:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11268,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-07T00:46:41+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle Kerem'in yokluğu, hücum alternatifleri açısından tartışılabilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/07/daha-adil-ve-performansa-dayali-bir-kadro",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/07/daha-adil-ve-performansa-dayali-bir-kadro",
+        "published_at": "2026-11-07T00:46:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11832,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -35994,7 +36052,7 @@
       "image_kind": null
     },
     {
-      "id": 11833,
+      "id": 11834,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -36024,7 +36082,7 @@
       "image_kind": null
     },
     {
-      "id": 11834,
+      "id": 11835,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -37433,12 +37491,12 @@
       "away": "Kasımpaşa",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "kickoff": "2026-11-06T20:00:00+03:00",
-      "status": "awaiting_result"
+      "status": "finished"
     },
     {
       "id": "sl-2026-11-eyupspor-kocaelispor",
@@ -40723,7 +40781,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 39,
+      "comment_count": 41,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
