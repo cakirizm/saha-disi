@@ -1170,6 +1170,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-11-eyupspor-kocaelispor",
+    "league": "Trendyol Süper Lig",
+    "week": 11,
+    "home": "Eyüpspor",
+    "away": "Kocaelispor",
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 2,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-11-gaziantep-fk-kasmpasa",
     "league": "Trendyol Süper Lig",
     "week": 11,
@@ -1183,27 +1196,14 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
-    "id": "sl-2026-11-eyupspor-kocaelispor",
-    "league": "Trendyol Süper Lig",
-    "week": 11,
-    "home": "Eyüpspor",
-    "away": "Kocaelispor",
-    "kickoff": "07.11.2026 13:30",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
     "id": "sl-2026-11-samsunspor-konyaspor",
     "league": "Trendyol Süper Lig",
     "week": 11,
     "home": "Samsunspor",
     "away": "Konyaspor",
-    "kickoff": "07.11.2026 16:00",
-    "home_score": null,
-    "away_score": null,
+    "kickoff": "",
+    "home_score": 1,
+    "away_score": 0,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
