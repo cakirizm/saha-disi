@@ -1183,6 +1183,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-11-galatasaray-amed-sk",
+    "league": "Trendyol Süper Lig",
+    "week": 11,
+    "home": "Galatasaray",
+    "away": "Amed SK",
+    "kickoff": "",
+    "home_score": 4,
+    "away_score": 3,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-11-gaziantep-fk-kasmpasa",
     "league": "Trendyol Süper Lig",
     "week": 11,
@@ -1190,6 +1203,19 @@
     "away": "Kasımpaşa",
     "kickoff": "",
     "home_score": 0,
+    "away_score": 2,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
+    "id": "sl-2026-11-goztepe-basaksehir",
+    "league": "Trendyol Süper Lig",
+    "week": 11,
+    "home": "Göztepe",
+    "away": "Başakşehir",
+    "kickoff": "",
+    "home_score": 1,
     "away_score": 2,
     "image_url": null,
     "source": "TFF",
@@ -1204,32 +1230,6 @@
     "kickoff": "",
     "home_score": 1,
     "away_score": 0,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-11-galatasaray-amed-sk",
-    "league": "Trendyol Süper Lig",
-    "week": 11,
-    "home": "Galatasaray",
-    "away": "Amed SK",
-    "kickoff": "07.11.2026 19:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-11-goztepe-basaksehir",
-    "league": "Trendyol Süper Lig",
-    "week": 11,
-    "home": "Göztepe",
-    "away": "Başakşehir",
-    "kickoff": "07.11.2026 19:00",
-    "home_score": null,
-    "away_score": null,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
