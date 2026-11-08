@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:56:40.002926+00:00",
+  "generated_at": "2026-11-08T00:41:43.406634+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -36022,7 +36022,118 @@
       "image_kind": null
     },
     {
-      "id": 12181,
+      "id": 11309,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-07T22:23:57+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Orban'ın muhteşem kafa golünde Eren'in ofsaytı bozması büyük hataydı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
+        "published_at": "2026-11-07T22:23:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11311,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-07T22:23:57+03:00",
+      "team": null,
+      "players": [
+        "Torreira",
+        "Leao"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "7'nci dakikada Torreira'nın kapıp pasa dönüştürdüğü topa Leao'nun önce yaptığı kontrol sonra da vuruşu mükemmeldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
+        "published_at": "2026-11-07T22:23:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11618,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-08T00:58:52+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fenerbahçe'de cuma günü yalnızca bir teknik direktör imza atmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
+        "published_at": "2026-11-08T00:58:52+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11620,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-08T00:58:52+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Fenerbahçe gibi büyük bir camianın teknik direktörlük koltuğuna oturmak, özellikle bir Türk teknik adam için büyük bir onur olduğu kadar ağır bir sorumluluk da taşıyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
+        "published_at": "2026-11-08T00:58:52+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12185,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -36052,7 +36163,7 @@
       "image_kind": null
     },
     {
-      "id": 12183,
+      "id": 12187,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -36082,7 +36193,7 @@
       "image_kind": null
     },
     {
-      "id": 12184,
+      "id": 12188,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -40787,7 +40898,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 35
+      "comment_count": 36
     },
     {
       "id": "muriqi",
@@ -40864,7 +40975,7 @@
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 13,
+      "comment_count": 14,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lucas_Torreira_2019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
