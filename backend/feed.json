@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:27:19.325351+00:00",
+  "generated_at": "2026-11-08T15:18:13.078688+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -36534,7 +36534,62 @@
       "image_kind": "verified_portrait"
     },
     {
-      "id": 12545,
+      "id": 13005,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-08T16:56:40+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hafta içi üst düzey bir mücadeleye sahne olan Stuttgart maçının etkilerinin dün gece ilerleyen dakikalarda zihinsel ve fiziksel yorgunluk olarak sahaya yansıyacağı aşikardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/winner-galatasaray-2643831",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/winner-galatasaray-2643831",
+        "published_at": "2026-11-08T16:56:40+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 13006,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-08T16:56:40+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ayrıca, basiretsiz yönetimin muhteşem sanat eseri olan saha zemininin de maç oynandıkça Galatasaray açısından büyük handikap yaratacağı da beklenen bir durumdu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/winner-galatasaray-2643831",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/winner-galatasaray-2643831",
+        "published_at": "2026-11-08T16:56:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 13284,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -36564,7 +36619,7 @@
       "image_kind": null
     },
     {
-      "id": 12547,
+      "id": 13286,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -36594,7 +36649,7 @@
       "image_kind": null
     },
     {
-      "id": 12548,
+      "id": 13287,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -38078,12 +38133,12 @@
       "away": "Erzurumspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "away_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "kickoff": "2026-11-08T13:30:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-11-corum-fk-fenerbahce",
@@ -38093,12 +38148,12 @@
       "away": "Fenerbahçe",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 5,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "kickoff": "2026-11-08T16:00:00+03:00",
-      "status": "scheduled"
+      "status": "finished"
     },
     {
       "id": "sl-2026-11-alanyaspor-trabzonspor",

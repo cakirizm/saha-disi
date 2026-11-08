@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T07:27:04.713641+00:00",
+  "generated_at": "2026-11-08T15:17:57.179027+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1483
+    "candidates": 1491
   },
   "sources": [
     {
@@ -234,7 +234,7 @@
     {
       "commentator": "hamit-turhan",
       "source": "Fanatik",
-      "candidates": 40,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"

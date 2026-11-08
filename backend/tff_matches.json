@@ -1222,6 +1222,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-11-rizespor-erzurumspor",
+    "league": "Trendyol Süper Lig",
+    "week": 11,
+    "home": "Rizespor",
+    "away": "Erzurumspor",
+    "kickoff": "",
+    "home_score": 2,
+    "away_score": 1,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-11-samsunspor-konyaspor",
     "league": "Trendyol Süper Lig",
     "week": 11,
@@ -1235,27 +1248,14 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
-    "id": "sl-2026-11-rizespor-erzurumspor",
-    "league": "Trendyol Süper Lig",
-    "week": 11,
-    "home": "Rizespor",
-    "away": "Erzurumspor",
-    "kickoff": "08.11.2026 13:30",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
     "id": "sl-2026-11-corum-fk-fenerbahce",
     "league": "Trendyol Süper Lig",
     "week": 11,
     "home": "Çorum FK",
     "away": "Fenerbahçe",
-    "kickoff": "08.11.2026 16:00",
-    "home_score": null,
-    "away_score": null,
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 5,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
