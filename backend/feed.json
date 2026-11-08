@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:41:43.406634+00:00",
+  "generated_at": "2026-11-08T07:27:19.325351+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -46,22 +46,22 @@
       "photoURL": null
     },
     {
-      "id": "tunc-kayaci",
-      "name": "Tunç Kayacı",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "TK",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "tunc-kayaci",
+      "name": "Tunç Kayacı",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "TK",
       "focusTeams": [
         "Genel"
       ],
@@ -79,17 +79,6 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -97,6 +86,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
+        "Genel"
       ],
       "photoURL": null
     },
@@ -123,17 +123,6 @@
       "photoURL": null
     },
     {
-      "id": "ahmet-cakar",
-      "name": "Ahmet Çakar",
-      "role": "Yorumcu / Yazar",
-      "primarySource": "A Spor / Beyaz Futbol",
-      "avatar": "AC",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
       "id": "olcay-cakir",
       "name": "Olcay Çakır",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -143,6 +132,17 @@
         "Trabzonspor"
       ],
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "ahmet-cakar",
+      "name": "Ahmet Çakar",
+      "role": "Yorumcu / Yazar",
+      "primarySource": "A Spor / Beyaz Futbol",
+      "avatar": "AC",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
       "id": "turgay-demir",
@@ -36044,7 +36044,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
-        "published_at": "2026-11-07T22:23:57+03:00"
+        "published_at": "2026-11-08T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -36074,7 +36074,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/08/seri-41-maca-cikti",
-        "published_at": "2026-11-07T22:23:57+03:00"
+        "published_at": "2026-11-08T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -36101,7 +36101,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
-        "published_at": "2026-11-08T00:58:52+03:00"
+        "published_at": "2026-11-08T06:40:51+03:00"
       },
       "image_kind": null
     },
@@ -36128,12 +36128,413 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/08/mesele-o-yeni-sayfaya-sampiyonluk-yazabilmek",
-        "published_at": "2026-11-08T00:58:52+03:00"
+        "published_at": "2026-11-08T06:40:51+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 12185,
+      "id": 11691,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-08T06:40:51+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen",
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Osimhen'in yokluğunda Barış öndeyken Leao'nun liderliğinde erken golü bulan Galatasaray, rakibe geçiş fırsatı da vermezken devreye Batrakov'un orta golüyle konforlu gitti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/08/batrakov-ile-cok-konforlu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/08/batrakov-ile-cok-konforlu",
+        "published_at": "2026-11-08T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11692,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-08T06:40:51+03:00",
+      "team": "Amed SK",
+      "players": [
+        "Leao"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarının kırılma noktası, Leao'nun sakatlığı ve Amed'in hocası Besnik Hasi'nin yaptığı değişikliklerdir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/08/batrakov-ile-cok-konforlu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/08/batrakov-ile-cok-konforlu",
+        "published_at": "2026-11-08T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11726,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "45. dakikada 4’e 1 hücum edip ‘’basit bir golü atamayan’’ Galatasaray bir dakika sonra olmayacak pozisyonda Aleksey Batrakov’a yardım eden Alban Lafont’un yediği ‘’basit gol’’ sayesinde devreyi 2-0 önde kapadı örneğin!",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kolay-kolay-problem-yasamaz-2643776",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kolay-kolay-problem-yasamaz-2643776",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11728,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Torreira",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Örneğin ilk golde Torreira’nın Leao’ya asisti şahaneydi elbette!..",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kolay-kolay-problem-yasamaz-2643776",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/kolay-kolay-problem-yasamaz-2643776",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11766,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Merkez orta saha, iki yönlü oynamaktan bitap düşüyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/evinde-sorun-yok-2643773",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/evinde-sorun-yok-2643773",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11768,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Beşiktaş, Başkent temsilcisi karşısında kesin favori.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/evinde-sorun-yok-2643773",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/evinde-sorun-yok-2643773",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11798,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray için Osimhen’in olmadığı bir maçı kazanmak 3 puanın çok ötesinde.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/tarlada-altin-buldu-2643777",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/tarlada-altin-buldu-2643777",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 11804,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Batrakov bazı hızlı hücumlarda topu Yunus’a değil Leao’ya verse, belki Portekizli devre biterken iki gol atmış olacaktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/tarlada-altin-buldu-2643777",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/tarlada-altin-buldu-2643777",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12124,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-08T06:40:51+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Amedspor daha maça ısınamadan Leao'nun golüyle Galatasaray bir anda skor üstünlüğünü ele geçirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/08/harika-bir-mac-oldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/08/harika-bir-mac-oldu",
+        "published_at": "2026-11-08T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12127,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-08T06:40:51+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Batrakov",
+        "Leao"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Pozisyonun içindeki Batrakov pas tercihini Yunus yerine Leao'dan yana kullansaydı çok rahat bir gol daha atardı Galatasaray.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/08/harika-bir-mac-oldu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-galatasaray-amed-sk",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/08/harika-bir-mac-oldu",
+        "published_at": "2026-11-08T06:40:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12198,
+      "commentator": "deniz-coban",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Aslında birkaç oyuncu bu pozisyonda sarı kart görebilirdi ancak hakemin, aralarından bir oyuncuyu seçerek, tercihen golü atan futbolcuya kart göstermesi kanımca yeterli olurdu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kontrollu-yonetim-2643775",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kontrollu-yonetim-2643775",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12199,
+      "commentator": "deniz-coban",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Batrakov’un rakibinin yüzüne yaptığı kontrolsüz müdahale, sarı kartla cezalandırılması gerekirdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kontrollu-yonetim-2643775",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kontrollu-yonetim-2643775",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 12359,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": "Alanyaspor",
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Ancak Alanya, puan cetvelindeki yerine bakılarak hüküm verilecek bir rakip değil.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/hizli-baslangic-erken-gol-2643772",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-alanyaspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/hizli-baslangic-erken-gol-2643772",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 12365,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-08T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Tahmin",
+      "type": "prediction",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ancak Reis’ın güven veren tavrı, her eksikliği yeni forma giyecek oyuncuya fırsat olarak sunması takımı ayakta tutuyor.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/hizli-baslangic-erken-gol-2643772",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-alanyaspor-trabzonspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/hizli-baslangic-erken-gol-2643772",
+        "published_at": "2026-11-08T06:59:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 12545,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -36163,7 +36564,7 @@
       "image_kind": null
     },
     {
-      "id": 12187,
+      "id": 12547,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -36193,7 +36594,7 @@
       "image_kind": null
     },
     {
-      "id": 12188,
+      "id": 12548,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -40851,7 +41252,7 @@
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 50,
+      "comment_count": 55,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -40898,7 +41299,7 @@
     {
       "id": "leao",
       "name": "Leao",
-      "comment_count": 36
+      "comment_count": 42
     },
     {
       "id": "muriqi",
@@ -40933,7 +41334,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 49,
+      "comment_count": 51,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -40975,7 +41376,7 @@
     {
       "id": "torreira",
       "name": "Torreira",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lucas_Torreira_2019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
