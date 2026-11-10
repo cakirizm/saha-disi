@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T02:10:51.636606+00:00",
+  "generated_at": "2026-11-10T09:56:10.969083+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1509
+    "candidates": 1490
   },
   "sources": [
     {
@@ -242,7 +242,7 @@
     {
       "commentator": "hatice-yucel",
       "source": "Fanatik",
-      "candidates": 40,
+      "candidates": 37,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -322,7 +322,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 38,
+      "candidates": 30,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -370,7 +370,7 @@
     {
       "commentator": "erkan-tan",
       "source": "Takvim",
-      "candidates": 5,
+      "candidates": 3,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -378,7 +378,7 @@
     {
       "commentator": "lutfi-albayrak",
       "source": "Takvim",
-      "candidates": 1,
+      "candidates": 2,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -386,7 +386,7 @@
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 46,
+      "candidates": 38,
       "ok": true,
       "error": null,
       "kind": "web"

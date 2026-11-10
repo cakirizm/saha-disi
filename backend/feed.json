@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:11:09.843847+00:00",
+  "generated_at": "2026-11-10T09:56:28.977929+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -90,22 +90,22 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
+      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
+      "avatar": "ÖÜ",
       "focusTeams": [
         "Genel"
       ],
@@ -235,6 +235,17 @@
       "photoURL": null
     },
     {
+      "id": "hatice-yucel",
+      "name": "Hatice Yücel",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "reha-kapsal",
       "name": "Reha Kapsal",
       "role": "Futbol yorumcusu / muhabir",
@@ -262,17 +273,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "ES",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hatice-yucel",
-      "name": "Hatice Yücel",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -37771,7 +37771,115 @@
       "image_kind": null
     },
     {
-      "id": 15383,
+      "id": 14742,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-10T06:40:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O yüzden çürümüş ahşap yapıyı yerle bir eden ve iki maçtan alnının akıyla çıkan Fenerbahçeli futbolculara bundan böyle hiçbir rol kalmadı artık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/10/baska-rol-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-corum-fk-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/10/baska-rol-yok",
+        "published_at": "2026-11-10T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 14743,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-10T06:40:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Önümüzdeki maçlarda tahribatı yüksek bir Fenerbahçe izleyeceğimizin garantisi var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/10/baska-rol-yok",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-11-corum-fk-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/10/baska-rol-yok",
+        "published_at": "2026-11-10T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15133,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Avrupa Gençler Şampiyonası'nda bireysel ve karışık takımla zirvede yer alan Dünya Yenihayat, Kadın Milli Takımı'yla da Dünya Kupası serisinde, Akdeniz Oyunları'nda gümüş madalyaya uzandı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/dunya-yenihayattan-tarihi-altin-2644005",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/dunya-yenihayattan-tarihi-altin-2644005",
+        "published_at": "2026-11-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15134,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-10T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu sonuçla ayrıca, Türkiye, Gençlik Olimpiyat Oyunları tarihinde okçulukta ilk kez bireyselde madalya kazanırken buna şampiyonlukla ulaştı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/dunya-yenihayattan-tarihi-altin-2644005",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/dunya-yenihayattan-tarihi-altin-2644005",
+        "published_at": "2026-11-10T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15377,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -37801,7 +37909,7 @@
       "image_kind": null
     },
     {
-      "id": 15385,
+      "id": 15379,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -37831,7 +37939,7 @@
       "image_kind": null
     },
     {
-      "id": 15386,
+      "id": 15380,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
