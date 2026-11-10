@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T17:54:42.149206+00:00",
+  "generated_at": "2026-11-10T23:27:12.568770+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -37879,7 +37879,65 @@
       "image_kind": null
     },
     {
-      "id": 16049,
+      "id": 15491,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-11T00:53:57+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray'da son günlerin en çok konuşulan konusu Victor Osimhen'in sahalara ne zaman döneceği...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/11/konu-sergen-yalcin-degil-turkiye",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/11/konu-sergen-yalcin-degil-turkiye",
+        "published_at": "2026-11-11T00:53:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15492,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-11T00:53:57+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Osimhen oynasa oynasa belki Beşiktaş derbisinde sahada olabilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/11/konu-sergen-yalcin-degil-turkiye",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/11/konu-sergen-yalcin-degil-turkiye",
+        "published_at": "2026-11-11T00:53:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16051,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -37909,7 +37967,7 @@
       "image_kind": null
     },
     {
-      "id": 16051,
+      "id": 16053,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -37939,7 +37997,7 @@
       "image_kind": null
     },
     {
-      "id": 16052,
+      "id": 16054,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -42679,7 +42737,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 53,
+      "comment_count": 55,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
