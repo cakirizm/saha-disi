@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-11T06:32:58.070171+00:00",
+  "generated_at": "2026-11-11T15:19:09.012555+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1482
+    "candidates": 1445
   },
   "sources": [
     {
@@ -121,14 +121,6 @@
     },
     {
       "commentator": "fatih-dogan",
-      "source": "A Spor",
-      "candidates": 48,
-      "ok": true,
-      "error": null,
-      "kind": "web"
-    },
-    {
-      "commentator": "hakki-yalcin",
       "source": "A Spor",
       "candidates": 48,
       "ok": true,
@@ -371,6 +363,14 @@
       "commentator": "erkan-tan",
       "source": "Takvim",
       "candidates": 3,
+      "ok": true,
+      "error": null,
+      "kind": "web"
+    },
+    {
+      "commentator": "hakki-yalcin",
+      "source": "Takvim",
+      "candidates": 11,
       "ok": true,
       "error": null,
       "kind": "web"
