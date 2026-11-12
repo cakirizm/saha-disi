@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T03:50:43.977590+00:00",
+  "generated_at": "2026-11-12T12:48:36.571678+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1443
+    "candidates": 1434
   },
   "sources": [
     {
@@ -354,7 +354,7 @@
     {
       "commentator": "ekrem-kiziltas",
       "source": "Takvim",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -410,7 +410,7 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 21,
+      "candidates": 13,
       "ok": true,
       "error": null,
       "kind": "web"
