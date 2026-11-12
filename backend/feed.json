@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:44:09.731952+00:00",
+  "generated_at": "2026-11-12T03:50:57.071375+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -37933,6 +37933,60 @@
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/11/konu-sergen-yalcin-degil-turkiye",
         "published_at": "2026-11-11T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15879,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-12T06:40:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bilhassa Saffet Sancaklı, Meclis'teki konuşmalarında Türk futbolunun büyük bir kaos içinde olduğunu defalarca dile getirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/12/guzel-bir-onerge",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/12/guzel-bir-onerge",
+        "published_at": "2026-11-12T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 15882,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-12T06:40:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Gençlik ve Spor Bakanımız Sayın Osman Aşkın Bak'ın da bilhassa futbol altyapıları ve Türkiye'deki spor tesislerinin geliştirilmesi konusunda çok değerli çalışmalar yürüttüğünü görüyorum.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/12/guzel-bir-onerge",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/12/guzel-bir-onerge",
+        "published_at": "2026-11-12T06:40:47+03:00"
       },
       "image_kind": null
     },
