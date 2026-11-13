@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:52:39.464527+00:00",
+  "generated_at": "2026-11-13T09:37:24.990866+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -112,6 +112,17 @@
       "photoURL": null
     },
     {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "olcay-cakir",
       "name": "Olcay Çakır",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -131,17 +142,6 @@
       "focusTeams": [
         "Beşiktaş",
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -38013,7 +38013,7 @@
         "method": "columnist_byline",
         "speaker_id": "fatih-dogan",
         "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
-        "published_at": "2026-11-13T01:29:09+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38042,7 +38042,7 @@
         "method": "columnist_byline",
         "speaker_id": "fatih-dogan",
         "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
-        "published_at": "2026-11-13T01:29:09+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38071,7 +38071,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
-        "published_at": "2026-11-13T01:20:49+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38098,7 +38098,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
-        "published_at": "2026-11-13T01:20:49+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38125,7 +38125,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
-        "published_at": "2026-11-12T23:18:45+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38152,7 +38152,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
-        "published_at": "2026-11-12T23:18:45+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38179,7 +38179,7 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
-        "published_at": "2026-11-12T23:20:17+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
@@ -38208,12 +38208,232 @@
         "method": "columnist_byline",
         "speaker_id": "zeki-uzundurukan",
         "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
-        "published_at": "2026-11-12T23:20:17+03:00"
+        "published_at": "2026-11-13T06:40:50+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 16759,
+      "id": 16389,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-13T06:40:50+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Uluslar Ligi'nde iki yenilgiye çok üzüldüm… Açılış maçında Fransa'ya karşı çok iyi oynamış, 10 kişi kalmamıza rağmen basit bir golle kaybetmiştik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/13/sakinlestirmek-aklimiza-gelmiyor",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/13/sakinlestirmek-aklimiza-gelmiyor",
+        "published_at": "2026-11-13T06:40:50+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16392,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-13T06:40:50+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Top bizde, oyunun kontrolü bizde, sakin olalım derken yine orta sahada kaptırdığ-ı mız basit bir top sonrası De Bruyne'den halı saha golü yedik .",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/13/sakinlestirmek-aklimiza-gelmiyor",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/13/sakinlestirmek-aklimiza-gelmiyor",
+        "published_at": "2026-11-13T06:40:50+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16458,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Örneğin… Sergen Yalçın, ‘Size santrfor getirdim’ dediği Enes Ünal’ın ilk devre istatistiği bir ‘Faul alma’ ve iki kez de ‘Rakip ceza sahasında topla buluşma’dan ibaret kaldı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/turkiyede-degisen-bir-sey-yok-2644343",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/turkiyede-degisen-bir-sey-yok-2644343",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16459,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk golü atan Arda Güler’in fazlaca enerji harcadığı oyunda, çevresindeki hiçbir oyuncunun hatırı sayılır istatistik üretememesi de aynı sorundan kaynaklanıyordu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/turkiyede-degisen-bir-sey-yok-2644343",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/turkiyede-degisen-bir-sey-yok-2644343",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16528,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kadrolar açıklandığında en büyük sürpriz elbette forvet Oğuz Aydın’ın sağ bek olarak, Doku ile eşleşmesiydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/eslesme-faciasi-2644344",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/eslesme-faciasi-2644344",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16534,
+      "commentator": "serkan-akcan",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sergen hocanın sanırım en garip tercihi Oğuz Aydın’ın sağ bek olarak oynamasıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/eslesme-faciasi-2644344",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-akcan",
+        "url": "https://www.fanatik.com.tr/yazarlar/serkan-akcan/eslesme-faciasi-2644344",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 17114,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Çabuk paslarla topu kendimizde tutup, rakibin açığını arayarak gol kovaladık.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/dogaclama-futbol-2644345",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/dogaclama-futbol-2644345",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 17116,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-13T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Adeta hocasına nazire yapan bir Sergen Yalçın vuruşuyla...Bu etkili futbol bir anda de Bruyne’ün beraberlik golüyle resmen dağıldı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/dogaclama-futbol-2644345",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/dogaclama-futbol-2644345",
+        "published_at": "2026-11-13T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 17228,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38243,7 +38463,7 @@
       "image_kind": null
     },
     {
-      "id": 16761,
+      "id": 17230,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38273,7 +38493,7 @@
       "image_kind": null
     },
     {
-      "id": 16762,
+      "id": 17231,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -43019,7 +43239,7 @@
     {
       "id": "oguz-aydin",
       "name": "Oğuz Aydın",
-      "comment_count": 8,
+      "comment_count": 10,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG/500px-O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
