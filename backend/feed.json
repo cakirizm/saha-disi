@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:51:51.617776+00:00",
+  "generated_at": "2026-11-13T01:52:39.464527+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -123,17 +123,6 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -142,6 +131,17 @@
       "focusTeams": [
         "Beşiktaş",
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -37991,7 +37991,229 @@
       "image_kind": null
     },
     {
-      "id": 16753,
+      "id": 16127,
+      "commentator": "fatih-dogan",
+      "date": "2026-11-13T01:29:09+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Doku gibi süratli ve bire birde etkili bir oyuncuya karşı Oğuz'un savunma zaafları ilk yarıda açıkça görüldü.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
+        "published_at": "2026-11-13T01:29:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16128,
+      "commentator": "fatih-dogan",
+      "date": "2026-11-13T01:29:09+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "positive",
+      "strength": 6,
+      "summary": "Zeki hazır görülmediği için tercih edilmediyse de maçtan önce ifade ettiğiniz gibi o bölgede başarılı maçları olan Barış Alper ilk tercih olabilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/13/baski-yetmez",
+        "published_at": "2026-11-13T01:29:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16204,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-13T01:20:49+03:00",
+      "team": null,
+      "players": [
+        "Orkun Kökçü"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Orta sahada İsmail Yüksek ve Orkun Kökçü, Belçika baskısı arttığında oyunun kontrolünü kaybetti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
+        "published_at": "2026-11-13T01:20:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16206,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-13T01:20:49+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "İlk maçından yola çıkarak kendisi hakkında kesin bir hüküm vermek haksızlık olur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/13/sabirli-olalim-sorunlari-da-gorelim",
+        "published_at": "2026-11-13T01:20:49+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16309,
+      "commentator": "turgay-demir",
+      "date": "2026-11-12T23:18:45+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "İlk 20 dakikada fırtına gibi estik, önde bastık, iyi paslaştık ve Arda Güler'le muhteşem bir frikik golü attık… Arda öyle bir yere vurdu ki, Lammens hamle yaparak sadece golü güzelleştirebilirdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
+        "published_at": "2026-11-12T23:18:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16313,
+      "commentator": "turgay-demir",
+      "date": "2026-11-12T23:18:45+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kural bu durum için penaltı diyor ama İsviçreli hakem Sandro Schärer oralı bile olmadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/13/cok-fazla-arda-lazim",
+        "published_at": "2026-11-12T23:18:45+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16349,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-12T23:20:17+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Arda Güler'in muhteşem frikik golüyle öne geçerken, o an gözlerimizin pası silinmiş; yer gök coşkumuzdan inlemişti.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
+        "published_at": "2026-11-12T23:20:17+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16351,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-12T23:20:17+03:00",
+      "team": null,
+      "players": [
+        "Oğuz Aydın"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sağ kanattan Oğuz Aydın ve Yunus ile etkili olmaya çalıştık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/13/sabir-ve-destek",
+        "published_at": "2026-11-12T23:20:17+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 16759,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38021,7 +38243,7 @@
       "image_kind": null
     },
     {
-      "id": 16755,
+      "id": 16761,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38051,7 +38273,7 @@
       "image_kind": null
     },
     {
-      "id": 16756,
+      "id": 16762,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -42703,7 +42925,7 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 28,
+      "comment_count": 29,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -42785,7 +43007,7 @@
     {
       "id": "orkun-kokcu",
       "name": "Orkun Kökçü",
-      "comment_count": 7,
+      "comment_count": 8,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg/500px-Orkun_K%C3%B6k%C3%A7%C3%BC_20260121_%282%29_-_cropped_version.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -42797,7 +43019,7 @@
     {
       "id": "oguz-aydin",
       "name": "Oğuz Aydın",
-      "comment_count": 7,
+      "comment_count": 8,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG/500px-O%C4%9Fuz_Ayd%C4%B1n_70_Fenerbah%C3%A7e_20260805_%281%29.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
