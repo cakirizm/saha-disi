@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:37:34.634168+00:00",
+  "generated_at": "2026-11-14T06:31:49.955582+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -180,22 +180,22 @@
       "photoURL": null
     },
     {
-      "id": "iskender-gunen",
-      "name": "İskender Günen",
+      "id": "gokhan-german",
+      "name": "Gökhan German",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "İG",
+      "avatar": "GG",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
+      "id": "iskender-gunen",
+      "name": "İskender Günen",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
+      "avatar": "İG",
       "focusTeams": [
         "Genel"
       ],
@@ -38433,7 +38433,61 @@
       "image_kind": null
     },
     {
-      "id": 17985,
+      "id": 17688,
+      "commentator": "gokhan-german",
+      "date": "2026-11-14T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Efes’e geldiği günden bu yana olan en iyi performansını sergileyen Lloyd, 6/7 üçlük isabet oranı ile takımı sırtlayan isim oldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efesten-hucum-sov-2644478",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efesten-hucum-sov-2644478",
+        "published_at": "2026-11-14T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 17689,
+      "commentator": "gokhan-german",
+      "date": "2026-11-14T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İki oyun kurucu Payne ve Strezel’in 8’er asist yapması da hücumların bu kadar akıcı olmasını sağladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efesten-hucum-sov-2644478",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/efesten-hucum-sov-2644478",
+        "published_at": "2026-11-14T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 17984,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38463,7 +38517,7 @@
       "image_kind": null
     },
     {
-      "id": 17987,
+      "id": 17986,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38493,7 +38547,7 @@
       "image_kind": null
     },
     {
-      "id": 17988,
+      "id": 17987,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",

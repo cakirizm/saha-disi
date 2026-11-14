@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:37:12.394448+00:00",
+  "generated_at": "2026-11-14T06:31:35.908268+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1434
+    "candidates": 1431
   },
   "sources": [
     {
@@ -218,7 +218,7 @@
     {
       "commentator": "gokhan-german",
       "source": "Fanatik",
-      "candidates": 39,
+      "candidates": 36,
       "ok": true,
       "error": null,
       "kind": "web"
