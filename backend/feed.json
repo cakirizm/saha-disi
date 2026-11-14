@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:13:32.122966+00:00",
+  "generated_at": "2026-11-14T23:00:36.247176+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -38487,7 +38487,63 @@
       "image_kind": null
     },
     {
-      "id": 18591,
+      "id": 18042,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-15T01:30:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kadromuzda (şu an olan ya da olmayan) Avrupa'nın önemli kulüplerinde forma giyen, kendi takımlarında fark yaratan yıldızlarımız var.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
+        "published_at": "2026-11-15T01:30:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 18043,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-15T01:30:46+03:00",
+      "team": null,
+      "players": [
+        "Kerem"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Arda, Hakan, Kenan, Barış, Ferdi, Zeki, Orkun, Can, Kerem… Her biri önemli bir futbolcu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
+        "published_at": "2026-11-15T01:30:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 18593,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38517,7 +38573,7 @@
       "image_kind": null
     },
     {
-      "id": 18593,
+      "id": 18595,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38547,7 +38603,7 @@
       "image_kind": null
     },
     {
-      "id": 18594,
+      "id": 18596,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -43246,7 +43302,7 @@
     {
       "id": "kerem",
       "name": "Kerem",
-      "comment_count": 41,
+      "comment_count": 42,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Kerem_Bulut.jpg/500px-Kerem_Bulut.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
