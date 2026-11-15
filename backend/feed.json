@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:44:11.058791+00:00",
+  "generated_at": "2026-11-15T11:01:57.466060+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -38509,7 +38509,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
-        "published_at": "2026-11-15T01:30:46+03:00"
+        "published_at": "2026-11-15T06:40:49+03:00"
       },
       "image_kind": null
     },
@@ -38538,12 +38538,70 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/15/futbol-1-kisi-degil-11-kisinin-oyunu",
-        "published_at": "2026-11-15T01:30:46+03:00"
+        "published_at": "2026-11-15T06:40:49+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 18945,
+      "id": 18867,
+      "commentator": "ender-bilgin",
+      "date": "2026-11-15T06:50:22+03:00",
+      "team": "Galatasaray",
+      "players": [
+        "Sane"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Leroy Sane yirmi dokuz yaşında Alman milli takımının oyuncusu olarak geldiği Galatasaray'daki ilk sezonunda 7 gol, 9 asist üretmesine rağmen ağızlarda 'kekremsi' bir tat bırakmıştı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/15/saneyi-kazanmak",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/15/saneyi-kazanmak",
+        "published_at": "2026-11-15T06:50:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 18872,
+      "commentator": "ender-bilgin",
+      "date": "2026-11-15T06:50:22+03:00",
+      "team": null,
+      "players": [
+        "Sane"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sane'nin yüksek yıllık gelirini de düşününce İstanbul'dan kolay kolay ayrılacağını düşünmek hayal olur.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/15/saneyi-kazanmak",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ender-bilgin",
+        "url": "https://www.fotomac.com.tr/yazarlar/ender-bilgin/2026/11/15/saneyi-kazanmak",
+        "published_at": "2026-11-15T06:50:22+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 18947,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38573,7 +38631,7 @@
       "image_kind": null
     },
     {
-      "id": 18947,
+      "id": 18949,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38603,7 +38661,7 @@
       "image_kind": null
     },
     {
-      "id": 18948,
+      "id": 18950,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -43355,7 +43413,7 @@
     {
       "id": "sane",
       "name": "Sane",
-      "comment_count": 16,
+      "comment_count": 18,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg/500px-Leroy_Sane_Ecuador_v_Germany_25_June_2026-004.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
