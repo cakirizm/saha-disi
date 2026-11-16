@@ -44,6 +44,8 @@ jobs:
         run: python backend/collector_v4.py
       - name: Fetch TFF fixture
         run: python backend/tff_fixtures.py
+      - name: Collect UEFA fixtures for Turkish clubs and the national team
+        run: python backend/uefa_fixtures.py
       - name: Resolve verified photos
         run: python backend/photo_resolver.py
       - name: Resolve real club crests
@@ -84,10 +86,11 @@ jobs:
           assert all(s.get('status') in {'verified_manual','verified_direct_quote'} for s in statements)
           editorial=(' eleştirdi',' yorumladı',' değerlendirdi',' söyledi',' sert dille',' açıkladı')
           assert not any(any(x in (' '+s.get('summary','').casefold()) for x in editorial) for s in statements)
-          matches=p['matches']; current=[m for m in matches if int(m.get('week',0))==4]
+          matches=p['matches']; current=[m for m in matches if int(m.get('week',0))==4 and m.get('competition','super_lig')=='super_lig']
           assert len(current)==9, f'week4={len(current)}'
           teams={m['home'] for m in matches}|{m['away'] for m in matches}
-          missing=[t for t in teams if not logos.get(t)]
+          crest={m['home']:m.get('home_logo_url') for m in matches}|{m['away']:m.get('away_logo_url') for m in matches}
+          missing=[t for t in teams if not (logos.get(t) or crest.get(t))]
           assert not missing, f'missing crests: {missing}'
           assert not any('google.com/s2/favicons' in u for u in logos.values())
           assert all((not c.get('photoURL')) or c['id'] in photos for c in p['commentators'])
@@ -100,7 +103,7 @@ jobs:
         run: |
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
-          git add backend/source_publications.json backend/fixture_health.json backend/feed.json backend/collector_health.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json backend/collector_state.json backend/columnists.json backend/commentator_roster.json
+          git add backend/source_publications.json backend/fixture_health.json backend/feed.json backend/collector_health.json backend/tff_matches.json backend/uefa_matches.json backend/uefa_health.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json backend/collector_state.json backend/columnists.json backend/commentator_roster.json
           if git diff --cached --quiet; then
             echo 'No data change to publish.'
           else

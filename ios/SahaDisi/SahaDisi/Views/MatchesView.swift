@@ -1,10 +1,35 @@
 import SwiftUI
 
+enum MatchSection: String, CaseIterable, Identifiable {
+    case league = "Süper Lig"
+    case europe = "Avrupa"
+    case national = "Milli Takım"
+    var id: String { rawValue }
+
+    func contains(_ match: Match) -> Bool {
+        switch self {
+        case .league: return match.isLeague
+        case .europe: return match.isEuropean
+        case .national: return match.isNationalTeam
+        }
+    }
+}
+
 struct MatchesView: View {
     @EnvironmentObject var store: AppStore
     @State private var selectedWeek: Int?
+    @State private var section: MatchSection = .league
 
-    private var matches: [Match] { (store.payload?.matches ?? []).sorted { ($0.week, $0.kickoff) < ($1.week, $1.kickoff) } }
+    private var allMatches: [Match] { store.payload?.matches ?? [] }
+    private var sections: [MatchSection] { MatchSection.allCases.filter { s in s == .league || allMatches.contains(where: s.contains) } }
+    private var matches: [Match] { allMatches.filter { $0.isLeague }.sorted { ($0.week, $0.kickoff) < ($1.week, $1.kickoff) } }
+    /// European and national-team matches, newest round first, grouped by competition.
+    private var cupMatches: [Match] { allMatches.filter(section.contains).sorted { $0.kickoff > $1.kickoff } }
+    private var cupLeagues: [String] {
+        var seen: [String] = []
+        for match in cupMatches where !seen.contains(match.league) { seen.append(match.league) }
+        return seen
+    }
     private var weeks: [Int] { Array(Set(matches.map(\.week))).sorted() }
     private var currentWeek: Int? {
         let now = Date()
@@ -24,10 +49,24 @@ struct MatchesView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
-                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: "TFF fikstürü") }
+                HStack { Text("Maçlar").font(.largeTitle.black()); Spacer(); TagPill(text: section == .league ? "TFF fikstürü" : "UEFA fikstürü") }
                 if let generatedAt = store.payload?.generatedAt {
                     Text("Veri güncellemesi: \(SDDate.text(generatedAt, includeTime: true))").font(.caption2).foregroundStyle(SDTheme.muted)
                 }
+                if sections.count > 1 { sectionPicker }
+                if section != .league {
+                    Text(section == .europe ? "Türk takımlarının Avrupa kupası maçları" : "A Milli Takım · UEFA Uluslar Ligi").font(.subheadline).foregroundStyle(SDTheme.muted)
+                    if cupMatches.isEmpty {
+                        ContentUnavailableView("Maç bulunamadı", systemImage: "sportscourt", description: Text("Canlı fikstür güncelleniyor. Yenilemek için aşağı çek."))
+                    } else {
+                        ForEach(cupLeagues, id: \.self) { league in
+                            VStack(alignment: .leading, spacing: 10) {
+                                Text(league).font(.title3.bold()).padding(.top, 4)
+                                ForEach(cupMatches.filter { $0.league == league }) { match in matchCard(match) }
+                            }
+                        }
+                    }
+                } else {
                 Text("Trendyol Süper Lig fikstürü · haftalar ve güncel skorlar").font(.subheadline).foregroundStyle(SDTheme.muted)
                 weekPicker
 
@@ -40,6 +79,7 @@ struct MatchesView: View {
                             ForEach(sortedMatches(in: week)) { match in matchCard(match) }
                         }
                     }
+                }
                 }
             }.padding(16)
         }
@@ -57,6 +97,14 @@ struct MatchesView: View {
             let r = store.statements(matchID: $1.id).count
             if l != r { return l > r }
             return $0.kickoff < $1.kickoff
+        }
+    }
+
+    private var sectionPicker: some View {
+        HStack(spacing: 8) {
+            ForEach(sections) { item in
+                Button { section = item } label: { weekChip(item.rawValue, active: section == item) }.buttonStyle(.plain)
+            }
         }
     }
 
@@ -85,7 +133,7 @@ struct MatchesView: View {
                 VStack(spacing: 10) {
                     HStack {
                         Text(SDDate.text(match.kickoff, includeTime: true)).font(.caption2).foregroundStyle(SDTheme.muted2)
-                        Spacer(); Text(weekTitle(match.week)).font(.caption2.bold()).foregroundStyle(SDTheme.muted)
+                        Spacer(); Text(match.isLeague ? weekTitle(match.week) : match.roundText).font(.caption2.bold()).foregroundStyle(SDTheme.muted)
                     }
                     HStack {
                         Text(match.home).font(.headline).frame(maxWidth: .infinity, alignment: .leading)

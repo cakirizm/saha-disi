@@ -86,9 +86,9 @@ struct HomeView: View {
     private func matchHero(_ match: Match) -> some View {
         VStack(spacing: 18) {
             HStack {
-                Text("SÜPER LİG").font(.caption2.bold()).tracking(1)
+                Text(match.competitionBadge).font(.caption2.bold()).tracking(1)
                 Spacer()
-                Text("\(match.week). Hafta").font(.caption)
+                Text(match.roundText).font(.caption)
             }.foregroundStyle(SDTheme.muted)
             HStack(alignment: .center, spacing: 12) {
                 heroTeam(match.home, logo: match.homeLogoURL)
