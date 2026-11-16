@@ -22,11 +22,13 @@ PAGE=200
 # code, Turkish label, candidate UEFA competition ids, word the returned
 # competition name must contain (guards against a wrong id silently importing
 # another tournament).
+# The Nations League id is not documented; candidates are tried until one
+# answers with a competition whose name says Nations League.
 COMPETITIONS=[
  ('ucl','UEFA Şampiyonlar Ligi',(1,),'champions league'),
  ('uel','UEFA Avrupa Ligi',(14,),'europa league'),
  ('uecl','UEFA Konferans Ligi',(2019,),'conference league'),
- ('unl','UEFA Uluslar Ligi',(9,2014,2008),'nations league'),
+ ('unl','UEFA Uluslar Ligi',(9,2014,2008,17,18,24,2016,2018),'nations league'),
 ]
 
 TURKISH={
@@ -112,7 +114,8 @@ def round_label(m):
     low=name.casefold()
     label=next((tr for key,tr in ROUNDS if key in low),name)
     group=dig(m,'group','metaData','groupName') or dig(m,'group','translations','name','EN')
-    if group:
+    # The league phase has one table; UEFA still labels it as group "League".
+    if group and group.strip().casefold() not in {'league','league phase'}:
         g=re.sub(r'(?i)^league\s+([A-D])\s*,?\s*group\s*(\d+)$',r'\1 Ligi \2. Grup',group)
         g=re.sub(r'(?i)^group\s+(\w+)$',r'\1 Grubu',g)
         label=f'{label} · {g}' if label else g
@@ -165,8 +168,11 @@ def collect(year=None,fetch=fetch_json):
         for cid in ids:
             try:raw=fetch_competition(cid,year,fetch)
             except Exception as e:report[code]['error']=str(e)[:120];continue
+            if not raw:
+                # A wrong id answers with an empty list, not an error; try the next one.
+                report[code]['error']=f'id {cid} returned no matches';continue
             name=competition_name(raw)
-            if raw and must not in name.casefold():
+            if must not in name.casefold():
                 report[code]['error']=f'id {cid} returned {name!r}';continue
             parsed=parse(raw,code,label)
             report[code]={'ok':True,'competition_id':cid,'season_year':year,'all_matches':len(raw),'matches':len(parsed)}
