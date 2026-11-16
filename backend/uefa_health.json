@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-16T07:56:18.525328+00:00",
+  "source": "UEFA",
+  "ok": true,
+  "using_cache": false,
+  "competitions": {
+    "ucl": {
+      "ok": true,
+      "competition_id": 1,
+      "season_year": 2027,
+      "all_matches": 234,
+      "matches": 22
+    },
+    "uel": {
+      "ok": true,
+      "competition_id": 14,
+      "season_year": 2027,
+      "all_matches": 224,
+      "matches": 16
+    },
+    "uecl": {
+      "ok": true,
+      "competition_id": 2019,
+      "season_year": 2027,
+      "all_matches": 366,
+      "matches": 8
+    },
+    "unl": {
+      "ok": true,
+      "competition_id": 9,
+      "season_year": 2027,
+      "all_matches": 0,
+      "matches": 0
+    }
+  }
+}
