@@ -218,10 +218,14 @@ def text_of(value):
 
 def page_videos(channel_url):
     """(id, title) from the channel's Videos and Shorts tabs. YouTube's RSS feed
-    has been answering 404 for long stretches, the channel pages keep working."""
+    has been answering 404 for long stretches, the channel pages keep working.
+    A channel that mostly broadcasts live (Socrates) keeps its shows under Live,
+    which is read only when the other two tabs gave nothing."""
     base = channel_url.rstrip('/')
     found = {}
-    for tab in ('shorts', 'videos'):
+    for tab in ('shorts', 'videos', 'streams'):
+        if tab == 'streams' and found:
+            break
         try:
             data = initial_data(page(f'{base}/{tab}'))
         except Exception:
