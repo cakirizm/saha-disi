@@ -120,11 +120,13 @@ def direct_sources():
   {'url':'https://www.fanatik.com.tr/yazarlar/cem-dizdar','source':'Fanatik','trust':95,'cid':'cem-dizdar','byline':True},
   {'url':'https://www.fanatik.com.tr/yazarlar/orhan-yildirim','source':'Fanatik','trust':95,'cid':'orhan-yildirim','byline':True},
   {'url':'https://www.fanatik.com.tr/yazarlar/serkan-akcan','source':'Fanatik','trust':95,'cid':'serkan-akcan','byline':True},
-  {'url':'https://www.takvim.com.tr/yazarlar/sinan-vardar/arsiv','source':'Takvim','trust':92,'cid':'sinan-vardar','byline':True},
-  {'url':'https://www.takvim.com.tr/yazarlar/evren-turhan/arsiv','source':'Takvim','trust':92,'cid':'evren-turhan','byline':True},
-  {'url':'https://www.takvim.com.tr/yazarlar/gurcan-bilgic/arsiv','source':'Takvim','trust':92,'cid':'gurcan-bilgic','byline':True},
-  {'url':'https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/arsiv','source':'Takvim','trust':92,'cid':'ilker-yagcioglu','byline':True},
-  {'url':'https://www.takvim.com.tr/yazarlar/kartal-yigit/arsiv','source':'Takvim','trust':92,'cid':'kartal-yigit','byline':True},
+  # Takvim columns are signed like Sabah/Fotomaç (same group, same byline proof).
+  # At 92 they sat below build_feed's 95 bar and every sentence went to review.
+  {'url':'https://www.takvim.com.tr/yazarlar/sinan-vardar/arsiv','source':'Takvim','trust':95,'cid':'sinan-vardar','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/evren-turhan/arsiv','source':'Takvim','trust':95,'cid':'evren-turhan','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/gurcan-bilgic/arsiv','source':'Takvim','trust':95,'cid':'gurcan-bilgic','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/ilker-yagcioglu/arsiv','source':'Takvim','trust':95,'cid':'ilker-yagcioglu','byline':True},
+  {'url':'https://www.takvim.com.tr/yazarlar/kartal-yigit/arsiv','source':'Takvim','trust':95,'cid':'kartal-yigit','byline':True},
   {'url':'https://beinsports.com.tr/yazarlar/ugurmeleke','source':'beIN SPORTS','trust':100,'cid':'ugur-meleke','byline':True}]+discovered_sources()
 def discovered_sources():
  # columnist_discovery.py walks publisher author indexes and keeps writers whose
