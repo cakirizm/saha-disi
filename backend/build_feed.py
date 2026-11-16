@@ -69,9 +69,14 @@ TEAM_PATTERNS={
  'Gaziantep FK':r'(?<!\w)antep(?!\w)',
 }
 
+# The national team is a side of its own. Only first-person or explicitly
+# Turkish forms count: a bare "milli takım" is often another country's.
+NATIONAL_TEAM='Türkiye'
+NATIONAL_PATTERN=r'(?<!\w)(?:a milli takım|a milli|milli takımımız|millilerimiz|ay[- ]?yıldızlı|türkiye milli takım)\w*'
+
 def teams_in(text):
     """Canonical clubs named in a piece of text, short forms included."""
-    found=[]
+    found=[NATIONAL_TEAM] if re.search(NATIONAL_PATTERN,text or '',re.I) else []
     for club in TEAMS:
         surfaces=(club,)+TEAM_ALIASES.get(club,())
         pattern=TEAM_PATTERNS.get(canonical(club))
@@ -98,7 +103,12 @@ def valid_transcript(value):
     filler=sum(low.count(x) for x in (' yani ',' abi ',' hani ',' şey ',' kardeşim',' diyorsun'))
     return 80<=len(clean)<=320 and len(words)>=10 and '?' not in clean and filler<2 and not repeated and any(x in low for x in TRANSCRIPT_ENTITIES)
 
-def fixture_key(m):return (int(m.get('week') or 0),canonical(m.get('home')),canonical(m.get('away')))
+def is_league(m):return m.get('competition') in (None,'','super_lig')
+def fixture_key(m):
+    # European and national-team matches carry UEFA's own id; the league is keyed by
+    # week and clubs because the TFF page has no stable match id.
+    if not is_league(m):return ('uefa',m.get('id'))
+    return (int(m.get('week') or 0),canonical(m.get('home')),canonical(m.get('away')))
 
 legacy=[]
 for s in seed.get('statements',[]):
@@ -131,6 +141,33 @@ for m in overrides:
         base=merge_fixture(base,row)
     base.setdefault('image_url',None);matches[key]=base
 
+uefa=[]
+try:uefa=json.loads((B/'uefa_matches.json').read_text(encoding='utf-8'))
+except Exception:pass
+for m in uefa:
+    row=dict(m);row['home']=canonical(row.get('home'));row['away']=canonical(row.get('away'));key=fixture_key(row)
+    matches[key]=merge_fixture(matches.get(key,{}),row)
+
+def _stamp(value):
+    try:
+        d=datetime.fromisoformat(str(normalize_kickoff(value or '')).replace('Z','+00:00'))
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except ValueError:return None
+
+# Older app builds group the fixture list by league week only. A European night
+# is filed under the league week it is played in, so it still shows up there
+# instead of under an empty "0. Hafta"; newer builds group by competition.
+league_starts={}
+for row in matches.values():
+    stamp=_stamp(row.get('kickoff'))
+    if is_league(row) and stamp and row.get('week'):
+        w=int(row['week']);league_starts[w]=min(stamp,league_starts.get(w,stamp))
+for row in matches.values():
+    if is_league(row):row['competition']='super_lig';continue
+    stamp=_stamp(row.get('kickoff'))
+    before=[w for w,start in league_starts.items() if stamp and start<=stamp]
+    row['week']=max(before) if before else (min(league_starts) if league_starts else 1)
+
 for row in matches.values():
     # Keep the API shape stable while TFF kickoff dates are still unannounced.
     # A missing optional schedule date must never invalidate the whole iOS feed.
@@ -145,8 +182,9 @@ logos={}
 try:logos=json.loads((B/'team_logos.json').read_text(encoding='utf-8'))
 except Exception:pass
 for m in seed.get('matches',[]):
-    m['home_logo_url']=logos.get(m.get('home'))
-    m['away_logo_url']=logos.get(m.get('away'))
+    # European opponents and national teams carry UEFA's own crest.
+    m['home_logo_url']=logos.get(m.get('home')) or m.get('home_logo_url')
+    m['away_logo_url']=logos.get(m.get('away')) or m.get('away_logo_url')
 
 photo_by_commentator={}
 try:
@@ -245,7 +283,9 @@ for s in seed.get('statements',[]):
     # Repair historical page-wide tags; only the actual statement supplies entities.
     s['players']=mentioned_entities(s.get('summary',''),PLAYERS)
     teams=teams_in(s.get('summary',''))
-    s['team']=teams[0] if len(teams)==1 else s.get('inherited_team')
+    # "Galatasaraylı Barış Alper A Milli Takım'da": the club stays the page it belongs on.
+    clubs=[t for t in teams if t!=NATIONAL_TEAM]
+    s['team']=clubs[0] if len(clubs)==1 else (NATIONAL_TEAM if teams==[NATIONAL_TEAM] else s.get('inherited_team'))
     # Older rows carry labels from the previous keyword rules, so label them again.
     if (s.get('evidence') or {}).get('method')=='columnist_byline':
         s['type'],s['topic'],_,s['strength']=classify(s.get('summary',''))
@@ -270,12 +310,33 @@ def parse_stamp(value):
     except ValueError:return None
     return stamp if stamp.tzinfo else stamp.replace(tzinfo=timezone.utc)
 
+GENERIC_CLUB_WORDS={'fc','ac','as','sc','sk','fk','cf','afc','real','club','sporting','athletic','atletico','atlético','dinamo','dynamo','royal','union','rapid','red','sport','city','united'}
+OPPONENT_ALIASES={'Paris Saint-Germain':('PSG',),'Bayern München':('Bayern','Bayern Münih'),'FC Bayern München':('Bayern','Bayern Münih'),
+ 'Manchester City':('Man City','City'),'Manchester United':('Man United','Man Utd','United'),'Internazionale':('Inter',),'Inter':('Inter',),
+ 'Atleti':('Atletico Madrid','Atlético Madrid'),'Borussia Dortmund':('Dortmund',),'Tottenham Hotspur':('Tottenham',),'Bayer Leverkusen':('Leverkusen',)}
+
+def opponent_surfaces(name):
+    """How a Turkish column names a foreign opponent: full name, known short
+    forms, and a distinctive first word ("Liverpool", "Benfica")."""
+    out=[name]+list(OPPONENT_ALIASES.get(name,()))
+    words=[w for w in re.split(r'[\s-]+',name) if w]
+    if len(words)>1:
+        first=next((w for w in words if w.casefold() not in GENERIC_CLUB_WORDS and len(w)>=4),None)
+        if first:out.append(first)
+    return out
+
 def link_matches(statements,matches):
     fixtures=[]
     for m in matches or []:
         kickoff=parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff'))
-        if kickoff and m.get('home') and m.get('away'):
-            fixtures.append((m['id'],{canonical(m['home']),canonical(m['away'])},kickoff))
+        if not (kickoff and m.get('home') and m.get('away')):continue
+        home,away=canonical(m['home']),canonical(m['away'])
+        if is_league(m):fixtures.append((m['id'],{home,away},kickoff,None));continue
+        # Only the Turkish side is in our club list; the opponent has to be named in the text.
+        ours={home,away}&(set(map(canonical,TEAMS))|{NATIONAL_TEAM})
+        if len(ours)!=1:continue
+        other=away if home in ours else home
+        fixtures.append((m['id'],ours,kickoff,opponent_surfaces(other)))
     articles={}
     for s in statements:
         url=s.get('url') or ''
@@ -286,10 +347,12 @@ def link_matches(statements,matches):
         for s in rows:
             named|=set(teams_in(s.get('summary','')))
             stamp=stamp or parse_stamp(s.get('date'))
-        if len(named)<2 or stamp is None:continue
+        if not named or stamp is None:continue
+        text=' '.join(s.get('summary','') for s in rows)
         # A column runs the morning after kickoff; a preview may run the day before.
-        best=[(mid,clubs) for mid,clubs,kickoff in fixtures
-              if clubs<=named and kickoff-timedelta(days=1)<=stamp<=kickoff+timedelta(days=4)]
+        best=[(mid,clubs) for mid,clubs,kickoff,opp in fixtures
+              if clubs<=named and (len(named)>=2 if opp is None else bool(mentioned_entities(text,opp)))
+              and kickoff-timedelta(days=1)<=stamp<=kickoff+timedelta(days=4)]
         if len(best)!=1:continue
         for s in rows:
             if not s.get('match_id'):s['match_id']=best[0][0];linked+=1
@@ -302,10 +365,25 @@ def link_matches(statements,matches):
         if s.get('match_id') or s.get('topic')!='Hakem / VAR':continue
         stamp=parse_stamp(s.get('date'));named=set(teams_in(s.get('summary','')))
         if not named or stamp is None:continue
-        best={mid for mid,clubs,kickoff in fixtures if clubs&named and kickoff<=stamp<=kickoff+timedelta(days=2)}
+        best={mid for mid,clubs,kickoff,_ in fixtures if clubs&named and kickoff<=stamp<=kickoff+timedelta(days=2)}
         if len(best)==1:s['match_id']=best.pop();linked+=1
     return linked
 
+def drop_stale_links(statements,matches):
+    """A link saved by an earlier run stays only while it still holds: the match
+    exists and the sentence was printed between the day before kickoff and four
+    days after. A corrected or postponed kickoff otherwise left old links behind."""
+    kick={m.get('id'):parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff')) for m in matches or []}
+    dropped=0
+    for s in statements:
+        mid=s.get('match_id')
+        if not mid:continue
+        k=kick.get(mid);stamp=parse_stamp(s.get('date'))
+        if mid not in kick or (k and stamp and not (k-timedelta(days=1)<=stamp<=k+timedelta(days=4))):
+            s['match_id']=None;dropped+=1
+    return dropped
+
+stale=drop_stale_links(seed['statements'],seed.get('matches'))
 linked=link_matches(seed['statements'],seed.get('matches'))
 # Keyword rules cannot tell a prediction from a sentence that happens to use the
 # word; a future-tense sentence printed before that match's kickoff can be trusted.
@@ -352,4 +430,4 @@ seed['publications']=[x for x in json.loads(publication_path.read_text(encoding=
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')
-print('match links',linked,'incidents',len(seed['incidents']));print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
+print('stale links dropped',stale,'match links',linked,'incidents',len(seed['incidents']));print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))

@@ -61,6 +61,9 @@ jobs:
       - name: Collect official TFF fixture
         run: python backend/tff_fixtures.py
 
+      - name: Collect UEFA fixtures for Turkish clubs and the national team
+        run: python backend/uefa_fixtures.py
+
       - name: Resolve verified commentator photos
         run: python backend/photo_resolver.py
 
@@ -109,11 +112,20 @@ jobs:
           broken=[s for s in walk(p) if any(x in s for x in bad)]
           assert not broken, f'mojibake detected: {broken[:5]}'
           assert len(p['matches']) >= 18
+          from datetime import datetime, timedelta, timezone
+          def stamp(v):
+            try: d=datetime.fromisoformat(str(v).replace('Z','+00:00'))
+            except ValueError: return None
+            return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+          kick={m['id']:stamp(m.get('kickoff')) for m in p['matches']}
+          stray=[s['id'] for s in p['statements'] if s.get('match_id') and (s['match_id'] not in kick or (kick[s['match_id']] and stamp(s.get('date')) and not kick[s['match_id']]-timedelta(days=1)<=stamp(s['date'])<=kick[s['match_id']]+timedelta(days=4)))]
+          assert not stray, f'statements linked outside their match window: {stray[:10]}'
           assert all(int(m.get('week',0)) > 0 for m in p['matches'])
-          current=[m for m in p['matches'] if int(m.get('week',0))==4]
+          current=[m for m in p['matches'] if int(m.get('week',0))==4 and m.get('competition','super_lig')=='super_lig']
           assert len(current)==9, f'week 4 fixture count {len(current)} != 9'
           teams={m['home'] for m in p['matches']}|{m['away'] for m in p['matches']}
-          missing=[t for t in teams if not logos.get(t)]
+          crest={m['home']:m.get('home_logo_url') for m in p['matches']}|{m['away']:m.get('away_logo_url') for m in p['matches']}
+          missing=[t for t in teams if not (logos.get(t) or crest.get(t))]
           assert not missing, f'missing logos: {missing}'
           assert not [u for u in logos.values() if 'google.com/s2/favicons' in u]
           assert all((not c.get('photoURL')) or c['id'] in photos for c in p['commentators'])
@@ -139,7 +151,7 @@ jobs:
           git config user.name 'saha-disi-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add backend/feed.json backend/collector_health.json backend/collector_state.json
-          git add backend/source_publications.json backend/fixture_health.json backend/tff_matches.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json
+          git add backend/source_publications.json backend/fixture_health.json backend/tff_matches.json backend/uefa_matches.json backend/uefa_health.json backend/commentator_photos.json backend/team_logos.json backend/player_photos.json
           git add backend/columnists.json backend/commentator_roster.json
           if git diff --cached --quiet; then
             echo 'No feed changes.'

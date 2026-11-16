@@ -79,10 +79,19 @@ final class AppStore: ObservableObject {
     func statements(matchID: String) -> [Statement] { index.byMatch[matchID] ?? [] }
 
     func relatedStatements(matchID: String) -> [Statement] {
-        guard let match = payload?.matches?.first(where: { $0.id == matchID }) else { return [] }
-        let exactIDs = Set(statements(matchID: matchID).map(\.id))
+        guard let match = payload?.matches?.first(where: { $0.id == matchID }),
+              let kickoff = SDDate.date(match.kickoff) else { return [] }
+        // Only the days around this match, and never a sentence already tied to a
+        // different match: otherwise a derby page filled up with last month's games.
+        let from = kickoff.addingTimeInterval(-7 * 86_400)
+        let to = kickoff.addingTimeInterval(4 * 86_400)
+        var seen = Set(statements(matchID: matchID).map(\.id))
         return (statements(naming: match.home) + statements(naming: match.away))
-            .filter { !exactIDs.contains($0.id) }
+            .filter { s in
+                guard s.matchId == nil || s.matchId == matchID, let date = SDDate.date(s.date),
+                      date >= from, date <= to else { return false }
+                return seen.insert(s.id).inserted
+            }
             .sorted { $0.date > $1.date }
     }
 

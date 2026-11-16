@@ -106,7 +106,13 @@ struct FeedIndex {
 
         commentatorSections = FeedIndex.sections(people: people, byCommentator: byCommentator, now: now)
 
-        featuredMatches = Array(matches.sorted { a, b in
+        // The hero shows this week's matches; an old derby with many comments should not
+        // sit on top of the screen as if it were the current game.
+        let nearby = matches.filter { m in
+            guard let date = SDDate.date(m.kickoff) else { return false }
+            return abs(date.timeIntervalSince(now)) <= 7 * 86_400
+        }
+        featuredMatches = Array((nearby.isEmpty ? matches : nearby).sorted { a, b in
             let ac = byMatch[a.id]?.count ?? 0
             let bc = byMatch[b.id]?.count ?? 0
             if ac != bc { return ac > bc }

@@ -271,6 +271,9 @@ struct Match: Codable, Identifiable, Hashable {
     let id: String
     let league: String
     let week: Int
+    /// "super_lig", "ucl", "uel", "uecl" or "unl"; older feeds have no value and are league matches.
+    let competition: String
+    let round: String?
     let home: String
     let away: String
     let kickoff: String
@@ -288,7 +291,7 @@ struct Match: Codable, Identifiable, Hashable {
     let playerRatings: [PlayerMatchRating]
 
     enum CodingKeys: String, CodingKey {
-        case id, league, week, home, away, kickoff
+        case id, league, week, competition, round, home, away, kickoff
         case homeScore = "home_score"
         case awayScore = "away_score"
         case imageURL = "image_url"
@@ -303,6 +306,8 @@ struct Match: Codable, Identifiable, Hashable {
         id = try values.decodeIfPresent(String.self, forKey: .id) ?? UUID().uuidString
         league = try values.decodeIfPresent(String.self, forKey: .league) ?? "Trendyol Süper Lig"
         week = try values.decodeIfPresent(Int.self, forKey: .week) ?? 0
+        competition = try values.decodeIfPresent(String.self, forKey: .competition) ?? "super_lig"
+        round = try values.decodeIfPresent(String.self, forKey: .round)
         home = try values.decodeIfPresent(String.self, forKey: .home) ?? ""
         away = try values.decodeIfPresent(String.self, forKey: .away) ?? ""
         kickoff = try values.decodeIfPresent(String.self, forKey: .kickoff) ?? ""
@@ -322,6 +327,13 @@ struct Match: Codable, Identifiable, Hashable {
 }
 
 extension Match {
+    var isLeague: Bool { competition == "super_lig" }
+    var isNationalTeam: Bool { competition == "unl" }
+    var isEuropean: Bool { !isLeague && !isNationalTeam }
+    /// "4. Hafta" for the league, the UEFA round ("Lig Aşaması · 5. Maç") otherwise.
+    var roundText: String { isLeague ? "\(week). Hafta" : (round ?? league) }
+    var competitionBadge: String { isLeague ? "SÜPER LİG" : league.uppercased(with: Locale(identifier: "tr_TR")) }
+
     var scoreText: String {
         if let homeScore, let awayScore { return "\(homeScore) - \(awayScore)" }
         return statusText == "Başlamadı" ? "VS" : "—"

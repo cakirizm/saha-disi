@@ -32,6 +32,11 @@ enum SDDate {
         let f = DateFormatter(); f.locale = Locale(identifier: "tr_TR"); f.dateFormat = "dd.MM.yyyy HH:mm"; return f
     }()
 
+    static func date(_ value: String) -> Date? {
+        guard !value.isEmpty else { return nil }
+        return iso.date(from: value) ?? simple.date(from: value) ?? tff.date(from: value)
+    }
+
     static func text(_ value: String, includeTime: Bool = false) -> String {
         guard !value.isEmpty else { return "Tarih açıklanmadı" }
         let date = iso.date(from: value) ?? simple.date(from: value) ?? tff.date(from: value)
