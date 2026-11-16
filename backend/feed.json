@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:47:26.069379+00:00",
+  "generated_at": "2026-11-16T07:53:58.919488+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -35,22 +35,22 @@
       "photoURL": null
     },
     {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
       "focusTeams": [
         "Genel"
       ],
@@ -112,6 +112,17 @@
       "photoURL": null
     },
     {
+      "id": "levent-tuzemen",
+      "name": "Levent Tüzemen",
+      "role": "Futbol yorumcusu",
+      "primarySource": "A Spor",
+      "avatar": "LT",
+      "focusTeams": [
+        "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -120,17 +131,6 @@
       "focusTeams": [
         "Beşiktaş",
         "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "levent-tuzemen",
-      "name": "Levent Tüzemen",
-      "role": "Futbol yorumcusu",
-      "primarySource": "A Spor",
-      "avatar": "LT",
-      "focusTeams": [
-        "Galatasaray"
       ],
       "photoURL": null
     },
@@ -335,22 +335,22 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "id": "mehmet-caner-kolagasigil",
-      "name": "Mehmet Caner Kolağasıgil",
+      "id": "ersin-ramoglu",
+      "name": "Ersin Ramoğlu",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "MCK",
+      "avatar": "ER",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "ersin-ramoglu",
-      "name": "Ersin Ramoğlu",
+      "id": "mehmet-caner-kolagasigil",
+      "name": "Mehmet Caner Kolağasıgil",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ER",
+      "avatar": "MCK",
       "focusTeams": [
         "Genel"
       ],
@@ -38623,7 +38623,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
-        "published_at": "2026-11-16T02:04:51+03:00"
+        "published_at": "2026-11-16T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -38650,7 +38650,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
-        "published_at": "2026-11-16T02:04:51+03:00"
+        "published_at": "2026-11-16T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -38677,7 +38677,7 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
-        "published_at": "2026-11-16T01:42:37+03:00"
+        "published_at": "2026-11-16T06:40:46+03:00"
       },
       "image_kind": null
     },
@@ -38704,12 +38704,503 @@
         "method": "columnist_byline",
         "speaker_id": "turgay-demir",
         "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
-        "published_at": "2026-11-16T01:42:37+03:00"
+        "published_at": "2026-11-16T06:40:46+03:00"
       },
       "image_kind": null
     },
     {
-      "id": 19778,
+      "id": 19377,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-16T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Uluslar Ligi'nde yaşadığımız başarısızlığı dilerim Milli Takımımız ve oyuncuları bizlere bir daha yaşatmaz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/16/berkeyi-kazandik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/16/berkeyi-kazandik",
+        "published_at": "2026-11-16T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19382,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-16T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hem Kocaeli'de hem de Bordeaux'da gol atabilecek pozisyonlar bulduk ama topu filelere yollayamadık.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/16/berkeyi-kazandik",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/16/berkeyi-kazandik",
+        "published_at": "2026-11-16T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19444,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-16T07:00:00+03:00",
+      "team": null,
+      "players": [
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Zeki Çelik ısınırken sakatlanıyor, yerine bir maç önce tercih edilen Oğuz değil bu kez Barış Alper'i tercih ediyor teknik irade.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/nedir-sorun-2644638",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/nedir-sorun-2644638",
+        "published_at": "2026-11-16T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19448,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-16T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Oyuncu değişiklikleri bu golden önce olsaydı diyecekleri de, Arda Güler'in yüksek gayretine başta Hakan olmak üzere diğerlerinin katılmadığını söyleyecekleri de duyar gibiyim...",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/nedir-sorun-2644638",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/nedir-sorun-2644638",
+        "published_at": "2026-11-16T07:00:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19841,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-16T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Can Uzun'un Fransa savunmasının arkasına gönderdiği topla buluşan İsmail Yüksek, karşı karşıya pozisyonda kaleci Maignan'ı geçemedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/16/fransaya-karsi-iki-macta-da-iyiydik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/16/fransaya-karsi-iki-macta-da-iyiydik",
+        "published_at": "2026-11-16T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19845,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-16T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ama pozisyonun başlangıcında İsmail Yüksek'in ofsaytta olduğunu fark ettik, yani önce gole sevindik; sonra kahrolduk!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/16/fransaya-karsi-iki-macta-da-iyiydik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/16/fransaya-karsi-iki-macta-da-iyiydik",
+        "published_at": "2026-11-16T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19910,
+      "commentator": "deniz-coban",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Maçın hakemi İngiliz Chris Kavanagh, 2017'den bu yana Premier Lig'de düdük çalan, 2019'dan itibaren ise FIFA kokartıyla uluslararası arenada görev yapan tecrübeli bir isim.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kavanagh-icin-rahat-bir-macti-2644639",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kavanagh-icin-rahat-bir-macti-2644639",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19914,
+      "commentator": "deniz-coban",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Uluslar Ligi'nde oynadığımız 6. maçı da kaybederek bize büyük bir hayal kırıklığı yaşatan Milli Takımımız'ın sınavında, hakemin ilk düdükten itibaren faul yorumlarında belirgin bir standartsızlığı gözüme çarptı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kavanagh-icin-rahat-bir-macti-2644639",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kavanagh-icin-rahat-bir-macti-2644639",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20013,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Avrupa’da oynadığı son Bologna maçına (4.çeyreğin sonlarında) nazaran daha iyi hücum eden bir Anadolu Efes vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/derbide-zafer-fenerbahcenin-2644631",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/derbide-zafer-fenerbahcenin-2644631",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 20014,
+      "commentator": "hatice-yucel",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "16 sayılık farkın oluştuğu maçın 1. çeyreğinde Anadolu Efes her hücumu sayıya çevirip, yaklaşık isabet yüzdesi 70’leri bulduğu bu bölümde rakip potaya 32 sayı bıraktı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/derbide-zafer-fenerbahcenin-2644631",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hatice-yucel",
+        "url": "https://www.fanatik.com.tr/yazarlar/hatice-yucel/derbide-zafer-fenerbahcenin-2644631",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 20137,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "İlk 45’te Berke kritik kurtarışlarla hata yapmazken, hücumda az ama önemli gol pozisyonlar da yakaladık.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inadin-bedeli-2644636",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inadin-bedeli-2644636",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20139,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-16T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sonrasında hamlelerle dengelemeye çalıştık oyunu ve kritik gol pozisyonlarını maalesef değerlendiremedik.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inadin-bedeli-2644636",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/inadin-bedeli-2644636",
+        "published_at": "2026-11-16T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20198,
+      "commentator": "ersin-ramoglu",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Biri milyonların umudunu, diğeri bordo-mavili taraftarın heyecanını omuzluyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/16/hayde-usaklar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ersin-ramoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/16/hayde-usaklar",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20199,
+      "commentator": "ersin-ramoglu",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Savunmayı geçince bir bakmışsın ki kaleciyi avlamış.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/16/hayde-usaklar",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ersin-ramoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/16/hayde-usaklar",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 20213,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çok çabuk toparlanıp ofsayt sayılan bir golümüz iptal edildi ama bu bölümde iki gol pozisyonundan yararlanamadık.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/16/hak-etmedik",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/16/hak-etmedik",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20214,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "İkinci yarıda da ortaya koyduğumuz çok iyi oyunla, yaptığımız mücadele ve de kaçırdığımız gol pozisyonları ile bu mağlubiyeti hak etmedik.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/16/hak-etmedik",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/16/hak-etmedik",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20245,
+      "commentator": "yunus-emre-sel",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Karşıda Wendel'li, Nino'lu, Luiz Henrique'li neredeyse tam kadro bir Zenit; Bordo-Mavililerde ise A takımdan sadece yedi isim ve yanlarına eklemlenmiş dört U19 genci vardı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/11/16/yedek-kulubesinin-aynasi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "yunus-emre-sel",
+        "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/11/16/yedek-kulubesinin-aynasi",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20246,
+      "commentator": "yunus-emre-sel",
+      "date": "2026-11-16T06:50:15+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Perdeyi açan ismin, sezon başında Rus ekibine gönderilen Felipe Augusto olması ve golüne sevinmemesi ise futbolun o bilindik nostaljik cilvesiydi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/11/16/yedek-kulubesinin-aynasi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "yunus-emre-sel",
+        "url": "https://www.fotomac.com.tr/yazarlar/yunus-emre-sel/2026/11/16/yedek-kulubesinin-aynasi",
+        "published_at": "2026-11-16T06:50:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 20270,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38739,7 +39230,7 @@
       "image_kind": null
     },
     {
-      "id": 19780,
+      "id": 20272,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38769,7 +39260,7 @@
       "image_kind": null
     },
     {
-      "id": 19781,
+      "id": 20273,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -43421,7 +43912,7 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 29,
+      "comment_count": 30,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {

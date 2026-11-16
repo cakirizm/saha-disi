@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T02:47:08.398744+00:00",
+  "generated_at": "2026-11-16T07:53:44.460315+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1468
+    "candidates": 1501
   },
   "sources": [
     {
@@ -210,7 +210,7 @@
     {
       "commentator": "deniz-coban",
       "source": "Fanatik",
-      "candidates": 37,
+      "candidates": 35,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -242,7 +242,7 @@
     {
       "commentator": "hatice-yucel",
       "source": "Fanatik",
-      "candidates": 37,
+      "candidates": 36,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -314,7 +314,7 @@
     {
       "commentator": "ersin-ramoglu",
       "source": "Fotomaç",
-      "candidates": 8,
+      "candidates": 16,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -322,7 +322,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 30,
+      "candidates": 38,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -338,7 +338,7 @@
     {
       "commentator": "yunus-emre-sel",
       "source": "Fotomaç",
-      "candidates": 24,
+      "candidates": 29,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -354,7 +354,7 @@
     {
       "commentator": "abdullah-ercan",
       "source": "Takvim",
-      "candidates": 46,
+      "candidates": 45,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -386,7 +386,7 @@
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 40,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -410,7 +410,7 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 13,
+      "candidates": 21,
       "ok": true,
       "error": null,
       "kind": "web"
