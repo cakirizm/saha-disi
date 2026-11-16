@@ -276,11 +276,16 @@ def _transcript_get(path, params):
         return json.loads(r.read().decode('utf-8'))
 
 
+class ServiceRefused(Blocked):
+    """TranscriptYT will not serve this key at all (out of credits, bad key).
+    A run from a home connection can carry on reading YouTube directly."""
+
+
 def _transcript_error(exc):
     if exc.code == 402:
-        raise Blocked('TranscriptYT kredisi bitti', rest=timedelta(hours=12))
+        raise ServiceRefused('TranscriptYT kredisi bitti', rest=timedelta(hours=12))
     if exc.code == 401:
-        raise Blocked('TranscriptYT anahtarı geçersiz', rest=timedelta(hours=12))
+        raise ServiceRefused('TranscriptYT anahtarı geçersiz', rest=timedelta(hours=12))
     if exc.code in (429, 503):
         raise Blocked(f'TranscriptYT {exc.code}, bir sonraki çalışmada tekrar denenecek', rest=None)
     if exc.code in (400, 404):
@@ -332,7 +337,7 @@ def channel_videos(source, seen):
     comes from its API. Otherwise the publish date comes free from RSS;
     from the channel page it costs a request, so it is fetched later and only
     for clips that name their speaker."""
-    if key('TRANSCRIPT_API_KEY'):
+    if use_service():
         return api_channel_videos(source, seen)
     videos, error = [], None
     try:
@@ -343,12 +348,40 @@ def channel_videos(source, seen):
         return [v for v in videos if v['id'] not in seen], None
     listed = [{'id': vid, 'title': title, 'published_at': None}
               for vid, title in page_videos(source['url']) if vid not in seen]
+    # The official API gives dates without a page request per clip.
+    if listed and key('YOUTUBE_API_KEY'):
+        dates = published_dates([v['id'] for v in listed if title_speaker(v['title'], source.get('commentators'))[0]])
+        for v in listed:
+            v['published_at'] = dates.get(v['id'])
     return listed, (None if listed else error)
+
+
+# Set from the command line. direct: never use TranscriptYT, read YouTube from
+# this connection. fallback: use TranscriptYT, but when it refuses the key
+# (no credits, bad key) switch to direct for the rest of the run. Both only
+# make sense from a connection YouTube serves, such as a home PC.
+MODE = {'direct': False, 'fallback': False}
+
+
+def use_service():
+    return bool(key('TRANSCRIPT_API_KEY')) and not MODE['direct']
+
+
+def with_fallback(fn, *args):
+    """Call fn; if TranscriptYT refuses and fallback is on, go direct and retry once."""
+    try:
+        return fn(*args)
+    except ServiceRefused as exc:
+        if not MODE['fallback'] or MODE['direct']:
+            raise
+        MODE['direct'] = True
+        print(f"{exc}; bu çalışma altyazıları doğrudan YouTube'dan okuyacak.", flush=True)
+        return fn(*args)
 
 
 def captions(api, video_id):
     """[(start, text)] of the Turkish track and whether it is auto-generated."""
-    if key('TRANSCRIPT_API_KEY'):
+    if use_service():
         return api_captions(video_id)
     from youtube_transcript_api import _errors as E
     blocked = tuple(getattr(E, n) for n in ('RequestBlocked', 'IpBlocked') if hasattr(E, n))
@@ -399,7 +432,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
     budget, blocked_until, report = budget or FETCH_BUDGET, None, []
     try:
         for source in partners:
-            videos, error = channel_videos(source, seen)
+            videos, error = with_fallback(channel_videos, source, seen)
             found = 0
             for video in videos:
                 cid, quote = title_speaker(video['title'], source.get('commentators'))
@@ -419,7 +452,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
                     seen.add(video['id'])
                     continue
                 budget -= 1
-                snippets, kind = captions(api, video['id'])
+                snippets, kind = with_fallback(captions, api, video['id'])
                 turn = attributed_turn(snippets, quote) if snippets else None
                 for row in (statements_from(video, source, cid, turn, kind, now, quote) if turn else []):
                     rows[row['candidate_id']] = row
@@ -433,6 +466,10 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
         blocked_until = (now + exc.rest).isoformat() if exc.rest else None
         wait = f'{blocked_until} saatine kadar bekleniyor' if blocked_until else 'sonraki çalışmada devam edilecek'
         print(f'Durduruldu ({exc}); {wait}. Bulunanlar kaydedildi.', flush=True)
+    if ignore_rest:
+        # The rest note belongs to the server's connection: a run from another
+        # connection neither reads it nor replaces it with its own blocks.
+        blocked_until = state.get('blocked_until')
     body = {'seen_videos': sorted(seen)[-MAX_SEEN:],
             'candidates': sorted(rows.values(), key=lambda r: r['published_at'], reverse=True),
             'blocked_until': blocked_until}
@@ -447,5 +484,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
 
 if __name__ == '__main__':
     arg = lambda name: sys.argv[sys.argv.index(name) + 1] if name in sys.argv else None
+    MODE['direct'] = '--direct' in sys.argv
+    MODE['fallback'] = '--fallback-direct' in sys.argv
     run(arg('--source'), ignore_rest='--ignore-rest' in sys.argv,
         budget=int(arg('--budget')) if arg('--budget') else None)
