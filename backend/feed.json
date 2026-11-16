@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:46:40.485608+00:00",
+  "generated_at": "2026-11-16T02:47:26.069379+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -68,17 +68,6 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "bulent-timurlenk",
       "name": "Bülent Timurlenk",
       "role": "Futbol yorumcusu",
@@ -86,6 +75,17 @@
       "avatar": "BT",
       "focusTeams": [
         "Galatasaray"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -112,6 +112,18 @@
       "photoURL": null
     },
     {
+      "id": "turgay-demir",
+      "name": "Turgay Demir",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "TD",
+      "focusTeams": [
+        "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "levent-tuzemen",
       "name": "Levent Tüzemen",
       "role": "Futbol yorumcusu",
@@ -132,18 +144,6 @@
         "Trabzonspor"
       ],
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-    },
-    {
-      "id": "turgay-demir",
-      "name": "Turgay Demir",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "TD",
-      "focusTeams": [
-        "Beşiktaş",
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "ahmet-cakar",
@@ -38601,7 +38601,115 @@
       "image_kind": null
     },
     {
-      "id": 19774,
+      "id": 18944,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-16T02:04:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hesabımızın-kitabımızın olmadığı bir maçta bu türden bir diziliş denemesi makul kabul edilebilir ama Sergen Yalçın'ın bu oyuncuların profillerini ve ne oynadıklarını bilmemesi de imkânsız.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
+        "published_at": "2026-11-16T02:04:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 18946,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-16T02:04:51+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "hot_take",
+      "sentiment": "negative",
+      "strength": 10,
+      "summary": "İnce bir ofsaytla kesilen Arda'nın golü, kötü vurulanlar, vurulmayanlar derken altıpası alan savunmasıyla koruyup, üç kişinin arasından vurdurduğumuz korner, ardından Cherki'nin her zaman yaptığı derinlemesine bir pasla tabela 2-0'a geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/16/arda-kaptan-olmali",
+        "published_at": "2026-11-16T02:04:51+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19336,
+      "commentator": "turgay-demir",
+      "date": "2026-11-16T01:42:37+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İsmail'in karşı karşıya golü kaçırması, tek kelimeyle zor olanı yapmaktı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
+        "published_at": "2026-11-16T01:42:37+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19339,
+      "commentator": "turgay-demir",
+      "date": "2026-11-16T01:42:37+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Kaleci şaşkın, savunma olduğu yerde kalakalmış ama Arda acele etti ve topu yandan dışarı attı...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/16/savasarak-yenildik",
+        "published_at": "2026-11-16T01:42:37+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 19778,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -38631,7 +38739,7 @@
       "image_kind": null
     },
     {
-      "id": 19776,
+      "id": 19780,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -38661,7 +38769,7 @@
       "image_kind": null
     },
     {
-      "id": 19777,
+      "id": 19781,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
