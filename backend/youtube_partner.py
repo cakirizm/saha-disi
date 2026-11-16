@@ -35,6 +35,9 @@ VIDEO_MAX_AGE_DAYS = 5
 MAX_SEEN = 3000
 FETCH_BUDGET = 30          # YouTube requests per hourly run
 PAUSE = 4                  # seconds, randomised up to twice this between requests
+# Reading YouTube directly, a home connection was blocked after ~18 requests
+# at PAUSE: go much slower there, and pause between channel listings too.
+DIRECT_PAUSE = 20
 BLOCK_REST = timedelta(hours=6)
 
 
@@ -367,6 +370,11 @@ def use_service():
     return bool(key('TRANSCRIPT_API_KEY')) and not MODE['direct']
 
 
+def rest_a_moment():
+    gap = DIRECT_PAUSE if MODE['direct'] else PAUSE
+    time.sleep(gap + random.random() * gap)
+
+
 def with_fallback(fn, *args):
     """Call fn; if TranscriptYT refuses and fallback is on, go direct and retry once."""
     try:
@@ -433,6 +441,8 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
     try:
         for source in partners:
             videos, error = with_fallback(channel_videos, source, seen)
+            if MODE['direct']:
+                rest_a_moment()   # the listing itself hit YouTube's pages
             found = 0
             for video in videos:
                 cid, quote = title_speaker(video['title'], source.get('commentators'))
@@ -447,7 +457,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
                         video['published_at'] = publish_date(video['id'])
                     except Exception:
                         continue
-                    time.sleep(PAUSE + random.random() * PAUSE)
+                    rest_a_moment()
                 if not video['published_at'] or not recent(video['published_at'], now, VIDEO_MAX_AGE_DAYS):
                     seen.add(video['id'])
                     continue
@@ -458,7 +468,7 @@ def run(only=None, force=False, ignore_rest=False, budget=None):
                     rows[row['candidate_id']] = row
                     found += 1
                 seen.add(video['id'])
-                time.sleep(PAUSE + random.random() * PAUSE)
+                rest_a_moment()
             report.append(f"{source['name']}: {found} söz" + (f" (hata: {error})" if error else ''))
             # systemd buffers a non-interactive stdout; flush so the journal shows progress per channel.
             print(report[-1], flush=True)

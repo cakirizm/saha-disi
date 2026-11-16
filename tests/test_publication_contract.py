@@ -186,6 +186,15 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
             with self.assertRaises(yp.ServiceRefused):
                 yp.with_fallback(lambda: (_ for _ in ()).throw(yp.ServiceRefused('x')))
 
+    def test_direct_mode_waits_longer_between_requests(self):
+        import youtube_partner as yp
+        waits=[]
+        with patch.object(yp.time,'sleep',side_effect=waits.append),patch.object(yp.random,'random',return_value=0):
+            with patch.dict(yp.MODE,{'direct':False}): yp.rest_a_moment()
+            with patch.dict(yp.MODE,{'direct':True}): yp.rest_a_moment()
+        self.assertEqual(waits,[yp.PAUSE,yp.DIRECT_PAUSE])
+        self.assertGreaterEqual(yp.DIRECT_PAUSE,20)
+
     def test_local_run_leaves_the_server_rest_note_alone(self):
         import tempfile, json as _json, youtube_partner as yp
         with tempfile.TemporaryDirectory() as tmp:
