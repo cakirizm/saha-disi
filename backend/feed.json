@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:57:21.274423+00:00",
+  "generated_at": "2026-11-16T08:06:39.751360+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -379,17 +379,6 @@
       "photoURL": null
     },
     {
-      "id": "ufuk-ozcan",
-      "name": "Ufuk Özcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "UÖ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "nihat-kahveci",
       "name": "Nihat Kahveci",
       "role": "Yorumcu",
@@ -399,6 +388,17 @@
         "Genel"
       ],
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "ufuk-ozcan",
+      "name": "Ufuk Özcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "UÖ",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
     },
     {
       "id": "ersin-ramoglu",
@@ -532,6 +532,18 @@
         "Genel"
       ],
       "photoURL": null
+    },
+    {
+      "id": "sansal-buyuka",
+      "name": "Şansal Büyüka",
+      "role": "Futbol yorumcusu",
+      "primarySource": "CNBC-e · Saha ve Ötesi",
+      "avatar": "ŞB",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "abdulkerim-durmaz",
@@ -2599,18 +2611,6 @@
         "Beşiktaş"
       ],
       "photoURL": null
-    },
-    {
-      "id": "sansal-buyuka",
-      "name": "Şansal Büyüka",
-      "role": "Futbol yorumcusu",
-      "primarySource": "CNBC-e · Saha ve Ötesi",
-      "avatar": "ŞB",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
       "id": "senol-gunes",
@@ -41264,7 +41264,97 @@
       "image_kind": null
     },
     {
-      "id": 21631,
+      "id": 22253,
+      "commentator": "nihat-kahveci",
+      "date": "2026-11-15T22:40:11+00:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ah o bir gol olsaydı var ya çok da güzel çıkmıştık geriden.",
+      "source": "Kontraspor",
+      "url": "https://www.youtube.com/watch?v=S4dZ417dqWk&t=15s",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/AUT_vs._TUR_2016-03-29_%28186%29.jpg/960px-AUT_vs._TUR_2016-03-29_%28186%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "nihat-kahveci",
+        "url": "https://www.youtube.com/watch?v=S4dZ417dqWk&t=15s",
+        "video_id": "S4dZ417dqWk",
+        "title": "Nihat Kahveci: Ah o bir gol olsaydı var ya!",
+        "caption": "auto",
+        "published_at": "2026-11-15T22:40:11+00:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 22254,
+      "commentator": "sansal-buyuka",
+      "date": "2026-11-13T11:00:20+00:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Bu kadar kötü takım mıyız?",
+      "source": "Sports Digitale",
+      "url": "https://www.youtube.com/watch?v=9Yaj4tnZ0E4&t=23s",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%C5%9Eansal_B%C3%BCy%C3%BCka.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "sansal-buyuka",
+        "url": "https://www.youtube.com/watch?v=9Yaj4tnZ0E4&t=23s",
+        "video_id": "9Yaj4tnZ0E4",
+        "title": "Şansal Büyüka: \"Bu kadar kötü takım mıyız, buna isyanımız ve itirazımız var açıkçası.\"",
+        "caption": "auto",
+        "published_at": "2026-11-13T11:00:20+00:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 22255,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-11T19:30:28+00:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İsmail Kartal'da olmayanların hepsi var.",
+      "source": "Sports Digitale",
+      "url": "https://www.youtube.com/watch?v=17LWF2xeDNM&t=1s",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "partner_video_title_speaker",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.youtube.com/watch?v=17LWF2xeDNM&t=1s",
+        "video_id": "17LWF2xeDNM",
+        "title": "Bülent Timurlenk: ‘’İsmail Kartal’da olmayan her şey var.’’",
+        "caption": "auto",
+        "published_at": "2026-11-11T19:30:28+00:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 22257,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -41294,7 +41384,7 @@
       "image_kind": null
     },
     {
-      "id": 21633,
+      "id": 22259,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -41324,7 +41414,7 @@
       "image_kind": null
     },
     {
-      "id": 21634,
+      "id": 22260,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
