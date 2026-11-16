@@ -8,15 +8,15 @@
 # from YouTube over this connection, which costs nothing.
 #
 # Usage (PowerShell, from anywhere):
-#   powershell -ExecutionPolicy Bypass -File C:\Users\SEDAT\Desktop\saha-disi\deploy\local\run_youtube.ps1
-#   ... -Budget 60    allow more YouTube requests this run (default 30)
+#   powershell -ExecutionPolicy Bypass -File $HOME\saha-disi\deploy\local\run_youtube.ps1
+#   ... -Budget 20    allow more YouTube requests this run (default 10)
 #   ... -Direct       skip TranscriptYT entirely, read YouTube directly
 #
-# Run it automatically every 3 hours (once, in PowerShell):
-#   schtasks /Create /SC HOURLY /MO 3 /TN "SahaDisi YouTube" /TR "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\Users\SEDAT\Desktop\saha-disi\deploy\local\run_youtube.ps1"
+# Run it automatically every 6 hours (once, in PowerShell):
+#   schtasks /Create /SC HOURLY /MO 6 /TN "SahaDisi YouTube" /TR "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File $HOME\saha-disi\deploy\local\run_youtube.ps1"
 # Remove it again with: schtasks /Delete /TN "SahaDisi YouTube" /F
 
-param([int]$Budget = 30, [switch]$Direct)
+param([int]$Budget = 10, [switch]$Direct)
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Set-Location $repo
