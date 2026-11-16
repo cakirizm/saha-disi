@@ -112,6 +112,14 @@ jobs:
           broken=[s for s in walk(p) if any(x in s for x in bad)]
           assert not broken, f'mojibake detected: {broken[:5]}'
           assert len(p['matches']) >= 18
+          from datetime import datetime, timedelta, timezone
+          def stamp(v):
+            try: d=datetime.fromisoformat(str(v).replace('Z','+00:00'))
+            except ValueError: return None
+            return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+          kick={m['id']:stamp(m.get('kickoff')) for m in p['matches']}
+          stray=[s['id'] for s in p['statements'] if s.get('match_id') and (s['match_id'] not in kick or (kick[s['match_id']] and stamp(s.get('date')) and not kick[s['match_id']]-timedelta(days=1)<=stamp(s['date'])<=kick[s['match_id']]+timedelta(days=4)))]
+          assert not stray, f'statements linked outside their match window: {stray[:10]}'
           assert all(int(m.get('week',0)) > 0 for m in p['matches'])
           current=[m for m in p['matches'] if int(m.get('week',0))==4 and m.get('competition','super_lig')=='super_lig']
           assert len(current)==9, f'week 4 fixture count {len(current)} != 9'

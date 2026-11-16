@@ -369,6 +369,21 @@ def link_matches(statements,matches):
         if len(best)==1:s['match_id']=best.pop();linked+=1
     return linked
 
+def drop_stale_links(statements,matches):
+    """A link saved by an earlier run stays only while it still holds: the match
+    exists and the sentence was printed between the day before kickoff and four
+    days after. A corrected or postponed kickoff otherwise left old links behind."""
+    kick={m.get('id'):parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff')) for m in matches or []}
+    dropped=0
+    for s in statements:
+        mid=s.get('match_id')
+        if not mid:continue
+        k=kick.get(mid);stamp=parse_stamp(s.get('date'))
+        if mid not in kick or (k and stamp and not (k-timedelta(days=1)<=stamp<=k+timedelta(days=4))):
+            s['match_id']=None;dropped+=1
+    return dropped
+
+stale=drop_stale_links(seed['statements'],seed.get('matches'))
 linked=link_matches(seed['statements'],seed.get('matches'))
 # Keyword rules cannot tell a prediction from a sentence that happens to use the
 # word; a future-tense sentence printed before that match's kickoff can be trusted.
@@ -415,4 +430,4 @@ seed['publications']=[x for x in json.loads(publication_path.read_text(encoding=
 seed['generated_at']=datetime.now(timezone.utc).isoformat()
 (B/'feed.json').write_text(json.dumps(seed,ensure_ascii=False,indent=2),encoding='utf-8')
 (B/'review_queue.json').write_text(json.dumps(review,ensure_ascii=False,indent=2),encoding='utf-8')
-print('match links',linked,'incidents',len(seed['incidents']));print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
+print('stale links dropped',stale,'match links',linked,'incidents',len(seed['incidents']));print('feed',len(seed.get('commentators',[])),'commentators',len(seed.get('statements',[])),'statements',len(seed.get('matches',[])),'matches','review',len(review))
