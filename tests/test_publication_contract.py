@@ -1,3 +1,4 @@
+import os
 import plistlib
 import sys
 import unittest
@@ -167,6 +168,32 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
             with self.assertRaises(yp.Blocked) as ctx:
                 yp.transcript_api('transcript',url='x')
         self.assertIsNotNone(ctx.exception.rest)
+
+    def test_refused_key_falls_back_to_direct_youtube(self):
+        import youtube_partner as yp
+        calls=[]
+        def captions_once_refused(api,vid):
+            calls.append(yp.MODE['direct'])
+            if not yp.MODE['direct']: raise yp.ServiceRefused('TranscriptYT kredisi bitti')
+            return [(0.0,'ok')],'auto'
+        with patch.dict(yp.MODE,{'direct':False,'fallback':True}):
+            self.assertEqual(yp.with_fallback(captions_once_refused,None,'x'),([(0.0,'ok')],'auto'))
+            self.assertEqual(calls,[False,True])
+            with patch.dict(os.environ,{'TRANSCRIPT_API_KEY':'k'}):
+                self.assertFalse(yp.use_service())
+        # Without the flag (the server) a refused key still stops the run.
+        with patch.dict(yp.MODE,{'direct':False,'fallback':False}):
+            with self.assertRaises(yp.ServiceRefused):
+                yp.with_fallback(lambda: (_ for _ in ()).throw(yp.ServiceRefused('x')))
+
+    def test_local_run_leaves_the_server_rest_note_alone(self):
+        import tempfile, json as _json, youtube_partner as yp
+        with tempfile.TemporaryDirectory() as tmp:
+            out=Path(tmp)/'y.json'
+            out.write_text(_json.dumps({'seen_videos':[],'candidates':[],'blocked_until':'2099-01-01T00:00:00+00:00'}),encoding='utf-8')
+            with patch.object(yp,'OUT',out),patch.object(yp,'CONFIG',[{'id':'k','name':'K','url':'u','partner':True}]),                 patch.object(yp,'channel_videos',side_effect=yp.Blocked('ip blocked')),patch('youtube_transcript_api.YouTubeTranscriptApi'):
+                yp.run(ignore_rest=True)
+            self.assertEqual(_json.loads(out.read_text(encoding='utf-8'))['blocked_until'],'2099-01-01T00:00:00+00:00')
 
     def test_quote_missing_from_captions_attributes_nothing(self):
         self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
