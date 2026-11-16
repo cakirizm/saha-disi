@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:56:31.764643+00:00",
+  "generated_at": "2026-11-16T07:57:21.274423+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -35683,34 +35683,6 @@
       "image_kind": null
     },
     {
-      "id": 10605,
-      "commentator": "deniz-coban",
-      "date": "2026-11-06T06:59:00+03:00",
-      "team": "Trabzonspor",
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Estonyalı hakem Kristo Tohver, 2010’dan bu yana uluslararası düzeyde maç yöneten tecrübeli bir isim.",
-      "source": "Fanatik",
-      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penaltiyi-atladi-2643559",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "deniz-coban",
-        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penaltiyi-atladi-2643559",
-        "published_at": "2026-11-06T06:59:00+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Trabzonspor"
-    },
-    {
       "id": 10610,
       "commentator": "deniz-coban",
       "date": "2026-11-06T06:59:00+03:00",
@@ -41265,7 +41237,34 @@
       "image_kind": null
     },
     {
-      "id": 21629,
+      "id": 21153,
+      "commentator": "deniz-coban",
+      "date": "2026-11-06T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Son dakikada ise Trabzonspor’un Salah’la penaltı beklentisi yersizdi; pozisyonda penaltı yoktu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penaltiyi-atladi-2643559",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050357",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penaltiyi-atladi-2643559",
+        "published_at": "2026-11-06T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 21631,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -41295,7 +41294,7 @@
       "image_kind": null
     },
     {
-      "id": 21631,
+      "id": 21633,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -41325,7 +41324,7 @@
       "image_kind": null
     },
     {
-      "id": 21632,
+      "id": 21634,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -51211,6 +51210,24 @@
           "summary": "Nitekim 53. dakikada Trabzonspor'un net penaltısını hem maçı yöneten hakem hem de VAR vermedi.",
           "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/06/suphem-yok",
           "expert": false
+        }
+      ]
+    },
+    {
+      "id": "uecl-2027-2050357-x-penalty-21153",
+      "match_id": "uecl-2027-2050357",
+      "minute": null,
+      "kind": "penalty",
+      "kind_label": "Penaltı pozisyonu",
+      "opinions": [
+        {
+          "statement_id": 21153,
+          "commentator": "deniz-coban",
+          "verdict": "DEĞİL",
+          "referee_call": null,
+          "summary": "Son dakikada ise Trabzonspor’un Salah’la penaltı beklentisi yersizdi; pozisyonda penaltı yoktu.",
+          "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/penaltiyi-atladi-2643559",
+          "expert": true
         }
       ]
     },
