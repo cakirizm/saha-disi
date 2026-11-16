@@ -204,6 +204,16 @@ class PartnerVideoSpeakerTests(unittest.TestCase):
                 yp.run(ignore_rest=True)
             self.assertEqual(_json.loads(out.read_text(encoding='utf-8'))['blocked_until'],'2099-01-01T00:00:00+00:00')
 
+    def test_live_tab_is_read_only_when_others_are_empty(self):
+        import youtube_partner as yp
+        live={'contents':[{'videoRenderer':{'videoId':'ccccccccccc','title':{'simpleText':'Canlı yayın | Emre Özcan'}}}]}
+        asked=[]
+        def fake_page(url):
+            asked.append(url.rsplit('/',1)[1]); return 'x'
+        with patch.object(yp,'page',side_effect=fake_page),patch.object(yp,'initial_data',side_effect=lambda h: live if asked[-1]=='streams' else {}):
+            self.assertEqual(yp.page_videos('https://www.youtube.com/@k'),[('ccccccccccc','Canlı yayın | Emre Özcan')])
+        self.assertEqual(asked,['shorts','videos','streams'])
+
     def test_quote_missing_from_captions_attributes_nothing(self):
         self.assertIsNone(attributed_turn([(0.0,'Bugün hava çok güzel.')],"31 Ekim'de Fenerbahçe, havlu attı!"))
 
