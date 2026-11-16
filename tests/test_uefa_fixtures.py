@@ -48,6 +48,19 @@ class UefaFixtureTests(unittest.TestCase):
         self.assertEqual(rows,[])
         self.assertFalse(report['ucl']['ok'])
 
+    def test_empty_id_falls_through_to_next_candidate(self):
+        unl=[match(6,team('Türkiye','TUR'),team('Wales','WAL'),comp='UEFA Nations League')]
+        def fake(params):
+            if params['offset']:return []
+            return unl if params['competitionId']==2014 else []
+        rows,report=uf.collect(2027,fetch=fake)
+        self.assertEqual(report['unl']['competition_id'],2014)
+        self.assertEqual([(r['home'],r['away']) for r in rows],[('Türkiye','Galler')])
+
+    def test_league_phase_group_label_is_dropped(self):
+        raw=[match(7,team('Galatasaray','TUR'),team('Ajax','NED'),group={'metaData':{'groupName':'League'}})]
+        self.assertEqual(uf.parse(raw,'ucl','UEFA Şampiyonlar Ligi')[0]['round'],'Lig Aşaması · 5. Maç')
+
     def test_season_year_rolls_over_in_july(self):
         from datetime import datetime,timezone
         self.assertEqual(uf.season_year(datetime(2026,11,16,tzinfo=timezone.utc)),2027)

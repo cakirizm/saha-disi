@@ -325,7 +325,25 @@ def opponent_surfaces(name):
         if first:out.append(first)
     return out
 
+def club_schedule(matches):
+    """Every kickoff of every side, league and Europe together."""
+    out=defaultdict(list)
+    for m in matches or []:
+        k=parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff'))
+        if k:
+            for side in (m.get('home'),m.get('away')):
+                if side:out[canonical(side)].append(k)
+    return out
+
+def superseded(clubs,kickoff,stamp,schedule):
+    """True when one of these clubs played (or plays) another match between this
+    kickoff and the moment the column was printed. "Dün gece" four days after a
+    European night is about the league match in between, not the European one."""
+    lo,hi=(kickoff,stamp) if stamp>=kickoff else (stamp,kickoff)
+    return any(lo<k<hi and k!=kickoff for c in clubs for k in schedule.get(c,[]))
+
 def link_matches(statements,matches):
+    schedule=club_schedule(matches)
     fixtures=[]
     for m in matches or []:
         kickoff=parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff'))
@@ -352,7 +370,8 @@ def link_matches(statements,matches):
         # A column runs the morning after kickoff; a preview may run the day before.
         best=[(mid,clubs) for mid,clubs,kickoff,opp in fixtures
               if clubs<=named and (len(named)>=2 if opp is None else bool(mentioned_entities(text,opp)))
-              and kickoff-timedelta(days=1)<=stamp<=kickoff+timedelta(days=4)]
+              and kickoff-timedelta(days=1)<=stamp<=kickoff+timedelta(days=4)
+              and not superseded(clubs,kickoff,stamp,schedule)]
         if len(best)!=1:continue
         for s in rows:
             if not s.get('match_id'):s['match_id']=best[0][0];linked+=1
@@ -365,7 +384,8 @@ def link_matches(statements,matches):
         if s.get('match_id') or s.get('topic')!='Hakem / VAR':continue
         stamp=parse_stamp(s.get('date'));named=set(teams_in(s.get('summary','')))
         if not named or stamp is None:continue
-        best={mid for mid,clubs,kickoff,_ in fixtures if clubs&named and kickoff<=stamp<=kickoff+timedelta(days=2)}
+        best={mid for mid,clubs,kickoff,_ in fixtures if clubs&named and kickoff<=stamp<=kickoff+timedelta(days=2)
+              and not superseded(clubs&named,kickoff,stamp,schedule)}
         if len(best)==1:s['match_id']=best.pop();linked+=1
     return linked
 
@@ -374,12 +394,14 @@ def drop_stale_links(statements,matches):
     exists and the sentence was printed between the day before kickoff and four
     days after. A corrected or postponed kickoff otherwise left old links behind."""
     kick={m.get('id'):parse_stamp(normalize_kickoff(m.get('kickoff')) or m.get('kickoff')) for m in matches or []}
+    sides={m.get('id'):{canonical(m.get('home')),canonical(m.get('away'))} for m in matches or []}
+    schedule=club_schedule(matches)
     dropped=0
     for s in statements:
         mid=s.get('match_id')
         if not mid:continue
         k=kick.get(mid);stamp=parse_stamp(s.get('date'))
-        if mid not in kick or (k and stamp and not (k-timedelta(days=1)<=stamp<=k+timedelta(days=4))):
+        if mid not in kick or (k and stamp and (not (k-timedelta(days=1)<=stamp<=k+timedelta(days=4)) or superseded(sides[mid],k,stamp,schedule))):
             s['match_id']=None;dropped+=1
     return dropped
 
