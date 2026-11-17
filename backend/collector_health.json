@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T22:10:54.698755+00:00",
+  "generated_at": "2026-11-17T04:32:47.064941+00:00",
   "tracked_commentators": 236,
   "totals": {
     "sources": 68,
     "successful": 64,
-    "candidates": 1501
+    "candidates": 1491
   },
   "sources": [
     {
@@ -130,7 +130,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "A Spor",
-      "candidates": 48,
+      "candidates": 46,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -386,7 +386,7 @@
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 48,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"

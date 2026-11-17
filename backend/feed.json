@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:11:31.051935+00:00",
+  "generated_at": "2026-11-17T04:33:16.991777+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -79,17 +79,6 @@
       "photoURL": null
     },
     {
-      "id": "orhan-yildirim",
-      "name": "Orhan Yıldırım",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "OY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "hakki-yalcin",
       "name": "Hakkı Yalçın",
       "role": "Futbol yorumcusu / muhabir",
@@ -97,6 +86,17 @@
       "avatar": "HY",
       "focusTeams": [
         "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "orhan-yildirim",
+      "name": "Orhan Yıldırım",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "OY",
+      "focusTeams": [
+        "Beşiktaş"
       ],
       "photoURL": null
     },
@@ -423,22 +423,22 @@
       "photoURL": null
     },
     {
-      "id": "hatipoglu",
-      "name": "Nihat Hatipoğlu",
+      "id": "erkan-tan",
+      "name": "Erkan Tan",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "NH",
+      "avatar": "ET",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "erkan-tan",
-      "name": "Erkan Tan",
+      "id": "hatipoglu",
+      "name": "Nihat Hatipoğlu",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ET",
+      "avatar": "NH",
       "focusTeams": [
         "Genel"
       ],
@@ -41354,7 +41354,88 @@
       "image_kind": null
     },
     {
-      "id": 23356,
+      "id": 22571,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-17T06:40:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Böyle bir grupta şampiyonayı sıfır puanla tamamlamak ve hala son bir umutla Sırbistan'ın Yunanistan'dan 4 gol yemesini hayal edip Play-off umuduna tutunmak futboldaki gerçek yerimizin aynasıdır.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/17/ne-yazik-ki-oyle",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/17/ne-yazik-ki-oyle",
+        "published_at": "2026-11-17T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 22574,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-17T06:40:44+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "negative",
+      "strength": 6,
+      "summary": "Kötü insan üretimi körüklenirken, \"her yerde adamın olmalı\" gerçeği hayatı şekillendirirken, çocuklara gösterin özeni futbola değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/17/ne-yazik-ki-oyle",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/17/ne-yazik-ki-oyle",
+        "published_at": "2026-11-17T06:40:44+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 23236,
+      "commentator": "erkan-tan",
+      "date": "2026-11-17T06:56:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Recep Tayyip Erdoğan ve Devlet Bahçeli birlikteliğinin neyi amaçladığını okuyamıyorlar.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/erkan-tan/2026/11/17/ak-partiye-gecenler",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "erkan-tan",
+        "url": "https://www.takvim.com.tr/yazarlar/erkan-tan/2026/11/17/ak-partiye-gecenler",
+        "published_at": "2026-11-17T06:56:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 23351,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -41384,7 +41465,7 @@
       "image_kind": null
     },
     {
-      "id": 23358,
+      "id": 23353,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -41414,7 +41495,7 @@
       "image_kind": null
     },
     {
-      "id": 23359,
+      "id": 23354,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
