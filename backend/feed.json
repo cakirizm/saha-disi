@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:28:21.095677+00:00",
+  "generated_at": "2026-11-18T14:06:52.098205+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -44311,7 +44311,62 @@
       "inherited_team": "Galatasaray"
     },
     {
-      "id": 25796,
+      "id": 26423,
+      "commentator": "gokhan-german",
+      "date": "2026-11-18T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Sarı-Lacivertliler’de farklı galibiyetin yanı sıra takımın yenilerinin bu yılki en iyi performanslarına çıkmasıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/atasehirde-fener-sov-2644894",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/atasehirde-fener-sov-2644894",
+        "published_at": "2026-11-18T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 26424,
+      "commentator": "gokhan-german",
+      "date": "2026-11-18T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Larkin, sadece 15 dakikada 5/6 üçlük isabet oranı ile 25 sayı üretirken, ilk beş başlayan Juzang da 5/7 üçlük ise 15 sayı atıp, 11 ribaunt aldı, 5 asist ve 2 blokla neredeyse kusursuz oynadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/atasehirde-fener-sov-2644894",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/atasehirde-fener-sov-2644894",
+        "published_at": "2026-11-18T06:59:00+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Fenerbahçe"
+    },
+    {
+      "id": 26895,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -44341,7 +44396,7 @@
       "image_kind": null
     },
     {
-      "id": 25798,
+      "id": 26897,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -44371,7 +44426,7 @@
       "image_kind": null
     },
     {
-      "id": 25799,
+      "id": 26898,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
