@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:00:40.881653+00:00",
+  "generated_at": "2026-11-19T03:34:33.329506+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
@@ -628,7 +628,7 @@
       "source": "CNBC-e · Saha ve Ötesi",
       "candidates": 0,
       "ok": false,
-      "error": "HTTP Error 404: Not Found",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "kind": "web"
     },
     {
