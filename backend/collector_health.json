@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T03:34:33.329506+00:00",
+  "generated_at": "2026-11-19T13:18:30.658918+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1778
+    "candidates": 1764
   },
   "sources": [
     {
@@ -290,7 +290,7 @@
     {
       "commentator": "gokhan-german",
       "source": "Fanatik",
-      "candidates": 36,
+      "candidates": 37,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -362,7 +362,7 @@
     {
       "commentator": "songul-soysal",
       "source": "Fanatik",
-      "candidates": 40,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -530,7 +530,7 @@
     {
       "commentator": "lutfi-albayrak",
       "source": "Takvim",
-      "candidates": 2,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -562,7 +562,7 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 21,
+      "candidates": 15,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -628,7 +628,7 @@
       "source": "CNBC-e · Saha ve Ötesi",
       "candidates": 0,
       "ok": false,
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "error": "HTTP Error 404: Not Found",
       "kind": "web"
     },
     {
