@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:12:28.187828+00:00",
+  "generated_at": "2026-11-20T03:24:09.875198+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -44421,7 +44421,117 @@
       "inherited_team": "Beşiktaş"
     },
     {
-      "id": 28492,
+      "id": 27268,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-20T02:50:16+03:00",
+      "team": "Amed SK",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Özellikle Amed maçının hemen ardından zeminin kalkmasını engellemek ve direnci yukarı çekmek için çok çabuk hibritler çakıldı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
+        "published_at": "2026-11-20T02:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 27269,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-20T02:50:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Bu arada dünyanın bir çok ülkesine hizmet veren, UEFA'dan tescilli S.İ.S firması Aston villa maçına zemini yetiştirmek için kolları sıvadı ve 24 saat aralıksız zemini tamir etmek için uğraş verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
+      "image_url": null,
+      "confidence": 100,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
+        "published_at": "2026-11-20T02:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 27298,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-20T02:46:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Arda'nın, Ancelotti ile başlayan transfer serüveninde Xabi Alonso'dan Mourinho'ya kadar her teknik adama kendini kabul ettirmesi kolay iş değil.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
+        "published_at": "2026-11-20T02:46:26+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 27300,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-20T02:46:26+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Transfer",
+      "type": "transfer",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Real Madrid doğal olarak elindeki genç yeteneği, ortaya koyduğu emeğin karşılığını yükseltebilmek için ve elbette kafasını karıştırabilecek transfer tekliflerine set çekmek için 2032'ye kadar uzattı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
+        "published_at": "2026-11-20T02:46:26+03:00"
+      },
+      "image_kind": null,
+      "transfer_status": "reported"
+    },
+    {
+      "id": 28498,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -44451,7 +44561,7 @@
       "image_kind": null
     },
     {
-      "id": 28494,
+      "id": 28500,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -44481,7 +44591,7 @@
       "image_kind": null
     },
     {
-      "id": 28495,
+      "id": 28501,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
