@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:24:09.875198+00:00",
+  "generated_at": "2026-11-20T13:00:04.718376+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -35,6 +35,17 @@
       "photoURL": null
     },
     {
+      "id": "hakki-yalcin",
+      "name": "Hakkı Yalçın",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "HY",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "cem-dizdar",
       "name": "Cem Dizdar",
       "role": "Futbol yorumcusu",
@@ -62,17 +73,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "TK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "hakki-yalcin",
-      "name": "Hakkı Yalçın",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -381,6 +381,17 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
+      "id": "ersin-ramoglu",
+      "name": "Ersin Ramoğlu",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "MCK",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "kartal-yigit",
       "name": "Kartal Yiğit",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -423,17 +434,6 @@
         "Genel"
       ],
       "photoURL": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo"
-    },
-    {
-      "id": "ersin-ramoglu",
-      "name": "Ersin Ramoğlu",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "MCK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "nihat-kahveci",
@@ -44443,7 +44443,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
-        "published_at": "2026-11-20T02:50:16+03:00"
+        "published_at": "2026-11-20T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -44470,7 +44470,7 @@
         "method": "columnist_byline",
         "speaker_id": "levent-tuzemen",
         "url": "https://www.aspor.com.tr/yazarlar/levent-tuzemen/2026/11/20/900-kilo-cim-tohumu-ekildi-150-ton-kumlama-yapildi",
-        "published_at": "2026-11-20T02:50:16+03:00"
+        "published_at": "2026-11-20T06:40:48+03:00"
       },
       "image_kind": null
     },
@@ -44497,7 +44497,7 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
-        "published_at": "2026-11-20T02:46:26+03:00"
+        "published_at": "2026-11-20T06:40:48+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
@@ -44525,13 +44525,175 @@
         "method": "columnist_byline",
         "speaker_id": "bulent-timurlenk",
         "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/20/bu-tren-senin-semtine-sadece-bir-kere-ugrar",
-        "published_at": "2026-11-20T02:46:26+03:00"
+        "published_at": "2026-11-20T06:40:48+03:00"
       },
       "image_kind": null,
       "transfer_status": "reported"
     },
     {
-      "id": 28498,
+      "id": 27591,
+      "commentator": "ersin-ramoglu",
+      "date": "2026-11-20T06:50:24+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Milli aranın ardından sahneye çıkacak olan Trabzonspor'u, 29 gün içinde 8 kritik maçlık nefes kesen bir maraton bekliyor!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/20/bordo-mavi-inatla-dogdu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ersin-ramoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/20/bordo-mavi-inatla-dogdu",
+        "published_at": "2026-11-20T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 27597,
+      "commentator": "ersin-ramoglu",
+      "date": "2026-11-20T06:50:24+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Trabzonspor'u şampiyon yapan yürekleri milyon dolarlık olan futbolcular şunlardı; Cemil Usta, Şenol Güneş, Ali Kemal Denizci, Necmi Perekli, Kadir Özcan, Hüseyin Tok, Turgay Semercioğlu...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/20/bordo-mavi-inatla-dogdu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ersin-ramoglu",
+        "url": "https://www.fotomac.com.tr/yazarlar/ersin-ramoglu/2026/11/20/bordo-mavi-inatla-dogdu",
+        "published_at": "2026-11-20T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 27647,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-20T06:50:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Her çocuk futbol sevdasının kusurlarını taşır ama hastalıklı insanları el üstünde taşıyan toplumlar çocukları kurban vermeye mahkumdur.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/hakki_yalcin/2026/11/20/ifade-gucu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.fotomac.com.tr/yazarlar/hakki_yalcin/2026/11/20/ifade-gucu",
+        "published_at": "2026-11-20T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 27653,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-20T06:50:24+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beşiktaş formasıyla Athletic Bilbao galibiyetinde Boludaki Kartalkaya yangınında ölenler anısına saygı göstermek ve sevincin önüne geçmek adına öncülük ettiği için bu ödülün sahibi oldu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/hakki_yalcin/2026/11/20/ifade-gucu",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.fotomac.com.tr/yazarlar/hakki_yalcin/2026/11/20/ifade-gucu",
+        "published_at": "2026-11-20T06:50:24+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 28491,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-20T06:57:28+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kimileri başka çocukların hakkını yiyerek çocuklarına şerefsiz bir isim bırakmayı amaç edinmiş, kimileri sadece para saymayı ve yere düşenin üzerine basmayı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/ozur-borcu-6557518",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/ozur-borcu-6557518",
+        "published_at": "2026-11-20T06:57:28+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 28492,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-20T06:57:28+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Yoksulların hakkını araması, astımlı birinin mızıka çalması, zenginlerin hakkını araması bando takımı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/ozur-borcu-6557518",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/ozur-borcu-6557518",
+        "published_at": "2026-11-20T06:57:28+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 28572,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -44561,7 +44723,7 @@
       "image_kind": null
     },
     {
-      "id": 28500,
+      "id": 28574,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -44591,7 +44753,7 @@
       "image_kind": null
     },
     {
-      "id": 28501,
+      "id": 28575,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",

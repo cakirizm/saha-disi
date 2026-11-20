@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T03:23:42.423981+00:00",
+  "generated_at": "2026-11-20T12:59:34.831051+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1766
+    "candidates": 1765
   },
   "sources": [
     {
@@ -130,7 +130,7 @@
     {
       "commentator": "ersin-ramoglu",
       "source": "A Spor",
-      "candidates": 16,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -394,7 +394,7 @@
     {
       "commentator": "ersin-ramoglu",
       "source": "Fotomaç",
-      "candidates": 16,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -490,7 +490,7 @@
     {
       "commentator": "hatipoglu",
       "source": "Sabah Spor",
-      "candidates": 5,
+      "candidates": 4,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -522,7 +522,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "Takvim",
-      "candidates": 3,
+      "candidates": 5,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -538,7 +538,7 @@
     {
       "commentator": "onur-ozkan",
       "source": "Takvim",
-      "candidates": 40,
+      "candidates": 32,
       "ok": true,
       "error": null,
       "kind": "web"
