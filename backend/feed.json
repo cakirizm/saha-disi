@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:01:58.548911+00:00",
+  "generated_at": "2026-11-21T23:23:51.058158+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -301,17 +301,6 @@
       "photoURL": null
     },
     {
-      "id": "arda-erol",
-      "name": "Arda Erol",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "AE",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "mustafa-culcu",
       "name": "Mustafa Çulcu",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -322,6 +311,17 @@
         "Genel"
       ],
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
+      "id": "arda-erol",
+      "name": "Arda Erol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "AE",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
     },
     {
       "id": "yunus-emre-sel",
@@ -44855,7 +44855,63 @@
       "inherited_team": "Türkiye"
     },
     {
-      "id": 31027,
+      "id": 30871,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-21T22:32:32+03:00",
+      "team": null,
+      "players": [
+        "Semedo"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "67'de Semedo sağ eli ile topla oynuyor, net penaltı hakemin önü açık görüyor ama veremedi VAR müdahalesi yedi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+        "published_at": "2026-11-21T22:32:32+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 30876,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-21T22:32:32+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "4'te Deniz-Drapinski mücadelesinde faulü Deniz yaptı ama hakem Galatasaray lehine faul verdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-galatasaray-samsunspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+        "published_at": "2026-11-21T22:32:32+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 31707,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -44885,7 +44941,7 @@
       "image_kind": null
     },
     {
-      "id": 31029,
+      "id": 31709,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -44915,7 +44971,7 @@
       "image_kind": null
     },
     {
-      "id": 31030,
+      "id": 31710,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -50885,7 +50941,7 @@
     {
       "id": "semedo",
       "name": "Semedo",
-      "comment_count": 7,
+      "comment_count": 8,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nelson_Semedo_Croatia_v_Portugal_2_July_2026-227.jpg/500px-Nelson_Semedo_Croatia_v_Portugal_2_July_2026-227.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
