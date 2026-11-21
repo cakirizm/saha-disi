@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:13:30.001878+00:00",
+  "generated_at": "2026-11-21T18:01:58.548911+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -44635,37 +44635,10 @@
       "image_kind": null
     },
     {
-      "id": 29491,
-      "commentator": "zeki-uzundurukan",
-      "date": "2026-11-13T06:50:16+03:00",
-      "team": "Türkiye",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Milli Takımımız, Sergen Yalçın yönetiminde pırıl pırıl bir beyaz sayfa açmaya ve bu sayfaya bir zafer yazmaya hazırdı.",
-      "source": "Fotomaç",
-      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/13/sabir-ve-destek",
-      "image_url": null,
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "zeki-uzundurukan",
-        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/13/sabir-ve-destek",
-        "published_at": "2026-11-13T06:50:16+03:00"
-      },
-      "image_kind": null
-    },
-    {
       "id": 29494,
       "commentator": "zeki-uzundurukan",
       "date": "2026-11-13T06:50:16+03:00",
-      "team": null,
+      "team": "Türkiye",
       "players": [
         "Oğuz Aydın"
       ],
@@ -44680,7 +44653,7 @@
       "confidence": 95,
       "status": "verified_direct_quote",
       "verbatim": true,
-      "match_id": null,
+      "match_id": "unl-2027-2047873",
       "evidence": {
         "version": 2,
         "method": "columnist_byline",
@@ -44688,7 +44661,8 @@
         "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/13/sabir-ve-destek",
         "published_at": "2026-11-13T06:50:16+03:00"
       },
-      "image_kind": null
+      "image_kind": null,
+      "inherited_team": "Türkiye"
     },
     {
       "id": 29558,
@@ -44853,7 +44827,35 @@
       "image_kind": null
     },
     {
-      "id": 30101,
+      "id": 30423,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-13T06:50:16+03:00",
+      "team": "Türkiye",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Arda Güler'in muhteşem frikik golüyle öne geçerken, o an gözlerimizin pası silinmiş; yer gök coşkumuzdan inlemişti.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/13/sabir-ve-destek",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "unl-2027-2047873",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/13/sabir-ve-destek",
+        "published_at": "2026-11-13T06:50:16+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Türkiye"
+    },
+    {
+      "id": 31027,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -44883,7 +44885,7 @@
       "image_kind": null
     },
     {
-      "id": 30103,
+      "id": 31029,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -44913,7 +44915,7 @@
       "image_kind": null
     },
     {
-      "id": 30104,
+      "id": 31030,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -47222,12 +47224,12 @@
       "away": "Gaziantep FK",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
       "kickoff": "2026-11-21T13:30:00+03:00",
-      "status": "awaiting_result",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -47238,12 +47240,12 @@
       "away": "Rizespor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 2,
       "home_logo_url": "https://pbs.twimg.com/media/B8x-WXuCIAALv64.jpg",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
       "kickoff": "2026-11-21T16:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -47254,12 +47256,12 @@
       "away": "Samsunspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "kickoff": "2026-11-21T16:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -47270,12 +47272,12 @@
       "away": "Fenerbahçe",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 2,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "kickoff": "2026-11-21T19:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
