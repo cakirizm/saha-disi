@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:24:22.780679+00:00",
+  "generated_at": "2026-11-22T21:51:05.105109+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -268,6 +268,18 @@
       "photoURL": null
     },
     {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "burak-ozdemir",
       "name": "Burak Özdemir",
       "role": "Futbol yorumcusu / muhabir",
@@ -299,18 +311,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "mustafa-culcu",
-      "name": "Mustafa Çulcu",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "MÇ",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "arda-erol",
@@ -45993,7 +45993,174 @@
       "image_kind": "verified_portrait"
     },
     {
-      "id": 33432,
+      "id": 33574,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-22T22:35:01+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Trabzonspor için golü erken bulunca nasılsa kazandık havasında fazla sıkmadan efor sarf etmeden oyunun kontrolünü elinde bulundurarak tek taraflı bir maç oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/23/kumasi-cok-iyi",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/23/kumasi-cok-iyi",
+        "published_at": "2026-11-22T22:35:01+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 33581,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-22T22:35:01+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Gürcan Hasova sahaya yakışan atletik, kumaşı iyi bir hakem.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/23/kumasi-cok-iyi",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/23/kumasi-cok-iyi",
+        "published_at": "2026-11-22T22:35:01+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 33797,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-22T21:58:42+03:00",
+      "team": null,
+      "players": [
+        "Onuachu",
+        "Muçi"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İlk yarıda Saviolo, Onuachu, Muçi, Mustafa'nın şutlarında kalesinde devleşen bir Emre Bilgin izledik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/23/kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/23/kazanmak-onemliydi",
+        "published_at": "2026-11-22T21:58:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 33801,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-22T21:58:42+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir de şu vardı tabi ki… Onuachu'ya gol attırıp, Nijeryalı forvetin üzerindeki baskıyı atmasını sağlamak.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/23/kazanmak-onemliydi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/23/kazanmak-onemliydi",
+        "published_at": "2026-11-22T21:58:42+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 33975,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-22T17:30:38+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Çünkü Abdülkerim kaleci ile Torreria arasındaki aktif alanda ofsayt pozisyonundaydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/3-puan-ugurcanin-2645395",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-galatasaray-samsunspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/3-puan-ugurcanin-2645395",
+        "published_at": "2026-11-22T17:30:38+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 33976,
+      "commentator": "hamit-turhan",
+      "date": "2026-11-22T17:30:38+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Abdülkerim'in kalecinin görüş açısını kapatması ve eğilerek topun kaleye gitmesini sağlaması nedeniyle pozisyon ofsayt olarak değerlendirilmeliydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/3-puan-ugurcanin-2645395",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-galatasaray-samsunspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hamit-turhan",
+        "url": "https://www.fanatik.com.tr/yazarlar/hamit-turhan/3-puan-ugurcanin-2645395",
+        "published_at": "2026-11-22T17:30:38+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34424,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -46023,7 +46190,7 @@
       "image_kind": null
     },
     {
-      "id": 33434,
+      "id": 34426,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -46053,7 +46220,7 @@
       "image_kind": null
     },
     {
-      "id": 33435,
+      "id": 34427,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -48474,12 +48641,12 @@
       "away": "Eyüpspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 1,
+      "away_score": 0,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
       "kickoff": "2026-11-22T19:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -51981,7 +52148,7 @@
     {
       "id": "muci",
       "name": "Muçi",
-      "comment_count": 26,
+      "comment_count": 27,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg/500px-Ernest_Mu%C3%A7i_with_Be%C5%9Fikta%C5%9F.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -51993,7 +52160,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 28,
+      "comment_count": 30,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
