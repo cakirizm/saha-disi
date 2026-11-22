@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T23:23:24.532357+00:00",
+  "generated_at": "2026-11-22T06:56:58.265984+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1786
+    "candidates": 1798
   },
   "sources": [
     {
@@ -26,7 +26,7 @@
     {
       "commentator": "levent-tuzemen",
       "source": "A Spor",
-      "candidates": 41,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -50,7 +50,7 @@
     {
       "commentator": "orhan-yildirim",
       "source": "Fanatik",
-      "candidates": 45,
+      "candidates": 46,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -274,7 +274,7 @@
     {
       "commentator": "deniz-coban",
       "source": "Fanatik",
-      "candidates": 35,
+      "candidates": 38,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -498,7 +498,7 @@
     {
       "commentator": "abdullah-ercan",
       "source": "Takvim",
-      "candidates": 45,
+      "candidates": 44,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -506,7 +506,7 @@
     {
       "commentator": "ekrem-kiziltas",
       "source": "Takvim",
-      "candidates": 0,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
