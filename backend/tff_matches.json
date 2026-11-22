@@ -1300,6 +1300,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-12-erzurumspor-goztepe",
+    "league": "Trendyol Süper Lig",
+    "week": 12,
+    "home": "Erzurumspor",
+    "away": "Göztepe",
+    "kickoff": "",
+    "home_score": 0,
+    "away_score": 1,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-12-galatasaray-samsunspor",
     "league": "Trendyol Süper Lig",
     "week": 12,
@@ -1326,6 +1339,19 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
+    "id": "sl-2026-12-kasmpasa-alanyaspor",
+    "league": "Trendyol Süper Lig",
+    "week": 12,
+    "home": "Kasımpaşa",
+    "away": "Alanyaspor",
+    "kickoff": "",
+    "home_score": 2,
+    "away_score": 1,
+    "image_url": null,
+    "source": "TFF",
+    "source_url": "https://www.tff.org/default.aspx?pageID=198"
+  },
+  {
     "id": "sl-2026-12-kocaelispor-fenerbahce",
     "league": "Trendyol Süper Lig",
     "week": 12,
@@ -1339,40 +1365,14 @@
     "source_url": "https://www.tff.org/default.aspx?pageID=198"
   },
   {
-    "id": "sl-2026-12-erzurumspor-goztepe",
-    "league": "Trendyol Süper Lig",
-    "week": 12,
-    "home": "Erzurumspor",
-    "away": "Göztepe",
-    "kickoff": "22.11.2026 13:30",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
-    "id": "sl-2026-12-kasmpasa-alanyaspor",
-    "league": "Trendyol Süper Lig",
-    "week": 12,
-    "home": "Kasımpaşa",
-    "away": "Alanyaspor",
-    "kickoff": "22.11.2026 16:00",
-    "home_score": null,
-    "away_score": null,
-    "image_url": null,
-    "source": "TFF",
-    "source_url": "https://www.tff.org/default.aspx?pageID=198"
-  },
-  {
     "id": "sl-2026-12-konyaspor-besiktas",
     "league": "Trendyol Süper Lig",
     "week": 12,
     "home": "Konyaspor",
     "away": "Beşiktaş",
-    "kickoff": "22.11.2026 16:00",
-    "home_score": null,
-    "away_score": null,
+    "kickoff": "",
+    "home_score": 2,
+    "away_score": 4,
     "image_url": null,
     "source": "TFF",
     "source_url": "https://www.tff.org/default.aspx?pageID=198"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:57:22.417157+00:00",
+  "generated_at": "2026-11-22T15:24:22.780679+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -358,6 +358,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-gursoy",
+      "name": "Ömer Gürsoy",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo"
+    },
+    {
       "id": "aksal-yavuz",
       "name": "Aksal Yavuz",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -423,17 +434,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "omer-gursoy",
-      "name": "Ömer Gürsoy",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo"
     },
     {
       "id": "nihat-kahveci",
@@ -45156,62 +45156,6 @@
       "image_kind": null
     },
     {
-      "id": 31340,
-      "commentator": "mustafa-culcu",
-      "date": "2026-11-22T06:50:11+03:00",
-      "team": null,
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Kaleci Ederson'a ilk sarı gereksizdi, sözlü çözebilirdi peki sarıdan sonra aynı hareketi tekrarladı, devam eden el hareketleriyle de hakemin otoritesini yerle bir etti, 2.sarıdan atamadı, yuttu...",
-      "source": "Fotomaç",
-      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "mustafa-culcu",
-        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
-        "published_at": "2026-11-22T06:50:11+03:00"
-      },
-      "image_kind": "verified_portrait"
-    },
-    {
-      "id": 31341,
-      "commentator": "mustafa-culcu",
-      "date": "2026-11-22T06:50:11+03:00",
-      "team": null,
-      "players": [
-        "Skriniar"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "82'de Skriniar'ın kafasında Dijksteel'in sol koluna gelen top penaltı.",
-      "source": "Fotomaç",
-      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "mustafa-culcu",
-        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
-        "published_at": "2026-11-22T06:50:11+03:00"
-      },
-      "image_kind": "verified_portrait"
-    },
-    {
       "id": 31374,
       "commentator": "omer-urundul",
       "date": "2026-11-22T06:40:48+03:00",
@@ -45883,7 +45827,173 @@
       "image_kind": null
     },
     {
-      "id": 32199,
+      "id": 32497,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-22T10:49:57+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Fenerbahçe adına sahada enerji oluşturacak adamı ilk yarıda göremedim\" dersem kimseye haksızlık etmedim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/22/var-gibiydim-aslinda-yoktum",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/22/var-gibiydim-aslinda-yoktum",
+        "published_at": "2026-11-22T10:49:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 32499,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-22T10:49:57+03:00",
+      "team": null,
+      "players": [
+        "Skriniar"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Skriniar'ın attığı gole \"ağzıyla kuş tuttu\" yorumu getirdim.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/22/var-gibiydim-aslinda-yoktum",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.aspor.com.tr/yazarlar/hakki-yalcin/2026/11/22/var-gibiydim-aslinda-yoktum",
+        "published_at": "2026-11-22T10:49:57+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 32599,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-22T06:50:11+03:00",
+      "team": null,
+      "players": [
+        "Semedo"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "67'de Semedo sağ eli ile topla oynuyor, net penaltı hakemin önü açık görüyor ama veremedi VAR müdahalesi yedi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+        "published_at": "2026-11-22T06:50:11+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 32602,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-22T06:50:11+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "4'te Deniz-Drapinski mücadelesinde faulü Deniz yaptı ama hakem Galatasaray lehine faul verdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-galatasaray-samsunspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/22/iki-hakem-de-kotuydu",
+        "published_at": "2026-11-22T06:50:11+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 33122,
+      "commentator": "omer-gursoy",
+      "date": "2026-11-22T12:28:18+03:00",
+      "team": "Rizespor",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rizespor karşısında alınan 3-0’lık galibiyete rağmen sahadaki futbolun skoru desteklemediğini, tabelanın gösterdiğiyle oyunun anlattığı arasında ciddi bir fark olduğunu söylemiştim.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/fenerbahcenin-sorunu-teknik-mi-taktik-mi-yoksa-mental-mi-2645377",
+      "image_url": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-kocaelispor-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-gursoy",
+        "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/fenerbahcenin-sorunu-teknik-mi-taktik-mi-yoksa-mental-mi-2645377",
+        "published_at": "2026-11-22T12:28:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 33123,
+      "commentator": "omer-gursoy",
+      "date": "2026-11-22T12:28:18+03:00",
+      "team": "Çorum FK",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Yeni teknik direktörün ilk sınavı Çorum FK deplasmanıydı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/fenerbahcenin-sorunu-teknik-mi-taktik-mi-yoksa-mental-mi-2645377",
+      "image_url": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-kocaelispor-fenerbahce",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-gursoy",
+        "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/fenerbahcenin-sorunu-teknik-mi-taktik-mi-yoksa-mental-mi-2645377",
+        "published_at": "2026-11-22T12:28:18+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 33432,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -45913,7 +46023,7 @@
       "image_kind": null
     },
     {
-      "id": 32201,
+      "id": 33434,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -45943,7 +46053,7 @@
       "image_kind": null
     },
     {
-      "id": 32202,
+      "id": 33435,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -48316,12 +48426,12 @@
       "away": "Göztepe",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 0,
+      "away_score": 1,
       "home_logo_url": "https://erzurumsporfk.org/wp-content/uploads/2025/08/erzurumsporfklogo.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
       "kickoff": "2026-11-22T13:30:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -48332,12 +48442,12 @@
       "away": "Alanyaspor",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 1,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
       "kickoff": "2026-11-22T16:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -48348,12 +48458,12 @@
       "away": "Beşiktaş",
       "source": "TFF",
       "source_url": "https://www.tff.org/default.aspx?pageID=198",
-      "home_score": null,
-      "away_score": null,
+      "home_score": 2,
+      "away_score": 4,
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
       "kickoff": "2026-11-22T16:00:00+03:00",
-      "status": "scheduled",
+      "status": "finished",
       "competition": "super_lig"
     },
     {
@@ -51913,7 +52023,7 @@
     {
       "id": "semedo",
       "name": "Semedo",
-      "comment_count": 9,
+      "comment_count": 10,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nelson_Semedo_Croatia_v_Portugal_2_July_2026-227.jpg/500px-Nelson_Semedo_Croatia_v_Portugal_2_July_2026-227.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
