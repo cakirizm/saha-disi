@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-23T02:50:58.895020+00:00",
+  "generated_at": "2026-11-23T12:56:33.932424+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1829
+    "candidates": 1816
   },
   "sources": [
     {
@@ -122,7 +122,7 @@
     {
       "commentator": "ender-bilgin",
       "source": "A Spor",
-      "candidates": 32,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -202,7 +202,7 @@
     {
       "commentator": "serkan-yetismisoglu",
       "source": "A Spor",
-      "candidates": 7,
+      "candidates": 15,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -274,7 +274,7 @@
     {
       "commentator": "deniz-coban",
       "source": "Fanatik",
-      "candidates": 38,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -362,7 +362,7 @@
     {
       "commentator": "songul-soysal",
       "source": "Fanatik",
-      "candidates": 32,
+      "candidates": 40,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -386,7 +386,7 @@
     {
       "commentator": "ender-bilgin",
       "source": "Fotomaç",
-      "candidates": 32,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -426,7 +426,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "Fotomaç",
-      "candidates": 38,
+      "candidates": 46,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -442,7 +442,7 @@
     {
       "commentator": "serkan-yetismisoglu",
       "source": "Fotomaç",
-      "candidates": 8,
+      "candidates": 16,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -482,7 +482,7 @@
     {
       "commentator": "aksal-yavuz",
       "source": "Milliyet Skorer",
-      "candidates": 45,
+      "candidates": 48,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -530,7 +530,7 @@
     {
       "commentator": "lutfi-albayrak",
       "source": "Takvim",
-      "candidates": 1,
+      "candidates": 0,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -562,7 +562,7 @@
     {
       "commentator": "ufuk-ozcan",
       "source": "Takvim",
-      "candidates": 15,
+      "candidates": 19,
       "ok": true,
       "error": null,
       "kind": "web"
