@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:51:05.105109+00:00",
+  "generated_at": "2026-11-23T02:51:29.835258+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -157,28 +157,6 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
-      "id": "emre-bol",
-      "name": "Emre Bol",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "EB",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "sinan-vardar",
       "name": "Sinan Vardar",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -190,6 +168,17 @@
       "photoURL": null
     },
     {
+      "id": "emre-bol",
+      "name": "Emre Bol",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "EB",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "fatih-dogan",
       "name": "Fatih Doğan",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -197,6 +186,17 @@
       "avatar": "FD",
       "focusTeams": [
         "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "gokhan-german",
+      "name": "Gökhan German",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GG",
+      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -246,22 +246,22 @@
       "photoURL": null
     },
     {
-      "id": "hatice-yucel",
-      "name": "Hatice Yücel",
+      "id": "reha-kapsal",
+      "name": "Reha Kapsal",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "HY",
+      "avatar": "RK",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "reha-kapsal",
-      "name": "Reha Kapsal",
+      "id": "hatice-yucel",
+      "name": "Hatice Yücel",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "RK",
+      "avatar": "HY",
       "focusTeams": [
         "Genel"
       ],
@@ -46160,7 +46160,340 @@
       "image_kind": null
     },
     {
-      "id": 34424,
+      "id": 34289,
+      "commentator": "fatih-dogan",
+      "date": "2026-11-23T00:48:09+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic",
+        "Ndidi"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ndidi'nin orta sahadaki etkisi, Vlahovic'in ön alandaki bitiriciliğiyle birleşince Beşiktaş oyuna ağırlığını koydu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/23/hucum-gucunu-gosterdi-takintisini-torpuledi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/23/hucum-gucunu-gosterdi-takintisini-torpuledi",
+        "published_at": "2026-11-23T00:48:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34293,
+      "commentator": "fatih-dogan",
+      "date": "2026-11-23T00:48:09+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarıda Vlahovic'in 50'de ağlara gönderdiği golün iptali, ardından 63'te Enis Destan'ın beraberliği bulması Beşiktaş adına ciddi bir sınavdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/23/hucum-gucunu-gosterdi-takintisini-torpuledi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "fatih-dogan",
+        "url": "https://www.aspor.com.tr/yazarlar/fatih-dogan/2026/11/23/hucum-gucunu-gosterdi-takintisini-torpuledi",
+        "published_at": "2026-11-23T00:48:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34360,
+      "commentator": "iskender-gunen",
+      "date": "2026-11-23T01:03:18+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Oyunun henüz 5. dakikasında Salah ile Pina'nın kurduğu akıcı oyunun ardından Fırtına, Pina'nın asistinde Ozan ile golü bularak maça istediği başlangıcı yaptı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/23/firtinanin-ustunlugu-skora-yansimadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/23/firtinanin-ustunlugu-skora-yansimadi",
+        "published_at": "2026-11-23T01:03:18+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34363,
+      "commentator": "iskender-gunen",
+      "date": "2026-11-23T01:03:18+03:00",
+      "team": "Eyüpspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarıda ise farkı artıracak ikinci gol gelmeyince Eyüpspor'un ilk devreye göre rakip alanda fazla göründüğü anlar vardı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/23/firtinanin-ustunlugu-skora-yansimadi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "iskender-gunen",
+        "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/23/firtinanin-ustunlugu-skora-yansimadi",
+        "published_at": "2026-11-23T01:03:18+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34398,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-23T00:47:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Siyahbeyazlılar bu kez yalnızca rakibini değil, deplasman psikolojisini de yenerek altın değerinde bir galibiyete imza attı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/23/konyada-oyun-degil-kalite-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/23/konyada-oyun-degil-kalite-kazandi",
+        "published_at": "2026-11-23T00:47:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34403,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-23T00:47:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "İşte o dakikalarda Beşiktaş taraftarının yüreği ağzına geldi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/23/konyada-oyun-degil-kalite-kazandi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/23/konyada-oyun-degil-kalite-kazandi",
+        "published_at": "2026-11-23T00:47:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34502,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-22T22:34:15+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Hele bir de Trabzonspor gibi ligde ritim tutan ve formda olan bir takımın hiç istemediği şeydir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/23/tek-tarafli",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/23/tek-tarafli",
+        "published_at": "2026-11-22T22:34:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34505,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-22T22:34:15+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Onun için bordo-mavililer baştan işi sıkı tutarak Ozan'ın rakip savunmasının içine yaptığı dip koşu ile golü buldu ve ortam tam istedikleri gibi oluştu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/23/tek-tarafli",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-trabzonspor-eyupspor",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/23/tek-tarafli",
+        "published_at": "2026-11-22T22:34:15+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34574,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-22T21:31:41+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Galatasaray derbisi öncesi kritik bir karşılaşmaya çıkan Beşiktaş'ta kilidi Vlahovic erken açtı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/23/kolay-basladi-zor-bitti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/23/kolay-basladi-zor-bitti",
+        "published_at": "2026-11-22T21:31:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34578,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-22T21:31:41+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Sezon boyunca hemen her maçta gördük, Beşiktaş rakiplerine çok rahat kafa vurduruyor.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/23/kolay-basladi-zor-bitti",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/23/kolay-basladi-zor-bitti",
+        "published_at": "2026-11-22T21:31:41+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34612,
+      "commentator": "turgay-demir",
+      "date": "2026-11-22T21:26:40+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kral golcü Vlahovic üç şahane gol attı ama üçüncüsü insanların vicdanlarında geçerli olsa da VAR engelini aşamadı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/23/vicdanlarda-gol-varda-ofsayt",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/23/vicdanlarda-gol-varda-ofsayt",
+        "published_at": "2026-11-22T21:26:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 34614,
+      "commentator": "turgay-demir",
+      "date": "2026-11-22T21:26:40+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Normal şartlarda Beşiktaş'ın güle oynaya ve daha farklı kazanması gereken maç, hakem ve VAR kararları nedeniyle bir türlü kopmadı...",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/23/vicdanlarda-gol-varda-ofsayt",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/23/vicdanlarda-gol-varda-ofsayt",
+        "published_at": "2026-11-22T21:26:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 35301,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -46190,7 +46523,7 @@
       "image_kind": null
     },
     {
-      "id": 34426,
+      "id": 35303,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -46220,7 +46553,7 @@
       "image_kind": null
     },
     {
-      "id": 34427,
+      "id": 35304,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -52154,7 +52487,7 @@
     {
       "id": "ndidi",
       "name": "Ndidi",
-      "comment_count": 14,
+      "comment_count": 15,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ndidi_20170114.jpg/500px-Ndidi_20170114.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -52226,7 +52559,7 @@
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 61,
+      "comment_count": 65,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {

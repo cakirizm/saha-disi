@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T21:50:34.117780+00:00",
+  "generated_at": "2026-11-23T02:50:58.895020+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1807
+    "candidates": 1829
   },
   "sources": [
     {
@@ -186,7 +186,7 @@
     {
       "commentator": "reha-kapsal",
       "source": "A Spor",
-      "candidates": 38,
+      "candidates": 46,
       "ok": true,
       "error": null,
       "kind": "web"
