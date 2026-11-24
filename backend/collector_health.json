@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T00:57:08.720504+00:00",
+  "generated_at": "2026-11-24T11:01:46.499038+00:00",
   "tracked_commentators": 237,
   "totals": {
     "sources": 87,
     "successful": 83,
-    "candidates": 1816
+    "candidates": 1813
   },
   "sources": [
     {
@@ -258,7 +258,7 @@
     {
       "commentator": "arda-erol",
       "source": "Fanatik",
-      "candidates": 32,
+      "candidates": 24,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -266,7 +266,7 @@
     {
       "commentator": "burak-ozdemir",
       "source": "Fanatik",
-      "candidates": 22,
+      "candidates": 14,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -282,7 +282,7 @@
     {
       "commentator": "engin-saydam",
       "source": "Fanatik",
-      "candidates": 24,
+      "candidates": 29,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -514,7 +514,7 @@
     {
       "commentator": "erkan-tan",
       "source": "Takvim",
-      "candidates": 3,
+      "candidates": 1,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -522,7 +522,7 @@
     {
       "commentator": "hakki-yalcin",
       "source": "Takvim",
-      "candidates": 5,
+      "candidates": 13,
       "ok": true,
       "error": null,
       "kind": "web"
@@ -530,7 +530,7 @@
     {
       "commentator": "lutfi-albayrak",
       "source": "Takvim",
-      "candidates": 0,
+      "candidates": 2,
       "ok": true,
       "error": null,
       "kind": "web"

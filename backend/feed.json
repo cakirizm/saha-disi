@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:57:38.054970+00:00",
+  "generated_at": "2026-11-24T11:02:19.569331+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -279,6 +279,17 @@
       "photoURL": null
     },
     {
+      "id": "engin-saydam",
+      "name": "Engin Saydam",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ES",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "mustafa-culcu",
       "name": "Mustafa Çulcu",
       "role": "Trabzonspor muhabiri / yorumcu",
@@ -302,15 +313,16 @@
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
-      "id": "engin-saydam",
-      "name": "Engin Saydam",
+      "id": "alen-markaryan",
+      "name": "Alen Markaryan",
       "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ES",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "AM",
       "focusTeams": [
-        "Genel"
+        "Beşiktaş",
+        "Trabzonspor"
       ],
-      "photoURL": null
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "arda-erol",
@@ -367,18 +379,6 @@
         "Trabzonspor"
       ],
       "photoURL": null
-    },
-    {
-      "id": "alen-markaryan",
-      "name": "Alen Markaryan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Çoklu kulüp kaynak taraması",
-      "avatar": "AM",
-      "focusTeams": [
-        "Beşiktaş",
-        "Trabzonspor"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "kartal-yigit",
@@ -469,6 +469,17 @@
       "photoURL": null
     },
     {
+      "id": "lutfi-albayrak",
+      "name": "Lütfi Albayrak",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "LA",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "metin-karabas",
       "name": "Metin Karabaş",
       "role": "Galatasaray muhabiri / yorumcu",
@@ -496,17 +507,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "NH",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "lutfi-albayrak",
-      "name": "Lütfi Albayrak",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "LA",
       "focusTeams": [
         "Genel"
       ],
@@ -47314,7 +47314,228 @@
       "image_kind": null
     },
     {
-      "id": 37212,
+      "id": 37299,
+      "commentator": "alen-markaryan",
+      "date": "2026-11-24T07:00:00+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Oyunun akışında golün tekrarını gösterirken ayan-beyan Vlahovic'in ofsaytta olmadığını çıplak gözle, net bir şekilde görüyoruz...",
+      "source": "Akşam",
+      "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/lastik-patladiiii/haber-1716820",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "alen-markaryan",
+        "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/lastik-patladiiii/haber-1716820",
+        "published_at": "2026-11-24T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 37304,
+      "commentator": "alen-markaryan",
+      "date": "2026-11-24T07:00:00+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic",
+        "Trossard"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Kocaeli-Fener maçında gözünün önündeki penaltıyı veremeyen hakemi görmüyorlar mı\" G.Saray-Samsun maçında Abdülkerim'in ofsayt pozisyonunu es geçen VAR'ı bilmiyorlar mı\" Trossard'a, Vlahovic'e atılan tokatlara kayıtsız kalıp, oyunu devam ettiren hakemlere artık gülmüyorlar mı\" Bitmez/sonsuz örnek yazarım size...",
+      "source": "Akşam",
+      "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/lastik-patladiiii/haber-1716820",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "alen-markaryan",
+        "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/lastik-patladiiii/haber-1716820",
+        "published_at": "2026-11-24T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 37390,
+      "commentator": "engin-saydam",
+      "date": "2026-11-24T12:45:09+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Eleştirilerin, mektubun Fenerbahçe resmi hesabı üzerinden yayınlanması ekseninde olmasını anlıyorum, hak da veriyorum.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/iletisim-tahtasi-2645644",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/iletisim-tahtasi-2645644",
+        "published_at": "2026-11-24T12:45:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37391,
+      "commentator": "engin-saydam",
+      "date": "2026-11-24T12:45:09+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Burada başkan seviyesinden bir cevap, Beşiktaş’ın büyüklüğüne uygun bir cevap yöntemi olmamış.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/iletisim-tahtasi-2645644",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "engin-saydam",
+        "url": "https://www.fanatik.com.tr/yazarlar/engin-saydam/iletisim-tahtasi-2645644",
+        "published_at": "2026-11-24T12:45:09+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37798,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-24T06:56:40+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "FENERBAHÇE'NİN yoluna girdiğini düşünmek gafletine kapıldığımızı gösteren bir Kocaeli maçı izledik.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/olur-olmaz-6560101",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/olur-olmaz-6560101",
+        "published_at": "2026-11-24T06:56:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37800,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-24T06:56:40+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O yüzden Fenerbahçe'de iki maç iyi oynayıp ayaklarına dolanmak arasındaki çelişkide kayıplar kaçınılmazdır.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/olur-olmaz-6560101",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "sl-2026-12-konyaspor-besiktas",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/olur-olmaz-6560101",
+        "published_at": "2026-11-24T06:56:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37807,
+      "commentator": "lutfi-albayrak",
+      "date": "2026-11-24T06:56:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Takım o gün kendi başının çaresine bakabildi.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/lutfi-albayrak/son-el-dedik-sabah-oldu-6560119",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "lutfi-albayrak",
+        "url": "https://www.takvim.com.tr/yazarlar/lutfi-albayrak/son-el-dedik-sabah-oldu-6560119",
+        "published_at": "2026-11-24T06:56:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37808,
+      "commentator": "lutfi-albayrak",
+      "date": "2026-11-24T06:56:40+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Kazanırsa da 'Takım iyi tuttu, dağılmayalım' diyor.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/lutfi-albayrak/son-el-dedik-sabah-oldu-6560119",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "lutfi-albayrak",
+        "url": "https://www.takvim.com.tr/yazarlar/lutfi-albayrak/son-el-dedik-sabah-oldu-6560119",
+        "published_at": "2026-11-24T06:56:40+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37891,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -47344,7 +47565,7 @@
       "image_kind": null
     },
     {
-      "id": 37214,
+      "id": 37893,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -47374,7 +47595,7 @@
       "image_kind": null
     },
     {
-      "id": 37215,
+      "id": 37894,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -53374,13 +53595,13 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 56,
+      "comment_count": 57,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 66,
+      "comment_count": 68,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
