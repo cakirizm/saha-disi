@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:02:19.569331+00:00",
+  "generated_at": "2026-11-24T21:18:05.031061+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -47535,7 +47535,7 @@
       "image_kind": null
     },
     {
-      "id": 37891,
+      "id": 39102,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -47565,7 +47565,7 @@
       "image_kind": null
     },
     {
-      "id": 37893,
+      "id": 39104,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -47595,7 +47595,7 @@
       "image_kind": null
     },
     {
-      "id": 37894,
+      "id": 39105,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -50054,7 +50054,9 @@
       "source_url": "https://www.uefa.com/match/2049631/",
       "venue": "Ali Sami Yen Spor Kompleksi",
       "week": 12,
-      "status": "scheduled"
+      "status": "finished",
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "id": "ucl-2027-2049640",

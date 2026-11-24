@@ -1,8 +1,11 @@
 {
-  "checked_at": "2026-11-24T11:01:47.959320+00:00",
+  "checked_at": "2026-11-24T21:17:34.843849+00:00",
   "source": "TFF",
-  "ok": true,
-  "using_cache": false,
-  "parsed_matches": 306,
-  "errors": []
+  "ok": false,
+  "using_cache": true,
+  "parsed_matches": 0,
+  "errors": [
+    "HTTP Error 403: Forbidden",
+    "HTTP Error 403: Forbidden"
+  ]
 }
