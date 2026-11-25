@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T21:18:05.031061+00:00",
+  "generated_at": "2026-11-25T04:21:17.972991+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -157,6 +157,17 @@
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
     },
     {
+      "id": "gokhan-german",
+      "name": "Gökhan German",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "sinan-vardar",
       "name": "Sinan Vardar",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -191,11 +202,11 @@
       "photoURL": null
     },
     {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
+      "id": "serkan-korkmaz",
+      "name": "Serkan Korkmaz",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
+      "avatar": "SK",
       "focusTeams": [
         "Genel"
       ],
@@ -207,17 +218,6 @@
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "İG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "serkan-korkmaz",
-      "name": "Serkan Korkmaz",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SK",
       "focusTeams": [
         "Genel"
       ],
@@ -268,6 +268,18 @@
       "photoURL": null
     },
     {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "serkan-yetismisoglu",
       "name": "Serkan Yetişmişoğlu",
       "role": "Futbol yorumcusu / muhabir",
@@ -288,18 +300,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "mustafa-culcu",
-      "name": "Mustafa Çulcu",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "MÇ",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "burak-ozdemir",
@@ -39793,35 +39793,6 @@
       "image_kind": "verified_portrait"
     },
     {
-      "id": 23714,
-      "commentator": "mustafa-culcu",
-      "date": "2026-11-09T06:50:11+03:00",
-      "team": null,
-      "players": [
-        "Onuachu"
-      ],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Pozisyon başlangıcı Onuachu ofsayt çıkınca VAR müdahalesi yemekten kurtuldu.",
-      "source": "Fotomaç",
-      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/09/gelismeye-ihtiyaci-var",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 95,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "mustafa-culcu",
-        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/09/gelismeye-ihtiyaci-var",
-        "published_at": "2026-11-09T06:50:11+03:00"
-      },
-      "image_kind": "verified_portrait"
-    },
-    {
       "id": 23717,
       "commentator": "mustafa-culcu",
       "date": "2026-11-09T06:50:11+03:00",
@@ -47535,7 +47506,615 @@
       "image_kind": null
     },
     {
-      "id": 39102,
+      "id": 37852,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "UEFA artık G.Saray maçlarına Alman hakemlerini göndermesin.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/levent_tuzemen/2026/11/25/sah-mat",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.fotomac.com.tr/yazarlar/levent_tuzemen/2026/11/25/sah-mat",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37853,
+      "commentator": "levent-tuzemen",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Resmen Alman hakemler Türk ve G.Saray düşmanlığı yapıyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/levent_tuzemen/2026/11/25/sah-mat",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "levent-tuzemen",
+        "url": "https://www.fotomac.com.tr/yazarlar/levent_tuzemen/2026/11/25/sah-mat",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37882,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen",
+        "Barış Alper"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Mesela Osimhen bıçaksa Barış Alper çatal.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/25/okan-burukun-ustalik-donemi-eseri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/25/okan-burukun-ustalik-donemi-eseri",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 37885,
+      "commentator": "bulent-timurlenk",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "negative",
+      "strength": 7,
+      "summary": "Geçiş hücumlarından, bireysel hatalarından Fenerbahçe'ye 6 gol atmış Aston Villa'yı dar alana hapsetme fikri başarılı oldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/25/okan-burukun-ustalik-donemi-eseri",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "bulent-timurlenk",
+        "url": "https://www.aspor.com.tr/yazarlar/bulent-timurlenk/2026/11/25/okan-burukun-ustalik-donemi-eseri",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38226,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş'ın İsrail temsilcisiyle oynayacağı maçın Batum'a taşınması yetmedi, karşılaşmanın seyircisiz oynanması için de girişimlerde bulunuldu.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/25/takimlarimiz-yalniz-degildir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/25/takimlarimiz-yalniz-degildir",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38228,
+      "commentator": "murat-ozbostan",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Şimdi de Galatasaray, Filistin'e yönelik insani tepki ve tribünlerde açılan pankartlar üzerinden UEFA'ya yapılan şikâyetlerle karşı karşıya.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/25/takimlarimiz-yalniz-degildir",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "murat-ozbostan",
+        "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/25/takimlarimiz-yalniz-degildir",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38264,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "positive",
+      "strength": 8,
+      "summary": "Galatasaray ikinci yarıda mücadele yüksek tempo ve güçlü oyunla hakem Daniel Siebert'i de yenerek muhteşem bir galibiyet aldı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/25/direkt-kirmizi",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/25/direkt-kirmizi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 38265,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "42 yaşındaki Alman Daniel Siebert 14 yaşında başladığı hakemlik serüvenini geçen yıl şampiyonlar ligi finali yöneterek zirveye taşıdı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/25/direkt-kirmizi",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/25/direkt-kirmizi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": "verified_portrait",
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 38295,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-09T08:46:24+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Hakemin bazı faul ve kart yorumlarına baktığımızda, gelişmeye ihtiyacı olduğunu söylemeliyiz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/09/gelismeye-ihtiyaci-var",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/09/gelismeye-ihtiyaci-var",
+        "published_at": "2026-11-09T08:46:24+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 38359,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Okan Buruk'un Osimhen'siz enteresan 11'ine, Emery'nin temkinli 11'i ve Alman hakemin her temasa faul çalması eklenince ilk yarı \"tıngır mıngır\" geçerek golsüz sona erdi.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/serkan-korkmaz/2026/11/25/kan-ter-gozyasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.aspor.com.tr/yazarlar/serkan-korkmaz/2026/11/25/kan-ter-gozyasi",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38360,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": null,
+      "players": [
+        "Batrakov"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "50. dakikadan sonra önce Batrakov ile McGinn sonra Yunus ile Gomez'in birer sarı kart gördükleri pozisyonlar bir miktar heyecanı artırdı.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/serkan-korkmaz/2026/11/25/kan-ter-gozyasi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.aspor.com.tr/yazarlar/serkan-korkmaz/2026/11/25/kan-ter-gozyasi",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38491,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama Okan hocam, bu kadar etkisiz Aston Villa'ya karşı ilk yarıda daha tahrip gücü yüksek futbol oynamalıydık.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 38495,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Ama kanat oyuncusu olarak oynatmak da tuhaf değil miydi ki… Yine de en iyisini Okan Buruk bilir.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38496,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-25T06:40:46+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "En başarılı teknik direktör… İlk yarıda bir Şampiyonlar Ligi maçı değil de sezon öncesi bir hazırlık maçı izliyor gibiydik.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+        "published_at": "2026-11-25T06:40:46+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38636,
+      "commentator": "gokhan-german",
+      "date": "2026-11-25T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İkinci yarıda Beşiktaş bir daha dengeyi kurmasına rağmen dar rotasyonla oynadığı için çok yıprandı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/eksik-kartal-direnemedi-2645713",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/eksik-kartal-direnemedi-2645713",
+        "published_at": "2026-11-25T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38640,
+      "commentator": "gokhan-german",
+      "date": "2026-11-25T06:59:00+03:00",
+      "team": "Fenerbahçe",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Pazar günü Fenerbahçe’yi müthiş bir oyundan sonra yenen, kaybettiği maçlarda bile mücadeleyi hiç bırakmayan bu takımın daha fazla desteği ihtiyacı var.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/eksik-kartal-direnemedi-2645713",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/eksik-kartal-direnemedi-2645713",
+        "published_at": "2026-11-25T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38941,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Okan Buruk'un Osimhen'siz enteresan 11'ine, Emery'nin temkinli 11'i ve Alman hakemin her temasa faul çalması eklenince ilk yarı 'tıngır mıngır' geçerek golsüz sona erdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan.korkmaz/2026/11/25/kan-ter-gozyasi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan.korkmaz/2026/11/25/kan-ter-gozyasi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38943,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Ginn sonra Yunus ile Gomez'in birer sarı kart gördükleri pozisyonlar bir miktar heyecanı artırdı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/serkan.korkmaz/2026/11/25/kan-ter-gozyasi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.fotomac.com.tr/yazarlar/serkan.korkmaz/2026/11/25/kan-ter-gozyasi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 38958,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-25T06:50:21+03:00",
+      "team": "Galatasaray",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ama kanat oyuncusu olarak oynatmak da tuhaf değil miydi ki...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "ucl-2027-2049631",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/25/okan-buruk-atomu-parcaladi",
+        "published_at": "2026-11-25T06:50:21+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Galatasaray"
+    },
+    {
+      "id": 39032,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-25T06:57:37+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Anneleriniz yalandan dizilere melül melül bakarken, babalarınız kafasını futbol topunun içine sokarken, sizler yalnız ve sahipsiz kaldınız.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/bilim-insani-1795552562-6560827",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/bilim-insani-1795552562-6560827",
+        "published_at": "2026-11-25T06:57:37+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 39063,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:57:37+03:00",
+      "team": null,
+      "players": [
+        "Osimhen"
+      ],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "OKAN Buruk'un Osimhen'siz enteresan on birine, Emery'nin temkinli on biri ve Alman hakemin her temasa faul çalması eklenince ilk yarı 'tıngır mıngır' geçerek golsüz sona erdi.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/11/25/iste-aslan",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/11/25/iste-aslan",
+        "published_at": "2026-11-25T06:57:37+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 39064,
+      "commentator": "serkan-korkmaz",
+      "date": "2026-11-25T06:57:37+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Gin sonra Yunus ile Gomez'in birer sarı kart gördükleri pozisyonlar bir miktar heyecanı arttırdı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/11/25/iste-aslan",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "serkan-korkmaz",
+        "url": "https://www.takvim.com.tr/yazarlar/serkan-korkmaz/2026/11/25/iste-aslan",
+        "published_at": "2026-11-25T06:57:37+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 39118,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -47565,7 +48144,7 @@
       "image_kind": null
     },
     {
-      "id": 39104,
+      "id": 39120,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -47595,7 +48174,7 @@
       "image_kind": null
     },
     {
-      "id": 39105,
+      "id": 39121,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -53461,13 +54040,13 @@
     {
       "id": "baris-alper",
       "name": "Barış Alper",
-      "comment_count": 35,
+      "comment_count": 36,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg/500px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_20251019.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "batrakov",
       "name": "Batrakov",
-      "comment_count": 66,
+      "comment_count": 67,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Aleksey_Batrakov.jpg/500px-Aleksey_Batrakov.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
@@ -53537,7 +54116,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 31,
+      "comment_count": 30,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -53549,7 +54128,7 @@
     {
       "id": "osimhen",
       "name": "Osimhen",
-      "comment_count": 69,
+      "comment_count": 73,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Victor-osimhen-nigeria-2024-3-4.jpg/500px-Victor-osimhen-nigeria-2024-3-4.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
