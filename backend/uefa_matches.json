@@ -691,14 +691,15 @@
     "home": "Shakhtar",
     "away": "Fenerbahçe",
     "kickoff": "2026-11-25T20:00:00+00:00",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 0,
+    "away_score": 1,
     "home_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52707.png",
     "away_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52692.png",
     "image_url": null,
     "source": "UEFA",
     "source_url": "https://www.uefa.com/match/2049640/",
-    "venue": "Stamford Bridge"
+    "venue": "Stamford Bridge",
+    "status": "finished"
   },
   {
     "id": "uel-2027-2050143",
