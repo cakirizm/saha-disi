@@ -709,15 +709,15 @@
     "home": "Beşiktaş",
     "away": "H. Beer-Sheva",
     "kickoff": "2026-11-26T17:45:00+00:00",
-    "home_score": 0,
-    "away_score": 0,
+    "home_score": 2,
+    "away_score": 1,
     "home_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50157.png",
     "away_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/59340.png",
     "image_url": null,
     "source": "UEFA",
     "source_url": "https://www.uefa.com/match/2050143/",
     "venue": "Batumi Stadium",
-    "status": "live"
+    "status": "finished"
   },
   {
     "id": "uecl-2027-2050377",
@@ -727,14 +727,15 @@
     "home": "CSKA Sofia",
     "away": "Trabzonspor",
     "kickoff": "2026-11-26T20:00:00+00:00",
-    "home_score": null,
-    "away_score": null,
+    "home_score": 1,
+    "away_score": 2,
     "home_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2608297.png",
     "away_logo_url": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52731.png",
     "image_url": null,
     "source": "UEFA",
     "source_url": "https://www.uefa.com/match/2050377/",
-    "venue": "Bulgarska Armiya"
+    "venue": "Bulgarska Armiya",
+    "status": "finished"
   },
   {
     "id": "ucl-2027-2049650",
