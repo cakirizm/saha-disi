@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:54:14.452818+00:00",
+  "generated_at": "2026-11-27T12:34:48.394433+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -57,22 +57,22 @@
       "photoURL": null
     },
     {
-      "id": "serkan-akcan",
-      "name": "Serkan Akcan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "SA",
+      "id": "cem-dizdar",
+      "name": "Cem Dizdar",
+      "role": "Futbol yorumcusu",
+      "primarySource": "TRT Spor / Yazar",
+      "avatar": "CD",
       "focusTeams": [
         "Genel"
       ],
       "photoURL": null
     },
     {
-      "id": "cem-dizdar",
-      "name": "Cem Dizdar",
-      "role": "Futbol yorumcusu",
-      "primarySource": "TRT Spor / Yazar",
-      "avatar": "CD",
+      "id": "serkan-akcan",
+      "name": "Serkan Akcan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "SA",
       "focusTeams": [
         "Genel"
       ],
@@ -112,17 +112,6 @@
       "photoURL": null
     },
     {
-      "id": "omer-urundul",
-      "name": "Ömer Üründül",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖÜ",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "turgay-demir",
       "name": "Turgay Demir",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -130,6 +119,17 @@
       "avatar": "TD",
       "focusTeams": [
         "Beşiktaş",
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "omer-urundul",
+      "name": "Ömer Üründül",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖÜ",
+      "focusTeams": [
         "Genel"
       ],
       "photoURL": null
@@ -157,6 +157,17 @@
       "photoURL": null
     },
     {
+      "id": "gokhan-german",
+      "name": "Gökhan German",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "GG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "sinan-vardar",
       "name": "Sinan Vardar",
       "role": "Beşiktaş muhabiri / yorumcu",
@@ -177,17 +188,6 @@
         "Genel"
       ],
       "photoURL": "https://foto.haberler.com/haber/2025/08/09/ahmet-cakar-beyaz-futbol-da-neden-yok-18929458_8518_amp.jpg"
-    },
-    {
-      "id": "gokhan-german",
-      "name": "Gökhan German",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "GG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
     },
     {
       "id": "fatih-dogan",
@@ -235,6 +235,18 @@
       "photoURL": null
     },
     {
+      "id": "mustafa-culcu",
+      "name": "Mustafa Çulcu",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "MÇ",
+      "focusTeams": [
+        "Trabzonspor",
+        "Genel"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "ender-bilgin",
       "name": "Ender Bilgin",
       "role": "Futbol yorumcusu / muhabir",
@@ -255,18 +267,6 @@
         "Genel"
       ],
       "photoURL": null
-    },
-    {
-      "id": "mustafa-culcu",
-      "name": "Mustafa Çulcu",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "MÇ",
-      "focusTeams": [
-        "Trabzonspor",
-        "Genel"
-      ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "hatice-yucel",
@@ -302,6 +302,18 @@
       "photoURL": null
     },
     {
+      "id": "alen-markaryan",
+      "name": "Alen Markaryan",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Çoklu kulüp kaynak taraması",
+      "avatar": "AM",
+      "focusTeams": [
+        "Beşiktaş",
+        "Trabzonspor"
+      ],
+      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    },
+    {
       "id": "burak-ozdemir",
       "name": "Burak Özdemir",
       "role": "Futbol yorumcusu / muhabir",
@@ -335,16 +347,15 @@
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg/960px-Austria_U21_vs._Turkey_U21_20131114_%28056%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
-      "id": "alen-markaryan",
-      "name": "Alen Markaryan",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Çoklu kulüp kaynak taraması",
-      "avatar": "AM",
+      "id": "aksal-yavuz",
+      "name": "Aksal Yavuz",
+      "role": "Trabzonspor muhabiri / yorumcu",
+      "primarySource": "Trabzonspor kaynak taraması",
+      "avatar": "AY",
       "focusTeams": [
-        "Beşiktaş",
         "Trabzonspor"
       ],
-      "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "photoURL": null
     },
     {
       "id": "arda-erol",
@@ -358,11 +369,33 @@
       "photoURL": null
     },
     {
+      "id": "kartal-yigit",
+      "name": "Kartal Yiğit",
+      "role": "Beşiktaş muhabiri / yorumcu",
+      "primarySource": "Beşiktaş kaynak taraması",
+      "avatar": "KY",
+      "focusTeams": [
+        "Beşiktaş"
+      ],
+      "photoURL": null
+    },
+    {
       "id": "songul-soysal",
       "name": "Songül Soysal",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "SS",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": null
+    },
+    {
+      "id": "ulas-ozdemir",
+      "name": "Ulaş Özdemir",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "UÖ",
       "focusTeams": [
         "Genel"
       ],
@@ -381,44 +414,11 @@
       "photoURL": null
     },
     {
-      "id": "aksal-yavuz",
-      "name": "Aksal Yavuz",
-      "role": "Trabzonspor muhabiri / yorumcu",
-      "primarySource": "Trabzonspor kaynak taraması",
-      "avatar": "AY",
-      "focusTeams": [
-        "Trabzonspor"
-      ],
-      "photoURL": null
-    },
-    {
       "id": "ersin-ramoglu",
       "name": "Ersin Ramoğlu",
       "role": "Futbol yorumcusu / muhabir",
       "primarySource": "Genel futbol kaynak taraması",
       "avatar": "MCK",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "kartal-yigit",
-      "name": "Kartal Yiğit",
-      "role": "Beşiktaş muhabiri / yorumcu",
-      "primarySource": "Beşiktaş kaynak taraması",
-      "avatar": "KY",
-      "focusTeams": [
-        "Beşiktaş"
-      ],
-      "photoURL": null
-    },
-    {
-      "id": "ulas-ozdemir",
-      "name": "Ulaş Özdemir",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "UÖ",
       "focusTeams": [
         "Genel"
       ],
@@ -49282,7 +49282,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/27/yarinlar-adina-bu-takim-herkese-umit-veriyor",
-        "published_at": "2026-11-27T02:19:07+03:00"
+        "published_at": "2026-11-27T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -49309,7 +49309,7 @@
         "method": "columnist_byline",
         "speaker_id": "iskender-gunen",
         "url": "https://www.aspor.com.tr/yazarlar/iskender-gunen/2026/11/27/yarinlar-adina-bu-takim-herkese-umit-veriyor",
-        "published_at": "2026-11-27T02:19:07+03:00"
+        "published_at": "2026-11-27T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -49336,7 +49336,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/27/dimdik-durabilen-futbolun-ve-insanligin-vicdaniydi",
-        "published_at": "2026-11-27T02:18:25+03:00"
+        "published_at": "2026-11-27T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -49363,288 +49363,7 @@
         "method": "columnist_byline",
         "speaker_id": "murat-ozbostan",
         "url": "https://www.aspor.com.tr/yazarlar/murat-ozbostan/2026/11/27/dimdik-durabilen-futbolun-ve-insanligin-vicdaniydi",
-        "published_at": "2026-11-27T02:18:25+03:00"
-      },
-      "image_kind": null
-    },
-    {
-      "id": 43294,
-      "commentator": "mustafa-culcu",
-      "date": "2026-11-27T00:32:13+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Penaltıyı kaçıran Orkun galibiyeti perçinleyen gol ile moral buldu.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "mustafa-culcu",
-        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
-        "published_at": "2026-11-27T00:32:13+03:00"
-      },
-      "image_kind": "verified_portrait",
-      "inherited_team": "Beşiktaş"
-    },
-    {
-      "id": 43297,
-      "commentator": "mustafa-culcu",
-      "date": "2026-11-27T00:32:13+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Hakem / VAR",
-      "type": "referee",
-      "sentiment": "neutral",
-      "strength": 8,
-      "summary": "Herhalde hakemlik kariyerinde ilk defa böyle bir maçla karşılaşmıştır ve ömrü boyunca bu maçı unutamayacaktır da...",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
-      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "mustafa-culcu",
-        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
-        "published_at": "2026-11-27T00:32:13+03:00"
-      },
-      "image_kind": "verified_portrait",
-      "inherited_team": "Beşiktaş"
-    },
-    {
-      "id": 43365,
-      "commentator": "reha-kapsal",
-      "date": "2026-11-27T02:09:57+03:00",
-      "team": "Trabzonspor",
-      "players": [
-        "Onuachu"
-      ],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "O pozisyonda da son haftaların formsuz ismi Onuachu golü kaçırdı.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": "uecl-2027-2050377",
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "reha-kapsal",
-        "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
-        "published_at": "2026-11-27T02:09:57+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Trabzonspor"
-    },
-    {
-      "id": 43366,
-      "commentator": "reha-kapsal",
-      "date": "2026-11-27T02:09:57+03:00",
-      "team": "Trabzonspor",
-      "players": [
-        "Onuachu"
-      ],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Onuachu'nun performansında bu kadar belirgin bir düşüş varsa farklı alternatifleri denemek ve esnek davranmak gerekiyor.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": "uecl-2027-2050377",
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "reha-kapsal",
-        "url": "https://www.aspor.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
-        "published_at": "2026-11-27T02:09:57+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Trabzonspor"
-    },
-    {
-      "id": 43433,
-      "commentator": "sinan-vardar",
-      "date": "2026-11-27T00:30:35+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Beşiktaş, kendi sahasında oynaması gereken bu maçı maalesef Batum'da oynuyor.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/27/milli-dava",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "sinan-vardar",
-        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/27/milli-dava",
-        "published_at": "2026-11-27T00:30:35+03:00"
-      },
-      "image_kind": null
-    },
-    {
-      "id": 43438,
-      "commentator": "sinan-vardar",
-      "date": "2026-11-27T00:30:35+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Uzun zamandır Beşiktaş kalesinde böylesine iyi bir performans izlememiştim.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/27/milli-dava",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "sinan-vardar",
-        "url": "https://www.aspor.com.tr/yazarlar/sinan-vardar/2026/11/27/milli-dava",
-        "published_at": "2026-11-27T00:30:35+03:00"
-      },
-      "image_kind": null
-    },
-    {
-      "id": 43477,
-      "commentator": "turgay-demir",
-      "date": "2026-11-27T00:34:11+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Böyle kahpe bir dünyada, nasıl olduğuna, kimin attığına bakmaksızın atılan her golü cennetteki Gazzeli çocuklara armağan ediyorum.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "turgay-demir",
-        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
-        "published_at": "2026-11-27T00:34:11+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Beşiktaş"
-    },
-    {
-      "id": 43479,
-      "commentator": "turgay-demir",
-      "date": "2026-11-27T00:34:11+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Oyuncu Performansı",
-      "type": "player",
-      "sentiment": "neutral",
-      "strength": 7,
-      "summary": "Ama maç öncesinde ve sırasında öyle şeyler yaşandı ki, tum oyuncularımız gergindi.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "turgay-demir",
-        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
-        "published_at": "2026-11-27T00:34:11+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Beşiktaş"
-    },
-    {
-      "id": 43528,
-      "commentator": "zeki-uzundurukan",
-      "date": "2026-11-27T00:42:24+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Rusya takımlarını, Ukrayna savaşı nedeniyle anında bütün organizasyonlardan atan UEFA, konu İsrail takımları olunca süt dökmüş kediye dönüyor.",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "zeki-uzundurukan",
-        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
-        "published_at": "2026-11-27T00:42:24+03:00"
-      },
-      "image_kind": null,
-      "inherited_team": "Beşiktaş"
-    },
-    {
-      "id": 43529,
-      "commentator": "zeki-uzundurukan",
-      "date": "2026-11-27T00:42:24+03:00",
-      "team": "Beşiktaş",
-      "players": [],
-      "topic": "Genel yorum",
-      "type": "opinion",
-      "sentiment": "neutral",
-      "strength": 6,
-      "summary": "Ama İsrail zulmüne başkaldıran, mazlum Filistinliler'in her zaman yanında yer alan, mazlumun sesi olan Türkiye'yi, Türk futbolunu, Beşiktaş'ı neden bir İsrail takımı ile karşılaştırıyorsun!",
-      "source": "A Spor",
-      "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
-      "image_url": null,
-      "confidence": 98,
-      "status": "verified_direct_quote",
-      "verbatim": true,
-      "match_id": null,
-      "evidence": {
-        "version": 2,
-        "method": "columnist_byline",
-        "speaker_id": "zeki-uzundurukan",
-        "url": "https://www.aspor.com.tr/yazarlar/zeki-uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
-        "published_at": "2026-11-27T00:42:24+03:00"
+        "published_at": "2026-11-27T06:40:47+03:00"
       },
       "image_kind": null
     },
@@ -49704,7 +49423,1057 @@
       "inherited_team": "Beşiktaş"
     },
     {
-      "id": 44156,
+      "id": 43931,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [
+        "Vlahovic",
+        "Trossard"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Öyle ki, Beşiktaş’ta devrenin uzak ara en iyisi kaleci Doğan Alemdar’dı… İkinci devre ilkinde olduğu gibi savrukluk içinde ilerlerken durum da gitgide dayanılmaz bir hal alıyordu ki, 59. dakikada Beşiktaş’ı idealine yaklaştıracak Trossard, Vlahovic ve Olaitan’ı sahaya sürdü Vincenzo Italiano.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/yildizlar-maci-kopardi-2646005",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/yildizlar-maci-kopardi-2646005",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 43932,
+      "commentator": "cem-dizdar",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ataklar düzene girdi, bireysel beceriler kolektif davranışa eklendi, uzatmada yenilen gol dışında rakibe pozisyon verilmedi… Zor koşullarda, berbat bir zeminde pazartesi oynanacak derbi öncesi fevkalade enerji harcayarak maçı son 30 dakikada kazandı Beşiktaş.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/yildizlar-maci-kopardi-2646005",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "cem-dizdar",
+        "url": "https://www.fanatik.com.tr/yazarlar/cem-dizdar/yildizlar-maci-kopardi-2646005",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 43964,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş her ne kadar Batum’da oynasa da ortam evi gibiydi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/karanliktan-aydinliga-2646006",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/karanliktan-aydinliga-2646006",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 43969,
+      "commentator": "orhan-yildirim",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Vlahovic",
+        "Trossard"
+      ],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Italiano; Vlahovic, Trossard, Olaitan ve Yasin hamleleri ile direk skora oynattı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/karanliktan-aydinliga-2646006",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "orhan-yildirim",
+        "url": "https://www.fanatik.com.tr/yazarlar/orhan-yildirim/karanliktan-aydinliga-2646006",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44033,
+      "commentator": "kartal-yigit",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Oyunun ilk yarısının ortalarında Gürcü polisinin maçın başından bu yana taraftarımıza uyguladığı orantısız güç iyice üst seviyeye tırmanınca olaylar büyüdü ve maçın Danimarkalı hakemi oyunu durdurup soyunma odasının yolunu tuttu.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/11/27/tebrikler-besiktas",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "kartal-yigit",
+        "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/11/27/tebrikler-besiktas",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44037,
+      "commentator": "kartal-yigit",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Maçın hakeminin ülkesinin vatandaşlarında dahi bu tepki vardı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/11/27/tebrikler-besiktas",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "kartal-yigit",
+        "url": "https://www.takvim.com.tr/yazarlar/kartal-yigit/2026/11/27/tebrikler-besiktas",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44278,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Evinde oynaması gereken maçı Gürcistan da Batum da oynamak zorunda bırakılmış tribünde taraftarlarına ölçüsüz güç kullanılmış,fiziki tecavüzlere maruz kalınmış, ciddi sıkıntılar yaşatılmış, maç durmuş, hakemler ve oyuncular soyunma odalarına gitmiş anonslarla taraftar sağduyuya davet edilmiştir.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": "verified_portrait",
+      "inherited_team": "Beşiktaş"
+    },
+    {
+      "id": 44279,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-27T06:40:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Maç bir anda Dünya'nın gündemine oturmuştur.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+        "published_at": "2026-11-27T06:40:47+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 44280,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Teknik Direktör İtaliano'ya birileri maçtan önce bu maçın ne olduğunu, macera aramaya gerek olmadığını rotasyon maçı değil mutlaka ama mutlaka alınması gereken bir maçtan fazlası olduğunu anlatılmalıydı!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.fotomac.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": "verified_portrait",
+      "inherited_team": "Beşiktaş"
+    },
+    {
+      "id": 44282,
+      "commentator": "mustafa-culcu",
+      "date": "2026-11-27T06:40:47+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bu maçta sağduyulu davranan sportif sorumluğunun bilincinde olan olayların büyümesine engelleyen herkese teşekkür etmeliyiz.",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mustafa_Culcu.JPG/500px-Mustafa_Culcu.JPG?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "mustafa-culcu",
+        "url": "https://www.aspor.com.tr/yazarlar/mustafa_culcu/2026/11/27/uefa-canak-tuttu",
+        "published_at": "2026-11-27T06:40:47+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 44350,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Trabzonspor",
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Çünkü Onuachu'ya atılan uzun toplar çoğu zaman geri geliyor.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 44352,
+      "commentator": "reha-kapsal",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Nitekim ikinci yarıda atılan golde Salah'ın savunma arkasına yaptığı koşu ve doğru konumlanması bunun en güzel örneğiydi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "reha-kapsal",
+        "url": "https://www.fotomac.com.tr/yazarlar/reha-kapsal/2026/11/27/hak-ettikleri",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 44419,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Mac yeniden başladığında iki takım da orta sahayı kolay geçip pozisyon buldu.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/sinan_vardar/2026/11/27/milli-dava",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.fotomac.com.tr/yazarlar/sinan_vardar/2026/11/27/milli-dava",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44420,
+      "commentator": "sinan-vardar",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "İlk yarı boyunca beklediğimiz gol, uzatma dakikalarında gelebilirdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/sinan_vardar/2026/11/27/milli-dava",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "sinan-vardar",
+        "url": "https://www.fotomac.com.tr/yazarlar/sinan_vardar/2026/11/27/milli-dava",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44452,
+      "commentator": "turgay-demir",
+      "date": "2026-11-27T06:40:47+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş taraftarı tribünde Filistin bayrağı açtı diye komşu Gurcustan'ın polisleri insanımıza saldırıp biber gazı sıkıyor… Rezaletin son perdesi yani… Dünyada 154 ülkenin tanıdığı bir ülkenin bayrağını tribünde açmak, Gürcü polislerine göre yasak!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+        "published_at": "2026-11-27T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44453,
+      "commentator": "turgay-demir",
+      "date": "2026-11-27T06:40:47+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Girmem de… Beşiktaş, UEFA denen ve ipleri Siyonistlerin elinde olan bir kurum yüzünden neler çekti!",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+      "image_url": null,
+      "confidence": 98,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.aspor.com.tr/yazarlar/turgay-demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+        "published_at": "2026-11-27T06:40:47+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44455,
+      "commentator": "turgay-demir",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Ve tum Siyonistlerle açık ve gizli desteklerine attık bu golleri.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/turgay_demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.fotomac.com.tr/yazarlar/turgay_demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Beşiktaş"
+    },
+    {
+      "id": 44504,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Trabzonspor, Avrupa'nın zorlu atmosferinde geriye düşse de ayağa kalkabileceğini, mücadeleden asla kopmadığını ve Thomas Reis yönetiminde gerçek bir yarışmacı kimliğe büründüğünü herkese gösterdi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/firtina-pes-etmez",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/firtina-pes-etmez",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44507,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Reis'in rotasyon hamleleri karşılık buldu, sahaya çıkan her futbolcu galibiyet ateşine odun taşıdı.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/firtina-pes-etmez",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/firtina-pes-etmez",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 44514,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Biliyor musun UEFA, Beşiktaş'ı Batum'a maça götüren uçağa yıldırım düştü, az kalsın Beşiktaş'ın uçağı düşüyordu!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44515,
+      "commentator": "zeki-uzundurukan",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Dün Batum'da onlarca masum Beşiktaş taraftarı şiddet gördü, yaralandı, kanları aktı!",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "zeki-uzundurukan",
+        "url": "https://www.fotomac.com.tr/yazarlar/zeki_uzundurukan/2026/11/27/siz-zalimin-zurnasi-biz-mazlumun-sesiyiz",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44542,
+      "commentator": "alen-markaryan",
+      "date": "2026-11-27T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Zaten o da ortamı germeye bariz penaltıyı vermeyerek giriş yapmıştı...",
+      "source": "Akşam",
+      "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/yedigimiz-golu-basimizin-gozumuzun-sadakasina-veriyorum/haber-1717801",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "alen-markaryan",
+        "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/yedigimiz-golu-basimizin-gozumuzun-sadakasina-veriyorum/haber-1717801",
+        "published_at": "2026-11-27T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 44544,
+      "commentator": "alen-markaryan",
+      "date": "2026-11-27T07:00:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Vasıfsız şey...Hakemin saha içi tutumu her şeyi belli ediyordu ya neyse...",
+      "source": "Akşam",
+      "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/yedigimiz-golu-basimizin-gozumuzun-sadakasina-veriyorum/haber-1717801",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Alen_Markaryan_20241229.jpg/960px-Alen_Markaryan_20241229.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "alen-markaryan",
+        "url": "https://www.aksam.com.tr/yazarlar/alen-markaryan/yedigimiz-golu-basimizin-gozumuzun-sadakasina-veriyorum/haber-1717801",
+        "published_at": "2026-11-27T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 44603,
+      "commentator": "deniz-coban",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "negative",
+      "strength": 8,
+      "summary": "Kendi başına penaltı kararı vermekte problem yaşıyor; verdiği penaltıların yaklaşık yüzde 95’ini VAR desteğiyle verdi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kendi-karar-vermekte-zorlaniyor-2646009",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kendi-karar-vermekte-zorlaniyor-2646009",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44607,
+      "commentator": "deniz-coban",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Hakem / VAR",
+      "type": "referee",
+      "sentiment": "neutral",
+      "strength": 8,
+      "summary": "Sahadakiler oyuna odaklanır, atmosfer yükselmez ve hakemi zorlayacak kritik pozisyonlar yaşanmazsa görevini sorunsuz tamamlayabilir.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kendi-karar-vermekte-zorlaniyor-2646009",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "deniz-coban",
+        "url": "https://www.fanatik.com.tr/yazarlar/deniz-coban/kendi-karar-vermekte-zorlaniyor-2646009",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44646,
+      "commentator": "gokhan-german",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Gerçi onlarda da Euroleague oyuncuları yoktu ama bizde Cedi ve Yiğitcan'ın da yokluğuyla iyice kapasitesi kısıtlı bir takım ortaya çıkardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/mucadele-iyi-sonuc-degil-2646004",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/mucadele-iyi-sonuc-degil-2646004",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44648,
+      "commentator": "gokhan-german",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Oyuncularımız kendi kulüplerinde oynadıkça Milli Takım'a da daha çok katkı veriyorlar.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/mucadele-iyi-sonuc-degil-2646004",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "gokhan-german",
+        "url": "https://www.fanatik.com.tr/yazarlar/gokhan-german/mucadele-iyi-sonuc-degil-2646004",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44762,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-27T07:00:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Bir süredir ideal kadrosunu bir araya getiremeyen Trabzonspor için Sofya’da bir puanın da kıymeti vardı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bordo-mavi-inat-2646008",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bordo-mavi-inat-2646008",
+        "published_at": "2026-11-27T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 44764,
+      "commentator": "olcay-cakir",
+      "date": "2026-11-27T07:00:00+03:00",
+      "team": "Trabzonspor",
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Beklerin hücuma katılımı aksadı, kanatlar kesik kesik çalıştı, Onuachu bulduklarını harcadı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bordo-mavi-inat-2646008",
+      "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg/960px-Olcay_%C3%87ak%C4%B1r_4_T%C3%BCrkiye_20250627_%281%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "olcay-cakir",
+        "url": "https://www.fanatik.com.tr/yazarlar/olcay-cakir/bordo-mavi-inat-2646008",
+        "published_at": "2026-11-27T07:00:00+03:00"
+      },
+      "image_kind": "verified_portrait",
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 44859,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Teknik Direktör",
+      "type": "coaching",
+      "sentiment": "positive",
+      "strength": 7,
+      "summary": "Konferans Ligi’nin en güçlü kadrolarından birine sahip olan Trabzonspor, dün gece karşısında güçlü bir rakip buldu.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/zaferi-sokup-aldi-2646007",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/zaferi-sokup-aldi-2646007",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44864,
+      "commentator": "tunc-kayaci",
+      "date": "2026-11-27T06:59:00+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Onuachu ile yakaladığımız önemli bir pozisyon ve kaleciden dönen bir tehlikeli atağımız vardı ama sonrasında CSKA Sofya, deyim yerindeyse sazı eline aldı ve ilk yarının bitimine kadar momentumu yakaladı.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/zaferi-sokup-aldi-2646007",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "tunc-kayaci",
+        "url": "https://www.fanatik.com.tr/yazarlar/tunc-kayaci/zaferi-sokup-aldi-2646007",
+        "published_at": "2026-11-27T06:59:00+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44954,
+      "commentator": "turgay-demir",
+      "date": "2026-11-27T06:50:16+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Beşiktaş taraftarı tribünde Filistin bayrağı açtı diye komşu Gurcustan'ın polisleri insanımıza saldırıp biber gazı sıkıyor...",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/yazarlar/turgay_demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "turgay-demir",
+        "url": "https://www.fotomac.com.tr/yazarlar/turgay_demir/2026/11/27/cennetteki-gazzeli-cocuklara-selam-olsun",
+        "published_at": "2026-11-27T06:50:16+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44964,
+      "commentator": "aksal-yavuz",
+      "date": "2026-11-27T07:05:04+03:00",
+      "team": null,
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Tanımasak, bilmesek, attığı golleri daha önce hayranlıkla izlemesek şu Onuachu’yu bizimkiler nerden buldu da aldı deriz vallahi!",
+      "source": "Milliyet Skorer",
+      "url": "https://www.milliyet.com.tr/skorer/aksal-yavuz/tesekkurler-cocuklar-7708903",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "aksal-yavuz",
+        "url": "https://www.milliyet.com.tr/skorer/aksal-yavuz/tesekkurler-cocuklar-7708903",
+        "published_at": "2026-11-27T07:05:04+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 44965,
+      "commentator": "aksal-yavuz",
+      "date": "2026-11-27T07:05:04+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Ya da bir ara ülkesine gitti, acaba bizim bilmediğimiz tek yumurta ikiz kardeşi vardı da yerine Trabzonspor’a onu mu gönderdiler deriz hani!",
+      "source": "Milliyet Skorer",
+      "url": "https://www.milliyet.com.tr/skorer/aksal-yavuz/tesekkurler-cocuklar-7708903",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "aksal-yavuz",
+        "url": "https://www.milliyet.com.tr/skorer/aksal-yavuz/tesekkurler-cocuklar-7708903",
+        "published_at": "2026-11-27T07:05:04+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 45036,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Sadece emekli maaşıyla yaşayan ve 15 yılı aşkın süre siroz hastalığıyla savaşan bir oyuncunun son günlerini hatırlıyorum.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/mazinin-ruhu-6562340",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/mazinin-ruhu-6562340",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 45037,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "player",
+      "sentiment": "neutral",
+      "strength": 7,
+      "summary": "Yeşilçam'ın yaşayan oyuncularını ve hatta figüranlarını bugün ekrana çıkarıp konuştursunlar, ne kadar kibar, kültürlü ve vicdanlı oldukları da ortaya çıkar.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/mazinin-ruhu-6562340",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/mazinin-ruhu-6562340",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 45086,
+      "commentator": "ulas-ozdemir",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": "Trabzonspor",
+      "players": [
+        "Onuachu"
+      ],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Hücumda ise Paul Onuachu'nun yaşadığı tablo ayrı bir kırılma noktasıydı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/11/27/son-15-dakika",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ulas-ozdemir",
+        "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/11/27/son-15-dakika",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null,
+      "inherited_team": "Trabzonspor"
+    },
+    {
+      "id": 45088,
+      "commentator": "ulas-ozdemir",
+      "date": "2026-11-27T07:05:06+03:00",
+      "team": "Trabzonspor",
+      "players": [],
+      "topic": "Oyuncu Performansı",
+      "type": "hot_take",
+      "sentiment": "neutral",
+      "strength": 10,
+      "summary": "Bu tablo ne kadar daha sürer derken Mendy'nin asistinde Salah en iyi yaptığı işi yaptı ve Trabzonspor beraberliği yakaladı.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/11/27/son-15-dakika",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": "uecl-2027-2050377",
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "ulas-ozdemir",
+        "url": "https://www.takvim.com.tr/yazarlar/ulas-ozdemir/2026/11/27/son-15-dakika",
+        "published_at": "2026-11-27T07:05:06+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 45123,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -49734,7 +50503,7 @@
       "image_kind": null
     },
     {
-      "id": 44158,
+      "id": 45125,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -49764,7 +50533,7 @@
       "image_kind": null
     },
     {
-      "id": 44159,
+      "id": 45126,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -55712,7 +56481,7 @@
     {
       "id": "onuachu",
       "name": "Onuachu",
-      "comment_count": 33,
+      "comment_count": 36,
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/Paul_Onuachu_2025_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     {
@@ -55772,13 +56541,13 @@
     {
       "id": "trossard",
       "name": "Trossard",
-      "comment_count": 57,
+      "comment_count": 59,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg/500px-RC_Lens_-_Arsenal_FC_%2803-10-2023%29_26_%28cropped%29.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {
       "id": "vlahovic",
       "name": "Vlahovic",
-      "comment_count": 68,
+      "comment_count": 70,
       "photoURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dusan_Vlahovic.jpg/500px-Dusan_Vlahovic.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     {

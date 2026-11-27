@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27T02:53:57.436045+00:00",
+  "checked_at": "2026-11-27T12:34:29.109544+00:00",
   "source": "UEFA",
   "ok": true,
   "using_cache": false,
@@ -26,11 +26,9 @@
       "matches": 8
     },
     "unl": {
-      "ok": true,
-      "competition_id": 2014,
-      "season_year": 2027,
-      "all_matches": 180,
-      "matches": 6
+      "ok": false,
+      "matches": 0,
+      "error": "id 2018 returned 'UEFA European Under-19 Futsal Championship'"
     }
   }
 }
