@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:01:14.103258+00:00",
+  "generated_at": "2026-11-28T13:06:13.660736+00:00",
   "commentators": [
     {
       "id": "deniz-coban",
@@ -302,6 +302,17 @@
       "photoURL": null
     },
     {
+      "id": "omer-gursoy",
+      "name": "Ömer Gürsoy",
+      "role": "Futbol yorumcusu / muhabir",
+      "primarySource": "Genel futbol kaynak taraması",
+      "avatar": "ÖG",
+      "focusTeams": [
+        "Genel"
+      ],
+      "photoURL": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo"
+    },
+    {
       "id": "alen-markaryan",
       "name": "Alen Markaryan",
       "role": "Futbol yorumcusu / muhabir",
@@ -323,17 +334,6 @@
         "Genel"
       ],
       "photoURL": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Burak_Oezdemir.jpg?utm_source=tr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-    },
-    {
-      "id": "omer-gursoy",
-      "name": "Ömer Gürsoy",
-      "role": "Futbol yorumcusu / muhabir",
-      "primarySource": "Genel futbol kaynak taraması",
-      "avatar": "ÖG",
-      "focusTeams": [
-        "Genel"
-      ],
-      "photoURL": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo"
     },
     {
       "id": "abdullah-ercan",
@@ -50477,7 +50477,115 @@
       "image_kind": null
     },
     {
-      "id": 46362,
+      "id": 46721,
+      "commentator": "omer-gursoy",
+      "date": "2026-11-28T14:03:33+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Rusya, 2022 yılında Ukrayna’ya yönelik askerî harekâtının ardından UEFA ve FIFA tarafından uluslararası futbol müsabakalarından men edildi.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/uefa-natodur-futbolun-da-bir-guc-dengesi-var-2646189",
+      "image_url": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-gursoy",
+        "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/uefa-natodur-futbolun-da-bir-guc-dengesi-var-2646189",
+        "published_at": "2026-11-28T14:03:33+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 46725,
+      "commentator": "omer-gursoy",
+      "date": "2026-11-28T14:03:33+03:00",
+      "team": null,
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "UEFA da resmî olarak Avrupa futbolunun ortak kurallarını uygulayan, ülkeler ve kulüpler arasında eşitliği sağlamayı amaçlayan bir kurum.",
+      "source": "Fanatik",
+      "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/uefa-natodur-futbolun-da-bir-guc-dengesi-var-2646189",
+      "image_url": "https://yt3.ggpht.com/rL36G4nx03iBokWo37k7o25WQou7urkRRZws7z2c_d_I_q7K0kUxFUK3-3oa_YqoHQVleKJ2GYA=s176-c-k-c0x00ffffff-no-rj-mo",
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "omer-gursoy",
+        "url": "https://www.fanatik.com.tr/yazarlar/omer-gursoy/uefa-natodur-futbolun-da-bir-guc-dengesi-var-2646189",
+        "published_at": "2026-11-28T14:03:33+03:00"
+      },
+      "image_kind": "verified_portrait"
+    },
+    {
+      "id": 46957,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-28T07:00:30+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Genel yorum",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "O Beşiktaş, İsrail polisiyle anlaşma yapan Gürcü polisini de yendi, İsrail takımını ve arkasındaki Siyonist güçleri de.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/serefli-durus-6563073",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/serefli-durus-6563073",
+        "published_at": "2026-11-28T07:00:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 46959,
+      "commentator": "hakki-yalcin",
+      "date": "2026-11-28T07:00:30+03:00",
+      "team": "Beşiktaş",
+      "players": [],
+      "topic": "Maç yorumu",
+      "type": "opinion",
+      "sentiment": "neutral",
+      "strength": 6,
+      "summary": "Bütün dünyanın yapamadığını Beşiktaş bir maçta göstermiş, yüzlerine gaz sıkılan, utanmadan onları gözaltına alan Gürcü polisine karşı heykel gibi durmuştur.",
+      "source": "Takvim",
+      "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/serefli-durus-6563073",
+      "image_url": null,
+      "confidence": 95,
+      "status": "verified_direct_quote",
+      "verbatim": true,
+      "match_id": null,
+      "evidence": {
+        "version": 2,
+        "method": "columnist_byline",
+        "speaker_id": "hakki-yalcin",
+        "url": "https://www.takvim.com.tr/yazarlar/hakki-yalcin/serefli-durus-6563073",
+        "published_at": "2026-11-28T07:00:30+03:00"
+      },
+      "image_kind": null
+    },
+    {
+      "id": 47046,
       "commentator": "ali-ece",
       "date": "2026-11-02T13:13:28Z",
       "team": "Beşiktaş",
@@ -50507,7 +50615,7 @@
       "image_kind": null
     },
     {
-      "id": 46364,
+      "id": 47048,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:11:25Z",
       "team": "Fenerbahçe",
@@ -50537,7 +50645,7 @@
       "image_kind": null
     },
     {
-      "id": 46365,
+      "id": 47049,
       "commentator": "serdar-ali-celikler",
       "date": "2026-10-27T20:05:16Z",
       "team": "Galatasaray",
@@ -53099,7 +53207,7 @@
       "home_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png",
       "away_logo_url": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
       "kickoff": "2026-11-28T16:00:00+03:00",
-      "status": "scheduled",
+      "status": "awaiting_result",
       "competition": "super_lig"
     },
     {
